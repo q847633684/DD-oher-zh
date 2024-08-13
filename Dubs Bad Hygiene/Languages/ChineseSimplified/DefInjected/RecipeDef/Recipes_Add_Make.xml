@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+
+
+
+  <Make_BionicBladder.label>制作仿生膀胱</Make_BionicBladder.label>
+  <Make_BionicBladder.description>制作仿生膀胱.</Make_BionicBladder.description>
+  <Make_BionicBladder.jobString>仿生膀胱制作.</Make_BionicBladder.jobString>
+
+  <Make_HygieneEnhancer.label>制作卫生增强剂</Make_HygieneEnhancer.label>
+  <Make_HygieneEnhancer.description>制作卫生增强剂.</Make_HygieneEnhancer.description>
+  <Make_HygieneEnhancer.jobString>制作卫生增强剂.</Make_HygieneEnhancer.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <Tam_SmokeVeg10.label>烟熏蔬菜 (10)</Tam_SmokeVeg10.label>
+
+  <Tam_SmokeVeg10.description>烟熏蔬菜以保存它。好吃，但很难咀嚼。无需冷藏即可保存很长时间。吸大量蔬菜所需的时间与吸少量蔬菜所需的时间一样长。</Tam_SmokeVeg10.description>
+
+  <Tam_SmokeVeg10.jobString>正在熏制蔬菜。</Tam_SmokeVeg10.jobString>
+
+
+  <Tam_SmokeVeg150.label>烟熏蔬菜 (150)</Tam_SmokeVeg150.label>
+
+  <Tam_SmokeVeg150.description>烟熏蔬菜以保存它。好吃，但很难咀嚼。无需冷藏即可保存很长时间。吸大量蔬菜所需的时间与吸少量蔬菜所需的时间一样长。</Tam_SmokeVeg150.description>
+
+  <Tam_SmokeVeg150.jobString>正在熏制蔬菜。</Tam_SmokeVeg150.jobString>
+
+
+  <Tam_SmokeVeg40.label>烟熏蔬菜 (40)</Tam_SmokeVeg40.label>
+
+  <Tam_SmokeVeg40.description>烟熏蔬菜以保存它。好吃，但很难咀嚼。无需冷藏即可保存很长时间。吸大量蔬菜所需的时间与吸少量蔬菜所需的时间一样长。</Tam_SmokeVeg40.description>
+
+  <Tam_SmokeVeg40.jobString>正在熏制蔬菜。</Tam_SmokeVeg40.jobString>
+
+
+  <Tam_SmokeVeg75.label>烟熏蔬菜 (75)</Tam_SmokeVeg75.label>
+
+  <Tam_SmokeVeg75.description>烟熏蔬菜以保存它。好吃，但很难咀嚼。无需冷藏即可保存很长时间。吸大量蔬菜所需的时间与吸少量蔬菜所需的时间一样长。</Tam_SmokeVeg75.description>
+
+  <Tam_SmokeVeg75.jobString>正在熏制蔬菜。</Tam_SmokeVeg75.jobString>
+
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bionic workbench -->
+  <BionicWorkbench.label>仿生体工作台</BionicWorkbench.label>
+  <!-- EN: A workbench equipped with precision tools for the production of high tech bionic parts. -->
+  <BionicWorkbench.description>用于生产高科技仿生体的工作台。</BionicWorkbench.description>
+  
+</LanguageData>

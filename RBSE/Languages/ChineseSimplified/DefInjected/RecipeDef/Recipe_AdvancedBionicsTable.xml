@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Upgrade bionic arm -->
+  <MakeAdvancedBionicArm.label>升级仿生臂</MakeAdvancedBionicArm.label>
+  <!-- EN: Upgrades a bionic arm. -->
+  <MakeAdvancedBionicArm.description>升级仿生臂。</MakeAdvancedBionicArm.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicArm.jobString>正在升级仿生体。</MakeAdvancedBionicArm.jobString>
+  
+  <!-- EN: Upgrade bionic ear -->
+  <MakeAdvancedBionicEar.label>升级仿生耳</MakeAdvancedBionicEar.label>
+  <!-- EN: Upgrades a bionic ear. -->
+  <MakeAdvancedBionicEar.description>升级仿生耳。</MakeAdvancedBionicEar.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicEar.jobString>正在升级仿生体。</MakeAdvancedBionicEar.jobString>
+  
+  <!-- EN: Upgrade bionic eye -->
+  <MakeAdvancedBionicEye.label>升级仿生眼</MakeAdvancedBionicEye.label>
+  <!-- EN: Upgrades a bionic eye. -->
+  <MakeAdvancedBionicEye.description>升级仿生眼。</MakeAdvancedBionicEye.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicEye.jobString>正在升级仿生体。</MakeAdvancedBionicEye.jobString>
+  
+  <!-- EN: Upgrade bionic foot -->
+  <MakeAdvancedBionicFoot.label>升级仿生足</MakeAdvancedBionicFoot.label>
+  <!-- EN: Upgrades a bionic foot. -->
+  <MakeAdvancedBionicFoot.description>升级仿生足。</MakeAdvancedBionicFoot.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicFoot.jobString>正在升级仿生体。</MakeAdvancedBionicFoot.jobString>
+  
+  <!-- EN: Upgrade bionic hand -->
+  <MakeAdvancedBionicHand.label>升级仿生手</MakeAdvancedBionicHand.label>
+  <!-- EN: Upgrades a bionic hand. -->
+  <MakeAdvancedBionicHand.description>升级仿生手。</MakeAdvancedBionicHand.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicHand.jobString>正在升级仿生体。</MakeAdvancedBionicHand.jobString>
+  
+  <!-- EN: Upgrade bionic leg -->
+  <MakeAdvancedBionicLeg.label>升级仿生腿</MakeAdvancedBionicLeg.label>
+  <!-- EN: Upgrades a bionic leg. -->
+  <MakeAdvancedBionicLeg.description>升级仿生腿。</MakeAdvancedBionicLeg.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicLeg.jobString>正在升级仿生体。</MakeAdvancedBionicLeg.jobString>
+  
+  <!-- EN: Upgrade bionic spine -->
+  <MakeAdvancedBionicSpine.label>升级仿生脊椎</MakeAdvancedBionicSpine.label>
+  <!-- EN: Upgrades a bionic spine. -->
+  <MakeAdvancedBionicSpine.description>升级仿生脊椎。</MakeAdvancedBionicSpine.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedBionicSpine.jobString>正在升级仿生体。</MakeAdvancedBionicSpine.jobString>
+  
+  <!-- EN: Upgrade power arm -->
+  <MakeAdvancedPowerArm.label>升级动力臂</MakeAdvancedPowerArm.label>
+  <!-- EN: Upgrades a power arm. Highly lethal and effective in combat.\n\nDo not install on an unstable subject, as this might cause unwanted death and destruction. -->
+  <MakeAdvancedPowerArm.description>升级动力臂。更高的杀伤力和战斗力。\n\n请勿将其安装容易失控的小人身上，以避免不必要的伤亡和破坏。</MakeAdvancedPowerArm.description>
+  <!-- EN: Upgrading bionic part. -->
+  <MakeAdvancedPowerArm.jobString>正在升级仿生体。</MakeAdvancedPowerArm.jobString>
+  
+  <!-- EN: Craft exoskeleton suit -->
+  <MakeExoskeletonSuit.label>制作外骨骼</MakeExoskeletonSuit.label>
+  <!-- EN: Crafts an exoskeleton suit from steel, plasteel and components. -->
+  <MakeExoskeletonSuit.description>使用钢铁、玻璃钢和零部件来制作外骨骼。</MakeExoskeletonSuit.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeExoskeletonSuit.jobString>正在制作外骨骼。</MakeExoskeletonSuit.jobString>
+  
+</LanguageData>

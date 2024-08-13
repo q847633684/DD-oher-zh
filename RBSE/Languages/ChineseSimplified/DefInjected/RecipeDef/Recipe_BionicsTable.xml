@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Craft bionic arm -->
+  <MakeBionicArm.label>制作仿生臂</MakeBionicArm.label>
+  <!-- EN: Crafts a bionic arm from plasteel and components. -->
+  <MakeBionicArm.description>使用玻璃钢和零部件制作仿生臂。</MakeBionicArm.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicArm.jobString>正在制作仿生体。</MakeBionicArm.jobString>
+  
+  <!-- EN: Craft bionic ear -->
+  <MakeBionicEar.label>制作仿生耳</MakeBionicEar.label>
+  <!-- EN: Crafts a bionic ear from plasteel. -->
+  <MakeBionicEar.description>使用玻璃钢制作仿生耳。</MakeBionicEar.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicEar.jobString>正在制作仿生体。</MakeBionicEar.jobString>
+  
+  <!-- EN: Craft bionic eye -->
+  <MakeBionicEye.label>制作仿生眼</MakeBionicEye.label>
+  <!-- EN: Crafts a bionic eye from plasteel and devilstrand. -->
+  <MakeBionicEye.description>使用玻璃钢和魔菇布制作仿生眼。</MakeBionicEye.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicEye.jobString>正在制作仿生体。</MakeBionicEye.jobString>
+  
+  <!-- EN: Craft bionic foot -->
+  <MakeBionicFoot.label>制作仿生足</MakeBionicFoot.label>
+  <!-- EN: Crafts a bionic foot from plasteel and components. -->
+  <MakeBionicFoot.description>使用玻璃钢和零部件制作仿生足。</MakeBionicFoot.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicFoot.jobString>正在制作仿生体。</MakeBionicFoot.jobString>
+  
+  <!-- EN: Craft bionic hand -->
+  <MakeBionicHand.label>制作仿生手</MakeBionicHand.label>
+  <!-- EN: Crafts a bionic hand from plasteel and components. -->
+  <MakeBionicHand.description>使用玻璃钢和零部件制作仿生手。</MakeBionicHand.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicHand.jobString>正在制作仿生体。</MakeBionicHand.jobString>
+  
+  <!-- EN: Craft bionic jaw -->
+  <MakeBionicJaw.label>制作仿生颌</MakeBionicJaw.label>
+  <!-- EN: Crafts a bionic jaw from steel and plasteel. -->
+  <MakeBionicJaw.description>使用钢铁和玻璃钢制作仿生颌。</MakeBionicJaw.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicJaw.jobString>正在制作仿生体。</MakeBionicJaw.jobString>
+  
+  <!-- EN: Craft bionic leg -->
+  <MakeBionicLeg.label>制作仿生腿</MakeBionicLeg.label>
+  <!-- EN: Crafts a bionic leg from plasteel and components. -->
+  <MakeBionicLeg.description>使用玻璃钢和零部件制作仿生腿。</MakeBionicLeg.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicLeg.jobString>正在制作仿生体。</MakeBionicLeg.jobString>
+  
+  <!-- EN: Craft bionic spine -->
+  <MakeBionicSpine.label>制作仿生脊椎</MakeBionicSpine.label>
+  <!-- EN: Crafts a bionic spine from steel and plasteel. -->
+  <MakeBionicSpine.description>制作仿生脊椎。</MakeBionicSpine.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicSpine.jobString>正在制作仿生体。</MakeBionicSpine.jobString>
+  
+  <!-- EN: Craft bionic tongue -->
+  <MakeBionicTongue.label>制作仿生舌</MakeBionicTongue.label>
+  <!-- EN: Crafts a bionic tongue from steel and plasteel. -->
+  <MakeBionicTongue.description>使用钢铁和玻璃钢制作仿生舌。</MakeBionicTongue.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakeBionicTongue.jobString>正在制作仿生体。</MakeBionicTongue.jobString>
+  
+  <!-- EN: craft power arm -->
+  <MakePowerArm.label>制作动力臂</MakePowerArm.label>
+  <!-- EN: Attaching a power claw to a bionic arm is not as easy as it sounds, but damn is it awesome! Lethal and effective in combat.\n\nDo not install on an unstable subject, as this might cause unwanted death and destruction. -->
+  <MakePowerArm.description>将动力抓安装在仿生臂上以制成动力臂。\n\n请勿将其安装容易失控的小人身上，以避免不必要的伤亡和破坏。</MakePowerArm.description>
+  <!-- EN: Crafting bionic part. -->
+  <MakePowerArm.jobString>正在制作仿生体。</MakePowerArm.jobString>
+  
+</LanguageData>

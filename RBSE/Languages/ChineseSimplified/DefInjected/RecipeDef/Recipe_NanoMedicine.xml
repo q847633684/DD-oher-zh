@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: remove fibrous mechanites -->
+  <SurgeryRemoveFibrousMechanites.label>移除肌纤维纳米机械感染</SurgeryRemoveFibrousMechanites.label>
+  <!-- EN: Inject nanomachines to remove fibrous mechanites. -->
+  <SurgeryRemoveFibrousMechanites.description>注射纳米机器以去除肌纤维纳米机械。</SurgeryRemoveFibrousMechanites.description>
+  <!-- EN: Removing fibrous mechanites. -->
+  <SurgeryRemoveFibrousMechanites.jobString>正在移除肌纤维纳米机械。</SurgeryRemoveFibrousMechanites.jobString>
+  <!-- EN: {0} has successfully removed {1}'s fibrous mechanites -->
+  <SurgeryRemoveFibrousMechanites.successfullyRemovedHediffMessage>{0}已经成功移除了{1}体内的肌纤维纳米机械</SurgeryRemoveFibrousMechanites.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove flu -->
+  <SurgeryRemoveFlu.label>治疗流感</SurgeryRemoveFlu.label>
+  <!-- EN: Inject nanomachines to remove flu. -->
+  <SurgeryRemoveFlu.description>注射纳米机器治疗流感。</SurgeryRemoveFlu.description>
+  <!-- EN: Removing sleeping flu. -->
+  <SurgeryRemoveFlu.jobString>正在治疗流感。</SurgeryRemoveFlu.jobString>
+  <!-- EN: {0} has successfully removed {1}'s flu. -->
+  <SurgeryRemoveFlu.successfullyRemovedHediffMessage>{0}已经成功治疗了{1}的流感</SurgeryRemoveFlu.successfullyRemovedHediffMessage>
+  
+  <!-- EN: cure frailty -->
+  <SurgeryRemoveFrailty.label>治疗体弱</SurgeryRemoveFrailty.label>
+  <!-- EN: Inject nanomachines to cure frailty. -->
+  <SurgeryRemoveFrailty.description>注射纳米机器治疗体弱。</SurgeryRemoveFrailty.description>
+  <!-- EN: Curing frailty. -->
+  <SurgeryRemoveFrailty.jobString>正在治疗体弱。</SurgeryRemoveFrailty.jobString>
+  <!-- EN: {0} has successfully cured {1}'s frailty. -->
+  <SurgeryRemoveFrailty.successfullyRemovedHediffMessage>{0}已经成功治愈了{1}的体弱。</SurgeryRemoveFrailty.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove gut worms -->
+  <SurgeryRemoveGutWorms.label>移除肠道蠕虫</SurgeryRemoveGutWorms.label>
+  <!-- EN: Inject nanomachines to remove gut worms. -->
+  <SurgeryRemoveGutWorms.description>注射纳米机器移除肠道蠕虫。</SurgeryRemoveGutWorms.description>
+  <!-- EN: Removing gut worms. -->
+  <SurgeryRemoveGutWorms.jobString>正在移除肠道蠕虫。</SurgeryRemoveGutWorms.jobString>
+  <!-- EN: {0} has successfully removed {1}'s gut worms. -->
+  <SurgeryRemoveGutWorms.successfullyRemovedHediffMessage>{0}已经成功移除了{1}的肠道蠕虫。</SurgeryRemoveGutWorms.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove malaria -->
+  <SurgeryRemoveMalaria.label>治疗疟疾</SurgeryRemoveMalaria.label>
+  <!-- EN: Inject nanomachines to remove malaria -->
+  <SurgeryRemoveMalaria.description>注射纳米机器治疗疟疾。</SurgeryRemoveMalaria.description>
+  <!-- EN: Removing malaria. -->
+  <SurgeryRemoveMalaria.jobString>正在治疗疟疾。</SurgeryRemoveMalaria.jobString>
+  <!-- EN: {0} has successfully removed {1}'s malaria. -->
+  <SurgeryRemoveMalaria.successfullyRemovedHediffMessage>{0}已经成功治愈了{1}的疟疾。</SurgeryRemoveMalaria.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove muscle parasites -->
+  <SurgeryRemoveMuscleParasites.label>移除肌肉寄生虫</SurgeryRemoveMuscleParasites.label>
+  <!-- EN: Inject nanomachines to remove muscle parasites -->
+  <SurgeryRemoveMuscleParasites.description>注射纳米机器移除肌肉寄生虫</SurgeryRemoveMuscleParasites.description>
+  <!-- EN: Removing muscle parasites -->
+  <SurgeryRemoveMuscleParasites.jobString>正在移除肌肉寄生虫。</SurgeryRemoveMuscleParasites.jobString>
+  <!-- EN: {0} has successfully cured {1}'s frailty. -->
+  <SurgeryRemoveMuscleParasites.successfullyRemovedHediffMessage>{0}已经成功移除了{1}的肌肉寄生虫。</SurgeryRemoveMuscleParasites.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove plague -->
+  <SurgeryRemovePlague.label>治疗瘟疫</SurgeryRemovePlague.label>
+  <!-- EN: Inject nanomachines to remove plague. -->
+  <SurgeryRemovePlague.description>注射纳米机器治疗瘟疫</SurgeryRemovePlague.description>
+  <!-- EN: Removing plague. -->
+  <SurgeryRemovePlague.jobString>正在治疗瘟疫。</SurgeryRemovePlague.jobString>
+  <!-- EN: {0} has successfully removed {1}'s plague. -->
+  <SurgeryRemovePlague.successfullyRemovedHediffMessage>{0}已经成功治愈了{1}的瘟疫。</SurgeryRemovePlague.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove sensory mechanites -->
+  <SurgeryRemoveSensoryMechanites.label>移除感官纳米机械感染</SurgeryRemoveSensoryMechanites.label>
+  <!-- EN: Inject nanomachines to remove sensory mechanites. -->
+  <SurgeryRemoveSensoryMechanites.description>注射纳米机器移除感官纳米机械感染</SurgeryRemoveSensoryMechanites.description>
+  <!-- EN: Removing sensory mechanites. -->
+  <SurgeryRemoveSensoryMechanites.jobString>正在移除移除感官纳米机械感染。</SurgeryRemoveSensoryMechanites.jobString>
+  <!-- EN: {0} has successfully removed {1}'s sensory mechanites. -->
+  <SurgeryRemoveSensoryMechanites.successfullyRemovedHediffMessage>{0}已经成功移除了{1}的感官纳米机械感染</SurgeryRemoveSensoryMechanites.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove sleeping sickness -->
+  <SurgeryRemoveSleepingSickness.label>治疗嗜睡病</SurgeryRemoveSleepingSickness.label>
+  <!-- EN: Inject nanomachines to remove sleeping sickness. -->
+  <SurgeryRemoveSleepingSickness.description>注射纳米机器治疗嗜睡病</SurgeryRemoveSleepingSickness.description>
+  <!-- EN: Removing sleeping sickness. -->
+  <SurgeryRemoveSleepingSickness.jobString>正在治疗嗜睡病。</SurgeryRemoveSleepingSickness.jobString>
+  <!-- EN: {0} has successfully removed {1}'s sleeping sickness. -->
+  <SurgeryRemoveSleepingSickness.successfullyRemovedHediffMessage>{0}已经成功治好了{1}的嗜睡病</SurgeryRemoveSleepingSickness.successfullyRemovedHediffMessage>
+  
+  <!-- EN: remove wound infection -->
+  <SurgeryRemoveWoundInfection.label>治疗感染</SurgeryRemoveWoundInfection.label>
+  <!-- EN: Inject nanomachines to remove wound infection. -->
+  <SurgeryRemoveWoundInfection.description>注射纳米机器治疗感染</SurgeryRemoveWoundInfection.description>
+  <!-- EN: Removing wound infection. -->
+  <SurgeryRemoveWoundInfection.jobString>正在治疗感染。</SurgeryRemoveWoundInfection.jobString>
+  <!-- EN: {0} has successfully removed {1}'s wound infection. -->
+  <SurgeryRemoveWoundInfection.successfullyRemovedHediffMessage>{0}已经成功治好了{1}的感染。</SurgeryRemoveWoundInfection.successfullyRemovedHediffMessage>
+  
+</LanguageData>

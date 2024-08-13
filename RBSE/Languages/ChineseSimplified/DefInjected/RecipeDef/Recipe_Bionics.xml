@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install bionic arm -->
+  <InstallBionicArm.label>安装仿生臂</InstallBionicArm.label>
+  <!-- EN: Installs bionic arm. -->
+  <InstallBionicArm.description>安装仿生臂。</InstallBionicArm.description>
+  <!-- EN: Installing bionic arm. -->
+  <InstallBionicArm.jobString>正在安装仿生臂。</InstallBionicArm.jobString>
+  
+  <!-- EN: install bionic ear -->
+  <InstallBionicEar.label>安装仿生耳</InstallBionicEar.label>
+  <!-- EN: Installs a bionic ear. -->
+  <InstallBionicEar.description>安装仿生耳。</InstallBionicEar.description>
+  <!-- EN: Installing a bionic ear implant. -->
+  <InstallBionicEar.jobString>正在安装仿生耳。</InstallBionicEar.jobString>
+  
+  <!-- EN: install bionic eye -->
+  <InstallBionicEye.label>安装仿生眼</InstallBionicEye.label>
+  <!-- EN: Installs bionic eye. -->
+  <InstallBionicEye.description>安装仿生眼。</InstallBionicEye.description>
+  <!-- EN: Installing bionic eye. -->
+  <InstallBionicEye.jobString>正在安装仿生眼。</InstallBionicEye.jobString>
+  
+  <!-- EN: install bionic foot -->
+  <InstallBionicFoot.label>安装仿生足</InstallBionicFoot.label>
+  <!-- EN: Installs bionic foot. -->
+  <InstallBionicFoot.description>安装仿生足。</InstallBionicFoot.description>
+  <!-- EN: Installing bionic foot. -->
+  <InstallBionicFoot.jobString>正在安装仿生足。</InstallBionicFoot.jobString>
+  
+  <!-- EN: install bionic hand -->
+  <InstallBionicHand.label>安装仿生手</InstallBionicHand.label>
+  <!-- EN: Installs bionic hand. -->
+  <InstallBionicHand.description>安装仿生手。</InstallBionicHand.description>
+  <!-- EN: Installing bionic hand. -->
+  <InstallBionicHand.jobString>正在安装仿生手。</InstallBionicHand.jobString>
+  
+  <!-- EN: install bionic jaw -->
+  <InstallBionicJaw.label>安装仿生颌</InstallBionicJaw.label>
+  <!-- EN: Installs a bionic jaw. -->
+  <InstallBionicJaw.description>安装仿生颌。</InstallBionicJaw.description>
+  <!-- EN: Installing a bionic jaw implant. -->
+  <InstallBionicJaw.jobString>正在安装仿生颌。</InstallBionicJaw.jobString>
+  
+  <!-- EN: install bionic leg -->
+  <InstallBionicLeg.label>安装仿生腿</InstallBionicLeg.label>
+  <!-- EN: Installs bionic leg. -->
+  <InstallBionicLeg.description>安装仿生腿。</InstallBionicLeg.description>
+  <!-- EN: Installing bionic leg. -->
+  <InstallBionicLeg.jobString>正在安装仿生腿。</InstallBionicLeg.jobString>
+  
+  <!-- EN: install bionic spine -->
+  <InstallBionicSpine.label>安装仿生脊椎</InstallBionicSpine.label>
+  <!-- EN: Installs a bionic spine. -->
+  <InstallBionicSpine.description>安装仿生脊椎。</InstallBionicSpine.description>
+  <!-- EN: Installing a bionic spine. -->
+  <InstallBionicSpine.jobString>正在安装仿生脊椎。</InstallBionicSpine.jobString>
+  
+  <!-- EN: install bionic tongue -->
+  <InstallBionicTongue.label>安装仿生舌</InstallBionicTongue.label>
+  <!-- EN: Installs a bionic tongue. -->
+  <InstallBionicTongue.description>安装仿生舌。</InstallBionicTongue.description>
+  <!-- EN: Installing a bionic tongue implant. -->
+  <InstallBionicTongue.jobString>正在安装仿生舌。</InstallBionicTongue.jobString>
+  
+  <!-- EN: install power arm -->
+  <InstallPowerArm.label>安装动力臂</InstallPowerArm.label>
+  <!-- EN: Installs power arm. -->
+  <InstallPowerArm.description>安装动力臂。</InstallPowerArm.description>
+  <!-- EN: Installing power arm. -->
+  <InstallPowerArm.jobString>正在安装动力臂。</InstallPowerArm.jobString>
+  
+</LanguageData>

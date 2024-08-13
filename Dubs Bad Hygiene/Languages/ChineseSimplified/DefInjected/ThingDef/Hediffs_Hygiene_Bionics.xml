@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BionicBladder.label>仿生膀胱</BionicBladder.label>
+  <BionicBladder.description>先进的人造膀胱。化学循环系统将人体产生的废物分解成分子并被循环利用，其余的则以气体的形式被释放，其不利之处在于使用者将会产生更多的废气。</BionicBladder.description>
+
+  <HygieneEnhancer.label>卫生增强装置</HygieneEnhancer.label>
+  <HygieneEnhancer.description>这种装置能够释放纳米机器人清除使用者皮肤和毛发上的死皮细胞与其他碎屑，形成无害物释放到空气中。</HygieneEnhancer.description>
+
+
+</LanguageData>

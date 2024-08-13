@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <StockDown.reportString>放下 TargetA</StockDown.reportString>
+
+
+  <StockDownOnMedicine.reportString>放下 TargetA</StockDownOnMedicine.reportString>
+
+
+  <StockUp.reportString>储备 TargetA</StockUp.reportString>
+
+
+  <StockUpOnMedicine.reportString>储备 TargetA</StockUpOnMedicine.reportString>
+
+</LanguageData>

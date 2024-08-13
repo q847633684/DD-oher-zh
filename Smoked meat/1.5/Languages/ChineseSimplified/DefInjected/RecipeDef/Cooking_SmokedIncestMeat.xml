@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <Tam_SmokeInsectMeat10.label>烟熏虫肉 (10)</Tam_SmokeInsectMeat10.label>
+
+  <Tam_SmokeInsectMeat10.description>熏虫肉以保存它。无需冷藏即可保存很长时间。熏大量的肉和熏一点点肉所需的时间一样长，但是对于这么多的肉，需要一些技巧才能确保所有肉都被均匀地熏制.</Tam_SmokeInsectMeat10.description>
+
+  <Tam_SmokeInsectMeat10.jobString>正在熏制肉类。</Tam_SmokeInsectMeat10.jobString>
+
+
+  <Tam_SmokeInsectMeat150.label>烟熏虫肉 (150)</Tam_SmokeInsectMeat150.label>
+
+  <Tam_SmokeInsectMeat150.description>烟熏虫肉以保存它。无需冷藏即可保存很长时间。熏大量的肉和熏一点点肉所需的时间一样长，但是对于这么多的肉，需要一些技巧才能确保所有肉都被均匀地熏制.</Tam_SmokeInsectMeat150.description>
+
+  <Tam_SmokeInsectMeat150.jobString>正在熏制肉类。</Tam_SmokeInsectMeat150.jobString>
+
+
+  <Tam_SmokeInsectMeat40.label>烟熏虫肉 (40)</Tam_SmokeInsectMeat40.label>
+
+  <Tam_SmokeInsectMeat40.description>熏虫肉以保存它。无需冷藏即可保存很长时间。熏大量的肉和熏一点点肉所需的时间一样长，但是对于这么多的肉，需要一些技巧才能确保所有肉都被均匀地熏制.</Tam_SmokeInsectMeat40.description>
+
+  <Tam_SmokeInsectMeat40.jobString>正在熏制肉类。</Tam_SmokeInsectMeat40.jobString>
+
+
+  <Tam_SmokeInsectMeat75.label>烟熏虫肉 (70)</Tam_SmokeInsectMeat75.label>
+
+  <Tam_SmokeInsectMeat75.description>熏虫肉以保存它。无需冷藏即可保存很长时间。熏大量的肉和熏一点点肉所需的时间一样长，但是对于这么多的肉，需要一些技巧才能确保所有肉都被均匀地熏制.</Tam_SmokeInsectMeat75.description>
+
+  <Tam_SmokeInsectMeat75.jobString>正在熏制肉类。</Tam_SmokeInsectMeat75.jobString>
+
+</LanguageData>

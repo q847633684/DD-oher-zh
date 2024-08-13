@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install cortexaugmentor -->
+  <InstallCortexaugmentor.label>安装脑皮质增强芯片</InstallCortexaugmentor.label>
+  <!-- EN: Installs cortexaugmentor. -->
+  <InstallCortexaugmentor.description>安装脑皮质增强芯片。</InstallCortexaugmentor.description>
+  <!-- EN: Installing cortexaugmentor. -->
+  <InstallCortexaugmentor.jobString>正在安装脑皮质增强芯片。</InstallCortexaugmentor.jobString>
+  
+  <!-- EN: install hyporegulator -->
+  <InstallHyporegulator.label>安装调谐芯片</InstallHyporegulator.label>
+  <!-- EN: Installs hyporegulator. -->
+  <InstallHyporegulator.description>安装调谐芯片。</InstallHyporegulator.description>
+  <!-- EN: Installing hyporegulator. -->
+  <InstallHyporegulator.jobString>正在安装调谐芯片。</InstallHyporegulator.jobString>
+  
+  <!-- EN: install neurostimulator -->
+  <InstallNeurostimulator.label>安装合脑刺激器</InstallNeurostimulator.label>
+  <!-- EN: Installs neurostimulator. -->
+  <InstallNeurostimulator.description>安装合脑刺激器</InstallNeurostimulator.description>
+  <!-- EN: Installing neurostimulator. -->
+  <InstallNeurostimulator.jobString>正在安装脑刺激器。</InstallNeurostimulator.jobString>
+  
+  <!-- EN: install synthetic heart -->
+  <InstallSyntheticHeart.label>安装合成心</InstallSyntheticHeart.label>
+  <!-- EN: Installs an artificial heart. -->
+  <InstallSyntheticHeart.description>安装合成心</InstallSyntheticHeart.description>
+  <!-- EN: Installing an artificial heart. -->
+  <InstallSyntheticHeart.jobString>正在安装合成心。</InstallSyntheticHeart.jobString>
+  
+  <!-- EN: install synthetic kidney -->
+  <InstallSyntheticKidney.label>安装合成肾</InstallSyntheticKidney.label>
+  <!-- EN: Installs a synthetic kidney. -->
+  <InstallSyntheticKidney.description>安装合成肾。</InstallSyntheticKidney.description>
+  <!-- EN: Installing synthetic kidney. -->
+  <InstallSyntheticKidney.jobString>正在安装合成肾。</InstallSyntheticKidney.jobString>
+  
+  <!-- EN: install synthetic liver -->
+  <InstallSyntheticLiver.label>安装合成肝</InstallSyntheticLiver.label>
+  <!-- EN: Installs a synthetic liver. -->
+  <InstallSyntheticLiver.description>安装合成肝。</InstallSyntheticLiver.description>
+  <!-- EN: Installing synthetic liver. -->
+  <InstallSyntheticLiver.jobString>正在安装合成肝。</InstallSyntheticLiver.jobString>
+  
+  <!-- EN: install synthetic lung -->
+  <InstallSyntheticLung.label>安装合成肺</InstallSyntheticLung.label>
+  <!-- EN: Installs synthetic lung. -->
+  <InstallSyntheticLung.description>安装合成肺。</InstallSyntheticLung.description>
+  <!-- EN: Installing synthetic lung. -->
+  <InstallSyntheticLung.jobString>正在安装合成肺。</InstallSyntheticLung.jobString>
+  
+  <!-- EN: install synthetic stomach -->
+  <InstallSyntheticStomach.label>安装合成胃</InstallSyntheticStomach.label>
+  <!-- EN: Installs a synthetic stomach. -->
+  <InstallSyntheticStomach.description>安装合成胃。</InstallSyntheticStomach.description>
+  <!-- EN: Installing synthetic stomach. -->
+  <InstallSyntheticStomach.jobString>正在安装合成胃。</InstallSyntheticStomach.jobString>
+  
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArmorRacks_ArmorRack.label>装甲架</ArmorRacks_ArmorRack.label>
+  <ArmorRacks_ArmorRack.description>适合方便地整理成套服装。防止恶化。</ArmorRacks_ArmorRack.description>
+  <ArmorRacks_ArmorRack_Blueprint.label>装甲架（蓝图）</ArmorRacks_ArmorRack_Blueprint.label>
+  <ArmorRacks_ArmorRack_Blueprint_Install.label>装甲架（蓝图）</ArmorRacks_ArmorRack_Blueprint_Install.label>
+  <ArmorRacks_ArmorRack_Frame.label>装甲架（建筑）</ArmorRacks_ArmorRack_Frame.label>
+  <ArmorRacks_ArmorRack_Frame.description>适合方便地整理成套服装。防止恶化。</ArmorRacks_ArmorRack_Frame.description>
+
+
+</LanguageData>

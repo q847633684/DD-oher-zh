@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <SandyMassCarried>当前负重</SandyMassCarried>
+  <SandyMassValue> {0} / {1} kg</SandyMassValue>
+  <Sandy_ViewList>显示列表</Sandy_ViewList>
+  <Sandy_Head>头 上面</Sandy_Head>
+  <Sandy_TorsoMiddle>躯干 中间</Sandy_TorsoMiddle>
+  <Sandy_TorsoOnSkin>躯干 皮肤上</Sandy_TorsoOnSkin>
+  <Sandy_TorsoShell>躯干 外壳</Sandy_TorsoShell>
+  <Sandy_Belt>带</Sandy_Belt>
+  <Sandy_Pants>腿 皮肤上</Sandy_Pants>
+  <RPG_Inventory_Width>齿轮标签 -宽度</RPG_Inventory_Width>
+  <RPG_Inventory_Height>齿轮选项卡 -高度</RPG_Inventory_Height>
+  <RPG_Style_Inventory_Title>RPG风格库存</RPG_Style_Inventory_Title>
+  <RPG_Style_Inventory_ArmorHarmony>魔法防御</RPG_Style_Inventory_ArmorHarmony>
+
+  <RPG_Inventory_Color_Setting>优质颜色设置</RPG_Inventory_Color_Setting>
+  <RPG_Inventory_Color_Selector>选择</RPG_Inventory_Color_Selector>
+
+  <RPG_Inventory_Legendary>传奇的</RPG_Inventory_Legendary>
+  <RPG_Inventory_Masterwork>杰作</RPG_Inventory_Masterwork>
+  <RPG_Inventory_Excellent>出色的</RPG_Inventory_Excellent>
+  <RPG_Inventory_Good>好的</RPG_Inventory_Good>
+  <RPG_Inventory_Normal>普通的</RPG_Inventory_Normal>
+  <RPG_Inventory_Poor>贫穷的</RPG_Inventory_Poor>
+  <RPG_Inventory_Awful>可怕</RPG_Inventory_Awful>
+
+</LanguageData>

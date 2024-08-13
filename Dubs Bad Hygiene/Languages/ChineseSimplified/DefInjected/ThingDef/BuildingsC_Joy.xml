@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="BasedHygieneMom">
+	  <description>Water fountain used for joy and beauty, must be filled with water.</description>
+	  <thingClass>DubsBadHygiene.Building_WaterFeature</thingClass>
+	  <defName>DBHWaterFeature</defName>
+	  <label>Water feature</label>
+	  <stuffCategories>
+		  <li>Stony</li>
+	  </stuffCategories>
+	  <costStuffCount>450</costStuffCount>
+	  <altitudeLayer>FloorEmplacement</altitudeLayer>
+	  <uiIconPath>DBH/UI/water_feature</uiIconPath>
+	  <graphicData>
+		  <drawSize>(5,5)</drawSize>
+		  <texPath>DBH/Things/Building/water_feature</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+	  </graphicData>
+	  <statBases>
+		  <MaxHitPoints>1500</MaxHitPoints>
+		  <WorkToBuild>10000</WorkToBuild>
+		  <Flammability>0</Flammability>
+		  <Beauty>200</Beauty>
+		  <Comfort>0.6</Comfort>
+		  <JoyGainFactor>1</JoyGainFactor>
+		  <Mass>100</Mass>
+	  </statBases>
+	  <building>
+		  <ai_chillDestination>true</ai_chillDestination>
+	  </building>
+	  <comps>
+		  <li Class="DubsBadHygiene.CompProperties_Pipe">
+			  <mode>Sewage</mode>
+		  </li>
+		  <li>
+			  <compClass>CompColorable</compClass>
+		  </li>
+	  </comps>
+	  <fillPercent>0.15</fillPercent>
+	  <size>(3, 3)</size>
+	  <passability>PassThroughOnly</passability>
+	  <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+	  <pathCost>0</pathCost>
+	  <rotatable>true</rotatable>
+	  <researchPrerequisites>
+		  <li MayRequire="dbhlitemode">SwimmingPools</li>
+	  </researchPrerequisites>
+	  <tickerType>Normal</tickerType>
+	  <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef> -->
+
+  <DBHSwimmingPool.label>游泳池</DBHSwimmingPool.label>
+  <DBHSwimmingPool.description>用于水疗，放松或娱乐的游泳池，使用时需要从水塔中注入水。</DBHSwimmingPool.description>
+  <Blueprint_DBHSwimmingPool.label>游泳池（蓝图）</Blueprint_DBHSwimmingPool.label>
+  <Frame_DBHSwimmingPool.label>游泳池（建筑物）</Frame_DBHSwimmingPool.label>
+  <Frame_DBHSwimmingPool.description>游泳池用于水疗、放松或娱乐。必须先从水塔注满水.</Frame_DBHSwimmingPool.description>
+
+
+  <!-- <ThingDef ParentName="DubsSwimmingPoolBase">
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<label>swimming pool atlas</label>
+		<thingClass>DubsBadHygiene.Building_FillableThing</thingClass>
+		<defName>DBHPoolAtlas</defName>
+		<size>(1, 1)</size>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<texPath>DBH/Things/Building/Pool_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Custom8</li>
+			</linkFlags>
+		</graphicData>
+		<costStuffCount>10</costStuffCount>
+		<building>
+			<blueprintGraphicData>
+				<texPath>DBH/Things/Building/Pool_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+	</ThingDef> -->
+
+  <HotTub.label>热水按摩浴缸</HotTub.label>
+  <HotTub.description>用于水疗放松，在清洁的同时提高娱乐和舒适度。第一次使用时会从水塔注入水，自行加热，不需要排污口。</HotTub.description>
+  <Blueprint_HotTub.label>热水按摩浴缸(蓝图)</Blueprint_HotTub.label>
+  <Blueprint_Install_HotTub.label>热水按摩浴缸(蓝图)</Blueprint_Install_HotTub.label>
+  <Frame_HotTub.label>热水按摩浴缸(建筑)</Frame_HotTub.label>
+  <Frame_HotTub.description>热水按摩浴缸用于水疗、放松或愉悦。首次使用时充满水塔的水。自加热，不需要排污口。</Frame_HotTub.description>
+
+  <WashingMachine.label>洗衣机</WashingMachine.label>
+  <WashingMachine.description>这台机器如此优秀，以至于殖民者甚至无法发现这件衣服曾被死人穿过！</WashingMachine.description>
+  <Blueprint_WashingMachine.label>洗衣机(蓝图)</Blueprint_WashingMachine.label>
+  <Blueprint_Install_WashingMachine.label>洗衣机(蓝图)</Blueprint_Install_WashingMachine.label>
+  <Frame_WashingMachine.label>洗衣机(建筑)</Frame_WashingMachine.label>
+  <Frame_WashingMachine.description>衣服洗得很好，你甚至看不出有人穿着它死了！</Frame_WashingMachine.description>
+
+  <DBHSaunaHeaterLog.label>燃油桑拿炉</DBHSaunaHeaterLog.label>
+  <DBHSaunaHeaterLog.description>专为创建桑拿房而设计的加热器，定期使用桑拿可降低心脏病发作的风险，将房间加热至 60 摄氏度</DBHSaunaHeaterLog.description>
+  <Blueprint_DBHSaunaHeaterLog.label>燃油桑拿炉(蓝图)</Blueprint_DBHSaunaHeaterLog.label>
+  <Blueprint_Install_DBHSaunaHeaterLog.label>燃油桑拿炉(蓝图)</Blueprint_Install_DBHSaunaHeaterLog.label>
+  <Frame_DBHSaunaHeaterLog.label>燃油桑拿炉(建筑)</Frame_DBHSaunaHeaterLog.label>
+  <Frame_DBHSaunaHeaterLog.description>专为创建桑拿房而设计的加热器，定期使用桑拿房可降低心脏病发作的风险，将房间加热至 60 摄氏度。</Frame_DBHSaunaHeaterLog.description>
+
+  <DBHSaunaHeaterElec.label>电桑拿炉</DBHSaunaHeaterElec.label>
+  <DBHSaunaHeaterElec.description>专为创建桑拿房而设计的加热器，定期使用桑拿可降低心脏病发作的风险，将房间加热至 60 摄氏度</DBHSaunaHeaterElec.description>
+  <Blueprint_DBHSaunaHeaterElec.label>电桑拿炉(蓝图)</Blueprint_DBHSaunaHeaterElec.label>
+  <Blueprint_Install_DBHSaunaHeaterElec.label>电桑拿炉(蓝图)</Blueprint_Install_DBHSaunaHeaterElec.label>
+  <Frame_DBHSaunaHeaterElec.label>电桑拿炉(建筑)</Frame_DBHSaunaHeaterElec.label>
+  <Frame_DBHSaunaHeaterElec.description>专为创建桑拿房而设计的加热器，定期使用桑拿房可降低心脏病发作的风险，将房间加热至 60 摄氏度。</Frame_DBHSaunaHeaterElec.description>
+
+  <DBHSaunaSeating.label>桑拿座椅</DBHSaunaSeating.label>
+  <DBHSaunaSeating.description>桑拿房的板条座椅</DBHSaunaSeating.description>
+  <Blueprint_DBHSaunaSeating.label>桑拿座椅(蓝图)</Blueprint_DBHSaunaSeating.label>
+  <Blueprint_Install_DBHSaunaSeating.label>桑拿座椅(蓝图)</Blueprint_Install_DBHSaunaSeating.label>
+  <Frame_DBHSaunaSeating.label>桑拿座椅(建筑)</Frame_DBHSaunaSeating.label>
+  <Frame_DBHSaunaSeating.description>桑拿房的板条座椅</Frame_DBHSaunaSeating.description>
+
+</LanguageData>

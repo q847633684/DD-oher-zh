@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: heart transplant -->
+  <Heart.label>移植心脏</Heart.label>
+  <!-- EN: A transplanted heart. -->
+  <Heart.description>移植心脏。</Heart.description>
+  <!-- EN: mild rejection -->
+  <Heart.stages.mild_rejection.label>轻微排异</Heart.stages.mild_rejection.label>
+  <!-- EN: moderate rejection -->
+  <Heart.stages.moderate_rejection.label>中度排异</Heart.stages.moderate_rejection.label>
+  <!-- EN: serious rejection -->
+  <Heart.stages.serious_rejection.label>严重排异</Heart.stages.serious_rejection.label>
+  <!-- EN: deadly rejection -->
+  <Heart.stages.deadly_rejection.label>致命排异</Heart.stages.deadly_rejection.label>
+  
+  <!-- EN: kidney transplant -->
+  <Kidney.label>移植肾</Kidney.label>
+  <!-- EN: A transplanted kidney. -->
+  <Kidney.description>移植肾。</Kidney.description>
+  <!-- EN: mild rejection -->
+  <Kidney.stages.mild_rejection.label>轻微排异</Kidney.stages.mild_rejection.label>
+  <!-- EN: moderate rejection -->
+  <Kidney.stages.moderate_rejection.label>中度排异</Kidney.stages.moderate_rejection.label>
+  <!-- EN: serious rejection -->
+  <Kidney.stages.serious_rejection.label>严重排异</Kidney.stages.serious_rejection.label>
+  <!-- EN: deadly rejection -->
+  <Kidney.stages.deadly_rejection.label>致命排异</Kidney.stages.deadly_rejection.label>
+  
+  <!-- EN: liver transplant -->
+  <Liver.label>移植肝</Liver.label>
+  <!-- EN: A transplanted liver. -->
+  <Liver.description>移植肝。</Liver.description>
+  <!-- EN: mild rejection -->
+  <Liver.stages.mild_rejection.label>轻微排异</Liver.stages.mild_rejection.label>
+  <!-- EN: moderate rejection -->
+  <Liver.stages.moderate_rejection.label>中度排异</Liver.stages.moderate_rejection.label>
+  <!-- EN: serious rejection -->
+  <Liver.stages.serious_rejection.label>严重排异</Liver.stages.serious_rejection.label>
+  <!-- EN: deadly rejection -->
+  <Liver.stages.deadly_rejection.label>致命排异</Liver.stages.deadly_rejection.label>
+  
+  <!-- EN: lung transplant -->
+  <Lung.label>移植肺</Lung.label>
+  <!-- EN: A transplanted lung. -->
+  <Lung.description>移植肺。</Lung.description>
+  <!-- EN: mild rejection -->
+  <Lung.stages.mild_rejection.label>轻度排异</Lung.stages.mild_rejection.label>
+  <!-- EN: moderate rejection -->
+  <Lung.stages.moderate_rejection.label>中度排异</Lung.stages.moderate_rejection.label>
+  <!-- EN: serious rejection -->
+  <Lung.stages.serious_rejection.label>严重排异</Lung.stages.serious_rejection.label>
+  <!-- EN: deadly rejection -->
+  <Lung.stages.deadly_rejection.label>致命排异</Lung.stages.deadly_rejection.label>
+  
+  <!-- EN: stomach transplant -->
+  <Stomach.label>移植胃</Stomach.label>
+  <!-- EN: A transplanted stomach. -->
+  <Stomach.description>移植胃。</Stomach.description>
+  <!-- EN: mild rejection -->
+  <Stomach.stages.mild_rejection.label>轻微排异</Stomach.stages.mild_rejection.label>
+  <!-- EN: moderate rejection -->
+  <Stomach.stages.moderate_rejection.label>中度排异</Stomach.stages.moderate_rejection.label>
+  <!-- EN: serious rejection -->
+  <Stomach.stages.serious_rejection.label>严重排异</Stomach.stages.serious_rejection.label>
+  <!-- EN: deadly rejection -->
+  <Stomach.stages.deadly_rejection.label>致命排异</Stomach.stages.deadly_rejection.label>
+  
+</LanguageData>

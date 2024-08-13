@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install artificial nose -->
+  <InstallArtificialNose.label>安装人造鼻</InstallArtificialNose.label>
+  <!-- EN: Installs artificial nose. -->
+  <InstallArtificialNose.description>安装人造鼻。</InstallArtificialNose.description>
+  <!-- EN: Installing artificial nose. -->
+  <InstallArtificialNose.jobString>正在安装人造鼻。</InstallArtificialNose.jobString>
+  
+  <!-- EN: install simple prosthetic arm -->
+  <InstallSimpleProstheticArm.label>安装假臂</InstallSimpleProstheticArm.label>
+  <!-- EN: Installs simple prosthetic arm. -->
+  <InstallSimpleProstheticArm.description>安装假臂。</InstallSimpleProstheticArm.description>
+  <!-- EN: Installing simple prosthetic arm. -->
+  <InstallSimpleProstheticArm.jobString>正在安装假臂。</InstallSimpleProstheticArm.jobString>
+  
+  <!-- EN: install simple prosthetic foot -->
+  <InstallSimpleProstheticFoot.label>安装简易的假足</InstallSimpleProstheticFoot.label>
+  <!-- EN: Installs a simple prosthetic foot. -->
+  <InstallSimpleProstheticFoot.description>安装简易的假足。</InstallSimpleProstheticFoot.description>
+  <!-- EN: Installing simple prosthetic foot. -->
+  <InstallSimpleProstheticFoot.jobString>正在安装简易的假足。</InstallSimpleProstheticFoot.jobString>
+  
+  <!-- EN: install simple prosthetic hand -->
+  <InstallSimpleProstheticHand.label>安装简易的假手</InstallSimpleProstheticHand.label>
+  <!-- EN: Installs a simple prosthetic hand. -->
+  <InstallSimpleProstheticHand.description>安装简易的假手。</InstallSimpleProstheticHand.description>
+  <!-- EN: Installing simple prosthetic hand. -->
+  <InstallSimpleProstheticHand.jobString>正在安装简易的假手。</InstallSimpleProstheticHand.jobString>
+  
+  <!-- EN: install simple prosthetic leg -->
+  <InstallSimpleProstheticLeg.label>安装假腿</InstallSimpleProstheticLeg.label>
+  <!-- EN: Installs simple prosthetic leg. -->
+  <InstallSimpleProstheticLeg.description>安装假腿。</InstallSimpleProstheticLeg.description>
+  <!-- EN: Installing simple prosthetic leg. -->
+  <InstallSimpleProstheticLeg.jobString>正在安装假腿。</InstallSimpleProstheticLeg.jobString>
+
+  <!-- EN: install wooden foot -->
+  <InstallWoodenFoot.label>安装木足</InstallWoodenFoot.label>
+  <!-- EN: Install a wooden foot. -->
+  <InstallWoodenFoot.description>安装木足。</InstallWoodenFoot.description>
+  <!-- EN: Installing wooden foot. -->
+  <InstallWoodenFoot.jobString>正在安装木足。</InstallWoodenFoot.jobString>
+  
+</LanguageData>

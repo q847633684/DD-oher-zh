@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hygienic.degreeDatas.germaphobe.label>洁癖者</Hygienic.degreeDatas.germaphobe.label>
+  <Hygienic.degreeDatas.germaphobe.description>[PAWN_nameDef] 对细菌非常着迷，并且会比平常更频繁地洗澡。</Hygienic.degreeDatas.germaphobe.description>
+  <Hygienic.degreeDatas.hygienic.label>卫生的</Hygienic.degreeDatas.hygienic.label>
+  <Hygienic.degreeDatas.hygienic.description>[PAWN_nameDef]很卫生，会更勤洗。</Hygienic.degreeDatas.hygienic.description>
+  <Hygienic.degreeDatas.unhygienic.label>不卫生的</Hygienic.degreeDatas.unhygienic.label>
+  <Hygienic.degreeDatas.unhygienic.description>[PAWN_nameDef] 非常不卫生，清洗频率会降低。</Hygienic.degreeDatas.unhygienic.description>
+  <Hygienic.degreeDatas.slob.label>邋遢的</Hygienic.degreeDatas.slob.label>
+  <Hygienic.degreeDatas.slob.description>[PAWN_nameDef] 的清洁标准非常低，只有在绝对必要时才会清洗。</Hygienic.degreeDatas.slob.description>
+
+</LanguageData>

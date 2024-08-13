@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <VP_AteSmokedVeg.label>烟熏蔬菜</VP_AteSmokedVeg.label>
+  <VP_AteSmokedVeg.description>吃经过熏制保存的蔬菜</VP_AteSmokedVeg.description>
+
+  <VP_AteSmokedVeg.stages.initialhidden.label>初始隐藏</VP_AteSmokedVeg.stages.initialhidden.label>
+
+  <VP_AteSmokedVeg.stages.ate_smoked_vegetables.label>吃了烟熏蔬菜</VP_AteSmokedVeg.stages.ate_smoked_vegetables.label>
+
+</LanguageData>

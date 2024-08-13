@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <Tam_SmokedHumanMeat.label>烟熏人肉</Tam_SmokedHumanMeat.label>
+
+  <Tam_SmokedHumanMeat.description>为了保存而熏制的肉。味道还行，但很难咀嚼。它可以在没有冷藏的情况下保存很长时间。</Tam_SmokedHumanMeat.description>
+
+
+  <Tam_SmokedInsectMeat.label>烟熏虫肉</Tam_SmokedInsectMeat.label>
+
+  <Tam_SmokedInsectMeat.description>为了保存而熏制的肉。味道还行，但很难咀嚼。它可以在没有冷藏的情况下保存很长时间。</Tam_SmokedInsectMeat.description>
+
+
+  <Tam_SmokedMeat.label>烟熏肉</Tam_SmokedMeat.label>
+
+  <Tam_SmokedMeat.description>为了保存而熏制的肉。味道还行，但很难咀嚼。它可以在没有冷藏的情况下保存很长时间。</Tam_SmokedMeat.description>
+
+</LanguageData>

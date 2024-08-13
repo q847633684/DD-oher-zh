@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArmorRacks_MechanizedArmorRackResearch.label>机械化装甲架</ArmorRacks_MechanizedArmorRackResearch.label>
+  <ArmorRacks_MechanizedArmorRackResearch.description>生产机械化装甲架，帮助您的殖民者快速更换服装以应对紧急情况。</ArmorRacks_MechanizedArmorRackResearch.description>
+
+  <ArmorRacks_MendingArmorRackResearch.label>修理盔甲架</ArmorRacks_MendingArmorRackResearch.label>
+  <ArmorRacks_MendingArmorRackResearch.description>生产修补装甲架，除了其他好处外，还可以修复存储的设备。</ArmorRacks_MendingArmorRackResearch.description>
+
+
+</LanguageData>

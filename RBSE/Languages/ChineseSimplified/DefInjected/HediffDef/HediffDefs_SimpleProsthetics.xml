@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: artificial femur -->
+  <ArtificialFemur.label>人造股骨</ArtificialFemur.label>
+  <!-- EN: An installed artificial femur -->
+  <ArtificialFemur.description>一个已安装的人造股骨。</ArtificialFemur.description>
+  <!-- EN: an artificial femur -->
+  <ArtificialFemur.labelNoun>人造股骨</ArtificialFemur.labelNoun>
+  
+  <!-- EN: artificial humerus -->
+  <ArtificialHumerus.label>人造肱骨</ArtificialHumerus.label>
+  <!-- EN: An installed artificial humerus -->
+  <ArtificialHumerus.description>一个已安装的人造肱骨。</ArtificialHumerus.description>
+  <!-- EN: an artificial humerus -->
+  <ArtificialHumerus.labelNoun>人造肱骨</ArtificialHumerus.labelNoun>
+  
+  <!-- EN: artificial nose -->
+  <ArtificialNose.label>人造鼻</ArtificialNose.label>
+  <!-- EN: An installed artifical nose -->
+  <ArtificialNose.description>一个已安装的人造鼻。</ArtificialNose.description>
+  <!-- EN: an artificial nose -->
+  <ArtificialNose.labelNoun>人造鼻</ArtificialNose.labelNoun>
+  
+  <!-- EN: artificial radius -->
+  <ArtificialRadius.label>人造桡骨</ArtificialRadius.label>
+  <!-- EN: An installed artificial radius -->
+  <ArtificialRadius.description>一个已安装的人造桡骨。</ArtificialRadius.description>
+  <!-- EN: an artificial radius -->
+  <ArtificialRadius.labelNoun>人造桡骨</ArtificialRadius.labelNoun>
+  
+  <!-- EN: artificial tibia -->
+  <ArtificialTibia.label>人造胫骨</ArtificialTibia.label>
+  <!-- EN: An installed artificial tibia -->
+  <ArtificialTibia.description>一个已安装的人造胫骨。</ArtificialTibia.description>
+  <!-- EN: an artificial tibia -->
+  <ArtificialTibia.labelNoun>人造胫骨</ArtificialTibia.labelNoun>
+  
+  <!-- EN: cochlear implant -->
+  <CochlearImplant.label>人工耳蜗</CochlearImplant.label>
+  <!-- EN: An installed cochlear implant -->
+  <CochlearImplant.description>一个已安装的人工耳蜗。</CochlearImplant.description>
+  <!-- EN: a cochlear implant -->
+  <CochlearImplant.labelNoun>人工耳蜗</CochlearImplant.labelNoun>
+  
+  <!-- EN: simple prosthetic arm -->
+  <SimpleProstheticArm.label>假臂</SimpleProstheticArm.label>
+  <!-- EN: An installed prosthetic arm -->
+  <SimpleProstheticArm.description>一条已安装的简易假臂。</SimpleProstheticArm.description>
+  <!-- EN: fist -->
+  <SimpleProstheticArm.comps.HediffComp_VerbGiver.tools.fist.label>拳头</SimpleProstheticArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a simple prosthetic arm -->
+  <SimpleProstheticArm.labelNoun>假臂</SimpleProstheticArm.labelNoun>
+  
+  <!-- EN: simple prosthetic foot -->
+  <SimpleProstheticFoot.label>简易的假足</SimpleProstheticFoot.label>
+  <!-- EN: An installed prosthetic foot -->
+  <SimpleProstheticFoot.description>一只已安装的简易的假足。</SimpleProstheticFoot.description>
+  <!-- EN: a simple prosthetic foot -->
+  <SimpleProstheticFoot.labelNoun>简易的假足</SimpleProstheticFoot.labelNoun>
+  
+  <!-- EN: simple prosthetic hand -->
+  <SimpleProstheticHand.label>简易的假手</SimpleProstheticHand.label>
+  <!-- EN: An installed prosthetic hand -->
+  <SimpleProstheticHand.description>一只已安装的简易的假手。</SimpleProstheticHand.description>
+  <!-- EN: fist -->
+  <SimpleProstheticHand.comps.HediffComp_VerbGiver.tools.fist.label>简易的假手</SimpleProstheticHand.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a simple prosthetic hand -->
+  <SimpleProstheticHand.labelNoun>简易的假手</SimpleProstheticHand.labelNoun>
+  
+  <!-- EN: simple prosthetic leg -->
+  <SimpleProstheticLeg.label>假腿</SimpleProstheticLeg.label>
+  <!-- EN: An installed prosthetic leg -->
+  <SimpleProstheticLeg.description>一条已安装的简易假腿。</SimpleProstheticLeg.description>
+  <!-- EN: a simple prosthetic leg -->
+  <SimpleProstheticLeg.labelNoun>假腿</SimpleProstheticLeg.labelNoun>
+  
+  <!-- EN: spinal fusion -->
+  <SpinalFusion.label>合成脊椎</SpinalFusion.label>
+  <!-- EN: A fused spine -->
+  <SpinalFusion.description>一个已安装的合成脊椎。</SpinalFusion.description>
+  <!-- EN: a fused spine -->
+  <SpinalFusion.labelNoun>合成脊椎</SpinalFusion.labelNoun>
+  
+  <!-- EN: wooden foot -->
+  <WoodenFoot.label>木足</WoodenFoot.label>
+  <!-- EN: An installed wooden foot. -->
+  <WoodenFoot.description>一只已安装的木足。</WoodenFoot.description>
+  <!-- EN: a wooden foot -->
+  <WoodenFoot.labelNoun>木足</WoodenFoot.labelNoun>
+  
+</LanguageData>

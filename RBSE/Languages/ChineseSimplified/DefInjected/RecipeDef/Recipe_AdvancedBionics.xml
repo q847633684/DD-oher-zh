@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install advanced bionic arm -->
+  <InstallAdvancedBionicArm.label>安装先进仿生臂</InstallAdvancedBionicArm.label>
+  <!-- EN: Installs advanced bionic arm. -->
+  <InstallAdvancedBionicArm.description>安装先进仿生臂。</InstallAdvancedBionicArm.description>
+  <!-- EN: Installing advanced bionic arm. -->
+  <InstallAdvancedBionicArm.jobString>正在安装先进仿生臂。</InstallAdvancedBionicArm.jobString>
+  
+  <!-- EN: install advanced bionic ear implant -->
+  <InstallAdvancedBionicEar.label>安装先进仿生耳</InstallAdvancedBionicEar.label>
+  <!-- EN: Installs an advanced bionic ear. -->
+  <InstallAdvancedBionicEar.description>安装先进仿生耳。</InstallAdvancedBionicEar.description>
+  <!-- EN: Installing an advanced bionic ear. -->
+  <InstallAdvancedBionicEar.jobString>正在安装先进仿生耳。</InstallAdvancedBionicEar.jobString>
+  
+  <!-- EN: install advanced bionic eye -->
+  <InstallAdvancedBionicEye.label>安装先进仿生眼</InstallAdvancedBionicEye.label>
+  <!-- EN: Installs advanced bionic eye. -->
+  <InstallAdvancedBionicEye.description>安装先进仿生眼。</InstallAdvancedBionicEye.description>
+  <!-- EN: Installing advanced bionic eye. -->
+  <InstallAdvancedBionicEye.jobString>正在安装先进仿生眼。</InstallAdvancedBionicEye.jobString>
+  
+  <!-- EN: install advanced bionic foot -->
+  <InstallAdvancedBionicFoot.label>安装先进仿生足</InstallAdvancedBionicFoot.label>
+  <!-- EN: Installs bionic foot. -->
+  <InstallAdvancedBionicFoot.description>安装先进仿生足。</InstallAdvancedBionicFoot.description>
+  <!-- EN: Installing advanced bionic foot. -->
+  <InstallAdvancedBionicFoot.jobString>正在安装先进仿生足。</InstallAdvancedBionicFoot.jobString>
+  
+  <!-- EN: install advanced bionic hand -->
+  <InstallAdvancedBionicHand.label>安装先进仿生手</InstallAdvancedBionicHand.label>
+  <!-- EN: Installs advanced bionic hand. -->
+  <InstallAdvancedBionicHand.description>安装先进仿生手。</InstallAdvancedBionicHand.description>
+  <!-- EN: Installing advanced bionic hand. -->
+  <InstallAdvancedBionicHand.jobString>正在安装先进仿生手。</InstallAdvancedBionicHand.jobString>
+  
+  <!-- EN: install advanced bionic leg -->
+  <InstallAdvancedBionicLeg.label>安装先进仿生腿</InstallAdvancedBionicLeg.label>
+  <!-- EN: Installs advanced bionic leg. -->
+  <InstallAdvancedBionicLeg.description>安装先进仿生腿。</InstallAdvancedBionicLeg.description>
+  <!-- EN: Installing advanced bionic leg. -->
+  <InstallAdvancedBionicLeg.jobString>正在安装先进仿生腿。</InstallAdvancedBionicLeg.jobString>
+  
+  <!-- EN: install advanced bionic spine -->
+  <InstallAdvancedBionicSpine.label>安装先进仿生脊椎</InstallAdvancedBionicSpine.label>
+  <!-- EN: Installs advanced bionic spine. -->
+  <InstallAdvancedBionicSpine.description>安装先进仿生脊椎。</InstallAdvancedBionicSpine.description>
+  <!-- EN: Installing advanced bionic spine. -->
+  <InstallAdvancedBionicSpine.jobString>正在安装先进仿生脊椎。</InstallAdvancedBionicSpine.jobString>
+  
+  <!-- EN: install advanced power arm -->
+  <InstallAdvancedPowerArm.label>安装先进动力臂</InstallAdvancedPowerArm.label>
+  <!-- EN: Installs advanced power arm. -->
+  <InstallAdvancedPowerArm.description>安装先进动力臂。</InstallAdvancedPowerArm.description>
+  <!-- EN: Installing advanced power arm. -->
+  <InstallAdvancedPowerArm.jobString>正在安装先进动力臂。</InstallAdvancedPowerArm.jobString>
+  
+  <!-- EN: install exoskeleton suit -->
+  <InstallExoskeletonSuit.label>安装外骨骼</InstallExoskeletonSuit.label>
+  <!-- EN: Installs exoskeleton suit. -->
+  <InstallExoskeletonSuit.description>安装外骨骼。</InstallExoskeletonSuit.description>
+  <!-- EN: Installing exoskeleton suit. -->
+  <InstallExoskeletonSuit.jobString>正在安装外骨骼。</InstallExoskeletonSuit.jobString>
+  
+  <!-- EN: remove death acidifier -->
+  <RemoveDeathAcidifier.label>移除质溶器</RemoveDeathAcidifier.label>
+  <!-- EN: Remove death acidifier. -->
+  <RemoveDeathAcidifier.description>移除质溶器。</RemoveDeathAcidifier.description>
+  <!-- EN: Removing death acidifier. -->
+  <RemoveDeathAcidifier.jobString>正在移除质溶器。</RemoveDeathAcidifier.jobString>
+  
+</LanguageData>

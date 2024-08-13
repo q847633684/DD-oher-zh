@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: artificial bone -->
+  <ArtificialBone.label>人造骨</ArtificialBone.label>
+  <!-- EN: Replaces destroyed bones. -->
+  <ArtificialBone.description>用来代替缺失的骨骼。</ArtificialBone.description>
+  
+  <!-- EN: artificial nose -->
+  <ArtificialNose.label>人造鼻</ArtificialNose.label>
+  <!-- EN: Replaces a missing nose. Covers the hole in the face. -->
+  <ArtificialNose.description>用来代替缺失的鼻子。填补脸中央的空洞。</ArtificialNose.description>
+  
+  <!-- EN: cochlear implant -->
+  <CochlearImplant.label>人工耳蜗</CochlearImplant.label>
+  <!-- EN: An implant which replaces normal hearing. An external microphone transmits a sound signal to electrodes wrapped around the inner ear's auditory sensing nerves. The electrodes stimulate the nerves according to the sound, creating a sensation of hearing. It's not as good as a natural ear, but it's a lot better than being deaf. -->
+  <CochlearImplant.description>一个人工助听装置。缠绕在内耳的电极通过刺激听觉神经，将外部声音信号传送给使用者。效果不如天然的耳朵，但显然强于耳聋。</CochlearImplant.description>
+  
+  <!-- EN: simple prosthetic arm -->
+  <SimpleProstheticArm.label>简易的假臂</SimpleProstheticArm.label>
+  <!-- EN: An arm prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real arm. -->
+  <SimpleProstheticArm.description>一个人造的假臂，虽然并没有神经系统的存在，但其复杂的关节结构使其能极大程度的模拟自然活动，但尽管如此，它依旧不如自然的手臂。</SimpleProstheticArm.description>
+  
+  <!-- EN: simple prosthetic foot -->
+  <SimpleProstheticFoot.label>简易的假足</SimpleProstheticFoot.label>
+  <!-- EN: Replaces missing feet. -->
+  <SimpleProstheticFoot.description>用来代替缺失的脚，不是很舒服但是相当有效。</SimpleProstheticFoot.description>
+  
+  <!-- EN: simple prosthetic hand -->
+  <SimpleProstheticHand.label>简易的假手</SimpleProstheticHand.label>
+  <!-- EN: Replaces missing hands. Way more comfortable and less frightening than a hook hand. -->
+  <SimpleProstheticHand.description>用来代替缺失的手，不是很舒服但是相当有效。</SimpleProstheticHand.description>
+  
+  <!-- EN: simple prosthetic leg -->
+  <SimpleProstheticLeg.label>简易的假腿</SimpleProstheticLeg.label>
+  <!-- EN: A leg prosthesis. While it lacks a neutral interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real leg. -->
+  <SimpleProstheticLeg.description>一个人造的假腿，虽然并没有神经系统的存在，但其复杂的关节结构使其能极大程度的模拟自然活动，但尽管如此，它依旧不如自然的肢体。</SimpleProstheticLeg.description>
+  
+</LanguageData>

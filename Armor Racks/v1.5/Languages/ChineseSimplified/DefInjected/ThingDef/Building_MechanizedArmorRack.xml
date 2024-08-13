@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArmorRacks_MechanizedArmorRack.label>机械化装甲架</ArmorRacks_MechanizedArmorRack.label>
+  <ArmorRacks_MechanizedArmorRack.description>适合方便地整理成套服装。防止恶化。机械化以提高装备效率。</ArmorRacks_MechanizedArmorRack.description>
+  <ArmorRacks_MechanizedArmorRack_Blueprint.label>机械化装甲架（蓝图）</ArmorRacks_MechanizedArmorRack_Blueprint.label>
+  <ArmorRacks_MechanizedArmorRack_Blueprint_Install.label>机械化装甲架（蓝图）</ArmorRacks_MechanizedArmorRack_Blueprint_Install.label>
+  <ArmorRacks_MechanizedArmorRack_Frame.label>机械化装甲架（建筑）</ArmorRacks_MechanizedArmorRack_Frame.label>
+  <ArmorRacks_MechanizedArmorRack_Frame.description>适合方便地整理成套服装。防止恶化。机械化以提高装备效率。</ArmorRacks_MechanizedArmorRack_Frame.description>
+
+
+</LanguageData>

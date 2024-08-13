@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Washing.label>清洗</Washing.label>
+  <Washing.description>清洗</Washing.description>
+  <Washing.labelNoun>清洗</Washing.labelNoun>
+
+  <BadHygiene.label>不良卫生习惯</BadHygiene.label>
+  <BadHygiene.description>不良的卫生习惯会增加弭患疾病的风险，并影响社交活动。</BadHygiene.description>
+  <BadHygiene.stages.moderate.label>缓和</BadHygiene.stages.moderate.label>
+  <BadHygiene.stages.severe.label>严重</BadHygiene.stages.severe.label>
+  <BadHygiene.stages.extreme.label>极端</BadHygiene.stages.extreme.label>
+
+  <Diarrhea.label>腹泻</Diarrhea.label>
+  <Diarrhea.description>排便成水样，松散不成形。也就是俗称的拉肚子。</Diarrhea.description>
+  <Diarrhea.stages.recovering.label>恢复中</Diarrhea.stages.recovering.label>
+  <Diarrhea.stages.major.label>主要的</Diarrhea.stages.major.label>
+  <Diarrhea.stages.initial.label>最初的</Diarrhea.stages.initial.label>
+
+  <Dysentery.label>痢疾</Dysentery.label>
+  <Dysentery.description>痢疾是一种胃肠炎，会导致便血。</Dysentery.description>
+  <Dysentery.stages.minor.label>次要</Dysentery.stages.minor.label>
+  <Dysentery.stages.major.label>主要</Dysentery.stages.major.label>
+  <Dysentery.stages.extreme.label>极端</Dysentery.stages.extreme.label>
+
+  <Cholera.label>霍乱</Cholera.label>
+  <Cholera.description>霍乱是一种传染性疾病，会引起严重的水样腹泻，如果不及时治疗，将可能导致脱水甚至死亡。</Cholera.description>
+  <Cholera.stages.minor.label>次要的</Cholera.stages.minor.label>
+  <Cholera.stages.major.label>主要的</Cholera.stages.major.label>
+  <Cholera.stages.extreme-0.label>极端1</Cholera.stages.extreme-0.label>
+  <Cholera.stages.extreme-1.label>极端2</Cholera.stages.extreme-1.label>
+
+  <DBHDehydration.label>脱水</DBHDehydration.label>
+  <DBHDehydration.description>脱水是一种当体液(主要是水)流失量超过摄入量时可能发生的状态。</DBHDehydration.description>
+  <DBHDehydration.stages.trivial.label>琐碎</DBHDehydration.stages.trivial.label>
+  <DBHDehydration.stages.minor.label>次要</DBHDehydration.stages.minor.label>
+  <DBHDehydration.stages.moderate.label>缓和</DBHDehydration.stages.moderate.label>
+  <DBHDehydration.stages.severe.label>严重</DBHDehydration.stages.severe.label>
+  <DBHDehydration.stages.extreme.label>极端</DBHDehydration.stages.extreme.label>
+
+</LanguageData>

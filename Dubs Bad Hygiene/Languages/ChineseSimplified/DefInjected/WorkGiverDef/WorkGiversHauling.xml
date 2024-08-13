@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsBurnPit.label>完成燃烧坑的清单</DoBillsBurnPit.label>
+  <DoBillsBurnPit.verb>焚烧</DoBillsBurnPit.verb>
+  <DoBillsBurnPit.gerund>焚烧于</DoBillsBurnPit.gerund>
+
+  <RemoveSewage.label>将污水收集到桶中</RemoveSewage.label>
+  <RemoveSewage.verb>清除污水</RemoveSewage.verb>
+  <RemoveSewage.gerund>清除污水中</RemoveSewage.gerund>
+
+  <UnloadWashing.label>取出清洗的衣物</UnloadWashing.label>
+  <UnloadWashing.verb>取出</UnloadWashing.verb>
+  <UnloadWashing.gerund>取出</UnloadWashing.gerund>
+
+  <LoadWashing.label>放入清洗的衣物</LoadWashing.label>
+  <LoadWashing.verb>放入</LoadWashing.verb>
+  <LoadWashing.gerund>放入</LoadWashing.gerund>
+
+  <UnloadComposter.label>从堆肥器中取出堆肥</UnloadComposter.label>
+  <UnloadComposter.verb>取出堆肥</UnloadComposter.verb>
+  <UnloadComposter.gerund>取出堆肥于</UnloadComposter.gerund>
+
+  <FillComposter.label>填满堆肥器</FillComposter.label>
+  <FillComposter.verb>填满</FillComposter.verb>
+  <FillComposter.gerund>填满</FillComposter.gerund>
+
+  <emptySepticTank.label>清空化粪池</emptySepticTank.label>
+  <emptySepticTank.verb>清空</emptySepticTank.verb>
+  <emptySepticTank.gerund>清空</emptySepticTank.gerund>
+
+  <WardenEmptySepticTank.label>空化粪池</WardenEmptySepticTank.label>
+  <WardenEmptySepticTank.verb>空的</WardenEmptySepticTank.verb>
+  <WardenEmptySepticTank.gerund>排空</WardenEmptySepticTank.gerund>
+
+  <RefillWater.label>装水</RefillWater.label>
+  <RefillWater.verb>装水</RefillWater.verb>
+  <RefillWater.gerund>装水</RefillWater.gerund>
+
+  <WardenRefillWater.label>加水</WardenRefillWater.label>
+  <WardenRefillWater.verb>补满</WardenRefillWater.verb>
+  <WardenRefillWater.gerund>补充</WardenRefillWater.gerund>
+
+  <CleanFilthIndoors.label>清洁室内污物</CleanFilthIndoors.label>
+  <CleanFilthIndoors.verb>清洁</CleanFilthIndoors.verb>
+  <CleanFilthIndoors.gerund>正在清洁</CleanFilthIndoors.gerund>
+
+</LanguageData>

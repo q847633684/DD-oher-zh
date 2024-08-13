@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<GS_MenuTitle>图形设置</GS_MenuTitle>
+
+	<!--Tabs-->
+	<GS_AdvancedTab>高级</GS_AdvancedTab>
+	<GS_MemoryTab>内存</GS_MemoryTab>
+	
+	<!--Settings-->
+	<GS_GeneralSettings>一般设置</GS_GeneralSettings>
+	<GS_MipMapping>（建议）使用Mip-Mapping（多级纹理映射）</GS_MipMapping>
+	<GS_MipMapBias>MipMap偏移</GS_MipMapBias>
+	<GS_MipMapSharp>锐利</GS_MipMapSharp>
+	<GS_MipMapBlurry>模糊</GS_MipMapBlurry>
+	<GS_AnisoLevel>各向异性过滤</GS_AnisoLevel>
+	
+	<GS_TextureFiltering>纹理过滤</GS_TextureFiltering>
+	<!--<GS_FilterModePoint>Point</GS_FilterModePoint>-->
+	<GS_FilterModeBilinear>双线性</GS_FilterModeBilinear>
+	<GS_FilterModeTrilinear>三线性</GS_FilterModeTrilinear>
+	
+	<GS_Reset>重置</GS_Reset>
+	<GS_RestartRequired>你必须重新启动游戏才能应用更改！</GS_RestartRequired>
+	<GS_RestartGameButton>重启游戏</GS_RestartGameButton>
+	
+	<GS_MipMapToolTip>该值会根据缩放程度改变贴图纹理的模糊程度，建议等于或小于0。</GS_MipMapToolTip>
+	<GS_AnisoLevelToolTip>设置各向异性过滤级别，较高的数值可能会降低旧型号显卡的性能。</GS_AnisoLevelToolTip>
+	
+	<!-- Memory -->
+	<GS_AllTextureMemory>全部贴图纹理内容</GS_AllTextureMemory>
+	<GS_ModsToProcessLabel>{0}个mod待处理...</GS_ModsToProcessLabel>
+	<GS_NoModsToProcess>没有要处理的Mod。</GS_NoModsToProcess>
+	
+	<GS_CachedAtlasses>图集纹理缓存</GS_CachedAtlasses>
+	
+	<GS_CacheRecalc>重新计算</GS_CacheRecalc>
+	<GS_CacheStop>停止</GS_CacheStop>
+	<GS_CacheContinue>继续</GS_CacheContinue>
+	
+	<GS_CacheWarnRAM>显存不足</GS_CacheWarnRAM>
+	<GS_RecalcProcess>正在计算……请稍等。</GS_RecalcProcess>
+	<GS_CacheWarning>警告:\n{0}</GS_CacheWarning>
+	<GS_CacheWarnOverflow>你的计算机系统不支持。</GS_CacheWarnOverflow>
+	<GS_CacheWarnStruggle>你的计算机系统可能会运行缓慢。</GS_CacheWarnStruggle>
+</LanguageData>

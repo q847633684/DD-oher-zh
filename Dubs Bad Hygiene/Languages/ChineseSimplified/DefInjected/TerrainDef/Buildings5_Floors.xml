@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DBHMosaicTile.label>马赛克瓷砖</DBHMosaicTile.label>
+  <DBHMosaicTile.description>马赛克图案的钢质瓷砖，在浴室或厨房里很时尚.</DBHMosaicTile.description>
+
+  <DBHMosaicSandstone.label>砂岩马赛克瓷砖</DBHMosaicSandstone.label>
+  <DBHMosaicSandstone.description>精心切割并安装马赛克图案的石砖，在浴室或厨房中显得时尚.</DBHMosaicSandstone.description>
+
+  <DBHMosaicGranite.label>花岗岩马赛克瓷砖</DBHMosaicGranite.label>
+  <DBHMosaicGranite.description>精心切割并安装马赛克图案的石砖，在浴室或厨房中显得时尚.</DBHMosaicGranite.description>
+
+  <DBHMosaicLimestone.label>石灰岩马赛克瓷砖</DBHMosaicLimestone.label>
+  <DBHMosaicLimestone.description>精心切割并安装马赛克图案的石砖，在浴室或厨房中显得时尚.</DBHMosaicLimestone.description>
+
+  <DBHMosaicSlate.label>板岩马赛克瓷砖</DBHMosaicSlate.label>
+  <DBHMosaicSlate.description>精心切割并安装马赛克图案的石砖，在浴室或厨房中显得时尚.</DBHMosaicSlate.description>
+
+  <DBHMosaicMarble.label>大理石马赛克瓷砖</DBHMosaicMarble.label>
+  <DBHMosaicMarble.description>精心切割并安装马赛克图案的石砖，在浴室或厨房中显得时尚.</DBHMosaicMarble.description>
+
+</LanguageData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Craft artificial bone -->
+  <MakeArtificialBone.label>制作人造骨</MakeArtificialBone.label>
+  <!-- EN: Crafts an artifical bone from plasteel and steel. -->
+  <MakeArtificialBone.description>使用钢铁和玻璃钢制作人造骨。</MakeArtificialBone.description>
+  <!-- EN: Crafting artifical bone. -->
+  <MakeArtificialBone.jobString>正在制作人造骨。</MakeArtificialBone.jobString>
+  
+  <!-- EN: craft artificial nose -->
+  <MakeArtificialNose.label>制作人造鼻</MakeArtificialNose.label>
+  <!-- EN: Crafts an artificial nose from plasteel. -->
+  <MakeArtificialNose.description>使用玻璃钢制作人造鼻。</MakeArtificialNose.description>
+  <!-- EN: Crafting prosthesis. -->
+  <MakeArtificialNose.jobString>正在制作假体。</MakeArtificialNose.jobString>
+  
+  <!-- EN: Craft cochlear implant -->
+  <MakeCochlearImplant.label>制作人工耳蜗</MakeCochlearImplant.label>
+  <!-- EN: Crafts a cochlear implant from steel and components. -->
+  <MakeCochlearImplant.description>使用钢铁和零部件制作人工耳蜗。</MakeCochlearImplant.description>
+  <!-- EN: Crafting prosthesis. -->
+  <MakeCochlearImplant.jobString>正在制作假体。</MakeCochlearImplant.jobString>
+  
+  <!-- EN: Craft simple prosthetic arm -->
+  <MakeSimpleProstheticArm.label>制作简易的假臂</MakeSimpleProstheticArm.label>
+  <!-- EN: Crafts a simple prosthetic arm from steel and components. -->
+  <MakeSimpleProstheticArm.description>使用钢铁和零部件制作简易的假臂。</MakeSimpleProstheticArm.description>
+  <!-- EN: Crafting prosthesis. -->
+  <MakeSimpleProstheticArm.jobString>正在制作假体。</MakeSimpleProstheticArm.jobString>
+  
+  <!-- EN: craft simple prosthetic foot -->
+  <MakeSimpleProstheticFoot.label>制作简易的假足</MakeSimpleProstheticFoot.label>
+  <!-- EN: Crafts a simple prosthetic foot from steel and components. -->
+  <MakeSimpleProstheticFoot.description>使用钢铁和零部件制作简易的假足。</MakeSimpleProstheticFoot.description>
+  <!-- EN: Crafting prosthesis. -->
+  <MakeSimpleProstheticFoot.jobString>正在制作假体。</MakeSimpleProstheticFoot.jobString>
+  
+  <!-- EN: craft simple prosthetic hand -->
+  <MakeSimpleProstheticHand.label>制作简易的假手</MakeSimpleProstheticHand.label>
+  <!-- EN: Crafts a simple prosthetic hand from steel and components. -->
+  <MakeSimpleProstheticHand.description>使用钢铁和零部件制作简易的假手。</MakeSimpleProstheticHand.description>
+  <!-- EN: Crafting prosthesis. -->
+  <MakeSimpleProstheticHand.jobString>正在制作假体。</MakeSimpleProstheticHand.jobString>
+  
+  <!-- EN: Craft simple prosthetic leg -->
+  <MakeSimpleProstheticLeg.label>制作简易的假腿</MakeSimpleProstheticLeg.label>
+  <!-- EN: Crafts a simple prosthetic leg from steel and components. -->
+  <MakeSimpleProstheticLeg.description>使用钢铁和零部件制作简易的假腿。</MakeSimpleProstheticLeg.description>
+  <!-- EN: Crafting prosthesis. -->
+  <MakeSimpleProstheticLeg.jobString>正在制作假体。</MakeSimpleProstheticLeg.jobString>
+  
+</LanguageData>

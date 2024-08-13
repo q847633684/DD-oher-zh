@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <Tam_SmokeMeat10.label>烟熏肉（10）</Tam_SmokeMeat10.label>
+
+  <Tam_SmokeMeat10.description>用烟熏来保存肉类。美味，但是很难咀嚼。它可以在没有冷藏的情况下保存很长时间。它用了大量的肉经过长时间的烟熏才能制作出少量的烟熏肉。</Tam_SmokeMeat10.description>
+
+  <Tam_SmokeMeat10.jobString>正在熏制肉类。</Tam_SmokeMeat10.jobString>
+
+
+  <Tam_SmokeMeat150.label>烟熏肉（150）</Tam_SmokeMeat150.label>
+
+  <Tam_SmokeMeat150.description>用烟熏来保存肉类。美味，但是很难咀嚼。它可以在没有冷藏的情况下保存很长时间。它用了大量的肉经过长时间的烟熏才能制作出少量的烟熏肉，但这里这么多肉，需要一些技巧，才能确保它将得到均匀的熏制。</Tam_SmokeMeat150.description>
+
+  <Tam_SmokeMeat150.jobString>正在熏制肉类。</Tam_SmokeMeat150.jobString>
+
+
+  <Tam_SmokeMeat40.label>烟熏肉（40）</Tam_SmokeMeat40.label>
+
+  <Tam_SmokeMeat40.description>用烟熏来保存肉类。美味，但是很难咀嚼。它可以在没有冷藏的情况下保存很长时间。它用了大量的肉经过长时间的烟熏才能制作出少量的烟熏肉。</Tam_SmokeMeat40.description>
+
+  <Tam_SmokeMeat40.jobString>正在熏制肉类。</Tam_SmokeMeat40.jobString>
+
+
+  <Tam_SmokeMeat75.label>烟熏肉（75）</Tam_SmokeMeat75.label>
+
+  <Tam_SmokeMeat75.description>用烟熏来保存肉类。美味，但是很难咀嚼。它可以在没有冷藏的情况下保存很长时间。它用了大量的肉经过长时间的烟熏才能制作出少量的烟熏肉，但这里这么多肉，需要一些技巧，才能确保它将得到均匀的熏制。</Tam_SmokeMeat75.description>
+
+  <Tam_SmokeMeat75.jobString>正在熏制肉类。</Tam_SmokeMeat75.jobString>
+
+</LanguageData>

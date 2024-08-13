@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BPC.BetterPawnControl>更好的典当控制</BPC.BetterPawnControl>
+
+  <BPC.Auto>默认</BPC.Auto>
+  <BPC.Rename>重命名</BPC.Rename>
+  <BPC.Settings>策略设置</BPC.Settings>
+
+  <BPC.NewAnimalPolicy>新动物政策</BPC.NewAnimalPolicy>
+  <BPC.AnimalPolicy>策略</BPC.AnimalPolicy>
+  <BPC.CurrentAnimalPolicy>积极的动物政策</BPC.CurrentAnimalPolicy>
+
+  <BPC.NewAssignPolicy>新分配策略</BPC.NewAssignPolicy>
+  <BPC.AssignPolicy>策略</BPC.AssignPolicy>
+  <BPC.CurrentAssignPolicy>主动分配策略</BPC.CurrentAssignPolicy>
+
+  <BPC.NewRestrictPolicy>新计划策略</BPC.NewRestrictPolicy>
+  <BPC.RestrictPolicy>策略</BPC.RestrictPolicy>
+  <BPC.CurrentRestrictPolicy>活动计划策略</BPC.CurrentRestrictPolicy>
+
+  <BPC.NewWorkPolicy>新工作策略</BPC.NewWorkPolicy>
+  <BPC.WorkPolicy>策略</BPC.WorkPolicy>
+  <BPC.CurrentWorkPolicy>活动工作策略</BPC.CurrentWorkPolicy>
+
+  <BPC.NewMechPolicy>新机甲策略</BPC.NewMechPolicy>
+  <BPC.MechPolicy>策略</BPC.MechPolicy>
+  <BPC.CurrentMechPolicy>活跃机械策略</BPC.CurrentMechPolicy>
+
+  <BPC.NewWeaponsPolicy>新武器政策</BPC.NewWeaponsPolicy>
+  <BPC.WeaponsPolicy>策略</BPC.WeaponsPolicy>
+  <BPC.CurrentWeaponsPolicy>主动武器策略</BPC.CurrentWeaponsPolicy>
+
+  <BPC.WorkTab>工作</BPC.WorkTab>
+  <BPC.RestrictTab>时间表</BPC.RestrictTab>
+  <BPC.AssignTab>分配</BPC.AssignTab>
+  <BPC.AnimalTab>动物</BPC.AnimalTab>
+  <BPC.MechTab>机甲</BPC.MechTab>
+  <BPC.WeaponsTab>武器</BPC.WeaponsTab>
+
+  <BPC.PoliciesConfigText>创建/删除/重命名策略预设。不要忘记随后在每个选项卡上配置它们</BPC.PoliciesConfigText>
+
+  <BPC.DefaultsConfigText>配置新 pawn 加入殖民地后要设置的策略</BPC.DefaultsConfigText>
+  <BPC.SelectedDefaultOutfit>服装</BPC.SelectedDefaultOutfit>
+  <BPC.SelectedDefaultFood>食物</BPC.SelectedDefaultFood>
+  <BPC.SelectedDefaultDrug>药物</BPC.SelectedDefaultDrug>
+  <BPC.SelectedDefaultReading>阅读</BPC.SelectedDefaultReading>
+  <BPC.SelectedDefaultMeds>医疗护理</BPC.SelectedDefaultMeds>
+  <BPC.SelectedDefaultWeapons>武器</BPC.SelectedDefaultWeapons>
+
+  <BPC.SelectedPrisonerDefaultFood>食物</BPC.SelectedPrisonerDefaultFood>
+  <BPC.SelectedPrisonerDefaultMeds>医疗护理</BPC.SelectedPrisonerDefaultMeds>
+
+  <BPC.SelectedSlaveDefaultOutfit>服装</BPC.SelectedSlaveDefaultOutfit>
+  <BPC.SelectedSlaveDefaultFood>食物</BPC.SelectedSlaveDefaultFood>
+  <BPC.SelectedSlaveDefaultDrugs>药物</BPC.SelectedSlaveDefaultDrugs>
+  <BPC.SelectedSlaveDefaultReading>正在读取</BPC.SelectedSlaveDefaultReading>
+  <BPC.SelectedSlaveDefaultMeds>医疗护理</BPC.SelectedSlaveDefaultMeds>
+
+  <BPC.ColonistDefaultHeader>殖民者默认值</BPC.ColonistDefaultHeader>
+  <BPC.PrisonerDefaultHeader>囚犯默认值</BPC.PrisonerDefaultHeader>
+  <BPC.SlaveDefaultHeader>从站默认值</BPC.SlaveDefaultHeader>
+
+  <BPC.Copy>复制策略</BPC.Copy>
+  <BPC.Paste>粘贴策略</BPC.Paste>
+
+  <BPC.CopySchedule>复制计划</BPC.CopySchedule>
+  <BPC.PasteSchedule>粘贴计划</BPC.PasteSchedule>
+
+  <BPC.ToggleEmergencyOn>切换紧急关闭。策略将设置为紧急情况之前的设置</BPC.ToggleEmergencyOn>
+  <BPC.ToggleEmergencyOff>打开紧急状态。在 Better Pawn Control 配置 cog 中配置应为所有选项卡激活哪些策略</BPC.ToggleEmergencyOff>
+  <BPC.AlertConfigText>配置警报打开时要激活的策略。使用键盘快捷键打开/关闭警报</BPC.AlertConfigText>
+  <BPC.EmergencyLocationTooltip>紧急按钮位于游戏窗口的右下角，切换按钮旁边</BPC.EmergencyLocationTooltip>
+
+  <BPC.BetterPawnControlSettingsName>更好的 Pawn 控制</BPC.BetterPawnControlSettingsName>
+  <BPC.AutomaticPawnsInterruptSetting>打开紧急状态时自动中断 pawn 正在执行的操作？</BPC.AutomaticPawnsInterruptSetting>
+  <BPC.DisableBPCOnWorkTabSetting>完全禁用 BPC 与 WorkTab mod 的集成？</BPC.DisableBPCOnWorkTabSetting>
+  <BPC.DisableBPCOnWorkTabTooltip>完全集成，包括 WorkTab 的 mod 内部（或扩展）优先级。</BPC.DisableBPCOnWorkTabTooltip>
+  <BPC.DisableBPCWorkTabInnerPrioritiesSetting>禁用 BPC 与 WorkTab 的 mod 内部（或扩展）优先级集成并保留“正常”优先级？</BPC.DisableBPCWorkTabInnerPrioritiesSetting>
+  <BPC.DisableBPCWorkTabInnerPrioritiesTooltip>这将允许继续将 BPC 与 WorkTab 一起使用，但不保存内部优先级。</BPC.DisableBPCWorkTabInnerPrioritiesTooltip>
+
+
+
+</LanguageData>

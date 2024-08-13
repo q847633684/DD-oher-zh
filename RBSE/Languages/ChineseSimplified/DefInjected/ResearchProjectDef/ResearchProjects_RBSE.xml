@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced bionics -->
+  <AdvancedBionics.label>先进仿生体</AdvancedBionics.label>
+  <!-- EN: Further study of bionics. Unlocks the Advanced medical station, along with powerful bionic upgrades. Also allows for the removal of Death acidifiers. -->
+  <AdvancedBionics.description>进一步研究仿生学。解锁高级器官制作台，获得更强的仿生体升级。同时允许移除生物身上的质溶器。</AdvancedBionics.description>
+  
+  <!-- EN: bionics -->
+  <Bionics.label>仿生学</Bionics.label>
+  <!-- EN: Study of biomimetics and engineering. Unlocks the Bionic workbench, along with high-tech bionic parts. -->
+  <Bionics.description>研究仿生学和工程学。解锁仿生体工作台，能制作高科技仿生体部件。</Bionics.description>
+  
+  <!-- EN: nanomedicine -->
+  <Nanomedicine.label>纳米医学</Nanomedicine.label>
+  <!-- EN: Advanced research into molecular nano-technology and cellular manipulation. Allows for the elimination of specific whole body ailments and diseases such as Frailty, Sleeping sickness, Muscle parasites, Mechanites, Gut worms and other infections. -->
+  <Nanomedicine.description>进一步研究纳米技术和细胞操作。可以消除特定的全身性疾病，如体弱、昏睡病、肌肉寄生虫、纳米机械感染、肠道蠕虫和其他感染。</Nanomedicine.description>
+  
+  <!-- EN: neuroscience -->
+  <Neuroscience.label>神经科学</Neuroscience.label>
+  <!-- EN: Allows you to perform advanced surgery on the brain. Unlocks powerful brain implants that enhance abilities and cure brain diseases. Relies on very rare AI technology from Glitterworlds. -->
+  <Neuroscience.description>能对脑部施行先进的手术。解锁脑部相关的强大植入物，能增强能力和治愈脑部疾病。依赖闪耀世界的人工智能技术。</Neuroscience.description>
+  
+  <!-- EN: organ transplantation -->
+  <OrganTransplantation.label>器官移植</OrganTransplantation.label>
+  <!-- EN: Study of transplantation medicine and organ rejection management. Allows donor organs to be transplanted into patients. -->
+  <OrganTransplantation.description>器官移植与排斥反应的医学研究。供体器官现在可以移植到病人体内。</OrganTransplantation.description>
+  
+  <!-- EN: anatomy and physiology -->
+  <Prosthetics.label>简易假体</Prosthetics.label>
+  <!-- EN: Study of anatomy and biomechanics that allows you to craft simple prosthetic parts and artificial bones at a machining table. -->
+  <Prosthetics.description>制作廉价的假体部件替换失去的肢体。需要一名熟练的医生进行安装。</Prosthetics.description>
+  
+  <!-- EN: regenerative medicine -->
+  <RegenerativeMedicine.label>再生医学</RegenerativeMedicine.label>
+  <!-- EN: Advanced research into tissue regeneration. Allows scars and old wounds to be cured with glitterworld medicine. -->
+  <RegenerativeMedicine.description>机体组织再生的高级研究。疤痕和老枪伤现在可以用闪耀世界医药治愈。</RegenerativeMedicine.description>
+  
+  <!-- EN: synthetic organs -->
+  <SyntheticOrgans.label>合成器官</SyntheticOrgans.label>
+  <!-- EN: Advanced research into nano-technology and tissue engineering. Unlocks highly efficient synthetic organs with no transplant rejection symptoms. -->
+  <SyntheticOrgans.description>进一步研究纳米技术和生物组织工程学。解锁制作无移植排斥症状的高效率合成器官。</SyntheticOrgans.description>
+  
+</LanguageData>

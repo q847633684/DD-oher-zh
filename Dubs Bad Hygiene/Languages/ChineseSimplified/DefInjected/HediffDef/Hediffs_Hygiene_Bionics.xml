@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BionicBladder.label>仿生膀胱</BionicBladder.label>
+  <BionicBladder.description>一个已植入的的仿生膀胱。</BionicBladder.description>
+  <BionicBladder.labelNoun>仿生膀胱</BionicBladder.labelNoun>
+
+  <HygieneEnhancer.label>卫生增强装置</HygieneEnhancer.label>
+  <HygieneEnhancer.description>一个已植入的卫生增强装置。</HygieneEnhancer.description>
+  <HygieneEnhancer.labelNoun>卫生增强装置</HygieneEnhancer.labelNoun>
+
+</LanguageData>

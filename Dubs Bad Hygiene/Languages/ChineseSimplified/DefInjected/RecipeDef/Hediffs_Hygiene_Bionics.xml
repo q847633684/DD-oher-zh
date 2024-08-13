@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallBionicBladder.label>植入仿生膀胱</InstallBionicBladder.label>
+  <InstallBionicBladder.description>植入仿生膀胱。</InstallBionicBladder.description>
+  <InstallBionicBladder.jobString>正在植入仿生膀胱。</InstallBionicBladder.jobString>
+
+  <InstallHygieneEnhancer.label>植入卫生增强装置</InstallHygieneEnhancer.label>
+  <InstallHygieneEnhancer.description>植入卫生增强装置。</InstallHygieneEnhancer.description>
+  <InstallHygieneEnhancer.jobString>正在植入卫生增强装置。</InstallHygieneEnhancer.jobString>
+
+
+</LanguageData>

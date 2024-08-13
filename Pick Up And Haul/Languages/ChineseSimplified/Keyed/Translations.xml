@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+  <PUAH.allowCorpses>允许将尸体放入库存中</PUAH.allowCorpses>
+  <PUAH.allowCorpsesTooltip>默认关闭。只能直接拿在手里。</PUAH.allowCorpsesTooltip>
+  <PUAH.allowAnimals>允许驯服的驮畜使用其库存进行拖运</PUAH.allowAnimals>
+  <PUAH.allowAnimalsTooltip>默认开启。最适合为更多动物提供背包的模组，例如 VFME Caravan Packs</PUAH.allowAnimalsTooltip>
+  <PUAH.allowMechanoids>允许被黑的机械人使用其库存进行运输</PUAH.allowMechanoids>
+  <PUAH.allowMechanoidsTooltip>需要 What The Hack 或类似的模组。默认开启.</PUAH.allowMechanoidsTooltip>
+  <PUAH.minimumFreeInventorySpace>考虑拖运至库存的最小可用库存空间</PUAH.minimumFreeInventorySpace>
+  <PUAH.minimumFreeInventorySpaceTooltip>可用库存空间少于此处定义的 Pawn 直接使用原版拖运。 0% 使他们总是尝试拖入库存，无论他们是否有空间容纳多个土豆。 100% 导致 PUAH 要求 pawn 完全裸体。默认20%</PUAH.minimumFreeInventorySpaceTooltip>
+
+</LanguageData>

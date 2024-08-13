@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ThirstRateMultiplier.label>干渴率乘数</ThirstRateMultiplier.label>
+  <ThirstRateMultiplier.description>一个生物对饮水需求速度的乘数。</ThirstRateMultiplier.description>
+
+  <HygieneRateMultiplier.label>卫生系数</HygieneRateMultiplier.label>
+  <HygieneRateMultiplier.description>生物卫生水平下降的速度系数。</HygieneRateMultiplier.description>
+
+  <BladderRateMultiplier.label>排尿意识系数</BladderRateMultiplier.label>
+  <BladderRateMultiplier.description>生物排尿意识水平下降的速度系数。</BladderRateMultiplier.description>
+
+</LanguageData>

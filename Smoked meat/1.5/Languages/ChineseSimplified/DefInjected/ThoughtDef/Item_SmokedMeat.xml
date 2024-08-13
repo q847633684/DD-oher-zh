@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <VP_AteSmokedMeat.stages.initialhidden.label>初始隐藏</VP_AteSmokedMeat.stages.initialhidden.label>
+
+  <VP_AteSmokedMeat.stages.initialhidden.description>不应该出现</VP_AteSmokedMeat.stages.initialhidden.description>
+
+  <VP_AteSmokedMeat.stages.ate_smoked_meat.label> 吃了熏肉</VP_AteSmokedMeat.stages.ate_smoked_meat.label>
+
+  <VP_AteSmokedMeat.stages.ate_smoked_meat.description>我吃了一些美味的熏肉。很美味！</VP_AteSmokedMeat.stages.ate_smoked_meat.description>
+
+
+  <VP_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.label>膳食包括熏肉</VP_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.label>
+
+  <VP_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.description>我吃了一顿用熏肉做的饭。嗯！</VP_FoodMadeWithSmokedMeat.stages.meal_included_smoked_meat.description>
+
+</LanguageData>

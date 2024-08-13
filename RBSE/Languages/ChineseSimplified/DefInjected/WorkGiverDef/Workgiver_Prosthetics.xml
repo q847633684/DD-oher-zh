@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Craft medical item -->
+  <DoBillsAdvancedMedicalStation.label>制作医疗用品</DoBillsAdvancedMedicalStation.label>
+  <!-- EN: creating -->
+  <DoBillsAdvancedMedicalStation.gerund>制作</DoBillsAdvancedMedicalStation.gerund>
+  <!-- EN: create -->
+  <DoBillsAdvancedMedicalStation.verb>制作</DoBillsAdvancedMedicalStation.verb>
+  
+  <!-- EN: Craft medical item -->
+  <DoBillsBionicWorkbench.label>制作仿生假体</DoBillsBionicWorkbench.label>
+  <!-- EN: creating -->
+  <DoBillsBionicWorkbench.gerund>制作</DoBillsBionicWorkbench.gerund>
+  <!-- EN: create -->
+  <DoBillsBionicWorkbench.verb>制作</DoBillsBionicWorkbench.verb>
+  
+</LanguageData>

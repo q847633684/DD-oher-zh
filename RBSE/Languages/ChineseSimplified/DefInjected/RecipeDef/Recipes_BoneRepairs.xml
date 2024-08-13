@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install femur -->
+  <InstallFemur.label>修复股骨</InstallFemur.label>
+  <!-- EN: Installs femur -->
+  <InstallFemur.description>修复股骨。</InstallFemur.description>
+  <!-- EN: Installing femur -->
+  <InstallFemur.jobString>正在修复股骨。</InstallFemur.jobString>
+  
+  <!-- EN: install humerus -->
+  <InstallHumerus.label>修复肱骨</InstallHumerus.label>
+  <!-- EN: Installs humerus -->
+  <InstallHumerus.description>修复肱骨。</InstallHumerus.description>
+  <!-- EN: Installing humerus -->
+  <InstallHumerus.jobString>正在修复肱骨。</InstallHumerus.jobString>
+  
+  <!-- EN: install radius -->
+  <InstallRadius.label>修复桡骨</InstallRadius.label>
+  <!-- EN: Installs radius -->
+  <InstallRadius.description>修复桡骨。</InstallRadius.description>
+  <!-- EN: Installing radius -->
+  <InstallRadius.jobString>正在修复桡骨。</InstallRadius.jobString>
+  
+  <!-- EN: spinal fusion -->
+  <InstallSpinalFusion.label>修复脊椎</InstallSpinalFusion.label>
+  <!-- EN: Fuses the spine. -->
+  <InstallSpinalFusion.description>修复脊椎。</InstallSpinalFusion.description>
+  <!-- EN: Fusing the spine. -->
+  <InstallSpinalFusion.jobString>正在修复脊椎。</InstallSpinalFusion.jobString>
+  
+  <!-- EN: install tibia -->
+  <InstallTibia.label>修复胫骨</InstallTibia.label>
+  <!-- EN: Installs tibia -->
+  <InstallTibia.description>修复胫骨。</InstallTibia.description>
+  <!-- EN: Installing tibia -->
+  <InstallTibia.jobString>正在修复胫骨。</InstallTibia.jobString>
+  
+</LanguageData>

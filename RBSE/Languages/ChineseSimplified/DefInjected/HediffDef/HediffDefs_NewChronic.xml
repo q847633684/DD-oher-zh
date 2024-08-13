@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chronic kidney disease -->
+  <ChronicKidneyDisease.label>慢性肾病</ChronicKidneyDisease.label>
+  <!-- EN: Degenerative kidney disease. Will eventually lead to kidney failure. -->
+  <ChronicKidneyDisease.description>退行性肾脏疾病。最终会导致肾脏衰竭。</ChronicKidneyDisease.description>
+  <!-- EN: minor -->
+  <ChronicKidneyDisease.stages.minor-0.label>轻微</ChronicKidneyDisease.stages.minor-0.label>
+  <!-- EN: minor -->
+  <ChronicKidneyDisease.stages.minor-1.label>轻微</ChronicKidneyDisease.stages.minor-1.label>
+  <!-- EN: moderate -->
+  <ChronicKidneyDisease.stages.moderate.label>中度</ChronicKidneyDisease.stages.moderate.label>
+  <!-- EN: major -->
+  <ChronicKidneyDisease.stages.major.label>重度</ChronicKidneyDisease.stages.major.label>
+  <!-- EN: extreme -->
+  <ChronicKidneyDisease.stages.extreme.label>极重</ChronicKidneyDisease.stages.extreme.label>
+  
+  <!-- EN: chronic stomach disorder -->
+  <ChronicStomachDisorder.label>慢性胃病</ChronicStomachDisorder.label>
+  <!-- EN: A chronic disorder of the stomach that causes discomfort and digestive issues. -->
+  <ChronicStomachDisorder.description>慢性胃病，伴随不适和消化功能障碍。</ChronicStomachDisorder.description>
+  
+  <!-- EN: congenital heart defect -->
+  <CongenitalHeartDefect.label>先天性心脏病</CongenitalHeartDefect.label>
+  <!-- EN: A genetic heart defect that impairs the normal function of the heart. -->
+  <CongenitalHeartDefect.description>遗传性心脏缺陷会损害心脏的正常功能。</CongenitalHeartDefect.description>
+  <!-- EN: moderate -->
+  <CongenitalHeartDefect.stages.moderate.label>中度</CongenitalHeartDefect.stages.moderate.label>
+  <!-- EN: major -->
+  <CongenitalHeartDefect.stages.major.label>重度</CongenitalHeartDefect.stages.major.label>
+  
+</LanguageData>

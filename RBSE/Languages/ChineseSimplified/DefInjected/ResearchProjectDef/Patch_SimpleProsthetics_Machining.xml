@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!-- 原mod应用了patch后会改变机械加工台处的翻译，请看原mod目录下1.4/patches/SimpleProsthetics_Machining.xml -->
+    <!-- 覆盖原版翻译 -->
+    <!-- EN: Build machining tables to craft guns, grenades, flak armor, prosthetics, artificial bones, and to disassemble dead mechanoids for resources. -->
+    <Machining.description>解锁建造「机械加工台」，用于制作枪支和机械、假体和人造骨骼，或者拆解死亡的机械体获得高级的材料。</Machining.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <TD.GearAndGo>整装待命</TD.GearAndGo>
+  <TD.GearAndGoDesc>穿上装甲，进入征召状态，然后去往目标地点。\n\n如果你正在启用Better Pawn Control，这也将设置一个方案（在模组设定中命名该方案）。\n按Shift并点击以重置Better Pawn Control方案。\n\n按Alt并点击且确定目的地时，将不会设置Better Pawn Control方案。按Shift并点击且确定目的地时，将存储此指令。</TD.GearAndGoDesc>
+  <TD.GearUpAndGoSettingsName>Gear Up And Go 整装待命</TD.GearUpAndGoSettingsName>
+  <TD.SettingBetterPawnControlPolicy>如果您使用 Better Pawn Control，请在单击按钮时设置此策略：</TD.SettingBetterPawnControlPolicy>
+  <TD.SettingBetterPawnControlRemembered>会记住最后一个策略，因此按住 Shift 键并单击按钮将重置它</TD.SettingBetterPawnControlRemembered>
+  <TD.GearUpPolicySetAlert>整装待命已经为战斗设定了Better Pawn Control方案。\n\n点击以重置先前的方案</TD.GearUpPolicySetAlert>
+
+</LanguageData>

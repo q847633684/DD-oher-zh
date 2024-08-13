@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WeAreUnited_FloatMenu>请求重聚</WeAreUnited_FloatMenu>
+  <WeAreUnited_FloatMenu_NotRelated>要求团结</WeAreUnited_FloatMenu_NotRelated>
+  <WeAreUnited_TooRecently>最近也尝试过</WeAreUnited_TooRecently>
+  <WeAreUnited_Verb>问</WeAreUnited_Verb>
+  <WeAreUnited_FailedMessage>{0}拒绝联合。</WeAreUnited_FailedMessage>
+  <WeAreUnited_FailedMote>没有令人信服的\n{0}机会</WeAreUnited_FailedMote>
+  <WeAreUnited_SucceededMessage>{0} 被说服了。</WeAreUnited_SucceededMessage>
+  <WeAreUnited_SucceededMote>令人信服\n{0}的机会</WeAreUnited_SucceededMote>
+
+</LanguageData>

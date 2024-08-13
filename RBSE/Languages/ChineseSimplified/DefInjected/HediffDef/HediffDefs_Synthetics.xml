@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cortexaugmentor -->
+  <Cortexaugmentor.label>脑皮质增强芯片</Cortexaugmentor.label>
+  <!-- EN: An installed cortexaugmentor. -->
+  <Cortexaugmentor.description>一块已安装的脑皮质增强芯片。</Cortexaugmentor.description>
+  <!-- EN: A cortexaugmentor -->
+  <Cortexaugmentor.labelNoun>脑皮质增强芯片</Cortexaugmentor.labelNoun>
+  
+  <!-- EN: hyporegulator -->
+  <Hyporegulator.label>调谐芯片</Hyporegulator.label>
+  <!-- EN: An installed hyporegulator. -->
+  <Hyporegulator.description>一块已安装的调谐芯片。</Hyporegulator.description>
+  <!-- EN: a hyporegulator -->
+  <Hyporegulator.labelNoun>调谐芯片</Hyporegulator.labelNoun>
+  
+  <!-- EN: neurostimulator -->
+  <Neurostimulator.label>脑刺激器</Neurostimulator.label>
+  <!-- EN: An installed neurostimulator. -->
+  <Neurostimulator.description>一个已安装的脑刺激器。</Neurostimulator.description>
+  <!-- EN: a neurostimulator -->
+  <Neurostimulator.labelNoun>脑刺激器</Neurostimulator.labelNoun>
+  
+  <!-- EN: synthetic heart -->
+  <SyntheticHeart.label>合成心</SyntheticHeart.label>
+  <!-- EN: An installed synthetic heart. -->
+  <SyntheticHeart.description>一个已安装的合成心。</SyntheticHeart.description>
+  <!-- EN: a synthetic heart -->
+  <SyntheticHeart.labelNoun>合成心</SyntheticHeart.labelNoun>
+  
+  <!-- EN: synthetic kidney -->
+  <SyntheticKidney.label>合成肾</SyntheticKidney.label>
+  <!-- EN: An installed synthetic kidney. -->
+  <SyntheticKidney.description>一个已安装的合成肾。</SyntheticKidney.description>
+  <!-- EN: a synthetic kidney -->
+  <SyntheticKidney.labelNoun>合成肾</SyntheticKidney.labelNoun>
+  
+  <!-- EN: synthetic liver -->
+  <SyntheticLiver.label>合成肝</SyntheticLiver.label>
+  <!-- EN: An installed synthetic liver. -->
+  <SyntheticLiver.description>一个已安装的合成肝。</SyntheticLiver.description>
+  <!-- EN: a synthetic liver -->
+  <SyntheticLiver.labelNoun>合成肝</SyntheticLiver.labelNoun>
+  
+  <!-- EN: synthetic lung -->
+  <SyntheticLung.label>合成肺</SyntheticLung.label>
+  <!-- EN: An installed synthetic lung. -->
+  <SyntheticLung.description>一个已安装的合成肺。</SyntheticLung.description>
+  <!-- EN: a synthetic lung -->
+  <SyntheticLung.labelNoun>合成肺</SyntheticLung.labelNoun>
+  
+  <!-- EN: synthetic stomach -->
+  <SyntheticStomach.label>合成胃</SyntheticStomach.label>
+  <!-- EN: An installed synthetic stomach. -->
+  <SyntheticStomach.description>一个已安装的合成胃。</SyntheticStomach.description>
+  <!-- EN: a synthetic stomach -->
+  <SyntheticStomach.labelNoun>合成胃</SyntheticStomach.labelNoun>
+  
+</LanguageData>

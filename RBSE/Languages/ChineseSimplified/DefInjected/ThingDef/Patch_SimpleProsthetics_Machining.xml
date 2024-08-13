@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!-- 原mod应用了patch后会改变机械加工台处的翻译，请看原mod目录下1.4/patches/SimpleProsthetics_Machining.xml -->
+    <!-- 覆盖原版翻译 -->
+    <!-- EN: A work station for assembling machinery like guns and ammunition, or breaking down dead mechanoids. Can also be used to craft simple prosthetic parts and artificial bones.-->
+    <TableMachining.description>用于组装和拆解机械装置的平台，比如枪械和机械体尸体。也可用于制作简易的假肢部件和人造骨骼。</TableMachining.description>
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <VP_AteSmokedVeg.stages.initialhidden.label>初始隐藏</VP_AteSmokedVeg.stages.initialhidden.label>
+
+  <VP_AteSmokedVeg.stages.initialhidden.description>不应该出现</VP_AteSmokedVeg.stages.initialhidden.description>
+
+  <VP_AteSmokedVeg.stages.ate_smoked_vegetables.label>吃了熏蔬菜</VP_AteSmokedVeg.stages.ate_smoked_vegetables.label>
+
+  <VP_AteSmokedVeg.stages.ate_smoked_vegetables.description>我吃了一些美味的熏蔬菜。很美味!</VP_AteSmokedVeg.stages.ate_smoked_vegetables.description>
+
+
+  <VP_FoodMadeWithSmokedVeg.stages.meal_included_smoked_vegetables.label>膳食包括熏制蔬菜</VP_FoodMadeWithSmokedVeg.stages.meal_included_smoked_vegetables.label>
+
+  <VP_FoodMadeWithSmokedVeg.stages.meal_included_smoked_vegetables.description>我吃了一顿用熏蔬菜做的饭。嗯！</VP_FoodMadeWithSmokedVeg.stages.meal_included_smoked_vegetables.description>
+
+</LanguageData>

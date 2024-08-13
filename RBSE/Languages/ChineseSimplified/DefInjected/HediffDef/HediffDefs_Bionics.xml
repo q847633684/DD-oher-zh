@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bionic arm -->
+  <BionicArm.label>仿生臂</BionicArm.label>
+  <!-- EN: An installed bionic arm. -->
+  <BionicArm.description>一条已安装的仿生臂。</BionicArm.description>
+  <!-- EN: fist -->
+  <BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>拳头</BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a bionic arm -->
+  <BionicArm.labelNoun>仿生臂</BionicArm.labelNoun>
+  
+  <!-- EN: bionic ear -->
+  <BionicEar.label>仿生耳</BionicEar.label>
+  <!-- EN: An installed bionic ear. -->
+  <BionicEar.description>一只已安装的仿生耳。</BionicEar.description>
+  <!-- EN: a bionic ear -->
+  <BionicEar.labelNoun>仿生耳</BionicEar.labelNoun>
+  
+  <!-- EN: bionic eye -->
+  <BionicEye.label>仿生眼</BionicEye.label>
+  <!-- EN: An installed bionic eye. -->
+  <BionicEye.description>一个已安装的仿生眼。</BionicEye.description>
+  <!-- EN: a bionic eye -->
+  <BionicEye.labelNoun>仿生眼</BionicEye.labelNoun>
+  
+  <!-- EN: bionic foot -->
+  <BionicFoot.label>仿生足</BionicFoot.label>
+  <!-- EN: An installed bionic foot. -->
+  <BionicFoot.description>一只已安装的仿生足。</BionicFoot.description>
+  <!-- EN: a bionic foot -->
+  <BionicFoot.labelNoun>仿生足</BionicFoot.labelNoun>
+  
+  <!-- EN: bionic hand -->
+  <BionicHand.label>仿生手</BionicHand.label>
+  <!-- EN: An installed bionic hand. -->
+  <BionicHand.description>一只已安装的仿生手。</BionicHand.description>
+  <!-- EN: fist -->
+  <BionicHand.comps.HediffComp_VerbGiver.tools.fist.label>仿生拳</BionicHand.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a bionic hand -->
+  <BionicHand.labelNoun>仿生手</BionicHand.labelNoun>
+  
+  <!-- EN: bionic jaw -->
+  <BionicJaw.label>仿生颌</BionicJaw.label>
+  <!-- EN: An installed bionic jaw -->
+  <BionicJaw.description>一个已安装的仿生颌。</BionicJaw.description>
+  <!-- EN: a bionic jaw -->
+  <BionicJaw.labelNoun>仿生颌</BionicJaw.labelNoun>
+  
+  <!-- EN: bionic leg -->
+  <BionicLeg.label>仿生腿</BionicLeg.label>
+  <!-- EN: An installed bionic leg. -->
+  <BionicLeg.description>一条已安装的仿生腿。</BionicLeg.description>
+  <!-- EN: a bionic leg -->
+  <BionicLeg.labelNoun>仿生腿</BionicLeg.labelNoun>
+  
+  <!-- EN: bionic spine -->
+  <BionicSpine.label>仿生脊椎</BionicSpine.label>
+  <!-- EN: An installed bionic spine. -->
+  <BionicSpine.description>一条已安装的仿生脊椎。</BionicSpine.description>
+  <!-- EN: a bionic spine -->
+  <BionicSpine.labelNoun>仿生脊椎</BionicSpine.labelNoun>
+  
+  <!-- EN: bionic tongue -->
+  <BionicTongue.label>仿生舌</BionicTongue.label>
+  <!-- EN: An installed bionic tongue -->
+  <BionicTongue.description>一条已安装的仿生舌头。</BionicTongue.description>
+  <!-- EN: a bionic tongue -->
+  <BionicTongue.labelNoun>仿生舌</BionicTongue.labelNoun>
+  
+  <!-- EN: power arm -->
+  <PowerArm.label>动力臂</PowerArm.label>
+  <!-- EN: An installed bionic power arm. -->
+  <PowerArm.description>一条已安装的动力臂。</PowerArm.description>
+  <!-- EN: fist -->
+  <PowerArm.comps.HediffComp_VerbGiver.tools.fist.label>仿生拳</PowerArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <!-- EN: a bionic power arm -->
+  <PowerArm.labelNoun>动力臂</PowerArm.labelNoun>
+  
+</LanguageData>

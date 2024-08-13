@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+  <IrrigationSprinkler.label>喷灌器</IrrigationSprinkler.label>
+  <IrrigationSprinkler.description>每天清晨为所在区域浇水，大幅提高土壤肥力。喷洒需要消耗大量的水。</IrrigationSprinkler.description>
+  <Blueprint_IrrigationSprinkler.label>喷灌器(蓝图)</Blueprint_IrrigationSprinkler.label>
+  <Blueprint_Install_IrrigationSprinkler.label>喷灌器(蓝图)</Blueprint_Install_IrrigationSprinkler.label>
+  <Frame_IrrigationSprinkler.label>喷灌器(建筑)</Frame_IrrigationSprinkler.label>
+  <Frame_IrrigationSprinkler.description>每天早上给周围地区浇水一次，以提高全天土壤的肥力。每天早上在最大半径处使用 1000L。</Frame_IrrigationSprinkler.description>
+
+  <FireSprinkler.label>消防喷淋头</FireSprinkler.label>
+  <FireSprinkler.description>遇到火焰或高温时触发，对控制区域喷洒水雾，可以手动开启。</FireSprinkler.description>
+  <FireSprinkler.comps.CompUsable.useLabel>触发消防喷淋</FireSprinkler.comps.CompUsable.useLabel>
+  <Blueprint_FireSprinkler.label>消防喷淋头(蓝图)</Blueprint_FireSprinkler.label>
+  <Blueprint_Install_FireSprinkler.label>消防喷淋头(蓝图)</Blueprint_Install_FireSprinkler.label>
+  <Frame_FireSprinkler.label>消防喷淋头(建筑)</Frame_FireSprinkler.label>
+  <Frame_FireSprinkler.description>因火灾或高温而引发。用水雾扑灭火焰。</Frame_FireSprinkler.description>
+
+  <BiosolidsComposter.label>堆肥器</BiosolidsComposter.label>
+  <BiosolidsComposter.description>堆肥容器。能够将废水和粪便转化为有机生物肥料，提高地形的肥沃度。</BiosolidsComposter.description>
+  <Blueprint_BiosolidsComposter.label>堆肥器(蓝图)</Blueprint_BiosolidsComposter.label>
+  <Blueprint_Install_BiosolidsComposter.label>堆肥器(蓝图)</Blueprint_Install_BiosolidsComposter.label>
+  <Frame_BiosolidsComposter.label>堆肥器(建筑)</Frame_BiosolidsComposter.label>
+  <Frame_BiosolidsComposter.description>一种将污水转化为肥料以增加可挖掘地形肥力的堆肥器。</Frame_BiosolidsComposter.description>
+
+</LanguageData>

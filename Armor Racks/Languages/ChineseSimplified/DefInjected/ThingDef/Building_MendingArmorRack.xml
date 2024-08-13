@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ArmorRacks_MendingArmorRack.label>修补盔甲架</ArmorRacks_MendingArmorRack.label>
+  <ArmorRacks_MendingArmorRack.description>适合方便地整理成套服装。机械化以提高装备效率。通过机械师的力量修补储存的东西。</ArmorRacks_MendingArmorRack.description>
+  <ArmorRacks_MendingArmorRack_Blueprint.label>修补盔甲架（蓝图）</ArmorRacks_MendingArmorRack_Blueprint.label>
+  <ArmorRacks_MendingArmorRack_Blueprint_Install.label>修补装甲架（蓝图）</ArmorRacks_MendingArmorRack_Blueprint_Install.label>
+  <ArmorRacks_MendingArmorRack_Frame.label>修理装甲架（建筑）</ArmorRacks_MendingArmorRack_Frame.label>
+  <ArmorRacks_MendingArmorRack_Frame.description>适合方便地整理成套服装。机械化以提高装备效率。通过机械师的力量修补储存的东西。</ArmorRacks_MendingArmorRack_Frame.description>
+
+
+</LanguageData>

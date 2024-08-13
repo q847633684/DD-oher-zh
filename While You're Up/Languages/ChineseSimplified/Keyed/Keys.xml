@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaul_Missing><![CDATA[未安装拾取和拖运]]></CodeOptimist.WhileYoureUp_PickUpAndHaul_Missing>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaul_Tooltip><![CDATA[PUAH 是可选的，但如果安装的话将会得到增强。]]></CodeOptimist.WhileYoureUp_PickUpAndHaul_Tooltip>
+  <CodeOptimist.WhileYoureUp_Opportunity_LoadReport><![CDATA[{ORIGINAL} 正在前往 {DESTINATION} 的途中。]]></CodeOptimist.WhileYoureUp_Opportunity_LoadReport>
+  <CodeOptimist.WhileYoureUp_Opportunity_UnloadReport><![CDATA[高效地{ORIGINAL}，正在前往{DESTINATION}的途中。]]></CodeOptimist.WhileYoureUp_Opportunity_UnloadReport>
+  <CodeOptimist.WhileYoureUp_HaulBeforeCarry_LoadReport><![CDATA[{ORIGINAL}，接近 {DESTINATION}。]]></CodeOptimist.WhileYoureUp_HaulBeforeCarry_LoadReport>
+  <CodeOptimist.WhileYoureUp_HaulBeforeCarry_UnloadReport><![CDATA[有效地{ORIGINAL}，更接近{DESTINATION}。]]></CodeOptimist.WhileYoureUp_HaulBeforeCarry_UnloadReport>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_LoadReport><![CDATA[{ORIGINAL}.]]></CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_LoadReport>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_UnloadReport><![CDATA[Efficiently {ORIGINAL}.]]></CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_UnloadReport>
+  <CodeOptimist.WhileYoureUp_Opportunity_Tab><![CDATA[Hauls of Opportunity]]></CodeOptimist.WhileYoureUp_Opportunity_Tab>
+  <CodeOptimist.WhileYoureUp_Opportunity_Intro><![CDATA[<color=#999999>"</color><color=#87f6f6>...正在前往...</color><color=#999999>"
+
+上班途中拖运是一项普通功能，因此通常与所有模组兼容。某些存储模块使用延迟，因此默认情况下是不允许的。
+
+我们在流血或组成商队时会错过机会。</color>]]></CodeOptimist.WhileYoureUp_Opportunity_Intro>
+  <CodeOptimist.WhileYoureUp_OpportunityAdvanced_Tab><![CDATA[高级设置]]></CodeOptimist.WhileYoureUp_OpportunityAdvanced_Tab>
+  <CodeOptimist.WhileYoureUp_OpportunityAdvanced_Text1><![CDATA[Vanilla, Default, Pathfinding<color=#999999>：最大距离比率（参见工具提示）。</color>
+]]></CodeOptimist.WhileYoureUp_OpportunityAdvanced_Text1>
+  <CodeOptimist.WhileYoureUp_OpportunityAdvanced_Text2><![CDATA[Vanilla<color=#999999>: 限制以性能换取机会的最大距离/比率。</color>
+默认，探路<color=#999999>：用作性能启发的软限制。</color>
+]]></CodeOptimist.WhileYoureUp_OpportunityAdvanced_Text2>
+  <CodeOptimist.WhileYoureUp_OpportunityAdvanced_Text3><![CDATA[仅限原版<color=#999999>：最大区域查找计数（比寻路更快，但距离可变 -请参阅工具提示）。</color>
+]]></CodeOptimist.WhileYoureUp_OpportunityAdvanced_Text3>
+  <CodeOptimist.WhileYoureUp_HaulBeforeCarry_Tab><![CDATA[用品和成分]]></CodeOptimist.WhileYoureUp_HaulBeforeCarry_Tab>
+  <CodeOptimist.WhileYoureUp_HaulBeforeCarry_Intro><![CDATA[<color=#999999>"</color><color=#87f6f6>...更接近...</color><color=#999999>"
+
+典当会找到最近的资源，这些资源有时正在等待运送到我们工作地点附近的仓库。首先这样做，我们的 pawn 就可以获取额外的东西。</color>]]></CodeOptimist.WhileYoureUp_HaulBeforeCarry_Intro>
+  <CodeOptimist.WhileYoureUp_HaulBeforeCarry_EqualPriority><![CDATA[<color=#999999>如果资源已在存储中，我们的 pawn 不会节省专门运输车的行程，但仍然可以获取额外的资源，以加快他们未来的工作。</color>]]></CodeOptimist.WhileYoureUp_HaulBeforeCarry_EqualPriority>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_Tab><![CDATA[拾取和拖运+]]></CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_Tab>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_Text1><![CDATA[增强和集成]]></CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_Text1>
+  <CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_Text2><![CDATA[拾取和拖运
+
+<color=#999999>Pawn 将按照最接近的顺序在每个目的地卸载一次。
+
+缓存可运输目的地以提高性能。</color>
+
+机遇的牵引
+
+<color=#999999>收集并卸载典当的全部库存永远不会超过“机会主义”的标准。</color>
+
+用品和成分
+
+<color=#999999>Pawn 将额外的补给品或原料拖到更近的仓库也会抢夺非资源，除非流血。</color>]]></CodeOptimist.WhileYoureUp_PickUpAndHaulPlus_Text2>
+  <CodeOptimist.WhileYoureUp_Debug_CellOccupied><![CDATA[单元格已占用]]></CodeOptimist.WhileYoureUp_Debug_CellOccupied>
+  <CodeOptimist.WhileYoureUp_Debug_TooFar><![CDATA[太远]]></CodeOptimist.WhileYoureUp_Debug_TooFar>
+  <CodeOptimist.WhileYoureUp_Debug_Dropping><![CDATA[掉落]]></CodeOptimist.WhileYoureUp_Debug_Dropping>
+  <CodeOptimist.WhileYoureUp_Label_Enabled><![CDATA[启用]]></CodeOptimist.WhileYoureUp_Label_Enabled>
+  <CodeOptimist.WhileYoureUp_Tooltip_Enabled><![CDATA[无需重新启动即可切换整个模组。
+对于故障排除很有用。]]></CodeOptimist.WhileYoureUp_Tooltip_Enabled>
+  <CodeOptimist.WhileYoureUp_Label_UsePickUpAndHaulPlus><![CDATA[使用和改进拾取和拖运]]></CodeOptimist.WhileYoureUp_Label_UsePickUpAndHaulPlus>
+  <CodeOptimist.WhileYoureUp_Tooltip_UsePickUpAndHaulPlus><![CDATA[启用后选项卡中的详细信息。]]></CodeOptimist.WhileYoureUp_Tooltip_UsePickUpAndHaulPlus>
+  <CodeOptimist.WhileYoureUp_Label_DrawSpecialHauls><![CDATA[绘制彩色路径弯路]]></CodeOptimist.WhileYoureUp_Label_DrawSpecialHauls>
+  <CodeOptimist.WhileYoureUp_Tooltip_DrawSpecialHauls><![CDATA[原始工作路径为红色，新的机会路径为绿色。
+
+原始成分/供应路径为洋红色，新的最佳路径为青色。
+
+当原始单元已被占用时，黄色路径将被拒绝，这是不合适的卸载替代方案。
+
+（这与原版的<i>开发模式→检查器图标→可见性→绘制机会工作</i>同步。）]]></CodeOptimist.WhileYoureUp_Tooltip_DrawSpecialHauls>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker><![CDATA[路径检查]]></CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_PathChecker><![CDATA[我们的默认设置是高性能的，但在最终检查之前，无法通过的墙壁和上锁的门将被忽略——这意味着如果失败就没有机会。这些情况在开放基地中不太常见。
+
+“搜索期间寻路”速度很慢，但保证能找到机会（如果存在）。推荐用于小型殖民地、快速机器或那些急需在山区基地运输的人。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_PathChecker>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker_Vanilla><![CDATA[在范围和区域计数内（普通）
+FPS：★★★★ 机会：★☆☆☆]]></CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker_Vanilla>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker_Default><![CDATA[搜索后寻路一次（默认）
+FPS：★★★☆ 机会：★★★☆]]></CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker_Default>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker_Pathfinding><![CDATA[搜索期间探路
+FPS：★☆☆☆ 机会：★★★★]]></CodeOptimist.WhileYoureUp_Label_Opportunity_PathChecker_Pathfinding>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_TweakVanilla><![CDATA[显示高级机会设置选项卡...]]></CodeOptimist.WhileYoureUp_Label_Opportunity_TweakVanilla>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_TweakVanilla><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_TweakVanilla>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStartToThing><![CDATA[<color=#dcffaf>开始</color>➡<color=#87f6f6>hau可拖运的olor>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStartToThing>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStartToThing><![CDATA[If (<color=#dcffaf>start</color>➡<color=#87f6f6>haulable</color>) 超过此值，则该批货物不合格。
+
+“Start”是棋子的起始位置，
+如果可拖运的物品距离棋子的起始位置比这个距离更远，则该拖运被取消资格。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStartToThing>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStoreToJob><![CDATA[<color=#d09b61>贮存</color>➡<color=#d46f68>工作</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStoreToJob>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStoreToJob><![CDATA[If (<color=#d09b61>storage</color>➡<color=#d46f68>job</color>) 超过此值，则该批货物不合格。
+
+如果可运输物品的存储距离典当的最终位置比此更远，则该运输被取消资格。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStoreToJob>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStartToThingPctOrigTrip><![CDATA[<color=#dcffaf>开始</color>➡<color=#87f6f6>haulable</color> : <color=#dcffaf>开始</color>➡<color=#d46f68>job</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStartToThingPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStartToThingPctOrigTrip><![CDATA[If (<color=#dcffaf>开始</color>➡<color=#87f6f6>haulable</color> / <color=#dcffaf>开始</color>➡<color=#d46f68>job</color>) exceeds this percentage, the haul is disqualified.]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStartToThingPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStoreToJobPctOrigTrip><![CDATA[<color=#d09b61>贮存</color>➡<color=#d46f68>job</color> : <color=#dcffaf>开始</color>➡<color=#d46f68>job</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStoreToJobPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStoreToJobPctOrigTrip><![CDATA[If (<color=#d09b61>贮存</color>➡<color=#d46f68>job</color> / <color=#dcffaf>开始</color>➡<color=#d46f68>job</color>) 超过此百分比，则该批货物被取消资格。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStoreToJobPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxNewLegsPctOrigTrip><![CDATA[<color=#dcffaf>开始</color>➡<color=#87f6f6>haulable</color> + <color=#d09b61>贮存</color>➡<color=#d46f68>job</color> : <color=#dcffaf>开始</color>➡<color=#d46f68>job</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxNewLegsPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxNewLegsPctOrigTrip><![CDATA[这是新行程的“额外行程”与原行程的比率。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxNewLegsPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxTotalTripPctOrigTrip><![CDATA[<color=#dcffaf>start</color>➡<color=#87f6f6>haulable</color>➡<color=#d09b61>storage</color>➡<color=#d46f68>job</color> : <color=#dcffaf>开始</color>➡<color=#d46f68>job</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxTotalTripPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxTotalTripPctOrigTrip><![CDATA[这是新行程与原始行程的比率。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxTotalTripPctOrigTrip>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStartToThingRegionLookCount><![CDATA[<color=#dcffaf>开始</color>➡<color=#87f6f6>可拖运的</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStartToThingRegionLookCount>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStartToThingRegionLookCount><![CDATA[要了解这一点，请启用开发模式 → 检查器图标 → 可见性 → 绘制区域</i>.
+
+探索从起始区域开始，扩展到所有邻居，直到遇到目标区域。此设置限制了探索的总数 -即使是那些方向错误的。
+
+它不能从距离完美地计算出来，因为区域的大小和邻居会有所不同。 （走廊只有向前和向后，因此需要进一步探索。）
+但在完全开放的场地中，如果棋子必须移动 n=3 个全尺寸 12x12 区域（约 36 个图块）的距离，则算法将探索 2(n^2+n)+1 或 25 个区域。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStartToThingRegionLookCount>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStoreToJobRegionLookCount><![CDATA[<color=#d09b61>storage</color>➡<color=#d46f68>job</color>]]></CodeOptimist.WhileYoureUp_Label_Opportunity_MaxStoreToJobRegionLookCount>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStoreToJobRegionLookCount><![CDATA[要了解这一点，请启用<i>开发模式 → 检查器图标 → 可见性 → 绘制区域</i>。
+
+探索从起始区域开始，扩展到所有邻居，直到遇到目标区域。此设置限制了探索的总数 -即使是那些方向错误的。
+
+它不能从距离完美地计算出来，因为区域的大小和邻居会有所不同。 （走廊只有向前和向后，因此需要进一步探索。）
+但在完全开放的场地中，如果棋子必须移动 n=3 个全尺寸 12x12 区域（约 36 个图块）的距离，则算法将探索 2(n^2+n)+1 或 25 个区域。]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_MaxStoreToJobRegionLookCount>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_ToStockpiles><![CDATA[库存]]></CodeOptimist.WhileYoureUp_Label_Opportunity_ToStockpiles>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_ToStockpiles><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_ToStockpiles>
+  <CodeOptimist.WhileYoureUp_Label_Opportunity_AutoBuildings><![CDATA[Edit manually (不会用mod更新)]]></CodeOptimist.WhileYoureUp_Label_Opportunity_AutoBuildings>
+  <CodeOptimist.WhileYoureUp_Tooltip_Opportunity_AutoBuildings><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_Opportunity_AutoBuildings>
+  <CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_Supplies><![CDATA[将额外的建筑材料运送到附近]]></CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_Supplies>
+  <CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_Supplies><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_Supplies>
+  <CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_Bills><![CDATA[将多余的原料拖得更近]]></CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_Bills>
+  <CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_Bills><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_Bills>
+  <CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_ToEqualPriority><![CDATA[将额外资源拉近距相同优先级存储的位置]]></CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_ToEqualPriority>
+  <CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_ToEqualPriority><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_ToEqualPriority>
+  <CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_ToStockpiles><![CDATA[库存]]></CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_ToStockpiles>
+  <CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_ToStockpiles><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_ToStockpiles>
+  <CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_AutoBuildings><![CDATA[手动编辑（不会用mod更新)]]></CodeOptimist.WhileYoureUp_Label_HaulBeforeCarry_AutoBuildings>
+  <CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_AutoBuildings><![CDATA[]]></CodeOptimist.WhileYoureUp_Tooltip_HaulBeforeCarry_AutoBuildings>
+</LanguageData>

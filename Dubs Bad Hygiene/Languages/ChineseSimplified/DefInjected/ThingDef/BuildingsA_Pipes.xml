@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+  <sewagePipeStuff.label>管道</sewagePipeStuff.label>
+  <sewagePipeStuff.description>用于连接卫生设备的管道。</sewagePipeStuff.description>
+  <Blueprint_sewagePipeStuff.label>管道（蓝图）</Blueprint_sewagePipeStuff.label>
+  <Frame_sewagePipeStuff.label>管道（建筑物）</Frame_sewagePipeStuff.label>
+  <Frame_sewagePipeStuff.description>用于连接管道物体的管道。</Frame_sewagePipeStuff.description>
+
+  <plumbingValve.label>管道阀门</plumbingValve.label>
+  <plumbingValve.description>打开或关闭管道之间的连接。</plumbingValve.description>
+  <Blueprint_plumbingValve.label>管道阀门（图纸）</Blueprint_plumbingValve.label>
+  <Blueprint_Install_plumbingValve.label>管道阀门（图纸）</Blueprint_Install_plumbingValve.label>
+  <Frame_plumbingValve.label>管道阀门（建筑）</Frame_plumbingValve.label>
+  <Frame_plumbingValve.description>打开或关闭管道之间的连接.</Frame_plumbingValve.description>
+
+  <airPipe.label>通风管道</airPipe.label>
+  <airPipe.description>用于连接空调设备的通风管道。</airPipe.description>
+  <Blueprint_airPipe.label>空调管（图纸）</Blueprint_airPipe.label>
+  <Frame_airPipe.label>空调管道（建筑）</Frame_airPipe.label>
+  <Frame_airPipe.description>连接空调机组的管道。</Frame_airPipe.description>
+
+
+
+
+
+
+
+
+
+</LanguageData>

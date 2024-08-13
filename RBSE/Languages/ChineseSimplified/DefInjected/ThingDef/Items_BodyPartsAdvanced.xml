@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced bionic arm -->
+  <AdvancedBionicArm.label>先进仿生臂</AdvancedBionicArm.label>
+  <!-- EN: An upgraded bionic arm. Advanced technology that improves manipulation further. -->
+  <AdvancedBionicArm.description>升级的仿生臂。使用的先进技术进一步提高了操作能力。</AdvancedBionicArm.description>
+  
+  <!-- EN: advanced bionic ear -->
+  <AdvancedBionicEar.label>先进仿生耳</AdvancedBionicEar.label>
+  <!-- EN: An upgraded bionic ear. This device further improves social impact, negotiation ability and animal training. -->
+  <AdvancedBionicEar.description>升级的仿生耳。该装置进一步提高了社交能力、谈判能力和动物训练的效果。</AdvancedBionicEar.description>
+  
+  <!-- EN: advanced bionic eye -->
+  <AdvancedBionicEye.label>先进仿生眼</AdvancedBionicEye.label>
+  <!-- EN: An upgraded bionic eye.This advanced piece of technology allows the user to see perfectly in the dark as well as to see through walls. -->
+  <AdvancedBionicEye.description>这项先进技术除了让使用者在黑暗中也拥有完美的视力，还能透视墙壁。</AdvancedBionicEye.description>
+  
+  <!-- EN: advanced bionic foot -->
+  <AdvancedBionicFoot.label>先进仿生足</AdvancedBionicFoot.label>
+  <!-- EN: An upgraded bionic foot. Dozens of servomotors grant faster movement and ultimate comfort. -->
+  <AdvancedBionicFoot.description>大量的伺服马达给予使用者更高的移动速度和极致的舒适性。</AdvancedBionicFoot.description>
+  
+  <!-- EN: advanced bionic hand -->
+  <AdvancedBionicHand.label>先进仿生手</AdvancedBionicHand.label>
+  <!-- EN: An upgraded bionic hand. Some people would chop their own hands off just to get this gorgeous piece of tech. -->
+  <AdvancedBionicHand.description>有些人甚至会为了装上这种华丽的部件而剁掉自己的手。</AdvancedBionicHand.description>
+  
+  <!-- EN: advanced bionic leg -->
+  <AdvancedBionicLeg.label>先进仿生腿</AdvancedBionicLeg.label>
+  <!-- EN: An upgraded bionic leg. Advanced technology that allows the user to move around faster than ever. -->
+  <AdvancedBionicLeg.description>升级的仿生腿。采用的先进技术提高了移动能力。</AdvancedBionicLeg.description>
+  
+  <!-- EN: advanced bionic spine -->
+  <AdvancedBionicSpine.label>先进仿生脊椎</AdvancedBionicSpine.label>
+  <!-- EN: An upgraded bionic spine. This durable device makes the user extremely mobile and flexible. -->
+  <AdvancedBionicSpine.description>这个耐用的设备支撑背部，并且让工作和行走更加舒适。</AdvancedBionicSpine.description>
+  
+  <!-- EN: advanced power arm -->
+  <AdvancedPowerArm.label>先进动力臂</AdvancedPowerArm.label>
+  <!-- EN: An upgraded artificial power arm. Highly lethal and effective in combat.\n\nDo not install on an unstable subject, as this might cause unwanted death and destruction. -->
+  <AdvancedPowerArm.description>更加无与伦比的力量与敏捷，并且带有锋利、可伸缩的利爪。目前手臂的终极升级方案！</AdvancedPowerArm.description>
+  
+  <!-- EN: exoskeleton suit -->
+  <ExoskeletonSuit.label>外骨骼</ExoskeletonSuit.label>
+  <!-- EN: A high tech device made out of two components: a light skeletal structure and servomotors to make the user faster and stronger. -->
+  <ExoskeletonSuit.description>这个高科技设备由两个部件组成：接替背部的轻便骨骼结构、增加使用者力量的伺服马达。</ExoskeletonSuit.description>
+  
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: heart -->
+  <Heart.label>心脏</Heart.label>
+  <!-- EN: Supplies blood and oxygen to all parts of the body. Ready to find a new owner. Needs refrigeration. -->
+  <Heart.description>一个来自生物的心脏，负责将血液和氧气供给到身体的各个位置。</Heart.description>
+  
+  <!-- EN: kidney -->
+  <Kidney.label>肾</Kidney.label>
+  <!-- EN: Filters and removes waste products from the blood. Needs refrigeration. -->
+  <Kidney.description>一个来自生物的肾脏，过滤并移除血液中的废物。</Kidney.description>
+  
+  <!-- EN: liver -->
+  <Liver.label>肝</Liver.label>
+  <!-- EN: Plays an important role in metabolism and filtration. Needs refrigeration. -->
+  <Liver.description>一个来自生物的肝，在新陈代谢扮演重要的角色。</Liver.description>
+  
+  <!-- EN: lung -->
+  <Lung.label>肺</Lung.label>
+  <!-- EN: Essential part of the respiratory system. Needs refrigeration. -->
+  <Lung.description>一个来自生物的肺，呼吸系统的重要组成部分。</Lung.description>
+  
+  <!-- EN: stomach -->
+  <Stomach.label>胃</Stomach.label>
+  <!-- EN: Digests food and turns it into energy and nutrients. Needs refrigeration. -->
+  <Stomach.description>消化食物并转化成能量和营养。</Stomach.description>
+  
+</LanguageData>

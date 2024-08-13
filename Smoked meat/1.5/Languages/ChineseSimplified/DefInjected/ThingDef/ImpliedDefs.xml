@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <Blueprint_SmokeHouse.label>熏制室 (蓝图)</Blueprint_SmokeHouse.label>
+
+
+  <Blueprint_Smokepit.label>烟熏坑 (蓝图)</Blueprint_Smokepit.label>
+
+
+  <Frame_SmokeHouse.label>熏制室 (建筑物)</Frame_SmokeHouse.label>
+
+  <Frame_SmokeHouse.description>一种封闭的木质结构房屋，用来通过烟熏来保存肉食。石头地板可以防止整个建筑着火；钢钩和置物架则用来摆放肉类以达到最佳效果。</Frame_SmokeHouse.description>
+
+
+  <Frame_Smokepit.label>烟熏坑 (建造中)</Frame_Smokepit.label>
+
+  <Frame_Smokepit.description>用于烘干和熏制肉类。能供燃烧几天。可重复装填不会产生太多热量。</Frame_Smokepit.description>
+
+</LanguageData>

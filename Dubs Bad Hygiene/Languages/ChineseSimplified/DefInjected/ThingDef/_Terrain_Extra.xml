@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+  <Blueprint_DBHMosaicTile.label>马赛克瓷砖（蓝图）</Blueprint_DBHMosaicTile.label>
+  <Frame_DBHMosaicTile.label>马赛克瓷砖（建筑物）</Frame_DBHMosaicTile.label>
+  <Frame_DBHMosaicTile.description>地形建设正在进行中.</Frame_DBHMosaicTile.description>
+
+  <Blueprint_DBHMosaicSandstone.label>砂岩马赛克瓷砖（蓝图）</Blueprint_DBHMosaicSandstone.label>
+  <Frame_DBHMosaicSandstone.label>砂岩马赛克瓷砖（建筑）</Frame_DBHMosaicSandstone.label>
+  <Frame_DBHMosaicSandstone.description>地形建设正在进行中.</Frame_DBHMosaicSandstone.description>
+
+  <Blueprint_DBHMosaicGranite.label>花岗岩马赛克（蓝图）</Blueprint_DBHMosaicGranite.label>
+  <Frame_DBHMosaicGranite.label>花岗岩马赛克（建筑）</Frame_DBHMosaicGranite.label>
+  <Frame_DBHMosaicGranite.description>地形建设正在进行中.</Frame_DBHMosaicGranite.description>
+
+  <Blueprint_DBHMosaicLimestone.label>石灰岩马赛克瓷砖（蓝图）</Blueprint_DBHMosaicLimestone.label>
+  <Frame_DBHMosaicLimestone.label>石灰岩马赛克瓷砖（建筑）</Frame_DBHMosaicLimestone.label>
+  <Frame_DBHMosaicLimestone.description>地形建设正在进行中.</Frame_DBHMosaicLimestone.description>
+
+  <Blueprint_DBHMosaicSlate.label>板岩马赛克（蓝图）</Blueprint_DBHMosaicSlate.label>
+  <Frame_DBHMosaicSlate.label>板岩马赛克（建筑）</Frame_DBHMosaicSlate.label>
+  <Frame_DBHMosaicSlate.description>地形建设正在进行中.</Frame_DBHMosaicSlate.description>
+
+  <Blueprint_DBHMosaicMarble.label>大理石马赛克瓷砖（蓝图）</Blueprint_DBHMosaicMarble.label>
+  <Frame_DBHMosaicMarble.label>大理石马赛克（建筑）</Frame_DBHMosaicMarble.label>
+  <Frame_DBHMosaicMarble.description>地形建设正在进行中.</Frame_DBHMosaicMarble.description>
+
+
+</LanguageData>

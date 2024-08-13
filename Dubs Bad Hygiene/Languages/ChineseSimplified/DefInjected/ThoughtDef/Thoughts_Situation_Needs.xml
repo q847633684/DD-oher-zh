@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HygieneLevel.stages.filthy.label>污秽</HygieneLevel.stages.filthy.label>
+  <HygieneLevel.stages.filthy.description>我闻起来就像在污水里游泳一样。</HygieneLevel.stages.filthy.description>
+  <HygieneLevel.stages.grimy.label>肮脏的</HygieneLevel.stages.grimy.label>
+  <HygieneLevel.stages.grimy.description>我感觉有点脏。</HygieneLevel.stages.grimy.description>
+  <HygieneLevel.stages.clean.label>干净的</HygieneLevel.stages.clean.label>
+  <HygieneLevel.stages.clean.description>我感觉清新干净。</HygieneLevel.stages.clean.description>
+  <HygieneLevel.stages.squeaky_clean.label>非常干净</HygieneLevel.stages.squeaky_clean.label>
+  <HygieneLevel.stages.squeaky_clean.description>我干净得很！</HygieneLevel.stages.squeaky_clean.description>
+
+  <BowelLevel.stages.bursting.label>憋不住了</BowelLevel.stages.bursting.label>
+  <BowelLevel.stages.bursting.description>我要上厕所！马上！憋不住了！</BowelLevel.stages.bursting.description>
+  <BowelLevel.stages.need_the_bathroom.label>需要卫生间</BowelLevel.stages.need_the_bathroom.label>
+  <BowelLevel.stages.need_the_bathroom.description>我需要去洗手间。</BowelLevel.stages.need_the_bathroom.description>
+
+</LanguageData>

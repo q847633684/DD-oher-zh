@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cure bite -->
+  <CureInjuryBite.label>治愈咬伤</CureInjuryBite.label>
+  <!-- EN: Cure bite. -->
+  <CureInjuryBite.description>治愈咬伤。</CureInjuryBite.description>
+  <!-- EN: Curing bite. -->
+  <CureInjuryBite.jobString>正在治愈咬伤。</CureInjuryBite.jobString>
+  
+  <!-- EN: cure bruise -->
+  <CureInjuryBruise.label>治愈瘀伤</CureInjuryBruise.label>
+  <!-- EN: Cure bruise. -->
+  <CureInjuryBruise.description>治愈瘀伤。</CureInjuryBruise.description>
+  <!-- EN: Curing bruise. -->
+  <CureInjuryBruise.jobString>正在治愈瘀伤。</CureInjuryBruise.jobString>
+  
+  <!-- EN: cure burn -->
+  <CureInjuryBurn.label>治愈烧伤</CureInjuryBurn.label>
+  <!-- EN: Cure burn. -->
+  <CureInjuryBurn.description>治愈烧伤。</CureInjuryBurn.description>
+  <!-- EN: Curing burn. -->
+  <CureInjuryBurn.jobString>正在治愈烧伤。</CureInjuryBurn.jobString>
+  
+  <!-- EN: cure crack -->
+  <CureInjuryCrack.label>治愈破裂伤</CureInjuryCrack.label>
+  <!-- EN: Cure crack. -->
+  <CureInjuryCrack.description>治愈破裂伤。</CureInjuryCrack.description>
+  <!-- EN: Curing crack. -->
+  <CureInjuryCrack.jobString>正在治愈破裂伤。</CureInjuryCrack.jobString>
+  
+  <!-- EN: cure crush -->
+  <CureInjuryCrush.label>治愈压伤</CureInjuryCrush.label>
+  <!-- EN: Cure crush. -->
+  <CureInjuryCrush.description>治愈压伤。</CureInjuryCrush.description>
+  <!-- EN: Curing crush. -->
+  <CureInjuryCrush.jobString>正在治愈压伤。</CureInjuryCrush.jobString>
+  
+  <!-- EN: cure cut -->
+  <CureInjuryCut.label>治愈割伤</CureInjuryCut.label>
+  <!-- EN: Cure cut. -->
+  <CureInjuryCut.description>治愈割伤。</CureInjuryCut.description>
+  <!-- EN: Curing cut. -->
+  <CureInjuryCut.jobString>正在治愈割伤。</CureInjuryCut.jobString>
+  
+  <!-- EN: cure frostbite -->
+  <CureInjuryFrostbite.label>治愈冻伤</CureInjuryFrostbite.label>
+  <!-- EN: Cure frostbite. -->
+  <CureInjuryFrostbite.description>治愈冻伤。</CureInjuryFrostbite.description>
+  <!-- EN: Curing frostbite. -->
+  <CureInjuryFrostbite.jobString>正在治愈冻伤。</CureInjuryFrostbite.jobString>
+  <!-- EN: {0} has successfully treated {1}'s frostbite. -->
+  <CureInjuryFrostbite.successfullyRemovedHediffMessage>{0}已成功治愈{1}的冻伤。</CureInjuryFrostbite.successfullyRemovedHediffMessage>
+  
+  <!-- EN: cure gunshot -->
+  <CureInjuryGunshot.label>治愈枪伤</CureInjuryGunshot.label>
+  <!-- EN: Cure gunshot. -->
+  <CureInjuryGunshot.description>治愈枪伤。</CureInjuryGunshot.description>
+  <!-- EN: Curing gunshot. -->
+  <CureInjuryGunshot.jobString>正在治愈枪伤。</CureInjuryGunshot.jobString>
+  
+  <!-- EN: cure scratch -->
+  <CureInjuryScratch.label>治愈抓伤</CureInjuryScratch.label>
+  <!-- EN: Cure scratch. -->
+  <CureInjuryScratch.description>治愈抓伤。</CureInjuryScratch.description>
+  <!-- EN: Curing scratch. -->
+  <CureInjuryScratch.jobString>正在治愈抓伤。</CureInjuryScratch.jobString>
+  
+  <!-- EN: cure shredded -->
+  <CureInjuryShredded.label>治愈炸伤</CureInjuryShredded.label>
+  <!-- EN: Cure shredded. -->
+  <CureInjuryShredded.description>治愈炸伤。</CureInjuryShredded.description>
+  <!-- EN: Curing shredded. -->
+  <CureInjuryShredded.jobString>正在治愈炸伤。</CureInjuryShredded.jobString>
+  
+  <!-- EN: cure stab -->
+  <CureInjuryStab.label>治愈刺伤</CureInjuryStab.label>
+  <!-- EN: Cure stab. -->
+  <CureInjuryStab.description>治愈刺伤。</CureInjuryStab.description>
+  <!-- EN: Curing stab. -->
+  <CureInjuryStab.jobString>正在治愈刺伤。</CureInjuryStab.jobString>
+  
+  <!-- EN: cure surgical cut -->
+  <CureInjurySurgicalCut.label>治愈手术伤</CureInjurySurgicalCut.label>
+  <!-- EN: Cure surgical cut. -->
+  <CureInjurySurgicalCut.description>治愈手术伤。</CureInjurySurgicalCut.description>
+  <!-- EN: Curing surgical cut. -->
+  <CureInjurySurgicalCut.jobString>正在治愈手术伤。</CureInjurySurgicalCut.jobString>
+  
+</LanguageData>

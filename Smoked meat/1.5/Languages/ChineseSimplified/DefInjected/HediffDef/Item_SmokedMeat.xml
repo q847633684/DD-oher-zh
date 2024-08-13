@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <VP_AteSmokedMeat.label>烟熏肉</VP_AteSmokedMeat.label>
+
+  <VP_AteSmokedMeat.description>吃了为了保存而熏制的肉</VP_AteSmokedMeat.description>
+
+  <VP_AteSmokedMeat.stages.initialhidden.label>初始隐藏</VP_AteSmokedMeat.stages.initialhidden.label>
+
+  <VP_AteSmokedMeat.stages.ate_smoked_meat.label>吃了烟熏肉</VP_AteSmokedMeat.stages.ate_smoked_meat.label>
+
+</LanguageData>

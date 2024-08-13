@@ -1,0 +1,2675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PrisonerRapport.label>囚犯——融洽关系</PrisonerRapport.label>
+  <PrisonerRapport.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出了救援队—— [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion(p=2,INITIATOR_trait==abrasive)->[bad_opinion]</li>
+    <li>good_opinion->我可能会考虑...</li>
+    <li>good_opinion->我会考虑的...但是给我更多的时间思考，好吗？</li>
+    <li>good_opinion->我需要更多的时间来回忆我的想法......</li>
+    <li>good_opinion->请让我离开...</li>
+    <li>good_opinion->我……我不知道……</li>
+  </PrisonerRapport.logRulesInitiator.rulesStrings>
+
+  <PrisonerPassion.label>囚犯——激情</PrisonerPassion.label>
+  <PrisonerPassion.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定 [INITIATOR_factionName]已经派出救援队— [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion(INITIATOR_higherPassion==shooting)->在战斗中，我喜欢远距离射击。</li>
+    <li>good_opinion(INITIATOR_higherPassion==melee,INITIATOR_trait==brawler,priority=1)->在打斗中，我喜欢使用拳打脚踢。</li>
+    <li>good_opinion(INITIATOR_higherPassion==melee)->在战斗中，我喜欢使用近战武器。</li>
+    <li>good_opinion(INITIATOR_higherPassion==construction)->我喜欢砖石！</li>
+    <li>good_opinion(INITIATOR_higherPassion==construction)->我喜欢木工！</li>
+    <li>good_opinion(INITIATOR_higherPassion==mining)->我爱挖矿！</li>
+    <li>good_opinion(INITIATOR_higherPassion==cooking)->我爱下厨！</li>
+    <li>good_opinion(INITIATOR_higherPassion==plants)->总的来说，我喜欢植物。</li>
+    <li>good_opinion(INITIATOR_higherPassion==plants)->我爱农耕！</li>
+    <li>good_opinion(INITIATOR_higherPassion==animals)->我喜欢照顾动物！</li>
+    <li>good_opinion(INITIATOR_higherPassion==animals)->我喜欢动物！</li>
+    <li>good_opinion(INITIATOR_higherPassion==crafting)->我喜欢手工！</li>
+    <li>good_opinion(INITIATOR_higherPassion==artistic)->我热爱艺术！</li>
+    <li>good_opinion(INITIATOR_higherPassion==medical)->我喜欢照顾别人！</li>
+    <li>good_opinion(INITIATOR_higherPassion==medical)->我爱医学！</li>
+    <li>good_opinion(INITIATOR_higherPassion==social)->我喜欢和人们在一起！</li>
+    <li>good_opinion(INITIATOR_higherPassion==social)->我喜欢谈判！</li>
+    <li>good_opinion(INITIATOR_higherPassion==intellectual)->我喜欢逻辑和推理！</li>
+    <li>good_opinion(INITIATOR_higherPassion==intellectual)->我喜欢进行研究项目！</li>
+    <li>good_opinion(priority=-1)->我没有偏好的活动...</li>
+  </PrisonerPassion.logRulesInitiator.rulesStrings>
+
+  <PrisonerBestSkill.label>prisoner — best skill</PrisonerBestSkill.label>
+  <PrisonerBestSkill.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion(INITIATOR_bestSkill==animals)->我最擅长照顾动物。</li>
+    <li>good_opinion(INITIATOR_bestSkill==plants)->我最擅长农耕。</li>
+    <li>good_opinion(INITIATOR_bestSkill==artistic)->我最擅长的是艺术。</li>
+    <li>good_opinion(INITIATOR_bestSkill==medical)->我最擅长照顾别人。</li>
+    <li>good_opinion(INITIATOR_bestSkill==medical)->我最擅长的是医学。</li>
+    <li>good_opinion(INITIATOR_bestSkill==social)->我最擅长谈判。</li>
+    <li>good_opinion(INITIATOR_bestSkill==social)->我最擅长与人相处。</li>
+    <li>good_opinion(INITIATOR_bestSkill==intellectual)->我最擅长逻辑和推理。</li>
+    <li>good_opinion(INITIATOR_bestSkill==intellectual)->我最擅长的是研究。</li>
+    <li>good_opinion(priority=-1)->我最擅长的是 [INITIATOR_bestSkill]。</li>
+  </PrisonerBestSkill.logRulesInitiator.rulesStrings>
+
+  <PrisonerAccepts.label>prisoner — accepts</PrisonerAccepts.label>
+  <PrisonerAccepts.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==EnvironmentDark,priority=1)->[dark_cell]</li>
+    <li>dark_cell(INITIATOR_trait==undergrounder)->[good_opinion]</li>
+    <li>dark_cell(INITIATOR_trait==night owl)->[good_opinion]</li>
+    <li>dark_cell(priority=-1)->我受够了这个黑暗牢房 — 我将加入 [RECIPIENT_factionName]！</li>
+    <li>r_logentry(INITIATOR_thoughtLabel==hideous environment,priority=1)->[ugly_cell]</li>
+    <li>r_logentry(INITIATOR_thoughtLabel==ugly environment,priority=1)->[ugly_cell]</li>
+    <li>r_logentry(INITIATOR_thoughtLabel==unsightly environment,priority=1)->[ugly_cell]</li>
+    <li>ugly_cell->我受够了这个可怕的地牢 — 我将加入 [RECIPIENT_factionName]！</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==EnvironmentCold,priority=1)->我只是想摆脱这寒冷。我会做任何事——我会加入[RECIPIENT_factionName]！</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==EnvironmentHot,priority=1)->我只是想摆脱这炎热。我会做任何事——我会加入[RECIPIENT_factionName]！</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==NeedFood,priority=1)->现在我是 [RECIPIENT_factionName] 的一员，我希望得到食物！</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==MyOrganHarvested,priority=1)->请！如果它阻止你摘取我的器官，我将加入[RECIPIENT_factionName]！</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion->我不想这么说，但是……你终于说服我加入你们肮脏的社区了。</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->我已准备好成为 [RECIPIENT_factionName] 的一员。</li>
+    <li>good_opinion->你终于说服了我，[recipient]。</li>
+    <li>good_opinion->你的论点终于赢得了我的支持，[recipient]。</li>
+    <li>good_opinion->我终于明白 [RECIPIENT_factionName] 对我来说是更好的选择。</li>
+    <li>good_opinion->我终于明白[RECIPIENT_factionName]可以保证我有一个更好的未来。</li>
+    <li>good_opinion->你知道吗？也许你毕竟没那么糟糕——我已经准备好加入[RECIPIENT_factionName]。</li>
+    <li>good_opinion->嗯...好吧，无论如何。算我一个。</li>
+    <li>good_opinion->如果加入[RECIPIENT_factionName]是离开这个牢房所需要的，那么我也可以加入。</li>
+    <li>good_opinion->我想了一下，我想我准备加入 [RECIPIENT_factionName]。</li>
+    <li>good_opinion->光是食物就值得留下来——我会加入[RECIPIENT_factionName]！</li>
+  </PrisonerAccepts.logRulesInitiator.rulesStrings>
+
+  <PrisonerRefuses.label>prisoner — refuses</PrisonerRefuses.label>
+  <PrisonerRefuses.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion->[part1] [part2]</li>
+    <li>part1->绝不！</li>
+    <li>part1->决不！</li>
+    <li>part1->一点也不！</li>
+    <li>part1->一百万年内不会！</li>
+    <li>part1->当然不是！</li>
+    <li>part1->当然不是！</li>
+    <li>part1(INITIATOR_intellectual_level&gt;=5)->任何情况下都不会。</li>
+    <li>part1(INITIATOR_intellectual_level&gt;=5)->在任何情况下。</li>
+    <li>part1(INITIATOR_intellectual_level&gt;=5)->没有帐户。</li>
+    <li>part2->如果我加入 [RECIPIENT_factionName]，我就是个傻瓜！</li>
+    <li>part2->我确信我在 [INITIATOR_factionName] 的朋友们正在派出救援队！</li>
+    <li>part2(INITIATOR_opinion&lt;=-25)->我永远不会加入一个接受像你这样糟糕的人的社区！</li>
+    <li>part2(INITIATOR_opinion&lt;=-25)->[aggressive]</li>
+    <li>part2(INITIATOR_mood&lt;0.4)->[aggressive]</li>
+    <li>aggressive->我宁愿死也不愿加入你们这个烂[faction]！</li>
+    <li>aggressive->faction</li>
+    <li>aggressive->你们的[faction]太糟糕了！</li>
+    <li>aggressive->[RECIPIENT_factionName]'s rescue party is on its way and will kill you all!</li>
+    <li>part2->我不想加入；我想回家！</li>
+    <li>part2(INITIATOR_thoughtDefName==NeedFood)->我在这里快饿死了，你想让我加入你吗？迷路！</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->不 — 我不会加入 [RECIPIENT_factionName]...</li>
+    <li>good_opinion->不——我宁愿回到我的社区。</li>
+    <li>good_opinion->不——我和[INITIATOR_factionName]一起会更好。</li>
+    <li>good_opinion->不——我不会背叛[INITIATOR_factionName]的信任。</li>
+    <li>good_opinion->我是[INITIATOR_factionName]的忠实成员——我不会加入你的[faction]。</li>
+    <li>good_opinion(INITIATOR_opinion&gt;=25)->谢谢你的提议，但是没有。</li>
+    <li>good_opinion(INITIATOR_opinion&gt;=25)->没有什么私人的，[recipient]——但我不会加入你的[faction]。</li>
+    <li>good_opinion(INITIATOR_opinion&gt;=25)->[nothingpersonal], [recipient] — 但我不会加入你的[faction].</li>
+    <li>nothingpersonal->与个人无关</li>
+    <li>nothingpersonal->我确实喜欢你</li>
+    <li>nothingpersonal->我[li] [interaction]</li>
+    <li>nothingpersonal->我[li] [interaction]</li>
+    <li>li->喜欢</li>
+    <li>li->享受</li>
+    <li>li->欣赏</li>
+    <li>interaction->我们的谈话</li>
+    <li>interaction->我们的谈话</li>
+    <li>interaction->你的公司</li>
+    <li>faction->派</li>
+    <li>faction->社区</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==NeedFood)->我宁愿和我的社区在一起——他们不会让我挨饿......</li>
+  </PrisonerRefuses.logRulesInitiator.rulesStrings>
+
+  <PrisonerEndchat.label>prisoner — end chat</PrisonerEndchat.label>
+  <PrisonerEndchat.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion->...</li>
+    <li>bad_opinion(INITIATOR_opinion&lt;=-25)->迷路...</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->...</li>
+    <li>good_opinion(INITIATOR_opinion&gt;=25)->稍后见，[recipient]。</li>
+  </PrisonerEndchat.logRulesInitiator.rulesStrings>
+
+
+  <!-- TRAITS -->
+
+  <PrisonerNeed.label>囚犯 — 需要任何东西</PrisonerNeed.label>
+  <PrisonerNeed.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请[bring_me]一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请[bring_me]一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion(p=2,INITIATOR_trait==abrasive)->[bad_opinion]</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==EnvironmentDark)->[environmentdark]</li>
+    <li>environmentdark(INITIATOR_trait==night owl,priority=2)->不要在这里设置任何灯光——我在黑暗中感觉更舒服。</li>
+    <li>environmentdark(INITIATOR_trait==undergrounder,priority=1)->黑暗对我来说就像家一样——但即便如此，我还是希望这里有一些光。</li>
+    <li>environmentdark->我想要这里有一些光——太黑了。</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==NeedFood,priority=1)->我需要吃点东西[needfood]</li>
+    <li>needfood->!</li>
+    <li>needfood(INITIATOR_trait==gourmand)->——我希望它是由专业厨师准备的。</li>
+    <li>needfood(INITIATOR_trait==ascetic)->——无论你吃什么饭菜，即使是生食，我都可以。</li>
+    <li>good_opinion(INITIATOR_trait==bloodlust)->我要割断你的喉咙，喝掉你的热血。</li>
+    <li>good_opinion(INITIATOR_trait==masochist)->打我，踢我，直到我晕倒——我活该……</li>
+    <li>good_opinion(INITIATOR_trait==ascetic)->我唯一的愿望就是离开这里，这样我就可以过上我想要的简单生活。</li>
+    <li>good_opinion(INITIATOR_trait==gourmand)->我的胃不适合低质量的食物，所以请确保我吃的饭菜是煮熟的。</li>
+    <li>good_opinion(INITIATOR_trait==pyromaniac)->我希望这个房间的墙上有点燃的火把。</li>
+    <li>good_opinion(priority=-1)->谢谢，我很好。</li>
+  </PrisonerNeed.logRulesInitiator.rulesStrings>
+
+  <PrisonerPsychic.label>prisoner — psychic</PrisonerPsychic.label>
+  <PrisonerPsychic.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==psychically sensitive,priority=1)->[psychic]</li>
+    <li>r_logentry(INITIATOR_trait==psychically hypersensitive,priority=1)->[psychic]</li>
+    <li>psychic(INITIATOR_opinion&lt;0)->[psy_bad_opinion]</li>
+    <li>psychic(INITIATOR_mood&lt;0.4,priority=1)->[psy_bad_opinion]</li>
+    <li>psychic(INITIATOR_trait==kind,priority=1)->[psy_good_opinion]</li>
+    <li>psychic(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>psychic(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>psy_bad_opinion->什么？！你的通灵术完全是假的……</li>
+    <li>psychic(INITIATOR_opinion&gt;=0)->[psy_good_opinion]</li>
+    <li>psy_good_opinion(p=2,INITIATOR_trait==abrasive)->[psy_bad_opinion]</li>
+    <li>psy_good_opinion->是的——你的心灵解读是正确的。</li>
+    <li>r_logentry->[non_psychic]</li>
+    <li>non_psychic(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>bad_opinion->闭嘴，你这个怪物！</li>
+    <li>bad_opinion->你的[sorcery]不会吓到我的！</li>
+    <li>bad_opinion->你是想用你的[sorcery]吓唬我吗？</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>non_psychic(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->等等……什么？</li>
+    <li>good_opinion->你……你在说什么？</li>
+    <li>good_opinion->再来？</li>
+    <li>good_opinion->精神气息……这是什么？</li>
+    <li>good_opinion->这是某种[sorcery]吗？</li>
+    <li>sorcery->巫术</li>
+    <li>sorcery->黑魔法</li>
+    <li>sorcery->巫术</li>
+    <li>sorcery->胡言乱语</li>
+  </PrisonerPsychic.logRulesInitiator.rulesStrings>
+
+  <PrisonerCV.label>囚犯 — 简历</PrisonerCV.label>
+  <PrisonerCV.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion(p=2,INITIATOR_trait==abrasive)->[bad_opinion]</li>
+    <li>good_opinion(INITIATOR_trait==bloodlust)->我喜欢屠杀我的敌人。</li>
+    <li>good_opinion(INITIATOR_trait==bloodlust)->我喜欢一边折磨人，一边看着他们的血在他们周围流淌。</li>
+    <li>good_opinion(INITIATOR_trait==kind)->我相信真诚的微笑和善意的话语可以取得很多成果。</li>
+    <li>good_opinion(INITIATOR_trait==nimble)->我很敏捷，可以轻松躲避近战攻击。</li>
+    <li>good_opinion(INITIATOR_trait==fast learner)->我是一个适应性强的人——这意味着我可以学得很快！</li>
+    <li>good_opinion(INITIATOR_trait==slow learner)->我喜欢慢慢来，所以我往往需要更多时间来学习新事物。</li>
+    <li>good_opinion(INITIATOR_trait==body modder)->我认为我们的身体很虚弱，需要生物增强。</li>
+    <li>good_opinion(INITIATOR_trait==body purist)->我相信我们的身体受到限制是有原因的——生物增强是令人厌恶和不道德的。</li>
+    <li>good_opinion(INITIATOR_trait==night owl)->我喜欢晚上工作。</li>
+    <li>good_opinion(INITIATOR_trait==greedy)->我只值得拥有生命中最好的——我不会接受更低的标准。</li>
+    <li>good_opinion(INITIATOR_trait==jealous)->当周围有黄金时，我从不接受被给予碎片——我是值得最好的人！</li>
+    <li>good_opinion(INITIATOR_trait==ascetic)->我喜欢简单的生活，没有物质欲望。</li>
+    <li>good_opinion(INITIATOR_trait==asexual)->我很高兴摆脱了奴役我们大部分生活的性冲动。</li>
+    <li>good_opinion(INITIATOR_trait==misandrist)->我坚信，男人都是残忍的，都是不值得信任的。</li>
+    <li>good_opinion(INITIATOR_trait==misogynist)->我坚信女人都是残忍的，都是不值得信任的。</li>
+    <li>good_opinion(INITIATOR_trait==great memory)->我对细节有极好的记忆力。</li>
+    <li>good_opinion(INITIATOR_trait==tough)->我皮厚肉厚，骨头坚韧，杀我可不是一件容易的事。</li>
+    <li>good_opinion(INITIATOR_trait==gourmand)->高级美食是我的爱好之一——我喜欢美味佳肴！</li>
+    <li>good_opinion(INITIATOR_trait==quick sleeper)->我往往比一般人需要更少的睡眠。</li>
+    <li>good_opinion(INITIATOR_trait==undergrounder)->我更喜欢住在地下洞穴里。</li>
+    <li>good_opinion(INITIATOR_trait==tortured artist)->没有人了解我的创造力，但我确实有巨大的艺术潜力......</li>
+    <li>good_opinion(INITIATOR_trait==teetotaler)->我讨厌从化学品或酒精饮料中获得快乐的想法。</li>
+    <li>good_opinion(INITIATOR_trait==industrious)->我很容易专注于任务——我做事的速度比一般人快得多。</li>
+    <li>good_opinion(INITIATOR_trait==hard worker)->我是一个天生的勤奋工作者，会比大多数人更快地完成任务。</li>
+    <li>good_opinion(INITIATOR_trait==lazy)->人们都说我有点懒...</li>
+    <li>good_opinion(INITIATOR_trait==slothful)->我只是喜欢睡觉、吃饭、放松和轻松——这是我理想的生活方式。</li>
+    <li>good_opinion(INITIATOR_trait==sanguine)->不管怎样，我对自己的处境自然感到乐观——几乎一直如此。</li>
+    <li>good_opinion(INITIATOR_trait==optimist)->我天生对生活很乐观——很难让我沮丧。</li>
+    <li>good_opinion(INITIATOR_trait==pessimist)->众所周知，对我来说，杯子总是半空的。</li>
+    <li>good_opinion(INITIATOR_trait==depressive)->幸福只是我们悲惨生活中变幻无常的幻想……</li>
+    <li>good_opinion(INITIATOR_trait==iron-willed)->我的意志是铁盾——当其他人早已崩溃时，我仍能继续风雨同舟。</li>
+    <li>good_opinion(INITIATOR_trait==steadfast)->我的心理很坚强，不会在令大多数人崩溃的压力下崩溃。</li>
+    <li>good_opinion(INITIATOR_trait==nervous)->我在压力下容易崩溃...</li>
+    <li>good_opinion(INITIATOR_trait==volatile)->我有时会情绪波动——在任何困难的情况下我都是第一个崩溃的人。</li>
+    <li>good_opinion(INITIATOR_trait==neurotic)->我喜欢把事情摆平——我会比大多数人更加努力地工作以实现我的目标，即使这可能意味着危及我的心理健康。</li>
+    <li>good_opinion(INITIATOR_trait==very neurotic)->事情必须摆平——这是完成工作的唯一正确方法。我将努力实现我的目标，无论付出什么代价。</li>
+    <li>good_opinion(INITIATOR_trait==super-immune)->我天生就有强大的免疫系统——我可以在会杀死别人的疾病中生存下来。</li>
+    <li>good_opinion(INITIATOR_trait==sickly)->我的免疫系统很差，所以不幸的是我比平时更容易生病。</li>
+    <li>good_opinion(priority=-1)->我真的没有什么特别的...</li>
+  </PrisonerCV.logRulesInitiator.rulesStrings>
+
+  <PrisonerClothes.label>prisoner — clothes</PrisonerClothes.label>
+  <PrisonerClothes.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion(p=2,INITIATOR_trait==abrasive)->[bad_opinion]</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==ClothedNudist,priority=1)->其实，如果没有这些束缚的衣服，我会觉得更自在……</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==HappyNude,priority=1)->我很好——我不需要任何衣服。</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==EnvironmentCold)->我想要一些暖和的衣服...</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==EnvironmentHot)->我想要一些轻便的衣服...</li>
+    <li>good_opinion(priority=-1)->谢谢——我对我现在的穿着很满意。</li>
+  </PrisonerClothes.logRulesInitiator.rulesStrings>
+
+
+  <!-- SKILLS -->
+
+  <PrisonerFightingSkills.label>囚犯 — 格斗技巧</PrisonerFightingSkills.label>
+  <PrisonerFightingSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[melee]</li>
+    <li>good_opinion(INITIATOR_trait==brawler)->[melee]</li>
+    <li>melee(INITIATOR_melee_level&gt;=15,priority=3)->[melee_master]</li>
+    <li>melee_master(INITIATOR_melee_passion==Minor)->近战一直是我最喜欢的风格——我现在完全掌握了这种风格。</li>
+    <li>melee_master(INITIATOR_melee_passion==Major)->我喜欢与敌人近距离接触——这就是为什么我可以轻松掌握所有近战艺术。</li>
+    <li>melee_master(p=3,INITIATOR_trait==bloodlust)->我熟练而毁灭性的攻击让我可以随心所欲地喝掉敌人的鲜血！</li>
+    <li>melee_master(p=3,INITIATOR_trait==brawler)->当我靠近敌人时，我很容易打碎他们的脸。</li>
+    <li>melee_master(p=3,INITIATOR_trait==nimble)->我通过躲避近战对手的攻击来让他们疲惫不堪——然后我巧妙地击中他们的弱点。</li>
+    <li>melee_master(p=3,INITIATOR_trait==tough)->我知道如何最好地抵御对手的打击，以及如何巧妙地击中他们的弱点。</li>
+    <li>melee_master(p=3,INITIATOR_trait==wimp)->尽管我显然是一名出色的近战战士，但我无法忍受长时间的战斗。</li>
+    <li>melee_master(priority=-1)->我是一位出色的近战战士。</li>
+    <li>melee(INITIATOR_melee_level&gt;=10,priority=2)->[melee_veteran]</li>
+    <li>melee_veteran(INITIATOR_melee_passion==Minor)->近战一直是我最喜欢的风格——这种风格带领我取得了许多胜利。</li>
+    <li>melee_veteran(INITIATOR_melee_passion==Major)->我喜欢与敌人近距离接触——而且我对此非常擅长。</li>
+    <li>melee_veteran(p=3,INITIATOR_trait==bloodlust)->我喜欢将我的双手沐浴在敌人的鲜血中——我的近战技能多次给了我这种乐趣！</li>
+    <li>melee_veteran(p=3,INITIATOR_trait==brawler)->如果我能接近敌人，我就能巧妙地砍倒他们。</li>
+    <li>melee_veteran(p=3,INITIATOR_trait==nimble)->我通过躲避近战对手的攻击来让他们疲惫不堪——然后我瞄准他们的弱点。</li>
+    <li>melee_veteran(p=3,INITIATOR_trait==tough)->我擅长承受对手的打击，然后反击他们的弱点。</li>
+    <li>melee_veteran(p=3,INITIATOR_trait==wimp)->尽管我显然是一名经验丰富的近战战士，但我无法承受长时间的战斗。</li>
+    <li>melee_veteran(priority=-1)->我是一名经验丰富的近战战士。</li>
+    <li>melee(INITIATOR_melee_level&gt;=5,priority=1)->[melee_green]</li>
+    <li>melee_green(INITIATOR_melee_passion==Minor)->近战一直是我最喜欢的风格——不过我仍然需要磨练我的技能。</li>
+    <li>melee_green(INITIATOR_melee_passion==Major)->我喜欢与敌人近距离接触——不过，我还有很多东西要学。</li>
+    <li>melee_green(p=3,INITIATOR_trait==bloodlust)->我很想获得更多的近距离战斗练习——并有更多机会看到我的敌人被自己的鲜血窒息！</li>
+    <li>melee_green(p=3,INITIATOR_trait==brawler)->我更喜欢近战，但我仍然需要一些练习才能擅长。</li>
+    <li>melee_green(p=3,INITIATOR_trait==nimble)->我通过躲避对手的攻击来让他们疲惫不堪——然后我尝试瞄准他们的弱点。</li>
+    <li>melee_green(p=3,INITIATOR_trait==tough)->我的皮厚、肉厚、骨头坚韧，可以承受很多打击——但我的近战技能却不太好。</li>
+    <li>melee_green(p=3,INITIATOR_trait==wimp)->我无法承受长时间的战斗。</li>
+    <li>melee_green(priority=-1)->我可以使用近战武器。</li>
+    <li>melee->[melee_unskilled]</li>
+    <li>melee_unskilled(INITIATOR_melee_passion==Minor)->我喜欢近战，但还需要大量练习。</li>
+    <li>melee_unskilled(INITIATOR_melee_passion==Major)->我喜欢与敌人近距离接触——但我几乎没有近战经验……</li>
+    <li>melee_unskilled(p=3,INITIATOR_trait==bloodlust)->我很想获得大量的近战练习——并有更多机会亲眼目睹我的敌人被自己的鲜血窒息！</li>
+    <li>melee_unskilled(p=3,INITIATOR_trait==brawler)->我更喜欢近战，但我仍然需要大量练习才能擅长。</li>
+    <li>melee_unskilled(p=3,INITIATOR_trait==nimble)->我希望通过躲避近战对手的攻击来让他们疲惫不堪……</li>
+    <li>melee_unskilled(p=3,INITIATOR_trait==tough)->厚皮、厚肉、坚韧的骨头，让我经受了很多打击——但仅此而已。</li>
+    <li>melee_unskilled(p=3,INITIATOR_trait==wimp)->我总是避免暴力——我无法忍受痛苦！</li>
+    <li>melee_unskilled(priority=-1)->我没有任何近身格斗的经验。</li>
+    <li>melee_unskilled(priority=-1)->我没有近战技能。</li>
+    <li>good_opinion->[shooting]</li>
+    <li>shooting(INITIATOR_shooting_level&gt;=15,priority=3)->[shooting_master]</li>
+    <li>shooting_master(INITIATOR_shooting_passion==Minor)->远程战斗一直是我最喜欢的风格——我现在完全掌握了这种风格。</li>
+    <li>shooting_master(INITIATOR_shooting_passion==Major)->我喜欢从远处射击敌人——这就是为什么我可以轻松掌握所有远程艺术。</li>
+    <li>shooting_master(p=3,INITIATOR_trait==bloodlust)->在我第一次射击后，我的敌人在自己的血泊中窒息——这是我珍惜和喜爱的景象！</li>
+    <li>shooting_master(p=3,INITIATOR_trait==brawler)->我非常擅长远程战斗，但我完全讨厌它——我更喜欢近战！</li>
+    <li>shooting_master(p=3,INITIATOR_trait==tough)->即使我被击中，我仍然完全有能力巧妙地击中敌人的弱点。</li>
+    <li>shooting_master(p=3,INITIATOR_trait==wimp)->尽管我显然是一名神枪手，但我无法忍受长时间的战斗。</li>
+    <li>shooting_master(p=3,INITIATOR_trait==careful shooter)->我相信熟练的射手必须在开枪之前瞄准目标——这就是我，这就是我所做的。</li>
+    <li>shooting_master(p=3,INITIATOR_trait==trigger-happy)->我可以一边喷一边祈祷——而且仍然能击中所有目标。</li>
+    <li>shooting_master(priority=-1)->我是一位神枪手。</li>
+    <li>shooting(INITIATOR_shooting_level&gt;=10,priority=2)->[shooting_veteran]</li>
+    <li>shooting_veteran(INITIATOR_shooting_passion==Minor)->远程战斗一直是我最喜欢的风格——这种风格带领我取得了许多胜利。</li>
+    <li>shooting_veteran(INITIATOR_shooting_passion==Major)->我喜欢从远处射击敌人——而且我对此非常熟练。</li>
+    <li>shooting_veteran(p=3,INITIATOR_trait==bloodlust)->我喜欢看着敌人的鲜血溅得到处都是——而我的远程技能多次给了我这种乐趣！</li>
+    <li>shooting_veteran(p=3,INITIATOR_trait==brawler)->我必须学习如何使用远程武器，但我讨厌它们——我更喜欢近战！</li>
+    <li>shooting_veteran(p=3,INITIATOR_trait==tough)->即使我被击中，我也会忍着疼痛向敌人开枪还击。</li>
+    <li>shooting_veteran(p=3,INITIATOR_trait==wimp)->尽管我显然是一名经验丰富的射手，但我无法忍受长时间的战斗。</li>
+    <li>shooting_veteran(p=3,INITIATOR_trait==careful shooter)->我在射击之前就瞄准了——这就是我成为职业射手的原因。</li>
+    <li>shooting_veteran(p=3,INITIATOR_trait==trigger-happy)->我可以喷洒并祈祷，但仍然能击中大部分目标。</li>
+    <li>shooting_veteran(priority=-1)->我是一名资深射手。</li>
+    <li>shooting(INITIATOR_shooting_level&gt;=5,priority=1)->[shooting_green]</li>
+    <li>shooting_green(INITIATOR_shooting_passion==Minor)->远程战斗一直是我最喜欢的风格——不过，我仍然需要磨练我的技能。</li>
+    <li>shooting_green(INITIATOR_shooting_passion==Major)->我喜欢从远处射击敌人——不过，我还有很多东西要学。</li>
+    <li>shooting_green(p=3,INITIATOR_trait==bloodlust)->我很想获得更多的远程战斗练习——并有更多的机会看到我的敌人被自己的鲜血窒息！</li>
+    <li>shooting_green(p=3,INITIATOR_trait==brawler)->我有一些远程战斗技能，但我讨厌它——我更喜欢近战！</li>
+    <li>shooting_green(p=3,INITIATOR_trait==tough)->我的皮厚、肉厚、骨头坚韧，让我能经受住很多射击——但我的射击技术并不好。</li>
+    <li>shooting_green(p=3,INITIATOR_trait==wimp)->我无法忍受长时间的战斗。</li>
+    <li>shooting_green(p=3,INITIATOR_trait==careful shooter)->我在开枪之前就瞄准了——这可以帮助我击中目标。</li>
+    <li>shooting_green(p=3,INITIATOR_trait==trigger-happy)->我一边喷一边祈祷——我可能会错过一些目标，但它能完成工作。</li>
+    <li>shooting_green(priority=-1)->我可以使用远程武器。</li>
+    <li>shooting->[shooting_unskilled]</li>
+    <li>shooting_unskilled(INITIATOR_shooting_passion==Minor)->我更喜欢从远处射击敌人，但我仍然需要大量练习。</li>
+    <li>shooting_unskilled(INITIATOR_shooting_passion==Major)->我喜欢远距离射击敌人——但我几乎没有射击经验……</li>
+    <li>shooting_unskilled(p=3,INITIATOR_trait==bloodlust)->我很想获得大量的远程战斗练习——并有更多机会看到我的敌人被自己的鲜血窒息！</li>
+    <li>shooting_unskilled(p=3,INITIATOR_trait==brawler)->我对远程武器完全没用——我更喜欢近距离战斗。</li>
+    <li>shooting_unskilled(p=3,INITIATOR_trait==tough)->我厚厚的皮肤、致密的肉和坚韧的骨骼让我能够承受很多次射击——但仅此而已。</li>
+    <li>shooting_unskilled(p=3,INITIATOR_trait==wimp)->我总是避免暴力——我无法忍受痛苦！</li>
+    <li>shooting_unskilled(p=3,INITIATOR_trait==careful shooter)->我在开枪之前就瞄准了——这是我希望击中目标的唯一方法。</li>
+    <li>shooting_unskilled(p=3,INITIATOR_trait==trigger-happy)->我只是闭上眼睛，尽可能多地拍摄——这是我能做到的最好的。</li>
+    <li>shooting_unskilled(priority=-1)->我没有任何远程战斗经验。</li>
+    <li>shooting_unskilled(priority=-1)->我没有远程战斗技能。</li>
+  </PrisonerFightingSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerConstructionSkills.label>prisoner — construction skill</PrisonerConstructionSkills.label>
+  <PrisonerConstructionSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[construction]</li>
+    <li>construction(INITIATOR_construction_level&gt;=15,priority=3)->[construction_master]</li>
+    <li>construction_master(INITIATOR_construction_passion==Minor)->我喜欢建造建筑——我建造的建筑通常都令人印象深刻。</li>
+    <li>construction_master(INITIATOR_construction_passion==Major)->我只是喜欢建筑结构——而且我建造的建筑通常都非常令人印象深刻。</li>
+    <li>construction_master(p=3,INITIATOR_trait==ascetic)->当接受别人的任务时，我可以轻松地构建最美丽和最高效的结构 -然而，对我自己来说，我更喜欢简单的东西。</li>
+    <li>construction_master(p=3,INITIATOR_trait==greedy)->我是少数能够建造出无与伦比的美丽和效率的建筑的人之一——这就是为什么我自己值得拥有它们。</li>
+    <li>construction_master(p=3,INITIATOR_trait==jealous)->我是少数能够建造出无与伦比的美丽和效率的建筑的人之一——这就是为什么除了我之外没有人应该拥有它们。</li>
+    <li>construction_master(priority=-1)->不是吹牛，但我在[performing]建筑任务方面已经达到了最高的技能水平。</li>
+    <li>construction(INITIATOR_construction_level&gt;=10,priority=2)->[construction_veteran]</li>
+    <li>construction_veteran(INITIATOR_construction_passion==Minor)->我喜欢建造建筑——我建造的建筑通常令人印象深刻。</li>
+    <li>construction_veteran(INITIATOR_construction_passion==Major)->我只是喜欢建筑结构——而且我建造的建筑通常令人印象深刻。</li>
+    <li>construction_veteran(p=3,INITIATOR_trait==ascetic)->当接受别人的任务时，我可以轻松地构建非常漂亮且高效的结构 -然而，对我自己来说，我更喜欢简单的东西。</li>
+    <li>construction_veteran(p=3,INITIATOR_trait==greedy)->很少有人能像我一样建造出美丽而高效的建筑——这就是为什么我认为我自己值得拥有它们。</li>
+    <li>construction_veteran(p=3,INITIATOR_trait==jealous)->很少有人能像我一样建造出美丽而高效的建筑——这就是为什么除了我之外没有人应该拥有它们。</li>
+    <li>construction_veteran(priority=-1)->不是吹牛，但我在[performing]施工任务方面已经达到了非常高的技能水平。</li>
+    <li>construction(INITIATOR_construction_level&gt;=5,priority=1)->[construction_green]</li>
+    <li>construction_green(INITIATOR_construction_passion==Minor)->我喜欢建筑结构。</li>
+    <li>construction_green(INITIATOR_construction_passion==Major)->我只是喜欢建筑结构！</li>
+    <li>construction_green(p=3,INITIATOR_trait==ascetic)->我可以建造像样的结构——顺便说一句，这是我自己更喜欢的结构。</li>
+    <li>construction_green(priority=-1)->我有一些[performing]施工任务的技能。</li>
+    <li>construction->[construction_unskilled]</li>
+    <li>construction_unskilled(INITIATOR_construction_passion==Minor)->我喜欢建筑结构，但我还有很多东西要学。</li>
+    <li>construction_unskilled(INITIATOR_construction_passion==Major)->我只是喜欢建筑结构，但我还有很多东西要学。</li>
+    <li>construction_unskilled(p=3,INITIATOR_trait==ascetic)->我拥有建造我喜欢的东西所需的所有建造技能——简单明了。</li>
+    <li>construction_unskilled(priority=-1)->我没有[performing]建筑任务的技能。</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->执行中</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->指挥</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=10)->实现</li>
+  </PrisonerConstructionSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerMiningSkills.label>prisoner — mining skill</PrisonerMiningSkills.label>
+  <PrisonerMiningSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[mining]</li>
+    <li>mining(INITIATOR_mining_level&gt;=15,priority=3)->[mining_master]</li>
+    <li>mining_master(INITIATOR_mining_passion==Minor)->我喜欢采矿——而且我的产量非常高且有价值。</li>
+    <li>mining_master(INITIATOR_mining_passion==Major)->我就是喜欢采矿——而且我的产量非常高而且有价值。</li>
+    <li>mining_master(p=3,INITIATOR_trait==undergrounder)->我的挖矿收益极高，价值极高，尤其是深度挖矿时。</li>
+    <li>mining_master(priority=-1)->不是吹牛，但我在[performing]采矿任务方面已经达到了最高的技能水平。</li>
+    <li>mining(INITIATOR_mining_level&gt;=10,priority=2)->[mining_veteran]</li>
+    <li>mining_veteran(INITIATOR_mining_passion==Minor)->我喜欢挖矿——而且我的收益相当高。</li>
+    <li>mining_veteran(INITIATOR_mining_passion==Major)->我只是喜欢采矿——而且我的产量相当高。</li>
+    <li>mining_veteran(p=3,INITIATOR_trait==undergrounder)->我的挖矿收益相当高，尤其是深度挖矿时。</li>
+    <li>mining_veteran(priority=-1)->不是吹牛，但我在[performing]采矿任务方面已经达到了非常高的技能水平。</li>
+    <li>mining(INITIATOR_mining_level&gt;=5,priority=1)->[mining_green]</li>
+    <li>mining_green(INITIATOR_mining_passion==Minor)->我喜欢采矿。</li>
+    <li>mining_green(INITIATOR_mining_passion==Major)->我就是喜欢挖矿！</li>
+    <li>mining_green(p=3,INITIATOR_trait==undergrounder)->我的挖矿收益还不错，尤其是深度挖矿时。</li>
+    <li>mining_green(priority=-1)->我有一些[performing]采矿任务的技能。</li>
+    <li>mining->[mining_unskilled]</li>
+    <li>mining_unskilled(INITIATOR_mining_passion==Minor)->我喜欢挖矿，但我还有很多东西要学。</li>
+    <li>mining_unskilled(INITIATOR_mining_passion==Major)->我只是喜欢挖矿，但我还有很多东西要学。</li>
+    <li>mining_unskilled(p=3,INITIATOR_trait==undergrounder)->我承认，我的挖矿收益很差——但在深度挖矿时，我通常表现得更好。</li>
+    <li>mining_unskilled(priority=-1)->我没有[performing]采矿任务的技能。</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->执行中</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->指挥</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=10)->实现</li>
+  </PrisonerMiningSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerCookingSkills.label>prisoner — cooking skill</PrisonerCookingSkills.label>
+  <PrisonerCookingSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[cooking]</li>
+    <li>cooking(INITIATOR_cooking_level&gt;=15,priority=3)->[cooking_master]</li>
+    <li>cooking_master(INITIATOR_cooking_passion==Minor)->我喜欢烹饪——我的菜肴对你的灵魂和身体来说就像天堂。</li>
+    <li>cooking_master(INITIATOR_cooking_passion==Major)->我只是喜欢烹饪——我的菜肴就像你的灵魂和身体的天堂。</li>
+    <li>cooking_master(p=3,INITIATOR_trait==ascetic)->我的菜非常美味，但我做给别人吃——我更喜欢给自己吃简单的食物。</li>
+    <li>cooking_master(p=3,INITIATOR_trait==gourmand)->我一生致力于美食和高级烹饪，而我精美独特的菜肴充分反映了这一点。</li>
+    <li>cooking_master(priority=-1)->不是吹牛，但我被认为是系统中最好的厨师之一。</li>
+    <li>cooking(INITIATOR_cooking_level&gt;=10,priority=2)->[cooking_veteran]</li>
+    <li>cooking_veteran(INITIATOR_cooking_passion==Minor)->我喜欢烹饪——而且我的菜非常美味。</li>
+    <li>cooking_veteran(INITIATOR_cooking_passion==Major)->我只是喜欢烹饪——而且我的菜非常美味。</li>
+    <li>cooking_veteran(p=3,INITIATOR_trait==ascetic)->我的菜很美味，但我做给别人吃——我更喜欢给自己吃简单的食物。</li>
+    <li>cooking_veteran(p=3,INITIATOR_trait==gourmand)->我花了很多时间在美食上——我的精美菜肴充分反映了这一点。</li>
+    <li>cooking_veteran(priority=-1)->不是吹牛，但我在[performing]烹饪任务方面已经达到了非常高的技能水平。</li>
+    <li>cooking(INITIATOR_cooking_level&gt;=5,priority=1)->[cooking_green]</li>
+    <li>cooking_green(INITIATOR_cooking_passion==Minor)->我喜欢做饭。</li>
+    <li>cooking_green(INITIATOR_cooking_passion==Major)->我就是喜欢做饭！</li>
+    <li>cooking_green(p=3,INITIATOR_trait==ascetic)->我可以做精美的菜肴，但我更喜欢为自己做简单的食物。</li>
+    <li>cooking_green(p=3,INITIATOR_trait==gourmand)->我不是专业厨师，但我只是喜欢烹饪和吃美味的食物！</li>
+    <li>cooking_green(priority=-1)->我有一些[performing]烹饪任务的技能。</li>
+    <li>cooking->[cooking_unskilled]</li>
+    <li>cooking_unskilled(INITIATOR_cooking_passion==Minor)->我喜欢烹饪，但我还有很多东西要学。</li>
+    <li>cooking_unskilled(INITIATOR_cooking_passion==Major)->我只是喜欢做饭，但我还有很多东西要学。</li>
+    <li>cooking_unskilled(p=3,INITIATOR_trait==ascetic)->我拥有按照自己喜欢的方式准备饭菜所需的所有烹饪技巧——简单明了。</li>
+    <li>cooking_unskilled(p=3,INITIATOR_trait==gourmand)->我只是喜欢吃美味的食物——但我当然要依靠别人来做饭！</li>
+    <li>cooking_unskilled(priority=-1)->我没有[performing]烹饪任务的技能。</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->执行中</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->指挥</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=10)->实现</li>
+  </PrisonerCookingSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerPlantsSkills.label>prisoner — plants skill</PrisonerPlantsSkills.label>
+  <PrisonerPlantsSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[plants]</li>
+    <li>plants(INITIATOR_plants_level&gt;=15,priority=3)->[plants_master]</li>
+    <li>plants_master(INITIATOR_plants_passion==Minor)->我喜欢务农——只要条件合适，我就能保证丰收。</li>
+    <li>plants_master(INITIATOR_plants_passion==Major)->我只是热爱农业——只要条件合适，我就能保证丰收。</li>
+    <li>plants_master(p=3,INITIATOR_trait==undergrounder)->我可以保证丰收，特别是地下或人工耕作。</li>
+    <li>plants_master(p=3,INITIATOR_trait==gourmand)->因为我吃惯了大餐，所以我必须时刻掌握顶尖的农耕技术，这样我就不会缺少好食材。</li>
+    <li>plants_master(p=3,INITIATOR_trait==teetotaler)->我可以保证丰收——但我讨厌种植任何药用植物。</li>
+    <li>plants_master(p=3,INITIATOR_trait==chemical fascination)->我可以保证丰收——尤其是药用植物。</li>
+    <li>plants_master(p=3,INITIATOR_trait==chemical interest)->我可以保证丰收——尤其是药用植物。</li>
+    <li>plants_master(priority=-1)->不是吹牛，但我被认为是系统中最好的农民之一。</li>
+    <li>plants(INITIATOR_plants_level&gt;=10,priority=2)->[plants_veteran]</li>
+    <li>plants_veteran(INITIATOR_plants_passion==Minor)->我喜欢务农——只要条件合适，我就能带来丰收。</li>
+    <li>plants_veteran(INITIATOR_plants_passion==Major)->我只是热爱农业——只要条件合适，我就能带来丰收。</li>
+    <li>plants_veteran(p=3,INITIATOR_trait==undergrounder)->我可以提供丰富的收成，尤其是地下或人工耕种的收成。</li>
+    <li>plants_veteran(p=3,INITIATOR_trait==gourmand)->因为我吃惯了大餐，所以我必须时刻掌握最好的农耕技术——这样我就不会缺少好食材。</li>
+    <li>plants_veteran(p=3,INITIATOR_trait==teetotaler)->我可以提供丰富的收成——但我讨厌种植任何药用植物。</li>
+    <li>plants_veteran(p=3,INITIATOR_trait==chemical fascination)->我可以提供丰富的收成——尤其是药用植物。</li>
+    <li>plants_veteran(p=3,INITIATOR_trait==chemical interest)->我可以提供丰富的收成——尤其是药用植物。</li>
+    <li>plants_veteran(priority=-1)->不是吹牛，但我在[performing][farming]任务方面已经达到了非常高的技能水平。</li>
+    <li>plants(INITIATOR_plants_level&gt;=5,priority=1)->[plants_green]</li>
+    <li>plants_green(INITIATOR_plants_passion==Minor)->我喜欢务农。</li>
+    <li>plants_green(INITIATOR_plants_passion==Major)->我就是喜欢种田！</li>
+    <li>plants_green(p=3,INITIATOR_trait==undergrounder)->我可以提供不错的收成，尤其是地下或人工耕种的收成。</li>
+    <li>plants_green(p=3,INITIATOR_trait==gourmand)->吃惯了大餐，总得懂得一些农耕技术，这样，好食材就不会缺。</li>
+    <li>plants_green(p=3,INITIATOR_trait==teetotaler)->我可以提供不错的收成——但我讨厌种植任何药用植物。</li>
+    <li>plants_green(p=3,INITIATOR_trait==chemical fascination)->我可以提供不错的收成——尤其是药用植物。</li>
+    <li>plants_green(p=3,INITIATOR_trait==chemical interest)->我可以提供不错的收成——尤其是药用植物。</li>
+    <li>plants_green(priority=-1)->我有一些[performing][farming]任务的技能。</li>
+    <li>plants->[plants_unskilled]</li>
+    <li>plants_unskilled(INITIATOR_plants_passion==Minor)->我喜欢务农，但我还有很多东西要学。</li>
+    <li>plants_unskilled(INITIATOR_plants_passion==Major)->我只是喜欢务农，但我还有很多东西要学。</li>
+    <li>plants_unskilled(p=3,INITIATOR_trait==undergrounder)->我没有什么[farming]技能，但我在地下或人工耕作方面肯定表现得更好。</li>
+    <li>plants_unskilled(p=3,INITIATOR_trait==gourmand)->我没有[farming]技能，但我总是确保周围有一些专业农民和厨师——这样，我的餐桌上总会有一些美味的饭菜。</li>
+    <li>plants_unskilled(priority=-1)->我没有[performing][farming]任务的技能。</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->执行中</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->指挥</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=10)->实现</li>
+    <li>farming->农业</li>
+    <li>farming(INITIATOR_intellectual_level&gt;=5)->农业</li>
+    <li>farming(INITIATOR_intellectual_level&gt;=10)->农业的</li>
+  </PrisonerPlantsSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerAnimalsSkills.label>prisoner — animals skill</PrisonerAnimalsSkills.label>
+  <PrisonerAnimalsSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[animals]</li>
+    <li>animals(INITIATOR_animals_level&gt;=15,priority=3)->[animals_master]</li>
+    <li>animals_master(INITIATOR_animals_passion==Minor)->我喜欢[managing]动物——并且我与它们建立了非常深厚且富有成效的联系。</li>
+    <li>animals_master(INITIATOR_animals_passion==Major)->我只是喜欢[managing]动物——并且我与它们建立了非常深厚且富有成效的联系。</li>
+    <li>animals_master(p=3,INITIATOR_trait==ascetic)->由于我喜欢动物的简单生活，我与它们建立了非常深厚且富有成效的联系。</li>
+    <li>animals_master(priority=-1)->不是吹牛，但在[managing]动物方面，我被认为是系统中最好的之一。</li>
+    <li>animals(INITIATOR_animals_level&gt;=10,priority=2)->[animals_veteran]</li>
+    <li>animals_veteran(INITIATOR_animals_passion==Minor)->我喜欢[managing]动物——并且我与它们建立了富有成效的联系。</li>
+    <li>animals_veteran(INITIATOR_animals_passion==Major)->我只是喜欢[managing]动物——并且我与它们建立了富有成效的联系。</li>
+    <li>animals_veteran(p=3,INITIATOR_trait==ascetic)->由于我喜欢动物的简单生活，我与它们建立了富有成效的联系。</li>
+    <li>animals_veteran(priority=-1)->不是吹牛，但我在[managing]动物方面已经达到了非常高的技能水平。</li>
+    <li>animals(INITIATOR_animals_level&gt;=5,priority=1)->[animals_green]</li>
+    <li>animals_green(INITIATOR_animals_passion==Minor)->我喜欢[managing]动物——并且我与它们建立了某种联系。</li>
+    <li>animals_green(INITIATOR_animals_passion==Major)->我就是喜欢[managing]动物——而且我和它们建立了某种联系。</li>
+    <li>animals_green(p=3,INITIATOR_trait==ascetic)->我喜欢过动物的简单生活——而且我和它们建立了某种联系。</li>
+    <li>animals_green(priority=-1)->我有一些[managing]动物的技能。</li>
+    <li>animals->[animals_unskilled]</li>
+    <li>animals_unskilled(INITIATOR_animals_passion==Minor)->我喜欢[managing]动物——但我还有很多东西要学。</li>
+    <li>animals_unskilled(INITIATOR_animals_passion==Major)->我只是喜欢[managing]动物——但我还有很多东西要学。</li>
+    <li>animals_unskilled(p=3,INITIATOR_trait==ascetic)->我喜欢过动物的简单生活——但关于[managing]它们，我还有很多东西要学。</li>
+    <li>animals_unskilled(priority=-1)->我没有[managing]动物的技能。</li>
+    <li>managing->管理</li>
+    <li>managing->照顾</li>
+    <li>managing->照顾</li>
+    <li>managing->照顾</li>
+    <li>managing->处理</li>
+  </PrisonerAnimalsSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerCraftingSkills.label>prisoner — crafting skill</PrisonerCraftingSkills.label>
+  <PrisonerCraftingSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[crafting]</li>
+    <li>crafting(INITIATOR_crafting_level&gt;=15,priority=3)->[crafting_master]</li>
+    <li>crafting_master(INITIATOR_crafting_passion==Minor)->我喜欢手工制作——我的杰作反映了我无与伦比的工艺。</li>
+    <li>crafting_master(INITIATOR_crafting_passion==Major)->我只是喜欢手工——我的杰作反映了我无与伦比的工艺。</li>
+    <li>crafting_master(p=3,INITIATOR_artistic_passion!=None)->凭借我的艺术灵感和无与伦比的工艺，我可以制作出独特的杰作。</li>
+    <li>crafting_master(priority=-1)->不是吹牛，但我的手艺被认为是系统中最好的之一。</li>
+    <li>crafting(INITIATOR_crafting_level&gt;=10,priority=2)->[crafting_veteran]</li>
+    <li>crafting_veteran(INITIATOR_crafting_passion==Minor)->我喜欢手工制作——我的精美作品反映了我的手工艺。</li>
+    <li>crafting_veteran(INITIATOR_crafting_passion==Major)->我只是喜欢手工——我的精美作品反映了我的手工艺。</li>
+    <li>crafting_veteran(p=3,INITIATOR_artistic_passion!=None)->凭借我的艺术灵感和手工艺，我可以制作出精美的物品。</li>
+    <li>crafting_veteran(priority=-1)->不是吹牛，但我的手艺被认为是这个星球上最好的之一。</li>
+    <li>crafting(INITIATOR_crafting_level&gt;=5,priority=1)->[crafting_green]</li>
+    <li>crafting_green(INITIATOR_crafting_passion==Minor)->我喜欢手工制作。</li>
+    <li>crafting_green(INITIATOR_crafting_passion==Major)->我只是喜欢手工！</li>
+    <li>crafting_green(p=3,INITIATOR_artistic_passion!=None)->凭借我的艺术灵感和手工艺，我可以制作出像样的物品。</li>
+    <li>crafting_green(priority=-1)->我有一定的手艺。</li>
+    <li>crafting->[crafting_unskilled]</li>
+    <li>crafting_unskilled(INITIATOR_crafting_passion==Minor)->我喜欢手工制作——但我还有很多东西要学。</li>
+    <li>crafting_unskilled(INITIATOR_crafting_passion==Major)->我只是喜欢手工——但我还有很多东西要学。</li>
+    <li>crafting_unskilled(priority=-1)->我没有手艺。</li>
+  </PrisonerCraftingSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerArtisticSkills.label>prisoner — artistic skill</PrisonerArtisticSkills.label>
+  <PrisonerArtisticSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[artistic]</li>
+    <li>artistic(INITIATOR_artistic_level&gt;=15,priority=3)->[artistic_master]</li>
+    <li>artistic_master(INITIATOR_artistic_passion==Minor)->我对艺术的热爱让我创造出传奇的杰作。</li>
+    <li>artistic_master(INITIATOR_artistic_passion==Major)->我对艺术的绝对热情让我创造出传奇的杰作。</li>
+    <li>artistic_master(p=3,INITIATOR_trait==tortured artist)->我开明的艺术感知远远超出了你们的原始感官——这悲惨地粉碎了我的灵魂。</li>
+    <li>artistic_master(p=3,INITIATOR_trait==beautiful)->对于我关于美的客观概念的最好的杰作，我经常以自己为灵感。</li>
+    <li>artistic_master(priority=-1)->不是吹牛，但我被认为是系统中最好的艺术家之一。</li>
+    <li>artistic(INITIATOR_artistic_level&gt;=10,priority=2)->[artistic_veteran]</li>
+    <li>artistic_veteran(INITIATOR_artistic_passion==Minor)->我对艺术的热爱让我创作出精美的杰作。</li>
+    <li>artistic_veteran(INITIATOR_artistic_passion==Major)->我对艺术的绝对热情让我创作出精美的杰作。</li>
+    <li>artistic_veteran(p=3,INITIATOR_trait==tortured artist)->我的艺术感知远远超出了你的原始感官——这痛苦地刺痛了我的灵魂。</li>
+    <li>artistic_veteran(p=3,INITIATOR_trait==beautiful)->对于我关于美的客观概念的杰作，我经常以自己为灵感。</li>
+    <li>artistic_veteran(priority=-1)->不是吹牛，但我被认为是这个星球上最好的艺术家之一。</li>
+    <li>artistic(INITIATOR_artistic_level&gt;=5,priority=1)->[artistic_green]</li>
+    <li>artistic_green(INITIATOR_artistic_passion==Minor)->我喜欢艺术。</li>
+    <li>artistic_green(INITIATOR_artistic_passion==Major)->我就是喜欢艺术！</li>
+    <li>artistic_green(p=3,INITIATOR_trait==tortured artist)->我的艺术感知被公然误解——这给我带来了很大的痛苦......</li>
+    <li>artistic_green(p=3,INITIATOR_trait==beautiful)->每当我想创作一些美丽的艺术品时，我经常以自己为灵感。</li>
+    <li>artistic_green(priority=-1)->我有一定的艺术天赋。</li>
+    <li>artistic->[artistic_unskilled]</li>
+    <li>artistic_unskilled(INITIATOR_artistic_passion==Minor)->我喜欢艺术——但我还有很多东西要学。</li>
+    <li>artistic_unskilled(INITIATOR_artistic_passion==Major)->我只是喜欢艺术——但我还有很多东西要学。</li>
+    <li>artistic_unskilled(p=3,INITIATOR_trait==tortured artist)->有一天，我的艺术见解最终会被所有人理解和喜爱——在那之前，等待我的只有痛苦、失望和磨难。</li>
+    <li>artistic_unskilled(p=3,INITIATOR_trait==beautiful)->每当我尝试创作一些美丽的艺术品时，我经常以自己为灵感。</li>
+    <li>artistic_unskilled(priority=-1)->我没有艺术天赋。</li>
+  </PrisonerArtisticSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerMedicalSkills.label>prisoner — medical skill</PrisonerMedicalSkills.label>
+  <PrisonerMedicalSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[medical]</li>
+    <li>medical(INITIATOR_medical_level&gt;=15,priority=3)->[medical_master]</li>
+    <li>medical_master(INITIATOR_medical_passion==Minor)->我喜欢照顾其他人，即使在最糟糕的条件下，我也可以保证手术和治疗非常成功。</li>
+    <li>medical_master(INITIATOR_medical_passion==Major)->我只是喜欢照顾其他人 -即使在最糟糕的条件下，我也可以保证手术和治疗非常成功。</li>
+    <li>medical_master(p=3,INITIATOR_trait==body modder)->如果您想通过生物增强来改善您虚弱的肉体或需要更换某些部件，没有比我更好的医生了。</li>
+    <li>medical_master(p=3,INITIATOR_trait==body purist)->凭借我极其先进的技能，我拯救了许多人的生命。但永远不要要求我植入一些生物增强装置或更换某些部件——我永远不会这样做！</li>
+    <li>medical_master(priority=-1)->不是吹牛，但我被认为是系统中最好的医生之一。</li>
+    <li>medical(INITIATOR_medical_level&gt;=10,priority=2)->[medical_veteran]</li>
+    <li>medical_veteran(INITIATOR_medical_passion==Minor)->我喜欢照顾其他人——而且，如果条件合适，我可以保证手术和治疗非常成功。</li>
+    <li>medical_veteran(INITIATOR_medical_passion==Major)->我只是喜欢照顾其他人——而且，如果条件合适，我可以保证手术和治疗非常成功。</li>
+    <li>medical_veteran(p=3,INITIATOR_trait==body modder)->如果您想通过生物增强来改善您虚弱的肉体或需要更换某些部件，我当然可以帮助您。</li>
+    <li>medical_veteran(p=3,INITIATOR_trait==body purist)->由于我的高超技能，我拯救了许多人的生命。但永远不要要求我植入一些生物增强装置或更换某些部件——我永远不会这样做！</li>
+    <li>medical_veteran(priority=-1)->不是吹牛，但我在[performing]手术和治疗方面已经达到了非常高的技能水平。</li>
+    <li>medical(INITIATOR_medical_level&gt;=5,priority=1)->[medical_green]</li>
+    <li>medical_green(INITIATOR_medical_passion==Minor)->我喜欢照顾别人——而且，如果条件合适，我可以提供像样的手术和治疗。</li>
+    <li>medical_green(INITIATOR_medical_passion==Major)->我只是喜欢照顾别人——而且，如果条件合适，我可以提供像样的手术和治疗。</li>
+    <li>medical_green(p=3,INITIATOR_trait==body modder)->如果您想通过生物增强来改善您虚弱的肉体或需要更换某些部件，我可以帮助您。</li>
+    <li>medical_green(p=3,INITIATOR_trait==body purist)->我接受过基本的医师培训。但永远不要要求我植入一些生物增强装置或更换某些部件——我永远不会这样做！</li>
+    <li>medical_green(priority=-1)->我在[performing]手术和治疗方面有一些技能。</li>
+    <li>medical->[medical_unskilled]</li>
+    <li>medical_unskilled(INITIATOR_medical_passion==Minor)->我喜欢照顾别人——但我只知道最基本的知识。</li>
+    <li>medical_unskilled(INITIATOR_medical_passion==Major)->我只是喜欢照顾别人——但我只知道最基本的知识。</li>
+    <li>medical_unskilled(p=3,INITIATOR_trait==body modder)->我喜欢生物增强，但我对植入它们几乎一无所知。</li>
+    <li>medical_unskilled(p=3,INITIATOR_trait==body purist)->我没有医疗技能——我依赖医生，但只依赖那些从不求助于生物增强技术的人。</li>
+    <li>medical_unskilled(priority=-1)->我没有[performing]手术和治疗的技能。</li>
+    <li>medical_unskilled(priority=-1)->我没有医术。</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->执行中</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=5)->指挥</li>
+    <li>performing(INITIATOR_intellectual_level&gt;=10)->实现</li>
+  </PrisonerMedicalSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerSocialSkills.label>prisoner — social skill</PrisonerSocialSkills.label>
+  <PrisonerSocialSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[social]</li>
+    <li>social(INITIATOR_social_level&gt;=15,priority=3)->[social_master]</li>
+    <li>social_master(INITIATOR_social_passion==Minor)->我喜欢和人在一起——即使是在敌对双方之间，我也能谈判出富有成效的协议。</li>
+    <li>social_master(INITIATOR_social_passion==Major)->我只是喜欢和人们在一起——即使是在敌对双方之间，我也能谈判出富有成效的协议。</li>
+    <li>social_master(p=3,INITIATOR_trait==kind)->即使在敌对双方之间，只要一句善意的话语和令人放心的微笑，我就能谈判出​​富有成果的协议。</li>
+    <li>social_master(p=3,INITIATOR_trait==gourmand)->我的甜言蜜语很有魔力——尤其是在丰盛的晚餐上。</li>
+    <li>social_master(p=3,INITIATOR_trait==chemical fascination)->我的甜言蜜语很神奇——尤其是当周围有雪花或呀哟的时候。</li>
+    <li>social_master(p=3,INITIATOR_trait==chemical interest)->我的甜言蜜语很有魔力——尤其是当周围有啤酒或烟叶时。</li>
+    <li>social_master(priority=-1)->不是吹牛，但我在外交和社会艺术方面已经达到了最高的技能水平。</li>
+    <li>social(INITIATOR_social_level&gt;=10,priority=2)->[social_veteran]</li>
+    <li>social_veteran(INITIATOR_social_passion==Minor)->我喜欢和人在一起——即使在棘手的情况下我也能谈判出富有成效的协议。</li>
+    <li>social_veteran(INITIATOR_social_passion==Major)->我只是喜欢和人们在一起——即使在棘手的情况下我也能谈判出富有成果的协议。</li>
+    <li>social_veteran(p=3,INITIATOR_trait==kind)->即使在棘手的情况下，只要一句善意的话语和令人放心的微笑，我就能谈判出​​富有成果的协议。</li>
+    <li>social_veteran(p=3,INITIATOR_trait==gourmand)->我的甜言蜜语非常有效——尤其是在丰盛的晚餐上。</li>
+    <li>social_veteran(p=3,INITIATOR_trait==chemical fascination)->我的甜言蜜语非常有效——尤其是当周围有flake或yayo的时候。</li>
+    <li>social_veteran(p=3,INITIATOR_trait==chemical interest)->我的甜言蜜语非常有效——尤其是当周围有啤酒或烟叶的时候。</li>
+    <li>social_veteran(priority=-1)->不是吹牛，但我在外交和社会艺术方面已经达到了非常高的技能水平。</li>
+    <li>social(INITIATOR_social_level&gt;=5,priority=1)->[social_green]</li>
+    <li>social_green(INITIATOR_social_passion==Minor)->我喜欢和人们在一起。</li>
+    <li>social_green(INITIATOR_social_passion==Major)->我只是喜欢和人们在一起！</li>
+    <li>social_green(p=3,INITIATOR_trait==kind)->谈判时，我通常依靠善意的话语和令人放心的微笑。</li>
+    <li>social_green(p=3,INITIATOR_trait==gourmand)->我有一些社交技巧——尤其是在豪华晚餐时。</li>
+    <li>social_green(p=3,INITIATOR_trait==chemical fascination)->我有一些社交技巧——尤其是当周围有小事或谣言的时候。</li>
+    <li>social_green(p=3,INITIATOR_trait==chemical interest)->我有一些社交技巧——尤其是当周围有啤酒或烟叶时。</li>
+    <li>social_green(priority=-1)->我有一些社交技巧。</li>
+    <li>social->[social_unskilled]</li>
+    <li>social_unskilled(INITIATOR_social_passion==Minor)->我喜欢和人在一起，但我还有很多东西要学。</li>
+    <li>social_unskilled(INITIATOR_social_passion==Major)->我只是喜欢和人们在一起，但我还有很多东西要学。</li>
+    <li>social_unskilled(p=3,INITIATOR_trait==kind)->我没有社交技巧，但有好几次我都是用善意的话语和令人放心的微笑来沟通的。</li>
+    <li>social_unskilled(p=3,INITIATOR_trait==chemical fascination)->我没有社交技巧——但是当周围有一些小事或谣言时，谈话就会顺利得多。</li>
+    <li>social_unskilled(p=3,INITIATOR_trait==chemical interest)->我没有社交技巧——但当周围有啤酒或烟叶时，谈话就会顺利得多。</li>
+    <li>social_unskilled(priority=-1)->我没有社交能力。</li>
+  </PrisonerSocialSkills.logRulesInitiator.rulesStrings>
+
+  <PrisonerIntellectualSkills.label>prisoner — intellectual skill</PrisonerIntellectualSkills.label>
+  <PrisonerIntellectualSkills.logRulesInitiator.rulesStrings>
+    <li>recipient(INITIATOR_opinion&lt;0,priority=2)->[RECIPIENT_nameDef]</li>
+    <li>recipient(p=4,INITIATOR_relationship==Lover)->[recipient_love]</li>
+    <li>recipient(p=3,INITIATOR_relationship==Fiance)->[recipient_love]</li>
+    <li>recipient(p=2,INITIATOR_relationship==Spouse)->[recipient_love]</li>
+    <li>recipient_love->蜂蜜</li>
+    <li>recipient_love->蜜罐</li>
+    <li>recipient_love->爱</li>
+    <li>recipient_love->爱虫</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->贝贝</li>
+    <li>recipient_love->可爱派</li>
+    <li>recipient_love->领班</li>
+    <li>recipient_love->天使之翼</li>
+    <li>recipient_love->小熊软糖</li>
+    <li>recipient_love->亲爱的</li>
+    <li>recipient_love->梦想之船</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->爱</li>
+    <li>recipient_love(INITIATOR_intellectual_level&gt;=5)->亲爱的</li>
+    <li>recipient(INITIATOR_relationship==Sibli)->[recipient_sibli]</li>
+    <li>recipient_sibli(RECIPIENT_gender==Male)->[recipient_brother]</li>
+    <li>recipient_brother->兄弟</li>
+    <li>recipient_sibli(RECIPIENT_gender==Female)->[recipient_sister]</li>
+    <li>recipient_sister->姐姐</li>
+    <li>recipient(RECIPIENT_relationship==Parent,priority=1)->[recipient_parent]</li>
+    <li>recipient_parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+    <li>recipient_father->父亲</li>
+    <li>recipient_father->爸爸</li>
+    <li>recipient_parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+    <li>recipient_mother->母亲</li>
+    <li>recipient_mother->妈妈</li>
+    <li>recipient(INITIATOR_relationship==Parent)->[recipient_child]</li>
+    <li>recipient_child->我的孩子</li>
+    <li>recipient_child(INITIATOR_OPINION&gt;=0)->亲爱的</li>
+    <li>recipient_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+    <li>recipient_son->儿子</li>
+    <li>recipient_son->我的儿子</li>
+    <li>recipient_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+    <li>recipient_daughter->女儿</li>
+    <li>recipient_daughter->我的女儿</li>
+    <li>recipient->[RECIPIENT_nameDef]</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=8,priority=1)->你是否想要</li>
+    <li>wanna(INITIATOR_intellectual_level&gt;=5)->你是否想要</li>
+    <li>wanna(p=0.5)->想要</li>
+    <li>wanna(INITIATOR_intellectual_level&lt;5)->想</li>
+    <li>intensifier(priority=-1,p=3)-></li>
+    <li>intensifier(priority=-1)->所以</li>
+    <li>intensifier(priority=-1)->非常</li>
+    <li>intensifier(priority=-1,p=0.5)->真的</li>
+    <li>intensifier(priority=-1)->确实</li>
+    <li>intensifier(priority=-1,p=0.5)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->所以</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->非常</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=2)->真的</li>
+    <li>intensifier(INITIATOR_intellectual_level&lt;=3,p=1)->所以 [intensifier]</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=5)-></li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->最多</li>
+    <li>intensifier(INITIATOR_intellectual_level&gt;=7,p=1)->相当</li>
+    <li>intensifier(INITIATOR_mood&gt;=0.7)->极好的</li>
+    <li>damned_intensifier(p=2)-></li>
+    <li>damned_intensifier->该死的</li>
+    <li>damned_intensifier->血腥</li>
+    <li>damned_intensifier->爆破</li>
+    <li>damned_intensifier->索丁</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive)->他妈的</li>
+    <li>damned_intensifier(INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.5)->他妈的 [damned_intensifier]</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->他妈的</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->操蛋</li>
+    <li>damned_intensifier(p=2,INITIATOR_mood&lt;=0.4)->该死的</li>
+    <li>damned_intensifier(p=2,INITIATOR_trait==abrasive,INITIATOR_mood&lt;=0.2)->他妈的 [damned_intensifier]</li>
+    <li>r_logentry(INITIATOR_trait==sanguine)->[INITIATOR_factionName] sent a rescue party already, I'm sure of it — [optimist_comment]</li>
+    <li>r_logentry(INITIATOR_trait==optimist)->我很确定[INITIATOR_factionName]已经派出救援队 — [optimist_comment]</li>
+    <li>optimist_comment(INITIATOR_trait==bloodlust,priority=1)->看着你的人民被屠杀和折磨将是光荣的！</li>
+    <li>optimist_comment->所以我需要你释放我。这样，我们就可以避免你们人民之间发生不必要的流血事件。</li>
+    <li>r_logentry(INITIATOR_trait==depressive)->[depressive]</li>
+    <li>r_logentry(INITIATOR_trait==pessimist)->[pessimist]</li>
+    <li>r_logentry(INITIATOR_trait==psychopath)->[psychopath]</li>
+    <li>r_logentry(INITIATOR_trait==creepy breathing)->*呼吸粗重*</li>
+    <li>r_logentry(INITIATOR_trait==chemical fascination)->[chemical1]</li>
+    <li>r_logentry(INITIATOR_trait==chemical interest)->[chemical0]</li>
+    <li>chemical1->如果你[bring_me]一些[drug1]，我会愿意更多地合作......</li>
+    <li>chemical1->请给我一些[drug1]；我会保证更多地合作...我只需要一个解决方案，仅此而已。</li>
+    <li>chemical0->如果你[bring_me]我一些[drug0]，我会愿意更多地合作......</li>
+    <li>chemical0->请给我一些[drug0]；我保证会更多地合作。</li>
+    <li>drug0->啤酒</li>
+    <li>drug0->烟叶</li>
+    <li>drug0->神的食物</li>
+    <li>drug0->精神茶</li>
+    <li>drug1->它是</li>
+    <li>drug1->薄片</li>
+    <li>drug1->去榨汁</li>
+    <li>drug1->醒来</li>
+    <li>bring_me->带来</li>
+    <li>bring_me->手</li>
+    <li>bring_me->经过</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)->[bad_opinion]</li>
+    <li>r_logentry(INITIATOR_mood&lt;0.4,priority=1)->[bad_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]</li>
+    <li>bad_opinion(INITIATOR_trait==abrasive)->[abrasive]</li>
+    <li>bad_opinion(INITIATOR_trait==brawler)->[brawler]</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)->[good_opinion]</li>
+    <li>good_opinion->[intellectual]</li>
+    <li>intellectual(INITIATOR_intellectual_level&gt;=15,priority=3)->[intellectual_master]</li>
+    <li>intellectual_master(INITIATOR_intellectual_passion==Minor)->我喜欢用我的智慧来解决棘手的问题——并且由于我无与伦比的技能，我可以解决任何复杂的逻辑问题。</li>
+    <li>intellectual_master(INITIATOR_intellectual_passion==Major)->我只是喜欢用我的智慧来解决棘手的问题——并且由于我无与伦比的技能，我可以解决任何复杂的逻辑问题。</li>
+    <li>intellectual_master(p=3,INITIATOR_trait==too smart)->我一生都致力于追求知识——由于我无与伦比的逻辑和推理能力，我可以在我的高级大脑中有效地存储和组织知识。</li>
+    <li>intellectual_master(p=3,INITIATOR_trait==great memory)->我的记忆技巧极大地帮助了我无与伦比的逻辑和推理能力。</li>
+    <li>intellectual_master(priority=-1)->整个系统大概都知道我无与伦比的逻辑和推理能力。</li>
+    <li>intellectual(INITIATOR_intellectual_level&gt;=10,priority=2)->[intellectual_veteran]</li>
+    <li>intellectual_veteran(INITIATOR_intellectual_passion==Minor)->我喜欢用我的智慧来解决棘手的问题——而且由于我的智力超群，我可以解决任何逻辑问题。</li>
+    <li>intellectual_veteran(INITIATOR_intellectual_passion==Major)->我只是喜欢用我的智慧来解决棘手的问题——而且由于我的心理能力，我可以解决任何逻辑问题。</li>
+    <li>intellectual_veteran(p=3,INITIATOR_trait==too smart)->我一生都致力于追求知识——由于我的精神力量，我可以在我的高级大脑中有效地存储和组织知识。</li>
+    <li>intellectual_veteran(p=3,INITIATOR_trait==great memory)->我的记忆技巧极大地帮助了我卓越的逻辑和推理能力。</li>
+    <li>intellectual_veteran(priority=-1)->整个地球可能都知道我的逻辑和推理能力。</li>
+    <li>intellectual(INITIATOR_intellectual_level&gt;=5,priority=1)->[intellectual_green]</li>
+    <li>intellectual_green(INITIATOR_intellectual_passion==Minor)->我喜欢用我的智慧来解决棘手的问题。</li>
+    <li>intellectual_green(INITIATOR_intellectual_passion==Major)->我只是喜欢用我的智慧来解决棘手的问题！</li>
+    <li>intellectual_green(p=3,INITIATOR_trait==too smart)->我一生都致力于追求知识——由于我磨练的头脑，我可以在我的高级大脑中有效地存储和组织知识。</li>
+    <li>intellectual_green(p=3,INITIATOR_trait==great memory)->我的记忆技巧极大地帮助了我的逻辑和推理能力。</li>
+    <li>intellectual_green(priority=-1)->我有良好的逻辑和推理能力。</li>
+    <li>intellectual->[intellectual_unskilled]</li>
+    <li>intellectual_unskilled(INITIATOR_intellectual_passion==Minor)->我喜欢用我的智慧来解决棘手的问题，但我不太擅长解决它们——至少现在还不是。</li>
+    <li>intellectual_unskilled(INITIATOR_intellectual_passion==Major)->我只是喜欢用我的智慧来解决棘手的问题，但我不太擅长解决它们——至少现在还不是。</li>
+    <li>intellectual_unskilled(p=3,INITIATOR_trait==too smart)->我对知识的追求才刚刚开始——但我确信我会成功！</li>
+    <li>intellectual_unskilled(p=3,INITIATOR_trait==great memory)->目前我的逻辑和推理能力还很基础，但它们肯定会从我的记忆技巧中受益。</li>
+    <li>intellectual_unskilled(priority=-1)->我只有基本的逻辑和推理能力。</li>
+  </PrisonerIntellectualSkills.logRulesInitiator.rulesStrings>
+
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: n/a -->
+  <InstallBionicHeart.label>安装仿生心脏</InstallBionicHeart.label>
+  <!-- EN: n/a -->
+  <InstallBionicHeart.description>安装仿生心脏。</InstallBionicHeart.description>
+  <!-- EN: n/a -->
+  <InstallBionicHeart.jobString>正在安装仿生心脏。</InstallBionicHeart.jobString>
+  
+  <!-- EN: n/a -->
+  <InstallBionicStomach.label>安装仿生胃</InstallBionicStomach.label>
+  <!-- EN: n/a -->
+  <InstallBionicStomach.description>安装仿生胃。</InstallBionicStomach.description>
+  <!-- EN: n/a -->
+  <InstallBionicStomach.jobString>正在安装仿生胃。</InstallBionicStomach.jobString>
+  
+  <!-- EN: n/a -->
+  <InstallSimpleProstheticHeart.label>安装人工心脏</InstallSimpleProstheticHeart.label>
+  <!-- EN: n/a -->
+  <InstallSimpleProstheticHeart.description>安装人工心脏。</InstallSimpleProstheticHeart.description>
+  <!-- EN: n/a -->
+  <InstallSimpleProstheticHeart.jobString>正在安装人工心脏。</InstallSimpleProstheticHeart.jobString>
+  
+</LanguageData>

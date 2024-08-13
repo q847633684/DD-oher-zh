@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: advanced bionics -->
+  <AdvancedProstheses.label>先进仿生体</AdvancedProstheses.label>
+  
+  <!-- EN: bionics -->
+  <BionicProstheses.label>仿生体</BionicProstheses.label>
+  
+  <!-- EN: brain implants -->
+  <BrainImplants.label>大脑植入物</BrainImplants.label>
+  
+  <!-- EN: simple prostheses -->
+  <SimpleProstheses.label>简易假体</SimpleProstheses.label>
+  
+  <!-- EN: synthetic organs -->
+  <SyntheticOrgans.label>合成器官</SyntheticOrgans.label>
+  
+</LanguageData>

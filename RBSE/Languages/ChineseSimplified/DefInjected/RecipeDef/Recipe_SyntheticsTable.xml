@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Create cortexaugmentor -->
+  <MakeCortexaugmentor.label>制作脑皮质增强芯片</MakeCortexaugmentor.label>
+  <!-- EN: Creates a cortexaugmentor. Requires an AI persona core.\n\nHighly advanced brain implant that attempts to enhance the general intelligence of the subject. The implant is placed into the prefrontal cortex which increases cognitive abilities such as language and learning speed. -->
+  <MakeCortexaugmentor.description>制作脑皮质增强芯片。需要人格核心。\n\n高度先进的脑部植入物，能增强使用者的智力。安装在前额叶皮层中，可提高语言和学习速度等认知能力。</MakeCortexaugmentor.description>
+  <!-- EN: Creating implant. -->
+  <MakeCortexaugmentor.jobString>正在制作植入物。</MakeCortexaugmentor.jobString>
+  
+  <!-- EN: Create hyporegulator -->
+  <MakeHyporegulator.label>制作调谐芯片</MakeHyporegulator.label>
+  <!-- EN: Creates a hyporegulator. Requires an AI persona core.\n\nHighly advanced brain implant that attempts to enhance the mental and physical resilience of the subject. The implant is placed into the hypothalamus which increases the effectiveness of the HPA axis and the body's thermoregulation. -->
+  <MakeHyporegulator.description>制作调谐芯片。需要人格核心。\n\n高度先进的脑部植入物，能提高使用者的身心的承受能力。安装在下丘脑中，增加了HPA轴（下丘脑-垂体-肾上腺轴）的效率和温度承受范围。</MakeHyporegulator.description>
+  <!-- EN: Creating implant. -->
+  <MakeHyporegulator.jobString>正在制作植入物。</MakeHyporegulator.jobString>
+  
+  <!-- EN: Create neurostimulator -->
+  <MakeNeurostimulator.label>制作脑刺激器</MakeNeurostimulator.label>
+  <!-- EN: Creates a neurostimulator. Requires an AI persona core.\n\nHighly advanced brain implant that attempts to restore the consciousness of the subject. Recommended for colonists affected by brain diseases and brain damage. -->
+  <MakeNeurostimulator.description>制作脑刺激器。需要人格核心。\n\n高度先进的脑部植入物，能刺激大脑活动，恢复使用者的意识。建议给那些患有脑部疾病或脑部损伤的患者使用。</MakeNeurostimulator.description>
+  <!-- EN: Creating implant. -->
+  <MakeNeurostimulator.jobString>正在制作植入物。</MakeNeurostimulator.jobString>
+  
+  <!-- EN: Create synthetic heart -->
+  <MakeSyntheticHeart.label>制作合成心</MakeSyntheticHeart.label>
+  <!-- EN: Creates a synthetic heart from hyperweave and plasteel. -->
+  <MakeSyntheticHeart.description>使用超织物和玻璃钢制作合成心。</MakeSyntheticHeart.description>
+  <!-- EN: Creating synthetic organ. -->
+  <MakeSyntheticHeart.jobString>正在制作合成器官。</MakeSyntheticHeart.jobString>
+  
+  <!-- EN: Create synthetic kidney -->
+  <MakeSyntheticKidney.label>制作合成肾</MakeSyntheticKidney.label>
+  <!-- EN: Creates a synthetic kidney from hyperweave and plasteel -->
+  <MakeSyntheticKidney.description>使用超织物和玻璃钢制作合成肾。</MakeSyntheticKidney.description>
+  <!-- EN: Creating synthetic organ. -->
+  <MakeSyntheticKidney.jobString>正在制作合成器官。</MakeSyntheticKidney.jobString>
+  
+  <!-- EN: Create synthetic liver -->
+  <MakeSyntheticLiver.label>制作合成肝</MakeSyntheticLiver.label>
+  <!-- EN: Creates a synthetic liver from hyperweave and plasteel -->
+  <MakeSyntheticLiver.description>使用超织物和玻璃钢制作合成肝。</MakeSyntheticLiver.description>
+  <!-- EN: Creating synthetic organ. -->
+  <MakeSyntheticLiver.jobString>正在制作合成器官。</MakeSyntheticLiver.jobString>
+  
+  <!-- EN: Create synthetic lung -->
+  <MakeSyntheticLung.label>制作合成肺</MakeSyntheticLung.label>
+  <!-- EN: Creates a synthetic lung from hyperweave and plasteel -->
+  <MakeSyntheticLung.description>使用超织物和玻璃钢制作合成肺。</MakeSyntheticLung.description>
+  <!-- EN: Creating synthetic organ. -->
+  <MakeSyntheticLung.jobString>正在制作合成器官。</MakeSyntheticLung.jobString>
+  
+  <!-- EN: Create synthetic stomach -->
+  <MakeSyntheticStomach.label>制作合成胃</MakeSyntheticStomach.label>
+  <!-- EN: Creates a synthetic stomach from hyperweave and plasteel -->
+  <MakeSyntheticStomach.description>使用超织物和玻璃钢制作合成胃。</MakeSyntheticStomach.description>
+  <!-- EN: Creating synthetic organ. -->
+  <MakeSyntheticStomach.jobString>正在制作合成器官。</MakeSyntheticStomach.jobString>
+  
+</LanguageData>

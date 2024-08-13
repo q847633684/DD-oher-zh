@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="BuildingBase">
+    <thingClass>Dubs_Skylight.Building_skyLight</thingClass>
+    <defName>Window</defName>
+    <label>Window</label>
+    <description>Window.</description>
+    <graphicData>
+      <texPath>Things/Building/window</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <category>Building</category>
+    <costList>
+      <GlassPane>1</GlassPane>
+    </costList>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>850</WorkToBuild>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>true</selectable>
+    <tickerType>Rare</tickerType>
+    <rotatable>false</rotatable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>天窗s</designationCategory>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>false</blockLight>
+    <building>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+      <blueprintClass>Blueprint_Door</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/skylightBP</texPath>
+      </blueprintGraphicData>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <placeWorkers>
+      <li>Dubs_Skylight.PlaceWorker_Skylight</li>
+    </placeWorkers>
+  </ThingDef> -->
+
+  <SkyLightA.label>天窗</SkyLightA.label>
+  <SkyLightA.description>让日光透过屋顶的窗户进入.</SkyLightA.description>
+  <Blueprint_SkyLightA.label>天光（蓝图）</Blueprint_SkyLightA.label>
+  <Frame_SkyLightA.label>天光（建筑）</Frame_SkyLightA.label>
+  <Frame_SkyLightA.description>让日光透过屋顶的窗户进入.</Frame_SkyLightA.description>
+
+  <SkyLightD.label>天窗 2x2</SkyLightD.label>
+  <SkyLightD.description>让阳光透过屋顶的窗户进入.</SkyLightD.description>
+  <Blueprint_SkyLightD.label>天窗 2x2 (蓝图)</Blueprint_SkyLightD.label>
+  <Frame_SkyLightD.label>天窗 2x2 (建筑)</Frame_SkyLightD.label>
+  <Frame_SkyLightD.description>让阳光透过屋顶的窗户进入.</Frame_SkyLightD.description>
+
+  <SkyLightB.label>天窗 3x3</SkyLightB.label>
+  <SkyLightB.description>让阳光透过屋顶的窗户进入.</SkyLightB.description>
+  <Blueprint_SkyLightB.label>天窗 3x3 (蓝图)</Blueprint_SkyLightB.label>
+  <Frame_SkyLightB.label>天窗 3x3 (建筑)</Frame_SkyLightB.label>
+  <Frame_SkyLightB.description>让阳光透过屋顶的窗户进入.</Frame_SkyLightB.description>
+
+  <SkyLightC.label>天窗 1x4</SkyLightC.label>
+  <SkyLightC.description>让阳光透过屋顶的窗户进入.</SkyLightC.description>
+  <Blueprint_SkyLightC.label>天窗 1x4 (蓝图)</Blueprint_SkyLightC.label>
+  <Frame_SkyLightC.label>天窗 1x4 (建筑)</Frame_SkyLightC.label>
+  <Frame_SkyLightC.description>让阳光透过屋顶的窗户进入.</Frame_SkyLightC.description>
+
+
+</LanguageData>

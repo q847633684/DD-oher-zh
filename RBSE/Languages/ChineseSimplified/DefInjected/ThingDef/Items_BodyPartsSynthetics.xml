@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cortexaugmentor -->
+  <Cortexaugmentor.label>脑皮质增强芯片</Cortexaugmentor.label>
+  <!-- EN: Highly advanced brain implant that attempts to enhance the general intelligence of the subject. The implant is placed into the prefrontal cortex which increases cognitive abilities such as language and learning speed. -->
+  <Cortexaugmentor.description>高度先进的大脑植入物，旨在使用者的智力。植入物被放置在前额叶皮层中，这增强了认知能力，例如社交和学习速度。</Cortexaugmentor.description>
+  
+  <!-- EN: hyporegulator -->
+  <Hyporegulator.label>调谐芯片</Hyporegulator.label>
+  <!-- EN: Highly advanced brain implant that attempts to enhance the mental and physical resilience of the subject. The implant is placed into the hypothalamus which increases the effectiveness of the HPA axis and the body's thermoregulation. -->
+  <Hyporegulator.description>高度先进的脑部植入物，能提高使用者的身心的承受能力。安装在下丘脑中，增加了HPA轴（下丘脑-垂体-肾上腺轴）的效率和温度承受范围。</Hyporegulator.description>
+  
+  <!-- EN: neurostimulator -->
+  <Neurostimulator.label>脑刺激器</Neurostimulator.label>
+  <!-- EN: Highly advanced brain implant that attempts to restore the consciousness of the subject. Recommended for colonists affected by brain diseases and brain damage. -->
+  <Neurostimulator.description>尝试提高使用者的意识的、极为先进的脑部植入物。建议给遭受脑部疾病和脑部损伤的殖民者植入。</Neurostimulator.description>
+  
+  <!-- EN: synthetic heart -->
+  <SyntheticHeart.label>合成心</SyntheticHeart.label>
+  <!-- EN: An enhanced heart augmented with nanocells to increase organ efficiency and durability. Should be kept frozen outside of the body to avoid cell death and organ failure.\n\nDoes not trigger transplant rejection.\n\nStats:\nBlood pumping: 20%\nMoving: 10%\nManipulation: 10% -->
+  <SyntheticHeart.description>顶级的心脏替代体。单次充电最少能维持30年的运行。</SyntheticHeart.description>
+  
+  <!-- EN: synthetic kidney -->
+  <SyntheticKidney.label>合成肾</SyntheticKidney.label>
+  <!-- EN: An enhanced kidney augmented with nanocells to increase organ efficiency and durability. Should be kept frozen outside of the body to avoid cell death and organ failure.\n\nDoes not trigger transplant rejection.\n\nStats:\nBlood filtration: 20% -->
+  <SyntheticKidney.description>增强型肾，通过使用更优良的合成织物来降低废品率。</SyntheticKidney.description>
+  
+  <!-- EN: synthetic liver -->
+  <SyntheticLiver.label>合成肝</SyntheticLiver.label>
+  <!-- EN: An enhanced liver augmented with nanocells to increase organ efficiency and durability. Should be kept frozen outside of the body to avoid cell death and organ failure.\n\nDoes not trigger transplant rejection.\n\nStats:\nBlood filtration: 20% -->
+  <SyntheticLiver.description>增强型肝，通过使用更优良的合成织物来降低废品率。</SyntheticLiver.description>
+  
+  <!-- EN: synthetic lung -->
+  <SyntheticLung.label>合成肺</SyntheticLung.label>
+  <!-- EN: An enhanced lung augmented with nanocells to increase organ efficiency and durability. Should be kept frozen outside of the body to avoid cell death and organ failure.\n\nDoes not trigger transplant rejection.\n\nStats:\nBreathing: 20%\nMoving: 5% -->
+  <SyntheticLung.description>高科技的呼吸替代体。轻柔的呼吸声。</SyntheticLung.description>
+  
+  <!-- EN: synthetic stomach -->
+  <SyntheticStomach.label>合成胃</SyntheticStomach.label>
+  <!-- EN: An enhanced stomach augmented with nanocells to increase organ efficiency and durability. Should be kept frozen outside of the body to avoid cell death and organ failure.\n\nDoes not trigger transplant rejection.\n\nStats:\nMetabolism: 25% -->
+  <SyntheticStomach.description>增强型胃，通过使用更优良的合成织物来降低废品率。</SyntheticStomach.description>
+  
+</LanguageData>

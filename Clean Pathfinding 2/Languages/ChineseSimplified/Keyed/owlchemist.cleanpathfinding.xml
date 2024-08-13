@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CleanPathfinding.Settings.PatchFailure>[错误]此补丁加载失败，设置值将被忽略！</CleanPathfinding.Settings.PatchFailure>
+
+  <CleanPathfinding.Settings.Header.Tuning>调音</CleanPathfinding.Settings.Header.Tuning>
+  <CleanPathfinding.Settings.Header.Doorpathing>直通</CleanPathfinding.Settings.Header.Doorpathing>
+  <CleanPathfinding.Settings.Header.Rules>规则</CleanPathfinding.Settings.Header.Rules>
+  <CleanPathfinding.Settings.Header.Misc>杂项</CleanPathfinding.Settings.Header.Misc>
+
+  <CleanPathfinding.Settings.Bias>避免肮脏地形（模组默认值：{0}，最小值：{1}，最大值：{2}）： </CleanPathfinding.Settings.Bias>
+  <CleanPathfinding.Settings.Bias.Desc>额外感知的路径成本适用于产生污物的地形瓷砖。</CleanPathfinding.Settings.Bias.Desc>
+
+  <CleanPathfinding.Settings.NaturalBias>干净的石头地形回避（模组默认值：{0}，最小：{1}，最大：{2}）：</CleanPathfinding.Settings.NaturalBias>
+  <CleanPathfinding.Settings.NaturalBias.Desc>由于石头地形不会产生污物，因此上述设置可能会导致 Pawn 过度吸引在其上行走，具体取决于地图布局。如果您想避免这种行为，可以修改此设置。</CleanPathfinding.Settings.NaturalBias.Desc>
+
+  <CleanPathfinding.Settings.RoadBias>道路吸引力（模组默认值：{0}，最小值：{1}，最大值：{2}）： </CleanPathfinding.Settings.RoadBias>
+  <CleanPathfinding.Settings.RoadBias.Desc>减少任何带有“道路”标签的图块的感知路径成本。</CleanPathfinding.Settings.RoadBias.Desc>
+
+  <CleanPathfinding.Settings.EnableRegionPathing>启用区域路径</CleanPathfinding.Settings.EnableRegionPathing>
+  <CleanPathfinding.Settings.EnableRegionPathing.Desc>启用后， </CleanPathfinding.Settings.EnableRegionPathing.Desc>
+  <CleanPathfinding.Settings.RegionModeThreshold>区域路径阈值（Mod 默认值：{0}，最小值：{1}，最大值：{2}）： </CleanPathfinding.Settings.RegionModeThreshold>
+  <CleanPathfinding.Settings.RegionModeThreshold.Desc>如果 pawn 的寻路器计算的单元格数量超出此阈值，它们会切换到“区域寻路模式”，这会导致它们的计算分成 12x12 块。这更昂贵，但可以扩大他们的搜索范围，让他们发现道路等事物，以帮助计算最佳路径。对于热衷于构建路径基础设施的玩家来说，此选项可能是理想的选择。\n\n如果降低此阈值，请考虑降低启发式调整，或完全关闭它</CleanPathfinding.Settings.RegionModeThreshold.Desc>
+
+  <CleanPathFinding.Settings.RegionCostCalculatorFix>启用 RegionCostCalculator NPE 修复</CleanPathFinding.Settings.RegionCostCalculatorFix>
+  <CleanPathFinding.Settings.RegionCostCalculatorFix.Desc>修复了在计算图块成本时导致错误垃圾邮件的空指针，通常是由于错误的地图更改所致</CleanPathFinding.Settings.RegionCostCalculatorFix.Desc>
+
+  <CleanPathfinding.Settings.EnableTuning>启用调整</CleanPathfinding.Settings.EnableTuning>
+  <CleanPathfinding.Settings.EnableTuning.Desc>关闭此功能将使寻路恢复为正常的香草行为。</CleanPathfinding.Settings.EnableTuning.Desc>
+
+  <CleanPathfinding.Settings.DarknessPenalty>黑暗惩罚（Mod 默认值：{0}，最小值：{1}，最大值：{2}）： </CleanPathfinding.Settings.DarknessPenalty>
+  <CleanPathfinding.Settings.DarknessPenalty.Desc>设置添加到深色瓷砖的额外成本。</CleanPathfinding.Settings.DarknessPenalty.Desc>
+
+  <CleanPathfinding.Settings.FactorLight>寻路应考虑光线</CleanPathfinding.Settings.FactorLight>
+  <CleanPathfinding.Settings.FactorLight.Desc>Pawn 会影响并偏置照亮的路径。这种额外的计算对性能影响很小。</CleanPathfinding.Settings.FactorLight.Desc>
+  <CleanPathfinding.Settings.HeuristicAdjuster>启发式调整（Mod 默认值：{0}，最小值：{1}，最大值：{2}）：{3}</CleanPathfinding.Settings.HeuristicAdjuster>
+  <CleanPathfinding.Settings.HeuristicAdjuster.Desc>较高的值将导致计算根据目的地的距离像圆锥体一样“展开”。当达到最大时，将对细胞进行强力分析，以牺牲性能为代价获得最大精度。</CleanPathfinding.Settings.HeuristicAdjuster.Desc>
+
+  <CleanPathfinding.Settings.FactorCarryingPawn>如果棋子携带另一个棋子，则忽略规则</CleanPathfinding.Settings.FactorCarryingPawn>
+  <CleanPathfinding.Settings.FactorCarryingPawn.Desc>如果棋子携带另一个棋子，他们将忽略规则。</CleanPathfinding.Settings.FactorCarryingPawn.Desc>
+
+  <CleanPathfinding.Settings.FactorBleeding>如果流血，棋子就会无视规则</CleanPathfinding.Settings.FactorBleeding>
+  <CleanPathfinding.Settings.FactorBleeding.Desc>如果 Pawn 每天流血超过 10%，他们将忽略规则。</CleanPathfinding.Settings.FactorBleeding.Desc>
+
+  <CleanPathfinding.Settings.EnableExitTuning>启用出口查找</CleanPathfinding.Settings.EnableExitTuning>
+  <CleanPathfinding.Settings.ExitRange.Warning>仅当您在不寻常的地图上玩并注意到棋子在试图找到地图出口时被卡住时才使用出口调整。启用/禁用此功能需要重新启动。</CleanPathfinding.Settings.ExitRange.Warning>
+  <CleanPathfinding.Settings.ExitRange>退出范围（模组默认值：{0}，最小值：{1}，最大值：{2}）：</CleanPathfinding.Settings.ExitRange>
+  <CleanPathfinding.Settings.ExitRange.Desc>Pawn 环顾四周寻找出口，每次都向+4 格的方向寻找越来越远的距离。在 vanilla 中，他们在 30 次迭代后放弃。该滑块增加了迭代次数，使其退出查找更加积极。</CleanPathfinding.Settings.ExitRange.Desc>
+
+  <CleanPathfinding.Settings.EnableWanderTuning>启用漂移调整</CleanPathfinding.Settings.EnableWanderTuning>
+  <CleanPathfinding.Settings.EnableWanderTuning.Desc>允许调整漫无目的地闲逛的棋子和动物。</CleanPathfinding.Settings.EnableWanderTuning.Desc>
+  <CleanPathfinding.Settings.WanderDelay>漂移延迟（模组默认值：{0}，最小值：{1}，最大值：{2}）{3}</CleanPathfinding.Settings.WanderDelay>
+  <CleanPathfinding.Settings.WanderDelay.Desc>在典当（包括圈养的动物和野生动物）徘徊到附近的新地点之前，会额外增加几秒的时间。增加这个值对性能有一点帮助，但代价是世界不那么活跃。</CleanPathfinding.Settings.WanderDelay.Desc>
+
+  <CleanPathfinding.Settings.DoorPathing>启用门路径</CleanPathfinding.Settings.DoorPathing>
+  <CleanPathfinding.Settings.DoorPathing.Desc>禁用此功能将删除赋予门的路径优先级小玩意。</CleanPathfinding.Settings.DoorPathing.Desc>
+  <CleanPathfinding.Settings.DoorPathing.Notice>（当前加载游戏时无法禁用门路追踪。）</CleanPathfinding.Settings.DoorPathing.Notice>
+
+  <CleanPathfinding.Settings.DoorPathingSide>侧门路径成本（Mod 默认值：{0}，最小值：{1}，最大值：{2}）： </CleanPathfinding.Settings.DoorPathingSide>
+  <CleanPathfinding.Settings.DoorPathingSide.Desc>当 Pawn 通过标记为侧门的门时，会考虑这种额外的路径成本。出于考虑，默认情况下，普通门被视为 +45 成本。</CleanPathfinding.Settings.DoorPathingSide.Desc>
+  <CleanPathfinding.Settings.DoorPathingEmergency>紧急门路径成本（模组默认值：{0}，最小值：{1}，最大值：{2}）： </CleanPathfinding.Settings.DoorPathingEmergency>
+  <CleanPathfinding.Settings.DoorPathingEmergency.Desc>当通过标记为紧急门的门时，Pawn 会考虑这种额外的路径成本。出于考虑，默认情况下，普通门被视为 +45 成本。</CleanPathfinding.Settings.DoorPathingEmergency.Desc>
+
+  <CleanPathfinding.Settings.OptimizeCollider>优化碰撞检查</CleanPathfinding.Settings.OptimizeCollider>
+  <CleanPathfinding.Settings.OptimizeCollider.Desc>将检查 pawn 是否应与其他 pawn 碰撞的代码替换为优化版本。没有逻辑改变。如果检测到另一个 mod 需要修改此代码并且会发生冲突，则此优化将自动禁用。更改此设置需要重新启动。</CleanPathfinding.Settings.OptimizeCollider.Desc>
+
+  <CleanPathfinding.Icon.DoorType.Desc>更改门类型以改变路线行为。\n\n殖民者棋子会拒绝通过侧门，甚至紧急门。\n\n专用门适用于没有其他途径进入的房间，提供路线提示。</CleanPathfinding.Icon.DoorType.Desc>
+  <CleanPathfinding.Icon.Normal>普通的</CleanPathfinding.Icon.Normal>
+  <CleanPathfinding.Icon.Side>边</CleanPathfinding.Icon.Side>
+  <CleanPathfinding.Icon.Emergency>紧急情况</CleanPathfinding.Icon.Emergency>
+  <CleanPathfinding.Icon.Exclusive>独家的</CleanPathfinding.Icon.Exclusive>
+
+  <CleanPathfinding.InvalidDoor>当房间只有一扇门时，无法设置门优先级。</CleanPathfinding.InvalidDoor>
+
+  <CleanPathfinding.ReloadHeader>需要重新加载</CleanPathfinding.ReloadHeader>
+  <CleanPathfinding.ReloadRequired>重新加载您的保存以启用门路径功能。您不需要重新启动游戏。</CleanPathfinding.ReloadRequired>
+
+  <CleanPathfinding.NewAvoidArea>[清洁寻路] 避开注册区域。</CleanPathfinding.NewAvoidArea>
+  <CleanPathfinding.DeletedAvoidArea>[干净寻路]避免被移除的区域。</CleanPathfinding.DeletedAvoidArea>
+
+  <Seconds> 秒</Seconds>
+
+  <Max><![CDATA[<color=red>MAX</color>]]></Max>
+
+</LanguageData>

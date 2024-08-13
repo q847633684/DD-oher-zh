@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+
+  <HotkeyEditor.label>人物</HotkeyEditor.label>
+
+  <HotkeyEditor.description>启动角色编辑器\n<i><color=#66E0E4FF>角色编辑器</color></i></HotkeyEditor.description>
+
+
+  <HotkeyTeleport.label>传送</HotkeyTeleport.label>
+
+  <HotkeyTeleport.description>快速传送\n<i><color=#66E0E4FF>角色编辑器</color></i></HotkeyTeleport.description>
+
+</LanguageData>

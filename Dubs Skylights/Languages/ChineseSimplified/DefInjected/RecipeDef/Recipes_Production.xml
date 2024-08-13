@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SmeltGlass.label>熔炼玻璃</SmeltGlass.label>
+  <SmeltGlass.description>制作带框玻璃窗.</SmeltGlass.description>
+  <SmeltGlass.jobString>熔炼玻璃.</SmeltGlass.jobString>
+
+  <SmeltGlass4x.label>熔炼玻璃 x4</SmeltGlass4x.label>
+  <SmeltGlass4x.description>制作带框玻璃窗.</SmeltGlass4x.description>
+  <SmeltGlass4x.jobString>熔炼玻璃.</SmeltGlass4x.jobString>
+
+
+</LanguageData>
