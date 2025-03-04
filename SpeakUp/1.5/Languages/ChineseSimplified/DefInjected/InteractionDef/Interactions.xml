@@ -4486,12 +4486,12 @@
   <HowAreYou.logRulesInitiator.rulesStrings.79>good_opinion_sick(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)->我不太舒服。</HowAreYou.logRulesInitiator.rulesStrings.79>
   <HowAreYou.logRulesInitiator.rulesStrings.80>good_opinion_sick(INITIATOR_mood&lt;0.3)->[furious] 最重要的是，我病了！ </HowAreYou.logRulesInitiator.rulesStrings.80>
   <HowAreYou.logRulesInitiator.rulesStrings.81>r_logentry(INITIATOR_opinion&gt;=-5,INITIATOR_thoughtDefName==Pain,priority=1)->[good_opinion_pain]</HowAreYou.logRulesInitiator.rulesStrings.81>
-  <HowAreYou.logRulesInitiator.rulesStrings.82>good_opinion_pain(INITIATOR_mood&gt;=0.7)->I'm in pain, but I'm sure it'll end soon! [whataboutyou]</HowAreYou.logRulesInitiator.rulesStrings.82>
+  <HowAreYou.logRulesInitiator.rulesStrings.82>good_opinion_pain(INITIATOR_mood&gt;=0.7)->我很痛苦，但我确定它很快就会结束！[whataboutyou]</HowAreYou.logRulesInitiator.rulesStrings.82>
   <HowAreYou.logRulesInitiator.rulesStrings.83>good_opinion_pain(INITIATOR_mood&gt;=0.5,INITIATOR_mood&lt;0.7)->我很痛苦，但我相信我很快就会康复。[whataboutyou]</HowAreYou.logRulesInitiator.rulesStrings.83>
   <HowAreYou.logRulesInitiator.rulesStrings.84>good_opinion_pain(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)->我很痛苦...</HowAreYou.logRulesInitiator.rulesStrings.84>
   <HowAreYou.logRulesInitiator.rulesStrings.85>good_opinion_pain(INITIATOR_mood&lt;0.3)->[furious]最重要的是，我很痛苦！ </HowAreYou.logRulesInitiator.rulesStrings.85>
   <HowAreYou.logRulesInitiator.rulesStrings.86>r_logentry(INITIATOR_opinion&gt;=-5)->[good_opinion]</HowAreYou.logRulesInitiator.rulesStrings.86>
-  <HowAreYou.logRulesInitiator.rulesStrings.87>good_opinion(INITIATOR_mood&gt;=0.7)->我觉得[great], thank yo谢谢你！utyou]</HowAreYou.logRulesInitiator.rulesStrings.87>
+  <HowAreYou.logRulesInitiator.rulesStrings.87>good_opinion(INITIATOR_mood&gt;=0.7)->我觉得[great] 谢谢你！[whataboutyou]]</HowAreYou.logRulesInitiator.rulesStrings.87>
   <HowAreYou.logRulesInitiator.rulesStrings.88>good_opinion(INITIATOR_mood&gt;=0.5,INITIATOR_mood&lt;0.7)->我是[fine], 谢谢. [whataboutyou]</HowAreYou.logRulesInitiator.rulesStrings.88>
   <HowAreYou.logRulesInitiator.rulesStrings.89>good_opinion(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)->[not_so_well]</HowAreYou.logRulesInitiator.rulesStrings.89>
   <HowAreYou.logRulesInitiator.rulesStrings.90>good_opinion(INITIATOR_mood&lt;0.3)->[furious]</HowAreYou.logRulesInitiator.rulesStrings.90>
