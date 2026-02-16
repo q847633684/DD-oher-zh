@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: joke — reaction-->
+  <JokeReaction.label>joke — reaction</JokeReaction.label>
+  <JokeReaction.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(RECIPIENT_social_level>=0)->[good]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;gt;=0)-&amp;gt;[good]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level>=5)->[good]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;gt;=5)-&amp;gt;[good]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level>=10)->[good]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;gt;=10)-&amp;gt;[good]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level>=15)->[good]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;gt;=15)-&amp;gt;[good]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level<5)->[bad]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;lt;5)-&amp;gt;[bad]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level<10)->[bad]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;lt;10)-&amp;gt;[bad]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level<15)->[bad]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;lt;15)-&amp;gt;[bad]</li>
+    <!--EN: r_logentry(RECIPIENT_social_level<=20)->[bad]-->
+    <li>r_logentry(RECIPIENT_social_level&amp;lt;=20)-&amp;gt;[bad]</li>
+    <!--EN: good(INITIATOR_mood>=0.7)->*laughs hard*-->
+    <li>good(INITIATOR_mood&amp;gt;=0.7)-&amp;gt;*laughs hard*</li>
+    <!--EN: good(INITIATOR_mood>=0.4,INITIATOR_mood<0.7)->*laughs*-->
+    <li>good(INITIATOR_mood&amp;gt;=0.4,INITIATOR_mood&amp;lt;0.7)-&amp;gt;*laughs*</li>
+    <!--EN: good(INITIATOR_mood>=0.2,INITIATOR_mood<0.4)->*smiles*-->
+    <li>good(INITIATOR_mood&amp;gt;=0.2,INITIATOR_mood&amp;lt;0.4)-&amp;gt;*smiles*</li>
+    <!--EN: good(INITIATOR_mood<0.2)->*sighs*-->
+    <li>good(INITIATOR_mood&amp;lt;0.2)-&amp;gt;*sighs*</li>
+    <!--EN: bad(INITIATOR_trait==kind,priority=1)->*polite laugh*-->
+    <li>bad(INITIATOR_trait==kind,priority=1)-&amp;gt;*polite laugh*</li>
+    <!--EN: bad(INITIATOR_mood>=0.7)->*giggles*-->
+    <li>bad(INITIATOR_mood&amp;gt;=0.7)-&amp;gt;*giggles*</li>
+    <!--EN: bad(INITIATOR_mood>=0.4,INITIATOR_mood<0.7)->[mid_mood]-->
+    <li>bad(INITIATOR_mood&amp;gt;=0.4,INITIATOR_mood&amp;lt;0.7)-&amp;gt;[mid_mood]</li>
+    <!--EN: mid_mood->I already knew this joke...-->
+    <li>mid_mood-&amp;gt;I already knew this joke...</li>
+    <!--EN: mid_mood->Mmm... not very funny...-->
+    <li>mid_mood-&amp;gt;Mmm... not very funny...</li>
+    <!--EN: bad(INITIATOR_mood>=0.2,INITIATOR_mood<0.4)->*cringes*-->
+    <li>bad(INITIATOR_mood&amp;gt;=0.2,INITIATOR_mood&amp;lt;0.4)-&amp;gt;*cringes*</li>
+    <!--EN: bad(INITIATOR_mood<0.2)->*scowls*-->
+    <li>bad(INITIATOR_mood&amp;lt;0.2)-&amp;gt;*scowls*</li>
+  </JokeReaction.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 00-->
+  <Joke_00.label>joke — 00</Joke_00.label>
+  <Joke_00.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_00b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_00b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->What, [recipient]?-->
+    <li>good_opinion-&amp;gt;What, [recipient]?</li>
+  </Joke_00.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 00b-->
+  <Joke_00b.label>joke — 00b</Joke_00b.label>
+  <Joke_00b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->This tastes a little funny!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;This tastes a little funny!</li>
+  </Joke_00b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 01-->
+  <Joke_01.label>joke — 01</Joke_01.label>
+  <Joke_01.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_01b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_01b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Why, [recipient]?-->
+    <li>good_opinion-&amp;gt;Why, [recipient]?</li>
+  </Joke_01.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 01b-->
+  <Joke_01b.label>joke — 01b</Joke_01b.label>
+  <Joke_01b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->They always take things literally!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;They always take things literally!</li>
+  </Joke_01b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 02-->
+  <Joke_02.label>joke — 02</Joke_02.label>
+  <Joke_02.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_02b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_02b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->No, what about [him_her]?-->
+    <li>good_opinion-&amp;gt;No, what about [him_her]?</li>
+    <!--EN: him_her->him-->
+    <li>him_her-&amp;gt;him</li>
+    <!--EN: him_her->her-->
+    <li>him_her-&amp;gt;her</li>
+  </Joke_02.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 02b-->
+  <Joke_02b.label>joke — 02b</Joke_02b.label>
+  <Joke_02b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->He'll stop at nothing to avoid them!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;He&amp;apos;ll stop at nothing to avoid them!</li>
+  </Joke_02b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 03-->
+  <Joke_03.label>joke — 03</Joke_03.label>
+  <Joke_03.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_03b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_03b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Why wouldn't they?-->
+    <li>good_opinion-&amp;gt;Why wouldn&amp;apos;t they?</li>
+  </Joke_03.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 03b-->
+  <Joke_03b.label>joke — 03b</Joke_03b.label>
+  <Joke_03b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Because they make up everything!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Because they make up everything!</li>
+  </Joke_03b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 04-->
+  <Joke_04.label>joke — 04</Joke_04.label>
+  <Joke_04.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_04b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_04b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Rich? How, [recipient]? That job can't have paid well...-->
+    <li>good_opinion-&amp;gt;Rich? How, [recipient]? That job can&amp;apos;t have paid well...</li>
+  </Joke_04.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 04b-->
+  <Joke_04b.label>joke — 04b</Joke_04b.label>
+  <Joke_04b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->No, but the tips were enormous!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;No, but the tips were enormous!</li>
+  </Joke_04b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 05-->
+  <Joke_05.label>joke — 05</Joke_05.label>
+  <Joke_05.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_05b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_05b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->What is it, [recipient]?-->
+    <li>good_opinion-&amp;gt;What is it, [recipient]?</li>
+  </Joke_05.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 05b-->
+  <Joke_05b.label>joke — 05b</Joke_05b.label>
+  <Joke_05b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->A nervous wreck!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;A nervous wreck!</li>
+  </Joke_05b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 06-->
+  <Joke_06.label>joke — 06</Joke_06.label>
+  <Joke_06.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_06b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_06b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->No, [recipient] — what happened to them?-->
+    <li>good_opinion-&amp;gt;No, [recipient] — what happened to them?</li>
+  </Joke_06.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 06b-->
+  <Joke_06b.label>joke — 06b</Joke_06b.label>
+  <Joke_06b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->They each got six months!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;They each got six months!</li>
+  </Joke_06b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 07-->
+  <Joke_07.label>joke — 07</Joke_07.label>
+  <Joke_07.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_07b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_07b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Why, [recipient]?-->
+    <li>good_opinion-&amp;gt;Why, [recipient]?</li>
+  </Joke_07.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 07b-->
+  <Joke_07b.label>joke — 07b</Joke_07b.label>
+  <Joke_07b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->In case [he_she] needed to draw blood.-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;In case [he_she] needed to draw blood.</li>
+    <!--EN: he_she->he-->
+    <li>he_she-&amp;gt;he</li>
+    <!--EN: he_she->she-->
+    <li>he_she-&amp;gt;she</li>
+  </Joke_07b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 08-->
+  <Joke_08.label>joke — 08</Joke_08.label>
+  <Joke_08.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_08b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_08b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Yes, [recipient]. Go ahead!-->
+    <li>good_opinion-&amp;gt;Yes, [recipient]. Go ahead!</li>
+  </Joke_08.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 08b-->
+  <Joke_08b.label>joke — 08b</Joke_08b.label>
+  <Joke_08b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Oh never mind — I'm still working on that one!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Oh never mind — I&amp;apos;m still working on that one!</li>
+    <!--EN: he_she->he-->
+    <li>he_she-&amp;gt;he</li>
+    <!--EN: he_she->she-->
+    <li>he_she-&amp;gt;she</li>
+  </Joke_08b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 09-->
+  <Joke_09.label>joke — 09</Joke_09.label>
+  <Joke_09.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_09b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_09b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Why, [recipient]?-->
+    <li>good_opinion-&amp;gt;Why, [recipient]?</li>
+  </Joke_09.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 09b-->
+  <Joke_09b.label>joke — 09b</Joke_09b.label>
+  <Joke_09b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Because nothing gets under their skin!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Because nothing gets under their skin!</li>
+  </Joke_09b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 10-->
+  <Joke_10.label>joke — 10</Joke_10.label>
+  <Joke_10.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_10b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_10b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Why, [recipient]?-->
+    <li>good_opinion-&amp;gt;Why, [recipient]?</li>
+  </Joke_10.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 10b-->
+  <Joke_10b.label>joke — 10b</Joke_10b.label>
+  <Joke_10b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Because it was always spotted!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Because it was always spotted!</li>
+  </Joke_10b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 11-->
+  <Joke_11.label>joke — 11</Joke_11.label>
+  <Joke_11.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_11b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_11b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Why, [recipient]?-->
+    <li>good_opinion-&amp;gt;Why, [recipient]?</li>
+  </Joke_11.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 11b-->
+  <Joke_11b.label>joke — 11b</Joke_11b.label>
+  <Joke_11b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->It's pointless!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;It&amp;apos;s pointless!</li>
+  </Joke_11b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 12-->
+  <Joke_12.label>joke — 12</Joke_12.label>
+  <Joke_12.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_12b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_12b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Hmmm... I don't know, [recipient]. What do you call it?-->
+    <li>good_opinion-&amp;gt;Hmmm... I don&amp;apos;t know, [recipient]. What do you call it?</li>
+  </Joke_12.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 12b-->
+  <Joke_12b.label>joke — 12b</Joke_12b.label>
+  <Joke_12b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Ground beef!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Ground beef!</li>
+  </Joke_12b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 13-->
+  <Joke_13.label>joke — 13</Joke_13.label>
+  <Joke_13.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_13b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_13b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Hmmm... I don't know, [recipient]. What do they call each other?-->
+    <li>good_opinion-&amp;gt;Hmmm... I don&amp;apos;t know, [recipient]. What do they call each other?</li>
+  </Joke_13.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 13b-->
+  <Joke_13b.label>joke — 13b</Joke_13b.label>
+  <Joke_13b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Thrumb-bros!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Thrumb-bros!</li>
+  </Joke_13b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 14-->
+  <Joke_14.label>joke — 14</Joke_14.label>
+  <Joke_14.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_14b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_14b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->And what did the doctor say?-->
+    <li>good_opinion-&amp;gt;And what did the doctor say?</li>
+  </Joke_14.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 14b-->
+  <Joke_14b.label>joke — 14b</Joke_14b.label>
+  <Joke_14b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->Don't go to those places, then!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;Don&amp;apos;t go to those places, then!</li>
+  </Joke_14b.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 15-->
+  <Joke_15.label>joke — 15</Joke_15.label>
+  <Joke_15.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_15b)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0,tag=Joke_15b)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->No, how was it?-->
+    <li>good_opinion-&amp;gt;No, how was it?</li>
+  </Joke_15.logRulesInitiator.rulesStrings>
+  <!--EN: joke — 15b-->
+  <Joke_15b.label>joke — 15b</Joke_15b.label>
+  <Joke_15b.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(tag=JokeReaction)->The entire audience was stunned!-->
+    <li>r_logentry(tag=JokeReaction)-&amp;gt;The entire audience was stunned!</li>
+  </Joke_15b.logRulesInitiator.rulesStrings>
+</LanguageData>

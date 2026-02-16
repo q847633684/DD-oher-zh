@@ -1,0 +1,1907 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: dream — nice-->
+  <Dream_nice.label>dream — nice</Dream_nice.label>
+  <Dream_nice.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<-25)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;-25)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=-25)->[dream]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=-25)-&amp;gt;[dream]</li>
+    <!--EN: dream->I was in a [AdjectiveFriendly] [Community] — so nice! [fun_activity]-->
+    <li>dream-&amp;gt;I was in a [AdjectiveFriendly] [Community] — so nice! [fun_activity]</li>
+    <!--EN: fun_activity->Everybody was dancing and having fun...[you_in_dream]-->
+    <li>fun_activity-&amp;gt;Everybody was dancing and having fun...[you_in_dream]</li>
+    <!--EN: fun_activity->Everybody was laughing and drinking beer...[you_in_dream]-->
+    <li>fun_activity-&amp;gt;Everybody was laughing and drinking beer...[you_in_dream]</li>
+    <!--EN: fun_activity->There was this large [color]table filled with [nice_food]...-->
+    <li>fun_activity-&amp;gt;There was this large [color]table filled with [nice_food]...</li>
+    <!--EN: fun_activity->There was this [AdjectiveFriendly] singer, enthralling everybody with her sweet voice...-->
+    <li>fun_activity-&amp;gt;There was this [AdjectiveFriendly] singer, enthralling everybody with her sweet voice...</li>
+    <!--EN: dream->I was flying over a beautiful [color][TerrainFeature], [a0]. [a1]-->
+    <li>dream-&amp;gt;I was flying over a beautiful [color][TerrainFeature], [a0]. [a1]</li>
+    <!--EN: a0->crowded by [color][AdjectiveFriendly] [PersonJob]s-->
+    <li>a0-&amp;gt;crowded by [color][AdjectiveFriendly] [PersonJob]s</li>
+    <!--EN: a0->crawling with [color][AdjectiveFriendly] [Animal]s-->
+    <li>a0-&amp;gt;crawling with [color][AdjectiveFriendly] [Animal]s</li>
+    <!--EN: a1->They looked so tiny from up there...-->
+    <li>a1-&amp;gt;They looked so tiny from up there...</li>
+    <!--EN: a1->They were all smiling at me, as I flew by...-->
+    <li>a1-&amp;gt;They were all smiling at me, as I flew by...</li>
+    <!--EN: a1->They were singing a nice song about [TalkTopicAny]...-->
+    <li>a1-&amp;gt;They were singing a nice song about [TalkTopicAny]...</li>
+    <!--EN: a1->They were all happily dancing together, so I landed and joined them...-->
+    <li>a1-&amp;gt;They were all happily dancing together, so I landed and joined them...</li>
+    <!--EN: dream->I peacefully walked in a [AdjectiveLarge] [TreeType] forest. So relaxing...[you_in_dream]-->
+    <li>dream-&amp;gt;I peacefully walked in a [AdjectiveLarge] [TreeType] forest. So relaxing...[you_in_dream]</li>
+    <!--EN: dream->I was on a stage performing a standup show for [AdjectiveFriendly] [color][Animal]s — everybody was drinking beer and laughing hard![you_in_dream]-->
+    <li>dream-&amp;gt;I was on a stage performing a standup show for [AdjectiveFriendly] [color][Animal]s — everybody was drinking beer and laughing hard![you_in_dream]</li>
+    <!--EN: dream->There was this [AdjectiveFriendly] [PersonJob] who gave me this [color][Apparel] — I wore it, and I instantly felt so happy!-->
+    <li>dream-&amp;gt;There was this [AdjectiveFriendly] [PersonJob] who gave me this [color][Apparel] — I wore it, and I instantly felt so happy!</li>
+    <!--EN: dream->I was happily swimming in a pool of [color][Vegetable]s — weird right? But when I ate them, they tasted like [nice_food]!-->
+    <li>dream-&amp;gt;I was happily swimming in a pool of [color][Vegetable]s — weird right? But when I ate them, they tasted like [nice_food]!</li>
+    <!--EN: dream->There was this [AdjectiveFriendly] [PersonJob] speaking to me about [TalkTopicAny] — it was so interesting!-->
+    <li>dream-&amp;gt;There was this [AdjectiveFriendly] [PersonJob] speaking to me about [TalkTopicAny] — it was so interesting!</li>
+    <!--EN: dream->There was this floating [color]parchment with a moving [color]mouth, reciting [poem_adj] poem about [TalkTopicAny]...-->
+    <li>dream-&amp;gt;There was this floating [color]parchment with a moving [color]mouth, reciting [poem_adj] poem about [TalkTopicAny]...</li>
+    <!--EN: dream->I don't remember its details, but I recall it was something about [TalkTopicAny] and that it felt me feel good...-->
+    <li>dream-&amp;gt;I don&amp;apos;t remember its details, but I recall it was something about [TalkTopicAny] and that it felt me feel good...</li>
+    <!--EN: color->-->
+    <li>color-&amp;gt;</li>
+    <!--EN: color->[Color]-->
+    <li>color-&amp;gt;[Color]</li>
+    <!--EN: nice_food->cupcakes-->
+    <li>nice_food-&amp;gt;cupcakes</li>
+    <!--EN: nice_food->fried chicken-->
+    <li>nice_food-&amp;gt;fried chicken</li>
+    <!--EN: nice_food->bacon pizza-->
+    <li>nice_food-&amp;gt;bacon pizza</li>
+    <!--EN: nice_food->doughnuts-->
+    <li>nice_food-&amp;gt;doughnuts</li>
+    <!--EN: nice_food->honey-->
+    <li>nice_food-&amp;gt;honey</li>
+    <!--EN: nice_food->chocolate-->
+    <li>nice_food-&amp;gt;chocolate</li>
+    <!--EN: nice_food->milkshake-->
+    <li>nice_food-&amp;gt;milkshake</li>
+    <!--EN: nice_food->hamburgers-->
+    <li>nice_food-&amp;gt;hamburgers</li>
+    <!--EN: nice_food->lasagna-->
+    <li>nice_food-&amp;gt;lasagna</li>
+    <!--EN: poem_adj->an elegant-->
+    <li>poem_adj-&amp;gt;an elegant</li>
+    <!--EN: poem_adj->a beautiful-->
+    <li>poem_adj-&amp;gt;a beautiful</li>
+    <!--EN: poem_adj->a charming-->
+    <li>poem_adj-&amp;gt;a charming</li>
+    <!--EN: you_in_dream(INITIATOR_opinion>=25)-> you were there too!-->
+    <li>you_in_dream(INITIATOR_opinion&amp;gt;=25)-&amp;gt; you were there too!</li>
+    <!--EN: you_in_dream->-->
+    <li>you_in_dream-&amp;gt;</li>
+  </Dream_nice.logRulesInitiator.rulesStrings>
+  <!--EN: is cooking-->
+  <IsCooking.label>is cooking</IsCooking.label>
+  <IsCooking.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion->...-->
+    <li>bad_opinion-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_cooking_level>=6,priority=1)->Thank you!-->
+    <li>good_opinion(INITIATOR_cooking_level&amp;gt;=6,priority=1)-&amp;gt;Thank you!</li>
+    <!--EN: good_opinion->Well, I'm doing my best here... I hope to get it right...-->
+    <li>good_opinion-&amp;gt;Well, I&amp;apos;m doing my best here... I hope to get it right...</li>
+  </IsCooking.logRulesInitiator.rulesStrings>
+  <!--EN: apparel — damaged-->
+  <ReactToThought_ApparelDamaged.label>apparel — damaged</ReactToThought_ApparelDamaged.label>
+  <ReactToThought_ApparelDamaged.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->I'm sorry to hear that, [recipient]. [comment]-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [comment]</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_crafting_level>=5)->I could try and make some new apparel for you.-->
+    <li>comment(INITIATOR_crafting_level&amp;gt;=5)-&amp;gt;I could try and make some new apparel for you.</li>
+    <!--EN: comment(INITIATOR_social_level>=5)->I'll try to trade in something in exchange for some new apparel for you.-->
+    <li>comment(INITIATOR_social_level&amp;gt;=5)-&amp;gt;I&amp;apos;ll try to trade in something in exchange for some new apparel for you.</li>
+    <!--EN: comment(INITIATOR_thoughtDefName==ApparelDamaged)->Mine is in no good shape either...-->
+    <li>comment(INITIATOR_thoughtDefName==ApparelDamaged)-&amp;gt;Mine is in no good shape either...</li>
+  </ReactToThought_ApparelDamaged.logRulesInitiator.rulesStrings>
+  <!--EN: ate meal-->
+  <ReactToThought_AteMeal.label>ate meal</ReactToThought_AteMeal.label>
+  <ReactToThought_AteMeal.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteLavishMeal)->[recipient_lavish]-->
+    <li>good_opinion(RECIPIENT_thoughtDefName==AteLavishMeal)-&amp;gt;[recipient_lavish]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->Me too! [medical_opinion_lavish_1]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&amp;gt;Me too! [medical_opinion_lavish_1]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->I don't think they're as abundant as you say, but I agree with you! [medical_opinion_lavish_1]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&amp;gt;I don&amp;apos;t think they&amp;apos;re as abundant as you say, but I agree with you! [medical_opinion_lavish_1]</li>
+    <!--EN: recipient_lavish->Really? Mine were plain and ordinary. [medical_opinion_lavish_2]-->
+    <li>recipient_lavish-&amp;gt;Really? Mine were plain and ordinary. [medical_opinion_lavish_2]</li>
+    <!--EN: recipient_lavish->Really? Mine were plain plain and ordinary. [cook_opinion]-->
+    <li>recipient_lavish-&amp;gt;Really? Mine were plain plain and ordinary. [cook_opinion]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->What?! I had to eat some disgusting food earlier! [medical_opinion_lavish_2]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;What?! I had to eat some disgusting food earlier! [medical_opinion_lavish_2]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->What?! I had to eat some disgusting food earlier! [cook_opinion]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;What?! I had to eat some disgusting food earlier! [cook_opinion]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteRawFood,priority=1)->What?! I had to eat some raw food earlier! [medical_opinion_lavish_2]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;What?! I had to eat some raw food earlier! [medical_opinion_lavish_2]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteRawFood,priority=1)->What?! I had to eat some raw food earlier! [cook_opinion]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;What?! I had to eat some raw food earlier! [cook_opinion]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteKibble,priority=1)->What?! I had to eat some kibble earlier! [medical_opinion_lavish_2]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;What?! I had to eat some kibble earlier! [medical_opinion_lavish_2]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteKibble,priority=1)->What?! I had to eat some kibble earlier! [cook_opinion]-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;What?! I had to eat some kibble earlier! [cook_opinion]</li>
+    <!--EN: recipient_lavish(INITIATOR_thoughtDefName==AteCorpse,priority=1)->Are you kidding me?! I had to eat some unbutchered corpse earlier! That was horrible!-->
+    <li>recipient_lavish(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&amp;gt;Are you kidding me?! I had to eat some unbutchered corpse earlier! That was horrible!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteFineMeal)->[recipient_fine]-->
+    <li>good_opinion(RECIPIENT_thoughtDefName==AteFineMeal)-&amp;gt;[recipient_fine]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->And abundant, too! [medical_opinion_fine_1]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&amp;gt;And abundant, too! [medical_opinion_fine_1]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->Me too! [medical_opinion_fine_1]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&amp;gt;Me too! [medical_opinion_fine_1]</li>
+    <!--EN: recipient_fine->Really? I found them plain and ordinary. [medical_opinion_fine_2]-->
+    <li>recipient_fine-&amp;gt;Really? I found them plain and ordinary. [medical_opinion_fine_2]</li>
+    <!--EN: recipient_fine->Really? I found them plain and ordinary. [cook_opinion]-->
+    <li>recipient_fine-&amp;gt;Really? I found them plain and ordinary. [cook_opinion]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->What?! I had to eat some disgusting food earlier! [medical_opinion_fine_2]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;What?! I had to eat some disgusting food earlier! [medical_opinion_fine_2]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->What?! I had to eat some disgusting food earlier! [cook_opinion]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;What?! I had to eat some disgusting food earlier! [cook_opinion]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteRawFood,priority=1)->What?! I had to eat some raw food earlier! [medical_opinion_fine_2]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;What?! I had to eat some raw food earlier! [medical_opinion_fine_2]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteRawFood,priority=1)->What?! I had to eat some raw food earlier! [cook_opinion]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;What?! I had to eat some raw food earlier! [cook_opinion]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteKibble,priority=1)->What?! I had to eat some kibble earlier! [medical_opinion_fine_2]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;What?! I had to eat some kibble earlier! [medical_opinion_fine_2]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteKibble,priority=1)->What?! I had to eat some kibble earlier! [cook_opinion]-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;What?! I had to eat some kibble earlier! [cook_opinion]</li>
+    <!--EN: recipient_fine(INITIATOR_thoughtDefName==AteCorpse,priority=1)->Are you kidding me?! I had to eat some unbutchered corpse earlier! That was horrible!-->
+    <li>recipient_fine(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&amp;gt;Are you kidding me?! I had to eat some unbutchered corpse earlier! That was horrible!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteAwfulMeal)->[recipient_awful]-->
+    <li>good_opinion(RECIPIENT_thoughtDefName==AteAwfulMeal)-&amp;gt;[recipient_awful]</li>
+    <!--EN: recipient_awful(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->I'm sorry to hear that, [recipient]. [cooking_offer]-->
+    <li>recipient_awful(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [cooking_offer]</li>
+    <!--EN: recipient_awful(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->I'm sorry to hear that, [recipient]. [cooking_offer]-->
+    <li>recipient_awful(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [cooking_offer]</li>
+    <!--EN: recipient_awful->I'm sorry to hear that, [recipient]. [cooking_offer]-->
+    <li>recipient_awful-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [cooking_offer]</li>
+    <!--EN: recipient_awful(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->I totally agree! [cook_opinion]-->
+    <li>recipient_awful(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;I totally agree! [cook_opinion]</li>
+    <!--EN: recipient_awful(INITIATOR_thoughtDefName==AteRawFood,priority=1)->Lucky you — I had to eat some raw food earlier! [cook_opinion]-->
+    <li>recipient_awful(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;Lucky you — I had to eat some raw food earlier! [cook_opinion]</li>
+    <!--EN: recipient_awful(INITIATOR_thoughtDefName==AteKibble,priority=1)->Lucky you — I had to eat some kibble earlier! [cook_opinion]-->
+    <li>recipient_awful(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;Lucky you — I had to eat some kibble earlier! [cook_opinion]</li>
+    <!--EN: recipient_awful(INITIATOR_thoughtDefName==AteCorpse,priority=1)->And I had to eat some unbutchered corpse earlier! That was horrible!-->
+    <li>recipient_awful(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&amp;gt;And I had to eat some unbutchered corpse earlier! That was horrible!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteRawFood)->[recipient_raw] [medical_opinion_raw]-->
+    <li>good_opinion(RECIPIENT_thoughtDefName==AteRawFood)-&amp;gt;[recipient_raw] [medical_opinion_raw]</li>
+    <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->I'm so sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&amp;gt;I&amp;apos;m so sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->I'm so sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&amp;gt;I&amp;apos;m so sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_raw->I'm sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_raw-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->I'm sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteRawFood,priority=1)->Me too! [cook_opinion]-->
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;Me too! [cook_opinion]</li>
+    <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteKibble,priority=1)->Lucky you — I had to eat some kibble earlier! [cook_opinion]-->
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;Lucky you — I had to eat some kibble earlier! [cook_opinion]</li>
+    <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteCorpse,priority=1)->And I had to eat some unbutchered corpse earlier! That was horrible!-->
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&amp;gt;And I had to eat some unbutchered corpse earlier! That was horrible!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteKibble)->[recipient_kibble]-->
+    <li>good_opinion(RECIPIENT_thoughtDefName==AteKibble)-&amp;gt;[recipient_kibble]</li>
+    <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->I'm so sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&amp;gt;I&amp;apos;m so sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->I'm so sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&amp;gt;I&amp;apos;m so sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_kibble->I'm sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_kibble-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->I'm sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteRawFood,priority=1)->I'm sorry to hear that, [recipient]! [cooking_offer]-->
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]! [cooking_offer]</li>
+    <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteKibble,priority=1)->Me too! [cook_opinion]-->
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;Me too! [cook_opinion]</li>
+    <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteCorpse,priority=1)->And I had to eat some unbutchered corpse earlier! That was horrible!-->
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&amp;gt;And I had to eat some unbutchered corpse earlier! That was horrible!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteCorpse)->[recipient_corpse] [medical_opinion_corpse]-->
+    <li>good_opinion(RECIPIENT_thoughtDefName==AteCorpse)-&amp;gt;[recipient_corpse] [medical_opinion_corpse]</li>
+    <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->That's disgusting and gross, [recipient]! I hope I won't ever come to that!-->
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&amp;gt;That&amp;apos;s disgusting and gross, [recipient]! I hope I won&amp;apos;t ever come to that!</li>
+    <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->That's disgusting and gross, [recipient]! I hope I won't ever come to that!-->
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&amp;gt;That&amp;apos;s disgusting and gross, [recipient]! I hope I won&amp;apos;t ever come to that!</li>
+    <!--EN: recipient_corpse->That's disgusting and gross, [recipient]! I hope I won't ever come to that!-->
+    <li>recipient_corpse-&amp;gt;That&amp;apos;s disgusting and gross, [recipient]! I hope I won&amp;apos;t ever come to that!</li>
+    <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->That's disgusting and gross, [recipient]! I hope I won't ever come to that!-->
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&amp;gt;That&amp;apos;s disgusting and gross, [recipient]! I hope I won&amp;apos;t ever come to that!</li>
+    <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteRawFood,priority=1)->That's disgusting and gross, [recipient]! I hope I won't ever come to that!-->
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&amp;gt;That&amp;apos;s disgusting and gross, [recipient]! I hope I won&amp;apos;t ever come to that!</li>
+    <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteKibble,priority=1)->That's disgusting and gross, [recipient]! I hope I won't ever come to that!-->
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteKibble,priority=1)-&amp;gt;That&amp;apos;s disgusting and gross, [recipient]! I hope I won&amp;apos;t ever come to that!</li>
+    <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteCorpse,priority=1)->Me too! That was horrible! Oh my, what have we come to?!-->
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&amp;gt;Me too! That was horrible! Oh my, what have we come to?!</li>
+    <!--EN: medical_opinion_lavish_1->-->
+    <li>medical_opinion_lavish_1-&amp;gt;</li>
+    <!--EN: medical_opinion_lavish_1(INITIATOR_medical_level>=5,priority=1)->[although] I think it'd be healthier to eat less lavishly.-->
+    <li>medical_opinion_lavish_1(INITIATOR_medical_level&amp;gt;=5,priority=1)-&amp;gt;[although] I think it&amp;apos;d be healthier to eat less lavishly.</li>
+    <!--EN: medical_opinion_lavish_2->-->
+    <li>medical_opinion_lavish_2-&amp;gt;</li>
+    <!--EN: medical_opinion_lavish_2(INITIATOR_medical_level>=5,priority=1)->[moreover] I think you'd be healthier if you ate less lavishly.-->
+    <li>medical_opinion_lavish_2(INITIATOR_medical_level&amp;gt;=5,priority=1)-&amp;gt;[moreover] I think you&amp;apos;d be healthier if you ate less lavishly.</li>
+    <!--EN: medical_opinion_fine_1->-->
+    <li>medical_opinion_fine_1-&amp;gt;</li>
+    <!--EN: medical_opinion_fine_1(INITIATOR_medical_level>=5,priority=1)->[moreover] our well-balanced, varied diet is excellent for our health.-->
+    <li>medical_opinion_fine_1(INITIATOR_medical_level&amp;gt;=5,priority=1)-&amp;gt;[moreover] our well-balanced, varied diet is excellent for our health.</li>
+    <!--EN: medical_opinion_fine_2->-->
+    <li>medical_opinion_fine_2-&amp;gt;</li>
+    <!--EN: medical_opinion_fine_2(INITIATOR_medical_level>=5,priority=1)->At least, you're lucky enough to have a well-balanced diet — excellent for your health.-->
+    <li>medical_opinion_fine_2(INITIATOR_medical_level&amp;gt;=5,priority=1)-&amp;gt;At least, you&amp;apos;re lucky enough to have a well-balanced diet — excellent for your health.</li>
+    <!--EN: medical_opinion_raw->-->
+    <li>medical_opinion_raw-&amp;gt;</li>
+    <!--EN: medical_opinion_raw(INITIATOR_medical_level>=5,priority=1)->[moreover] eating raw food is dangerous for your health!-->
+    <li>medical_opinion_raw(INITIATOR_medical_level&amp;gt;=5,priority=1)-&amp;gt;[moreover] eating raw food is dangerous for your health!</li>
+    <!--EN: medical_opinion_corpse->-->
+    <li>medical_opinion_corpse-&amp;gt;</li>
+    <!--EN: medical_opinion_corpse(INITIATOR_medical_level>=5,priority=1)->[moreover] it's highly dangerous for your health!-->
+    <li>medical_opinion_corpse(INITIATOR_medical_level&amp;gt;=5,priority=1)-&amp;gt;[moreover] it&amp;apos;s highly dangerous for your health!</li>
+    <!--EN: cooking_offer(INITIATOR_cooking_level<6)->-->
+    <li>cooking_offer(INITIATOR_cooking_level&amp;lt;6)-&amp;gt;</li>
+    <!--EN: cooking_offer(INITIATOR_cooking_level>=6)->I'll try and cook something better for you.-->
+    <li>cooking_offer(INITIATOR_cooking_level&amp;gt;=6)-&amp;gt;I&amp;apos;ll try and cook something better for you.</li>
+    <!--EN: cook_opinion(INITIATOR_cooking_level<6)->If only I were a better cook...-->
+    <li>cook_opinion(INITIATOR_cooking_level&amp;lt;6)-&amp;gt;If only I were a better cook...</li>
+    <!--EN: cook_opinion(INITIATOR_cooking_level>=6)->I could cook some better meals!-->
+    <li>cook_opinion(INITIATOR_cooking_level&amp;gt;=6)-&amp;gt;I could cook some better meals!</li>
+    <!--EN: although->Although,-->
+    <li>although-&amp;gt;Although,</li>
+    <!--EN: although->Yet,-->
+    <li>although-&amp;gt;Yet,</li>
+    <!--EN: although->Nonetheless,-->
+    <li>although-&amp;gt;Nonetheless,</li>
+    <!--EN: although->Even so,-->
+    <li>although-&amp;gt;Even so,</li>
+    <!--EN: moreover->Moreover,-->
+    <li>moreover-&amp;gt;Moreover,</li>
+    <!--EN: moreover->Besides,-->
+    <li>moreover-&amp;gt;Besides,</li>
+  </ReactToThought_AteMeal.logRulesInitiator.rulesStrings>
+  <!--EN: react to — ate wo table (stressed or abrasive)-->
+  <ReactToThought_AteWithoutTable.label>react to — ate wo table (stressed or abrasive)</ReactToThought_AteWithoutTable.label>
+  <ReactToThought_AteWithoutTable.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level<4)->[bad_opinion_unskilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;lt;4)-&amp;gt;[bad_opinion_unskilled]</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<4)->...-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;...</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=4)->Yes you could have, [recipient] — now, try to be more useful in the future!-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Yes you could have, [recipient] — now, try to be more useful in the future!</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level>=4)->[bad_opinion_skilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;gt;=4)-&amp;gt;[bad_opinion_skilled]</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level<4)->And I hope you [shut_up], [recipient].-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;And I hope you [shut_up], [recipient].</li>
+    <!--EN: shut_up->shut up-->
+    <li>shut_up-&amp;gt;shut up</li>
+    <!--EN: shut_up->stop nagging me-->
+    <li>shut_up-&amp;gt;stop nagging me</li>
+    <!--EN: shut_up->stop bothering me-->
+    <li>shut_up-&amp;gt;stop bothering me</li>
+    <!--EN: shut_up->just shut up-->
+    <li>shut_up-&amp;gt;just shut up</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level>=4)->Hey, [recipient] — you need a table, you build one yourself. I've got more important things to do.-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Hey, [recipient] — you need a table, you build one yourself. I&amp;apos;ve got more important things to do.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_construction_level<4)->[good_opinion_unskilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;lt;4)-&amp;gt;[good_opinion_unskilled]</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [recipient] — it's [annoying].-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;Let&amp;apos;s hope it won&amp;apos;t happen again, [recipient] — it&amp;apos;s [annoying].</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=4)->Don't worry, [recipient] — I'm sure you won't let this happen again.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Don&amp;apos;t worry, [recipient] — I&amp;apos;m sure you won&amp;apos;t let this happen again.</li>
+    <!--EN: good_opinion(INITIATOR_construction_level>=4)->[good_opinion_skilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;gt;=4)-&amp;gt;[good_opinion_skilled]</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level<4)->I had planned to build one, but I got distracted. Sorry, [recipient] — it won't happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;I had planned to build one, but I got distracted. Sorry, [recipient] — it won&amp;apos;t happen again.</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level>=4)->You're right, [recipient] — we could have built one. We won't let this happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;You&amp;apos;re right, [recipient] — we could have built one. We won&amp;apos;t let this happen again.</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying->not nice-->
+    <li>annoying-&amp;gt;not nice</li>
+    <!--EN: annoying->unpleasant-->
+    <li>annoying-&amp;gt;unpleasant</li>
+  </ReactToThought_AteWithoutTable.logRulesInitiator.rulesStrings>
+  <!--EN: bedroom-->
+  <ReactToThought_Bedroom.label>bedroom</ReactToThought_Bedroom.label>
+  <ReactToThought_Bedroom.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion->My room is none of your business, [RECIPIENT_nameDef][jealous_greedy]-->
+    <li>bad_opinion-&amp;gt;My room is none of your business, [RECIPIENT_nameDef][jealous_greedy]</li>
+    <!--EN: bad_opinion->Where I sleep is none of your business, [RECIPIENT_nameDef].-->
+    <li>bad_opinion-&amp;gt;Where I sleep is none of your business, [RECIPIENT_nameDef].</li>
+    <!--EN: bad_opinion->None of your business, [RECIPIENT_nameDef][jealous_greedy]-->
+    <li>bad_opinion-&amp;gt;None of your business, [RECIPIENT_nameDef][jealous_greedy]</li>
+    <!--EN: bad_opinion->...-->
+    <li>bad_opinion-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptOnGround,priority=4)->I don't have a bedroom — in fact, I don't even have a bed!-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptOnGround,priority=4)-&amp;gt;I don&amp;apos;t have a bedroom — in fact, I don&amp;apos;t even have a bed!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptOutside,priority=4)->What bedroom!? Last time I slept, it was out in the open!-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptOutside,priority=4)-&amp;gt;What bedroom!? Last time I slept, it was out in the open!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ascetic has awful bedroom,priority=4)->Mine is just how I want it to be — very humble and simple.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ascetic has awful bedroom,priority=4)-&amp;gt;Mine is just how I want it to be — very humble and simple.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ascetic has dull bedroom,priority=4)->Mine is just how I want it to be — humble and simple.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ascetic has dull bedroom,priority=4)-&amp;gt;Mine is just how I want it to be — humble and simple.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ascetic has mediocre bedroom,priority=4)->Mine is simple. I like it.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ascetic has mediocre bedroom,priority=4)-&amp;gt;Mine is simple. I like it.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ascetic has impressive bedroom,priority=4)->Mine is unnecessarily pompous and extravagant. I'd rather sleep in a simpler room.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ascetic has impressive bedroom,priority=4)-&amp;gt;Mine is unnecessarily pompous and extravagant. I&amp;apos;d rather sleep in a simpler room.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInBarracks,priority=3)->I don't have my own bedroom — I share one with others.-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptInBarracks,priority=3)-&amp;gt;I don&amp;apos;t have my own bedroom — I share one with others.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInBarracks,priority=3)->I wish I had my own bedroom... who knows when I'll get one...-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptInBarracks,priority=3)-&amp;gt;I wish I had my own bedroom... who knows when I&amp;apos;ll get one...</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInBedroom,priority=2)->[bedroom]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptInBedroom,priority=2)-&amp;gt;[bedroom]</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==decent bedroom)->I can say mine is decent, [recipient].-->
+    <li>bedroom(INITIATOR_thoughtLabel==decent bedroom)-&amp;gt;I can say mine is decent, [recipient].</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==slightly impressive bedroom)->Mine is quite nice, [recipient].-->
+    <li>bedroom(INITIATOR_thoughtLabel==slightly impressive bedroom)-&amp;gt;Mine is quite nice, [recipient].</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==impressive bedroom)->Mine is impressive, [recipient].-->
+    <li>bedroom(INITIATOR_thoughtLabel==impressive bedroom)-&amp;gt;Mine is impressive, [recipient].</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==very impressive bedroom)->Mine is very impressive, [recipient]!-->
+    <li>bedroom(INITIATOR_thoughtLabel==very impressive bedroom)-&amp;gt;Mine is very impressive, [recipient]!</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==extremely impressive bedroom)->Mine is extremely impressive, [recipient]!-->
+    <li>bedroom(INITIATOR_thoughtLabel==extremely impressive bedroom)-&amp;gt;Mine is extremely impressive, [recipient]!</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==unbelievably impressive bedroom)->Mine feels like a piece of Heaven itself, [recipient]!-->
+    <li>bedroom(INITIATOR_thoughtLabel==unbelievably impressive bedroom)-&amp;gt;Mine feels like a piece of Heaven itself, [recipient]!</li>
+    <!--EN: bedroom(INITIATOR_thoughtLabel==wondrously impressive bedroom)->Mine is worthy of an emperor, [recipient]!-->
+    <li>bedroom(INITIATOR_thoughtLabel==wondrously impressive bedroom)-&amp;gt;Mine is worthy of an emperor, [recipient]!</li>
+    <!--EN: good_opinion->Mine? Mine could be better[construction]-->
+    <li>good_opinion-&amp;gt;Mine? Mine could be better[construction]</li>
+    <!--EN: good_opinion(INITIATOR_trait==greedy)->Mine is terrible! I want a better room NOW.-->
+    <li>good_opinion(INITIATOR_trait==greedy)-&amp;gt;Mine is terrible! I want a better room NOW.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==awful bedroom,priority=1)->[bedroom_awful]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==awful bedroom,priority=1)-&amp;gt;[bedroom_awful]</li>
+    <!--EN: bedroom_awful->Mine is so awful — sometimes I think I'd be better off sleeping in the open.-->
+    <li>bedroom_awful-&amp;gt;Mine is so awful — sometimes I think I&amp;apos;d be better off sleeping in the open.</li>
+    <!--EN: bedroom_awful->I confess, mine is awful[construction]-->
+    <li>bedroom_awful-&amp;gt;I confess, mine is awful[construction]</li>
+    <!--EN: construction(INITIATOR_construction_level>=5,priority=1)->, but I'm planning to improve it myself.-->
+    <li>construction(INITIATOR_construction_level&amp;gt;=5,priority=1)-&amp;gt;, but I&amp;apos;m planning to improve it myself.</li>
+    <!--EN: construction->.-->
+    <li>construction-&amp;gt;.</li>
+    <!--EN: jealous_greedy->.-->
+    <li>jealous_greedy-&amp;gt;.</li>
+    <!--EN: jealous_greedy(INITIATOR_trait==jealous,priority=1)->[bad_opinion_jealous_greedy_end]-->
+    <li>jealous_greedy(INITIATOR_trait==jealous,priority=1)-&amp;gt;[bad_opinion_jealous_greedy_end]</li>
+    <!--EN: jealous_greedy(INITIATOR_trait==greedy,priority=1)->[bad_opinion_jealous_greedy_end]-->
+    <li>jealous_greedy(INITIATOR_trait==greedy,priority=1)-&amp;gt;[bad_opinion_jealous_greedy_end]</li>
+    <!--EN: bad_opinion_jealous_greedy_end->, but it's probably better than yours.-->
+    <li>bad_opinion_jealous_greedy_end-&amp;gt;, but it&amp;apos;s probably better than yours.</li>
+  </ReactToThought_Bedroom.logRulesInitiator.rulesStrings>
+  <!--EN: defeated cluster-->
+  <ReactToThought_DefeatedMechCluster.label>defeated cluster</ReactToThought_DefeatedMechCluster.label>
+  <ReactToThought_DefeatedMechCluster.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_trait==body purist,priority=1)->A victory that clearly shows that our human bodies need no cybernetics — they're just perfect the way they are!-->
+    <li>good_opinion(INITIATOR_trait==body purist,priority=1)-&amp;gt;A victory that clearly shows that our human bodies need no cybernetics — they&amp;apos;re just perfect the way they are!</li>
+    <!--EN: good_opinion->It was indeed! [comment]-->
+    <li>good_opinion-&amp;gt;It was indeed! [comment]</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_trait==brawler)->We squashed those mechs like bugs!-->
+    <li>comment(INITIATOR_trait==brawler)-&amp;gt;We squashed those mechs like bugs!</li>
+    <!--EN: comment(INITIATOR_trait==depressive)->A great, hollow victory — for when they come back with heavier forces, we will get mercilessly destroyed.-->
+    <li>comment(INITIATOR_trait==depressive)-&amp;gt;A great, hollow victory — for when they come back with heavier forces, we will get mercilessly destroyed.</li>
+    <!--EN: comment(INITIATOR_trait==hard worker)->But now, we'd better prepare for the next mech attack.-->
+    <li>comment(INITIATOR_trait==hard worker)-&amp;gt;But now, we&amp;apos;d better prepare for the next mech attack.</li>
+    <!--EN: comment(INITIATOR_trait==industrious)->But now, we'd better prepare for the next mech attack.-->
+    <li>comment(INITIATOR_trait==industrious)-&amp;gt;But now, we&amp;apos;d better prepare for the next mech attack.</li>
+    <!--EN: comment(INITIATOR_trait==optimist)->I'm sure those things won't come back anytime soon — we're safe!-->
+    <li>comment(INITIATOR_trait==optimist)-&amp;gt;I&amp;apos;m sure those things won&amp;apos;t come back anytime soon — we&amp;apos;re safe!</li>
+    <!--EN: comment(INITIATOR_trait==pessimist)->But I'm sure those things will come back soon with heavier forces.-->
+    <li>comment(INITIATOR_trait==pessimist)-&amp;gt;But I&amp;apos;m sure those things will come back soon with heavier forces.</li>
+    <!--EN: comment(INITIATOR_trait==sanguine)->And this is only one of the many victories awaiting us!-->
+    <li>comment(INITIATOR_trait==sanguine)-&amp;gt;And this is only one of the many victories awaiting us!</li>
+  </ReactToThought_DefeatedMechCluster.logRulesInitiator.rulesStrings>
+  <!--EN: room — dining-->
+  <ReactToThought_DiningRoom.label>room — dining</ReactToThought_DiningRoom.label>
+  <ReactToThought_DiningRoom.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==AteInImpressiveDiningRoom,priority=2)->Same here, [recipient]! [comment]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==AteInImpressiveDiningRoom,priority=2)-&amp;gt;Same here, [recipient]! [comment]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==AteWithoutTable,priority=1)->Really, [recipient]!? Where is this dining room you speak of? [comment]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==AteWithoutTable,priority=1)-&amp;gt;Really, [recipient]!? Where is this dining room you speak of? [comment]</li>
+    <!--EN: good_opinion->That's nice to hear, [recipient]! [comment]-->
+    <li>good_opinion-&amp;gt;That&amp;apos;s nice to hear, [recipient]! [comment]</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_trait==gourmand)->I look forward to enjoying many fancy meals there!-->
+    <li>comment(INITIATOR_trait==gourmand)-&amp;gt;I look forward to enjoying many fancy meals there!</li>
+  </ReactToThought_DiningRoom.logRulesInitiator.rulesStrings>
+  <!--EN: environment — cold-->
+  <ReactToThought_EnvironmentCold.label>environment — cold</ReactToThought_EnvironmentCold.label>
+  <ReactToThought_EnvironmentCold.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_trait==too smart)->We'll all freeze someday, as per universe heat death theory. Our long-derived and processed molecules would survive, but that's hardly what defines our higher functions.-->
+    <li>r_logentry(INITIATOR_trait==too smart)-&amp;gt;We&amp;apos;ll all freeze someday, as per universe heat death theory. Our long-derived and processed molecules would survive, but that&amp;apos;s hardly what defines our higher functions.</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->Good — for I hope you freeze to death, [recipient]!-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;Good — for I hope you freeze to death, [recipient]!</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==EnvironmentCold,priority=1)->[feeling_cold]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==EnvironmentCold,priority=1)-&amp;gt;[feeling_cold]</li>
+    <!--EN: feeling_cold(INITIATOR_thoughtLabel==chilly)->You're right, [recipient]. I'm uncomfortably cold myself.-->
+    <li>feeling_cold(INITIATOR_thoughtLabel==chilly)-&amp;gt;You&amp;apos;re right, [recipient]. I&amp;apos;m uncomfortably cold myself.</li>
+    <!--EN: feeling_cold(INITIATOR_thoughtLabel==cold)->I'm shivering myself, [recipient].-->
+    <li>feeling_cold(INITIATOR_thoughtLabel==cold)-&amp;gt;I&amp;apos;m shivering myself, [recipient].</li>
+    <!--EN: feeling_cold(INITIATOR_thoughtLabel==numbing cold)->All I can think of is getting warm, [recipient].-->
+    <li>feeling_cold(INITIATOR_thoughtLabel==numbing cold)-&amp;gt;All I can think of is getting warm, [recipient].</li>
+    <!--EN: feeling_cold(INITIATOR_thoughtLabel==absolutely freezing)->I can't feel my toes and fingers. I urgently need to get warm.-->
+    <li>feeling_cold(INITIATOR_thoughtLabel==absolutely freezing)-&amp;gt;I can&amp;apos;t feel my toes and fingers. I urgently need to get warm.</li>
+    <!--EN: good_opinion->I'm sorry to hear that, [recipient]. [comment]-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [comment]</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_social_level>=5)->I'll try to trade in something in exchange for some warmer clothing for you.-->
+    <li>comment(INITIATOR_social_level&amp;gt;=5)-&amp;gt;I&amp;apos;ll try to trade in something in exchange for some warmer clothing for you.</li>
+    <!--EN: comment(INITIATOR_crafting_level>=5)->I could try and make some warmer clothing for you.-->
+    <li>comment(INITIATOR_crafting_level&amp;gt;=5)-&amp;gt;I could try and make some warmer clothing for you.</li>
+    <!--EN: comment(INITIATOR_medical_level>=5)->We must find a way to get you warm — or you might even get a nasty frostbite.-->
+    <li>comment(INITIATOR_medical_level&amp;gt;=5)-&amp;gt;We must find a way to get you warm — or you might even get a nasty frostbite.</li>
+    <!--EN: comment(INITIATOR_cooking_level>=5)->I'll try to prepare a nice, hot meal to warm you up.-->
+    <li>comment(INITIATOR_cooking_level&amp;gt;=5)-&amp;gt;I&amp;apos;ll try to prepare a nice, hot meal to warm you up.</li>
+  </ReactToThought_EnvironmentCold.logRulesInitiator.rulesStrings>
+  <!--EN: environment — dark-->
+  <ReactToThought_EnvironmentDark.label>environment — dark</ReactToThought_EnvironmentDark.label>
+  <ReactToThought_EnvironmentDark.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Be careful, [recipient] — [watch_your_step].-->
+    <li>good_opinion-&amp;gt;Be careful, [recipient] — [watch_your_step].</li>
+    <!--EN: good_opinion(INITIATOR_trait==undergrounder,priority=1)->[undergrounder]-->
+    <li>good_opinion(INITIATOR_trait==undergrounder,priority=1)-&amp;gt;[undergrounder]</li>
+    <!--EN: undergrounder->Really, [recipient]? I'm not bothered by darkness.-->
+    <li>undergrounder-&amp;gt;Really, [recipient]? I&amp;apos;m not bothered by darkness.</li>
+    <!--EN: undergrounder(RECIPIENT_trait==undergrounder,priority=1)->I feel the same, [recipient].-->
+    <li>undergrounder(RECIPIENT_trait==undergrounder,priority=1)-&amp;gt;I feel the same, [recipient].</li>
+    <!--EN: good_opinion(INITIATOR_trait==night owl,priority=1)->[night_owl]-->
+    <li>good_opinion(INITIATOR_trait==night owl,priority=1)-&amp;gt;[night_owl]</li>
+    <!--EN: night_owl->Really, [recipient]? I see darkness as a chance to relax.-->
+    <li>night_owl-&amp;gt;Really, [recipient]? I see darkness as a chance to relax.</li>
+    <!--EN: night_owl(RECIPIENT_trait==night owl,priority=1)->I feel the same, [recipient].-->
+    <li>night_owl(RECIPIENT_trait==night owl,priority=1)-&amp;gt;I feel the same, [recipient].</li>
+    <!--EN: good_opinion(INITIATOR_mood<0.5)->How are we [supposed] to get things done in this darkness?-->
+    <li>good_opinion(INITIATOR_mood&amp;lt;0.5)-&amp;gt;How are we [supposed] to get things done in this darkness?</li>
+    <!--EN: watch_your_step->watch your step-->
+    <li>watch_your_step-&amp;gt;watch your step</li>
+    <!--EN: watch_your_step->tread carefully-->
+    <li>watch_your_step-&amp;gt;tread carefully</li>
+    <!--EN: watch_your_step->step carefully-->
+    <li>watch_your_step-&amp;gt;step carefully</li>
+    <!--EN: supposed->supposed-->
+    <li>supposed-&amp;gt;supposed</li>
+    <!--EN: supposed->expected-->
+    <li>supposed-&amp;gt;expected</li>
+  </ReactToThought_EnvironmentDark.logRulesInitiator.rulesStrings>
+  <!--EN: environment — hot-->
+  <ReactToThought_EnvironmentHot.label>environment — hot</ReactToThought_EnvironmentHot.label>
+  <ReactToThought_EnvironmentHot.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==EnvironmentHot,priority=1)->[feeling_hot]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==EnvironmentHot,priority=1)-&amp;gt;[feeling_hot]</li>
+    <!--EN: feeling_hot(INITIATOR_thoughtLabel==sweaty)->You're [intensifier]right, [recipient]. I'm sweating.-->
+    <li>feeling_hot(INITIATOR_thoughtLabel==sweaty)-&amp;gt;You&amp;apos;re [intensifier]right, [recipient]. I&amp;apos;m sweating.</li>
+    <!--EN: feeling_hot(INITIATOR_thoughtLabel==hot)->Ah, [recipient] — if only I could have a breath of cool air...-->
+    <li>feeling_hot(INITIATOR_thoughtLabel==hot)-&amp;gt;Ah, [recipient] — if only I could have a breath of cool air...</li>
+    <!--EN: feeling_hot(INITIATOR_thoughtLabel==hot)->Yes, [recipient]... It's way too hot.-->
+    <li>feeling_hot(INITIATOR_thoughtLabel==hot)-&amp;gt;Yes, [recipient]... It&amp;apos;s way too hot.</li>
+    <!--EN: feeling_hot(INITIATOR_thoughtLabel==sweltering hot)->I'm not sure how long I can handle this extreme heat, [recipient].-->
+    <li>feeling_hot(INITIATOR_thoughtLabel==sweltering hot)-&amp;gt;I&amp;apos;m not sure how long I can handle this extreme heat, [recipient].</li>
+    <!--EN: feeling_hot(INITIATOR_thoughtLabel==blistering hot)->This is worse than Hell itself. The air itself is on fire!-->
+    <li>feeling_hot(INITIATOR_thoughtLabel==blistering hot)-&amp;gt;This is worse than Hell itself. The air itself is on fire!</li>
+    <!--EN: good_opinion->I'm sorry to hear that, [recipient]. [comment]-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [comment]</li>
+    <!--EN: good_opinion->I hope you can cool off soon, [recipient]. [comment]-->
+    <li>good_opinion-&amp;gt;I hope you can cool off soon, [recipient]. [comment]</li>
+    <!--EN: good_opinion->I'm [intensifier]sorry, [recipient]. [comment]-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m [intensifier]sorry, [recipient]. [comment]</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_social_level>=5)->I'll try to trade in something in exchange for some cooler clothing for you.-->
+    <li>comment(INITIATOR_social_level&amp;gt;=5)-&amp;gt;I&amp;apos;ll try to trade in something in exchange for some cooler clothing for you.</li>
+    <!--EN: comment(INITIATOR_crafting_level>=5)->I could try and make some cooler clothing for you.-->
+    <li>comment(INITIATOR_crafting_level&amp;gt;=5)-&amp;gt;I could try and make some cooler clothing for you.</li>
+    <!--EN: comment(INITIATOR_medical_level>=5)->We must find a way to cool you down — or you might even get a nasty heatstroke.-->
+    <li>comment(INITIATOR_medical_level&amp;gt;=5)-&amp;gt;We must find a way to cool you down — or you might even get a nasty heatstroke.</li>
+    <!--EN: comment(INITIATOR_cooking_level>=5)->I'll try to prepare a nice, cold meal to cool you down.-->
+    <li>comment(INITIATOR_cooking_level&amp;gt;=5)-&amp;gt;I&amp;apos;ll try to prepare a nice, cold meal to cool you down.</li>
+  </ReactToThought_EnvironmentHot.logRulesInitiator.rulesStrings>
+  <!--EN: freed from slavery-->
+  <ReactToThought_ExSlave.label>freed from slavery</ReactToThought_ExSlave.label>
+  <ReactToThought_ExSlave.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->You should be thankful indeed, [recipient]. Let's hope rescuing you was worth our while!-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;You should be thankful indeed, [recipient]. Let&amp;apos;s hope rescuing you was worth our while!</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->Sometimes I think that we would've been better off leaving you to those slavers...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;Sometimes I think that we would&amp;apos;ve been better off leaving you to those slavers...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->No problem, [recipient]. It was the right thing to do.-->
+    <li>good_opinion-&amp;gt;No problem, [recipient]. It was the right thing to do.</li>
+    <!--EN: good_opinion->We're glad you're free, [recipient].-->
+    <li>good_opinion-&amp;gt;We&amp;apos;re glad you&amp;apos;re free, [recipient].</li>
+    <!--EN: good_opinion(INITIATOR_trait==kind)->You really don't need to thank us — we just did our duty as good human beings.-->
+    <li>good_opinion(INITIATOR_trait==kind)-&amp;gt;You really don&amp;apos;t need to thank us — we just did our duty as good human beings.</li>
+    <!--EN: good_opinion(INITIATOR_trait==psychopath,priority=1)->...-->
+    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&amp;gt;...</li>
+  </ReactToThought_ExSlave.logRulesInitiator.rulesStrings>
+  <!--EN: rec room-->
+  <ReactToThought_JoyRoom.label>rec room</ReactToThought_JoyRoom.label>
+  <ReactToThought_JoyRoom.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==JoyActivityInImpressiveRecRoom,priority=1)->[rec_room]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==JoyActivityInImpressiveRecRoom,priority=1)-&amp;gt;[rec_room]</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==decent rec room)->Yes, [recipient].-->
+    <li>rec_room(INITIATOR_thoughtLabel==decent rec room)-&amp;gt;Yes, [recipient].</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==slightly impressive rec room)->I believe it's enjoyable, [recipient]!-->
+    <li>rec_room(INITIATOR_thoughtLabel==slightly impressive rec room)-&amp;gt;I believe it&amp;apos;s enjoyable, [recipient]!</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==somewhat impressive rec room)->I believe it's very enjoyable, [recipient]! [comment2]-->
+    <li>rec_room(INITIATOR_thoughtLabel==somewhat impressive rec room)-&amp;gt;I believe it&amp;apos;s very enjoyable, [recipient]! [comment2]</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==very impressive rec room)->I have loads of fun in it, [recipient]! [comment2]-->
+    <li>rec_room(INITIATOR_thoughtLabel==very impressive rec room)-&amp;gt;I have loads of fun in it, [recipient]! [comment2]</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==extremely impressive rec room)->I truly have loads of fun in it, [recipient]! [comment2]-->
+    <li>rec_room(INITIATOR_thoughtLabel==extremely impressive rec room)-&amp;gt;I truly have loads of fun in it, [recipient]! [comment2]</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==unbelievably impressive rec room)->It's the coolest ever, [recipient]! [comment2]-->
+    <li>rec_room(INITIATOR_thoughtLabel==unbelievably impressive rec room)-&amp;gt;It&amp;apos;s the coolest ever, [recipient]! [comment2]</li>
+    <!--EN: rec_room(INITIATOR_thoughtLabel==wondrously impressive rec room)->It's a complete Paradise, [recipient] — all decked for maxing out anyone's fun! [comment2]-->
+    <li>rec_room(INITIATOR_thoughtLabel==wondrously impressive rec room)-&amp;gt;It&amp;apos;s a complete Paradise, [recipient] — all decked for maxing out anyone&amp;apos;s fun! [comment2]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation satisfied,priority=1)->I think we have several nice entertainment options around here.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation satisfied,priority=1)-&amp;gt;I think we have several nice entertainment options around here.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation fully satisfied,priority=1)->I think we have lots of excellent entertainment options around here!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation fully satisfied,priority=1)-&amp;gt;I think we have lots of excellent entertainment options around here!</li>
+    <!--EN: good_opinion->What rec room, [recipient]? I can't seem to have any fun around here...-->
+    <li>good_opinion-&amp;gt;What rec room, [recipient]? I can&amp;apos;t seem to have any fun around here...</li>
+    <!--EN: good_opinion->I need help finding this rec room, [recipient]. I want to have fun, too...-->
+    <li>good_opinion-&amp;gt;I need help finding this rec room, [recipient]. I want to have fun, too...</li>
+    <!--EN: good_opinion->That sounds nice, but I haven't had fun in a while, [recipient].-->
+    <li>good_opinion-&amp;gt;That sounds nice, but I haven&amp;apos;t had fun in a while, [recipient].</li>
+    <!--EN: comment2->-->
+    <li>comment2-&amp;gt;</li>
+    <!--EN: comment2(INITIATOR_social_level>=5)->And it'll be excellent for hosting our next party!-->
+    <li>comment2(INITIATOR_social_level&amp;gt;=5)-&amp;gt;And it&amp;apos;ll be excellent for hosting our next party!</li>
+  </ReactToThought_JoyRoom.logRulesInitiator.rulesStrings>
+  <!--EN: need — beauty — react to beautiful-->
+  <ReactToThought_NeedBeauty_beautiful.label>need — beauty — react to beautiful</ReactToThought_NeedBeauty_beautiful.label>
+  <ReactToThought_NeedBeauty_beautiful.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->What!? Are we speaking of the same place, [recipient]?! This place is totally [ugly]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&amp;gt;What!? Are we speaking of the same place, [recipient]?! This place is totally [ugly]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->I don't know where have you been lately, [recipient] — but rest assured: this place is [ugly].-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&amp;gt;I don&amp;apos;t know where have you been lately, [recipient] — but rest assured: this place is [ugly].</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't agree with that — this place is actually far from perfection.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&amp;gt;I don&amp;apos;t agree with that — this place is actually far from perfection.</li>
+    <!--EN: good_opinion->You might be right, [recipient] — but I don't find it as nice as you say.-->
+    <li>good_opinion-&amp;gt;You might be right, [recipient] — but I don&amp;apos;t find it as nice as you say.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Yes, [recipient] — but I think it still needs some minor improvement.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&amp;gt;Yes, [recipient] — but I think it still needs some minor improvement.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->That's exactly what I think, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&amp;gt;That&amp;apos;s exactly what I think, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->Well, I personally believe this place is more than that — it's simply gorgeous!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&amp;gt;Well, I personally believe this place is more than that — it&amp;apos;s simply gorgeous!</li>
+    <!--EN: ugly->bad-->
+    <li>ugly-&amp;gt;bad</li>
+    <!--EN: ugly->unsightly-->
+    <li>ugly-&amp;gt;unsightly</li>
+    <!--EN: ugly->unattractive-->
+    <li>ugly-&amp;gt;unattractive</li>
+    <!--EN: ugly->horrible-->
+    <li>ugly-&amp;gt;horrible</li>
+    <!--EN: ugly->frightful-->
+    <li>ugly-&amp;gt;frightful</li>
+    <!--EN: ugly->awful-->
+    <li>ugly-&amp;gt;awful</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->ghastly-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;ghastly</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->foul-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;foul</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->repugnant-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;repugnant</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->unprepossessing-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;unprepossessing</li>
+  </ReactToThought_NeedBeauty_beautiful.logRulesInitiator.rulesStrings>
+  <!--EN: need — beauty — react to gorgeous-->
+  <ReactToThought_NeedBeauty_gorgeous.label>need — beauty — react to gorgeous</ReactToThought_NeedBeauty_gorgeous.label>
+  <ReactToThought_NeedBeauty_gorgeous.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->What!? Are we speaking of the same place, [recipient]?! This place is totally [ugly]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&amp;gt;What!? Are we speaking of the same place, [recipient]?! This place is totally [ugly]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->I don't know where have you been lately, [recipient] — but rest assured: this place is [ugly].-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&amp;gt;I don&amp;apos;t know where have you been lately, [recipient] — but rest assured: this place is [ugly].</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't agree with that — this place is actually far from perfection.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&amp;gt;I don&amp;apos;t agree with that — this place is actually far from perfection.</li>
+    <!--EN: good_opinion->You might be right, [recipient] — but I don't find it as nice as you say.-->
+    <li>good_opinion-&amp;gt;You might be right, [recipient] — but I don&amp;apos;t find it as nice as you say.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Well, [recipient] — I think it still needs some improvement.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&amp;gt;Well, [recipient] — I think it still needs some improvement.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Yes, [recipient] — but I think it still needs some minor improvement.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&amp;gt;Yes, [recipient] — but I think it still needs some minor improvement.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->That's exactly what I think, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&amp;gt;That&amp;apos;s exactly what I think, [recipient]!</li>
+    <!--EN: ugly->bad-->
+    <li>ugly-&amp;gt;bad</li>
+    <!--EN: ugly->unsightly-->
+    <li>ugly-&amp;gt;unsightly</li>
+    <!--EN: ugly->unattractive-->
+    <li>ugly-&amp;gt;unattractive</li>
+    <!--EN: ugly->horrible-->
+    <li>ugly-&amp;gt;horrible</li>
+    <!--EN: ugly->frightful-->
+    <li>ugly-&amp;gt;frightful</li>
+    <!--EN: ugly->awful-->
+    <li>ugly-&amp;gt;awful</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->ghastly-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;ghastly</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->foul-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;foul</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->repugnant-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;repugnant</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->unprepossessing-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;unprepossessing</li>
+  </ReactToThought_NeedBeauty_gorgeous.logRulesInitiator.rulesStrings>
+  <!--EN: need — beauty — react to hideous-->
+  <ReactToThought_NeedBeauty_hideous.label>need — beauty — react to hideous</ReactToThought_NeedBeauty_hideous.label>
+  <ReactToThought_NeedBeauty_hideous.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->That's extremely [annoying], [recipient] — I certainly agree with you.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&amp;gt;That&amp;apos;s extremely [annoying], [recipient] — I certainly agree with you.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->That's [annoying], [recipient] — I agree with you.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&amp;gt;That&amp;apos;s [annoying], [recipient] — I agree with you.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't think it's so bad as you say, but... yes this place could look better, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&amp;gt;I don&amp;apos;t think it&amp;apos;s so bad as you say, but... yes this place could look better, [recipient]!</li>
+    <!--EN: good_opinion->I can't say you're right, [recipient] — but, for sure, this place could look better.-->
+    <li>good_opinion-&amp;gt;I can&amp;apos;t say you&amp;apos;re right, [recipient] — but, for sure, this place could look better.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Come on, [recipient]! OK, it could be improved — but I actually find it pretty.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&amp;gt;Come on, [recipient]! OK, it could be improved — but I actually find it pretty.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Are you sure, [recipient]? I don't agree — I actually find it beautiful!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&amp;gt;Are you sure, [recipient]? I don&amp;apos;t agree — I actually find it beautiful!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->What!? Where have you been, [recipient], to speak like that?! I believe we're in a wonderful place!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&amp;gt;What!? Where have you been, [recipient], to speak like that?! I believe we&amp;apos;re in a wonderful place!</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying(INITIATOR_intellectual_level>=5)->unseemly-->
+    <li>annoying(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;unseemly</li>
+    <!--EN: annoying(INITIATOR_intellectual_level>=5)->displeasing-->
+    <li>annoying(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;displeasing</li>
+    <!--EN: annoying(INITIATOR_intellectual_level>=10)->inadmissible-->
+    <li>annoying(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;inadmissible</li>
+  </ReactToThought_NeedBeauty_hideous.logRulesInitiator.rulesStrings>
+  <!--EN: need — beauty — react to pretty-->
+  <ReactToThought_NeedBeauty_pretty.label>need — beauty — react to pretty</ReactToThought_NeedBeauty_pretty.label>
+  <ReactToThought_NeedBeauty_pretty.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->What!? Are we speaking of the same place, [recipient]?! This place is totally [ugly]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&amp;gt;What!? Are we speaking of the same place, [recipient]?! This place is totally [ugly]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->I don't know where have you been lately, [recipient] — but rest assured: this place is [ugly].-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&amp;gt;I don&amp;apos;t know where have you been lately, [recipient] — but rest assured: this place is [ugly].</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->Well, [recipient]... Maybe you're right, but there is a lot of space for improvement, I think.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&amp;gt;Well, [recipient]... Maybe you&amp;apos;re right, but there is a lot of space for improvement, I think.</li>
+    <!--EN: good_opinion->You might be right, [recipient] — but I don't find it as pretty as you say.-->
+    <li>good_opinion-&amp;gt;You might be right, [recipient] — but I don&amp;apos;t find it as pretty as you say.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->That's exactly what I think, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&amp;gt;That&amp;apos;s exactly what I think, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->I believe it's even better than that, [recipient].-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&amp;gt;I believe it&amp;apos;s even better than that, [recipient].</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->Well, I personally believe this place is much more — it's simply gorgeous!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&amp;gt;Well, I personally believe this place is much more — it&amp;apos;s simply gorgeous!</li>
+    <!--EN: ugly->bad-->
+    <li>ugly-&amp;gt;bad</li>
+    <!--EN: ugly->unsightly-->
+    <li>ugly-&amp;gt;unsightly</li>
+    <!--EN: ugly->unattractive-->
+    <li>ugly-&amp;gt;unattractive</li>
+    <!--EN: ugly->horrible-->
+    <li>ugly-&amp;gt;horrible</li>
+    <!--EN: ugly->frightful-->
+    <li>ugly-&amp;gt;frightful</li>
+    <!--EN: ugly->awful-->
+    <li>ugly-&amp;gt;awful</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->ghastly-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;ghastly</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->foul-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;foul</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->repugnant-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;repugnant</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->unprepossessing-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;unprepossessing</li>
+  </ReactToThought_NeedBeauty_pretty.logRulesInitiator.rulesStrings>
+  <!--EN: need — beauty — react to ugly-->
+  <ReactToThought_NeedBeauty_ugly.label>need — beauty — react to ugly</ReactToThought_NeedBeauty_ugly.label>
+  <ReactToThought_NeedBeauty_ugly.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->This place is not [ugly] — it's worse than that, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&amp;gt;This place is not [ugly] — it&amp;apos;s worse than that, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->That's exactly what I think, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&amp;gt;That&amp;apos;s exactly what I think, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't think it's so [ugly] as you say, but... yes this place could look better, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&amp;gt;I don&amp;apos;t think it&amp;apos;s so [ugly] as you say, but... yes this place could look better, [recipient]!</li>
+    <!--EN: good_opinion->I can't say you're right, [recipient] — but, for sure, this place could look better.-->
+    <li>good_opinion-&amp;gt;I can&amp;apos;t say you&amp;apos;re right, [recipient] — but, for sure, this place could look better.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Come on, [recipient]! OK, it could be improved — but I actually find it pretty.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&amp;gt;Come on, [recipient]! OK, it could be improved — but I actually find it pretty.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Are you sure, [recipient]? I don't agree — I actually find it beautiful!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&amp;gt;Are you sure, [recipient]? I don&amp;apos;t agree — I actually find it beautiful!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->What!? Where have you been, [recipient], to speak like that?! I believe we're in a wonderful place!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&amp;gt;What!? Where have you been, [recipient], to speak like that?! I believe we&amp;apos;re in a wonderful place!</li>
+    <!--EN: ugly->bad-->
+    <li>ugly-&amp;gt;bad</li>
+    <!--EN: ugly->unsightly-->
+    <li>ugly-&amp;gt;unsightly</li>
+    <!--EN: ugly->unattractive-->
+    <li>ugly-&amp;gt;unattractive</li>
+    <!--EN: ugly->horrible-->
+    <li>ugly-&amp;gt;horrible</li>
+    <!--EN: ugly->frightful-->
+    <li>ugly-&amp;gt;frightful</li>
+    <!--EN: ugly->awful-->
+    <li>ugly-&amp;gt;awful</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->ghastly-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;ghastly</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->foul-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;foul</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->repugnant-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;repugnant</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->unprepossessing-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;unprepossessing</li>
+  </ReactToThought_NeedBeauty_ugly.logRulesInitiator.rulesStrings>
+  <!--EN: need — beauty — react to unsightly-->
+  <ReactToThought_NeedBeauty_unsightly.label>need — beauty — react to unsightly</ReactToThought_NeedBeauty_unsightly.label>
+  <ReactToThought_NeedBeauty_unsightly.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->This place is not [ugly] — it's a lot worse than that, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&amp;gt;This place is not [ugly] — it&amp;apos;s a lot worse than that, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->Probably you're right, [recipient] — but I think it's even worse than that.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&amp;gt;Probably you&amp;apos;re right, [recipient] — but I think it&amp;apos;s even worse than that.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->That's exactly what I think, [recipient]!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&amp;gt;That&amp;apos;s exactly what I think, [recipient]!</li>
+    <!--EN: good_opinion->I can't say you're right, [recipient] — but, for sure, this place could look better.-->
+    <li>good_opinion-&amp;gt;I can&amp;apos;t say you&amp;apos;re right, [recipient] — but, for sure, this place could look better.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Come on, [recipient]! OK, it could be improved — but I actually find it pretty.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&amp;gt;Come on, [recipient]! OK, it could be improved — but I actually find it pretty.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Are you sure, [recipient]? I don't agree — I actually find it beautiful!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&amp;gt;Are you sure, [recipient]? I don&amp;apos;t agree — I actually find it beautiful!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->What!? Where have you been, [recipient], to speak like that?! I believe we're in a wonderful place!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&amp;gt;What!? Where have you been, [recipient], to speak like that?! I believe we&amp;apos;re in a wonderful place!</li>
+    <!--EN: ugly->bad-->
+    <li>ugly-&amp;gt;bad</li>
+    <!--EN: ugly->unsightly-->
+    <li>ugly-&amp;gt;unsightly</li>
+    <!--EN: ugly->unattractive-->
+    <li>ugly-&amp;gt;unattractive</li>
+    <!--EN: ugly->horrible-->
+    <li>ugly-&amp;gt;horrible</li>
+    <!--EN: ugly->frightful-->
+    <li>ugly-&amp;gt;frightful</li>
+    <!--EN: ugly->awful-->
+    <li>ugly-&amp;gt;awful</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->ghastly-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;ghastly</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=5)->foul-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;foul</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->repugnant-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;repugnant</li>
+    <!--EN: ugly(INITIATOR_intellectual_level>=10)->unprepossessing-->
+    <li>ugly(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;unprepossessing</li>
+  </ReactToThought_NeedBeauty_unsightly.logRulesInitiator.rulesStrings>
+  <!--EN: need — comfort-->
+  <ReactToThought_NeedComfort.label>need — comfort</ReactToThought_NeedComfort.label>
+  <ReactToThought_NeedComfort.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==uncomfortable,priority=1)->[recipient_uncomfortable]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==uncomfortable,priority=1)-&amp;gt;[recipient_uncomfortable]</li>
+    <!--EN: recipient_uncomfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)->I totally agree, [recipient]. [comment]-->
+    <li>recipient_uncomfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)-&amp;gt;I totally agree, [recipient]. [comment]</li>
+    <!--EN: recipient_uncomfortable->I'm sorry to hear that, [recipient]. [comment]-->
+    <li>recipient_uncomfortable-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [comment]</li>
+    <!--EN: good_opinion->[recipient_comfortable]-->
+    <li>good_opinion-&amp;gt;[recipient_comfortable]</li>
+    <!--EN: recipient_comfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)->Really, [recipient]? My aching back doesn't agree with you.-->
+    <li>recipient_comfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)-&amp;gt;Really, [recipient]? My aching back doesn&amp;apos;t agree with you.</li>
+    <!--EN: recipient_comfortable->I'm glad about it too, [recipient]!-->
+    <li>recipient_comfortable-&amp;gt;I&amp;apos;m glad about it too, [recipient]!</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_construction_level>=5,priority=1)->I'll try and build some better furniture for us.-->
+    <li>comment(INITIATOR_construction_level&amp;gt;=5,priority=1)-&amp;gt;I&amp;apos;ll try and build some better furniture for us.</li>
+  </ReactToThought_NeedComfort.logRulesInitiator.rulesStrings>
+  <!--EN: need — react to hunger-->
+  <ReactToThought_NeedFood.label>need — react to hunger</ReactToThought_NeedFood.label>
+  <ReactToThought_NeedFood.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==NeedFood,priority=2)->[hungry_too]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==NeedFood,priority=2)-&amp;gt;[hungry_too]</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==hungry)->[thought_needfood_hungry0]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==hungry)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: thought_needfood_hungry0->I'm really hungry.-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m really hungry.</li>
+    <!--EN: thought_needfood_hungry0->I'm feeling peckish.-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m feeling peckish.</li>
+    <!--EN: thought_needfood_hungry0->I could eat [animal_large]!-->
+    <li>thought_needfood_hungry0-&amp;gt;I could eat [animal_large]!</li>
+    <!--EN: thought_needfood_hungry0->I'm starving!-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m starving!</li>
+    <!--EN: thought_needfood_hungry0->I'm ravenous!-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m ravenous!</li>
+    <!--EN: thought_needfood_hungry0->I'm famished!-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m famished!</li>
+    <!--EN: thought_needfood_hungry0->I'm [intensifier]hungry!-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m [intensifier]hungry!</li>
+    <!--EN: thought_needfood_hungry0->I'm dying for something to eat!-->
+    <li>thought_needfood_hungry0-&amp;gt;I&amp;apos;m dying for something to eat!</li>
+    <!--EN: thought_needfood_hungry0(RECIPIENT_thoughtLabel==hungry,priority=2)->Me too, [recipient]!-->
+    <li>thought_needfood_hungry0(RECIPIENT_thoughtLabel==hungry,priority=2)-&amp;gt;Me too, [recipient]!</li>
+    <!--EN: thought_needfood_hungry0(RECIPIENT_thoughtDefName==NeedFood,priority=1)->I'm also hungry, [recipient]. But you are in much greater need! [offer_solution]-->
+    <li>thought_needfood_hungry0(RECIPIENT_thoughtDefName==NeedFood,priority=1)-&amp;gt;I&amp;apos;m also hungry, [recipient]. But you are in much greater need! [offer_solution]</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==ravenously hungry)->[thought_needfood_hungry1]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==ravenously hungry)-&amp;gt;[thought_needfood_hungry1]</li>
+    <!--EN: thought_needfood_hungry1->I'm feeling weak from hunger. I must eat somthing right now!-->
+    <li>thought_needfood_hungry1-&amp;gt;I&amp;apos;m feeling weak from hunger. I must eat somthing right now!</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==malnourished)->[thought_needfood_hungry2]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==malnourished)-&amp;gt;[thought_needfood_hungry2]</li>
+    <!--EN: thought_needfood_hungry2->I can feel... my body starting to waste away.-->
+    <li>thought_needfood_hungry2-&amp;gt;I can feel... my body starting to waste away.</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==badly malnourished)->[thought_needfood_hungry3]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==badly malnourished)-&amp;gt;[thought_needfood_hungry3]</li>
+    <!--EN: thought_needfood_hungry3->So hungry... my stomach hurts like never before.-->
+    <li>thought_needfood_hungry3-&amp;gt;So hungry... my stomach hurts like never before.</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==starving)->[thought_needfood_hungry4]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==starving)-&amp;gt;[thought_needfood_hungry4]</li>
+    <!--EN: thought_needfood_hungry4->My skin is stretching over my bones. Am I going to die?-->
+    <li>thought_needfood_hungry4-&amp;gt;My skin is stretching over my bones. Am I going to die?</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==advanced starvation)->[thought_needfood_hungry5]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==advanced starvation)-&amp;gt;[thought_needfood_hungry5]</li>
+    <!--EN: thought_needfood_hungry5->I feel like I'm going to pass out and starve to death.-->
+    <li>thought_needfood_hungry5-&amp;gt;I feel like I&amp;apos;m going to pass out and starve to death.</li>
+    <!--EN: hungry_too(INITIATOR_thoughtLabel==extreme starvation)->[thought_needfood_hungry6]-->
+    <li>hungry_too(INITIATOR_thoughtLabel==extreme starvation)-&amp;gt;[thought_needfood_hungry6]</li>
+    <!--EN: thought_needfood_hungry6->Food... food... anything... please...-->
+    <li>thought_needfood_hungry6-&amp;gt;Food... food... anything... please...</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==hungry,priority=1)->Try the cooking area or the pantry — you might find something to eat there.-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==hungry,priority=1)-&amp;gt;Try the cooking area or the pantry — you might find something to eat there.</li>
+    <!--EN: good_opinion->I'm so sorry about that, [recipient]. [offer_solution]-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m so sorry about that, [recipient]. [offer_solution]</li>
+    <!--EN: offer_solution->-->
+    <li>offer_solution-&amp;gt;</li>
+    <!--EN: offer_solution(INITIATOR_faction==PlayerColony,priority=1)->[offer_solution_colonist]-->
+    <li>offer_solution(INITIATOR_faction==PlayerColony,priority=1)-&amp;gt;[offer_solution_colonist]</li>
+    <!--EN: offer_solution(INITIATOR_faction==PlayerTribe,priority=1)->[offer_solution_colonist]-->
+    <li>offer_solution(INITIATOR_faction==PlayerTribe,priority=1)-&amp;gt;[offer_solution_colonist]</li>
+    <!--EN: offer_solution_colonist(INITIATOR_plants_level>=5)->We should consider enlarging our fields, so it won't happen again.-->
+    <li>offer_solution_colonist(INITIATOR_plants_level&amp;gt;=5)-&amp;gt;We should consider enlarging our fields, so it won&amp;apos;t happen again.</li>
+    <!--EN: offer_solution_colonist(INITIATOR_animals_level>=5)->We should consider getting more cattle, so it won't happen again.-->
+    <li>offer_solution_colonist(INITIATOR_animals_level&amp;gt;=5)-&amp;gt;We should consider getting more cattle, so it won&amp;apos;t happen again.</li>
+    <!--EN: offer_solution_colonist(INITIATOR_animals_level>=5,INITIATOR_shooting_level>=5)->I'll try and hunt something — I hope it helps.-->
+    <li>offer_solution_colonist(INITIATOR_animals_level&amp;gt;=5,INITIATOR_shooting_level&amp;gt;=5)-&amp;gt;I&amp;apos;ll try and hunt something — I hope it helps.</li>
+    <!--EN: offer_solution_colonist(INITIATOR_social_level>=5)->Let's hope some caravan passes by — I'll negotiate for more food myself.-->
+    <li>offer_solution_colonist(INITIATOR_social_level&amp;gt;=5)-&amp;gt;Let&amp;apos;s hope some caravan passes by — I&amp;apos;ll negotiate for more food myself.</li>
+    <!--EN: animal_large->a horse-->
+    <li>animal_large-&amp;gt;a horse</li>
+    <!--EN: animal_large->a muffalo-->
+    <li>animal_large-&amp;gt;a muffalo</li>
+    <!--EN: animal_large->a thrumbo-->
+    <li>animal_large-&amp;gt;a thrumbo</li>
+    <!--EN: animal_large->an elephant-->
+    <li>animal_large-&amp;gt;an elephant</li>
+  </ReactToThought_NeedFood.logRulesInitiator.rulesStrings>
+  <!--EN: need — react to hunger — recipient cook-->
+  <ReactToThought_NeedFood_CookRecipient.label>need — react to hunger — recipient cook</ReactToThought_NeedFood_CookRecipient.label>
+  <ReactToThought_NeedFood_CookRecipient.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
+    <li>bad_opinion(INITIATOR_trait==kind,priority=1)-&amp;gt;[good_opinion]</li>
+    <!--EN: bad_opinion->For all I care, [recipient], you may starve to death!-->
+    <li>bad_opinion-&amp;gt;For all I care, [recipient], you may starve to death!</li>
+    <!--EN: bad_opinion->Cook it yourself, [recipient]!-->
+    <li>bad_opinion-&amp;gt;Cook it yourself, [recipient]!</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(RECIPIENT_mood<0.4,priority=1)->Calm down, [recipient]! As soon as I can get my hands on some ingredients, I'll get you a meal!-->
+    <li>good_opinion(RECIPIENT_mood&amp;lt;0.4,priority=1)-&amp;gt;Calm down, [recipient]! As soon as I can get my hands on some ingredients, I&amp;apos;ll get you a meal!</li>
+    <!--EN: good_opinion->I'll cook some tasty food as soon as possible, [recipient]. Just wait a little while...-->
+    <li>good_opinion-&amp;gt;I&amp;apos;ll cook some tasty food as soon as possible, [recipient]. Just wait a little while...</li>
+  </ReactToThought_NeedFood_CookRecipient.logRulesInitiator.rulesStrings>
+  <!--EN: need — react to hunger — recipient is cooking-->
+  <ReactToThought_NeedFood_RecipientCooking.label>need — react to hunger — recipient is cooking</ReactToThought_NeedFood_RecipientCooking.label>
+  <ReactToThought_NeedFood_RecipientCooking.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking fine meal.)->[cooking_intro] [cooking_start]a fine meal!-->
+    <li>good_opinion(INITIATOR_jobText==Cooking fine meal.)-&amp;gt;[cooking_intro] [cooking_start]a fine meal!</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 fine meals.)->[cooking_intro] [cooking_start]a fine meal!-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 fine meals.)-&amp;gt;[cooking_intro] [cooking_start]a fine meal!</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking lavish meal.)->[cooking_intro] [cooking_start]a lavish meal!-->
+    <li>good_opinion(INITIATOR_jobText==Cooking lavish meal.)-&amp;gt;[cooking_intro] [cooking_start]a lavish meal!</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 lavish meals.)->[cooking_intro] [cooking_start]a lavish meal!-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 lavish meals.)-&amp;gt;[cooking_intro] [cooking_start]a lavish meal!</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking carnivore fine meal.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking carnivore fine meal.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 carnivore fine meals.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 carnivore fine meals.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking vegetarian fine meal.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking vegetarian fine meal.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 vegetarian fine meals.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 vegetarian fine meals.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking lavish meal.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking lavish meal.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 lavish meals.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 lavish meals.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking vegetarian lavish meal.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking vegetarian lavish meal.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 vegetarian lavish meals.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 vegetarian lavish meals.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking carnivore lavish meal.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking carnivore lavish meal.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 carnivore lavish meals.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 carnivore lavish meals.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking survival meal.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking survival meal.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(INITIATOR_jobText==Cooking 4 survival meals.)->[thought_needfood_hungry0]-->
+    <li>good_opinion(INITIATOR_jobText==Cooking 4 survival meals.)-&amp;gt;[thought_needfood_hungry0]</li>
+    <!--EN: good_opinion(priority=-1)->[cooking_intro] [cooking_start]some nice food!-->
+    <li>good_opinion(priority=-1)-&amp;gt;[cooking_intro] [cooking_start]some nice food!</li>
+    <!--EN: cooking_intro->Be patient, [recipient]!-->
+    <li>cooking_intro-&amp;gt;Be patient, [recipient]!</li>
+    <!--EN: cooking_intro->Keep your pants on, [recipient]!-->
+    <li>cooking_intro-&amp;gt;Keep your pants on, [recipient]!</li>
+    <!--EN: cooking_intro->Hold your horses, [recipient]!-->
+    <li>cooking_intro-&amp;gt;Hold your horses, [recipient]!</li>
+    <!--EN: cooking_intro->It'll be a moment, [recipient]!-->
+    <li>cooking_intro-&amp;gt;It&amp;apos;ll be a moment, [recipient]!</li>
+    <!--EN: cooking_start->Just give me a few more minutes and you'll get-->
+    <li>cooking_start-&amp;gt;Just give me a few more minutes and you&amp;apos;ll get</li>
+    <!--EN: cooking_start->I'm on it right now — you'll soon get-->
+    <li>cooking_start-&amp;gt;I&amp;apos;m on it right now — you&amp;apos;ll soon get</li>
+    <!--EN: cooking_start->I'm nearly done, you'll get-->
+    <li>cooking_start-&amp;gt;I&amp;apos;m nearly done, you&amp;apos;ll get</li>
+  </ReactToThought_NeedFood_RecipientCooking.logRulesInitiator.rulesStrings>
+  <!--EN: need — react to joy-->
+  <ReactToThought_NeedJoy.label>need — react to joy</ReactToThought_NeedJoy.label>
+  <ReactToThought_NeedJoy.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation-starved,priority=1)->[thought_needjoy_bored0]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation-starved,priority=1)-&amp;gt;[thought_needjoy_bored0]</li>
+    <!--EN: thought_needjoy_bored0->I really feel like a slave here. All work, no fun.-->
+    <li>thought_needjoy_bored0-&amp;gt;I really feel like a slave here. All work, no fun.</li>
+    <!--EN: thought_needjoy_bored0->All work and no play makes Jack a dull boy... that's my life right now!-->
+    <li>thought_needjoy_bored0-&amp;gt;All work and no play makes Jack a dull boy... that&amp;apos;s my life right now!</li>
+    <!--EN: thought_needjoy_bored0->All work and no play makes [INITIATOR_nameDef] a dull boy...-->
+    <li>thought_needjoy_bored0-&amp;gt;All work and no play makes [INITIATOR_nameDef] a dull boy...</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation-deprived,priority=1)->[thought_needjoy_bored1]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation-deprived,priority=1)-&amp;gt;[thought_needjoy_bored1]</li>
+    <!--EN: thought_needjoy_bored1->Let's face it — you can easily get bored around here-->
+    <li>thought_needjoy_bored1-&amp;gt;Let&amp;apos;s face it — you can easily get bored around here</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation unfulfilled,priority=1)->[thought_needjoy_bored2]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation unfulfilled,priority=1)-&amp;gt;[thought_needjoy_bored2]</li>
+    <!--EN: thought_needjoy_bored2->I wish I could have more fun around here.-->
+    <li>thought_needjoy_bored2-&amp;gt;I wish I could have more fun around here.</li>
+    <!--EN: good_opinion->I believe we can have some fun around here. It's OK.-->
+    <li>good_opinion-&amp;gt;I believe we can have some fun around here. It&amp;apos;s OK.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation satisfied,priority=1)->I think we have several nice entertainment options around here.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation satisfied,priority=1)-&amp;gt;I think we have several nice entertainment options around here.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation fully satisfied,priority=1)->I think we have lots of excellent entertainment options around here!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==recreation fully satisfied,priority=1)-&amp;gt;I think we have lots of excellent entertainment options around here!</li>
+  </ReactToThought_NeedJoy.logRulesInitiator.rulesStrings>
+  <!--EN: need — rest-->
+  <ReactToThought_NeedRest.label>need — rest</ReactToThought_NeedRest.label>
+  <ReactToThought_NeedRest.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==NeedRest,priority=1)->[tired]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==NeedRest,priority=1)-&amp;gt;[tired]</li>
+    <!--EN: tired(INITIATOR_thoughtLabel==drowsy)->Tell me about it, [recipient]... I'm a little drowsy myself.-->
+    <li>tired(INITIATOR_thoughtLabel==drowsy)-&amp;gt;Tell me about it, [recipient]... I&amp;apos;m a little drowsy myself.</li>
+    <!--EN: tired(INITIATOR_thoughtLabel==tired)->Heh, [recipient]... I'm quite tired myself.-->
+    <li>tired(INITIATOR_thoughtLabel==tired)-&amp;gt;Heh, [recipient]... I&amp;apos;m quite tired myself.</li>
+    <!--EN: tired(INITIATOR_thoughtLabel==exhausted)->Aww, [recipient]... my eyelids have lead weights on them. I'm exhausted.-->
+    <li>tired(INITIATOR_thoughtLabel==exhausted)-&amp;gt;Aww, [recipient]... my eyelids have lead weights on them. I&amp;apos;m exhausted.</li>
+    <!--EN: good_opinion->[fresh]-->
+    <li>good_opinion-&amp;gt;[fresh]</li>
+    <!--EN: fresh->Go and have some rest, [recipient] — you deserve it.-->
+    <li>fresh-&amp;gt;Go and have some rest, [recipient] — you deserve it.</li>
+    <!--EN: fresh->Have some rest, [recipient] — I'll try to cover for you.-->
+    <li>fresh-&amp;gt;Have some rest, [recipient] — I&amp;apos;ll try to cover for you.</li>
+  </ReactToThought_NeedRest.logRulesInitiator.rulesStrings>
+  <!--EN: need — roomsize-->
+  <ReactToThought_NeedSpace.label>need — roomsize</ReactToThought_NeedSpace.label>
+  <ReactToThought_NeedSpace.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==confined interior,priority=1)->[dissatisfied]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==confined interior,priority=1)-&amp;gt;[dissatisfied]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==cramped interior,priority=1)->[dissatisfied]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==cramped interior,priority=1)-&amp;gt;[dissatisfied]</li>
+    <!--EN: dissatisfied(INITIATOR_construction_level>=5)->You're right, [recipient]. I'll do my best to fix that.-->
+    <li>dissatisfied(INITIATOR_construction_level&amp;gt;=5)-&amp;gt;You&amp;apos;re right, [recipient]. I&amp;apos;ll do my best to fix that.</li>
+    <!--EN: dissatisfied(INITIATOR_construction_level<5)->You're right, [recipient]. I feel the same.-->
+    <li>dissatisfied(INITIATOR_construction_level&amp;lt;5)-&amp;gt;You&amp;apos;re right, [recipient]. I feel the same.</li>
+    <!--EN: dissatisfied(INITIATOR_construction_level>=5,RECIPIENT_construction_level>=5,priority=1)->Yes, [recipient]. In fact, I will help you with that.-->
+    <li>dissatisfied(INITIATOR_construction_level&amp;gt;=5,RECIPIENT_construction_level&amp;gt;=5,priority=1)-&amp;gt;Yes, [recipient]. In fact, I will help you with that.</li>
+    <!--EN: dissatisfied(INITIATOR_construction_level<5,RECIPIENT_construction_level>=5,priority=1)->Yes, [recipient]. Please go ahead, we need it!-->
+    <li>dissatisfied(INITIATOR_construction_level&amp;lt;5,RECIPIENT_construction_level&amp;gt;=5,priority=1)-&amp;gt;Yes, [recipient]. Please go ahead, we need it!</li>
+    <!--EN: good_opinion->[satisfied1]-->
+    <li>good_opinion-&amp;gt;[satisfied1]</li>
+    <!--EN: satisfied1->Well, [recipient] — you could be right but I believe our living spaces are just fine the way they are-->
+    <li>satisfied1-&amp;gt;Well, [recipient] — you could be right but I believe our living spaces are just fine the way they are</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==spacious interior,priority=1)->[satisfied2]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==spacious interior,priority=1)-&amp;gt;[satisfied2]</li>
+    <!--EN: satisfied2->Are you sure, [recipient]? I think our living spaces are quite spacious!-->
+    <li>satisfied2-&amp;gt;Are you sure, [recipient]? I think our living spaces are quite spacious!</li>
+  </ReactToThought_NeedSpace.logRulesInitiator.rulesStrings>
+  <!--EN: new colony-->
+  <ReactToThought_NewColony.label>new colony</ReactToThought_NewColony.label>
+  <ReactToThought_NewColony.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_trait==pessimist,priority=1)->I don't know, [recipient]. Probably we'll soon die of starvation or get killed in a raid.-->
+    <li>good_opinion(INITIATOR_trait==pessimist,priority=1)-&amp;gt;I don&amp;apos;t know, [recipient]. Probably we&amp;apos;ll soon die of starvation or get killed in a raid.</li>
+    <!--EN: good_opinion(INITIATOR_trait==depressive,priority=1)->We're doomed, [recipient]. Doomed... that's all we are.-->
+    <li>good_opinion(INITIATOR_trait==depressive,priority=1)-&amp;gt;We&amp;apos;re doomed, [recipient]. Doomed... that&amp;apos;s all we are.</li>
+    <!--EN: good_opinion(INITIATOR_trait==wimp,priority=1)->Really, [recipient]? This place looks dangerous... I'm scared.-->
+    <li>good_opinion(INITIATOR_trait==wimp,priority=1)-&amp;gt;Really, [recipient]? This place looks dangerous... I&amp;apos;m scared.</li>
+    <!--EN: good_opinion(INITIATOR_trait==nervous,priority=1)->I... I hope you're right, [recipient]. But I'm... I'm quite cross about our situation here.-->
+    <li>good_opinion(INITIATOR_trait==nervous,priority=1)-&amp;gt;I... I hope you&amp;apos;re right, [recipient]. But I&amp;apos;m... I&amp;apos;m quite cross about our situation here.</li>
+    <!--EN: good_opinion(INITIATOR_trait==volatile,priority=1)->No, [recipient]. You got it all wrong. In fact, we should get ready for the worst.-->
+    <li>good_opinion(INITIATOR_trait==volatile,priority=1)-&amp;gt;No, [recipient]. You got it all wrong. In fact, we should get ready for the worst.</li>
+    <!--EN: good_opinion(INITIATOR_trait==ascetic,RECIPIENT_trait==ascetic,priority=1)->Wise words, [recipient]. Wise words.-->
+    <li>good_opinion(INITIATOR_trait==ascetic,RECIPIENT_trait==ascetic,priority=1)-&amp;gt;Wise words, [recipient]. Wise words.</li>
+    <!--EN: good_opinion->[yes], [recipient]! [comment]-->
+    <li>good_opinion-&amp;gt;[yes], [recipient]! [comment]</li>
+    <!--EN: yes->Yes-->
+    <li>yes-&amp;gt;Yes</li>
+    <!--EN: yes->Well said-->
+    <li>yes-&amp;gt;Well said</li>
+    <!--EN: yes->That's right-->
+    <li>yes-&amp;gt;That&amp;apos;s right</li>
+    <!--EN: yes->Correct-->
+    <li>yes-&amp;gt;Correct</li>
+    <!--EN: comment->We can do this!-->
+    <li>comment-&amp;gt;We can do this!</li>
+    <!--EN: comment->We can make it!-->
+    <li>comment-&amp;gt;We can make it!</li>
+    <!--EN: comment->It'll be all right!-->
+    <li>comment-&amp;gt;It&amp;apos;ll be all right!</li>
+    <!--EN: comment->We'll get through this!-->
+    <li>comment-&amp;gt;We&amp;apos;ll get through this!</li>
+  </ReactToThought_NewColony.logRulesInitiator.rulesStrings>
+  <!--EN: saw unburied corpse-->
+  <ReactToThought_ObservedLayingCorpse.label>saw unburied corpse</ReactToThought_ObservedLayingCorpse.label>
+  <ReactToThought_ObservedLayingCorpse.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->I wouldn't bury you, either.-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;I wouldn&amp;apos;t bury you, either.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Oh my, [recipient]. [saw_it]I hope someone took care of it already.-->
+    <li>good_opinion-&amp;gt;Oh my, [recipient]. [saw_it]I hope someone took care of it already.</li>
+    <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->We should burn it right away!-->
+    <li>good_opinion(INITIATOR_trait==pyromaniac)-&amp;gt;We should burn it right away!</li>
+    <!--EN: good_opinion(INITIATOR_trait==cannibal)->We should store it in a cold room for... further use.-->
+    <li>good_opinion(INITIATOR_trait==cannibal)-&amp;gt;We should store it in a cold room for... further use.</li>
+    <!--EN: good_opinion(INITIATOR_trait==cannibal,INITIATOR_medical_level>=5)->We should store it in a cold room for further scientific studies.-->
+    <li>good_opinion(INITIATOR_trait==cannibal,INITIATOR_medical_level&amp;gt;=5)-&amp;gt;We should store it in a cold room for further scientific studies.</li>
+    <!--EN: good_opinion(INITIATOR_medical_level>=5)->We should bury or cremate it right away — to avoid health problems.-->
+    <li>good_opinion(INITIATOR_medical_level&amp;gt;=5)-&amp;gt;We should bury or cremate it right away — to avoid health problems.</li>
+    <!--EN: good_opinion(INITIATOR_trait==psychopath,priority=1)->[saw_it]No big deal...-->
+    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&amp;gt;[saw_it]No big deal...</li>
+    <!--EN: good_opinion(INITIATOR_trait==bloodlust)->It's just one more of the many we shall see around here. No big deal.-->
+    <li>good_opinion(INITIATOR_trait==bloodlust)-&amp;gt;It&amp;apos;s just one more of the many we shall see around here. No big deal.</li>
+    <!--EN: saw_it->-->
+    <li>saw_it-&amp;gt;</li>
+    <!--EN: saw_it(INITIATOR_thoughtDefName==ObservedLayingCorpse)->I saw it too.-->
+    <li>saw_it(INITIATOR_thoughtDefName==ObservedLayingCorpse)-&amp;gt;I saw it too.</li>
+    <!--EN: saw_it(INITIATOR_thoughtDefName==ObservedLayingRottingCorpse)->I saw worse than that — I saw a rotting one.-->
+    <li>saw_it(INITIATOR_thoughtDefName==ObservedLayingRottingCorpse)-&amp;gt;I saw worse than that — I saw a rotting one.</li>
+  </ReactToThought_ObservedLayingCorpse.logRulesInitiator.rulesStrings>
+  <!--EN: saw unburied rotten corpse-->
+  <ReactToThought_ObservedLayingRottingCorpse.label>saw unburied rotten corpse</ReactToThought_ObservedLayingRottingCorpse.label>
+  <ReactToThought_ObservedLayingRottingCorpse.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->I'd leave you to rot, too...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;I&amp;apos;d leave you to rot, too...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->That's disgusting, [recipient]! [saw_it]I hope someone took care of it already.-->
+    <li>good_opinion-&amp;gt;That&amp;apos;s disgusting, [recipient]! [saw_it]I hope someone took care of it already.</li>
+    <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->We should burn it right away!-->
+    <li>good_opinion(INITIATOR_trait==pyromaniac)-&amp;gt;We should burn it right away!</li>
+    <!--EN: good_opinion(INITIATOR_medical_level>=5)->We should bury or cremate it right away — to avoid health problems.-->
+    <li>good_opinion(INITIATOR_medical_level&amp;gt;=5)-&amp;gt;We should bury or cremate it right away — to avoid health problems.</li>
+    <!--EN: good_opinion(INITIATOR_trait==psychopath,priority=1)->[saw_it]Even for me, that's disgusting.-->
+    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&amp;gt;[saw_it]Even for me, that&amp;apos;s disgusting.</li>
+    <!--EN: good_opinion(INITIATOR_trait==bloodlust)->It's just one more of the many we shall see around here. No big deal.-->
+    <li>good_opinion(INITIATOR_trait==bloodlust)-&amp;gt;It&amp;apos;s just one more of the many we shall see around here. No big deal.</li>
+    <!--EN: saw_it->-->
+    <li>saw_it-&amp;gt;</li>
+    <!--EN: saw_it(INITIATOR_thoughtDefName==ObservedLayingCorpse)->I saw one too — but it wasn't rotting.-->
+    <li>saw_it(INITIATOR_thoughtDefName==ObservedLayingCorpse)-&amp;gt;I saw one too — but it wasn&amp;apos;t rotting.</li>
+    <!--EN: saw_it(INITIATOR_thoughtDefName==ObservedLayingRottingCorpse)->I saw one too.-->
+    <li>saw_it(INITIATOR_thoughtDefName==ObservedLayingRottingCorpse)-&amp;gt;I saw one too.</li>
+  </ReactToThought_ObservedLayingRottingCorpse.logRulesInitiator.rulesStrings>
+  <!--EN: prisoner sold-->
+  <ReactToThought_PrisonerSold.label>prisoner sold</ReactToThought_PrisonerSold.label>
+  <ReactToThought_PrisonerSold.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->I agree, [recipient]!-->
+    <li>good_opinion-&amp;gt;I agree, [recipient]!</li>
+    <!--EN: good_opinion->I can't disagree with you, [recipient]!-->
+    <li>good_opinion-&amp;gt;I can&amp;apos;t disagree with you, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_trait==kind,priority=1)->[i_kind]-->
+    <li>good_opinion(INITIATOR_trait==kind,priority=1)-&amp;gt;[i_kind]</li>
+    <!--EN: i_kind->Slavery is awful, [recipient]! Nobody deserves that fate!-->
+    <li>i_kind-&amp;gt;Slavery is awful, [recipient]! Nobody deserves that fate!</li>
+    <!--EN: i_kind(RECIPIENT_trait==kind,priority=2)->I fully agree, [recipient]! Mean and debasing!-->
+    <li>i_kind(RECIPIENT_trait==kind,priority=2)-&amp;gt;I fully agree, [recipient]! Mean and debasing!</li>
+    <!--EN: i_kind(RECIPIENT_trait==bloodlust,priority=1)->[i_kind_r_canniblood]-->
+    <li>i_kind(RECIPIENT_trait==bloodlust,priority=1)-&amp;gt;[i_kind_r_canniblood]</li>
+    <!--EN: i_kind(RECIPIENT_trait==cannibal,priority=1)->[i_kind_r_canniblood]-->
+    <li>i_kind(RECIPIENT_trait==cannibal,priority=1)-&amp;gt;[i_kind_r_canniblood]</li>
+    <!--EN: i_kind_r_canniblood->That's just so wrong, [recipient]! I totally disagree!-->
+    <li>i_kind_r_canniblood-&amp;gt;That&amp;apos;s just so wrong, [recipient]! I totally disagree!</li>
+    <!--EN: good_opinion(INITIATOR_trait==cannibal,priority=1)->[i_canniblood]-->
+    <li>good_opinion(INITIATOR_trait==cannibal,priority=1)-&amp;gt;[i_canniblood]</li>
+    <!--EN: good_opinion(INITIATOR_trait==bloodlust,priority=1)->[i_canniblood]-->
+    <li>good_opinion(INITIATOR_trait==bloodlust,priority=1)-&amp;gt;[i_canniblood]</li>
+    <!--EN: i_canniblood->Those lucky slavers will get all the fun...-->
+    <li>i_canniblood-&amp;gt;Those lucky slavers will get all the fun...</li>
+    <!--EN: i_canniblood(RECIPIENT_trait==bloodlust,priority=1)->[i_canniblood_r_canniblood]-->
+    <li>i_canniblood(RECIPIENT_trait==bloodlust,priority=1)-&amp;gt;[i_canniblood_r_canniblood]</li>
+    <!--EN: i_canniblood(RECIPIENT_trait==cannibal,priority=1)->[i_canniblood_r_canniblood]-->
+    <li>i_canniblood(RECIPIENT_trait==cannibal,priority=1)-&amp;gt;[i_canniblood_r_canniblood]</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've used 'em as a punching bag!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve used &amp;apos;em as a punching bag!</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've tortured 'em for fun!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve tortured &amp;apos;em for fun!</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've tortured 'em to squeeze out some useful intelligence!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve tortured &amp;apos;em to squeeze out some useful intelligence!</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've skinned 'em — a just punishment!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve skinned &amp;apos;em — a just punishment!</li>
+    <!--EN: i_canniblood_r_canniblood(INITIATOR_trait==greedy)->Right! We could've took out their lungs and heart to sell for lots of silver!-->
+    <li>i_canniblood_r_canniblood(INITIATOR_trait==greedy)-&amp;gt;Right! We could&amp;apos;ve took out their lungs and heart to sell for lots of silver!</li>
+  </ReactToThought_PrisonerSold.logRulesInitiator.rulesStrings>
+  <!--EN: released prisoner-->
+  <ReactToThought_ReleasedPrisoner.label>released prisoner</ReactToThought_ReleasedPrisoner.label>
+  <ReactToThought_ReleasedPrisoner.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->I agree, [recipient]!-->
+    <li>good_opinion-&amp;gt;I agree, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_trait==kind,priority=1)->[i_kind]-->
+    <li>good_opinion(INITIATOR_trait==kind,priority=1)-&amp;gt;[i_kind]</li>
+    <!--EN: i_kind->We certainly did the right and most humane thing, [recipient]!-->
+    <li>i_kind-&amp;gt;We certainly did the right and most humane thing, [recipient]!</li>
+    <!--EN: i_kind(RECIPIENT_trait==kind,priority=2)->In the end, treating others kindly is always the best choice!-->
+    <li>i_kind(RECIPIENT_trait==kind,priority=2)-&amp;gt;In the end, treating others kindly is always the best choice!</li>
+    <!--EN: i_kind(RECIPIENT_trait==bloodlust,priority=1)->[i_kind_r_canniblood]-->
+    <li>i_kind(RECIPIENT_trait==bloodlust,priority=1)-&amp;gt;[i_kind_r_canniblood]</li>
+    <!--EN: i_kind(RECIPIENT_trait==cannibal,priority=1)->[i_kind_r_canniblood]-->
+    <li>i_kind(RECIPIENT_trait==cannibal,priority=1)-&amp;gt;[i_kind_r_canniblood]</li>
+    <!--EN: i_kind_r_canniblood->That's just so wrong, [recipient]! I totally disagree!-->
+    <li>i_kind_r_canniblood-&amp;gt;That&amp;apos;s just so wrong, [recipient]! I totally disagree!</li>
+    <!--EN: good_opinion(INITIATOR_trait==cannibal,priority=1)->[i_canniblood]-->
+    <li>good_opinion(INITIATOR_trait==cannibal,priority=1)-&amp;gt;[i_canniblood]</li>
+    <!--EN: good_opinion(INITIATOR_trait==bloodlust,priority=1)->[i_canniblood]-->
+    <li>good_opinion(INITIATOR_trait==bloodlust,priority=1)-&amp;gt;[i_canniblood]</li>
+    <!--EN: i_canniblood->Just wait for when that jerk comes back here for more stealing, burning and killing!-->
+    <li>i_canniblood-&amp;gt;Just wait for when that jerk comes back here for more stealing, burning and killing!</li>
+    <!--EN: i_canniblood(RECIPIENT_trait==bloodlust,priority=1)->[i_canniblood_r_canniblood]-->
+    <li>i_canniblood(RECIPIENT_trait==bloodlust,priority=1)-&amp;gt;[i_canniblood_r_canniblood]</li>
+    <!--EN: i_canniblood(RECIPIENT_trait==cannibal,priority=1)->[i_canniblood_r_canniblood]-->
+    <li>i_canniblood(RECIPIENT_trait==cannibal,priority=1)-&amp;gt;[i_canniblood_r_canniblood]</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've used 'em as a punching bag!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve used &amp;apos;em as a punching bag!</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've tortured 'em for fun!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve tortured &amp;apos;em for fun!</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've tortured 'em to squeeze out some useful intelligence!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve tortured &amp;apos;em to squeeze out some useful intelligence!</li>
+    <!--EN: i_canniblood_r_canniblood->Right! We could've skinned 'em — a just punishment!-->
+    <li>i_canniblood_r_canniblood-&amp;gt;Right! We could&amp;apos;ve skinned &amp;apos;em — a just punishment!</li>
+  </ReactToThought_ReleasedPrisoner.logRulesInitiator.rulesStrings>
+  <!--EN: rescued-->
+  <ReactToThought_Rescued.label>rescued</ReactToThought_Rescued.label>
+  <ReactToThought_Rescued.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->You should be thankful indeed, [recipient]. Let's hope rescuing you was worth our while!-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;You should be thankful indeed, [recipient]. Let&amp;apos;s hope rescuing you was worth our while!</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->Sometimes I think that we would've been better off leaving you in the wilderness...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;Sometimes I think that we would&amp;apos;ve been better off leaving you in the wilderness...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->No problem, [recipient]. It was the right thing to do.-->
+    <li>good_opinion-&amp;gt;No problem, [recipient]. It was the right thing to do.</li>
+    <!--EN: good_opinion(INITIATOR_trait==kind)->You really don't need to thank us — we just did our duty as good human beings.-->
+    <li>good_opinion(INITIATOR_trait==kind)-&amp;gt;You really don&amp;apos;t need to thank us — we just did our duty as good human beings.</li>
+    <!--EN: good_opinion(INITIATOR_trait==psychopath,priority=1)->...-->
+    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&amp;gt;...</li>
+  </ReactToThought_Rescued.logRulesInitiator.rulesStrings>
+  <!--EN: sick-->
+  <ReactToThought_Sick.label>sick</ReactToThought_Sick.label>
+  <ReactToThought_Sick.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->I'm sorry to hear that, [recipient]. [comment]-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m sorry to hear that, [recipient]. [comment]</li>
+    <!--EN: comment->-->
+    <li>comment-&amp;gt;</li>
+    <!--EN: comment(INITIATOR_medical_level>=5)->I could give you some medicine to speed up the healing process.-->
+    <li>comment(INITIATOR_medical_level&amp;gt;=5)-&amp;gt;I could give you some medicine to speed up the healing process.</li>
+    <!--EN: comment(INITIATOR_plants_level>=8,priority=1)->I could prepare for you a potent healing concoction, if you want.-->
+    <li>comment(INITIATOR_plants_level&amp;gt;=8,priority=1)-&amp;gt;I could prepare for you a potent healing concoction, if you want.</li>
+    <!--EN: comment(INITIATOR_plants_level>=5)->I could prepare some healroot for you, if you want.-->
+    <li>comment(INITIATOR_plants_level&amp;gt;=5)-&amp;gt;I could prepare some healroot for you, if you want.</li>
+    <!--EN: comment(INITIATOR_cooking_level>=6)->Eating healthy food might help avoiding that. I could cook something for you.-->
+    <li>comment(INITIATOR_cooking_level&amp;gt;=6)-&amp;gt;Eating healthy food might help avoiding that. I could cook something for you.</li>
+    <!--EN: comment(INITIATOR_thoughtDefName==sick)->I'm not in great shape either...-->
+    <li>comment(INITIATOR_thoughtDefName==sick)-&amp;gt;I&amp;apos;m not in great shape either...</li>
+    <!--EN: comment(INITIATOR_thoughtDefName==body modder)->But then again, the human body is so vulnerable...-->
+    <li>comment(INITIATOR_thoughtDefName==body modder)-&amp;gt;But then again, the human body is so vulnerable...</li>
+    <!--EN: comment(INITIATOR_thoughtDefName==sickly)->I know how it feels, I get sick all the time...-->
+    <li>comment(INITIATOR_thoughtDefName==sickly)-&amp;gt;I know how it feels, I get sick all the time...</li>
+  </ReactToThought_Sick.logRulesInitiator.rulesStrings>
+  <!--EN: sleep disturbed-->
+  <ReactToThought_SleepDisturbed.label>sleep disturbed</ReactToThought_SleepDisturbed.label>
+  <ReactToThought_SleepDisturbed.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->You're right, [recipient]. We should be more careful to avoid such things.-->
+    <li>good_opinion-&amp;gt;You&amp;apos;re right, [recipient]. We should be more careful to avoid such things.</li>
+    <!--EN: good_opinion->Oh, no... Sorry, [recipient]. We'll all try to be more careful.-->
+    <li>good_opinion-&amp;gt;Oh, no... Sorry, [recipient]. We&amp;apos;ll all try to be more careful.</li>
+    <!--EN: good_opinion->We'll do our best to tread softly, [recipient].-->
+    <li>good_opinion-&amp;gt;We&amp;apos;ll do our best to tread softly, [recipient].</li>
+    <!--EN: good_opinion(INITIATOR_trait==abrasive)->Not my fault, [RECIPIENT_nameDef]. Sucks to be you, I guess. Sorry.-->
+    <li>good_opinion(INITIATOR_trait==abrasive)-&amp;gt;Not my fault, [RECIPIENT_nameDef]. Sucks to be you, I guess. Sorry.</li>
+    <!--EN: good_opinion(INITIATOR_trait==kind)->Poor [RECIPIENT_nameDef]! Take it easy today, and be sure to get a good rest next time you go to sleep.-->
+    <li>good_opinion(INITIATOR_trait==kind)-&amp;gt;Poor [RECIPIENT_nameDef]! Take it easy today, and be sure to get a good rest next time you go to sleep.</li>
+    <!--EN: good_opinion(INITIATOR_trait==nimble)->You know it wasn't me, [recipient]. I'm always quiet when I walk.-->
+    <li>good_opinion(INITIATOR_trait==nimble)-&amp;gt;You know it wasn&amp;apos;t me, [recipient]. I&amp;apos;m always quiet when I walk.</li>
+  </ReactToThought_SleepDisturbed.logRulesInitiator.rulesStrings>
+  <!--EN: sleep disturbed dream-->
+  <ReactToThought_SleepDisturbed_Dream.label>sleep disturbed dream</ReactToThought_SleepDisturbed_Dream.label>
+  <ReactToThought_SleepDisturbed_Dream.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(tag=Dream_nice)->Ah, [recipient]. What a pity... what was this dream about?-->
+    <li>good_opinion(tag=Dream_nice)-&amp;gt;Ah, [recipient]. What a pity... what was this dream about?</li>
+    <!--EN: good_opinion(tag=Dream_nice)->Sorry to hear that, [recipient]. What was your dream about?-->
+    <li>good_opinion(tag=Dream_nice)-&amp;gt;Sorry to hear that, [recipient]. What was your dream about?</li>
+  </ReactToThought_SleepDisturbed_Dream.logRulesInitiator.rulesStrings>
+  <!--EN: slept in a shared room-->
+  <ReactToThought_SleptInBarracks.label>slept in a shared room</ReactToThought_SleptInBarracks.label>
+  <ReactToThought_SleptInBarracks.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==awful barrack)->[reply_awful_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==awful barrack)-&amp;gt;[reply_awful_barracks]</li>
+    <!--EN: reply_awful_barracks->That's extremely [annoying], [recipient] — I certainly agree with you.-->
+    <li>reply_awful_barracks-&amp;gt;That&amp;apos;s extremely [annoying], [recipient] — I certainly agree with you.</li>
+    <!--EN: reply_awful_barracks->How absolutely [annoying], [recipient] — We all deserve better.-->
+    <li>reply_awful_barracks-&amp;gt;How absolutely [annoying], [recipient] — We all deserve better.</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==dull barrack)->[reply_dull_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==dull barrack)-&amp;gt;[reply_dull_barracks]</li>
+    <!--EN: reply_dull_barracks->That's very [annoying], [recipient] — I do agree with you.-->
+    <li>reply_dull_barracks-&amp;gt;That&amp;apos;s very [annoying], [recipient] — I do agree with you.</li>
+    <!--EN: reply_dull_barracks->That's [intensifier][annoying], [recipient] — I hope you receive better sleeping quarters soon.-->
+    <li>reply_dull_barracks-&amp;gt;That&amp;apos;s [intensifier][annoying], [recipient] — I hope you receive better sleeping quarters soon.</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==mediocre barrack)->[reply_mediocre_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==mediocre barrack)-&amp;gt;[reply_mediocre_barracks]</li>
+    <!--EN: reply_mediocre_barracks->That's [annoying], [recipient] — I agree with you.-->
+    <li>reply_mediocre_barracks-&amp;gt;That&amp;apos;s [annoying], [recipient] — I agree with you.</li>
+    <!--EN: reply_mediocre_barracks->I wouldn't like that either, [recipient] — You're [intensifier]right.-->
+    <li>reply_mediocre_barracks-&amp;gt;I wouldn&amp;apos;t like that either, [recipient] — You&amp;apos;re [intensifier]right.</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==decent barrack)->[reply_decent_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==decent barrack)-&amp;gt;[reply_decent_barracks]</li>
+    <!--EN: reply_decent_barracks->Well, [recipient] — at least it's a decent room.-->
+    <li>reply_decent_barracks-&amp;gt;Well, [recipient] — at least it&amp;apos;s a decent room.</li>
+    <!--EN: reply_decent_barracks->I'm glad it's a decent room, [recipient] — I hope you get one to yourself soon.-->
+    <li>reply_decent_barracks-&amp;gt;I&amp;apos;m glad it&amp;apos;s a decent room, [recipient] — I hope you get one to yourself soon.</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==slightly impressive barrack)->[reply_slightly_impressive_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==slightly impressive barrack)-&amp;gt;[reply_slightly_impressive_barracks]</li>
+    <!--EN: reply_slightly_impressive_barracks->Well, [recipient] — at least it's a pretty nice room.-->
+    <li>reply_slightly_impressive_barracks-&amp;gt;Well, [recipient] — at least it&amp;apos;s a pretty nice room.</li>
+    <!--EN: reply_slightly_impressive_barracks->Sharing a room isn't ideal, but at least it's pretty nice, right, [recipient]?-->
+    <li>reply_slightly_impressive_barracks-&amp;gt;Sharing a room isn&amp;apos;t ideal, but at least it&amp;apos;s pretty nice, right, [recipient]?</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==impressive barrack)->[reply_impressive_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==impressive barrack)-&amp;gt;[reply_impressive_barracks]</li>
+    <!--EN: reply_impressive_barracks->Well, [recipient] — at least it's an impressive room.-->
+    <li>reply_impressive_barracks-&amp;gt;Well, [recipient] — at least it&amp;apos;s an impressive room.</li>
+    <!--EN: reply_impressive_barracks->I'm glad your room is impressive, [recipient] — I hope you get one to yourself soon.-->
+    <li>reply_impressive_barracks-&amp;gt;I&amp;apos;m glad your room is impressive, [recipient] — I hope you get one to yourself soon.</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==very impressive barrack)->[reply_very_impressive_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==very impressive barrack)-&amp;gt;[reply_very_impressive_barracks]</li>
+    <!--EN: reply_very_impressive_barracks->Well, [recipient] — good for you!-->
+    <li>reply_very_impressive_barracks-&amp;gt;Well, [recipient] — good for you!</li>
+    <!--EN: reply_very_impressive_barracks->That's [intensifier]good, [recipient]!-->
+    <li>reply_very_impressive_barracks-&amp;gt;That&amp;apos;s [intensifier]good, [recipient]!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==extremely impressive barrack)->[reply_extremely_impressive_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==extremely impressive barrack)-&amp;gt;[reply_extremely_impressive_barracks]</li>
+    <!--EN: reply_extremely_impressive_barracks->Well, [recipient] — that's great!-->
+    <li>reply_extremely_impressive_barracks-&amp;gt;Well, [recipient] — that&amp;apos;s great!</li>
+    <!--EN: reply_extremely_impressive_barracks->Wow, [recipient] — nice!-->
+    <li>reply_extremely_impressive_barracks-&amp;gt;Wow, [recipient] — nice!</li>
+    <!--EN: good_opinion(RECIPIENT_thoughtLabel==unbelievably impressive barrack)->[reply_unbelievably_impressive_barracks]-->
+    <li>good_opinion(RECIPIENT_thoughtLabel==unbelievably impressive barrack)-&amp;gt;[reply_unbelievably_impressive_barracks]</li>
+    <!--EN: reply_unbelievably_impressive_barracks->Well, [recipient] — that's just awesome!-->
+    <li>reply_unbelievably_impressive_barracks-&amp;gt;Well, [recipient] — that&amp;apos;s just awesome!</li>
+    <!--EN: reply_unbelievably_impressive_barracks->That's [intensifier]incredible, [recipient] — I'll have to see it sometime!-->
+    <li>reply_unbelievably_impressive_barracks-&amp;gt;That&amp;apos;s [intensifier]incredible, [recipient] — I&amp;apos;ll have to see it sometime!</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying(INITIATOR_intellectual_level>=5)->unseemly-->
+    <li>annoying(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;unseemly</li>
+    <!--EN: annoying(INITIATOR_intellectual_level>=5)->displeasing-->
+    <li>annoying(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;displeasing</li>
+    <!--EN: annoying(INITIATOR_intellectual_level>=10)->inadmissible-->
+    <li>annoying(INITIATOR_intellectual_level&amp;gt;=10)-&amp;gt;inadmissible</li>
+  </ReactToThought_SleptInBarracks.logRulesInitiator.rulesStrings>
+  <!--EN: slept in cold-->
+  <ReactToThought_SleptInCold.label>slept in cold</ReactToThought_SleptInCold.label>
+  <ReactToThought_SleptInCold.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion->...-->
+    <li>bad_opinion-&amp;gt;...</li>
+    <!--EN: bad_opinion->Are you sure it's the weather — and not you — that's making your room so cold?-->
+    <li>bad_opinion-&amp;gt;Are you sure it&amp;apos;s the weather — and not you — that&amp;apos;s making your room so cold?</li>
+    <!--EN: bad_opinion(INITIATOR_trait==pyromaniac)->If you'd like, I can set your bed on fire to warm you up.-->
+    <li>bad_opinion(INITIATOR_trait==pyromaniac)-&amp;gt;If you&amp;apos;d like, I can set your bed on fire to warm you up.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Let's hope it won't happen again, [recipient] — it's [intensifier][annoying].-->
+    <li>good_opinion-&amp;gt;Let&amp;apos;s hope it won&amp;apos;t happen again, [recipient] — it&amp;apos;s [intensifier][annoying].</li>
+    <!--EN: good_opinion(INITIATOR_faction==PlayerColony)->Yeah... I wish we settled somewhere warmer.-->
+    <li>good_opinion(INITIATOR_faction==PlayerColony)-&amp;gt;Yeah... I wish we settled somewhere warmer.</li>
+    <!--EN: good_opinion(INITIATOR_faction==PlayerTribe)->Yeah... I wish we settled somewhere warmer.-->
+    <li>good_opinion(INITIATOR_faction==PlayerTribe)-&amp;gt;Yeah... I wish we settled somewhere warmer.</li>
+    <!--EN: good_opinion->Well, it gets [weather_cold_adj] this time of the year...we just have to get used to it.-->
+    <li>good_opinion-&amp;gt;Well, it gets [weather_cold_adj] this time of the year...we just have to get used to it.</li>
+    <!--EN: weather_cold_adj->chilly-->
+    <li>weather_cold_adj-&amp;gt;chilly</li>
+    <!--EN: weather_cold_adj->cold-->
+    <li>weather_cold_adj-&amp;gt;cold</li>
+    <!--EN: weather_cold_adj(INITIATOR_intellectual_level>=5)->frigid-->
+    <li>weather_cold_adj(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;frigid</li>
+    <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->Well, wouldn't it be nice if I started a big fire to warm us all up?-->
+    <li>good_opinion(INITIATOR_trait==pyromaniac)-&amp;gt;Well, wouldn&amp;apos;t it be nice if I started a big fire to warm us all up?</li>
+    <!--EN: good_opinion(INITIATOR_social_passion!=None)->Maybe it'd be better if we all huddled together.-->
+    <li>good_opinion(INITIATOR_social_passion!=None)-&amp;gt;Maybe it&amp;apos;d be better if we all huddled together.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInCold)->I agree with you — I woke up [wokeUpCold]!-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptInCold)-&amp;gt;I agree with you — I woke up [wokeUpCold]!</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying->not nice-->
+    <li>annoying-&amp;gt;not nice</li>
+    <!--EN: annoying->unpleasant-->
+    <li>annoying-&amp;gt;unpleasant</li>
+    <!--EN: annoying(INITIATOR_intellectual_level<3)->really really bad-->
+    <li>annoying(INITIATOR_intellectual_level&amp;lt;3)-&amp;gt;really really bad</li>
+    <!--EN: annoying(INITIATOR_intellectual_level<5)->the worst-->
+    <li>annoying(INITIATOR_intellectual_level&amp;lt;5)-&amp;gt;the worst</li>
+    <!--EN: wokeUpCold->covered in goosebumps-->
+    <li>wokeUpCold-&amp;gt;covered in goosebumps</li>
+    <!--EN: wokeUpCold->and thought my toes froze off-->
+    <li>wokeUpCold-&amp;gt;and thought my toes froze off</li>
+    <!--EN: wokeUpCold->feeling like a snowman-->
+    <li>wokeUpCold-&amp;gt;feeling like a snowman</li>
+    <!--EN: wokeUpCold->absolutely freezing-->
+    <li>wokeUpCold-&amp;gt;absolutely freezing</li>
+    <!--EN: wokeUpCold->feeling [intensifier][damned_intensifier]frozen-->
+    <li>wokeUpCold-&amp;gt;feeling [intensifier][damned_intensifier]frozen</li>
+  </ReactToThought_SleptInCold.logRulesInitiator.rulesStrings>
+  <!--EN: slept in cold — construction-->
+  <ReactToThought_SleptInCold_construction.label>slept in cold — construction</ReactToThought_SleptInCold_construction.label>
+  <ReactToThought_SleptInCold_construction.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level<5)->[bad_opinion_unskilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;lt;5)-&amp;gt;[bad_opinion_unskilled]</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=5)->Yes you could have, [recipient] — now, try to be more useful in the future!-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;Yes you could have, [recipient] — now, try to be more useful in the future!</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level>=5)->[bad_opinion_skilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;gt;=5)-&amp;gt;[bad_opinion_skilled]</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level<5)->And I hope you [shut_up], [recipient].-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;lt;5)-&amp;gt;And I hope you [shut_up], [recipient].</li>
+    <!--EN: shut_up->shut up-->
+    <li>shut_up-&amp;gt;shut up</li>
+    <!--EN: shut_up->stop nagging me-->
+    <li>shut_up-&amp;gt;stop nagging me</li>
+    <!--EN: shut_up->stop bothering me-->
+    <li>shut_up-&amp;gt;stop bothering me</li>
+    <!--EN: shut_up->just shut up-->
+    <li>shut_up-&amp;gt;just shut up</li>
+    <!--EN: shut_up->leave me alone-->
+    <li>shut_up-&amp;gt;leave me alone</li>
+    <!--EN: shut_up->buzz off-->
+    <li>shut_up-&amp;gt;buzz off</li>
+    <!--EN: shut_up(INITIATOR_intellectual_level>=5)->would be quiet for an extended period of time-->
+    <li>shut_up(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;would be quiet for an extended period of time</li>
+    <!--EN: shut_up(INITIATOR_intellectual_level>=5)->pursue silence henceforth-->
+    <li>shut_up(INITIATOR_intellectual_level&amp;gt;=5)-&amp;gt;pursue silence henceforth</li>
+    <!--EN: shut_up(INITIATOR_intellectual_level>=7)->rest your overused tongue - immediately-->
+    <li>shut_up(INITIATOR_intellectual_level&amp;gt;=7)-&amp;gt;rest your overused tongue - immediately</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level>=5)->You need a heat source, [recipient], you build one yourself — I've got more important things to do.-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;You need a heat source, [recipient], you build one yourself — I&amp;apos;ve got more important things to do.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_construction_level<5)->[good_opinion_unskilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;lt;5)-&amp;gt;[good_opinion_unskilled]</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=5)->Don't worry, [recipient] — I'm sure you won't let this happen again.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;Don&amp;apos;t worry, [recipient] — I&amp;apos;m sure you won&amp;apos;t let this happen again.</li>
+    <!--EN: good_opinion(INITIATOR_construction_level>=5)->[good_opinion_skilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;gt;=5)-&amp;gt;[good_opinion_skilled]</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level<5)->I had planned to build a heat source, but I got distracted. Sorry, [recipient] — it won't happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;lt;5)-&amp;gt;I had planned to build a heat source, but I got distracted. Sorry, [recipient] — it won&amp;apos;t happen again.</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level>=5)->You're right [recipient] — we could have built a proper heat source. We won't let this happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;You&amp;apos;re right [recipient] — we could have built a proper heat source. We won&amp;apos;t let this happen again.</li>
+  </ReactToThought_SleptInCold_construction.logRulesInitiator.rulesStrings>
+  <!--EN: slept in heat-->
+  <ReactToThought_SleptInHeat.label>slept in heat</ReactToThought_SleptInHeat.label>
+  <ReactToThought_SleptInHeat.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion->Is it that hot for you, [recipient]? I thought the temperature was quite comfortable.-->
+    <li>bad_opinion-&amp;gt;Is it that hot for you, [recipient]? I thought the temperature was quite comfortable.</li>
+    <!--EN: bad_opinion->...-->
+    <li>bad_opinion-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->I know, it's [annoying]! Here's hoping that we get some new coolers installed.-->
+    <li>good_opinion-&amp;gt;I know, it&amp;apos;s [annoying]! Here&amp;apos;s hoping that we get some new coolers installed.</li>
+    <!--EN: good_opinion->Well, it gets hot this time of the year — we just have to get used to it.-->
+    <li>good_opinion-&amp;gt;Well, it gets hot this time of the year — we just have to get used to it.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInHeat)->Agreed! It was so hot that I woke up sweating!-->
+    <li>good_opinion(INITIATOR_thoughtDefName==SleptInHeat)-&amp;gt;Agreed! It was so hot that I woke up sweating!</li>
+    <!--EN: good_opinion(INITIATOR_mood>=0.7)->Yeah — at this rate, we should relocate our beds to a freezer!-->
+    <li>good_opinion(INITIATOR_mood&amp;gt;=0.7)-&amp;gt;Yeah — at this rate, we should relocate our beds to a freezer!</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying->not nice-->
+    <li>annoying-&amp;gt;not nice</li>
+    <!--EN: annoying->unpleasant-->
+    <li>annoying-&amp;gt;unpleasant</li>
+  </ReactToThought_SleptInHeat.logRulesInitiator.rulesStrings>
+  <!--EN: slept in heat — construction-->
+  <ReactToThought_SleptInHeat_construction.label>slept in heat — construction</ReactToThought_SleptInHeat_construction.label>
+  <ReactToThought_SleptInHeat_construction.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level<5)->[bad_opinion_unskilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;lt;5)-&amp;gt;[bad_opinion_unskilled]</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=5)->Yes you could have, [recipient] — now, try to be more useful in the future!-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;Yes you could have, [recipient] — now, try to be more useful in the future!</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level>=5)->[bad_opinion_skilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;gt;=5)-&amp;gt;[bad_opinion_skilled]</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level<5)->And I hope you [shut_up], [recipient].-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;lt;5)-&amp;gt;And I hope you [shut_up], [recipient].</li>
+    <!--EN: shut_up->shut up-->
+    <li>shut_up-&amp;gt;shut up</li>
+    <!--EN: shut_up->stop nagging me-->
+    <li>shut_up-&amp;gt;stop nagging me</li>
+    <!--EN: shut_up->stop bothering me-->
+    <li>shut_up-&amp;gt;stop bothering me</li>
+    <!--EN: shut_up->just shut up-->
+    <li>shut_up-&amp;gt;just shut up</li>
+    <!--EN: shut_up->leave me alone-->
+    <li>shut_up-&amp;gt;leave me alone</li>
+    <!--EN: shut_up->buzz off-->
+    <li>shut_up-&amp;gt;buzz off</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level>=5)->You need a cooler, [recipient], you build one yourself — I've got more important things to do.-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;You need a cooler, [recipient], you build one yourself — I&amp;apos;ve got more important things to do.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_construction_level<5)->[good_opinion_unskilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;lt;5)-&amp;gt;[good_opinion_unskilled]</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=5)->Don't worry, [recipient] — I'm sure you won't let this happen again.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;Don&amp;apos;t worry, [recipient] — I&amp;apos;m sure you won&amp;apos;t let this happen again.</li>
+    <!--EN: good_opinion(INITIATOR_construction_level>=5)->[good_opinion_skilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;gt;=5)-&amp;gt;[good_opinion_skilled]</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level<5)->I had planned to build a cooler, but I got distracted. Sorry, [recipient] — it won't happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;lt;5)-&amp;gt;I had planned to build a cooler, but I got distracted. Sorry, [recipient] — it won&amp;apos;t happen again.</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level>=5)->You're right [recipient] — we could have built a cooler. We won't let this happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;gt;=5)-&amp;gt;You&amp;apos;re right [recipient] — we could have built a cooler. We won&amp;apos;t let this happen again.</li>
+  </ReactToThought_SleptInHeat_construction.logRulesInitiator.rulesStrings>
+  <!--EN: slept on ground-->
+  <ReactToThought_SleptOnGround.label>slept on ground</ReactToThought_SleptOnGround.label>
+  <ReactToThought_SleptOnGround.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level<4)->[bad_opinion_unskilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;lt;4)-&amp;gt;[bad_opinion_unskilled]</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<4)->...-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;...</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=4)->Yes you could have, [recipient] — now, try to be more useful in the future!-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Yes you could have, [recipient] — now, try to be more useful in the future!</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level>=4)->[bad_opinion_skilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;gt;=4)-&amp;gt;[bad_opinion_skilled]</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level<4)->And I hope you [shut_up], [recipient].-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;And I hope you [shut_up], [recipient].</li>
+    <!--EN: shut_up->shut up-->
+    <li>shut_up-&amp;gt;shut up</li>
+    <!--EN: shut_up->stop nagging me-->
+    <li>shut_up-&amp;gt;stop nagging me</li>
+    <!--EN: shut_up->stop bothering me-->
+    <li>shut_up-&amp;gt;stop bothering me</li>
+    <!--EN: shut_up->just shut up-->
+    <li>shut_up-&amp;gt;just shut up</li>
+    <!--EN: shut_up->leave me alone-->
+    <li>shut_up-&amp;gt;leave me alone</li>
+    <!--EN: shut_up->buzz off-->
+    <li>shut_up-&amp;gt;buzz off</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level>=4)->Hey, [recipient] — you need a bed, you build one yourself. I've got more important things to do.-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Hey, [recipient] — you need a bed, you build one yourself. I&amp;apos;ve got more important things to do.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_construction_level<4)->[good_opinion_unskilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;lt;4)-&amp;gt;[good_opinion_unskilled]</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [recipient] — it's [annoying].-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;Let&amp;apos;s hope it won&amp;apos;t happen again, [recipient] — it&amp;apos;s [annoying].</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=4)->Don't worry, [recipient] — I'm sure you won't let this happen again.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Don&amp;apos;t worry, [recipient] — I&amp;apos;m sure you won&amp;apos;t let this happen again.</li>
+    <!--EN: good_opinion(INITIATOR_construction_level>=4)->[good_opinion_skilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;gt;=4)-&amp;gt;[good_opinion_skilled]</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level<4)->I had planned to build a bed for you, but I got distracted. Sorry, [recipient] — it won't happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;I had planned to build a bed for you, but I got distracted. Sorry, [recipient] — it won&amp;apos;t happen again.</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level>=4)->You're right [recipient] — we could have built a bed for you. We won't let this happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;You&amp;apos;re right [recipient] — we could have built a bed for you. We won&amp;apos;t let this happen again.</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying->not nice-->
+    <li>annoying-&amp;gt;not nice</li>
+    <!--EN: annoying->unpleasant-->
+    <li>annoying-&amp;gt;unpleasant</li>
+  </ReactToThought_SleptOnGround.logRulesInitiator.rulesStrings>
+  <!--EN: slept outside-->
+  <ReactToThought_SleptOutside.label>slept outside</ReactToThought_SleptOutside.label>
+  <ReactToThought_SleptOutside.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level<4)->[bad_opinion_unskilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;lt;4)-&amp;gt;[bad_opinion_unskilled]</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<4)->...-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;...</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=4)->Yes you could have, [recipient] — now, try to be more useful in the future!-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Yes you could have, [recipient] — now, try to be more useful in the future!</li>
+    <!--EN: bad_opinion(INITIATOR_construction_level>=4)->[bad_opinion_skilled]-->
+    <li>bad_opinion(INITIATOR_construction_level&amp;gt;=4)-&amp;gt;[bad_opinion_skilled]</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level<4)->And I hope you [shut_up], [recipient].-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;And I hope you [shut_up], [recipient].</li>
+    <!--EN: shut_up->shut up-->
+    <li>shut_up-&amp;gt;shut up</li>
+    <!--EN: shut_up->stop nagging me-->
+    <li>shut_up-&amp;gt;stop nagging me</li>
+    <!--EN: shut_up->stop bothering me-->
+    <li>shut_up-&amp;gt;stop bothering me</li>
+    <!--EN: shut_up->just shut up-->
+    <li>shut_up-&amp;gt;just shut up</li>
+    <!--EN: bad_opinion_skilled(RECIPIENT_construction_level>=4)->Hey, [recipient] — you need a roofed room, you build one yourself. I've got more important things to do.-->
+    <li>bad_opinion_skilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Hey, [recipient] — you need a roofed room, you build one yourself. I&amp;apos;ve got more important things to do.</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_construction_level<4)->[good_opinion_unskilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;lt;4)-&amp;gt;[good_opinion_unskilled]</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [recipient] — it's [annoying].-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;Let&amp;apos;s hope it won&amp;apos;t happen again, [recipient] — it&amp;apos;s [annoying].</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=4)->Don't worry, [recipient] — I'm sure you won't let this happen again.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;Don&amp;apos;t worry, [recipient] — I&amp;apos;m sure you won&amp;apos;t let this happen again.</li>
+    <!--EN: good_opinion(INITIATOR_construction_level>=4)->[good_opinion_skilled]-->
+    <li>good_opinion(INITIATOR_construction_level&amp;gt;=4)-&amp;gt;[good_opinion_skilled]</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level<4)->I had planned to build a roofed room for you, but I got distracted. Sorry, [recipient] — it won't happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;lt;4)-&amp;gt;I had planned to build a roofed room for you, but I got distracted. Sorry, [recipient] — it won&amp;apos;t happen again.</li>
+    <!--EN: good_opinion_skilled(RECIPIENT_construction_level>=4)->You're right, [recipient] — we could have built a roofed room for you. We won't let this happen again.-->
+    <li>good_opinion_skilled(RECIPIENT_construction_level&amp;gt;=4)-&amp;gt;You&amp;apos;re right, [recipient] — we could have built a roofed room for you. We won&amp;apos;t let this happen again.</li>
+    <!--EN: annoying->bad-->
+    <li>annoying-&amp;gt;bad</li>
+    <!--EN: annoying->irritating-->
+    <li>annoying-&amp;gt;irritating</li>
+    <!--EN: annoying->infuriating-->
+    <li>annoying-&amp;gt;infuriating</li>
+    <!--EN: annoying->maddening-->
+    <li>annoying-&amp;gt;maddening</li>
+    <!--EN: annoying->bothersome-->
+    <li>annoying-&amp;gt;bothersome</li>
+    <!--EN: annoying->unacceptable-->
+    <li>annoying-&amp;gt;unacceptable</li>
+    <!--EN: annoying->not nice-->
+    <li>annoying-&amp;gt;not nice</li>
+    <!--EN: annoying->unpleasant-->
+    <li>annoying-&amp;gt;unpleasant</li>
+  </ReactToThought_SleptOutside.logRulesInitiator.rulesStrings>
+  <!--EN: undergrounder outdoors-->
+  <ReactToThought_UndergrounderOutdoors.label>undergrounder outdoors</ReactToThought_UndergrounderOutdoors.label>
+  <ReactToThought_UndergrounderOutdoors.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->Go back inside then, [recipient] — at least I won't hear your pitiful whining anymore!-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;Go back inside then, [recipient] — at least I won&amp;apos;t hear your pitiful whining anymore!</li>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->Then why don't you go crawl into a cave and stay there, [RECIPIENT_nameDef]?-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;Then why don&amp;apos;t you go crawl into a cave and stay there, [RECIPIENT_nameDef]?</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->I know, [recipient] — but some vital tasks must be performed outdoors. We can't change that, unfortunately...-->
+    <li>good_opinion-&amp;gt;I know, [recipient] — but some vital tasks must be performed outdoors. We can&amp;apos;t change that, unfortunately...</li>
+    <!--EN: good_opinion->I know, [recipient] — maybe we could try and plan for you to run indoors tasks only.-->
+    <li>good_opinion-&amp;gt;I know, [recipient] — maybe we could try and plan for you to run indoors tasks only.</li>
+    <!--EN: good_opinion->I'm sorry, [recipient] — I hope you can go work indoors soon.-->
+    <li>good_opinion-&amp;gt;I&amp;apos;m sorry, [recipient] — I hope you can go work indoors soon.</li>
+  </ReactToThought_UndergrounderOutdoors.logRulesInitiator.rulesStrings>
+  <!--EN: starving — eating-->
+  <StarvingEating.label>starving — eating</StarvingEating.label>
+  <StarvingEating.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;[bad_opinion]</li>
+    <!--EN: bad_opinion(INITIATOR_opinion<=-25)->Hope you choke on it, [RECIPIENT_nameDef]!-->
+    <li>bad_opinion(INITIATOR_opinion&amp;lt;=-25)-&amp;gt;Hope you choke on it, [RECIPIENT_nameDef]!</li>
+    <!--EN: bad_opinion->...-->
+    <li>bad_opinion-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion->Enjoy, [recipient]!-->
+    <li>good_opinion-&amp;gt;Enjoy, [recipient]!</li>
+    <!--EN: good_opinion->Chow down, [recipient]!-->
+    <li>good_opinion-&amp;gt;Chow down, [recipient]!</li>
+    <!--EN: good_opinion->Eat hearty, [recipient]!-->
+    <li>good_opinion-&amp;gt;Eat hearty, [recipient]!</li>
+    <!--EN: good_opinion->Enjoy your meal, [recipient]!-->
+    <li>good_opinion-&amp;gt;Enjoy your meal, [recipient]!</li>
+    <!--EN: good_opinion->Eat up, [recipient]!-->
+    <li>good_opinion-&amp;gt;Eat up, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_social_level>=5)->Bon appétit, [recipient]!-->
+    <li>good_opinion(INITIATOR_social_level&amp;gt;=5)-&amp;gt;Bon appétit, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_medical_level>=5)->Chew slowly, [recipient].-->
+    <li>good_opinion(INITIATOR_medical_level&amp;gt;=5)-&amp;gt;Chew slowly, [recipient].</li>
+    <!--EN: good_opinion(INITIATOR_trait==gourmand)->Enjoy your meal, enjoy your life!-->
+    <li>good_opinion(INITIATOR_trait==gourmand)-&amp;gt;Enjoy your meal, enjoy your life!</li>
+    <!--EN: good_opinion(INITIATOR_trait==ascetic)->Temperance, [recipient], temperance...-->
+    <li>good_opinion(INITIATOR_trait==ascetic)-&amp;gt;Temperance, [recipient], temperance...</li>
+  </StarvingEating.logRulesInitiator.rulesStrings>
+  <!--EN: what's up-->
+  <WhatsUp.label>what&amp;apos;s up</WhatsUp.label>
+  <WhatsUp.logRulesInitiator.rulesStrings>
+    <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
+    <li>r_logentry(INITIATOR_opinion&amp;lt;0)-&amp;gt;...</li>
+    <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
+    <li>r_logentry(INITIATOR_opinion&amp;gt;=0)-&amp;gt;[good_opinion]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==DeadMansApparel,priority=1)->[deadmans_apparel]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==DeadMansApparel,priority=1)-&amp;gt;[deadmans_apparel]</li>
+    <!--EN: deadmans_apparel(INITIATOR_trait==bloodlust,priority=1)->I am wearing apparel that someone died in — and that's perfectly fine by me.-->
+    <li>deadmans_apparel(INITIATOR_trait==bloodlust,priority=1)-&amp;gt;I am wearing apparel that someone died in — and that&amp;apos;s perfectly fine by me.</li>
+    <!--EN: deadmans_apparel->[deadmans_apparel1] [deadmans_apparel2]-->
+    <li>deadmans_apparel-&amp;gt;[deadmans_apparel1] [deadmans_apparel2]</li>
+    <!--EN: deadmans_apparel1->I am wearing apparel that someone died in.-->
+    <li>deadmans_apparel1-&amp;gt;I am wearing apparel that someone died in.</li>
+    <!--EN: deadmans_apparel1->Someone died in the apparel I'm wearing.-->
+    <li>deadmans_apparel1-&amp;gt;Someone died in the apparel I&amp;apos;m wearing.</li>
+    <!--EN: deadmans_apparel1->Some of my apparel was worn by someone as they died.-->
+    <li>deadmans_apparel1-&amp;gt;Some of my apparel was worn by someone as they died.</li>
+    <!--EN: deadmans_apparel2->It creeps me out and feels dirty!-->
+    <li>deadmans_apparel2-&amp;gt;It creeps me out and feels dirty!</li>
+    <!--EN: deadmans_apparel2->I feel [intensifier]unclean...-->
+    <li>deadmans_apparel2-&amp;gt;I feel [intensifier]unclean...</li>
+    <!--EN: deadmans_apparel2->It makes me feel [intensifier]uncomfortable — I don't like it.-->
+    <li>deadmans_apparel2-&amp;gt;It makes me feel [intensifier]uncomfortable — I don&amp;apos;t like it.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetSanguine,priority=1)->[sanguine_optimist]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==MoodOffsetSanguine,priority=1)-&amp;gt;[sanguine_optimist]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetOptimist,priority=1)->[sanguine_optimist]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==MoodOffsetOptimist,priority=1)-&amp;gt;[sanguine_optimist]</li>
+    <!--EN: sanguine_optimist(INITIATOR_mood>=0.4)->Everything's just fine — and I'm certain it'll get even better!-->
+    <li>sanguine_optimist(INITIATOR_mood&amp;gt;=0.4)-&amp;gt;Everything&amp;apos;s just fine — and I&amp;apos;m certain it&amp;apos;ll get even better!</li>
+    <!--EN: sanguine_optimist(INITIATOR_mood<0.4)->Despite my recent troubles, I'm sure things will quickly improve!-->
+    <li>sanguine_optimist(INITIATOR_mood&amp;lt;0.4)-&amp;gt;Despite my recent troubles, I&amp;apos;m sure things will quickly improve!</li>
+    <!--EN: sanguine_optimist(INITIATOR_mood<0.4)->I'm not doing so well right now, but tomorrow's another day!-->
+    <li>sanguine_optimist(INITIATOR_mood&amp;lt;0.4)-&amp;gt;I&amp;apos;m not doing so well right now, but tomorrow&amp;apos;s another day!</li>
+    <!--EN: sanguine_optimist(INITIATOR_mood<0.2)->Thanks for checking on me, [recipient]. It's really hard, but I know I'll get through it.-->
+    <li>sanguine_optimist(INITIATOR_mood&amp;lt;0.2)-&amp;gt;Thanks for checking on me, [recipient]. It&amp;apos;s really hard, but I know I&amp;apos;ll get through it.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetPessimist,priority=1)->[depressive_pessimist]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==MoodOffsetPessimist,priority=1)-&amp;gt;[depressive_pessimist]</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetDepressive,priority=1)->[depressive_pessimist]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==MoodOffsetDepressive,priority=1)-&amp;gt;[depressive_pessimist]</li>
+    <!--EN: depressive_pessimist(INITIATOR_mood>=0.4)->I've recently had some happy moments — but I'm sure it's just a fleeting illusion...-->
+    <li>depressive_pessimist(INITIATOR_mood&amp;gt;=0.4)-&amp;gt;I&amp;apos;ve recently had some happy moments — but I&amp;apos;m sure it&amp;apos;s just a fleeting illusion...</li>
+    <!--EN: depressive_pessimist(INITIATOR_mood>=0.4)->I'm... good...-->
+    <li>depressive_pessimist(INITIATOR_mood&amp;gt;=0.4)-&amp;gt;I&amp;apos;m... good...</li>
+    <!--EN: depressive_pessimist(INITIATOR_mood<0.4)->Just when I believe life can't get worse, it promptly proves me wrong!-->
+    <li>depressive_pessimist(INITIATOR_mood&amp;lt;0.4)-&amp;gt;Just when I believe life can&amp;apos;t get worse, it promptly proves me wrong!</li>
+    <!--EN: depressive_pessimist(INITIATOR_mood<0.4)->Nothing...-->
+    <li>depressive_pessimist(INITIATOR_mood&amp;lt;0.4)-&amp;gt;Nothing...</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetTorturedArtist,priority=1)->[tortured_artist]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==MoodOffsetTorturedArtist,priority=1)-&amp;gt;[tortured_artist]</li>
+    <!--EN: tortured_artist(INITIATOR_mood>=0.4)->I almost had it... almost... then suddenly my artistic vision faded... lost...-->
+    <li>tortured_artist(INITIATOR_mood&amp;gt;=0.4)-&amp;gt;I almost had it... almost... then suddenly my artistic vision faded... lost...</li>
+    <!--EN: tortured_artist(INITIATOR_mood<0.4)->I'm in pain — a [pain_adj] pain you shall never be able to feel the way I do.-->
+    <li>tortured_artist(INITIATOR_mood&amp;lt;0.4)-&amp;gt;I&amp;apos;m in pain — a [pain_adj] pain you shall never be able to feel the way I do.</li>
+    <!--EN: tortured_artist(INITIATOR_mood<0.4)->If only I were able to express the [pain_adj] pain I feel. But I don't think anyone can really understand.-->
+    <li>tortured_artist(INITIATOR_mood&amp;lt;0.4)-&amp;gt;If only I were able to express the [pain_adj] pain I feel. But I don&amp;apos;t think anyone can really understand.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==GotSomeLovin,priority=1)->[gotsomelovin]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==GotSomeLovin,priority=1)-&amp;gt;[gotsomelovin]</li>
+    <!--EN: gotsomelovin->Well, [recipient]... Let's say that not being single has its advantages... *wink*-->
+    <li>gotsomelovin-&amp;gt;Well, [recipient]... Let&amp;apos;s say that not being single has its advantages... *wink*</li>
+    <!--EN: gotsomelovin(INITIATOR_opinion>=50)->There's nothing like a good tumble between the sheets to lift the mood, [recipient]!-->
+    <li>gotsomelovin(INITIATOR_opinion&amp;gt;=50)-&amp;gt;There&amp;apos;s nothing like a good tumble between the sheets to lift the mood, [recipient]!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==ReleasedHealthyPrisoner,priority=1)->[released_prisoner]-->
+    <li>good_opinion(INITIATOR_thoughtDefName==ReleasedHealthyPrisoner,priority=1)-&amp;gt;[released_prisoner]</li>
+    <!--EN: released_prisoner(INITIATOR_faction==PlayerColony)->We released a [prisoner] — [comment]-->
+    <li>released_prisoner(INITIATOR_faction==PlayerColony)-&amp;gt;We released a [prisoner] — [comment]</li>
+    <!--EN: released_prisoner(INITIATOR_faction==PlayerTribe)->We released a [prisoner] — [comment]-->
+    <li>released_prisoner(INITIATOR_faction==PlayerTribe)-&amp;gt;We released a [prisoner] — [comment]</li>
+    <!--EN: released_prisoner(INITIATOR_faction!=PlayerColony,INITIATOR_faction!=PlayerTribe)->They released a [prisoner] — [comment]-->
+    <li>released_prisoner(INITIATOR_faction!=PlayerColony,INITIATOR_faction!=PlayerTribe)-&amp;gt;They released a [prisoner] — [comment]</li>
+    <!--EN: comment->I think it was the right thing to do.-->
+    <li>comment-&amp;gt;I think it was the right thing to do.</li>
+    <!--EN: comment->I'm [intensifier]glad to see it.-->
+    <li>comment-&amp;gt;I&amp;apos;m [intensifier]glad to see it.</li>
+    <!--EN: comment->I hope they're enjoying their freedom.-->
+    <li>comment-&amp;gt;I hope they&amp;apos;re enjoying their freedom.</li>
+    <!--EN: comment(INITIATOR_trait==kind,priority=2)->poor thing! It was the best thing to do.-->
+    <li>comment(INITIATOR_trait==kind,priority=2)-&amp;gt;poor thing! It was the best thing to do.</li>
+    <!--EN: comment(INITIATOR_trait==cannibal,priority=1)->what a waste of resources!-->
+    <li>comment(INITIATOR_trait==cannibal,priority=1)-&amp;gt;what a waste of resources!</li>
+    <!--EN: comment(INITIATOR_trait==bloodlust,priority=1)->what a waste of resources!-->
+    <li>comment(INITIATOR_trait==bloodlust,priority=1)-&amp;gt;what a waste of resources!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==ThoughtWorker_RoyalTitleApparelMinQualityNotMet,priority=1)->[INITIATOR_royalTitle0Indef] like me should wear higher quality apparel!-->
+    <li>good_opinion(INITIATOR_thoughtDefName==ThoughtWorker_RoyalTitleApparelMinQualityNotMet,priority=1)-&amp;gt;[INITIATOR_royalTitle0Indef] like me should wear higher quality apparel!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtDefName==ThoughtWorker_RoyalTitleApparelRequirementNotMet,priority=1)->Every [INITIATOR_royalTitle0] in [INITIATOR_bestRoyalTitleFaction] wears a specific traditional outfit — I should try to get mine too.-->
+    <li>good_opinion(INITIATOR_thoughtDefName==ThoughtWorker_RoyalTitleApparelRequirementNotMet,priority=1)-&amp;gt;Every [INITIATOR_royalTitle0] in [INITIATOR_bestRoyalTitleFaction] wears a specific traditional outfit — I should try to get mine too.</li>
+    <!--EN: good_opinion->[INITIATOR_thoughtText]-->
+    <li>good_opinion-&amp;gt;[INITIATOR_thoughtText]</li>
+    <!--EN: pain_adj->spiritual, higher-->
+    <li>pain_adj-&amp;gt;spiritual, higher</li>
+    <!--EN: pain_adj->heinous, abyssal-->
+    <li>pain_adj-&amp;gt;heinous, abyssal</li>
+    <!--EN: pain_adj->quantic, cosmic-->
+    <li>pain_adj-&amp;gt;quantic, cosmic</li>
+    <!--EN: pain_adj->sculpted, bleeding-->
+    <li>pain_adj-&amp;gt;sculpted, bleeding</li>
+    <!--EN: pain_adj->deafening, silent-->
+    <li>pain_adj-&amp;gt;deafening, silent</li>
+    <!--EN: pain_adj->tangible, solid-->
+    <li>pain_adj-&amp;gt;tangible, solid</li>
+    <!--EN: pain_adj->blinding, searing-->
+    <li>pain_adj-&amp;gt;blinding, searing</li>
+    <!--EN: prisoner->prisoner-->
+    <li>prisoner-&amp;gt;prisoner</li>
+    <!--EN: prisoner->captive-->
+    <li>prisoner-&amp;gt;captive</li>
+  </WhatsUp.logRulesInitiator.rulesStrings>
+</LanguageData>
