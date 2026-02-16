@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--翻译内容: 'Execution: Bash',新增于2026-02-16-->
+  <!--EN: Execution: Bash-->
+  <AM_Execution_Bash.label>Execution: Bash</AM_Execution_Bash.label>
+  <!--翻译内容: 'Execution: Big Bash',新增于2026-02-16-->
+  <!--EN: Execution: Big Bash-->
+  <AM_Execution_BashLarge.label>Execution: Big Bash</AM_Execution_BashLarge.label>
+  <!--翻译内容: 'Execution: Behead',新增于2026-02-16-->
+  <!--EN: Execution: Behead-->
+  <AM_Execution_Behead.label>Execution: Behead</AM_Execution_Behead.label>
+  <!--翻译内容: 'Execution: Jumping Behead',新增于2026-02-16-->
+  <!--EN: Execution: Jumping Behead-->
+  <AM_Execution_BeheadHigh.label>Execution: Jumping Behead</AM_Execution_BeheadHigh.label>
+  <!--翻译内容: 'Execution: Fail',新增于2026-02-16-->
+  <!--EN: Execution: Fail-->
+  <AM_Execution_Fail.label>Execution: Fail</AM_Execution_Fail.label>
+  <!--翻译内容: 'Execution: Head Be Gone',新增于2026-02-16-->
+  <!--EN: Execution: Head Be Gone-->
+  <AM_Execution_HeadRemoval.label>Execution: Head Be Gone</AM_Execution_HeadRemoval.label>
+  <!--翻译内容: 'Execution: Head Stab',新增于2026-02-16-->
+  <!--EN: Execution: Head Stab-->
+  <AM_Execution_HeadStab.label>Execution: Head Stab</AM_Execution_HeadStab.label>
+  <!--翻译内容: 'Execution: Jump Throw',新增于2026-02-16-->
+  <!--EN: Execution: Jump Throw-->
+  <AM_Execution_JumpThrow.label>Execution: Jump Throw</AM_Execution_JumpThrow.label>
+  <!--翻译内容: 'Execution: Knockdown Stab',新增于2026-02-16-->
+  <!--EN: Execution: Knockdown Stab-->
+  <AM_Execution_KnockdownStab.label>Execution: Knockdown Stab</AM_Execution_KnockdownStab.label>
+  <!--翻译内容: 'Execution: Passover',新增于2026-02-16-->
+  <!--EN: Execution: Passover-->
+  <AM_Execution_Passover.label>Execution: Passover</AM_Execution_Passover.label>
+  <!--翻译内容: 'Execution: Pocket Sand!',新增于2026-02-16-->
+  <!--EN: Execution: Pocket Sand!-->
+  <AM_Execution_PocketSand.label>Execution: Pocket Sand!</AM_Execution_PocketSand.label>
+  <!--翻译内容: 'Execution: Punt',新增于2026-02-16-->
+  <!--EN: Execution: Punt-->
+  <AM_Execution_Punt.label>Execution: Punt</AM_Execution_Punt.label>
+  <!--翻译内容: 'Execution: Acrobatic Backstab',新增于2026-02-16-->
+  <!--EN: Execution: Acrobatic Backstab-->
+  <AM_Execution_SekiroBS.label>Execution: Acrobatic Backstab</AM_Execution_SekiroBS.label>
+  <!--翻译内容: 'Execution: Shank',新增于2026-02-16-->
+  <!--EN: Execution: Shank-->
+  <AM_Execution_Shank.label>Execution: Shank</AM_Execution_Shank.label>
+  <!--翻译内容: 'Execution: Spear Stab',新增于2026-02-16-->
+  <!--EN: Execution: Spear Stab-->
+  <AM_Execution_SpearLift.label>Execution: Spear Stab</AM_Execution_SpearLift.label>
+  <!--翻译内容: 'Execution: Stab',新增于2026-02-16-->
+  <!--EN: Execution: Stab-->
+  <AM_Execution_Stab.label>Execution: Stab</AM_Execution_Stab.label>
+  <!--翻译内容: 'Execution: Throw Sharp',新增于2026-02-16-->
+  <!--EN: Execution: Throw Sharp-->
+  <AM_Execution_ThrowSharp.label>Execution: Throw Sharp</AM_Execution_ThrowSharp.label>
+  <!--翻译内容: 'Execution: Up & Down Slash',新增于2026-02-16-->
+  <!--EN: Execution: Up & Down Slash-->
+  <AM_Execution_UpDownSlash.label>Execution: Up &amp;amp;amp; Down Slash</AM_Execution_UpDownSlash.label>
+  <!--翻译内容: 'Execution: Upwards Slash',新增于2026-02-16-->
+  <!--EN: Execution: Upwards Slash-->
+  <AM_Execution_UpSlash.label>Execution: Upwards Slash</AM_Execution_UpSlash.label>
+  <!--翻译内容: 'Execution: Upwards Slash (doubletap)',新增于2026-02-16-->
+  <!--EN: Execution: Upwards Slash (doubletap)-->
+  <AM_Execution_UpSlash_Doubletap.label>Execution: Upwards Slash (doubletap)</AM_Execution_UpSlash_Doubletap.label>
+  <!--翻译内容: 'Execution: Whirlwind',新增于2026-02-16-->
+  <!--EN: Execution: Whirlwind-->
+  <AM_Execution_Whirlwind.label>Execution: Whirlwind</AM_Execution_Whirlwind.label>
+</LanguageData>

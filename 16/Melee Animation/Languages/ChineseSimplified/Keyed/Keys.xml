@@ -1,0 +1,996 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--翻译内容: 'Default',新增于2026-02-16-->
+  <!--EN: Default-->
+  <AM.AMSettings.Presets.Default>Default</AM.AMSettings.Presets.Default>
+  <!--翻译内容: 'Enables all features the mod has to offer',新增于2026-02-16-->
+  <!--EN: Enables all features the mod has to offer-->
+  <AM.AMSettings.Presets.Default.Desc>Enables all features the mod has to offer</AM.AMSettings.Presets.Default.Desc>
+  <!--翻译内容: 'No Lassos',新增于2026-02-16-->
+  <!--EN: No Lassos-->
+  <AM.AMSettings.Presets.NoLassos>No Lassos</AM.AMSettings.Presets.NoLassos>
+  <!--翻译内容: 'Everything is enabled except lassos. You can still craft and use lassos manually if you want but enemies will not spawn with or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Adds duels
+* Adds execution animations
+* Adds Unique Skills',新增于2026-02-16-->
+  <!--EN: Everything is enabled except lassos. You can still craft and use lassos manually if you want but enemies will not spawn with or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Adds duels
+* Adds execution animations
+* Adds Unique Skills-->
+  <AM.AMSettings.Presets.NoLassos.Desc>Everything is enabled except lassos. You can still craft and use lassos manually if you want but enemies will not spawn with or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Adds duels
+* Adds execution animations
+* Adds Unique Skills</AM.AMSettings.Presets.NoLassos.Desc>
+  <!--翻译内容: 'Vanilla+',新增于2026-02-16-->
+  <!--EN: Vanilla+-->
+  <AM.AMSettings.Presets.VanillaPlus>Vanilla+</AM.AMSettings.Presets.VanillaPlus>
+  <!--翻译内容: 'Keeps things very close to vanilla combat. Your pawns will not use lassos unless you manually instruct them to. Your pawns can not do executions, ever. Enemies will never do executions or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Lassos can be used by friendly pawns, but must be equipped and triggered manually.',新增于2026-02-16-->
+  <!--EN: Keeps things very close to vanilla combat. Your pawns will not use lassos unless you manually instruct them to. Your pawns can not do executions, ever. Enemies will never do executions or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Lassos can be used by friendly pawns, but must be equipped and triggered manually.-->
+  <AM.AMSettings.Presets.VanillaPlus.Desc>Keeps things very close to vanilla combat. Your pawns will not use lassos unless you manually instruct them to. Your pawns can not do executions, ever. Enemies will never do executions or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Lassos can be used by friendly pawns, but must be equipped and triggered manually.</AM.AMSettings.Presets.VanillaPlus.Desc>
+  <!--翻译内容: 'Animated Pawns Considered Invisible',新增于2026-02-16-->
+  <!--EN: Animated Pawns Considered Invisible-->
+  <AM.AMSettings.Settings.AllowInvisiblePawns>Animated Pawns Considered Invisible</AM.AMSettings.Settings.AllowInvisiblePawns>
+  <!--翻译内容: 'When in an animation, such as an execution, pawns are considered invisible by all other pawns and turrets: they will not be actively targeted or shot at. This makes executions less risky.
+Note that pawns in animations can still take damage, such as from stray gunfire or explosions.',新增于2026-02-16-->
+  <!--EN: When in an animation, such as an execution, pawns are considered invisible by all other pawns and turrets: they will not be actively targeted or shot at. This makes executions less risky.
+Note that pawns in animations can still take damage, such as from stray gunfire or explosions.-->
+  <AM.AMSettings.Settings.AllowInvisiblePawns.Desc>When in an animation, such as an execution, pawns are considered invisible by all other pawns and turrets: they will not be actively targeted or shot at. This makes executions less risky.
+Note that pawns in animations can still take damage, such as from stray gunfire or explosions.</AM.AMSettings.Settings.AllowInvisiblePawns.Desc>
+  <!--翻译内容: 'Animals Can Be Executed',新增于2026-02-16-->
+  <!--EN: Animals Can Be Executed-->
+  <AM.AMSettings.Settings.AnimalsCanBeExecuted>Animals Can Be Executed</AM.AMSettings.Settings.AnimalsCanBeExecuted>
+  <!--翻译内容: 'Allows animals to be executed.
+You are a bad person if you enable this.',新增于2026-02-16-->
+  <!--EN: Allows animals to be executed.
+You are a bad person if you enable this.-->
+  <AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc>Allows animals to be executed.
+You are a bad person if you enable this.</AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc>
+  <!--翻译内容: 'Always Animate Weapons',新增于2026-02-16-->
+  <!--EN: Always Animate Weapons-->
+  <AM.AMSettings.Settings.AnimateAtIdle>Always Animate Weapons</AM.AMSettings.Settings.AnimateAtIdle>
+  <!--翻译内容: 'If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.
+If disabled, animations are limited to duels, special skills and executions.
+
+<b>Leaving this enabled can have a large performance impact on densely populated maps.
+Please reload your save after changing this setting.</b>',新增于2026-02-16-->
+  <!--EN: If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.
+If disabled, animations are limited to duels, special skills and executions.
+
+<b>Leaving this enabled can have a large performance impact on densely populated maps.
+Please reload your save after changing this setting.</b>-->
+  <AM.AMSettings.Settings.AnimateAtIdle.Desc>If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.
+If disabled, animations are limited to duels, special skills and executions.
+
+&amp;amp;lt;b&amp;amp;gt;Leaving this enabled can have a large performance impact on densely populated maps.
+Please reload your save after changing this setting.&amp;amp;lt;/b&amp;amp;gt;</AM.AMSettings.Settings.AnimateAtIdle.Desc>
+  <!--翻译内容: 'Attack Pause Duration',新增于2026-02-16-->
+  <!--EN: Attack Pause Duration-->
+  <AM.AMSettings.Settings.AttackPauseDuration>Attack Pause Duration</AM.AMSettings.Settings.AttackPauseDuration>
+  <!--翻译内容: 'When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.
+This lets you know whether an attack connected, as well as giving the hit a bit more visual <i>oomph</i>.
+This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.',新增于2026-02-16-->
+  <!--EN: When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.
+This lets you know whether an attack connected, as well as giving the hit a bit more visual <i>oomph</i>.
+This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.-->
+  <AM.AMSettings.Settings.AttackPauseDuration.Desc>When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.
+This lets you know whether an attack connected, as well as giving the hit a bit more visual &amp;amp;lt;i&amp;amp;gt;oomph&amp;amp;lt;/i&amp;amp;gt;.
+This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.</AM.AMSettings.Settings.AttackPauseDuration.Desc>
+  <!--翻译内容: 'Auto Execute',新增于2026-02-16-->
+  <!--EN: Auto Execute-->
+  <AM.AMSettings.Settings.AutoExecute>Auto Execute</AM.AMSettings.Settings.AutoExecute>
+  <!--翻译内容: 'If true, your pawns will automatically execute enemy pawns in combat, without your input.
+This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.
+
+This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.',新增于2026-02-16-->
+  <!--EN: If true, your pawns will automatically execute enemy pawns in combat, without your input.
+This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.
+
+This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.-->
+  <AM.AMSettings.Settings.AutoExecute.Desc>If true, your pawns will automatically execute enemy pawns in combat, without your input.
+This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.
+
+This only changes the &amp;amp;lt;b&amp;amp;gt;default&amp;amp;lt;/b&amp;amp;gt; setting. It can also be configured on a per-pawn basis.</AM.AMSettings.Settings.AutoExecute.Desc>
+  <!--翻译内容: 'Auto Lasso',新增于2026-02-16-->
+  <!--EN: Auto Lasso-->
+  <AM.AMSettings.Settings.AutoGrapple>Auto Lasso</AM.AMSettings.Settings.AutoGrapple>
+  <!--翻译内容: 'If true, your colonists will automatically use their lassos against enemies.
+
+This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.',新增于2026-02-16-->
+  <!--EN: If true, your colonists will automatically use their lassos against enemies.
+
+This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.-->
+  <AM.AMSettings.Settings.AutoGrapple.Desc>If true, your colonists will automatically use their lassos against enemies.
+
+This only changes the &amp;amp;lt;b&amp;amp;gt;default&amp;amp;lt;/b&amp;amp;gt; setting. It can also be configured on a per-pawn basis.</AM.AMSettings.Settings.AutoGrapple.Desc>
+  <!--翻译内容: 'Execution Failure Chance (High Skill)',新增于2026-02-16-->
+  <!--EN: Execution Failure Chance (High Skill)-->
+  <AM.AMSettings.Settings.ChanceToFailMaxSkill>Execution Failure Chance (High Skill)</AM.AMSettings.Settings.ChanceToFailMaxSkill>
+  <!--翻译内容: 'The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 20 melee skill.
+Affects all pawns.',新增于2026-02-16-->
+  <!--EN: The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 20 melee skill.
+Affects all pawns.-->
+  <AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc>The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 20 melee skill.
+Affects all pawns.</AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc>
+  <!--翻译内容: 'Execution Failure Chance (Low Skill)',新增于2026-02-16-->
+  <!--EN: Execution Failure Chance (Low Skill)-->
+  <AM.AMSettings.Settings.ChanceToFailMinSkill>Execution Failure Chance (Low Skill)</AM.AMSettings.Settings.ChanceToFailMinSkill>
+  <!--翻译内容: 'The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 0 melee skill.
+Affects all pawns.',新增于2026-02-16-->
+  <!--EN: The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 0 melee skill.
+Affects all pawns.-->
+  <AM.AMSettings.Settings.ChanceToFailMinSkill.Desc>The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 0 melee skill.
+Affects all pawns.</AM.AMSettings.Settings.ChanceToFailMinSkill.Desc>
+  <!--翻译内容: 'Corpse Offset Mode',新增于2026-02-16-->
+  <!--EN: Corpse Offset Mode-->
+  <AM.AMSettings.Settings.CorpseOffsetMode>Corpse Offset Mode</AM.AMSettings.Settings.CorpseOffsetMode>
+  <!--翻译内容: 'In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.
+This offset can be confusing however, because the corpse no longer occupies the center of the tile.
+<b>Note:</b> The offset corpses are reset after a save-reload.',新增于2026-02-16-->
+  <!--EN: In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.
+This offset can be confusing however, because the corpse no longer occupies the center of the tile.
+<b>Note:</b> The offset corpses are reset after a save-reload.-->
+  <AM.AMSettings.Settings.CorpseOffsetMode.Desc>In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.
+This offset can be confusing however, because the corpse no longer occupies the center of the tile.
+&amp;amp;lt;b&amp;amp;gt;Note:&amp;amp;lt;/b&amp;amp;gt; The offset corpses are reset after a save-reload.</AM.AMSettings.Settings.CorpseOffsetMode.Desc>
+  <!--翻译内容: 'Draw Names In Animation',新增于2026-02-16-->
+  <!--EN: Draw Names In Animation-->
+  <AM.AMSettings.Settings.DrawNamesInAnimation>Draw Names In Animation</AM.AMSettings.Settings.DrawNamesInAnimation>
+  <!--翻译内容: 'If true, the name of pawns is drawn below them, just like in the base game.
+If false, the name is not drawn, for a more cinematic animation.',新增于2026-02-16-->
+  <!--EN: If true, the name of pawns is drawn below them, just like in the base game.
+If false, the name is not drawn, for a more cinematic animation.-->
+  <AM.AMSettings.Settings.DrawNamesInAnimation.Desc>If true, the name of pawns is drawn below them, just like in the base game.
+If false, the name is not drawn, for a more cinematic animation.</AM.AMSettings.Settings.DrawNamesInAnimation.Desc>
+  <!--翻译内容: 'Enable Executions',新增于2026-02-16-->
+  <!--EN: Enable Executions-->
+  <AM.AMSettings.Settings.EnableExecutions>Enable Executions</AM.AMSettings.Settings.EnableExecutions>
+  <!--翻译内容: 'Entirely enables or disables the execution system. Disabling this means that no pawns will ever be able to do executions, and the option is removed from the UI.',新增于2026-02-16-->
+  <!--EN: Entirely enables or disables the execution system. Disabling this means that no pawns will ever be able to do executions, and the option is removed from the UI.-->
+  <AM.AMSettings.Settings.EnableExecutions.Desc>Entirely enables or disables the execution system. Disabling this means that no pawns will ever be able to do executions, and the option is removed from the UI.</AM.AMSettings.Settings.EnableExecutions.Desc>
+  <!--翻译内容: 'Enable Unique Skills',新增于2026-02-16-->
+  <!--EN: Enable Unique Skills-->
+  <AM.AMSettings.Settings.EnableUniqueSkills>Enable Unique Skills</AM.AMSettings.Settings.EnableUniqueSkills>
+  <!--翻译内容: 'Enables or disables the Unique Skill system.
+Unique Skills are powerful attacks or abilities that are unlocked under certain conditions.
+Only your colonists can use these skills and they must be activated manually. See the Steam workshop page for more info.',新增于2026-02-16-->
+  <!--EN: Enables or disables the Unique Skill system.
+Unique Skills are powerful attacks or abilities that are unlocked under certain conditions.
+Only your colonists can use these skills and they must be activated manually. See the Steam workshop page for more info.-->
+  <AM.AMSettings.Settings.EnableUniqueSkills.Desc>Enables or disables the Unique Skill system.
+Unique Skills are powerful attacks or abilities that are unlocked under certain conditions.
+Only your colonists can use these skills and they must be activated manually. See the Steam workshop page for more info.</AM.AMSettings.Settings.EnableUniqueSkills.Desc>
+  <!--翻译内容: 'Enemies Can Perform Executions',新增于2026-02-16-->
+  <!--EN: Enemies Can Perform Executions-->
+  <AM.AMSettings.Settings.EnemiesCanExecute>Enemies Can Perform Executions</AM.AMSettings.Settings.EnemiesCanExecute>
+  <!--翻译内容: 'Can enemies perform execution animations?',新增于2026-02-16-->
+  <!--EN: Can enemies perform execution animations?-->
+  <AM.AMSettings.Settings.EnemiesCanExecute.Desc>Can enemies perform execution animations?</AM.AMSettings.Settings.EnemiesCanExecute.Desc>
+  <!--翻译内容: 'Enemies Can Lasso',新增于2026-02-16-->
+  <!--EN: Enemies Can Lasso-->
+  <AM.AMSettings.Settings.EnemiesCanGrapple>Enemies Can Lasso</AM.AMSettings.Settings.EnemiesCanGrapple>
+  <!--翻译内容: 'Can enemies use lassos (if they have any) to pull your colonists into melee range?',新增于2026-02-16-->
+  <!--EN: Can enemies use lassos (if they have any) to pull your colonists into melee range?-->
+  <AM.AMSettings.Settings.EnemiesCanGrapple.Desc>Can enemies use lassos (if they have any) to pull your colonists into melee range?</AM.AMSettings.Settings.EnemiesCanGrapple.Desc>
+  <!--翻译内容: 'Execution Cooldown Factor (Enemy)',新增于2026-02-16-->
+  <!--EN: Execution Cooldown Factor (Enemy)-->
+  <AM.AMSettings.Settings.EnemyExecCooldownFactor>Execution Cooldown Factor (Enemy)</AM.AMSettings.Settings.EnemyExecCooldownFactor>
+  <!--翻译内容: 'This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.',新增于2026-02-16-->
+  <!--EN: This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.-->
+  <AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn&amp;amp;apos;s stats.</AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>
+  <!--翻译内容: 'Automatic Execution Average Interval (Friendly)',新增于2026-02-16-->
+  <!--EN: Automatic Execution Average Interval (Friendly)-->
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSeconds>Automatic Execution Average Interval (Friendly)</AM.AMSettings.Settings.ExecuteAttemptMTBSeconds>
+  <!--翻译内容: 'This is the average time, in seconds, at which friendly pawns will attempt to start an execution animation on the enemy they are currently fighting.
+For example, if this is set to 5 and your pawn is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.',新增于2026-02-16-->
+  <!--EN: This is the average time, in seconds, at which friendly pawns will attempt to start an execution animation on the enemy they are currently fighting.
+For example, if this is set to 5 and your pawn is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.-->
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc>This is the average time, in seconds, at which friendly pawns will attempt to start an execution animation on the enemy they are currently fighting.
+For example, if this is set to 5 and your pawn is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.</AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc>
+  <!--翻译内容: 'Automatic Execution Average Interval (Enemy)',新增于2026-02-16-->
+  <!--EN: Automatic Execution Average Interval (Enemy)-->
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy>Automatic Execution Average Interval (Enemy)</AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy>
+  <!--翻译内容: 'This is the average time, in seconds, at which enemy pawns will attempt to start an execution animation on the target they are currently fighting.
+For example, if this is set to 5 and an enemy is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.',新增于2026-02-16-->
+  <!--EN: This is the average time, in seconds, at which enemy pawns will attempt to start an execution animation on the target they are currently fighting.
+For example, if this is set to 5 and an enemy is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.-->
+  <AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc>This is the average time, in seconds, at which enemy pawns will attempt to start an execution animation on the target they are currently fighting.
+For example, if this is set to 5 and an enemy is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.</AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc>
+  <!--翻译内容: 'Execution Armor Strength',新增于2026-02-16-->
+  <!--EN: Execution Armor Strength-->
+  <AM.AMSettings.Settings.ExecutionArmorCoefficient>Execution Armor Strength</AM.AMSettings.Settings.ExecutionArmorCoefficient>
+  <!--翻译内容: 'A multiplier on the effectiveness of armor when calculating execution animation outcome.
+Lower values decrease the effect of armor on the outcome, higher values increase the strength of armor.
+Set to 0% to make armor be ignored.',新增于2026-02-16-->
+  <!--EN: A multiplier on the effectiveness of armor when calculating execution animation outcome.
+Lower values decrease the effect of armor on the outcome, higher values increase the strength of armor.
+Set to 0% to make armor be ignored.-->
+  <AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc>A multiplier on the effectiveness of armor when calculating execution animation outcome.
+Lower values decrease the effect of armor on the outcome, higher values increase the strength of armor.
+Set to 0% to make armor be ignored.</AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc>
+  <!--翻译内容: 'Execution Lethality Modifier',新增于2026-02-16-->
+  <!--EN: Execution Lethality Modifier-->
+  <AM.AMSettings.Settings.ExecutionLethalityModifier>Execution Lethality Modifier</AM.AMSettings.Settings.ExecutionLethalityModifier>
+  <!--翻译内容: 'A general modifier on the lethality of execution animations. Higher values make executions more lethal. Affects all pawns.',新增于2026-02-16-->
+  <!--EN: A general modifier on the lethality of execution animations. Higher values make executions more lethal. Affects all pawns.-->
+  <AM.AMSettings.Settings.ExecutionLethalityModifier.Desc>A general modifier on the lethality of execution animations. Higher values make executions more lethal. Affects all pawns.</AM.AMSettings.Settings.ExecutionLethalityModifier.Desc>
+  <!--翻译内容: 'Executions Can Destroy Body Parts',新增于2026-02-16-->
+  <!--EN: Executions Can Destroy Body Parts-->
+  <AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts>Executions Can Destroy Body Parts</AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts>
+  <!--翻译内容: 'If true, executions can destroy specific vital body parts, such as the heart or head.
+If false, the pawn is simply killed by 'magic' (no specific part takes damage)
+Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: "<i>name was killed.</i>"',新增于2026-02-16-->
+  <!--EN: If true, executions can destroy specific vital body parts, such as the heart or head.
+If false, the pawn is simply killed by 'magic' (no specific part takes damage)
+Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: "<i>name was killed.</i>"-->
+  <AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>If true, executions can destroy specific vital body parts, such as the heart or head.
+If false, the pawn is simply killed by &amp;amp;apos;magic&amp;amp;apos; (no specific part takes damage)
+Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: &amp;amp;quot;&amp;amp;lt;i&amp;amp;gt;name was killed.&amp;amp;lt;/i&amp;amp;gt;&amp;amp;quot;</AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>
+  <!--翻译内容: 'Executions Are Non Lethal On Friendlies',新增于2026-02-16-->
+  <!--EN: Executions Are Non Lethal On Friendlies-->
+  <AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal>Executions Are Non Lethal On Friendlies</AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal>
+  <!--翻译内容: 'If enabled, execution animations on friendly pawns are always non-lethal regardless of other settings.
+Prisoners and slaves are considered friendly.
+
+Useful when trying to stop a mental break or prisoner uprising without causing a bloodbath.',新增于2026-02-16-->
+  <!--EN: If enabled, execution animations on friendly pawns are always non-lethal regardless of other settings.
+Prisoners and slaves are considered friendly.
+
+Useful when trying to stop a mental break or prisoner uprising without causing a bloodbath.-->
+  <AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc>If enabled, execution animations on friendly pawns are always non-lethal regardless of other settings.
+Prisoners and slaves are considered friendly.
+
+Useful when trying to stop a mental break or prisoner uprising without causing a bloodbath.</AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc>
+  <!--翻译内容: 'Idle Animation Average Interval',新增于2026-02-16-->
+  <!--EN: Idle Animation Average Interval-->
+  <AM.AMSettings.Settings.FlavourMTB>Idle Animation Average Interval</AM.AMSettings.Settings.FlavourMTB>
+  <!--翻译内容: 'Pawns standing with their weapon out (such as when drafted) will sometimes play an animation where they swing their weapon about, flourish it etc.
+This option controls the average time, in seconds, between the occurrence of this animation.
+Set to 0 to disable the animations entirely.',新增于2026-02-16-->
+  <!--EN: Pawns standing with their weapon out (such as when drafted) will sometimes play an animation where they swing their weapon about, flourish it etc.
+This option controls the average time, in seconds, between the occurrence of this animation.
+Set to 0 to disable the animations entirely.-->
+  <AM.AMSettings.Settings.FlavourMTB.Desc>Pawns standing with their weapon out (such as when drafted) will sometimes play an animation where they swing their weapon about, flourish it etc.
+This option controls the average time, in seconds, between the occurrence of this animation.
+Set to 0 to disable the animations entirely.</AM.AMSettings.Settings.FlavourMTB.Desc>
+  <!--翻译内容: 'Friendly Duel Cooldown',新增于2026-02-16-->
+  <!--EN: Friendly Duel Cooldown-->
+  <AM.AMSettings.Settings.FriendlyDuelCooldown>Friendly Duel Cooldown</AM.AMSettings.Settings.FriendlyDuelCooldown>
+  <!--翻译内容: 'The cooldown time, in seconds, after a friendly duel where a friendly duel cannot be started again.',新增于2026-02-16-->
+  <!--EN: The cooldown time, in seconds, after a friendly duel where a friendly duel cannot be started again.-->
+  <AM.AMSettings.Settings.FriendlyDuelCooldown.Desc>The cooldown time, in seconds, after a friendly duel where a friendly duel cannot be started again.</AM.AMSettings.Settings.FriendlyDuelCooldown.Desc>
+  <!--翻译内容: 'Execution Cooldown Factor (Friendly)',新增于2026-02-16-->
+  <!--EN: Execution Cooldown Factor (Friendly)-->
+  <AM.AMSettings.Settings.FriendlyExecCooldownFactor>Execution Cooldown Factor (Friendly)</AM.AMSettings.Settings.FriendlyExecCooldownFactor>
+  <!--翻译内容: 'This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.',新增于2026-02-16-->
+  <!--EN: This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.-->
+  <AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn&amp;amp;apos;s stats.</AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>
+  <!--翻译内容: 'Friendly Pawn Duel Ability Bonus',新增于2026-02-16-->
+  <!--EN: Friendly Pawn Duel Ability Bonus-->
+  <AM.AMSettings.Settings.FriendlyPawnDuelBonus>Friendly Pawn Duel Ability Bonus</AM.AMSettings.Settings.FriendlyPawnDuelBonus>
+  <!--翻译内容: 'Positive values act as a duel ability bonus for friendly pawns (including slaves), meaning that they will win duels more often.',新增于2026-02-16-->
+  <!--EN: Positive values act as a duel ability bonus for friendly pawns (including slaves), meaning that they will win duels more often.-->
+  <AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc>Positive values act as a duel ability bonus for friendly pawns (including slaves), meaning that they will win duels more often.</AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc>
+  <!--翻译内容: 'Friendly Pawn Lethality Bonus',新增于2026-02-16-->
+  <!--EN: Friendly Pawn Lethality Bonus-->
+  <AM.AMSettings.Settings.FriendlyPawnLethalityBonus>Friendly Pawn Lethality Bonus</AM.AMSettings.Settings.FriendlyPawnLethalityBonus>
+  <!--翻译内容: 'Positive values act as a lethality bonus for friendly pawns (including slaves) in execution & duel outcomes, meaning that they will be lethal more often.',新增于2026-02-16-->
+  <!--EN: Positive values act as a lethality bonus for friendly pawns (including slaves) in execution & duel outcomes, meaning that they will be lethal more often.-->
+  <AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>Positive values act as a lethality bonus for friendly pawns (including slaves) in execution &amp;amp;amp; duel outcomes, meaning that they will be lethal more often.</AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>
+  <!--翻译内容: 'Global Animation Speed',新增于2026-02-16-->
+  <!--EN: Global Animation Speed-->
+  <AM.AMSettings.Settings.GlobalAnimationSpeed>Global Animation Speed</AM.AMSettings.Settings.GlobalAnimationSpeed>
+  <!--翻译内容: 'A modifier on the speed of all animations.
+Higher is faster.',新增于2026-02-16-->
+  <!--EN: A modifier on the speed of all animations.
+Higher is faster.-->
+  <AM.AMSettings.Settings.GlobalAnimationSpeed.Desc>A modifier on the speed of all animations.
+Higher is faster.</AM.AMSettings.Settings.GlobalAnimationSpeed.Desc>
+  <!--翻译内容: 'Damage Effect',新增于2026-02-16-->
+  <!--EN: Damage Effect-->
+  <AM.AMSettings.Settings.Gore_DamageEffect>Damage Effect</AM.AMSettings.Settings.Gore_DamageEffect>
+  <!--翻译内容: 'Enable or disable the damage affect in animations.
+The damage effect is normally a small, temporary puff of blood.',新增于2026-02-16-->
+  <!--EN: Enable or disable the damage affect in animations.
+The damage effect is normally a small, temporary puff of blood.-->
+  <AM.AMSettings.Settings.Gore_DamageEffect.Desc>Enable or disable the damage affect in animations.
+The damage effect is normally a small, temporary puff of blood.</AM.AMSettings.Settings.Gore_DamageEffect.Desc>
+  <!--翻译内容: 'Blood (filth)',新增于2026-02-16-->
+  <!--EN: Blood (filth)-->
+  <AM.AMSettings.Settings.Gore_FloorBlood>Blood (filth)</AM.AMSettings.Settings.Gore_FloorBlood>
+  <!--翻译内容: 'Enable or disable the spawning of blood in animations.
+The blood is filth that must be cleaned up. Includes modded blood and mechanoid blood (oil).',新增于2026-02-16-->
+  <!--EN: Enable or disable the spawning of blood in animations.
+The blood is filth that must be cleaned up. Includes modded blood and mechanoid blood (oil).-->
+  <AM.AMSettings.Settings.Gore_FloorBlood.Desc>Enable or disable the spawning of blood in animations.
+The blood is filth that must be cleaned up. Includes modded blood and mechanoid blood (oil).</AM.AMSettings.Settings.Gore_FloorBlood.Desc>
+  <!--翻译内容: 'Automatic Lasso Average Interval (Friendly)',新增于2026-02-16-->
+  <!--EN: Automatic Lasso Average Interval (Friendly)-->
+  <AM.AMSettings.Settings.GrappleAttemptMTBSeconds>Automatic Lasso Average Interval (Friendly)</AM.AMSettings.Settings.GrappleAttemptMTBSeconds>
+  <!--翻译内容: 'This is the average time, in seconds, at which friendly pawns will attempt to use their lasso to pull an enemy into melee range.
+If their execution is off cooldown and Auto Execute is enabled, they will immediately execute the lassoed target too.',新增于2026-02-16-->
+  <!--EN: This is the average time, in seconds, at which friendly pawns will attempt to use their lasso to pull an enemy into melee range.
+If their execution is off cooldown and Auto Execute is enabled, they will immediately execute the lassoed target too.-->
+  <AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc>This is the average time, in seconds, at which friendly pawns will attempt to use their lasso to pull an enemy into melee range.
+If their execution is off cooldown and Auto Execute is enabled, they will immediately execute the lassoed target too.</AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc>
+  <!--翻译内容: 'Automatic Lasso Average Interval (Enemy)',新增于2026-02-16-->
+  <!--EN: Automatic Lasso Average Interval (Enemy)-->
+  <AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy>Automatic Lasso Average Interval (Enemy)</AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy>
+  <!--翻译内容: 'This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
+If their execution is off cooldown and 'Enemies Can Perform Executions' is enabled, they will immediately execute the lassoed target too.',新增于2026-02-16-->
+  <!--EN: This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
+If their execution is off cooldown and 'Enemies Can Perform Executions' is enabled, they will immediately execute the lassoed target too.-->
+  <AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
+If their execution is off cooldown and &amp;amp;apos;Enemies Can Perform Executions&amp;amp;apos; is enabled, they will immediately execute the lassoed target too.</AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>
+  <!--翻译内容: 'Lasso Travel Speed',新增于2026-02-16-->
+  <!--EN: Lasso Travel Speed-->
+  <AM.AMSettings.Settings.GrappleSpeed>Lasso Travel Speed</AM.AMSettings.Settings.GrappleSpeed>
+  <!--翻译内容: 'Adjusts the speed <b>(not cooldown)</b> of lassos, making it faster or slower to ensnare and pull in an enemy.
+Higher values make the lasso faster.
+Affects all pawns.',新增于2026-02-16-->
+  <!--EN: Adjusts the speed <b>(not cooldown)</b> of lassos, making it faster or slower to ensnare and pull in an enemy.
+Higher values make the lasso faster.
+Affects all pawns.-->
+  <AM.AMSettings.Settings.GrappleSpeed.Desc>Adjusts the speed &amp;amp;lt;b&amp;amp;gt;(not cooldown)&amp;amp;lt;/b&amp;amp;gt; of lassos, making it faster or slower to ensnare and pull in an enemy.
+Higher values make the lasso faster.
+Affects all pawns.</AM.AMSettings.Settings.GrappleSpeed.Desc>
+  <!--翻译内容: 'Executions & Duels',新增于2026-02-16-->
+  <!--EN: Executions & Duels-->
+  <AM.AMSettings.Settings.Header.Executions___Duels>Executions &amp;amp;amp; Duels</AM.AMSettings.Settings.Header.Executions___Duels>
+  <!--翻译内容: 'General',新增于2026-02-16-->
+  <!--EN: General-->
+  <AM.AMSettings.Settings.Header.General>General</AM.AMSettings.Settings.Header.General>
+  <!--翻译内容: 'Lasso',新增于2026-02-16-->
+  <!--EN: Lasso-->
+  <AM.AMSettings.Settings.Header.Lasso>Lasso</AM.AMSettings.Settings.Header.Lasso>
+  <!--翻译内容: 'Other',新增于2026-02-16-->
+  <!--EN: Other-->
+  <AM.AMSettings.Settings.Header.Other>Other</AM.AMSettings.Settings.Header.Other>
+  <!--翻译内容: 'Performance',新增于2026-02-16-->
+  <!--EN: Performance-->
+  <AM.AMSettings.Settings.Header.Performance>Performance</AM.AMSettings.Settings.Header.Performance>
+  <!--翻译内容: 'Visuals',新增于2026-02-16-->
+  <!--EN: Visuals-->
+  <AM.AMSettings.Settings.Header.Visuals>Visuals</AM.AMSettings.Settings.Header.Visuals>
+  <!--翻译内容: 'Lasso Commonality',新增于2026-02-16-->
+  <!--EN: Lasso Commonality-->
+  <AM.AMSettings.Settings.LassoSpawnChance>Lasso Commonality</AM.AMSettings.Settings.LassoSpawnChance>
+  <!--翻译内容: 'This is the % chance for any <b>melee fighter</b> pawn to spawn with a lasso equipped.
+Set this to 0% to disable natural lasso generation on pawns.',新增于2026-02-16-->
+  <!--EN: This is the % chance for any <b>melee fighter</b> pawn to spawn with a lasso equipped.
+Set this to 0% to disable natural lasso generation on pawns.-->
+  <AM.AMSettings.Settings.LassoSpawnChance.Desc>This is the % chance for any &amp;amp;lt;b&amp;amp;gt;melee fighter&amp;amp;lt;/b&amp;amp;gt; pawn to spawn with a lasso equipped.
+Set this to 0% to disable natural lasso generation on pawns.</AM.AMSettings.Settings.LassoSpawnChance.Desc>
+  <!--翻译内容: 'Max Duel Duration',新增于2026-02-16-->
+  <!--EN: Max Duel Duration-->
+  <AM.AMSettings.Settings.MaxDuelDuration>Max Duel Duration</AM.AMSettings.Settings.MaxDuelDuration>
+  <!--翻译内容: 'The maximum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.',新增于2026-02-16-->
+  <!--EN: The maximum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.-->
+  <AM.AMSettings.Settings.MaxDuelDuration.Desc>The maximum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.</AM.AMSettings.Settings.MaxDuelDuration.Desc>
+  <!--翻译内容: 'Max Building Fill For Lasso Drag',新增于2026-02-16-->
+  <!--EN: Max Building Fill For Lasso Drag-->
+  <AM.AMSettings.Settings.MaxFillPctForLasso>Max Building Fill For Lasso Drag</AM.AMSettings.Settings.MaxFillPctForLasso>
+  <!--翻译内容: 'The maximum 'fill' percentage of a building that a pawn can be dragged through by a lasso.
+Lower values mean that pawns can <b>not</b> be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.',新增于2026-02-16-->
+  <!--EN: The maximum 'fill' percentage of a building that a pawn can be dragged through by a lasso.
+Lower values mean that pawns can <b>not</b> be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.-->
+  <AM.AMSettings.Settings.MaxFillPctForLasso.Desc>The maximum &amp;amp;apos;fill&amp;amp;apos; percentage of a building that a pawn can be dragged through by a lasso.
+Lower values mean that pawns can &amp;amp;lt;b&amp;amp;gt;not&amp;amp;lt;/b&amp;amp;gt; be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.</AM.AMSettings.Settings.MaxFillPctForLasso.Desc>
+  <!--翻译内容: 'Max Pawn Size',新增于2026-02-16-->
+  <!--EN: Max Pawn Size-->
+  <AM.AMSettings.Settings.MaxLassoBodySize>Max Pawn Size</AM.AMSettings.Settings.MaxLassoBodySize>
+  <!--翻译内容: 'The maximum 'body size' that a pawn can have in order for it to be lassoed.
+For reference, here are some example body sizes:
+• Chicken: 0.3
+• Human: 1
+• Boomalope: 2
+• Warg: 3
+• Thrumbo: 4
+
+
+Set to zero to disable the body size limit.',新增于2026-02-16-->
+  <!--EN: The maximum 'body size' that a pawn can have in order for it to be lassoed.
+For reference, here are some example body sizes:
+• Chicken: 0.3
+• Human: 1
+• Boomalope: 2
+• Warg: 3
+• Thrumbo: 4
+
+
+Set to zero to disable the body size limit.-->
+  <AM.AMSettings.Settings.MaxLassoBodySize.Desc>The maximum &amp;amp;apos;body size&amp;amp;apos; that a pawn can have in order for it to be lassoed.
+For reference, here are some example body sizes:
+• Chicken: 0.3
+• Human: 1
+• Boomalope: 2
+• Warg: 3
+• Thrumbo: 4
+
+
+Set to zero to disable the body size limit.</AM.AMSettings.Settings.MaxLassoBodySize.Desc>
+  <!--翻译内容: 'Max Pawn Mass',新增于2026-02-16-->
+  <!--EN: Max Pawn Mass-->
+  <AM.AMSettings.Settings.MaxLassoMass>Max Pawn Mass</AM.AMSettings.Settings.MaxLassoMass>
+  <!--翻译内容: 'The maximum mass that a pawn can have in order for it to be lassoed. The mass is measured in kilograms. You can check the mass of pawns in their Stat sheet.
+Set to zero to disable the mass limit.',新增于2026-02-16-->
+  <!--EN: The maximum mass that a pawn can have in order for it to be lassoed. The mass is measured in kilograms. You can check the mass of pawns in their Stat sheet.
+Set to zero to disable the mass limit.-->
+  <AM.AMSettings.Settings.MaxLassoMass.Desc>The maximum mass that a pawn can have in order for it to be lassoed. The mass is measured in kilograms. You can check the mass of pawns in their Stat sheet.
+Set to zero to disable the mass limit.</AM.AMSettings.Settings.MaxLassoMass.Desc>
+  <!--翻译内容: 'Max Processing Threads',新增于2026-02-16-->
+  <!--EN: Max Processing Threads-->
+  <AM.AMSettings.Settings.MaxProcessingThreads>Max Processing Threads</AM.AMSettings.Settings.MaxProcessingThreads>
+  <!--翻译内容: 'The maximum number of CPU threads to use when processing pawns for automatic executions & lasso usage.
+If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
+Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.',新增于2026-02-16-->
+  <!--EN: The maximum number of CPU threads to use when processing pawns for automatic executions & lasso usage.
+If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
+Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.-->
+  <AM.AMSettings.Settings.MaxProcessingThreads.Desc>The maximum number of CPU threads to use when processing pawns for automatic executions &amp;amp;amp; lasso usage.
+If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
+Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.</AM.AMSettings.Settings.MaxProcessingThreads.Desc>
+  <!--翻译内容: 'Amount Skill Affects Execution Cooldown',新增于2026-02-16-->
+  <!--EN: Amount Skill Affects Execution Cooldown-->
+  <AM.AMSettings.Settings.MeleeSkillExecCooldownFactor>Amount Skill Affects Execution Cooldown</AM.AMSettings.Settings.MeleeSkillExecCooldownFactor>
+  <!--翻译内容: 'The amount that melee skill affects execution cooldown time.
+Higher melee skill means lower cooldown, changing this value increases or decreases the effect of melee skill.
+Set to 0% to disable melee skill as a factor.
+
+Note: only affects friendly pawns.',新增于2026-02-16-->
+  <!--EN: The amount that melee skill affects execution cooldown time.
+Higher melee skill means lower cooldown, changing this value increases or decreases the effect of melee skill.
+Set to 0% to disable melee skill as a factor.
+
+Note: only affects friendly pawns.-->
+  <AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc>The amount that melee skill affects execution cooldown time.
+Higher melee skill means lower cooldown, changing this value increases or decreases the effect of melee skill.
+Set to 0% to disable melee skill as a factor.
+
+Note: only affects friendly pawns.</AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc>
+  <!--翻译内容: 'Min Duel Duration',新增于2026-02-16-->
+  <!--EN: Min Duel Duration-->
+  <AM.AMSettings.Settings.MinDuelDuration>Min Duel Duration</AM.AMSettings.Settings.MinDuelDuration>
+  <!--翻译内容: 'The minimum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.',新增于2026-02-16-->
+  <!--EN: The minimum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.-->
+  <AM.AMSettings.Settings.MinDuelDuration.Desc>The minimum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.</AM.AMSettings.Settings.MinDuelDuration.Desc>
+  <!--翻译内容: 'Minimum Manipulation',新增于2026-02-16-->
+  <!--EN: Minimum Manipulation-->
+  <AM.AMSettings.Settings.MinManipulationToLasso>Minimum Manipulation</AM.AMSettings.Settings.MinManipulationToLasso>
+  <!--翻译内容: 'The minimum Manipulation stat required to use a lasso.
+Affects all pawns.',新增于2026-02-16-->
+  <!--EN: The minimum Manipulation stat required to use a lasso.
+Affects all pawns.-->
+  <AM.AMSettings.Settings.MinManipulationToLasso.Desc>The minimum Manipulation stat required to use a lasso.
+Affects all pawns.</AM.AMSettings.Settings.MinManipulationToLasso.Desc>
+  <!--翻译内容: 'Minimum Melee Skill',新增于2026-02-16-->
+  <!--EN: Minimum Melee Skill-->
+  <AM.AMSettings.Settings.MinMeleeSkillToLasso>Minimum Melee Skill</AM.AMSettings.Settings.MinMeleeSkillToLasso>
+  <!--翻译内容: 'The minumum melee skill required to use a lasso.
+Affects all pawns.',新增于2026-02-16-->
+  <!--EN: The minumum melee skill required to use a lasso.
+Affects all pawns.-->
+  <AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc>The minumum melee skill required to use a lasso.
+Affects all pawns.</AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc>
+  <!--翻译内容: 'Move Animation Speed',新增于2026-02-16-->
+  <!--EN: Move Animation Speed-->
+  <AM.AMSettings.Settings.MoveAnimSpeedCoef>Move Animation Speed</AM.AMSettings.Settings.MoveAnimSpeedCoef>
+  <!--翻译内容: 'Changes the speed of the movement animations.
+Higher values increase the speed. This is just a visual change, it obviously doesn't change the pawn's movement speed.',新增于2026-02-16-->
+  <!--EN: Changes the speed of the movement animations.
+Higher values increase the speed. This is just a visual change, it obviously doesn't change the pawn's movement speed.-->
+  <AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>Changes the speed of the movement animations.
+Higher values increase the speed. This is just a visual change, it obviously doesn&amp;amp;apos;t change the pawn&amp;amp;apos;s movement speed.</AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>
+  <!--翻译内容: 'Multithreaded Matrix Calculations',新增于2026-02-16-->
+  <!--EN: Multithreaded Matrix Calculations-->
+  <AM.AMSettings.Settings.MultithreadedMatrixCalculations>Multithreaded Matrix Calculations</AM.AMSettings.Settings.MultithreadedMatrixCalculations>
+  <!--翻译内容: 'When enabled, multiple CPU threads are used to calculate complex matrix transformation needed for animations.
+The number of threads is given by the Max Processing Threads setting.',新增于2026-02-16-->
+  <!--EN: When enabled, multiple CPU threads are used to calculate complex matrix transformation needed for animations.
+The number of threads is given by the Max Processing Threads setting.-->
+  <AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc>When enabled, multiple CPU threads are used to calculate complex matrix transformation needed for animations.
+The number of threads is given by the Max Processing Threads setting.</AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc>
+  <!--翻译内容: 'Duel Normal Distribution',新增于2026-02-16-->
+  <!--EN: Duel Normal Distribution-->
+  <AM.AMSettings.Settings.NormalDist>Duel Normal Distribution</AM.AMSettings.Settings.NormalDist>
+  <!--翻译内容: 'Higher values make duel outcomes less dependent on duel ability and more on randomness, lower values make the outcome more dependent on duel ability and less on randomness.
+
+Technical: This is the standard deviation used in the duel outcome normal distribution curve.',新增于2026-02-16-->
+  <!--EN: Higher values make duel outcomes less dependent on duel ability and more on randomness, lower values make the outcome more dependent on duel ability and less on randomness.
+
+Technical: This is the standard deviation used in the duel outcome normal distribution curve.-->
+  <AM.AMSettings.Settings.NormalDist.Desc>Higher values make duel outcomes less dependent on duel ability and more on randomness, lower values make the outcome more dependent on duel ability and less on randomness.
+
+Technical: This is the standard deviation used in the duel outcome normal distribution curve.</AM.AMSettings.Settings.NormalDist.Desc>
+  <!--翻译内容: 'Offscreen Culling',新增于2026-02-16-->
+  <!--EN: Offscreen Culling-->
+  <AM.AMSettings.Settings.OffscreenCulling>Offscreen Culling</AM.AMSettings.Settings.OffscreenCulling>
+  <!--翻译内容: 'When enabled, offscreen animations are not drawn to save time and increase FPS.
+This option is only here in case there are unexpected bugs related to this culling.',新增于2026-02-16-->
+  <!--EN: When enabled, offscreen animations are not drawn to save time and increase FPS.
+This option is only here in case there are unexpected bugs related to this culling.-->
+  <AM.AMSettings.Settings.OffscreenCulling.Desc>When enabled, offscreen animations are not drawn to save time and increase FPS.
+This option is only here in case there are unexpected bugs related to this culling.</AM.AMSettings.Settings.OffscreenCulling.Desc>
+  <!--翻译内容: 'Scan Tick Interval',新增于2026-02-16-->
+  <!--EN: Scan Tick Interval-->
+  <AM.AMSettings.Settings.ScanTickInterval>Scan Tick Interval</AM.AMSettings.Settings.ScanTickInterval>
+  <!--翻译内容: 'The number of ticks between scanning all pawns on the map for automatic execution/duel/lasso opportunities.
+Higher values can increase FPS at the cost of less responsiveness.',新增于2026-02-16-->
+  <!--EN: The number of ticks between scanning all pawns on the map for automatic execution/duel/lasso opportunities.
+Higher values can increase FPS at the cost of less responsiveness.-->
+  <AM.AMSettings.Settings.ScanTickInterval.Desc>The number of ticks between scanning all pawns on the map for automatic execution/duel/lasso opportunities.
+Higher values can increase FPS at the cost of less responsiveness.</AM.AMSettings.Settings.ScanTickInterval.Desc>
+  <!--翻译内容: 'Send Anonymous Patch Statistics',新增于2026-02-16-->
+  <!--EN: Send Anonymous Patch Statistics-->
+  <AM.AMSettings.Settings.SendStatistics>Send Anonymous Patch Statistics</AM.AMSettings.Settings.SendStatistics>
+  <!--翻译内容: 'When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod's author know that a patch is needed. The <b>only</b> information logged is: mod ID, mod name, weapon count.
+You can opt out of this functionality by disabling this option.
+Note: logging does not occur the first time you run the game with this mod.',新增于2026-02-16-->
+  <!--EN: When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod's author know that a patch is needed. The <b>only</b> information logged is: mod ID, mod name, weapon count.
+You can opt out of this functionality by disabling this option.
+Note: logging does not occur the first time you run the game with this mod.-->
+  <AM.AMSettings.Settings.SendStatistics.Desc>When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod&amp;amp;apos;s author know that a patch is needed. The &amp;amp;lt;b&amp;amp;gt;only&amp;amp;lt;/b&amp;amp;gt; information logged is: mod ID, mod name, weapon count.
+You can opt out of this functionality by disabling this option.
+Note: logging does not occur the first time you run the game with this mod.</AM.AMSettings.Settings.SendStatistics.Desc>
+  <!--翻译内容: 'Show Execution Outcome Text',新增于2026-02-16-->
+  <!--EN: Show Execution Outcome Text-->
+  <AM.AMSettings.Settings.ShowExecutionMotes>Show Execution Outcome Text</AM.AMSettings.Settings.ShowExecutionMotes>
+  <!--翻译内容: 'Enables or disables the text popup that shows the outcome of an execution (i.e. injure, down or kill) when an execution animation plays.',新增于2026-02-16-->
+  <!--EN: Enables or disables the text popup that shows the outcome of an execution (i.e. injure, down or kill) when an execution animation plays.-->
+  <AM.AMSettings.Settings.ShowExecutionMotes.Desc>Enables or disables the text popup that shows the outcome of an execution (i.e. injure, down or kill) when an execution animation plays.</AM.AMSettings.Settings.ShowExecutionMotes.Desc>
+  <!--翻译内容: 'Show Hands',新增于2026-02-16-->
+  <!--EN: Show Hands-->
+  <AM.AMSettings.Settings.ShowHands>Show Hands</AM.AMSettings.Settings.ShowHands>
+  <!--翻译内容: 'Should pawn hands be displayed holding melee weapons?',新增于2026-02-16-->
+  <!--EN: Should pawn hands be displayed holding melee weapons?-->
+  <AM.AMSettings.Settings.ShowHands.Desc>Should pawn hands be displayed holding melee weapons?</AM.AMSettings.Settings.ShowHands.Desc>
+  <!--翻译内容: 'Increase Animation Speed When Attacks Are Fast',新增于2026-02-16-->
+  <!--EN: Increase Animation Speed When Attacks Are Fast-->
+  <AM.AMSettings.Settings.SpeedUpAttackAnims>Increase Animation Speed When Attacks Are Fast</AM.AMSettings.Settings.SpeedUpAttackAnims>
+  <!--翻译内容: 'If enabled, the speed of melee attack animations will be automatically increased to match the pawn's melee speed.
+If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
+This is a purely visual change and does not affect combat.',新增于2026-02-16-->
+  <!--EN: If enabled, the speed of melee attack animations will be automatically increased to match the pawn's melee speed.
+If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
+This is a purely visual change and does not affect combat.-->
+  <AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>If enabled, the speed of melee attack animations will be automatically increased to match the pawn&amp;amp;apos;s melee speed.
+If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
+This is a purely visual change and does not affect combat.</AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>
+  <!--翻译内容: 'Weapon Trail Color',新增于2026-02-16-->
+  <!--EN: Weapon Trail Color-->
+  <AM.AMSettings.Settings.TrailColor>Weapon Trail Color</AM.AMSettings.Settings.TrailColor>
+  <!--翻译内容: 'The base color of weapon trails. If you set the alpha to 0, trails will be disabled.',新增于2026-02-16-->
+  <!--EN: The base color of weapon trails. If you set the alpha to 0, trails will be disabled.-->
+  <AM.AMSettings.Settings.TrailColor.Desc>The base color of weapon trails. If you set the alpha to 0, trails will be disabled.</AM.AMSettings.Settings.TrailColor.Desc>
+  <!--翻译内容: 'Weapon Trail Length',新增于2026-02-16-->
+  <!--EN: Weapon Trail Length-->
+  <AM.AMSettings.Settings.TrailLengthScale>Weapon Trail Length</AM.AMSettings.Settings.TrailLengthScale>
+  <!--翻译内容: 'A multiplier on the length of weapon trails. If 0%, trails are disabled.',新增于2026-02-16-->
+  <!--EN: A multiplier on the length of weapon trails. If 0%, trails are disabled.-->
+  <AM.AMSettings.Settings.TrailLengthScale.Desc>A multiplier on the length of weapon trails. If 0%, trails are disabled.</AM.AMSettings.Settings.TrailLengthScale.Desc>
+  <!--翻译内容: 'Show Warning Before Executing Friendly',新增于2026-02-16-->
+  <!--EN: Show Warning Before Executing Friendly-->
+  <AM.AMSettings.Settings.WarnOfFriendlyExecution>Show Warning Before Executing Friendly</AM.AMSettings.Settings.WarnOfFriendlyExecution>
+  <!--翻译内容: 'Prevents you from accidentally executing a friendly pawn by requiring you to hold the [Shift] key when selecting a friendly pawn for execution.',新增于2026-02-16-->
+  <!--EN: Prevents you from accidentally executing a friendly pawn by requiring you to hold the [Shift] key when selecting a friendly pawn for execution.-->
+  <AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc>Prevents you from accidentally executing a friendly pawn by requiring you to hold the [Shift] key when selecting a friendly pawn for execution.</AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc>
+  <!--翻译内容: 'Individual Animation Settings',新增于2026-02-16-->
+  <!--EN: Individual Animation Settings-->
+  <AM.AMSettings.Settings.animSettings>Individual Animation Settings</AM.AMSettings.Settings.animSettings>
+  <!--翻译内容: 'Animation',新增于2026-02-16-->
+  <!--EN: Animation-->
+  <AM.Animation>Animation</AM.Animation>
+  <!--翻译内容: '{Pawn} is dead',新增于2026-02-16-->
+  <!--EN: {Pawn} is dead-->
+  <AM.Error.Duel.Dead>{Pawn} is dead</AM.Error.Duel.Dead>
+  <!--翻译内容: '{Pawn} is downed',新增于2026-02-16-->
+  <!--EN: {Pawn} is downed-->
+  <AM.Error.Duel.Down>{Pawn} is downed</AM.Error.Duel.Down>
+  <!--翻译内容: 'Int.Error: {Error}',新增于2026-02-16-->
+  <!--EN: Int.Error: {Error}-->
+  <AM.Error.Duel.Internal>Int.Error: {Error}</AM.Error.Duel.Internal>
+  <!--翻译内容: '{Pawn} does not have a valid melee weapon',新增于2026-02-16-->
+  <!--EN: {Pawn} does not have a valid melee weapon-->
+  <AM.Error.Duel.MissingWeapon>{Pawn} does not have a valid melee weapon</AM.Error.Duel.MissingWeapon>
+  <!--翻译内容: 'The weapon(s) these pawns are carrying cannot be used to duel with.',新增于2026-02-16-->
+  <!--EN: The weapon(s) these pawns are carrying cannot be used to duel with.-->
+  <AM.Error.Duel.NoAnim>The weapon(s) these pawns are carrying cannot be used to duel with.</AM.Error.Duel.NoAnim>
+  <!--翻译内容: 'These melee weapons cannot be used to duel',新增于2026-02-16-->
+  <!--EN: These melee weapons cannot be used to duel-->
+  <AM.Error.Duel.NoAnim.Short>These melee weapons cannot be used to duel</AM.Error.Duel.NoAnim.Short>
+  <!--翻译内容: '{0} cannot reach {1} to start a duel',新增于2026-02-16-->
+  <!--EN: {0} cannot reach {1} to start a duel-->
+  <AM.Error.Duel.NoPath>{0} cannot reach {1} to start a duel</AM.Error.Duel.NoPath>
+  <!--翻译内容: '{Pawn} cannot be dueled right now',新增于2026-02-16-->
+  <!--EN: {Pawn} cannot be dueled right now-->
+  <AM.Error.Duel.NotSpawned>{Pawn} cannot be dueled right now</AM.Error.Duel.NotSpawned>
+  <!--翻译内容: '{Pawn} is not available',新增于2026-02-16-->
+  <!--EN: {Pawn} is not available-->
+  <AM.Error.Duel.NotSpawned.Short>{Pawn} is not available</AM.Error.Duel.NotSpawned.Short>
+  <!--翻译内容: '{0}'s duel is on cooldown',新增于2026-02-16-->
+  <!--EN: {0}'s duel is on cooldown-->
+  <AM.Error.Duel.OnCooldown>{0}&amp;amp;apos;s duel is on cooldown</AM.Error.Duel.OnCooldown>
+  <!--翻译内容: '{0} got tired of waiting for {1} to arrive to their duel, and called it off.',新增于2026-02-16-->
+  <!--EN: {0} got tired of waiting for {1} to arrive to their duel, and called it off.-->
+  <AM.Error.Duel.WaitedTooLong>{0} got tired of waiting for {1} to arrive to their duel, and called it off.</AM.Error.Duel.WaitedTooLong>
+  <!--翻译内容: '{Exec} use their fists for execution: {Additional}.',新增于2026-02-16-->
+  <!--EN: {Exec} use their fists for execution: {Additional}.-->
+  <AM.Error.Exec.BadFists>{Exec} use their fists for execution: {Additional}.</AM.Error.Exec.BadFists>
+  <!--翻译内容: 'Cannot use their fists for execution',新增于2026-02-16-->
+  <!--EN: Cannot use their fists for execution-->
+  <AM.Error.Exec.BadFists.Short>Cannot use their fists for execution</AM.Error.Exec.BadFists.Short>
+  <!--翻译内容: '{Target} is not a valid target.',新增于2026-02-16-->
+  <!--EN: {Target} is not a valid target.-->
+  <AM.Error.Exec.BadRace>{Target} is not a valid target.</AM.Error.Exec.BadRace>
+  <!--翻译内容: '{Target} is not a valid target',新增于2026-02-16-->
+  <!--EN: {Target} is not a valid target-->
+  <AM.Error.Exec.BadRace.Short>{Target} is not a valid target</AM.Error.Exec.BadRace.Short>
+  <!--翻译内容: '{Exec} has no weapon and cannot use their fists: {Additional}',新增于2026-02-16-->
+  <!--EN: {Exec} has no weapon and cannot use their fists: {Additional}-->
+  <AM.Error.Exec.CannotFist>{Exec} has no weapon and cannot use their fists: {Additional}</AM.Error.Exec.CannotFist>
+  <!--翻译内容: '{Exec} cannot use their fists',新增于2026-02-16-->
+  <!--EN: {Exec} cannot use their fists-->
+  <AM.Error.Exec.CannotFist.Short>{Exec} cannot use their fists</AM.Error.Exec.CannotFist.Short>
+  <!--翻译内容: '{Exec}'s execution is on cooldown',新增于2026-02-16-->
+  <!--EN: {Exec}'s execution is on cooldown-->
+  <AM.Error.Exec.Cooldown>{Exec}&amp;amp;apos;s execution is on cooldown</AM.Error.Exec.Cooldown>
+  <!--翻译内容: 'Execution on cooldown',新增于2026-02-16-->
+  <!--EN: Execution on cooldown-->
+  <AM.Error.Exec.Cooldown.Short>Execution on cooldown</AM.Error.Exec.Cooldown.Short>
+  <!--翻译内容: '{Exec} is dead',新增于2026-02-16-->
+  <!--EN: {Exec} is dead-->
+  <AM.Error.Exec.Dead>{Exec} is dead</AM.Error.Exec.Dead>
+  <!--翻译内容: '{Target} is dead',新增于2026-02-16-->
+  <!--EN: {Target} is dead-->
+  <AM.Error.Exec.DeadTarget>{Target} is dead</AM.Error.Exec.DeadTarget>
+  <!--翻译内容: '{Exec} is downed',新增于2026-02-16-->
+  <!--EN: {Exec} is downed-->
+  <AM.Error.Exec.Downed>{Exec} is downed</AM.Error.Exec.Downed>
+  <!--翻译内容: '{Target} is downed. Downed pawns cannot be executed.',新增于2026-02-16-->
+  <!--EN: {Target} is downed. Downed pawns cannot be executed.-->
+  <AM.Error.Exec.DownedTarget>{Target} is downed. Downed pawns cannot be executed.</AM.Error.Exec.DownedTarget>
+  <!--翻译内容: '{Target} is downed',新增于2026-02-16-->
+  <!--EN: {Target} is downed-->
+  <AM.Error.Exec.DownedTarget.Short>{Target} is downed</AM.Error.Exec.DownedTarget.Short>
+  <!--翻译内容: 'Cannot execute: {0}',新增于2026-02-16-->
+  <!--EN: Cannot execute: {0}-->
+  <AM.Error.Exec.FloatMenu>Cannot execute: {0}</AM.Error.Exec.FloatMenu>
+  <!--翻译内容: '{Target} cannot be executed right now',新增于2026-02-16-->
+  <!--EN: {Target} cannot be executed right now-->
+  <AM.Error.Exec.InAnimation>{Target} cannot be executed right now</AM.Error.Exec.InAnimation>
+  <!--翻译内容: 'Int.Error: {Error}',新增于2026-02-16-->
+  <!--EN: Int.Error: {Error}-->
+  <AM.Error.Exec.Internal>Int.Error: {Error}</AM.Error.Exec.Internal>
+  <!--翻译内容: '{Exec} cannot perform any execution animations using their {Weapon}.\nThis is probably due to a lack of melee skill or because all animations are disabled in the mod settings.',新增于2026-02-16-->
+  <!--EN: {Exec} cannot perform any execution animations using their {Weapon}.\nThis is probably due to a lack of melee skill or because all animations are disabled in the mod settings.-->
+  <AM.Error.Exec.NoAnims>{Exec} cannot perform any execution animations using their {Weapon}.\nThis is probably due to a lack of melee skill or because all animations are disabled in the mod settings.</AM.Error.Exec.NoAnims>
+  <!--翻译内容: 'No animations available',新增于2026-02-16-->
+  <!--EN: No animations available-->
+  <AM.Error.Exec.NoAnims.Short>No animations available</AM.Error.Exec.NoAnims.Short>
+  <!--翻译内容: '{Exec} cannot reach {Target} by walking, and their lasso is unavailable or unusable.',新增于2026-02-16-->
+  <!--EN: {Exec} cannot reach {Target} by walking, and their lasso is unavailable or unusable.-->
+  <AM.Error.Exec.NoPath>{Exec} cannot reach {Target} by walking, and their lasso is unavailable or unusable.</AM.Error.Exec.NoPath>
+  <!--翻译内容: 'No path to target',新增于2026-02-16-->
+  <!--EN: No path to target-->
+  <AM.Error.Exec.NoPath.Short>No path to target</AM.Error.Exec.NoPath.Short>
+  <!--翻译内容: 'There is not enough space to perform any execution animation here',新增于2026-02-16-->
+  <!--EN: There is not enough space to perform any execution animation here-->
+  <AM.Error.Exec.NoSpace>There is not enough space to perform any execution animation here</AM.Error.Exec.NoSpace>
+  <!--翻译内容: 'Not enough space',新增于2026-02-16-->
+  <!--EN: Not enough space-->
+  <AM.Error.Exec.NoSpace.Short>Not enough space</AM.Error.Exec.NoSpace.Short>
+  <!--翻译内容: '{Target} is not adjacent to {Exec}, and cannot be lassoed or walked to.',新增于2026-02-16-->
+  <!--EN: {Target} is not adjacent to {Exec}, and cannot be lassoed or walked to.-->
+  <AM.Error.Exec.NoWalk>{Target} is not adjacent to {Exec}, and cannot be lassoed or walked to.</AM.Error.Exec.NoWalk>
+  <!--翻译内容: '{Target} cannot be reached',新增于2026-02-16-->
+  <!--EN: {Target} cannot be reached-->
+  <AM.Error.Exec.NoWalk.Short>{Target} cannot be reached</AM.Error.Exec.NoWalk.Short>
+  <!--翻译内容: '{Exec} is not wielding a valid melee weapon',新增于2026-02-16-->
+  <!--EN: {Exec} is not wielding a valid melee weapon-->
+  <AM.Error.Exec.NoWeapon>{Exec} is not wielding a valid melee weapon</AM.Error.Exec.NoWeapon>
+  <!--翻译内容: 'No melee weapon',新增于2026-02-16-->
+  <!--EN: No melee weapon-->
+  <AM.Error.Exec.NoWeapon.Short>No melee weapon</AM.Error.Exec.NoWeapon.Short>
+  <!--翻译内容: '{Exec} cannot execute anyone right now',新增于2026-02-16-->
+  <!--EN: {Exec} cannot execute anyone right now-->
+  <AM.Error.Exec.SelfInAnimation>{Exec} cannot execute anyone right now</AM.Error.Exec.SelfInAnimation>
+  <!--翻译内容: '{Exec} is stunned',新增于2026-02-16-->
+  <!--EN: {Exec} is stunned-->
+  <AM.Error.Exec.Stunned>{Exec} is stunned</AM.Error.Exec.Stunned>
+  <!--翻译内容: '{Target} is already in melee range',新增于2026-02-16-->
+  <!--EN: {Target} is already in melee range-->
+  <AM.Error.Grapple.AlreadyAtTarget>{Target} is already in melee range</AM.Error.Grapple.AlreadyAtTarget>
+  <!--翻译内容: '{Target} is already being lassoed',新增于2026-02-16-->
+  <!--EN: {Target} is already being lassoed-->
+  <AM.Error.Grapple.AlreadyTarget>{Target} is already being lassoed</AM.Error.Grapple.AlreadyTarget>
+  <!--翻译内容: 'Already being lassoed',新增于2026-02-16-->
+  <!--EN: Already being lassoed-->
+  <AM.Error.Grapple.AlreadyTarget.Short>Already being lassoed</AM.Error.Grapple.AlreadyTarget.Short>
+  <!--翻译内容: '{Grappler}'s lasso is on cooldown',新增于2026-02-16-->
+  <!--EN: {Grappler}'s lasso is on cooldown-->
+  <AM.Error.Grapple.Cooldown>{Grappler}&amp;amp;apos;s lasso is on cooldown</AM.Error.Grapple.Cooldown>
+  <!--翻译内容: 'Lasso on cooldown',新增于2026-02-16-->
+  <!--EN: Lasso on cooldown-->
+  <AM.Error.Grapple.Cooldown.Short>Lasso on cooldown</AM.Error.Grapple.Cooldown.Short>
+  <!--翻译内容: '{Grappler} is dead',新增于2026-02-16-->
+  <!--EN: {Grappler} is dead-->
+  <AM.Error.Grapple.Dead>{Grappler} is dead</AM.Error.Grapple.Dead>
+  <!--翻译内容: '{Target} is dead',新增于2026-02-16-->
+  <!--EN: {Target} is dead-->
+  <AM.Error.Grapple.DeadTarget>{Target} is dead</AM.Error.Grapple.DeadTarget>
+  <!--翻译内容: '{Grappler} is downed',新增于2026-02-16-->
+  <!--EN: {Grappler} is downed-->
+  <AM.Error.Grapple.Downed>{Grappler} is downed</AM.Error.Grapple.Downed>
+  <!--翻译内容: 'Cannot lasso: {0}',新增于2026-02-16-->
+  <!--EN: Cannot lasso: {0}-->
+  <AM.Error.Grapple.FloatMenu>Cannot lasso: {0}</AM.Error.Grapple.FloatMenu>
+  <!--翻译内容: '{Target} cannot be lassoed right now',新增于2026-02-16-->
+  <!--EN: {Target} cannot be lassoed right now-->
+  <AM.Error.Grapple.InAnimation>{Target} cannot be lassoed right now</AM.Error.Grapple.InAnimation>
+  <!--翻译内容: 'Int.Error: {Error}',新增于2026-02-16-->
+  <!--EN: Int.Error: {Error}-->
+  <AM.Error.Grapple.Internal>Int.Error: {Error}</AM.Error.Grapple.Internal>
+  <!--翻译内容: '{Grappler} does not have the required manipulation to use their lasso',新增于2026-02-16-->
+  <!--EN: {Grappler} does not have the required manipulation to use their lasso-->
+  <AM.Error.Grapple.Manipulation>{Grappler} does not have the required manipulation to use their lasso</AM.Error.Grapple.Manipulation>
+  <!--翻译内容: 'Not enough manipulation',新增于2026-02-16-->
+  <!--EN: Not enough manipulation-->
+  <AM.Error.Grapple.Manipulation.Short>Not enough manipulation</AM.Error.Grapple.Manipulation.Short>
+  <!--翻译内容: '{Target} is too heavy for {Grappler} to lasso',新增于2026-02-16-->
+  <!--EN: {Target} is too heavy for {Grappler} to lasso-->
+  <AM.Error.Grapple.Mass>{Target} is too heavy for {Grappler} to lasso</AM.Error.Grapple.Mass>
+  <!--翻译内容: '{Target} is too heavy',新增于2026-02-16-->
+  <!--EN: {Target} is too heavy-->
+  <AM.Error.Grapple.Mass.Short>{Target} is too heavy</AM.Error.Grapple.Mass.Short>
+  <!--翻译内容: 'No line of sight',新增于2026-02-16-->
+  <!--EN: No line of sight-->
+  <AM.Error.Grapple.MissingLOS>No line of sight</AM.Error.Grapple.MissingLOS>
+  <!--翻译内容: 'There is no free spot around {Grappler} to drag {Target} to',新增于2026-02-16-->
+  <!--EN: There is no free spot around {Grappler} to drag {Target} to-->
+  <AM.Error.Grapple.NoDest>There is no free spot around {Grappler} to drag {Target} to</AM.Error.Grapple.NoDest>
+  <!--翻译内容: 'No free spot around {Grappler}',新增于2026-02-16-->
+  <!--EN: No free spot around {Grappler}-->
+  <AM.Error.Grapple.NoDest.Short>No free spot around {Grappler}</AM.Error.Grapple.NoDest.Short>
+  <!--翻译内容: '{Grappler} cannot lasso right now',新增于2026-02-16-->
+  <!--EN: {Grappler} cannot lasso right now-->
+  <AM.Error.Grapple.SelfInAnimation>{Grappler} cannot lasso right now</AM.Error.Grapple.SelfInAnimation>
+  <!--翻译内容: '{Target} is too large for {Grappler} to lasso',新增于2026-02-16-->
+  <!--EN: {Target} is too large for {Grappler} to lasso-->
+  <AM.Error.Grapple.Size>{Target} is too large for {Grappler} to lasso</AM.Error.Grapple.Size>
+  <!--翻译内容: '{Target} is too large',新增于2026-02-16-->
+  <!--EN: {Target} is too large-->
+  <AM.Error.Grapple.Size.Short>{Target} is too large</AM.Error.Grapple.Size.Short>
+  <!--翻译内容: '{Grappler} does not have the required melee skill ({MeleeSkill}) to use their lasso',新增于2026-02-16-->
+  <!--EN: {Grappler} does not have the required melee skill ({MeleeSkill}) to use their lasso-->
+  <AM.Error.Grapple.SkillIssue>{Grappler} does not have the required melee skill ({MeleeSkill}) to use their lasso</AM.Error.Grapple.SkillIssue>
+  <!--翻译内容: 'Not enough melee skill',新增于2026-02-16-->
+  <!--EN: Not enough melee skill-->
+  <AM.Error.Grapple.SkillIssue.Short>Not enough melee skill</AM.Error.Grapple.SkillIssue.Short>
+  <!--翻译内容: '{Grappler} is stunned',新增于2026-02-16-->
+  <!--EN: {Grappler} is stunned-->
+  <AM.Error.Grapple.Stunned>{Grappler} is stunned</AM.Error.Grapple.Stunned>
+  <!--翻译内容: '{Target} is out of reach of {Grappler}'s lasso',新增于2026-02-16-->
+  <!--EN: {Target} is out of reach of {Grappler}'s lasso-->
+  <AM.Error.Grapple.TooFar>{Target} is out of reach of {Grappler}&amp;amp;apos;s lasso</AM.Error.Grapple.TooFar>
+  <!--翻译内容: 'Too far away',新增于2026-02-16-->
+  <!--EN: Too far away-->
+  <AM.Error.Grapple.TooFar.Short>Too far away</AM.Error.Grapple.TooFar.Short>
+  <!--翻译内容: 'Execute {0}',新增于2026-02-16-->
+  <!--EN: Execute {0}-->
+  <AM.Exec.FloatMenu>Execute {0}</AM.Exec.FloatMenu>
+  <!--翻译内容: ' (lasso)',新增于2026-02-16-->
+  <!--EN:  (lasso)-->
+  <AM.Exec.FloatMenu.Lasso> (lasso)</AM.Exec.FloatMenu.Lasso>
+  <!--翻译内容: 'Perform an execution animation on {1}.\nPossible outcomes based on weapon, melee skill, armor, mod settings etc:\n{2}',新增于2026-02-16-->
+  <!--EN: Perform an execution animation on {1}.\nPossible outcomes based on weapon, melee skill, armor, mod settings etc:\n{2}-->
+  <AM.Exec.FloatMenu.Tip>Perform an execution animation on {1}.\nPossible outcomes based on weapon, melee skill, armor, mod settings etc:\n{2}</AM.Exec.FloatMenu.Tip>
+  <!--翻译内容: ' (walk to target)',新增于2026-02-16-->
+  <!--EN:  (walk to target)-->
+  <AM.Exec.FloatMenu.Walk> (walk to target)</AM.Exec.FloatMenu.Walk>
+  <!--翻译内容: 'Downed',新增于2026-02-16-->
+  <!--EN: Downed-->
+  <AM.ExecutionOutcome.Downed>Downed</AM.ExecutionOutcome.Downed>
+  <!--翻译内容: 'Failed!',新增于2026-02-16-->
+  <!--EN: Failed!-->
+  <AM.ExecutionOutcome.Failed>Failed!</AM.ExecutionOutcome.Failed>
+  <!--翻译内容: 'Injured',新增于2026-02-16-->
+  <!--EN: Injured-->
+  <AM.ExecutionOutcome.Injured>Injured</AM.ExecutionOutcome.Injured>
+  <!--翻译内容: 'Killed',新增于2026-02-16-->
+  <!--EN: Killed-->
+  <AM.ExecutionOutcome.Killed>Killed</AM.ExecutionOutcome.Killed>
+  <!--翻译内容: '{0}'s current job cannot be interrupted',新增于2026-02-16-->
+  <!--EN: {0}'s current job cannot be interrupted-->
+  <AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>{0}&amp;amp;apos;s current job cannot be interrupted</AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>
+  <!--翻译内容: 'Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.',新增于2026-02-16-->
+  <!--EN: Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.-->
+  <AM.Gizmos.DuelSpot.StartDuel.Desc>Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.</AM.Gizmos.DuelSpot.StartDuel.Desc>
+  <!--翻译内容: 'An unexpected error caused the duel to not be able to be started. Please send logs to the mod author.',新增于2026-02-16-->
+  <!--EN: An unexpected error caused the duel to not be able to be started. Please send logs to the mod author.-->
+  <AM.Gizmos.DuelSpot.StartDuel.FailedToStart>An unexpected error caused the duel to not be able to be started. Please send logs to the mod author.</AM.Gizmos.DuelSpot.StartDuel.FailedToStart>
+  <!--翻译内容: 'Select a pawn to duel',新增于2026-02-16-->
+  <!--EN: Select a pawn to duel-->
+  <AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle>Select a pawn to duel</AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle>
+  <!--翻译内容: 'The duel spot is forbidden',新增于2026-02-16-->
+  <!--EN: The duel spot is forbidden-->
+  <AM.Gizmos.DuelSpot.StartDuel.Forbidden>The duel spot is forbidden</AM.Gizmos.DuelSpot.StartDuel.Forbidden>
+  <!--翻译内容: 'The duel spot is currently in use',新增于2026-02-16-->
+  <!--EN: The duel spot is currently in use-->
+  <AM.Gizmos.DuelSpot.StartDuel.InUse>The duel spot is currently in use</AM.Gizmos.DuelSpot.StartDuel.InUse>
+  <!--翻译内容: '{0}'s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)',新增于2026-02-16-->
+  <!--EN: {0}'s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)-->
+  <AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>{0}&amp;amp;apos;s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)</AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>
+  <!--翻译内容: 'Start duel',新增于2026-02-16-->
+  <!--EN: Start duel-->
+  <AM.Gizmos.DuelSpot.StartDuel.Label>Start duel</AM.Gizmos.DuelSpot.StartDuel.Label>
+  <!--翻译内容: '{0} does not have a valid melee weapon (must be long weapon, not short)',新增于2026-02-16-->
+  <!--EN: {0} does not have a valid melee weapon (must be long weapon, not short)-->
+  <AM.Gizmos.DuelSpot.StartDuel.MissingWeapon>{0} does not have a valid melee weapon (must be long weapon, not short)</AM.Gizmos.DuelSpot.StartDuel.MissingWeapon>
+  <!--翻译内容: '{0} cannot reach the duel spot',新增于2026-02-16-->
+  <!--EN: {0} cannot reach the duel spot-->
+  <AM.Gizmos.DuelSpot.StartDuel.NoPath>{0} cannot reach the duel spot</AM.Gizmos.DuelSpot.StartDuel.NoPath>
+  <!--翻译内容: '{0} cannot do a friendly duel for another {2} seconds',新增于2026-02-16-->
+  <!--EN: {0} cannot do a friendly duel for another {2} seconds-->
+  <AM.Gizmos.DuelSpot.StartDuel.OnCooldown>{0} cannot do a friendly duel for another {2} seconds</AM.Gizmos.DuelSpot.StartDuel.OnCooldown>
+  <!--翻译内容: 'Toggle visibility',新增于2026-02-16-->
+  <!--EN: Toggle visibility-->
+  <AM.Gizmos.DuelSpot.ToggleVisibility>Toggle visibility</AM.Gizmos.DuelSpot.ToggleVisibility>
+  <!--翻译内容: 'Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...',新增于2026-02-16-->
+  <!--EN: Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...-->
+  <AM.Gizmos.DuelSpot.ToggleVisibility.Desc>Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don&amp;amp;apos;t forget where you put it down or you may struggle to find it again...</AM.Gizmos.DuelSpot.ToggleVisibility.Desc>
+  <!--翻译内容: 'Lasso {0}',新增于2026-02-16-->
+  <!--EN: Lasso {0}-->
+  <AM.Grapple.FloatMenu>Lasso {0}</AM.Grapple.FloatMenu>
+  <!--翻译内容: 'Use a lasso to pull {1} towards {0}.\nThis does not harm {1}.',新增于2026-02-16-->
+  <!--EN: Use a lasso to pull {1} towards {0}.\nThis does not harm {1}.-->
+  <AM.Grapple.FloatMenu.Tip>Use a lasso to pull {1} towards {0}.\nThis does not harm {1}.</AM.Grapple.FloatMenu.Tip>
+  <!--翻译内容: 'Use a lasso to pull {1} towards {0}.\nThis does not harm {1}, but it does put them into melee/execution range.',新增于2026-02-16-->
+  <!--EN: Use a lasso to pull {1} towards {0}.\nThis does not harm {1}, but it does put them into melee/execution range.-->
+  <AM.Grapple.FloatMenu.TipEnemy>Use a lasso to pull {1} towards {0}.\nThis does not harm {1}, but it does put them into melee/execution range.</AM.Grapple.FloatMenu.TipEnemy>
+  <!--翻译内容: 'Loading Melee Animation',新增于2026-02-16-->
+  <!--EN: Loading Melee Animation-->
+  <AM.LoadingText>Loading Melee Animation</AM.LoadingText>
+  <!--翻译内容: 'Epicguru's Melee Animation',新增于2026-02-16-->
+  <!--EN: Epicguru's Melee Animation-->
+  <AM.ModTitle>Epicguru&amp;amp;apos;s Melee Animation</AM.ModTitle>
+  <!--翻译内容: 'The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.',新增于2026-02-16-->
+  <!--EN: The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.-->
+  <AM.Patch.OptDisabled>The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.</AM.Patch.OptDisabled>
+  <!--翻译内容: 'Down',新增于2026-02-16-->
+  <!--EN: Down-->
+  <AM.ProbReport.Down>Down</AM.ProbReport.Down>
+  <!--翻译内容: 'Fail',新增于2026-02-16-->
+  <!--EN: Fail-->
+  <AM.ProbReport.Fail>Fail</AM.ProbReport.Fail>
+  <!--翻译内容: 'Injure',新增于2026-02-16-->
+  <!--EN: Injure-->
+  <AM.ProbReport.Injure>Injure</AM.ProbReport.Injure>
+  <!--翻译内容: 'Kill',新增于2026-02-16-->
+  <!--EN: Kill-->
+  <AM.ProbReport.Kill>Kill</AM.ProbReport.Kill>
+  <!--翻译内容: 'The skill is already active.',新增于2026-02-16-->
+  <!--EN: The skill is already active.-->
+  <AM.Skill.AlreadyActive>The skill is already active.</AM.Skill.AlreadyActive>
+  <!--翻译内容: 'Target invalid state.',新增于2026-02-16-->
+  <!--EN: Target invalid state.-->
+  <AM.Skill.BadTargetState>Target invalid state.</AM.Skill.BadTargetState>
+  <!--翻译内容: 'Missing required weapon.',新增于2026-02-16-->
+  <!--EN: Missing required weapon.-->
+  <AM.Skill.BadWeapon>Missing required weapon.</AM.Skill.BadWeapon>
+  <!--翻译内容: 'Can't cast {0}: {1}',新增于2026-02-16-->
+  <!--EN: Can't cast {0}: {1}-->
+  <AM.Skill.CantCast>Can&amp;amp;apos;t cast {0}: {1}</AM.Skill.CantCast>
+  <!--翻译内容: 'Can't cast {0} on {1} right now.',新增于2026-02-16-->
+  <!--EN: Can't cast {0} on {1} right now.-->
+  <AM.Skill.CantCastGeneric>Can&amp;amp;apos;t cast {0} on {1} right now.</AM.Skill.CantCastGeneric>
+  <!--翻译内容: 'Cast unique skill '{0}' on {1}',新增于2026-02-16-->
+  <!--EN: Cast unique skill '{0}' on {1}-->
+  <AM.Skill.Cast>Cast unique skill &amp;amp;apos;{0}&amp;amp;apos; on {1}</AM.Skill.Cast>
+  <!--翻译内容: 'Melee level {0} is below required level {1}.',新增于2026-02-16-->
+  <!--EN: Melee level {0} is below required level {1}.-->
+  <AM.Skill.Gilgamesh.LowMelee>Melee level {0} is below required level {1}.</AM.Skill.Gilgamesh.LowMelee>
+  <!--翻译内容: 'Psylink level {0} is below required level {1}.',新增于2026-02-16-->
+  <!--EN: Psylink level {0} is below required level {1}.-->
+  <AM.Skill.Gilgamesh.LowPsy>Psylink level {0} is below required level {1}.</AM.Skill.Gilgamesh.LowPsy>
+  <!--翻译内容: 'On cooldown for {0} seconds.',新增于2026-02-16-->
+  <!--EN: On cooldown for {0} seconds.-->
+  <AM.Skill.OnCooldown>On cooldown for {0} seconds.</AM.Skill.OnCooldown>
+  <!--翻译内容: 'On cooldown for {0} seconds (because of recent execution).',新增于2026-02-16-->
+  <!--EN: On cooldown for {0} seconds (because of recent execution).-->
+  <AM.Skill.OnCooldownExec>On cooldown for {0} seconds (because of recent execution).</AM.Skill.OnCooldownExec>
+  <!--翻译内容: 'Base Value: {0}',新增于2026-02-16-->
+  <!--EN: Base Value: {0}-->
+  <AM.Stats.BaseValue>Base Value: {0}</AM.Stats.BaseValue>
+  <!--翻译内容: 'Consciousness ({0}) Effect: {1}',新增于2026-02-16-->
+  <!--EN: Consciousness ({0}) Effect: {1}-->
+  <AM.Stats.ConsciousnessOffset>Consciousness ({0}) Effect: {1}</AM.Stats.ConsciousnessOffset>
+  <!--翻译内容: 'duel ability',新增于2026-02-16-->
+  <!--EN: duel ability-->
+  <AM.Stats.DuelAbility>duel ability</AM.Stats.DuelAbility>
+  <!--翻译内容: 'Hostile Pawn Multiplier (from mod settings): x{0}',新增于2026-02-16-->
+  <!--EN: Hostile Pawn Multiplier (from mod settings): x{0}-->
+  <AM.Stats.EnemyCoef>Hostile Pawn Multiplier (from mod settings): x{0}</AM.Stats.EnemyCoef>
+  <!--翻译内容: 'Friendly Pawn Multiplier (from mod settings): x{0}',新增于2026-02-16-->
+  <!--EN: Friendly Pawn Multiplier (from mod settings): x{0}-->
+  <AM.Stats.FriendlyCoef>Friendly Pawn Multiplier (from mod settings): x{0}</AM.Stats.FriendlyCoef>
+  <!--翻译内容: 'Friendly Pawn Bonus (from mod settings): {0}',新增于2026-02-16-->
+  <!--EN: Friendly Pawn Bonus (from mod settings): {0}-->
+  <AM.Stats.FriendlyPawnBonus>Friendly Pawn Bonus (from mod settings): {0}</AM.Stats.FriendlyPawnBonus>
+  <!--翻译内容: 'Global {0} Multiplier (from mod settings): {1}',新增于2026-02-16-->
+  <!--EN: Global {0} Multiplier (from mod settings): {1}-->
+  <AM.Stats.GlobalCoef>Global {0} Multiplier (from mod settings): {1}</AM.Stats.GlobalCoef>
+  <!--翻译内容: 'lethality',新增于2026-02-16-->
+  <!--EN: lethality-->
+  <AM.Stats.Lethality>lethality</AM.Stats.Lethality>
+  <!--翻译内容: 'Manipulation ({0}) Effect: {1}',新增于2026-02-16-->
+  <!--EN: Manipulation ({0}) Effect: {1}-->
+  <AM.Stats.ManipulationOffset>Manipulation ({0}) Effect: {1}</AM.Stats.ManipulationOffset>
+  <!--翻译内容: 'Melee Skill ({0}) Effect: {1}',新增于2026-02-16-->
+  <!--EN: Melee Skill ({0}) Effect: {1}-->
+  <AM.Stats.MeleeSkillOffset>Melee Skill ({0}) Effect: {1}</AM.Stats.MeleeSkillOffset>
+  <!--翻译内容: 'No Melee Weapon Equipped: {0}',新增于2026-02-16-->
+  <!--EN: No Melee Weapon Equipped: {0}-->
+  <AM.Stats.NoWeapon>No Melee Weapon Equipped: {0}</AM.Stats.NoWeapon>
+  <!--翻译内容: 'Melee Skill Multiplier: x{0}',新增于2026-02-16-->
+  <!--EN: Melee Skill Multiplier: x{0}-->
+  <AM.Stats.SkillCoef>Melee Skill Multiplier: x{0}</AM.Stats.SkillCoef>
+  <!--翻译内容: 'Weapon DPS ({0}) Effect: {1}',新增于2026-02-16-->
+  <!--EN: Weapon DPS ({0}) Effect: {1}-->
+  <AM.Stats.WeaponDPSCoef>Weapon DPS ({0}) Effect: {1}</AM.Stats.WeaponDPSCoef>
+  <!--翻译内容: 'Weapon Damage Type ({0}) Effect: {1}',新增于2026-02-16-->
+  <!--EN: Weapon Damage Type ({0}) Effect: {1}-->
+  <AM.Stats.WeaponDamageTypeOffset>Weapon Damage Type ({0}) Effect: {1}</AM.Stats.WeaponDamageTypeOffset>
+  <!--翻译内容: 'Right-click to set an option back to its default value.',新增于2026-02-16-->
+  <!--EN: Right-click to set an option back to its default value.-->
+  <SimpleSettings.ClickToReset>Right-click to set an option back to its default value.</SimpleSettings.ClickToReset>
+  <!--翻译内容: 'Preset:',新增于2026-02-16-->
+  <!--EN: Preset:-->
+  <SimpleSettings.Preset>Preset:</SimpleSettings.Preset>
+  <!--翻译内容: 'Custom',新增于2026-02-16-->
+  <!--EN: Custom-->
+  <SimpleSettings.Preset.Custom>Custom</SimpleSettings.Preset.Custom>
+</LanguageData>

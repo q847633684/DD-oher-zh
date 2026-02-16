@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--原中文: '叠加搬运物资', 原英文: '无' -> 新英文: 'stuff things in inventory and haul',更新于2026-02-16-->
+  <!--EN: stuff things in inventory and haul-->
+  <HaulToInventory.label>叠加搬运物资</HaulToInventory.label>
+  <!--原中文: '装载', 原英文: '无' -> 新英文: 'haul',更新于2026-02-16-->
+  <!--EN: haul-->
+  <HaulToInventory.verb>装载</HaulToInventory.verb>
+  <!--原中文: '装载物资', 原英文: '无' -> 新英文: 'hauling',更新于2026-02-16-->
+  <!--EN: hauling-->
+  <HaulToInventory.gerund>装载物资</HaulToInventory.gerund>
+</LanguageData>

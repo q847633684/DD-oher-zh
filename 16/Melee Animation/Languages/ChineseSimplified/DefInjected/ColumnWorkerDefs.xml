@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--翻译内容: 'Auto-Execution mode',新增于2026-02-16-->
+  <!--EN: Auto-Execution mode-->
+  <AM_ExecutionModePawnColumn.headerTip>Auto-Execution mode</AM_ExecutionModePawnColumn.headerTip>
+  <!--翻译内容: 'Auto-Lasso mode',新增于2026-02-16-->
+  <!--EN: Auto-Lasso mode-->
+  <AM_LassoModePawnColumn.headerTip>Auto-Lasso mode</AM_LassoModePawnColumn.headerTip>
+</LanguageData>

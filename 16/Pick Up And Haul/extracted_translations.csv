@@ -1,0 +1,14 @@
+key,text,tag,file,type
+PUAH.allowCorpses,允许将尸体放入库存中,PUAH.allowCorpses,Translations.xml,keyed
+PUAH.allowCorpsesTooltip,默认关闭。只能直接拿在手里。,PUAH.allowCorpsesTooltip,Translations.xml,keyed
+PUAH.allowAnimals,允许驯服的驮畜使用其库存进行拖运,PUAH.allowAnimals,Translations.xml,keyed
+PUAH.allowAnimalsTooltip,默认开启。最适合为更多动物提供背包的模组，例如 VFME Caravan Packs,PUAH.allowAnimalsTooltip,Translations.xml,keyed
+PUAH.allowMechanoids,允许被黑的机械人使用其库存进行运输,PUAH.allowMechanoids,Translations.xml,keyed
+PUAH.allowMechanoidsTooltip,需要 What The Hack 或类似的模组。默认开启.,PUAH.allowMechanoidsTooltip,Translations.xml,keyed
+PUAH.minimumFreeInventorySpace,考虑拖运至库存的最小可用库存空间,PUAH.minimumFreeInventorySpace,Translations.xml,keyed
+PUAH.minimumFreeInventorySpaceTooltip,可用库存空间少于此处定义的 Pawn 直接使用原版拖运。 0% 使他们总是尝试拖入库存，无论他们是否有空间容纳多个土豆。 100% 导致 PUAH 要求 pawn 完全裸体。默认20%,PUAH.minimumFreeInventorySpaceTooltip,Translations.xml,keyed
+HaulToInventory.label,叠加搬运物资,HaulToInventory.label,WorkGiverDef\WorkGiver.xml,def
+HaulToInventory.verb,装载,HaulToInventory.verb,WorkGiverDef\WorkGiver.xml,def
+HaulToInventory.gerund,装载物资,HaulToInventory.gerund,WorkGiverDef\WorkGiver.xml,def
+HaulToInventory.reportString,正在收集TargetA物资。,HaulToInventory.reportString,JobDef\WorkGiver.xml,def
+UnloadYourHauledInventory.reportString,正在卸载物资。,UnloadYourHauledInventory.reportString,JobDef\WorkGiver.xml,def

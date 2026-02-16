@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--翻译内容: 'Deafeating [OTHER] in a duel!',新增于2026-02-16-->
+  <!--EN: Deafeating [OTHER] in a duel!-->
+  <AM_Duel_WinFriendlyDuel.jobString>Deafeating [OTHER] in a duel!</AM_Duel_WinFriendlyDuel.jobString>
+  <!--翻译内容: 'Win Friendly Duel',新增于2026-02-16-->
+  <!--EN: Win Friendly Duel-->
+  <AM_Duel_WinFriendlyDuel.label>Win Friendly Duel</AM_Duel_WinFriendlyDuel.label>
+</LanguageData>

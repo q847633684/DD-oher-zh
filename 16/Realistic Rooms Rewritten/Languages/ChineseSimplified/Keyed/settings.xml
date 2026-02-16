@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RealisticRoomsSettingsCategoryLabel>现实的房间</RealisticRoomsSettingsCategoryLabel>
+  <SettingsLabelTip>较低层必须等于或小于较高层。由于游戏的循环方式，建议以 0.5 结尾</SettingsLabelTip>
+  <SettingsRTLabel>较紧的最小尺码</SettingsRTLabel>
+  <SettingsASLabel>平均尺寸的最小尺寸</SettingsASLabel>
+  <SettingsSSLabel>稍微宽敞的最小尺寸</SettingsSSLabel>
+  <SettingsQSLabel>相当宽敞的最小尺寸</SettingsQSLabel>
+  <SettingsVSLabel>非常宽敞的最小尺寸</SettingsVSLabel>
+  <SettingsESLabel>极其宽敞的最小尺寸</SettingsESLabel>
+  <SettingsResetButton>重置为默认值</SettingsResetButton>
+  <SettingsExtraTweaksLabel>额外的调整</SettingsExtraTweaksLabel>
+  <SettingsFilthLabel>启用泥土和沙子的污垢效果，使其在室内具有 -4 美德值而不是 -12</SettingsFilthLabel>
+</LanguageData>
