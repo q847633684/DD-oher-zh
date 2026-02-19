@@ -1,0 +1,46 @@
+key,text,tag,file,type,protected_text,translated
+Animal_Reaction.label,animal reaction,label,animals.xml,def,animal reaction,动物反应
+Animal_Reaction.logRulesInitiator.rulesStrings.0,r_logentry->*stares [stare_adv]at [RECIPIENT_nameDef]*,li,animals.xml,def,<ALIMT >(PH_3)</ALIMT>*stares <ALIMT >(PH_2)</ALIMT>at <ALIMT >(PH_1)</ALIMT>*,(PH_3)* 凝视(PH_2)在(PH_1)*
+Animal_Reaction.logRulesInitiator.rulesStrings.1,r_logentry(INITIATOR_kind==husky)->[dog],li,animals.xml,def,<ALIMT >(PH_2)</ALIMT>-><ALIMT >(PH_1)</ALIMT>,(PH_2)->(PH_1)
+Animal_Reaction.logRulesInitiator.rulesStrings.2,r_logentry(INITIATOR_kind==labrador retriever)->[dog],li,animals.xml,def,<ALIMT >(PH_2)</ALIMT>-><ALIMT >(PH_1)</ALIMT>,(PH_2)->(PH_1)
+Animal_Reaction.logRulesInitiator.rulesStrings.3,r_logentry(INITIATOR_kind==yorkshire terrier)->[dog],li,animals.xml,def,<ALIMT >(PH_2)</ALIMT>-><ALIMT >(PH_1)</ALIMT>,(PH_2)->(PH_1)
+Animal_Reaction.logRulesInitiator.rulesStrings.4,dog->*barks*,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>*barks*,(PH_1)* 吠 *
+Animal_Reaction.logRulesInitiator.rulesStrings.5,dog->*barks twice*,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>*barks twice*,(PH_1)* 叫两次 *
+Animal_Reaction.logRulesInitiator.rulesStrings.6,dog->*pants*,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>*pants*,(PH_1)* 裤子 *
+Animal_Reaction.logRulesInitiator.rulesStrings.7,dog->*sits*,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>*sits*,(PH_1)* 坐着 *
+Animal_Reaction.logRulesInitiator.rulesStrings.8,dog->*whines*,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>*whines*,(PH_1)* 哀叫 *
+Animal_Reaction.logRulesInitiator.rulesStrings.9,dog->*drools*,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>*drools*,(PH_1)* 下垂 *
+Animal_Reaction.logRulesInitiator.rulesStrings.10,stare_adv->,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>,(PH_1)
+Animal_Reaction.logRulesInitiator.rulesStrings.11,stare_adv->attentively,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>attentively,(PH_1)专注
+Animal_Reaction.logRulesInitiator.rulesStrings.12,stare_adv->thoughtfully,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>thoughtfully,(PH_1)沉思
+Animal_Reaction.logRulesInitiator.rulesStrings.13,stare_adv->watchfully,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>watchfully,(PH_1)警惕
+Animal_Reaction.logRulesInitiator.rulesStrings.14,stare_adv->obligingly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>obligingly,(PH_1)亲切
+Animal_Reaction.logRulesInitiator.rulesStrings.15,stare_adv->faithfully,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>faithfully,(PH_1)忠诚
+Animal_Reaction.logRulesInitiator.rulesStrings.16,stare_adv->caringly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>caringly,(PH_1)欢快
+Animal_Reaction.logRulesInitiator.rulesStrings.17,stare_adv->devotedly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>devotedly,(PH_1)忠心
+Animal_Reaction.logRulesInitiator.rulesStrings.18,stare_adv->fixedly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>fixedly,(PH_1)固定
+Animal_Reaction.logRulesInitiator.rulesStrings.19,stare_adv->dutifully,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>dutifully,(PH_1)尽职尽责
+Animal_Reaction.logRulesInitiator.rulesStrings.20,stare_adv->understandingly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>understandingly,(PH_1)理解地
+Animal_Reaction.logRulesInitiator.rulesStrings.21,stare_adv->responsively,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>responsively,(PH_1)回击
+Animal_Reaction.logRulesInitiator.rulesStrings.22,stare_adv->cheerfully,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>cheerfully,(PH_1)快乐
+Animal_Reaction.logRulesInitiator.rulesStrings.23,stare_adv->dutifully,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>dutifully,(PH_1)尽职尽责
+Animal_Reaction.logRulesInitiator.rulesStrings.24,stare_adv->charmingly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>charmingly,(PH_1)迷人
+Animal_Reaction.logRulesInitiator.rulesStrings.25,stare_adv->chummily,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>chummily,(PH_1)温柔
+Animal_Reaction.logRulesInitiator.rulesStrings.26,stare_adv->engagingly,li,animals.xml,def,<ALIMT >(PH_1)</ALIMT>engagingly,(PH_1)引人入胜
+Joke_00.label,joke — 00,label,chitchat_jokes.xml,def,joke — 00,笑话-00
+Joke_00.logRulesInitiator.rulesStrings.0,r_logentry(INITIATOR_opinion<0)->...,li,chitchat_jokes.xml,def,<ALIMT >(PH_1)</ALIMT>->...,(PH_1)->.
+Joke_00.logRulesInitiator.rulesStrings.1,"r_logentry(INITIATOR_opinion>=0,tag=Joke_00b)->[good_opinion]",li,chitchat_jokes.xml,def,<ALIMT >(PH_2)</ALIMT>-><ALIMT >(PH_1)</ALIMT>,(PH_2)->(PH_1)
+Joke_00.logRulesInitiator.rulesStrings.2,"good_opinion->What, [recipient]?",li,chitchat_jokes.xml,def,"<ALIMT >(PH_2)</ALIMT>What, <ALIMT >(PH_1)</ALIMT>?","(PH_2)什么,(PH_1)什么？"
+Joke_00b.label,joke — 00b,label,chitchat_jokes.xml,def,joke — 00b,笑话-00b
+Joke_00b.logRulesInitiator.rulesStrings.0,r_logentry(tag=JokeReaction)->This tastes a little funny!,li,chitchat_jokes.xml,def,<ALIMT >(PH_1)</ALIMT>->This tastes a little funny!,(PH_1)-> 这味道有点滑稽!
+Joke_01.label,joke — 01,label,chitchat_jokes.xml,def,joke — 01,笑话 01
+Joke_01.logRulesInitiator.rulesStrings.0,r_logentry(INITIATOR_opinion<0)->...,li,chitchat_jokes.xml,def,<ALIMT >(PH_1)</ALIMT>->...,(PH_1)->.
+Joke_01.logRulesInitiator.rulesStrings.1,"r_logentry(INITIATOR_opinion>=0,tag=Joke_01b)->[good_opinion]",li,chitchat_jokes.xml,def,<ALIMT >(PH_2)</ALIMT>-><ALIMT >(PH_1)</ALIMT>,(PH_2)->(PH_1)
+Joke_01.logRulesInitiator.rulesStrings.2,"good_opinion->Why, [recipient]?",li,chitchat_jokes.xml,def,"<ALIMT >(PH_2)</ALIMT>Why, <ALIMT >(PH_1)</ALIMT>?","(PH_2)为什么,(PH_1)什么？"
+Joke_01b.label,joke — 01b,label,chitchat_jokes.xml,def,joke — 01b,笑话-01b
+Joke_01b.logRulesInitiator.rulesStrings.0,r_logentry(tag=JokeReaction)->They always take things literally!,li,chitchat_jokes.xml,def,<ALIMT >(PH_1)</ALIMT>->They always take things literally!,(PH_1)-> 他们总是从字面上理解事物!
+Joke_02.label,joke — 02,label,chitchat_jokes.xml,def,joke — 02,笑话-02
+Joke_02.logRulesInitiator.rulesStrings.0,r_logentry(INITIATOR_opinion<0)->...,li,chitchat_jokes.xml,def,<ALIMT >(PH_1)</ALIMT>->...,(PH_1)->.
+Joke_02.logRulesInitiator.rulesStrings.1,"r_logentry(INITIATOR_opinion>=0,tag=Joke_02b)->[good_opinion]",li,chitchat_jokes.xml,def,<ALIMT >(PH_2)</ALIMT>-><ALIMT >(PH_1)</ALIMT>,(PH_2)->(PH_1)
+Joke_02.logRulesInitiator.rulesStrings.2,"good_opinion->No, what about [him_her]?",li,chitchat_jokes.xml,def,"<ALIMT >(PH_2)</ALIMT>No, what about <ALIMT >(PH_1)</ALIMT>?",(PH_2)不，怎么样(PH_1)什么？
+Joke_02.logRulesInitiator.rulesStrings.3,him_her->him,li,chitchat_jokes.xml,def,<ALIMT >(PH_1)</ALIMT>him,(PH_1)他
