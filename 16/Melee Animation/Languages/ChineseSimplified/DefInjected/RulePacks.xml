@@ -2,137 +2,137 @@
 <LanguageData>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!-->
-  <AM_Execution_Blunt.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!</AM_Execution_Blunt.rulePack.rulesStrings.0>
+  <AM_Execution_Blunt.rulePack.rulesStrings.0>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!</AM_Execution_Blunt.rulePack.rulesStrings.0>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].-->
-  <AM_Execution_Blunt.rulePack.rulesStrings.1>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].</AM_Execution_Blunt.rulePack.rulesStrings.1>
+  <AM_Execution_Blunt.rulePack.rulesStrings.1>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].</AM_Execution_Blunt.rulePack.rulesStrings.1>
   <!--翻译内容: 'r_logentry->[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.',新增于2026-02-16-->
   <!--EN: r_logentry->[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.-->
-  <AM_Execution_Generic.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.</AM_Execution_Generic.rulePack.rulesStrings.0>
+  <AM_Execution_Generic.rulePack.rulesStrings.0>r_logentry-&amp;gt;[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.</AM_Execution_Generic.rulePack.rulesStrings.0>
   <!--翻译内容: 'r_logentry->In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].',新增于2026-02-16-->
   <!--EN: r_logentry->In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].-->
-  <AM_Execution_Gilgamesh.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].</AM_Execution_Gilgamesh.rulePack.rulesStrings.0>
+  <AM_Execution_Gilgamesh.rulePack.rulesStrings.0>r_logentry-&amp;gt;In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].</AM_Execution_Gilgamesh.rulePack.rulesStrings.0>
   <!--翻译内容: 'exec_desc->skillful',新增于2026-02-16-->
   <!--EN: exec_desc->skillful-->
-  <AM_Execution_Includes.rulePack.rulesStrings.0>exec_desc-&amp;amp;gt;skillful</AM_Execution_Includes.rulePack.rulesStrings.0>
+  <AM_Execution_Includes.rulePack.rulesStrings.0>exec_desc-&amp;gt;skillful</AM_Execution_Includes.rulePack.rulesStrings.0>
   <!--翻译内容: 'exec_desc->swift',新增于2026-02-16-->
   <!--EN: exec_desc->swift-->
-  <AM_Execution_Includes.rulePack.rulesStrings.1>exec_desc-&amp;amp;gt;swift</AM_Execution_Includes.rulePack.rulesStrings.1>
+  <AM_Execution_Includes.rulePack.rulesStrings.1>exec_desc-&amp;gt;swift</AM_Execution_Includes.rulePack.rulesStrings.1>
   <!--翻译内容: 'impaled->impaled',新增于2026-02-16-->
   <!--EN: impaled->impaled-->
-  <AM_Execution_Includes.rulePack.rulesStrings.10>impaled-&amp;amp;gt;impaled</AM_Execution_Includes.rulePack.rulesStrings.10>
+  <AM_Execution_Includes.rulePack.rulesStrings.10>impaled-&amp;gt;impaled</AM_Execution_Includes.rulePack.rulesStrings.10>
   <!--翻译内容: 'impaled->skewered',新增于2026-02-16-->
   <!--EN: impaled->skewered-->
-  <AM_Execution_Includes.rulePack.rulesStrings.11>impaled-&amp;amp;gt;skewered</AM_Execution_Includes.rulePack.rulesStrings.11>
+  <AM_Execution_Includes.rulePack.rulesStrings.11>impaled-&amp;gt;skewered</AM_Execution_Includes.rulePack.rulesStrings.11>
   <!--翻译内容: 'stabbed->stabbed',新增于2026-02-16-->
   <!--EN: stabbed->stabbed-->
-  <AM_Execution_Includes.rulePack.rulesStrings.12>stabbed-&amp;amp;gt;stabbed</AM_Execution_Includes.rulePack.rulesStrings.12>
+  <AM_Execution_Includes.rulePack.rulesStrings.12>stabbed-&amp;gt;stabbed</AM_Execution_Includes.rulePack.rulesStrings.12>
   <!--翻译内容: 'stabbed->skewered',新增于2026-02-16-->
   <!--EN: stabbed->skewered-->
-  <AM_Execution_Includes.rulePack.rulesStrings.13>stabbed-&amp;amp;gt;skewered</AM_Execution_Includes.rulePack.rulesStrings.13>
+  <AM_Execution_Includes.rulePack.rulesStrings.13>stabbed-&amp;gt;skewered</AM_Execution_Includes.rulePack.rulesStrings.13>
   <!--翻译内容: 'slashed->slashed',新增于2026-02-16-->
   <!--EN: slashed->slashed-->
-  <AM_Execution_Includes.rulePack.rulesStrings.14>slashed-&amp;amp;gt;slashed</AM_Execution_Includes.rulePack.rulesStrings.14>
+  <AM_Execution_Includes.rulePack.rulesStrings.14>slashed-&amp;gt;slashed</AM_Execution_Includes.rulePack.rulesStrings.14>
   <!--翻译内容: 'slashed->lacerated',新增于2026-02-16-->
   <!--EN: slashed->lacerated-->
-  <AM_Execution_Includes.rulePack.rulesStrings.15>slashed-&amp;amp;gt;lacerated</AM_Execution_Includes.rulePack.rulesStrings.15>
+  <AM_Execution_Includes.rulePack.rulesStrings.15>slashed-&amp;gt;lacerated</AM_Execution_Includes.rulePack.rulesStrings.15>
   <!--翻译内容: 'slashed->cut into',新增于2026-02-16-->
   <!--EN: slashed->cut into-->
-  <AM_Execution_Includes.rulePack.rulesStrings.16>slashed-&amp;amp;gt;cut into</AM_Execution_Includes.rulePack.rulesStrings.16>
+  <AM_Execution_Includes.rulePack.rulesStrings.16>slashed-&amp;gt;cut into</AM_Execution_Includes.rulePack.rulesStrings.16>
   <!--翻译内容: 'slashed->split open',新增于2026-02-16-->
   <!--EN: slashed->split open-->
-  <AM_Execution_Includes.rulePack.rulesStrings.17>slashed-&amp;amp;gt;split open</AM_Execution_Includes.rulePack.rulesStrings.17>
+  <AM_Execution_Includes.rulePack.rulesStrings.17>slashed-&amp;gt;split open</AM_Execution_Includes.rulePack.rulesStrings.17>
   <!--翻译内容: 'beat->beat',新增于2026-02-16-->
   <!--EN: beat->beat-->
-  <AM_Execution_Includes.rulePack.rulesStrings.18>beat-&amp;amp;gt;beat</AM_Execution_Includes.rulePack.rulesStrings.18>
+  <AM_Execution_Includes.rulePack.rulesStrings.18>beat-&amp;gt;beat</AM_Execution_Includes.rulePack.rulesStrings.18>
   <!--翻译内容: 'beat->battered',新增于2026-02-16-->
   <!--EN: beat->battered-->
-  <AM_Execution_Includes.rulePack.rulesStrings.19>beat-&amp;amp;gt;battered</AM_Execution_Includes.rulePack.rulesStrings.19>
+  <AM_Execution_Includes.rulePack.rulesStrings.19>beat-&amp;gt;battered</AM_Execution_Includes.rulePack.rulesStrings.19>
   <!--翻译内容: 'exec_desc->merciful',新增于2026-02-16-->
   <!--EN: exec_desc->merciful-->
-  <AM_Execution_Includes.rulePack.rulesStrings.2>exec_desc-&amp;amp;gt;merciful</AM_Execution_Includes.rulePack.rulesStrings.2>
+  <AM_Execution_Includes.rulePack.rulesStrings.2>exec_desc-&amp;gt;merciful</AM_Execution_Includes.rulePack.rulesStrings.2>
   <!--翻译内容: 'beat->bludgeoned',新增于2026-02-16-->
   <!--EN: beat->bludgeoned-->
-  <AM_Execution_Includes.rulePack.rulesStrings.20>beat-&amp;amp;gt;bludgeoned</AM_Execution_Includes.rulePack.rulesStrings.20>
+  <AM_Execution_Includes.rulePack.rulesStrings.20>beat-&amp;gt;bludgeoned</AM_Execution_Includes.rulePack.rulesStrings.20>
   <!--翻译内容: 'skillfully->skillfully',新增于2026-02-16-->
   <!--EN: skillfully->skillfully-->
-  <AM_Execution_Includes.rulePack.rulesStrings.21>skillfully-&amp;amp;gt;skillfully</AM_Execution_Includes.rulePack.rulesStrings.21>
+  <AM_Execution_Includes.rulePack.rulesStrings.21>skillfully-&amp;gt;skillfully</AM_Execution_Includes.rulePack.rulesStrings.21>
   <!--翻译内容: 'skillfully->masterfully',新增于2026-02-16-->
   <!--EN: skillfully->masterfully-->
-  <AM_Execution_Includes.rulePack.rulesStrings.22>skillfully-&amp;amp;gt;masterfully</AM_Execution_Includes.rulePack.rulesStrings.22>
+  <AM_Execution_Includes.rulePack.rulesStrings.22>skillfully-&amp;gt;masterfully</AM_Execution_Includes.rulePack.rulesStrings.22>
   <!--翻译内容: 'skillfully->nimbly',新增于2026-02-16-->
   <!--EN: skillfully->nimbly-->
-  <AM_Execution_Includes.rulePack.rulesStrings.23>skillfully-&amp;amp;gt;nimbly</AM_Execution_Includes.rulePack.rulesStrings.23>
+  <AM_Execution_Includes.rulePack.rulesStrings.23>skillfully-&amp;gt;nimbly</AM_Execution_Includes.rulePack.rulesStrings.23>
   <!--翻译内容: 'weeb_legend->the Demonic Spirit',新增于2026-02-16-->
   <!--EN: weeb_legend->the Demonic Spirit-->
-  <AM_Execution_Includes.rulePack.rulesStrings.24>weeb_legend-&amp;amp;gt;the Demonic Spirit</AM_Execution_Includes.rulePack.rulesStrings.24>
+  <AM_Execution_Includes.rulePack.rulesStrings.24>weeb_legend-&amp;gt;the Demonic Spirit</AM_Execution_Includes.rulePack.rulesStrings.24>
   <!--翻译内容: 'weeb_legend(p=6)->[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]',新增于2026-02-16-->
   <!--EN: weeb_legend(p=6)->[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]-->
-  <AM_Execution_Includes.rulePack.rulesStrings.25>weeb_legend(p=6)-&amp;amp;gt;[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]</AM_Execution_Includes.rulePack.rulesStrings.25>
+  <AM_Execution_Includes.rulePack.rulesStrings.25>weeb_legend(p=6)-&amp;gt;[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]</AM_Execution_Includes.rulePack.rulesStrings.25>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite] the Undying',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite] the Undying-->
-  <AM_Execution_Includes.rulePack.rulesStrings.26>weeb_legend-&amp;amp;gt;[INITIATOR_definite] the Undying</AM_Execution_Includes.rulePack.rulesStrings.26>
+  <AM_Execution_Includes.rulePack.rulesStrings.26>weeb_legend-&amp;gt;[INITIATOR_definite] the Undying</AM_Execution_Includes.rulePack.rulesStrings.26>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite], Conqueror of the Stars',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite], Conqueror of the Stars-->
-  <AM_Execution_Includes.rulePack.rulesStrings.27>weeb_legend-&amp;amp;gt;[INITIATOR_definite], Conqueror of the Stars</AM_Execution_Includes.rulePack.rulesStrings.27>
+  <AM_Execution_Includes.rulePack.rulesStrings.27>weeb_legend-&amp;gt;[INITIATOR_definite], Conqueror of the Stars</AM_Execution_Includes.rulePack.rulesStrings.27>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite] the Undead',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite] the Undead-->
-  <AM_Execution_Includes.rulePack.rulesStrings.28>weeb_legend-&amp;amp;gt;[INITIATOR_definite] the Undead</AM_Execution_Includes.rulePack.rulesStrings.28>
+  <AM_Execution_Includes.rulePack.rulesStrings.28>weeb_legend-&amp;gt;[INITIATOR_definite] the Undead</AM_Execution_Includes.rulePack.rulesStrings.28>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite] the Edgy',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite] the Edgy-->
-  <AM_Execution_Includes.rulePack.rulesStrings.29>weeb_legend-&amp;amp;gt;[INITIATOR_definite] the Edgy</AM_Execution_Includes.rulePack.rulesStrings.29>
+  <AM_Execution_Includes.rulePack.rulesStrings.29>weeb_legend-&amp;gt;[INITIATOR_definite] the Edgy</AM_Execution_Includes.rulePack.rulesStrings.29>
   <!--翻译内容: 'exec_desc->brutal',新增于2026-02-16-->
   <!--EN: exec_desc->brutal-->
-  <AM_Execution_Includes.rulePack.rulesStrings.3>exec_desc-&amp;amp;gt;brutal</AM_Execution_Includes.rulePack.rulesStrings.3>
+  <AM_Execution_Includes.rulePack.rulesStrings.3>exec_desc-&amp;gt;brutal</AM_Execution_Includes.rulePack.rulesStrings.3>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite], Edgelord Supreme',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite], Edgelord Supreme-->
-  <AM_Execution_Includes.rulePack.rulesStrings.30>weeb_legend-&amp;amp;gt;[INITIATOR_definite], Edgelord Supreme</AM_Execution_Includes.rulePack.rulesStrings.30>
+  <AM_Execution_Includes.rulePack.rulesStrings.30>weeb_legend-&amp;gt;[INITIATOR_definite], Edgelord Supreme</AM_Execution_Includes.rulePack.rulesStrings.30>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite], Collector of Feetpics',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite], Collector of Feetpics-->
-  <AM_Execution_Includes.rulePack.rulesStrings.31>weeb_legend-&amp;amp;gt;[INITIATOR_definite], Collector of Feetpics</AM_Execution_Includes.rulePack.rulesStrings.31>
+  <AM_Execution_Includes.rulePack.rulesStrings.31>weeb_legend-&amp;gt;[INITIATOR_definite], Collector of Feetpics</AM_Execution_Includes.rulePack.rulesStrings.31>
   <!--翻译内容: 'weeb_legend->[INITIATOR_definite] the Penetrator',新增于2026-02-16-->
   <!--EN: weeb_legend->[INITIATOR_definite] the Penetrator-->
-  <AM_Execution_Includes.rulePack.rulesStrings.32>weeb_legend-&amp;amp;gt;[INITIATOR_definite] the Penetrator</AM_Execution_Includes.rulePack.rulesStrings.32>
+  <AM_Execution_Includes.rulePack.rulesStrings.32>weeb_legend-&amp;gt;[INITIATOR_definite] the Penetrator</AM_Execution_Includes.rulePack.rulesStrings.32>
   <!--翻译内容: 'exec_desc->vengeful',新增于2026-02-16-->
   <!--EN: exec_desc->vengeful-->
-  <AM_Execution_Includes.rulePack.rulesStrings.4>exec_desc-&amp;amp;gt;vengeful</AM_Execution_Includes.rulePack.rulesStrings.4>
+  <AM_Execution_Includes.rulePack.rulesStrings.4>exec_desc-&amp;gt;vengeful</AM_Execution_Includes.rulePack.rulesStrings.4>
   <!--翻译内容: 'exec_desc->crude',新增于2026-02-16-->
   <!--EN: exec_desc->crude-->
-  <AM_Execution_Includes.rulePack.rulesStrings.5>exec_desc-&amp;amp;gt;crude</AM_Execution_Includes.rulePack.rulesStrings.5>
+  <AM_Execution_Includes.rulePack.rulesStrings.5>exec_desc-&amp;gt;crude</AM_Execution_Includes.rulePack.rulesStrings.5>
   <!--翻译内容: 'exec_desc->efficient',新增于2026-02-16-->
   <!--EN: exec_desc->efficient-->
-  <AM_Execution_Includes.rulePack.rulesStrings.6>exec_desc-&amp;amp;gt;efficient</AM_Execution_Includes.rulePack.rulesStrings.6>
+  <AM_Execution_Includes.rulePack.rulesStrings.6>exec_desc-&amp;gt;efficient</AM_Execution_Includes.rulePack.rulesStrings.6>
   <!--翻译内容: 'exec_desc->clean',新增于2026-02-16-->
   <!--EN: exec_desc->clean-->
-  <AM_Execution_Includes.rulePack.rulesStrings.7>exec_desc-&amp;amp;gt;clean</AM_Execution_Includes.rulePack.rulesStrings.7>
+  <AM_Execution_Includes.rulePack.rulesStrings.7>exec_desc-&amp;gt;clean</AM_Execution_Includes.rulePack.rulesStrings.7>
   <!--翻译内容: 'exec_desc->shocking',新增于2026-02-16-->
   <!--EN: exec_desc->shocking-->
-  <AM_Execution_Includes.rulePack.rulesStrings.8>exec_desc-&amp;amp;gt;shocking</AM_Execution_Includes.rulePack.rulesStrings.8>
+  <AM_Execution_Includes.rulePack.rulesStrings.8>exec_desc-&amp;gt;shocking</AM_Execution_Includes.rulePack.rulesStrings.8>
   <!--翻译内容: 'exec_desc->spectacular',新增于2026-02-16-->
   <!--EN: exec_desc->spectacular-->
-  <AM_Execution_Includes.rulePack.rulesStrings.9>exec_desc-&amp;amp;gt;spectacular</AM_Execution_Includes.rulePack.rulesStrings.9>
+  <AM_Execution_Includes.rulePack.rulesStrings.9>exec_desc-&amp;gt;spectacular</AM_Execution_Includes.rulePack.rulesStrings.9>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!-->
-  <AM_Execution_Passover.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!</AM_Execution_Passover.rulePack.rulesStrings.0>
+  <AM_Execution_Passover.rulePack.rulesStrings.0>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!</AM_Execution_Passover.rulePack.rulesStrings.0>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].-->
-  <AM_Execution_Slashed.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].</AM_Execution_Slashed.rulePack.rulesStrings.0>
+  <AM_Execution_Slashed.rulePack.rulesStrings.0>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].</AM_Execution_Slashed.rulePack.rulesStrings.0>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].-->
-  <AM_Execution_Slashed.rulePack.rulesStrings.1>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</AM_Execution_Slashed.rulePack.rulesStrings.1>
+  <AM_Execution_Slashed.rulePack.rulesStrings.1>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</AM_Execution_Slashed.rulePack.rulesStrings.1>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].-->
-  <AM_Execution_Stab.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].</AM_Execution_Stab.rulePack.rulesStrings.0>
+  <AM_Execution_Stab.rulePack.rulesStrings.0>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].</AM_Execution_Stab.rulePack.rulesStrings.0>
   <!--翻译内容: 'r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].',新增于2026-02-16-->
   <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].-->
-  <AM_Execution_Stab.rulePack.rulesStrings.1>r_logentry-&amp;amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</AM_Execution_Stab.rulePack.rulesStrings.1>
+  <AM_Execution_Stab.rulePack.rulesStrings.1>r_logentry-&amp;gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</AM_Execution_Stab.rulePack.rulesStrings.1>
   <!--翻译内容: 'r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.',新增于2026-02-16-->
   <!--EN: r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.-->
-  <AM_Execution_Weebstick.rulePack.rulesStrings.0>r_logentry-&amp;amp;gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.</AM_Execution_Weebstick.rulePack.rulesStrings.0>
+  <AM_Execution_Weebstick.rulePack.rulesStrings.0>r_logentry-&amp;gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.</AM_Execution_Weebstick.rulePack.rulesStrings.0>
   <!--翻译内容: 'r_logentry(p=5)->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.',新增于2026-02-16-->
   <!--EN: r_logentry(p=5)->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.-->
-  <AM_Execution_Weebstick.rulePack.rulesStrings.1>r_logentry(p=5)-&amp;amp;gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.</AM_Execution_Weebstick.rulePack.rulesStrings.1>
+  <AM_Execution_Weebstick.rulePack.rulesStrings.1>r_logentry(p=5)-&amp;gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.</AM_Execution_Weebstick.rulePack.rulesStrings.1>
   <!--翻译内容: 'r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.',新增于2026-02-16-->
   <!--EN: r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.-->
-  <AM_Execution_Weebstick.rulePack.rulesStrings.2>r_logentry-&amp;amp;gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.</AM_Execution_Weebstick.rulePack.rulesStrings.2>
+  <AM_Execution_Weebstick.rulePack.rulesStrings.2>r_logentry-&amp;gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.</AM_Execution_Weebstick.rulePack.rulesStrings.2>
 </LanguageData>

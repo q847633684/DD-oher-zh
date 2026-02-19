@@ -2,7 +2,7 @@
 <LanguageData>
   <!--翻译内容: 'This pawn's effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.',新增于2026-02-16-->
   <!--EN: This pawn's effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.-->
-  <AM_DuelAbility.description>This pawn&amp;amp;apos;s effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.</AM_DuelAbility.description>
+  <AM_DuelAbility.description>This pawn&amp;apos;s effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.</AM_DuelAbility.description>
   <!--翻译内容: 'Melee Duel Ability',新增于2026-02-16-->
   <!--EN: Melee Duel Ability-->
   <AM_DuelAbility.label>Melee Duel Ability</AM_DuelAbility.label>
@@ -32,7 +32,7 @@
   <AM_GrappleSpeed.label>Lasso Reel Speed</AM_GrappleSpeed.label>
   <!--翻译内容: 'This pawn's lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.',新增于2026-02-16-->
   <!--EN: This pawn's lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.-->
-  <AM_Lethality.description>This pawn&amp;amp;apos;s lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.</AM_Lethality.description>
+  <AM_Lethality.description>This pawn&amp;apos;s lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.</AM_Lethality.description>
   <!--翻译内容: 'Melee Lethality',新增于2026-02-16-->
   <!--EN: Melee Lethality-->
   <AM_Lethality.label>Melee Lethality</AM_Lethality.label>

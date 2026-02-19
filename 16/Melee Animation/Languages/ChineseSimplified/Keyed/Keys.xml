@@ -82,8 +82,8 @@ Please reload your save after changing this setting.</b>-->
   <AM.AMSettings.Settings.AnimateAtIdle.Desc>If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.
 If disabled, animations are limited to duels, special skills and executions.
 
-&amp;amp;lt;b&amp;amp;gt;Leaving this enabled can have a large performance impact on densely populated maps.
-Please reload your save after changing this setting.&amp;amp;lt;/b&amp;amp;gt;</AM.AMSettings.Settings.AnimateAtIdle.Desc>
+&amp;lt;b&amp;gt;Leaving this enabled can have a large performance impact on densely populated maps.
+Please reload your save after changing this setting.&amp;lt;/b&amp;gt;</AM.AMSettings.Settings.AnimateAtIdle.Desc>
   <!--翻译内容: 'Attack Pause Duration',新增于2026-02-16-->
   <!--EN: Attack Pause Duration-->
   <AM.AMSettings.Settings.AttackPauseDuration>Attack Pause Duration</AM.AMSettings.Settings.AttackPauseDuration>
@@ -94,7 +94,7 @@ This setting changes the duration of that pause, or disables it entirely. This i
 This lets you know whether an attack connected, as well as giving the hit a bit more visual <i>oomph</i>.
 This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.-->
   <AM.AMSettings.Settings.AttackPauseDuration.Desc>When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.
-This lets you know whether an attack connected, as well as giving the hit a bit more visual &amp;amp;lt;i&amp;amp;gt;oomph&amp;amp;lt;/i&amp;amp;gt;.
+This lets you know whether an attack connected, as well as giving the hit a bit more visual &amp;lt;i&amp;gt;oomph&amp;lt;/i&amp;gt;.
 This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.</AM.AMSettings.Settings.AttackPauseDuration.Desc>
   <!--翻译内容: 'Auto Execute',新增于2026-02-16-->
   <!--EN: Auto Execute-->
@@ -110,7 +110,7 @@ This only changes the <b>default</b> setting. It can also be configured on a per
   <AM.AMSettings.Settings.AutoExecute.Desc>If true, your pawns will automatically execute enemy pawns in combat, without your input.
 This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.
 
-This only changes the &amp;amp;lt;b&amp;amp;gt;default&amp;amp;lt;/b&amp;amp;gt; setting. It can also be configured on a per-pawn basis.</AM.AMSettings.Settings.AutoExecute.Desc>
+This only changes the &amp;lt;b&amp;gt;default&amp;lt;/b&amp;gt; setting. It can also be configured on a per-pawn basis.</AM.AMSettings.Settings.AutoExecute.Desc>
   <!--翻译内容: 'Auto Lasso',新增于2026-02-16-->
   <!--EN: Auto Lasso-->
   <AM.AMSettings.Settings.AutoGrapple>Auto Lasso</AM.AMSettings.Settings.AutoGrapple>
@@ -122,7 +122,7 @@ This only changes the <b>default</b> setting. It can also be configured on a per
 This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.-->
   <AM.AMSettings.Settings.AutoGrapple.Desc>If true, your colonists will automatically use their lassos against enemies.
 
-This only changes the &amp;amp;lt;b&amp;amp;gt;default&amp;amp;lt;/b&amp;amp;gt; setting. It can also be configured on a per-pawn basis.</AM.AMSettings.Settings.AutoGrapple.Desc>
+This only changes the &amp;lt;b&amp;gt;default&amp;lt;/b&amp;gt; setting. It can also be configured on a per-pawn basis.</AM.AMSettings.Settings.AutoGrapple.Desc>
   <!--翻译内容: 'Execution Failure Chance (High Skill)',新增于2026-02-16-->
   <!--EN: Execution Failure Chance (High Skill)-->
   <AM.AMSettings.Settings.ChanceToFailMaxSkill>Execution Failure Chance (High Skill)</AM.AMSettings.Settings.ChanceToFailMaxSkill>
@@ -158,7 +158,7 @@ This offset can be confusing however, because the corpse no longer occupies the 
 <b>Note:</b> The offset corpses are reset after a save-reload.-->
   <AM.AMSettings.Settings.CorpseOffsetMode.Desc>In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.
 This offset can be confusing however, because the corpse no longer occupies the center of the tile.
-&amp;amp;lt;b&amp;amp;gt;Note:&amp;amp;lt;/b&amp;amp;gt; The offset corpses are reset after a save-reload.</AM.AMSettings.Settings.CorpseOffsetMode.Desc>
+&amp;lt;b&amp;gt;Note:&amp;lt;/b&amp;gt; The offset corpses are reset after a save-reload.</AM.AMSettings.Settings.CorpseOffsetMode.Desc>
   <!--翻译内容: 'Draw Names In Animation',新增于2026-02-16-->
   <!--EN: Draw Names In Animation-->
   <AM.AMSettings.Settings.DrawNamesInAnimation>Draw Names In Animation</AM.AMSettings.Settings.DrawNamesInAnimation>
@@ -203,7 +203,7 @@ Only your colonists can use these skills and they must be activated manually. Se
   <AM.AMSettings.Settings.EnemyExecCooldownFactor>Execution Cooldown Factor (Enemy)</AM.AMSettings.Settings.EnemyExecCooldownFactor>
   <!--翻译内容: 'This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.',新增于2026-02-16-->
   <!--EN: This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.-->
-  <AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn&amp;amp;apos;s stats.</AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>
+  <AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn&amp;apos;s stats.</AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc>
   <!--翻译内容: 'Automatic Execution Average Interval (Friendly)',新增于2026-02-16-->
   <!--EN: Automatic Execution Average Interval (Friendly)-->
   <AM.AMSettings.Settings.ExecuteAttemptMTBSeconds>Automatic Execution Average Interval (Friendly)</AM.AMSettings.Settings.ExecuteAttemptMTBSeconds>
@@ -268,8 +268,8 @@ Note: if disabled, combat log generation does not work properly for the executio
 If false, the pawn is simply killed by 'magic' (no specific part takes damage)
 Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: "<i>name was killed.</i>"-->
   <AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>If true, executions can destroy specific vital body parts, such as the heart or head.
-If false, the pawn is simply killed by &amp;amp;apos;magic&amp;amp;apos; (no specific part takes damage)
-Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: &amp;amp;quot;&amp;amp;lt;i&amp;amp;gt;name was killed.&amp;amp;lt;/i&amp;amp;gt;&amp;amp;quot;</AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>
+If false, the pawn is simply killed by &amp;apos;magic&amp;apos; (no specific part takes damage)
+Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: &amp;quot;&amp;lt;i&amp;gt;name was killed.&amp;lt;/i&amp;gt;&amp;quot;</AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc>
   <!--翻译内容: 'Executions Are Non Lethal On Friendlies',新增于2026-02-16-->
   <!--EN: Executions Are Non Lethal On Friendlies-->
   <AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal>Executions Are Non Lethal On Friendlies</AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal>
@@ -308,7 +308,7 @@ Set to 0 to disable the animations entirely.</AM.AMSettings.Settings.FlavourMTB.
   <AM.AMSettings.Settings.FriendlyExecCooldownFactor>Execution Cooldown Factor (Friendly)</AM.AMSettings.Settings.FriendlyExecCooldownFactor>
   <!--翻译内容: 'This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.',新增于2026-02-16-->
   <!--EN: This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.-->
-  <AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn&amp;amp;apos;s stats.</AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>
+  <AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn&amp;apos;s stats.</AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc>
   <!--翻译内容: 'Friendly Pawn Duel Ability Bonus',新增于2026-02-16-->
   <!--EN: Friendly Pawn Duel Ability Bonus-->
   <AM.AMSettings.Settings.FriendlyPawnDuelBonus>Friendly Pawn Duel Ability Bonus</AM.AMSettings.Settings.FriendlyPawnDuelBonus>
@@ -320,7 +320,7 @@ Set to 0 to disable the animations entirely.</AM.AMSettings.Settings.FlavourMTB.
   <AM.AMSettings.Settings.FriendlyPawnLethalityBonus>Friendly Pawn Lethality Bonus</AM.AMSettings.Settings.FriendlyPawnLethalityBonus>
   <!--翻译内容: 'Positive values act as a lethality bonus for friendly pawns (including slaves) in execution & duel outcomes, meaning that they will be lethal more often.',新增于2026-02-16-->
   <!--EN: Positive values act as a lethality bonus for friendly pawns (including slaves) in execution & duel outcomes, meaning that they will be lethal more often.-->
-  <AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>Positive values act as a lethality bonus for friendly pawns (including slaves) in execution &amp;amp;amp; duel outcomes, meaning that they will be lethal more often.</AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>
+  <AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>Positive values act as a lethality bonus for friendly pawns (including slaves) in execution &amp;amp; duel outcomes, meaning that they will be lethal more often.</AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc>
   <!--翻译内容: 'Global Animation Speed',新增于2026-02-16-->
   <!--EN: Global Animation Speed-->
   <AM.AMSettings.Settings.GlobalAnimationSpeed>Global Animation Speed</AM.AMSettings.Settings.GlobalAnimationSpeed>
@@ -365,7 +365,7 @@ If their execution is off cooldown and 'Enemies Can Perform Executions' is enabl
   <!--EN: This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
 If their execution is off cooldown and 'Enemies Can Perform Executions' is enabled, they will immediately execute the lassoed target too.-->
   <AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
-If their execution is off cooldown and &amp;amp;apos;Enemies Can Perform Executions&amp;amp;apos; is enabled, they will immediately execute the lassoed target too.</AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>
+If their execution is off cooldown and &amp;apos;Enemies Can Perform Executions&amp;apos; is enabled, they will immediately execute the lassoed target too.</AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc>
   <!--翻译内容: 'Lasso Travel Speed',新增于2026-02-16-->
   <!--EN: Lasso Travel Speed-->
   <AM.AMSettings.Settings.GrappleSpeed>Lasso Travel Speed</AM.AMSettings.Settings.GrappleSpeed>
@@ -375,12 +375,12 @@ Affects all pawns.',新增于2026-02-16-->
   <!--EN: Adjusts the speed <b>(not cooldown)</b> of lassos, making it faster or slower to ensnare and pull in an enemy.
 Higher values make the lasso faster.
 Affects all pawns.-->
-  <AM.AMSettings.Settings.GrappleSpeed.Desc>Adjusts the speed &amp;amp;lt;b&amp;amp;gt;(not cooldown)&amp;amp;lt;/b&amp;amp;gt; of lassos, making it faster or slower to ensnare and pull in an enemy.
+  <AM.AMSettings.Settings.GrappleSpeed.Desc>Adjusts the speed &amp;lt;b&amp;gt;(not cooldown)&amp;lt;/b&amp;gt; of lassos, making it faster or slower to ensnare and pull in an enemy.
 Higher values make the lasso faster.
 Affects all pawns.</AM.AMSettings.Settings.GrappleSpeed.Desc>
   <!--翻译内容: 'Executions & Duels',新增于2026-02-16-->
   <!--EN: Executions & Duels-->
-  <AM.AMSettings.Settings.Header.Executions___Duels>Executions &amp;amp;amp; Duels</AM.AMSettings.Settings.Header.Executions___Duels>
+  <AM.AMSettings.Settings.Header.Executions___Duels>Executions &amp;amp; Duels</AM.AMSettings.Settings.Header.Executions___Duels>
   <!--翻译内容: 'General',新增于2026-02-16-->
   <!--EN: General-->
   <AM.AMSettings.Settings.Header.General>General</AM.AMSettings.Settings.Header.General>
@@ -403,7 +403,7 @@ Affects all pawns.</AM.AMSettings.Settings.GrappleSpeed.Desc>
 Set this to 0% to disable natural lasso generation on pawns.',新增于2026-02-16-->
   <!--EN: This is the % chance for any <b>melee fighter</b> pawn to spawn with a lasso equipped.
 Set this to 0% to disable natural lasso generation on pawns.-->
-  <AM.AMSettings.Settings.LassoSpawnChance.Desc>This is the % chance for any &amp;amp;lt;b&amp;amp;gt;melee fighter&amp;amp;lt;/b&amp;amp;gt; pawn to spawn with a lasso equipped.
+  <AM.AMSettings.Settings.LassoSpawnChance.Desc>This is the % chance for any &amp;lt;b&amp;gt;melee fighter&amp;lt;/b&amp;gt; pawn to spawn with a lasso equipped.
 Set this to 0% to disable natural lasso generation on pawns.</AM.AMSettings.Settings.LassoSpawnChance.Desc>
   <!--翻译内容: 'Max Duel Duration',新增于2026-02-16-->
   <!--EN: Max Duel Duration-->
@@ -418,8 +418,8 @@ Set this to 0% to disable natural lasso generation on pawns.</AM.AMSettings.Sett
 Lower values mean that pawns can <b>not</b> be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.',新增于2026-02-16-->
   <!--EN: The maximum 'fill' percentage of a building that a pawn can be dragged through by a lasso.
 Lower values mean that pawns can <b>not</b> be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.-->
-  <AM.AMSettings.Settings.MaxFillPctForLasso.Desc>The maximum &amp;amp;apos;fill&amp;amp;apos; percentage of a building that a pawn can be dragged through by a lasso.
-Lower values mean that pawns can &amp;amp;lt;b&amp;amp;gt;not&amp;amp;lt;/b&amp;amp;gt; be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.</AM.AMSettings.Settings.MaxFillPctForLasso.Desc>
+  <AM.AMSettings.Settings.MaxFillPctForLasso.Desc>The maximum &amp;apos;fill&amp;apos; percentage of a building that a pawn can be dragged through by a lasso.
+Lower values mean that pawns can &amp;lt;b&amp;gt;not&amp;lt;/b&amp;gt; be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.</AM.AMSettings.Settings.MaxFillPctForLasso.Desc>
   <!--翻译内容: 'Max Pawn Size',新增于2026-02-16-->
   <!--EN: Max Pawn Size-->
   <AM.AMSettings.Settings.MaxLassoBodySize>Max Pawn Size</AM.AMSettings.Settings.MaxLassoBodySize>
@@ -443,7 +443,7 @@ For reference, here are some example body sizes:
 
 
 Set to zero to disable the body size limit.-->
-  <AM.AMSettings.Settings.MaxLassoBodySize.Desc>The maximum &amp;amp;apos;body size&amp;amp;apos; that a pawn can have in order for it to be lassoed.
+  <AM.AMSettings.Settings.MaxLassoBodySize.Desc>The maximum &amp;apos;body size&amp;apos; that a pawn can have in order for it to be lassoed.
 For reference, here are some example body sizes:
 • Chicken: 0.3
 • Human: 1
@@ -471,7 +471,7 @@ Set to 1 if you experience error spam caused by a mod conflict, although it will
   <!--EN: The maximum number of CPU threads to use when processing pawns for automatic executions & lasso usage.
 If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
 Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.-->
-  <AM.AMSettings.Settings.MaxProcessingThreads.Desc>The maximum number of CPU threads to use when processing pawns for automatic executions &amp;amp;amp; lasso usage.
+  <AM.AMSettings.Settings.MaxProcessingThreads.Desc>The maximum number of CPU threads to use when processing pawns for automatic executions &amp;amp; lasso usage.
 If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
 Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.</AM.AMSettings.Settings.MaxProcessingThreads.Desc>
   <!--翻译内容: 'Amount Skill Affects Execution Cooldown',新增于2026-02-16-->
@@ -524,7 +524,7 @@ Higher values increase the speed. This is just a visual change, it obviously doe
   <!--EN: Changes the speed of the movement animations.
 Higher values increase the speed. This is just a visual change, it obviously doesn't change the pawn's movement speed.-->
   <AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>Changes the speed of the movement animations.
-Higher values increase the speed. This is just a visual change, it obviously doesn&amp;amp;apos;t change the pawn&amp;amp;apos;s movement speed.</AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>
+Higher values increase the speed. This is just a visual change, it obviously doesn&amp;apos;t change the pawn&amp;apos;s movement speed.</AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc>
   <!--翻译内容: 'Multithreaded Matrix Calculations',新增于2026-02-16-->
   <!--EN: Multithreaded Matrix Calculations-->
   <AM.AMSettings.Settings.MultithreadedMatrixCalculations>Multithreaded Matrix Calculations</AM.AMSettings.Settings.MultithreadedMatrixCalculations>
@@ -573,7 +573,7 @@ Note: logging does not occur the first time you run the game with this mod.',新
   <!--EN: When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod's author know that a patch is needed. The <b>only</b> information logged is: mod ID, mod name, weapon count.
 You can opt out of this functionality by disabling this option.
 Note: logging does not occur the first time you run the game with this mod.-->
-  <AM.AMSettings.Settings.SendStatistics.Desc>When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod&amp;amp;apos;s author know that a patch is needed. The &amp;amp;lt;b&amp;amp;gt;only&amp;amp;lt;/b&amp;amp;gt; information logged is: mod ID, mod name, weapon count.
+  <AM.AMSettings.Settings.SendStatistics.Desc>When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod&amp;apos;s author know that a patch is needed. The &amp;lt;b&amp;gt;only&amp;lt;/b&amp;gt; information logged is: mod ID, mod name, weapon count.
 You can opt out of this functionality by disabling this option.
 Note: logging does not occur the first time you run the game with this mod.</AM.AMSettings.Settings.SendStatistics.Desc>
   <!--翻译内容: 'Show Execution Outcome Text',新增于2026-02-16-->
@@ -597,7 +597,7 @@ This is a purely visual change and does not affect combat.',新增于2026-02-16-
   <!--EN: If enabled, the speed of melee attack animations will be automatically increased to match the pawn's melee speed.
 If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
 This is a purely visual change and does not affect combat.-->
-  <AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>If enabled, the speed of melee attack animations will be automatically increased to match the pawn&amp;amp;apos;s melee speed.
+  <AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>If enabled, the speed of melee attack animations will be automatically increased to match the pawn&amp;apos;s melee speed.
 If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
 This is a purely visual change and does not affect combat.</AM.AMSettings.Settings.SpeedUpAttackAnims.Desc>
   <!--翻译内容: 'Weapon Trail Color',新增于2026-02-16-->
@@ -653,7 +653,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Error.Duel.NotSpawned.Short>{Pawn} is not available</AM.Error.Duel.NotSpawned.Short>
   <!--翻译内容: '{0}'s duel is on cooldown',新增于2026-02-16-->
   <!--EN: {0}'s duel is on cooldown-->
-  <AM.Error.Duel.OnCooldown>{0}&amp;amp;apos;s duel is on cooldown</AM.Error.Duel.OnCooldown>
+  <AM.Error.Duel.OnCooldown>{0}&amp;apos;s duel is on cooldown</AM.Error.Duel.OnCooldown>
   <!--翻译内容: '{0} got tired of waiting for {1} to arrive to their duel, and called it off.',新增于2026-02-16-->
   <!--EN: {0} got tired of waiting for {1} to arrive to their duel, and called it off.-->
   <AM.Error.Duel.WaitedTooLong>{0} got tired of waiting for {1} to arrive to their duel, and called it off.</AM.Error.Duel.WaitedTooLong>
@@ -677,7 +677,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Error.Exec.CannotFist.Short>{Exec} cannot use their fists</AM.Error.Exec.CannotFist.Short>
   <!--翻译内容: '{Exec}'s execution is on cooldown',新增于2026-02-16-->
   <!--EN: {Exec}'s execution is on cooldown-->
-  <AM.Error.Exec.Cooldown>{Exec}&amp;amp;apos;s execution is on cooldown</AM.Error.Exec.Cooldown>
+  <AM.Error.Exec.Cooldown>{Exec}&amp;apos;s execution is on cooldown</AM.Error.Exec.Cooldown>
   <!--翻译内容: 'Execution on cooldown',新增于2026-02-16-->
   <!--EN: Execution on cooldown-->
   <AM.Error.Exec.Cooldown.Short>Execution on cooldown</AM.Error.Exec.Cooldown.Short>
@@ -752,7 +752,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Error.Grapple.AlreadyTarget.Short>Already being lassoed</AM.Error.Grapple.AlreadyTarget.Short>
   <!--翻译内容: '{Grappler}'s lasso is on cooldown',新增于2026-02-16-->
   <!--EN: {Grappler}'s lasso is on cooldown-->
-  <AM.Error.Grapple.Cooldown>{Grappler}&amp;amp;apos;s lasso is on cooldown</AM.Error.Grapple.Cooldown>
+  <AM.Error.Grapple.Cooldown>{Grappler}&amp;apos;s lasso is on cooldown</AM.Error.Grapple.Cooldown>
   <!--翻译内容: 'Lasso on cooldown',新增于2026-02-16-->
   <!--EN: Lasso on cooldown-->
   <AM.Error.Grapple.Cooldown.Short>Lasso on cooldown</AM.Error.Grapple.Cooldown.Short>
@@ -815,7 +815,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Error.Grapple.Stunned>{Grappler} is stunned</AM.Error.Grapple.Stunned>
   <!--翻译内容: '{Target} is out of reach of {Grappler}'s lasso',新增于2026-02-16-->
   <!--EN: {Target} is out of reach of {Grappler}'s lasso-->
-  <AM.Error.Grapple.TooFar>{Target} is out of reach of {Grappler}&amp;amp;apos;s lasso</AM.Error.Grapple.TooFar>
+  <AM.Error.Grapple.TooFar>{Target} is out of reach of {Grappler}&amp;apos;s lasso</AM.Error.Grapple.TooFar>
   <!--翻译内容: 'Too far away',新增于2026-02-16-->
   <!--EN: Too far away-->
   <AM.Error.Grapple.TooFar.Short>Too far away</AM.Error.Grapple.TooFar.Short>
@@ -845,7 +845,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.ExecutionOutcome.Killed>Killed</AM.ExecutionOutcome.Killed>
   <!--翻译内容: '{0}'s current job cannot be interrupted',新增于2026-02-16-->
   <!--EN: {0}'s current job cannot be interrupted-->
-  <AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>{0}&amp;amp;apos;s current job cannot be interrupted</AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>
+  <AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>{0}&amp;apos;s current job cannot be interrupted</AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt>
   <!--翻译内容: 'Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.',新增于2026-02-16-->
   <!--EN: Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.-->
   <AM.Gizmos.DuelSpot.StartDuel.Desc>Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.</AM.Gizmos.DuelSpot.StartDuel.Desc>
@@ -863,7 +863,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Gizmos.DuelSpot.StartDuel.InUse>The duel spot is currently in use</AM.Gizmos.DuelSpot.StartDuel.InUse>
   <!--翻译内容: '{0}'s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)',新增于2026-02-16-->
   <!--EN: {0}'s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)-->
-  <AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>{0}&amp;amp;apos;s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)</AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>
+  <AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>{0}&amp;apos;s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)</AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon>
   <!--翻译内容: 'Start duel',新增于2026-02-16-->
   <!--EN: Start duel-->
   <AM.Gizmos.DuelSpot.StartDuel.Label>Start duel</AM.Gizmos.DuelSpot.StartDuel.Label>
@@ -881,7 +881,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Gizmos.DuelSpot.ToggleVisibility>Toggle visibility</AM.Gizmos.DuelSpot.ToggleVisibility>
   <!--翻译内容: 'Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...',新增于2026-02-16-->
   <!--EN: Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...-->
-  <AM.Gizmos.DuelSpot.ToggleVisibility.Desc>Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don&amp;amp;apos;t forget where you put it down or you may struggle to find it again...</AM.Gizmos.DuelSpot.ToggleVisibility.Desc>
+  <AM.Gizmos.DuelSpot.ToggleVisibility.Desc>Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don&amp;apos;t forget where you put it down or you may struggle to find it again...</AM.Gizmos.DuelSpot.ToggleVisibility.Desc>
   <!--翻译内容: 'Lasso {0}',新增于2026-02-16-->
   <!--EN: Lasso {0}-->
   <AM.Grapple.FloatMenu>Lasso {0}</AM.Grapple.FloatMenu>
@@ -896,7 +896,7 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.LoadingText>Loading Melee Animation</AM.LoadingText>
   <!--翻译内容: 'Epicguru's Melee Animation',新增于2026-02-16-->
   <!--EN: Epicguru's Melee Animation-->
-  <AM.ModTitle>Epicguru&amp;amp;apos;s Melee Animation</AM.ModTitle>
+  <AM.ModTitle>Epicguru&amp;apos;s Melee Animation</AM.ModTitle>
   <!--翻译内容: 'The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.',新增于2026-02-16-->
   <!--EN: The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.-->
   <AM.Patch.OptDisabled>The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.</AM.Patch.OptDisabled>
@@ -923,13 +923,13 @@ This is a purely visual change and does not affect combat.</AM.AMSettings.Settin
   <AM.Skill.BadWeapon>Missing required weapon.</AM.Skill.BadWeapon>
   <!--翻译内容: 'Can't cast {0}: {1}',新增于2026-02-16-->
   <!--EN: Can't cast {0}: {1}-->
-  <AM.Skill.CantCast>Can&amp;amp;apos;t cast {0}: {1}</AM.Skill.CantCast>
+  <AM.Skill.CantCast>Can&amp;apos;t cast {0}: {1}</AM.Skill.CantCast>
   <!--翻译内容: 'Can't cast {0} on {1} right now.',新增于2026-02-16-->
   <!--EN: Can't cast {0} on {1} right now.-->
-  <AM.Skill.CantCastGeneric>Can&amp;amp;apos;t cast {0} on {1} right now.</AM.Skill.CantCastGeneric>
+  <AM.Skill.CantCastGeneric>Can&amp;apos;t cast {0} on {1} right now.</AM.Skill.CantCastGeneric>
   <!--翻译内容: 'Cast unique skill '{0}' on {1}',新增于2026-02-16-->
   <!--EN: Cast unique skill '{0}' on {1}-->
-  <AM.Skill.Cast>Cast unique skill &amp;amp;apos;{0}&amp;amp;apos; on {1}</AM.Skill.Cast>
+  <AM.Skill.Cast>Cast unique skill &amp;apos;{0}&amp;apos; on {1}</AM.Skill.Cast>
   <!--翻译内容: 'Melee level {0} is below required level {1}.',新增于2026-02-16-->
   <!--EN: Melee level {0} is below required level {1}.-->
   <AM.Skill.Gilgamesh.LowMelee>Melee level {0} is below required level {1}.</AM.Skill.Gilgamesh.LowMelee>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <loadFolders>
 		<v1.5>
-			<li>/</li>
 			<!--keyed-->
 			<li IfModActive="codeoptimist.jobsofopportunity">15/While You're Up</li>
 			<li IfModActive="telefonmast.graphicssettings">15/Graphics Settings</li>
@@ -27,7 +26,9 @@
 			<li IfModActive="malistaticy.underwhere">16/Under Where</li>
 			<li IfModActive="lucifer.realisticrooms">16/Realistic Rooms Rewritten</li>
 			<li IfModActive="mehni.pickupandhaul">16/Pick Up And Haul</li>
-			<li IfModActive="meltup.beautifuloutdoors">16/Beautiful Outdoors</li>
 			<li IfModActive="co.uk.epicguru.meleeanimation">16/Melee Animation</li>
+			<li IfModActive="jaxe.bubbles">16/Bubbles</li>
+			<li IfModActive="jpt.speakup">16/SpeakUp</li>
+			
 		</v1.6>
 </loadFolders>
