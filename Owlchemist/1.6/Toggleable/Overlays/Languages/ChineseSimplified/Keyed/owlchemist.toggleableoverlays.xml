@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ToggleableOverlays.Header.TextOverlays>文本覆盖层</ToggleableOverlays.Header.TextOverlays>
+	<ToggleableOverlays.Header.IconOverlays>图标覆盖层</ToggleableOverlays.Header.IconOverlays>
+	<ToggleableOverlays.Header.Misc>杂项</ToggleableOverlays.Header.Misc>
+	
+	<ToggleableOverlays.Settings.HideItem>物品</ToggleableOverlays.Settings.HideItem>
+	<ToggleableOverlays.Settings.HideStorage>存储建筑</ToggleableOverlays.Settings.HideStorage>
+	<ToggleableOverlays.Settings.HideBed>床位分配</ToggleableOverlays.Settings.HideBed>
+	<ToggleableOverlays.Settings.HideThrone>王座分配</ToggleableOverlays.Settings.HideThrone>
+	<ToggleableOverlays.Settings.HidePlayerPawn>玩家角色</ToggleableOverlays.Settings.HidePlayerPawn>
+	<ToggleableOverlays.Settings.HideDraftedPawn>征召角色</ToggleableOverlays.Settings.HideDraftedPawn>
+	<ToggleableOverlays.Settings.HidePrisonerPawn>囚犯</ToggleableOverlays.Settings.HidePrisonerPawn>
+	<ToggleableOverlays.Settings.HideSlavePawn>奴隶</ToggleableOverlays.Settings.HideSlavePawn>
+	<ToggleableOverlays.Settings.HideHostilePawn>敌对角色</ToggleableOverlays.Settings.HideHostilePawn>
+	<ToggleableOverlays.Settings.HideOtherPawn>友好和中立角色</ToggleableOverlays.Settings.HideOtherPawn>
+	<ToggleableOverlays.Settings.HidePower>电力</ToggleableOverlays.Settings.HidePower>
+	<ToggleableOverlays.Settings.HideFuel>燃料</ToggleableOverlays.Settings.HideFuel>
+	<ToggleableOverlays.Settings.HideBrokenDown>故障</ToggleableOverlays.Settings.HideBrokenDown>
+	<ToggleableOverlays.Settings.HideForbidden>禁止物品</ToggleableOverlays.Settings.HideForbidden>
+	<ToggleableOverlays.Settings.HideForbiddenBuildings>禁止建筑和蓝图</ToggleableOverlays.Settings.HideForbiddenBuildings>
+	<ToggleableOverlays.Settings.QuickShowEnabled>启用快速显示</ToggleableOverlays.Settings.QuickShowEnabled>
+	<ToggleableOverlays.Settings.QuickShowAltMode>启用快速显示切换模式</ToggleableOverlays.Settings.QuickShowAltMode>
+	<ToggleableOverlays.Settings.BlueprintTransparency>蓝图透明度：{3}（需要重新加载存档）</ToggleableOverlays.Settings.BlueprintTransparency>
+	<ToggleableOverlays.Settings.UseOptimizedLister>使用优化版列表器</ToggleableOverlays.Settings.UseOptimizedLister>
+	<ToggleableOverlays.Settings.UseZoomFilter>使用缩放过滤器</ToggleableOverlays.Settings.UseZoomFilter>
+	<ToggleableOverlays.Settings.HideMoteProgress>隐藏工作进度条</ToggleableOverlays.Settings.HideMoteProgress>
+	<ToggleableOverlays.Settings.HideFuelGauge>隐藏燃料计</ToggleableOverlays.Settings.HideFuelGauge>
+	<ToggleableOverlays.Settings.HideWindGauge>隐藏风力计</ToggleableOverlays.Settings.HideWindGauge>
+	<ToggleableOverlays.Settings.HideAllGauges>隐藏所有仪表</ToggleableOverlays.Settings.HideAllGauges>
+	
+	<ToggleableOverlays.Settings.HideItem.Desc>隐藏物品数量和品质</ToggleableOverlays.Settings.HideItem.Desc>
+	<ToggleableOverlays.Settings.HideStorage.Desc>隐藏存储建筑覆盖层（包括深度存储）</ToggleableOverlays.Settings.HideStorage.Desc>
+	<ToggleableOverlays.Settings.HideBed.Desc>隐藏床铺和睡觉点分配</ToggleableOverlays.Settings.HideBed.Desc>
+	<ToggleableOverlays.Settings.HideThrone.Desc>隐藏王座分配</ToggleableOverlays.Settings.HideThrone.Desc>
+	<ToggleableOverlays.Settings.HidePlayerPawn.Desc>隐藏玩家角色名称</ToggleableOverlays.Settings.HidePlayerPawn.Desc>
+	<ToggleableOverlays.Settings.HideDraftedPawn.Desc>隐藏征召角色名称</ToggleableOverlays.Settings.HideDraftedPawn.Desc>
+	<ToggleableOverlays.Settings.HidePrisonerPawn.Desc>隐藏囚犯名称</ToggleableOverlays.Settings.HidePrisonerPawn.Desc>
+	<ToggleableOverlays.Settings.HideSlavePawn.Desc>隐藏奴隶名称</ToggleableOverlays.Settings.HideSlavePawn.Desc>
+	<ToggleableOverlays.Settings.HideHostilePawn.Desc>隐藏敌对角色名称</ToggleableOverlays.Settings.HideHostilePawn.Desc>
+	<ToggleableOverlays.Settings.HideOtherPawn.Desc>隐藏其他角色名称</ToggleableOverlays.Settings.HideOtherPawn.Desc>
+	<ToggleableOverlays.Settings.HidePower.Desc>隐藏电力覆盖层（需要电力 / 断开连接）</ToggleableOverlays.Settings.HidePower.Desc>
+	<ToggleableOverlays.Settings.HideFuel.Desc>隐藏燃料覆盖层（需要燃料 / 停止补充燃料）</ToggleableOverlays.Settings.HideFuel.Desc>
+	<ToggleableOverlays.Settings.HideBrokenDown.Desc>隐藏故障覆盖层</ToggleableOverlays.Settings.HideBrokenDown.Desc>
+	<ToggleableOverlays.Settings.HideForbidden.Desc>隐藏物品的红色禁止叉号覆盖层</ToggleableOverlays.Settings.HideForbidden.Desc>
+	<ToggleableOverlays.Settings.HideForbiddenBuildings.Desc>隐藏建筑和蓝图的红色禁止叉号覆盖层</ToggleableOverlays.Settings.HideForbiddenBuildings.Desc>
+	<ToggleableOverlays.Settings.QuickShowEnabled.Desc>允许使用热键（默认CTRL）显示所有覆盖层。在选项中使用常规按键绑定界面更改此键。</ToggleableOverlays.Settings.QuickShowEnabled.Desc>
+	<ToggleableOverlays.Settings.QuickShowAltMode.Desc>启用此模式后，只需按一次键即可启用快速显示，无需一直按住。</ToggleableOverlays.Settings.QuickShowAltMode.Desc>
+	<ToggleableOverlays.Settings.BlueprintTransparency.Desc>允许你更改蓝图的透明度（不适用于门）。你需要重新加载存档才能使更改应用于现有蓝图。</ToggleableOverlays.Settings.BlueprintTransparency.Desc>
+	<ToggleableOverlays.Settings.UseOptimizedLister.Desc>用更快的版本替换负责在物品上打印标签的代码循环。如果遇到兼容性问题，可以关闭此选项。</ToggleableOverlays.Settings.UseOptimizedLister.Desc>
+	<ToggleableOverlays.Settings.UseZoomFilter.Desc>提示优化版列表器根据缩放过滤器跳过物品，大大提升拉远视角时的性能。如果遇到与建筑标签打印相关的模组冲突，可以关闭此选项。</ToggleableOverlays.Settings.UseZoomFilter.Desc>
+	<ToggleableOverlays.Settings.HideMoteProgress.Desc>隐藏角色头顶上方显示的工作进度条。</ToggleableOverlays.Settings.HideMoteProgress.Desc>
+	<ToggleableOverlays.Settings.HideFuelGauge.Desc>隐藏绘制在可补充燃料建筑（如发射舱）上的燃料计。</ToggleableOverlays.Settings.HideFuelGauge.Desc>
+	<ToggleableOverlays.Settings.HideWindGauge.Desc>隐藏绘制在风力涡轮机上的风力计。</ToggleableOverlays.Settings.HideWindGauge.Desc>
+	<ToggleableOverlays.Settings.HideAllGauges.Desc>这将隐藏所有仪表——包括上面选项中列出的特定仪表，以及所有杂项仪表，包括来自模组的仪表。</ToggleableOverlays.Settings.HideAllGauges.Desc>
+</LanguageData>

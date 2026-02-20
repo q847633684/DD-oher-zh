@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MidSaverSaver.Settings.Label.Adding>与添加模组相关的修复：</MidSaverSaver.Settings.Label.Adding>
+	<MidSaverSaver.Settings.Label.Removing>与删除模组相关的修复：</MidSaverSaver.Settings.Label.Removing>
+	<MidSaverSaver.Settings.Label.Misc>Misc:</MidSaverSaver.Settings.Label.Misc>
+
+	<MidSaverSaver.ReloadNow>至少需要运行一项修复（查看调试控制台了解详细信息）。为了传播修复，请立即保存游戏，然后加载该保存。您不需要重新启动整个游戏.</MidSaverSaver.ReloadNow>
+	<MidSaverSaver.ReloadNow.Header>中级保护程序：需要重新加载</MidSaverSaver.ReloadNow.Header>
+
+	<MidSaverSaver.Settings.DisableCompression>修复哈希冲突</MidSaverSaver.Settings.DisableCompression>
+	<MidSaverSaver.Settings.DisableCompression.Desc>如果您在添加模组后遇到哈希冲突，您可能会注意到以下问题：\n\n\n1.) 石崖或石块消失了，或者变成了不同的物品。\n\n2.) 深钻出现异常项目。\n\n要正确使用此修复程序，您必须在添加新模组*之前*启用它，然后在启用它的情况下保存游戏。这将创建一个没有任何压缩的保存（有损压缩是此问题的根源）。然后您可以添加该模组，并且您可以随意禁用此设置或完全禁用此模组。</MidSaverSaver.Settings.DisableCompression.Desc>
+
+	<MidSaverSaver.Settings.GenerateMissingMineables>生成缺失的可开采物</MidSaverSaver.Settings.GenerateMissingMineables>
+	<MidSaverSaver.Settings.GenerateMissingMineables.Desc>如果您添加一个为我的矿场添加新东西的模组，例如金属、煤炭等，则此补丁将在现有地图上追溯生成它们。启用它，然后加载您的保存以触发补丁。\n\n此设置不会保存，并将在下次游戏重新启动时关闭。</MidSaverSaver.Settings.GenerateMissingMineables.Desc>
+
+	<MidSaverSaver.Settings.FixCorruptWorldObjects>修复派系移除问题</MidSaverSaver.Settings.FixCorruptWorldObjects>
+	<MidSaverSaver.Settings.FixCorruptWorldObjects.Desc>如果删除派系，您可能无法查看世界地图，或加载删除派系后创建的任何新保存。要使用此修复程序：\n\n\n1.) 启用它并加载删除了派系 mod 的保存。您会收到许多红色错误，但请忽略它们。控制台可能会提到有关删除损坏的世界对象的信息。\n\n2.) 保存游戏。\n\n3.) 检查是否可以加载保存的内容。如果可以的话，您就可以开始并应该禁用此修复程序，甚至完全禁用该模组。</MidSaverSaver.Settings.FixCorruptWorldObjects.Desc>
+
+	<MidSaverSaver.Settings.FixCorruptSectors>修复损坏的区域和部分</MidSaverSaver.Settings.FixCorruptSectors>
+	<MidSaverSaver.Settings.FixCorruptSectors.Desc>如果您删除具有自定义编码区域或剖面图层的模组，则可能会损坏这些组件的地图管理器。发生这种情况时，您在加载保存时会出现“灰屏死机”。此修复将重新生成它们：\n\n\n1.) 启用它并加载已删除 mod 的保存。您将收到许多红色错误，但请忽略它们。\n\n2.) 保存游戏。\n\n4.) 检查是否可以加载保存的内容。如果可以的话，您就可以开始并应该禁用此修复程序，甚至完全禁用该模组。如果您的区域被损坏，您需要自己建造这些区域（家庭区域、屋顶区域、除雪区域等）。</MidSaverSaver.Settings.FixCorruptSectors.Desc>
+
+	<MidSaverSaver.Settings.FixCorruptWeather>修复损坏的天气</MidSaverSaver.Settings.FixCorruptWeather>
+	<MidSaverSaver.Settings.FixCorruptWeather.Desc>如果您删除添加了自定义天气的模组，则加载时可能会出现“死机灰屏”。此修复将重置天气系统：\n\n\n1.) 启用它并加载已删除模组的保存。您将收到许多红色错误，但请忽略它们。\n\n2.) 保存游戏。\n\n4.) 检查是否可以加载保存的内容。如果可以的话，您就可以开始并应该禁用此修复程序，甚至完全禁用该模组。对于所有损坏的地图，天气将设置为香草“晴朗”天气定义。</MidSaverSaver.Settings.FixCorruptWeather.Desc>
+
+	<MidSaverSaver.Settings.FixMisc>修复不太常见的问题</MidSaverSaver.Settings.FixMisc>
+	<MidSaverSaver.Settings.FixMisc.Desc>针对不太常见的利基问题的杂项修复集合。</MidSaverSaver.Settings.FixMisc.Desc>
+
+	<MidSaverSaver.Settings.FixCorruptIdeos>修复腐败的意识形态</MidSaverSaver.Settings.FixCorruptIdeos>
+	<MidSaverSaver.Settings.FixCorruptIdeos.Desc>如果您打开意识形态用户界面并在浏览时遇到错误轰炸，这可能是由于戒律腐败造成的。此修复将删除它们：\n\n\n1.) 启用它并加载已删除 mod 的保存。您会收到许多红色错误，但请忽略它们。调试控制台可能会提到已删除损坏的规则。\n\n2.) 保存游戏。\n\n3.) 检查是否可以加载保存的内容。如果可以的话，您就可以开始并应该禁用此修复程序，甚至完全禁用该模组。你可能想要编辑意识形态来填补任何缺失的戒律。</MidSaverSaver.Settings.FixCorruptIdeos.Desc>
+
+	<MidSaverSaver.Settings.FixMissingStuff>修复缺失的材料</MidSaverSaver.Settings.FixMissingStuff>
+	<MidSaverSaver.Settings.FixMissingStuff.Desc>如果您删除添加了“东西”的模组（建筑物和物品的建造材料，例如钢铁和木材），则使用这些材料的任何东西都会以奇怪的状态加载。此修复将检查这一点，并根据共性为他们提供后备材料：\n\n\n1。）启用它并加载已删除模组的保存。您会收到许多红色错误，但请忽略它们。调试控制台可能会提到缺少材料的问题已修复。\n\n2.) 完成后禁用此补丁。</MidSaverSaver.Settings.FixMissingStuff.Desc>
+
+	<MidSaverSaver.Settings.DisableErrorSpamControl>暂时禁用错误垃圾邮件控制（危险）</MidSaverSaver.Settings.DisableErrorSpamControl>
+	<MidSaverSaver.Settings.DisableErrorSpamControl.Desc>删除模组时，您可能需要看到比错误垃圾邮件控制器允许的更多错误。您可以使用此选项来禁用此防护措施。此选项不会保存，并且会在重新启动游戏时重置为正常。\n\n警告：如果您遇到错误，请不要让游戏继续运行。如果没有垃圾邮件控制，错误日志的文件大小将膨胀数千兆字节。</MidSaverSaver.Settings.DisableErrorSpamControl.Desc>
+
+	<MidSaverSaver.Alert.MidSaverSaver.Label>中度保护 保护激活</MidSaverSaver.Alert.MidSaverSaver.Label>
+	<MidSaverSaver.Alert.MidSaverSaver.Desc>Mid-saver Saver 的修复程序之一当前处于活动状态。这些修复并不意味着您在玩游戏时被动启用。仅使用它们来主动解决问题。</MidSaverSaver.Alert.MidSaverSaver.Desc>
+
+	<MidSaverSaver.Alert.ErrorSpamControl.Label>故障保护已禁用</MidSaverSaver.Alert.ErrorSpamControl.Label>
+	<MidSaverSaver.Alert.ErrorSpamControl.Desc>中保程序已暂时禁用错误日志垃圾邮件故障保护。请小心这一点，因为日志文件的大小可能会迅速扩大，可能会耗尽所有磁盘空间。</MidSaverSaver.Alert.ErrorSpamControl.Desc>
+
+	<MidSaverSaver.Map>地图</MidSaverSaver.Map>
+	<MidSaverSaver.GenerateMineable.Header>Mid-saver Saver：生成缺失的可开采资源</MidSaverSaver.GenerateMineable.Header>
+	<MidSaverSaver.GenerateMineable>在地图“{1}”上未检测到 {0}。您想追溯生成它吗？\n\n有关平衡游戏玩法的注产生存在的可开采丛块，此处生成的数量将与新地图上生成的数量不完全匹配。每次添加新的团块时，未来追溯世代的准确性都会降低。因此，如果您计划添加新的可挖掘内容，请尽可能少地这样做。\n\n警告：一旦完成，地图将需要重新雾化。</MidSaverSaver.GenerateMineable>
+	<MidSaverSaver.GenerateMineable.Confirm>产生</MidSaverSaver.GenerateMineable.Confirm>
+	<MidSaverSaver.GenerateMineable.Skip>跳过</MidSaverSaver.GenerateMineable.Skip>
+
+	<MidSaverSaver.Settings.RemapBodyDefs>修复身体贴图</MidSaverSaver.Settings.RemapBodyDefs>
+	<MidSaverSaver.Settings.RemapBodyDefs.Desc>如果你安装一个修改身体部位数量的模组（例如添加尾巴、新肢体等），这可能会导致预先存在的假肢和其他假肢混入错误的身体部位，就像鼻子植入物突然出现在身体部位上一样。耳槽。要使用此修复程序：\n\n\n1.) 启用它并在添加新模组*之前*保存您的游戏。这将记录身体过去的样子。\n\n2.) 取消任何针对身体部位的待定医疗操作。\n\n3.) 启用模组并加载您的保存。\n\n4.) 保存您的游戏，并禁用该补丁。</MidSaverSaver.Settings.RemapBodyDefs.Desc>
+
+	<MidSaverSaver.BodyMap.Header>Mid-saver Saver：修复身体贴图</MidSaverSaver.BodyMap.Header>
+	<MidSaverSaver.BodyMapSaved>记录了 {0} 个主体定义。您应该取消任何针对身体部位的待处理操作，然后保存游戏。之后，关闭游戏并加载新模组。</MidSaverSaver.BodyMapSaved>
+	<MidSaverSaver.BodyMapWritten>世界各地所有 pawn 和动物的 {0} 身体部位 hediff 已重新映射。您需要保存然后重新加载该保存才能完成该过程（某些 pawn 的健康状况在重新加载时重置之前看起来并不正常）。</MidSaverSaver.BodyMapWritten>
+</LanguageData>

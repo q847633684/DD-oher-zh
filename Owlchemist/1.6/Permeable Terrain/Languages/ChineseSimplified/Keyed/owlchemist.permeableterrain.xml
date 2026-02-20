@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Permeation modifier (Mod default: {0}, Min: {1}, Max: {2}):-->
+  <PermeableTerrain.Modifier>渗透修正系数（模组默认值：{0}，最小值：{1}，最大值：{2}）：</PermeableTerrain.Modifier>
+  <!--EN: A modifier to the mod's base value, which is around {0}. For example setting this to 50% would shorten filth's lifespan even more.-->
+  <PermeableTerrain.Modifier.Desc>对模组基础值的修正系数，基础值约为 {0}。例如，将此值设置为 50% 将进一步缩短污物的持续时间。</PermeableTerrain.Modifier.Desc>
+  <!--EN: Other filth lifespan (Mod default: {0}, Min: {1}, Max: {2}):-->
+  <PermeableTerrain.OtherModifier>其他污物持续时间（模组默认值：{0}，最小值：{1}，最大值：{2}）：</PermeableTerrain.OtherModifier>
+  <!--EN: For any other filth that this mod does not adjust, including liquidy filth that lands on non-permeable surfaces, its base lifespan can be tweaked here.-->
+  <PermeableTerrain.OtherModifier.Desc>对于此模组未调整的任何其他污物，包括落在非渗透表面的液态污物，其基础持续时间可在此处进行调整。</PermeableTerrain.OtherModifier.Desc>
+</LanguageData>

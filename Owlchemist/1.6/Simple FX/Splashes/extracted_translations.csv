@@ -1,0 +1,10 @@
+key,text,tag,file,type
+SimpleFxSplashes.Settings.SizeMultiplier,初始尺寸（默认值：{0}）：{3} ,SimpleFxSplashes.Settings.SizeMultiplier,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.SizeMultiplier.Desc,调整水花大小。,SimpleFxSplashes.Settings.SizeMultiplier.Desc,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.SplashRarity,初始稀有度（默认值：{0}）：{3} ,SimpleFxSplashes.Settings.SplashRarity,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.SplashRarity.Desc,调整飞溅水花的放缓程度，减少会使其更加普遍，但也会影响性能。,SimpleFxSplashes.Settings.SplashRarity.Desc,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.FilterNature,过滤自然图块（默认值：{0}）：{3} ,SimpleFxSplashes.Settings.FilterNature,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.FilterNature.Desc,调整能受到雨水飞溅影响的自然方格(例如岩石地面)数量，目前已允许{0}%自然区块受到雨水飞溅影响，增加会影响游戏性能,SimpleFxSplashes.Settings.FilterNature.Desc,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.OptimizeOverlay,优化天气效果图层,SimpleFxSplashes.Settings.OptimizeOverlay,owlchemist.simplefxsplashes.xml,keyed
+SimpleFxSplashes.Settings.OptimizeOverlay.Desc,"启用以对游戏中的天气效果图层进行优化，如果遇到Mod冲突可以禁用此功能
+更改此选项需要重新启动游戏。",SimpleFxSplashes.Settings.OptimizeOverlay.Desc,owlchemist.simplefxsplashes.xml,keyed

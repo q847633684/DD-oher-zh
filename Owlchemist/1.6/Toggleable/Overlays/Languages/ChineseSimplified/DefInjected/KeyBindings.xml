@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <ToggleableOverlays.label>切换覆盖层</ToggleableOverlays.label>
+  <ToggleableOverlays.description>“切换覆盖层 (Toggle Overlays)”模组的功能快捷键。</ToggleableOverlays.description>
+  <QuickShowKey.label>切换覆盖层显示</QuickShowKey.label>
+
+</LanguageData>

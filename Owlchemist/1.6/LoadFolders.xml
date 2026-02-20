@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.6>
+		<li IfModActive="owlchemist.simplefx.smoke2">Simple FX/Smoke</li>
+		<li IfModActive="owlchemist.simplefx.splashes">Simple FX/Splashes</li>
+		<li IfModActive="atlas.simplefx.vapor.revaporized">Simple FX/Vapor</li>
+		<li IfModActive="owlchemist.toggleableoverlays">Toggleable/Overlays</li>
+		<li IfModActive="owlchemist.toggleablereadouts">Toggleable/Readouts</li>
+
+		<!--天花板-->
+		<li IfModActive="owlchemist.ceilingutilities">Simple Utilities/Ceiling</li>
+		<!--冰箱-->
+		<li IfModActive="owlchemist.fridgeutilities">Simple Utilities/Fridge</li>
+		<li IfModActive="owlchemist.wallutilities">Simple Utilities/Wall</li>
+		<!-- <li IfModActive="LWM.DeepStorage">Simple Utilities/Cont/LWM's Deep Storage</li> -->
+		
+		
+		<!--<li IfModActive="owlchemist.midsaversaver">Mid</li>-->
+		<li IfModActive="owlchemist.scatteredflames">Scattered Flames</li>
+		<!--<li IfModActive="owlchemist.giddyup">Giddy-Up 2</li>-->
+		<!--<li IfModActive="owlchemist.moonlight">Moonlight</li>-->
+		<li IfModActive="owlchemist.permeableterrain">Permeable Terrain</li>
+	</v1.6>
+</loadFolders>

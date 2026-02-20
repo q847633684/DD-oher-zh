@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <GU_RR_NoMountedHunting_Title>禁止騎乘狩獵</GU_RR_NoMountedHunting_Title>
+  <GU_RR_NoMountedHunting_Description>禁止騎乘狩獵，當使用戰鬥擴展時，建議打開，否則動物在玩耍時可能會受到傷害</GU_RR_NoMountedHunting_Description>
+
+	<GU_RR_AutomountDisabledByDefault_Title>禁止新動物用於工作騎乘</GU_RR_AutomountDisabledByDefault_Title>
+	<GU_RR_AutomountDisabledByDefault_Description>新獲得的動物[如商人、事件、馴服]，將被禁止用於工作騎乘。</GU_RR_AutomountDisabledByDefault_Description>
+
+  <GU_RR_DisableSlavePawnColumn_Title>禁止奴隸騎乘</GU_RR_DisableSlavePawnColumn_Title>
+  <GU_RR_DisableSlavePawnColumn_Description>禁用動物選項卡中的奴隸騎乘。在遊戲重啟時應用。</GU_RR_DisableSlavePawnColumn_Description>
+
+  <GU_RR_MinAutoMountDistance_Title>尋找坐騎－工作距離（範圍:{0}~{1} 默認: {2} 當前: {3}）</GU_RR_MinAutoMountDistance_Title>
+  <GU_RR_MinAutoMountDistance_Description>如果殖民者距離工作目的地超過[設置數值]&#10;&#13;將尋找坐騎進行移動，工作距離包含多個步驟 如:拖運物品。</GU_RR_MinAutoMountDistance_Description>
+
+  <GU_RR_MinAutoMountDistanceFromAnimal_Title>尋找坐騎－最大相距（範圍:{0}~{1} 默認: {2} 當前: {3}）</GU_RR_MinAutoMountDistanceFromAnimal_Title>
+  <GU_RR_MinAutoMountDistanceFromAnimal_Description>如果殖民者和坐騎之間的距離小於此設定，就會考慮騎乘移動。</GU_RR_MinAutoMountDistanceFromAnimal_Description>
+
+  <GU_RR_AutoHitchDistance_Title>放置坐騎－固定距離（範圍:{0}~{1} 默認: {2} 當前: {3}）</GU_RR_AutoHitchDistance_Title>
+  <GU_RR_AutoHitchDistance_Description>通常情況下殖民者會優先將坐騎放置在釋放點，但如果距離目的地超過[設置數值]，將會自行找地方固定坐騎。</GU_RR_AutoHitchDistance_Description>
+
+	<GU_RR_InjuredThreshold_Title>動物坐騎－受傷閥值（默認: {2}% 當前: {3}%）</GU_RR_InjuredThreshold_Title>
+	<GU_RR_InjuredThreshold_Description>當動物的健康值低於這個閥值時，就無法騎乘這個動物。</GU_RR_InjuredThreshold_Description>
+
+  <GU_RR_Designator_GU_DropAnimal_Expand_Label>釋放點</GU_RR_Designator_GU_DropAnimal_Expand_Label>  <!--Should be short-->
+  <GU_RR_Designator_GU_DropAnimal_Expand_Description>當騎乘不需要被圈養的動物時&#10;&#13;小人將使用釋放點。如果是家畜，會去附近的飼養圈。</GU_RR_Designator_GU_DropAnimal_Expand_Description>
+
+  <GU_RR_Designator_GU_DropAnimal_Clear_Label>移除釋放點</GU_RR_Designator_GU_DropAnimal_Clear_Label>  <!--Should be short-->
+  <GU_RR_Designator_GU_DropAnimal_Clear_Description>移除釋放點。</GU_RR_Designator_GU_DropAnimal_Clear_Description>
+
+  <GU_RR_Designator_GU_NoMount_Clear_Label>移除禁騎區</GU_RR_Designator_GU_NoMount_Clear_Label>  <!--Should be short-->
+  <GU_RR_Designator_GU_NoMount_Clear_Description>移除禁止騎乘的區域.</GU_RR_Designator_GU_NoMount_Clear_Description>
+
+  <GU_RR_Designator_GU_NoMount_Expand_Label>禁騎區 </GU_RR_Designator_GU_NoMount_Expand_Label>
+  <GU_RR_Designator_GU_NoMount_Expand_Description>小人會避免在禁騎區騎乘坐騎&#10;&#13;如果目的地在範圍內，將根據能否被圈養選擇將坐騎送往 釋放點/飼養圈 進行放置。</GU_RR_Designator_GU_NoMount_Expand_Description>
+
+  <GU_RR_NoDropAnimal_Label>無釋放點</GU_RR_NoDropAnimal_Label>
+  <GU_RR_NoDropAnimal_Description>禁止騎乘區域已被指定，但沒有釋放點，請在附近設置一個釋放點。</GU_RR_NoDropAnimal_Description>
+
+  <GU_RR_NotReachable_DropAnimal_Message>殖民者無法到達 {0} 的坐騎點。</GU_RR_NotReachable_DropAnimal_Message>
+
+  <GU_RR_Gizmo_LeaveRider_Label>離開騎手</GU_RR_Gizmo_LeaveRider_Label>
+  <GU_RR_Gizmo_LeaveRider_Description>命令動物停止等待騎手。</GU_RR_Gizmo_LeaveRider_Description>
+
+  <GU_RR_WaitForRiderTimer_Title>放置坐騎－待命時長（{3} 小時）</GU_RR_WaitForRiderTimer_Title>
+	<GU_RR_WaitForRiderTimer_Description>在工作騎乘期間,坐騎被固定後的等待時長&#10;&#13;&#10;&#13;請注意:在飢餓等緊急情況,可能會提前離開</GU_RR_WaitForRiderTimer_Description>
+
+
+</LanguageData>

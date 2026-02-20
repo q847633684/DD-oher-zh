@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ModMetaData>
+        <name>Owlchemist ZH(DD版)</name>
+        <author>dayday</author>
+        <supportedVersions>
+            <li>1.6</li>
+        </supportedVersions>
+        <modDependencies>
+        <li><packageId>owlchemist.simplefx.smoke2</packageId></li>
+        <li><packageId>owlchemist.ceilingutilities</packageId></li>
+		<li><packageId>owlchemist.fridgeutilities</packageId></li>
+		<li><packageId>owlchemist.wallutilities</packageId></li>
+		<li><packageId>owlchemist.scatteredflames</packageId></li>
+		<li><packageId>owlchemist.permeableterrain</packageId></li>
+        </modDependencies>
+        <packageId>Owlchemist.CHT.DD</packageId>
+	    <loadAfter>
+        <li>owlchemist.simplefx.smoke2</li>
+		<li>owlchemist.ceilingutilities</li>
+		<li>owlchemist.fridgeutilities</li>
+		<li>owlchemist.wallutilities</li>
+		<li>owlchemist.scatteredflames</li>
+		<li>owlchemist.permeableterrain</li>
+	    </loadAfter>
+        <description>Owlchemist 系列 简繁汉化
+            Simple Utilities
+            Simple FX
+            Toggleable
+            Mid
+            Scattered Flames
+            Giddy-Up 2
+            Moonlight
+        </description>
+
+    </ModMetaData>

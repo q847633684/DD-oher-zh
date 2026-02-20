@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--原中文: '考虑室外温度', 原英文: '无' -> 新英文: 'Consider outdoor temperature',更新于2026-02-16-->
+  <!--EN: Consider outdoor temperature-->
+  <SimpleFxVapor.Settings.ConsiderOutdoors>考虑室外温度</SimpleFxVapor.Settings.ConsiderOutdoors>
+  <!--原中文: '如果室外寒冷，请勿显示室内蒸汽。', 原英文: '无' -> 新英文: 'Do not show indoor vapors if it's freezing cold outside.',更新于2026-02-16-->
+  <!--EN: Do not show indoor vapors if it's freezing cold outside.-->
+  <SimpleFxVapor.Settings.ConsiderOutdoors.Desc>如果室外寒冷，请勿显示室内蒸汽。</SimpleFxVapor.Settings.ConsiderOutdoors.Desc>
+</LanguageData>

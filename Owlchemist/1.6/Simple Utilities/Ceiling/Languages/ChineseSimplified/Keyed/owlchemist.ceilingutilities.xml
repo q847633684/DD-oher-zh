@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<Owl_ToggleFixtures>开关天花板装置</Owl_ToggleFixtures>
+	<Utilities_useDrawFixturesToggle>显示可见性切换按钮</Utilities_useDrawFixturesToggle>
+	<WorkPlacer_NeedsRoof>必须放置在屋顶下。</WorkPlacer_NeedsRoof>
+	<WorkPlacer_OverForbiddenThing>无法放置在此类物品上。</WorkPlacer_OverForbiddenThing>
+	<WorkPlacer_OverBlueprint>无法放置在此类蓝图上。</WorkPlacer_OverBlueprint>
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+  <BM_MinHandlingLevel_Title>騎手等級－需求（範圍: {0}~{1} 默認: {2} 當前: {3}）</BM_MinHandlingLevel_Title>
+  <BM_MinHandlingLevel_Description>敵方/友方小人進入地圖時生成騎手所需的最低動物技能等級。</BM_MinHandlingLevel_Description>
+
+  <BM_InBiomeWeight_Title>坐騎生態物種－殖民地（範圍: {0}~{1}% 默認: {2}% 當前: {3}%）</BM_InBiomeWeight_Title>
+  <BM_InBiomeWeight_Description>敵方坐騎來自殖民地生態的機率。</BM_InBiomeWeight_Description>
+
+  <BM_OutBiomeWeight_Title>坐騎生態物種－隨機生態（範圍: {0}~{1}% 默認: {2}% 當前: {3}%）</BM_OutBiomeWeight_Title>
+  <BM_OutBiomeWeight_Description>敵方坐騎來自隨機生態的機率。</BM_OutBiomeWeight_Description>
+
+  <BM_NonWildWeight_Title>坐騎生態物種－非野生（範圍: {0}~{1}% 默認: {2}% 當前: {3}%）</BM_NonWildWeight_Title>
+  <BM_NonWildWeight_Description>敵方騎乘已馴化坐騎的機率。</BM_NonWildWeight_Description>
+
+  <BM_EnemyMountChance_Title>騎手突襲－機率（範圍: {0}~{1}% 默認: {2}% 當前: {3}%）</BM_EnemyMountChance_Title>
+  <BM_EnemyMountChance_Description>襲擊時，敵方生成騎手的機率。</BM_EnemyMountChance_Description>
+
+  <BM_EnemyMountChanceTribal_Title>部落騎手突襲－機率（範圍: {0}~{1}% 默認: {2}% 當前: {3}%）</BM_EnemyMountChanceTribal_Title>
+  <BM_EnemyMountChanceTribal_Description>原始部落、中世紀派系襲擊時生成騎手的機率。</BM_EnemyMountChanceTribal_Description>
+
+  <BM_SizeOk>可騎乘</BM_SizeOk>
+  <BM_SizeNotOk>無法騎乘</BM_SizeNotOk>
+  <BM_DrawFront>動物圖層置前</BM_DrawFront>
+  <BM_DrawBack>動物圖層置後</BM_DrawBack>
+
+</LanguageData>

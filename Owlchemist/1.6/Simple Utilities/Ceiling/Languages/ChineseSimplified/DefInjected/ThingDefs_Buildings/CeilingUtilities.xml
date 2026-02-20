@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: mounted firefoam popper-->
+  <Owl_CeilingFirefoamPopper.label>悬挂式灭火泡沫喷射器</Owl_CeilingFirefoamPopper.label>
+  <!--EN: An electrical standing lamp that lights an area. People need light to move and work at full speed.-->
+  <Owl_CeilingLight.description>一种电动吸顶灯，用于照亮区域。人们需要光线才能以全速移动和工作。</Owl_CeilingLight.description>
+  <!--EN: ceiling light-->
+  <Owl_CeilingLight.label>吸顶灯</Owl_CeilingLight.label>
+  <!--EN: ceiling sun lamp-->
+  <Owl_CeilingSunLamp.label>吸顶太阳灯</Owl_CeilingSunLamp.label>
+  <!--EN: A ceiling mounted chandelier with four torches on each side.-->
+  <Owl_Chandelier.description>一种悬挂在天花板上的枝形吊灯，每侧装有四盏灯。</Owl_Chandelier.description>
+  <!--EN: chandelier-->
+  <Owl_Chandelier.label>枝形吊灯</Owl_Chandelier.label>
+  <!--EN: A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. This unit has been carefully repurposed into a ceiling fixture, and cannot be salvaged via deconstruction.-->
+  <Owl_GloomCeilingLight.description>一种功能未知的自供电机械体节点。机械体节点可以被拆解以获得有价值的资源——但前提是完整捕获。如果该装置受到过多伤害，内部微型电池会烧毁并损坏材料。该装置已被精心改造为天花板固定装置，无法通过拆解回收。</Owl_GloomCeilingLight.description>
+  <!--EN: mounted gloomlight-->
+  <Owl_GloomCeilingLight.label>悬挂式幽暗灯</Owl_GloomCeilingLight.label>
+  <!--EN: gloomlight-->
+  <Owl_GloomlightMinified.label>幽暗灯</Owl_GloomlightMinified.label>
+  <!--EN: An electrical standing lamp that lights an area. People need light to move and work at full speed.-->
+  <Owl_LongCeilingLight.description>一种电动吸顶灯，用于照亮区域。人们需要光线才能以全速移动和工作。</Owl_LongCeilingLight.description>
+  <!--EN: long ceiling light-->
+  <Owl_LongCeilingLight.label>长型吸顶灯</Owl_LongCeilingLight.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<WallUtilities.Report.NoRoof>加热器前方的空间必须位于屋顶下。</WallUtilities.Report.NoRoof>
+	<WallUtilities.Report.FreeSpace>加热器前方的空间不能是墙壁、门或其他加热器。</WallUtilities.Report.FreeSpace>
+	<WallUtilities.Report.Blueprints>无法放置在蓝图上。</WallUtilities.Report.Blueprints>
+	<WallUtilities.Report.ByWall>必须紧邻墙壁放置。</WallUtilities.Report.ByWall>
+	<WallUtilities.Report.OnFence>必须沿着围栏放置。</WallUtilities.Report.OnFence>
+	<WallUtilities.Report.OnWall>必须放置在墙壁上并面向空旷空间。</WallUtilities.Report.OnWall>
+</LanguageData>

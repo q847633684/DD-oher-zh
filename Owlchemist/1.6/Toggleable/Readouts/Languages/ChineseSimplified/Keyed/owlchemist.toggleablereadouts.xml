@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<ToggleableReadouts.Filter>过滤掉 {0}</ToggleableReadouts.Filter>
+	<ToggleableReadouts.FilterApplied>{0} 已被隐藏。如果想取消隐藏，请前往模组选项中进行设置。</ToggleableReadouts.FilterApplied>
+	
+	<ToggleableReadouts.Pin>固定 {0}</ToggleableReadouts.Pin>
+	<ToggleableReadouts.Unpin>取消固定 {0}</ToggleableReadouts.Unpin>
+	
+	<ToggleableReadouts.Settings.DisableAll>全部禁用</ToggleableReadouts.Settings.DisableAll>
+	<ToggleableReadouts.Settings.DisableAllTooltip>隐藏所有数值的优化版本</ToggleableReadouts.Settings.DisableAllTooltip>
+
+	<ToggleableReadouts.Settings.Help>点击按钮将其从资源读数过滤器中移除</ToggleableReadouts.Settings.Help>
+	<ToggleableReadouts.Settings.Thing>物品</ToggleableReadouts.Settings.Thing>
+	<ToggleableReadouts.Settings.ThingCategoryDef>类别</ToggleableReadouts.Settings.ThingCategoryDef>
+</LanguageData>
