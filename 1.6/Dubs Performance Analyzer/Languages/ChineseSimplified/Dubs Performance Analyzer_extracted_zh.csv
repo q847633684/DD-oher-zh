@@ -119,3 +119,73 @@ entry.update.dynamicdraw,Draw Dynamic Things,entry.update.dynamicdraw,English.xm
 entry.update.dynamicdraw.tooltip,The draw method for things which are drawn via the DynamicDrawManager,entry.update.dynamicdraw.tooltip,English.xml,keyed,The draw method for things which are drawn via the DynamicDrawManager,通过 DynamicDrawManager 绘制的事物的绘制方法
 entry.update.gamecomponent,Game Component Update,entry.update.gamecomponent,English.xml,keyed,Game Component Update,游戏组件更新
 entry.update.gamecomponent.tooltip,The Update method for each gamecomponent,entry.update.gamecomponent.tooltip,English.xml,keyed,The Update method for each gamecomponent,每个游戏组件的 Update 方法
+entry.update.harmonypatches,Harmony Patches,entry.update.harmonypatches,English.xml,keyed,Harmony Patches,和谐补丁
+entry.update.harmonypatches.tooltip,Harmony patches added by mods (Prefixes and Postfixes only),entry.update.harmonypatches.tooltip,English.xml,keyed,Harmony patches added by mods (Prefixes and Postfixes only),mod 添加的 Harmony 补丁（仅限前缀和后缀）
+entry.update.harmonytranspilers,Harmony Transpilers,entry.update.harmonytranspilers,English.xml,keyed,Harmony Transpilers,和谐转译器
+entry.update.harmonytranspilers.tooltip,"Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it",entry.update.harmonytranspilers.tooltip,English.xml,keyed,"Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it",显示所有 Harmony Transpilers 的半准确分析，Wiki 中有一篇文章详细介绍了它
+entry.update.infocard,Info Card,entry.update.infocard,English.xml,keyed,Info Card,信息卡
+entry.update.infocard.tooltip,"A variety of methods which relate to info panels, including stats, and gui methods",entry.update.infocard.tooltip,English.xml,keyed,"A variety of methods which relate to info panels, including stats, and gui methods",与信息面板相关的各种方法，包括统计数据和 GUI 方法
+entry.update.mapcomponent,Map Component Update,entry.update.mapcomponent,English.xml,keyed,Map Component Update,地图组件更新
+entry.update.mapcomponent.tooltip,The Update method for Map Components,entry.update.mapcomponent.tooltip,English.xml,keyed,The Update method for Map Components,地图组件的Update方法
+entry.update.transpilermethods,Harmony Transpiled Methods,entry.update.transpilermethods,English.xml,keyed,Harmony Transpiled Methods,Harmony 转译方法
+entry.update.transpilermethods.tooltip,"Profiles entire methods that have transpiler patches, doesn't show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it",entry.update.transpilermethods.tooltip,English.xml,keyed,"Profiles entire methods that have transpiler patches, doesn't show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it",分析具有转译器补丁的整个方法，不显示单个更改的影响，仅显示整个方法，转译器可能会更改方法中某些代码运行的频率，而不仅仅是调用额外的方法，用于比较添加修补它的 mod 之前和之后方法的运行情况
+entry.update.sectionlayer.thingsdrawlayer,Draw Printed Things,entry.update.sectionlayer.thingsdrawlayer,English.xml,keyed,Draw Printed Things,绘制印刷物
+entry.update.sectionlayer.thingsdrawlayer.tooltip,Profile how long each thing takes to print,entry.update.sectionlayer.thingsdrawlayer.tooltip,English.xml,keyed,Profile how long each thing takes to print,描述每件事情的打印时间
+entry.update.sections,Sections,entry.update.sections,English.xml,keyed,Sections,部分
+entry.update.sections.tooltip,"Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones)",entry.update.sections.tooltip,English.xml,keyed,"Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones)",显示SectionLayers的重新生成方法（SectionLayers是诸如Snow、SunShadows、Zones之类的东西）
+entry.update.pawnrenderer,Pawn Renderer,entry.update.pawnrenderer,English.xml,keyed,Pawn Renderer,Pawn 渲染器
+entry.update.pawnrenderer.tooltip,"Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel",entry.update.pawnrenderer.tooltip,English.xml,keyed,"Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel",显示 pawnrenderer 函数，该函数负责 pawn 和服装的渲染
+entry.update.root,Root,entry.update.root,English.xml,keyed,Root,根
+entry.update.root.tooltip,Various root methods,entry.update.root.tooltip,English.xml,keyed,Various root methods,多种root方法
+entry.update.sectionlayerthings,Section Layer Things,entry.update.sectionlayerthings,English.xml,keyed,Section Layer Things,剖面层事物
+entry.update.sectionlayerthings.tooltip,"More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function",entry.update.sectionlayerthings.tooltip,English.xml,keyed,"More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function",对剖面层进行更深入的分析，包括网格创建和 TakePrintFrom 函数
+entry.update.mapdrawer,MapDrawer,entry.update.mapdrawer,English.xml,keyed,MapDrawer,地图抽屉
+entry.update.mapdrawer.tooltip,Draw method on each map section layer,entry.update.mapdrawer.tooltip,English.xml,keyed,Draw method on each map section layer,每个地图剖面图层上的绘制方法
+entry.update.shooting,Shooting and Combat,entry.update.shooting,English.xml,keyed,Shooting and Combat,射击与战斗
+entry.update.shooting.tooltip,"Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc",entry.update.shooting.tooltip,English.xml,keyed,"Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc",展示了多种与战斗和射击相关的方法，包括动词、炮塔、投射物等
+entry.update.uiroot,UI Root Update,entry.update.uiroot,English.xml,keyed,UI Root Update,用户界面根更新
+entry.update.uiroot.tooltip,"A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor",entry.update.uiroot.tooltip,English.xml,keyed,"A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor",GUI相关功能的多种更新方法，例如；警报读出、消息、导师
+entry.update.thoughtworker,Thought Workers,entry.update.thoughtworker,English.xml,keyed,Thought Workers,思想工作者
+entry.update.thoughtworker.tooltip,"Thought Workers, these drive the updates of pawns thoughts",entry.update.thoughtworker.tooltip,English.xml,keyed,"Thought Workers, these drive the updates of pawns thoughts",思想工作者，这些推动棋子思想的更新
+entry.update.frametimes,Frame times,entry.update.frametimes,English.xml,keyed,Frame times,帧时间
+entry.update.frametimes.tooltip,Shows entries which correlate to the frame times of your game (how long does each frame take to complete),entry.update.frametimes.tooltip,English.xml,keyed,Shows entries which correlate to the frame times of your game (how long does each frame take to complete),显示与游戏的帧时间相关的条目（每帧需要多长时间才能完成）
+entry.update.custom,Custom Update,entry.update.custom,English.xml,keyed,Custom Update,自定义更新
+entry.update.custom.tooltip,Custom Profiled methods in the update category,entry.update.custom.tooltip,English.xml,keyed,Custom Profiled methods in the update category,更新类别中的自定义分析方法
+entry.tick.custom,Custom Tick,entry.tick.custom,English.xml,keyed,Custom Tick,自定义刻度
+entry.tick.custom.tooltip,Custom Profiled methods in the tick category,entry.tick.custom.tooltip,English.xml,keyed,Custom Profiled methods in the tick category,勾选类别中的自定义分析方法
+FixEverything,Fix Everything,FixEverything,English.xml,keyed,Fix Everything,修复一切
+performance.alertsoverride,Disable Alerts individually,performance.alertsoverride,English.xml,keyed,Disable Alerts individually,单独禁用警报
+performance.alertsoverride.tooltip,Choose to disable expensive alerts,performance.alertsoverride.tooltip,English.xml,keyed,Choose to disable expensive alerts,选择禁用昂贵的警报
+performance.alertsdisable,Disable all Alerts,performance.alertsdisable,English.xml,keyed,Disable all Alerts,禁用所有警报
+performance.alertsdisable.tooltip,Disable all alerts,performance.alertsdisable.tooltip,English.xml,keyed,Disable all alerts,禁用所有警报
+performance.sectionlayersnow,Improve the speed of rendering for snow,performance.sectionlayersnow,English.xml,keyed,Improve the speed of rendering for snow,提高雪的渲染速度
+performance.sectionlayersnow.tooltip,Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour,performance.sectionlayersnow.tooltip,English.xml,keyed,Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour,在雪色计算中用字节乘法替换 Mathf.Lerp
+performance.lordnotifydamage,Remove some stutters for raid AI,performance.lordnotifydamage,English.xml,keyed,Remove some stutters for raid AI,消除 Raid AI 的一些卡顿
+performance.lordnotifydamage.tooltip,Removes a redundant damage-notification check from the Lord toils 'LordToil_AssaultColony' and 'LordToil_AssaultColonySappers',performance.lordnotifydamage.tooltip,English.xml,keyed,Removes a redundant damage-notification check from the Lord toils 'LordToil_AssaultColony' and 'LordToil_AssaultColonySappers',从领主劳作“LordToil_AssaultColony”和“LordToil_AssaultColonySappers”中删除了多余的损坏通知检查
+performance.killaudio,Disable in-game music,performance.killaudio,English.xml,keyed,Disable in-game music,禁用游戏内音乐
+performance.killaudio.tooltip,Prevent music player bugs by destructively prefixing the 'MusicManagerPlay:MusicUpdate' function,performance.killaudio.tooltip,English.xml,keyed,Prevent music player bugs by destructively prefixing the 'MusicManagerPlay:MusicUpdate' function,通过破坏性地添加“MusicManagerPlay:MusicUpdate”函数前缀来防止音乐播放器错误
+performance.buildingrepair,Optimize the repair job,performance.buildingrepair,English.xml,keyed,Optimize the repair job,优化修复工作
+performance.buildingrepair.tooltip,Removes objects that are not repairable or do not have hitpoints (which the Type 'ListerBuildingsRepairable' does not filter out),performance.buildingrepair.tooltip,English.xml,keyed,Removes objects that are not repairable or do not have hitpoints (which the Type 'ListerBuildingsRepairable' does not filter out),删除不可修复或没有生命值的对象（类型“ListerBuildingsRepairable”不会过滤掉）
+performance.roof,Optimize roof jobgiver,performance.roof,English.xml,keyed,Optimize roof jobgiver,优化屋顶作业者
+performance.roof.tooltip,"Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed",performance.roof.tooltip,English.xml,keyed,"Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed",当屋顶被移除/需要更换时进行缓存，并在状态没有改变时阻止 jobgiver 运行
+performance.wallsnconduits,Optimize drawing for walls and conduits,performance.wallsnconduits,English.xml,keyed,Optimize drawing for walls and conduits,优化墙壁和管道的绘图
+performance.wallsnconduits.tooltip,Set the mesh draw type for walls and conduits to 'MapMeshOnly',performance.wallsnconduits.tooltip,English.xml,keyed,Set the mesh draw type for walls and conduits to 'MapMeshOnly',将墙壁和管道的网格绘制类型设置为“MapMeshOnly”
+performance.compdeepdrill,Optimize deep drills,performance.compdeepdrill,English.xml,keyed,Optimize deep drills,优化深钻
+performance.compdeepdrill.tooltip,"Skips a check for the 'correct' stone under a drill, improves performance of drills when using pawns with high mining",performance.compdeepdrill.tooltip,English.xml,keyed,"Skips a check for the 'correct' stone under a drill, improves performance of drills when using pawns with high mining",跳过对钻头下“正确”石头的检查，在使用高采矿量的 pawn 时提高钻头的性能
+performance.tempcache,Cache ComfortableTemperatureRange,performance.tempcache,English.xml,keyed,Cache ComfortableTemperatureRange,缓存舒适温度范围
+performance.tempcache.tooltip,"Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding",performance.tempcache.tooltip,English.xml,keyed,"Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding",每个时钟周期缓存一次安全温度范围，减少因寻路等问题而产生的过多 CPU 负载
+performance.zoom,Reduce stutters while panning,performance.zoom,English.xml,keyed,Reduce stutters while panning,减少平移时的卡顿
+performance.zoom.tooltip,Lowers the target tps when panning to reduce stuttering,performance.zoom.tooltip,English.xml,keyed,Lowers the target tps when panning to reduce stuttering,降低平移时的目标 tps 以减少卡顿
+performance.drawlabelsfix,Optimize pawn labels,performance.drawlabelsfix,English.xml,keyed,Optimize (PH_1) labels,优化 pawn 标签
+performance.drawlabelsfix.tooltip,Optimize the drawing of pawn and animal names in-map,performance.drawlabelsfix.tooltip,English.xml,keyed,Optimize the drawing of (PH_1) and animal names in-map,优化地图中pawn和动物名称的绘制
+temp.section,Optimize Map Loading,temp.section,English.xml,keyed,Optimize Map Loading,优化地图加载
+temp.section.tooltip,Caches types in the constructor for 'Section' - this should be fixed in a future rw update,temp.section.tooltip,English.xml,keyed,Caches types in the constructor for 'Section' - this should be fixed in a future rw update,缓存“Section”构造函数中的类型 - 这应该在未来的 rw 更新中修复
+fix.fixmodremoval,"Fix mod removal, may solve grey screen issue",fix.fixmodremoval,English.xml,keyed,"Fix mod removal, may solve grey screen issue",修复模组删除，可能会解决灰屏问题
+fix.fixmodremoval.tooltip,This fixes the area manager trying to loop through null area classes from missing mods,fix.fixmodremoval.tooltip,English.xml,keyed,This fixes the area manager trying to loop through null area classes from missing mods,这修复了区域管理器尝试循环遍历缺失模组中的空区域类的问题
+fix.faction,Fix missing mod factions,fix.faction,English.xml,keyed,Fix missing mod factions,修复缺失的模组派系
+fix.faction.tooltip,Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save,fix.faction.tooltip,English.xml,keyed,Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save,删除世界对象中对已删除派系的所有引用。这将解决保存过程中删除派系时的问题
+DubsOptimizer.label,Dubs Performance Analyzer,label,MainButton.xml,def,Dubs Performance Analyzer,Dubs 性能分析器
+DubsOptimizer.description,Keybinds for Dubs Performance Analyzer.,description,MainButton.xml,def,Keybinds for Dubs Performance Analyzer.,Dubs 性能分析器的按键绑定。
+DubsOptimizerKey.label,Dubs Performance Analyzer,label,MainButton.xml,def,Dubs Performance Analyzer,Dubs 性能分析器
+DubsOptimizerRestartKey.label,Restart game,label,MainButton.xml,def,Restart game,重新开始游戏
+dpa_ToggleAlertBlock.label,Toggle Alerts,label,MainButton.xml,def,Toggle Alerts,切换警报
