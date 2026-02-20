@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Fix Everything-->
+  <FixEverything>Fix Everything</FixEverything>
+  <!--EN: Profile-->
+  <devoptions.heading>Profile</devoptions.heading>
+  <!--EN: Assembly-->
+  <devoptions.input.assembly>Assembly</devoptions.input.assembly>
+  <!--EN: Method-->
+  <devoptions.input.method>Method</devoptions.input.method>
+  <!--EN: Method Harmony-->
+  <devoptions.input.methodharmony>Method Harmony</devoptions.input.methodharmony>
+  <!--EN: Method Internals-->
+  <devoptions.input.methodinternal>Method Internals</devoptions.input.methodinternal>
+  <!--EN: Subclass of Type-->
+  <devoptions.input.subclasses>Subclass of Type</devoptions.input.subclasses>
+  <!--EN: Type Harmony-->
+  <devoptions.input.typeharmony>Type Harmony</devoptions.input.typeharmony>
+  <!--EN: Tick-->
+  <devoptions.patchtype.tick>Tick</devoptions.patchtype.tick>
+  <!--EN: Update-->
+  <devoptions.patchtype.update>Update</devoptions.patchtype.update>
+  <!--EN: Frame-->
+  <dpa.frame>Frame</dpa.frame>
+  <!--EN: Colonist Bar OnGUI-->
+  <entry.gui.colonistbar>Colonist Bar OnGUI</entry.gui.colonistbar>
+  <!--EN: The colonist bar along the top of the screen-->
+  <entry.gui.colonistbar.tooltip>The colonist bar along the top of the screen</entry.gui.colonistbar.tooltip>
+  <!--EN: Do Tabs-->
+  <entry.gui.dotabs>Do Tabs</entry.gui.dotabs>
+  <!--EN: The inspect pane which opens up upon selecting a thing-->
+  <entry.gui.dotabs.tooltip>The inspect pane which opens up upon selecting a thing</entry.gui.dotabs.tooltip>
+  <!--EN: Game Component OnGUI-->
+  <entry.gui.gamecomponent>Game Component OnGUI</entry.gui.gamecomponent>
+  <!--EN: The GUI methods for each gamecomponent-->
+  <entry.gui.gamecomponent.tooltip>The GUI methods for each gamecomponent</entry.gui.gamecomponent.tooltip>
+  <!--EN: Resource Readout OnGUI-->
+  <entry.gui.resourcereadout>Resource Readout OnGUI</entry.gui.resourcereadout>
+  <!--EN: The UI function for the resource readout on the left of the screen-->
+  <entry.gui.resourcereadout.tooltip>The UI function for the resource readout on the left of the screen</entry.gui.resourcereadout.tooltip>
+  <!--EN: ThingOverlayONGUI-->
+  <entry.gui.thingoverlay.ongui>ThingOverlayONGUI</entry.gui.thingoverlay.ongui>
+  <!--EN: Thing overlay ONGUI-->
+  <entry.gui.thingoverlay.ongui.tooltip>Thing overlay ONGUI</entry.gui.thingoverlay.ongui.tooltip>
+  <!--EN: UI Root OnGUI-->
+  <entry.gui.uiroot>UI Root OnGUI</entry.gui.uiroot>
+  <!--EN: A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot-->
+  <entry.gui.uiroot.tooltip>A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot</entry.gui.uiroot.tooltip>
+  <!--EN: Window Stack OnGUI-->
+  <entry.gui.windowstack>Window Stack OnGUI</entry.gui.windowstack>
+  <!--EN: The OnGUI method for the window stack, should show profiling for all active windows-->
+  <entry.gui.windowstack.tooltip>The OnGUI method for the window stack, should show profiling for all active windows</entry.gui.windowstack.tooltip>
+  <!--EN: Custom Tick-->
+  <entry.tick.custom>Custom Tick</entry.tick.custom>
+  <!--EN: Custom Profiled methods in the tick category-->
+  <entry.tick.custom.tooltip>Custom Profiled methods in the tick category</entry.tick.custom.tooltip>
+  <!--EN: Game Component Tick-->
+  <entry.tick.gamecomponent>Game Component Tick</entry.tick.gamecomponent>
+  <!--EN: The Tick methods for each gamecomponent-->
+  <entry.tick.gamecomponent.tooltip>The Tick methods for each gamecomponent</entry.tick.gamecomponent.tooltip>
+  <!--EN: Job Drivers-->
+  <entry.tick.jobdriver>Job Drivers</entry.tick.jobdriver>
+  <!--EN: A breakdown of what is occuring in each job as it is being executed by a pawn-->
+  <entry.tick.jobdriver.tooltip>A breakdown of what is occuring in each job as it is being executed by a pawn</entry.tick.jobdriver.tooltip>
+  <!--EN: Job Giver-->
+  <entry.tick.jobgiver>Job Giver</entry.tick.jobgiver>
+  <!--EN: All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc-->
+  <entry.tick.jobgiver.tooltip>All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc</entry.tick.jobgiver.tooltip>
+  <!--EN: Lords-->
+  <entry.tick.lord>Lords</entry.tick.lord>
+  <!--EN: Lords are used for group AI, like weddings, raids, traders etc-->
+  <entry.tick.lord.tooltip>Lords are used for group AI, like weddings, raids, traders etc</entry.tick.lord.tooltip>
+  <!--EN: Map Component Tick-->
+  <entry.tick.mapcomponent>Map Component Tick</entry.tick.mapcomponent>
+  <!--EN: The Tick method for Map Components-->
+  <entry.tick.mapcomponent.tooltip>The Tick method for Map Components</entry.tick.mapcomponent.tooltip>
+  <!--EN: Needs-->
+  <entry.tick.needs>Needs</entry.tick.needs>
+  <!--EN: Shows a variety of methods which are used in Needs calculations-->
+  <entry.tick.needs.tooltip>Shows a variety of methods which are used in Needs calculations</entry.tick.needs.tooltip>
+  <!--EN: Pathfinding-->
+  <entry.tick.pathfinder>Pathfinding</entry.tick.pathfinder>
+  <!--EN: Shows a variety of methods which are used in pathfinding-->
+  <entry.tick.pathfinder.tooltip>Shows a variety of methods which are used in pathfinding</entry.tick.pathfinder.tooltip>
+  <!--EN: Pawn Tick-->
+  <entry.tick.pawn>Pawn Tick</entry.tick.pawn>
+  <!--EN: The variety of methods which are called on Pawn:Tick, including a variety of trackers-->
+  <entry.tick.pawn.tooltip>The variety of methods which are called on Pawn:Tick, including a variety of trackers</entry.tick.pawn.tooltip>
+  <!--EN: Pawn Generation-->
+  <entry.tick.pawngen>Pawn Generation</entry.tick.pawngen>
+  <!--EN: Shows methods around PawnGen and generation of pawns for raids-->
+  <entry.tick.pawngen.tooltip>Shows methods around PawnGen and generation of pawns for raids</entry.tick.pawngen.tooltip>
+  <!--EN: Rooms-->
+  <entry.tick.room>Rooms</entry.tick.room>
+  <!--EN: The method which is responsible for the updating of room stats-->
+  <entry.tick.room.tooltip>The method which is responsible for the updating of room stats</entry.tick.room.tooltip>
+  <!--EN: Single Tick-->
+  <entry.tick.single>Single Tick</entry.tick.single>
+  <!--EN: A variety of tick methods, including; World, History, FilthMonitor, Storyteller-->
+  <entry.tick.single.tooltip>A variety of tick methods, including; World, History, FilthMonitor, Storyteller</entry.tick.single.tooltip>
+  <!--EN: Statistics-->
+  <entry.tick.stats>Statistics</entry.tick.stats>
+  <!--EN: A variety of methods which are used to calculate and looking up stat-based values-->
+  <entry.tick.stats.tooltip>A variety of methods which are used to calculate and looking up stat-based values</entry.tick.stats.tooltip>
+  <!--EN: Storyteller and Incidents-->
+  <entry.tick.storyteller>Storyteller and Incidents</entry.tick.storyteller>
+  <!--EN: A variety of methods relating to both incident and quest generation-->
+  <entry.tick.storyteller.tooltip>A variety of methods relating to both incident and quest generation</entry.tick.storyteller.tooltip>
+  <!--EN: Thing Comps-->
+  <entry.tick.thingcomp>Thing Comps</entry.tick.thingcomp>
+  <!--EN: Thing comps, these can be added to any ThingWithComp, this collects them all into one category-->
+  <entry.tick.thingcomp.tooltip>Thing comps, these can be added to any ThingWithComp, this collects them all into one category</entry.tick.thingcomp.tooltip>
+  <!--EN: Tick Things-->
+  <entry.tick.things>Tick Things</entry.tick.things>
+  <!--EN: Profiles the ticking methods of various things on the map-->
+  <entry.tick.things.tooltip>Profiles the ticking methods of various things on the map</entry.tick.things.tooltip>
+  <!--EN: ThinkNodes-->
+  <entry.tick.thinknodes>ThinkNodes</entry.tick.thinknodes>
+  <!--EN: ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab-->
+  <entry.tick.thinknodes.tooltip>ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab</entry.tick.thinknodes.tooltip>
+  <!--EN: Work Giver-->
+  <entry.tick.workgiver>Work Giver</entry.tick.workgiver>
+  <!--EN: Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab-->
+  <entry.tick.workgiver.tooltip>Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab</entry.tick.workgiver.tooltip>
+  <!--EN: World Tick-->
+  <entry.tick.world>World Tick</entry.tick.world>
+  <!--EN: Tick methods for various world entries, such as; WorldPawns, Factions, Caravans-->
+  <entry.tick.world.tooltip>Tick methods for various world entries, such as; WorldPawns, Factions, Caravans</entry.tick.world.tooltip>
+  <!--EN: Alerts-->
+  <entry.update.alert>Alerts</entry.update.alert>
+  <!--EN: The recalculate and draw methods for Alerts-->
+  <entry.update.alert.tooltip>The recalculate and draw methods for Alerts</entry.update.alert.tooltip>
+  <!--EN: Custom Update-->
+  <entry.update.custom>Custom Update</entry.update.custom>
+  <!--EN: Custom Profiled methods in the update category-->
+  <entry.update.custom.tooltip>Custom Profiled methods in the update category</entry.update.custom.tooltip>
+  <!--EN: Draw Dynamic Things-->
+  <entry.update.dynamicdraw>Draw Dynamic Things</entry.update.dynamicdraw>
+  <!--EN: The draw method for things which are drawn via the DynamicDrawManager-->
+  <entry.update.dynamicdraw.tooltip>The draw method for things which are drawn via the DynamicDrawManager</entry.update.dynamicdraw.tooltip>
+  <!--EN: Frame times-->
+  <entry.update.frametimes>Frame times</entry.update.frametimes>
+  <!--EN: Shows entries which correlate to the frame times of your game (how long does each frame take to complete)-->
+  <entry.update.frametimes.tooltip>Shows entries which correlate to the frame times of your game (how long does each frame take to complete)</entry.update.frametimes.tooltip>
+  <!--EN: Game Component Update-->
+  <entry.update.gamecomponent>Game Component Update</entry.update.gamecomponent>
+  <!--EN: The Update method for each gamecomponent-->
+  <entry.update.gamecomponent.tooltip>The Update method for each gamecomponent</entry.update.gamecomponent.tooltip>
+  <!--EN: Harmony Patches-->
+  <entry.update.harmonypatches>Harmony Patches</entry.update.harmonypatches>
+  <!--EN: Harmony patches added by mods (Prefixes and Postfixes only)-->
+  <entry.update.harmonypatches.tooltip>Harmony patches added by mods (Prefixes and Postfixes only)</entry.update.harmonypatches.tooltip>
+  <!--EN: Harmony Transpilers-->
+  <entry.update.harmonytranspilers>Harmony Transpilers</entry.update.harmonytranspilers>
+  <!--EN: Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it-->
+  <entry.update.harmonytranspilers.tooltip>Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it</entry.update.harmonytranspilers.tooltip>
+  <!--EN: Info Card-->
+  <entry.update.infocard>Info Card</entry.update.infocard>
+  <!--EN: A variety of methods which relate to info panels, including stats, and gui methods-->
+  <entry.update.infocard.tooltip>A variety of methods which relate to info panels, including stats, and gui methods</entry.update.infocard.tooltip>
+  <!--EN: Map Component Update-->
+  <entry.update.mapcomponent>Map Component Update</entry.update.mapcomponent>
+  <!--EN: The Update method for Map Components-->
+  <entry.update.mapcomponent.tooltip>The Update method for Map Components</entry.update.mapcomponent.tooltip>
+  <!--EN: MapDrawer-->
+  <entry.update.mapdrawer>MapDrawer</entry.update.mapdrawer>
+  <!--EN: Draw method on each map section layer-->
+  <entry.update.mapdrawer.tooltip>Draw method on each map section layer</entry.update.mapdrawer.tooltip>
+  <!--EN: Pawn Renderer-->
+  <entry.update.pawnrenderer>Pawn Renderer</entry.update.pawnrenderer>
+  <!--EN: Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel-->
+  <entry.update.pawnrenderer.tooltip>Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel</entry.update.pawnrenderer.tooltip>
+  <!--EN: Root-->
+  <entry.update.root>Root</entry.update.root>
+  <!--EN: Various root methods-->
+  <entry.update.root.tooltip>Various root methods</entry.update.root.tooltip>
+  <!--EN: Draw Printed Things-->
+  <entry.update.sectionlayer.thingsdrawlayer>Draw Printed Things</entry.update.sectionlayer.thingsdrawlayer>
+  <!--EN: Profile how long each thing takes to print-->
+  <entry.update.sectionlayer.thingsdrawlayer.tooltip>Profile how long each thing takes to print</entry.update.sectionlayer.thingsdrawlayer.tooltip>
+  <!--EN: Section Layer Things-->
+  <entry.update.sectionlayerthings>Section Layer Things</entry.update.sectionlayerthings>
+  <!--EN: More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function-->
+  <entry.update.sectionlayerthings.tooltip>More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function</entry.update.sectionlayerthings.tooltip>
+  <!--EN: Sections-->
+  <entry.update.sections>Sections</entry.update.sections>
+  <!--EN: Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones)-->
+  <entry.update.sections.tooltip>Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones)</entry.update.sections.tooltip>
+  <!--EN: Shooting and Combat-->
+  <entry.update.shooting>Shooting and Combat</entry.update.shooting>
+  <!--EN: Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc-->
+  <entry.update.shooting.tooltip>Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc</entry.update.shooting.tooltip>
+  <!--EN: Thought Workers-->
+  <entry.update.thoughtworker>Thought Workers</entry.update.thoughtworker>
+  <!--EN: Thought Workers, these drive the updates of pawns thoughts-->
+  <entry.update.thoughtworker.tooltip>Thought Workers, these drive the updates of pawns thoughts</entry.update.thoughtworker.tooltip>
+  <!--EN: Harmony Transpiled Methods-->
+  <entry.update.transpilermethods>Harmony Transpiled Methods</entry.update.transpilermethods>
+  <!--EN: Profiles entire methods that have transpiler patches, doesn't show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it-->
+  <entry.update.transpilermethods.tooltip>Profiles entire methods that have transpiler patches, doesn't show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it</entry.update.transpilermethods.tooltip>
+  <!--EN: UI Root Update-->
+  <entry.update.uiroot>UI Root Update</entry.update.uiroot>
+  <!--EN: A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor-->
+  <entry.update.uiroot.tooltip>A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor</entry.update.uiroot.tooltip>
+  <!--EN: Fix missing mod factions-->
+  <fix.faction>Fix missing mod factions</fix.faction>
+  <!--EN: Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save-->
+  <fix.faction.tooltip>Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save</fix.faction.tooltip>
+  <!--EN: Fix mod removal, may solve grey screen issue-->
+  <fix.fixmodremoval>Fix mod removal, may solve grey screen issue</fix.fixmodremoval>
+  <!--EN: This fixes the area manager trying to loop through null area classes from missing mods-->
+  <fix.fixmodremoval.tooltip>This fixes the area manager trying to loop through null area classes from missing mods</fix.fixmodremoval.tooltip>
+  <!--EN: Average-->
+  <logs.av>Average</logs.av>
+  <!--EN: Sort the rows by the average (MS) the method is reaching-->
+  <logs.av.desc>Sort the rows by the average (MS) the method is reaching</logs.av.desc>
+  <!--EN: Av Per Call-->
+  <logs.avpc>Av Per Call</logs.avpc>
+  <!--EN: Sort the rows by the average per call (MS)-->
+  <logs.avpc.desc>Sort the rows by the average per call (MS)</logs.avpc.desc>
+  <!--EN: Average Per {0}-->
+  <logs.avpu>Average Per {0}</logs.avpu>
+  <!--EN: Calls-->
+  <logs.calls>Calls</logs.calls>
+  <!--EN: Sort the rows by total amount of calls-->
+  <logs.calls.desc>Sort the rows by total amount of calls</logs.calls.desc>
+  <!--EN: Av Calls Per {0}-->
+  <logs.callspu>Av Calls Per {0}</logs.callspu>
+  <!--EN: Sort the rows by average calls per {0}-->
+  <logs.callspu.desc>Sort the rows by average calls per {0}</logs.callspu.desc>
+  <!--EN: Max-->
+  <logs.max>Max</logs.max>
+  <!--EN: Sort the rows by the maximum (MS) peak the method has reached-->
+  <logs.max.desc>Sort the rows by the maximum (MS) peak the method has reached</logs.max.desc>
+  <!--EN: Max For {0}-->
+  <logs.maxpu>Max For {0}</logs.maxpu>
+  <!--EN: Name-->
+  <logs.name>Name</logs.name>
+  <!--EN: Sort the rows in alphabetical order-->
+  <logs.name.desc>Sort the rows in alphabetical order</logs.name.desc>
+  <!--EN: Percent-->
+  <logs.percent>Percent</logs.percent>
+  <!--EN: Sort the rows by relative percent in the category-->
+  <logs.percent.desc>Sort the rows by relative percent in the category</logs.percent.desc>
+  <!--EN: Total-->
+  <logs.total>Total</logs.total>
+  <!--EN: Sort the rows by total (MS) impact-->
+  <logs.total.desc>Sort the rows by total (MS) impact</logs.total.desc>
+  <!--EN: Mod Name-->
+  <panel.mod.name>Mod Name</panel.mod.name>
+  <!--EN: Open in Dnspy (requires the local path to be set)-->
+  <panel.opendnspy>Open in Dnspy (requires the local path to be set)</panel.opendnspy>
+  <!--EN: Open in Github-->
+  <panel.opengithub>Open in Github</panel.opengithub>
+  <!--EN: Disable all Alerts-->
+  <performance.alertsdisable>Disable all Alerts</performance.alertsdisable>
+  <!--EN: Disable all alerts-->
+  <performance.alertsdisable.tooltip>Disable all alerts</performance.alertsdisable.tooltip>
+  <!--EN: Disable Alerts individually-->
+  <performance.alertsoverride>Disable Alerts individually</performance.alertsoverride>
+  <!--EN: Choose to disable expensive alerts-->
+  <performance.alertsoverride.tooltip>Choose to disable expensive alerts</performance.alertsoverride.tooltip>
+  <!--EN: Optimize the repair job-->
+  <performance.buildingrepair>Optimize the repair job</performance.buildingrepair>
+  <!--EN: Removes objects that are not repairable or do not have hitpoints (which the Type 'ListerBuildingsRepairable' does not filter out)-->
+  <performance.buildingrepair.tooltip>Removes objects that are not repairable or do not have hitpoints (which the Type 'ListerBuildingsRepairable' does not filter out)</performance.buildingrepair.tooltip>
+  <!--EN: Optimize deep drills-->
+  <performance.compdeepdrill>Optimize deep drills</performance.compdeepdrill>
+  <!--EN: Skips a check for the 'correct' stone under a drill, improves performance of drills when using pawns with high mining-->
+  <performance.compdeepdrill.tooltip>Skips a check for the 'correct' stone under a drill, improves performance of drills when using pawns with high mining</performance.compdeepdrill.tooltip>
+  <!--EN: Optimize pawn labels-->
+  <performance.drawlabelsfix>Optimize pawn labels</performance.drawlabelsfix>
+  <!--EN: Optimize the drawing of pawn and animal names in-map-->
+  <performance.drawlabelsfix.tooltip>Optimize the drawing of pawn and animal names in-map</performance.drawlabelsfix.tooltip>
+  <!--EN: Disable in-game music-->
+  <performance.killaudio>Disable in-game music</performance.killaudio>
+  <!--EN: Prevent music player bugs by destructively prefixing the 'MusicManagerPlay:MusicUpdate' function-->
+  <performance.killaudio.tooltip>Prevent music player bugs by destructively prefixing the 'MusicManagerPlay:MusicUpdate' function</performance.killaudio.tooltip>
+  <!--EN: Remove some stutters for raid AI-->
+  <performance.lordnotifydamage>Remove some stutters for raid AI</performance.lordnotifydamage>
+  <!--EN: Removes a redundant damage-notification check from the Lord toils 'LordToil_AssaultColony' and 'LordToil_AssaultColonySappers'-->
+  <performance.lordnotifydamage.tooltip>Removes a redundant damage-notification check from the Lord toils 'LordToil_AssaultColony' and 'LordToil_AssaultColonySappers'</performance.lordnotifydamage.tooltip>
+  <!--EN: Optimize roof jobgiver-->
+  <performance.roof>Optimize roof jobgiver</performance.roof>
+  <!--EN: Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed-->
+  <performance.roof.tooltip>Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed</performance.roof.tooltip>
+  <!--EN: Improve the speed of rendering for snow-->
+  <performance.sectionlayersnow>Improve the speed of rendering for snow</performance.sectionlayersnow>
+  <!--EN: Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour-->
+  <performance.sectionlayersnow.tooltip>Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour</performance.sectionlayersnow.tooltip>
+  <!--EN: Cache ComfortableTemperatureRange-->
+  <performance.tempcache>Cache ComfortableTemperatureRange</performance.tempcache>
+  <!--EN: Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding-->
+  <performance.tempcache.tooltip>Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding</performance.tempcache.tooltip>
+  <!--EN: Optimize drawing for walls and conduits-->
+  <performance.wallsnconduits>Optimize drawing for walls and conduits</performance.wallsnconduits>
+  <!--EN: Set the mesh draw type for walls and conduits to 'MapMeshOnly'-->
+  <performance.wallsnconduits.tooltip>Set the mesh draw type for walls and conduits to 'MapMeshOnly'</performance.wallsnconduits.tooltip>
+  <!--EN: Reduce stutters while panning-->
+  <performance.zoom>Reduce stutters while panning</performance.zoom>
+  <!--EN: Lowers the target tps when panning to reduce stuttering-->
+  <performance.zoom.tooltip>Lowers the target tps when panning to reduce stuttering</performance.zoom.tooltip>
+  <!--EN: Disabling-->
+  <settings.Disabling>Disabling</settings.Disabling>
+  <!--EN: Optimizations-->
+  <settings.Optimizations>Optimizations</settings.Optimizations>
+  <!--EN: Overrides-->
+  <settings.Overrides>Overrides</settings.Overrides>
+  <!--EN: Developer Options-->
+  <settings.developer>Developer Options</settings.developer>
+  <!--EN: Disable automatic cleanup-->
+  <settings.disable.cleanup>Disable automatic cleanup</settings.disable.cleanup>
+  <!--EN: Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting 'Cleanup'-->
+  <settings.disable.cleanup.desc>Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting 'Cleanup'</settings.disable.cleanup.desc>
+  <!--EN: Disable multi-threaded patching, may prevent issues with assembly patching.-->
+  <settings.disable.threading>Disable multi-threaded patching, may prevent issues with assembly patching.</settings.disable.threading>
+  <!--EN: Disable FPS and TPS Counter-->
+  <settings.disable.tps.counter>Disable FPS and TPS Counter</settings.disable.tps.counter>
+  <!--EN: Dubs Discord-->
+  <settings.discord>Dubs Discord</settings.discord>
+  <!--EN: Path to Dnspy (Including the Exe)-->
+  <settings.dnspy>Path to Dnspy (Including the Exe)</settings.dnspy>
+  <!--EN: Enable log without debug mode-->
+  <settings.enable.debug.log>Enable log without debug mode</settings.enable.debug.log>
+  <!--EN: Verbose Logging-->
+  <settings.logging>Verbose Logging</settings.logging>
+  <!--EN: Show methods in analyzer using long-form names (includes params)-->
+  <settings.long.form.names>Show methods in analyzer using long-form names (includes params)</settings.long.form.names>
+  <!--EN: Performance Options-->
+  <settings.performance>Performance Options</settings.performance>
+  <!--EN: Show the main tab icon on the bottom bar-->
+  <settings.show.icon>Show the main tab icon on the bottom bar</settings.show.icon>
+  <!--EN: Stat updates per second-->
+  <settings.ups>Stat updates per second</settings.ups>
+  <!--EN: Analyzer Wiki-->
+  <settings.wiki>Analyzer Wiki</settings.wiki>
+  <!--EN: GUI-->
+  <tab.gui>GUI</tab.gui>
+  <!--EN: Methods which are run on gui-->
+  <tab.gui.desc>Methods which are run on gui</tab.gui.desc>
+  <!--EN: Modder-->
+  <tab.modder>Modder</tab.modder>
+  <!--EN: Methods which have been added by modders via Analyzer.xml-->
+  <tab.modder.desc>Methods which have been added by modders via Analyzer.xml</tab.modder.desc>
+  <!--EN: Settings-->
+  <tab.settings>Settings</tab.settings>
+  <!--EN: Enable and disable optional settings which effect which information is displayed-->
+  <tab.settings.desc>Enable and disable optional settings which effect which information is displayed</tab.settings.desc>
+  <!--EN: Tick-->
+  <tab.tick>Tick</tab.tick>
+  <!--EN: Methods which are tick based-->
+  <tab.tick.desc>Methods which are tick based</tab.tick.desc>
+  <!--EN: Update-->
+  <tab.update>Update</tab.update>
+  <!--EN: Methods which are update based-->
+  <tab.update.desc>Methods which are update based</tab.update.desc>
+  <!--EN: Optimize Map Loading-->
+  <temp.section>Optimize Map Loading</temp.section>
+  <!--EN: Caches types in the constructor for 'Section' - this should be fixed in a future rw update-->
+  <temp.section.tooltip>Caches types in the constructor for 'Section' - this should be fixed in a future rw update</temp.section.tooltip>
+  <!--EN: This will show your calculated frames per second-->
+  <top.fps.tip>This will show your calculated frames per second</top.fps.tip>
+  <!--EN: This will show a rough estimate of the memory consumed and thrown away at a given time-->
+  <top.gc.tip>This will show a rough estimate of the memory consumed and thrown away at a given time</top.gc.tip>
+  <!--EN: Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching-->
+  <top.pause.analyzer>Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching</top.pause.analyzer>
+  <!--EN: Refresh the list of logs-->
+  <top.refresh>Refresh the list of logs</top.refresh>
+  <!--EN: Search by name or time to filter which entries show-->
+  <top.search>Search by name or time to filter which entries show</top.search>
+  <!--EN: This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x-->
+  <top.tps.tip>This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x</top.tps.tip>
+</LanguageData>

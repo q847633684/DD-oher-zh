@@ -1,0 +1,121 @@
+key,text,tag,file,type,protected_text,translated
+tab.settings,Settings,tab.settings,English.xml,keyed,Settings,设置
+tab.tick,Tick,tab.tick,English.xml,keyed,Tick,打钩
+tab.update,Update,tab.update,English.xml,keyed,Update,更新
+tab.gui,GUI,tab.gui,English.xml,keyed,GUI,图形用户界面
+tab.modder,Modder,tab.modder,English.xml,keyed,Modder,泥
+tab.settings.desc,Enable and disable optional settings which effect which information is displayed,tab.settings.desc,English.xml,keyed,Enable and disable optional settings which effect which information is displayed,启用和禁用影响显示信息的可选设置
+tab.tick.desc,Methods which are tick based,tab.tick.desc,English.xml,keyed,Methods which are tick based,基于刻度的方法
+tab.update.desc,Methods which are update based,tab.update.desc,English.xml,keyed,Methods which are update based,基于更新的方法
+tab.gui.desc,Methods which are run on gui,tab.gui.desc,English.xml,keyed,Methods which are run on gui,在 gui 上运行的方法
+tab.modder.desc,Methods which have been added by modders via Analyzer.xml,tab.modder.desc,English.xml,keyed,Methods which have been added by modders via Analyzer.xml,模组作者通过Analyzer.xml 添加的方法
+settings.Overrides,Overrides,settings.Overrides,English.xml,keyed,Overrides,覆盖
+settings.Disabling,Disabling,settings.Disabling,English.xml,keyed,Disabling,禁用
+settings.Optimizations,Optimizations,settings.Optimizations,English.xml,keyed,Optimizations,优化
+settings.performance,Performance Options,settings.performance,English.xml,keyed,Performance Options,性能选项
+settings.developer,Developer Options,settings.developer,English.xml,keyed,Developer Options,开发者选项
+settings.wiki,Analyzer Wiki,settings.wiki,English.xml,keyed,Analyzer Wiki,分析器维基
+settings.discord,Dubs Discord,settings.discord,English.xml,keyed,Dubs Discord,配音不和谐
+settings.dnspy,Path to Dnspy (Including the Exe),settings.dnspy,English.xml,keyed,Path to Dnspy (Including the Exe),Dnspy 路径（包括 Exe）
+settings.ups,Stat updates per second,settings.ups,English.xml,keyed,Stat updates per second,每秒更新统计数据
+settings.logging,Verbose Logging,settings.logging,English.xml,keyed,Verbose Logging,详细日志记录
+settings.disable.tps.counter,Disable FPS and TPS Counter,settings.disable.tps.counter,English.xml,keyed,Disable FPS and TPS Counter,禁用 FPS 和 TPS 计数器
+settings.disable.cleanup,Disable automatic cleanup,settings.disable.cleanup,English.xml,keyed,Disable automatic cleanup,禁用自动清理
+settings.disable.cleanup.desc,Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting 'Cleanup',settings.disable.cleanup.desc,English.xml,keyed,Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting 'Cleanup',如果您不知道自己在做什么，请不要这样做。这将防止分析仪自动清理。分析器可以强制立即手动清理，方法是右键单击菜单选项卡按钮并选择“清理”
+settings.enable.debug.log,Enable log without debug mode,settings.enable.debug.log,English.xml,keyed,Enable log without debug mode,启用日志而不使用调试模式
+settings.show.icon,Show the main tab icon on the bottom bar,settings.show.icon,English.xml,keyed,Show the main tab icon on the bottom bar,在底部栏上显示主选项卡图标
+settings.long.form.names,Show methods in analyzer using long-form names (includes params),settings.long.form.names,English.xml,keyed,Show methods in analyzer using long-form names (includes params),使用长格式名称（包括参数）在分析器中显示方法
+settings.disable.threading,"Disable multi-threaded patching, may prevent issues with assembly patching.",settings.disable.threading,English.xml,keyed,"Disable multi-threaded patching, may prevent issues with assembly patching.",禁用多线程修补，可能会防止程序集修补出现问题。
+devoptions.heading,Profile,devoptions.heading,English.xml,keyed,Profile,轮廓
+devoptions.input.method,Method,devoptions.input.method,English.xml,keyed,Method,方法
+devoptions.input.methodinternal,Method Internals,devoptions.input.methodinternal,English.xml,keyed,Method Internals,方法内部结构
+devoptions.input.methodharmony,Method Harmony,devoptions.input.methodharmony,English.xml,keyed,Method Harmony,方法和谐
+devoptions.input.subclasses,Subclass of Type,devoptions.input.subclasses,English.xml,keyed,Subclass of Type,类型的子类
+devoptions.input.typeharmony,Type Harmony,devoptions.input.typeharmony,English.xml,keyed,Type Harmony,类型和谐
+devoptions.input.assembly,Assembly,devoptions.input.assembly,English.xml,keyed,Assembly,集会
+devoptions.patchtype.tick,Tick,devoptions.patchtype.tick,English.xml,keyed,Tick,打钩
+devoptions.patchtype.update,Update,devoptions.patchtype.update,English.xml,keyed,Update,更新
+top.pause.analyzer,"Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching",top.pause.analyzer,English.xml,keyed,"Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching",分析器已完成的暂停/取消暂停分析，这并不等同于取消修补
+top.refresh,Refresh the list of logs,top.refresh,English.xml,keyed,Refresh the list of logs,刷新日志列表
+top.search,Search by name or time to filter which entries show,top.search,English.xml,keyed,Search by name or time to filter which entries show,按名称或时间搜索以过滤显示的条目
+top.gc.tip,This will show a rough estimate of the memory consumed and thrown away at a given time,top.gc.tip,English.xml,keyed,This will show a rough estimate of the memory consumed and thrown away at a given time,这将显示给定时间消耗和丢弃的内存的粗略估计
+top.fps.tip,This will show your calculated frames per second,top.fps.tip,English.xml,keyed,This will show your calculated frames per second,这将显示您计算的每秒帧数
+top.tps.tip,"This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x",top.tps.tip,English.xml,keyed,"This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x",这将显示每秒的滴答数，滴答数是游戏用来量化时间流逝的指标，每秒可能会发生多个滴答数，游戏的目标是在 1x 下达到 60tps
+logs.max,Max,logs.max,English.xml,keyed,Max,最大限度
+logs.av,Average,logs.av,English.xml,keyed,Average,平均的
+logs.avpu,Average Per {0},logs.avpu,English.xml,keyed,Average Per (PH_1),平均 每 {0}
+logs.percent,Percent,logs.percent,English.xml,keyed,Percent,百分比
+logs.avpc,Av Per Call,logs.avpc,English.xml,keyed,Av Per Call,按每次通话
+logs.calls,Calls,logs.calls,English.xml,keyed,Calls,通话
+logs.name,Name,logs.name,English.xml,keyed,Name,姓名
+logs.total,Total,logs.total,English.xml,keyed,Total,全部的
+logs.callspu,Av Calls Per {0},logs.callspu,English.xml,keyed,Av Calls Per (PH_1),按 {0} 调用
+logs.maxpu,Max For {0},logs.maxpu,English.xml,keyed,Max For (PH_1),最大值 {0}
+dpa.frame,Frame,dpa.frame,English.xml,keyed,Frame,框架
+logs.max.desc,Sort the rows by the maximum (MS) peak the method has reached,logs.max.desc,English.xml,keyed,Sort the rows by the maximum (MS) peak the method has reached,按方法已达到的最大 (MS) 峰值对行进行排序
+logs.av.desc,Sort the rows by the average (MS) the method is reaching,logs.av.desc,English.xml,keyed,Sort the rows by the average (MS) the method is reaching,按方法达到的平均值 (MS) 对行进行排序
+logs.percent.desc,Sort the rows by relative percent in the category,logs.percent.desc,English.xml,keyed,Sort the rows by relative percent in the category,按类别中的相对百分比对行进行排序
+logs.avpc.desc,Sort the rows by the average per call (MS),logs.avpc.desc,English.xml,keyed,Sort the rows by the average per call (MS),按每次调用的平均值 (MS) 对行进行排序
+logs.calls.desc,Sort the rows by total amount of calls,logs.calls.desc,English.xml,keyed,Sort the rows by total amount of calls,按调用总数对行进行排序
+logs.name.desc,Sort the rows in alphabetical order,logs.name.desc,English.xml,keyed,Sort the rows in alphabetical order,按字母顺序对行进行排序
+logs.total.desc,Sort the rows by total (MS) impact,logs.total.desc,English.xml,keyed,Sort the rows by total (MS) impact,按总 (MS) 影响对行进行排序
+logs.callspu.desc,Sort the rows by average calls per {0},logs.callspu.desc,English.xml,keyed,Sort the rows by average calls per (PH_1),按每个 {0} 的平均调用次数对行进行排序
+panel.mod.name,Mod Name,panel.mod.name,English.xml,keyed,Mod Name,模组名称
+panel.opengithub,Open in Github,panel.opengithub,English.xml,keyed,Open in Github,在 Github 中打开
+panel.opendnspy,Open in Dnspy (requires the local path to be set),panel.opendnspy,English.xml,keyed,Open in Dnspy (requires the local path to be set),在Dnspy中打开（需要设置本地路径）
+entry.gui.colonistbar,Colonist Bar OnGUI,entry.gui.colonistbar,English.xml,keyed,Colonist Bar OnGUI,殖民者酒吧 OnGUI
+entry.gui.colonistbar.tooltip,The colonist bar along the top of the screen,entry.gui.colonistbar.tooltip,English.xml,keyed,The colonist bar along the top of the screen,屏幕顶部的殖民者栏
+entry.gui.dotabs,Do Tabs,entry.gui.dotabs,English.xml,keyed,Do Tabs,做标签
+entry.gui.dotabs.tooltip,The inspect pane which opens up upon selecting a thing,entry.gui.dotabs.tooltip,English.xml,keyed,The inspect pane which opens up upon selecting a thing,选择某事物后打开的检查窗格
+entry.gui.gamecomponent,Game Component OnGUI,entry.gui.gamecomponent,English.xml,keyed,Game Component OnGUI,游戏组件 OnGUI
+entry.gui.gamecomponent.tooltip,The GUI methods for each gamecomponent,entry.gui.gamecomponent.tooltip,English.xml,keyed,The GUI methods for each gamecomponent,每个游戏组件的 GUI 方法
+entry.gui.resourcereadout,Resource Readout OnGUI,entry.gui.resourcereadout,English.xml,keyed,Resource Readout OnGUI,GUI 上的资源读出
+entry.gui.resourcereadout.tooltip,The UI function for the resource readout on the left of the screen,entry.gui.resourcereadout.tooltip,English.xml,keyed,The UI function for the resource readout on the left of the screen,屏幕左侧资源读出的 UI 功能
+entry.gui.uiroot,UI Root OnGUI,entry.gui.uiroot,English.xml,keyed,UI Root OnGUI,UI 根 OnGUI
+entry.gui.uiroot.tooltip,"A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot",entry.gui.uiroot.tooltip,English.xml,keyed,"A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot",适用于各种类型的多种 OnGUI 方法，包括； UIRoot_Play、WindowStack、AlertsReadout、MainButtonsRoot
+entry.gui.windowstack,Window Stack OnGUI,entry.gui.windowstack,English.xml,keyed,Window Stack OnGUI,OnGUI 窗口堆栈
+entry.gui.windowstack.tooltip,"The OnGUI method for the window stack, should show profiling for all active windows",entry.gui.windowstack.tooltip,English.xml,keyed,"The OnGUI method for the window stack, should show profiling for all active windows",窗口堆栈的 OnGUI 方法应显示所有活动窗口的分析
+entry.gui.thingoverlay.ongui,ThingOverlayONGUI,entry.gui.thingoverlay.ongui,English.xml,keyed,ThingOverlayONGUI,ThingOverlayONGUI
+entry.gui.thingoverlay.ongui.tooltip,Thing overlay ONGUI,entry.gui.thingoverlay.ongui.tooltip,English.xml,keyed,Thing overlay ONGUI,事物覆盖ONGUI
+entry.tick.jobdriver,Job Drivers,entry.tick.jobdriver,English.xml,keyed,Job Drivers,工作驱动因素
+entry.tick.jobdriver.tooltip,A breakdown of what is occuring in each job as it is being executed by a pawn,entry.tick.jobdriver.tooltip,English.xml,keyed,A breakdown of what is occuring in each job as it is being executed by a (PH_1),每个作业由 pawn 执行时发生的情况的详细信息
+entry.tick.single,Single Tick,entry.tick.single,English.xml,keyed,Single Tick,单勾
+entry.tick.single.tooltip,"A variety of tick methods, including; World, History, FilthMonitor, Storyteller",entry.tick.single.tooltip,English.xml,keyed,"A variety of tick methods, including; World, History, FilthMonitor, Storyteller",多种勾选方法，包括；世界、历史、FilthMonitor、讲故事的人
+entry.tick.thingcomp,Thing Comps,entry.tick.thingcomp,English.xml,keyed,Thing Comps,事物比较
+entry.tick.thingcomp.tooltip,"Thing comps, these can be added to any ThingWithComp, this collects them all into one category",entry.tick.thingcomp.tooltip,English.xml,keyed,"Thing comps, these can be added to any ThingWithComp, this collects them all into one category",事物组合，这些可以添加到任何 ThingWithComp，这会将它们全部收集到一个类别中
+entry.tick.pathfinder,Pathfinding,entry.tick.pathfinder,English.xml,keyed,Pathfinding,寻路
+entry.tick.pathfinder.tooltip,Shows a variety of methods which are used in pathfinding,entry.tick.pathfinder.tooltip,English.xml,keyed,Shows a variety of methods which are used in pathfinding,显示寻路中使用的各种方法
+entry.tick.gamecomponent,Game Component Tick,entry.tick.gamecomponent,English.xml,keyed,Game Component Tick,游戏组件勾选
+entry.tick.gamecomponent.tooltip,The Tick methods for each gamecomponent,entry.tick.gamecomponent.tooltip,English.xml,keyed,The Tick methods for each gamecomponent,每个游戏组件的 Tick 方法
+entry.tick.lord,Lords,entry.tick.lord,English.xml,keyed,Lords,上议院
+entry.tick.lord.tooltip,"Lords are used for group AI, like weddings, raids, traders etc",entry.tick.lord.tooltip,English.xml,keyed,"Lords are used for group AI, like weddings, raids, traders etc",领主用于群体人工智能，如婚礼、突袭、商人等
+entry.tick.stats,Statistics,entry.tick.stats,English.xml,keyed,Statistics,统计数据
+entry.tick.stats.tooltip,A variety of methods which are used to calculate and looking up stat-based values,entry.tick.stats.tooltip,English.xml,keyed,A variety of methods which are used to calculate and looking up stat-based values,多种用于计算和查找基于统计的值的方法
+entry.tick.mapcomponent,Map Component Tick,entry.tick.mapcomponent,English.xml,keyed,Map Component Tick,地图组件勾选
+entry.tick.mapcomponent.tooltip,The Tick method for Map Components,entry.tick.mapcomponent.tooltip,English.xml,keyed,The Tick method for Map Components,地图组件的 Tick 方法
+entry.tick.needs,Needs,entry.tick.needs,English.xml,keyed,Needs,需求
+entry.tick.needs.tooltip,Shows a variety of methods which are used in Needs calculations,entry.tick.needs.tooltip,English.xml,keyed,Shows a variety of methods which are used in Needs calculations,显示需求计算中使用的各种方法
+entry.tick.pawngen,Pawn Generation,entry.tick.pawngen,English.xml,keyed,Pawn Generation,典当一代
+entry.tick.pawngen.tooltip,Shows methods around PawnGen and generation of pawns for raids,entry.tick.pawngen.tooltip,English.xml,keyed,Shows methods around PawnGen and generation of pawns for raids,展示有关 PawnGen 的方法以及用于袭击的 pawn 生成
+entry.tick.pawn,Pawn Tick,entry.tick.pawn,English.xml,keyed,Pawn Tick,典当蜱虫
+entry.tick.pawn.tooltip,"The variety of methods which are called on Pawn:Tick, including a variety of trackers",entry.tick.pawn.tooltip,English.xml,keyed,"The variety of methods which are called on Pawn:Tick, including a variety of trackers",Pawn:Tick 上调用的各种方法，包括各种跟踪器
+entry.tick.room,Rooms,entry.tick.room,English.xml,keyed,Rooms,客房
+entry.tick.room.tooltip,The method which is responsible for the updating of room stats,entry.tick.room.tooltip,English.xml,keyed,The method which is responsible for the updating of room stats,负责更新房间统计信息的方法
+entry.tick.storyteller,Storyteller and Incidents,entry.tick.storyteller,English.xml,keyed,Storyteller and Incidents,讲故事的人和事件
+entry.tick.storyteller.tooltip,A variety of methods relating to both incident and quest generation,entry.tick.storyteller.tooltip,English.xml,keyed,A variety of methods relating to both incident and quest generation,与事件和任务生成相关的多种方法
+entry.tick.thinknodes,ThinkNodes,entry.tick.thinknodes,English.xml,keyed,ThinkNodes,思考节点
+entry.tick.thinknodes.tooltip,"ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab",entry.tick.thinknodes.tooltip,English.xml,keyed,"ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab",ThinkNode 基本上是在 ai 树中过滤的一般工作提供者的集合，例如满足需求、优化服装、逃离，工作全部组合在单个 JobGiver_Work 中，可以通过查看“工作提供者分析器”选项卡来单独分析该工作提供者
+entry.tick.things,Tick Things,entry.tick.things,English.xml,keyed,Tick Things,勾选事物
+entry.tick.things.tooltip,Profiles the ticking methods of various things on the map,entry.tick.things.tooltip,English.xml,keyed,Profiles the ticking methods of various things on the map,描述地图上各种事物的勾选方法
+entry.tick.jobgiver,Job Giver,entry.tick.jobgiver,English.xml,keyed,Job Giver,工作给予者
+entry.tick.jobgiver.tooltip,"All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc",entry.tick.jobgiver.tooltip,English.xml,keyed,"All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc",所有在棋子思维树中手动寻找的工作，包括满足需求、逃离危险、改进磨损的服装等工作
+entry.tick.workgiver,Work Giver,entry.tick.workgiver,English.xml,keyed,Work Giver,工作给予者
+entry.tick.workgiver.tooltip,"Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab",entry.tick.workgiver.tooltip,English.xml,keyed,"Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab",Work Giver 仅是为工作而完成的工作，这意味着“工作”选项卡中列出的所有工作，这不包括人工智能为满足需求或优化服装等而运行的工作，这些工作可以在 ThinkNodes 配置文件选项卡中找到
+entry.tick.world,World Tick,entry.tick.world,English.xml,keyed,World Tick,世界蜱虫
+entry.tick.world.tooltip,"Tick methods for various world entries, such as; WorldPawns, Factions, Caravans",entry.tick.world.tooltip,English.xml,keyed,"Tick methods for various world entries, such as; WorldPawns, Factions, Caravans",各种世界条目的勾选方法，例如； WorldPawns、派系、商队
+entry.update.alert,Alerts,entry.update.alert,English.xml,keyed,Alerts,警报
+entry.update.alert.tooltip,The recalculate and draw methods for Alerts,entry.update.alert.tooltip,English.xml,keyed,The recalculate and draw methods for Alerts,Alerts 的重新计算和绘制方法
+entry.update.dynamicdraw,Draw Dynamic Things,entry.update.dynamicdraw,English.xml,keyed,Draw Dynamic Things,绘制动态事物
+entry.update.dynamicdraw.tooltip,The draw method for things which are drawn via the DynamicDrawManager,entry.update.dynamicdraw.tooltip,English.xml,keyed,The draw method for things which are drawn via the DynamicDrawManager,通过 DynamicDrawManager 绘制的事物的绘制方法
+entry.update.gamecomponent,Game Component Update,entry.update.gamecomponent,English.xml,keyed,Game Component Update,游戏组件更新
+entry.update.gamecomponent.tooltip,The Update method for each gamecomponent,entry.update.gamecomponent.tooltip,English.xml,keyed,The Update method for each gamecomponent,每个游戏组件的 Update 方法

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
 	<v1.6>
+		<li IfModActive="dubwise.dubsperformanceanalyzer.steam">Dubs Performance Analyzer</li>
 		<li IfModActive="owlchemist.simplefx.smoke2">Simple FX/Smoke</li>
 		<li IfModActive="owlchemist.simplefx.splashes">Simple FX/Splashes</li>
 		<li IfModActive="atlas.simplefx.vapor.revaporized">Simple FX/Vapor</li>
@@ -20,5 +21,13 @@
 		<!--<li IfModActive="owlchemist.giddyup">Giddy-Up 2</li>-->
 		<!--<li IfModActive="owlchemist.moonlight">Moonlight</li>-->
 		<li IfModActive="owlchemist.permeableterrain">Permeable Terrain</li>
+
+
+		<li IfModActive="malistaticy.underwhere">16/Under Where</li>
+		<li IfModActive="lucifer.realisticrooms">16/Realistic Rooms Rewritten</li><!-- 正常-->
+		<li IfModActive="mehni.pickupandhaul">16/Pick Up And Haul</li><!-- 不进行添加-->
+		<li IfModActive="co.uk.epicguru.meleeanimation">16/Melee Animation</li><!-- 正常-->
+		<li IfModActive="jaxe.bubbles">16/Bubbles</li><!-- 正常-->
+		<li IfModActive="jpt.speakup">16/SpeakUp</li><!-- 正常-->
 	</v1.6>
 </loadFolders>

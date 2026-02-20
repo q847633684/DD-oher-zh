@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+		<v1.5>
+			<!--keyed-->
+			<li IfModActive="codeoptimist.jobsofopportunity">While You're Up</li>
+			<li IfModActive="telefonmast.graphicssettings">Graphics Settings</li>
+			<li IfModActive="mehni.pickupandhaul">Pick Up And Haul</li>
+			<li IfModActive="lucifer.realisticrooms">Realistic Rooms Rewritten</li>
+			<li IfModActive="sandy.rpgstyleinventory">RPG Style Inventory</li>
+			<li IfModActive="uuugggg.smartmedicine">Smart Medicine</li>
+			<li IfModActive="dismarzero.vgp.smokedmeat">Smoked meat/1.5</li>
+			<li IfModActive="jpt.speakup">SpeakUp/1.5</li>
+			<li IfModActive="sl4vp0wer.weareunited">We Are United</li>
+			<li IfModActive="owlchemist.cleanpathfinding">Clean Pathfinding 2</li>
+			<li IfModActive="dracoix.doormat.r12a">Door Mat</li>
+			<li IfModActive="dubwise.dubsbadhygiene">Dubs Bad Hygiene</li>
+			<li IfModActive="dubwise.dubsskylights">Dubs Skylights</li>
+			<li IfModActive="void.charactereditor">Character Editor/1.5</li>
+			<li IfModActive="rah.rbsehc">RBSEHC</li>
+		<!--
+			<li IfModActive="voult.betterpawncontrol">Better Pawn Control</li>
+			<li IfModActive="khamenman.armorracks">Armor Racks</li>
+		 -->
+		</v1.5>
+</loadFolders>

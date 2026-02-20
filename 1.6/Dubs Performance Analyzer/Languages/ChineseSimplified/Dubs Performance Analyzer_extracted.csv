@@ -1,0 +1,191 @@
+key,text,tag,file,type,protected_text
+tab.settings,Settings,tab.settings,English.xml,keyed,Settings
+tab.tick,Tick,tab.tick,English.xml,keyed,Tick
+tab.update,Update,tab.update,English.xml,keyed,Update
+tab.gui,GUI,tab.gui,English.xml,keyed,GUI
+tab.modder,Modder,tab.modder,English.xml,keyed,Modder
+tab.settings.desc,Enable and disable optional settings which effect which information is displayed,tab.settings.desc,English.xml,keyed,Enable and disable optional settings which effect which information is displayed
+tab.tick.desc,Methods which are tick based,tab.tick.desc,English.xml,keyed,Methods which are tick based
+tab.update.desc,Methods which are update based,tab.update.desc,English.xml,keyed,Methods which are update based
+tab.gui.desc,Methods which are run on gui,tab.gui.desc,English.xml,keyed,Methods which are run on gui
+tab.modder.desc,Methods which have been added by modders via Analyzer.xml,tab.modder.desc,English.xml,keyed,Methods which have been added by modders via Analyzer.xml
+settings.Overrides,Overrides,settings.Overrides,English.xml,keyed,Overrides
+settings.Disabling,Disabling,settings.Disabling,English.xml,keyed,Disabling
+settings.Optimizations,Optimizations,settings.Optimizations,English.xml,keyed,Optimizations
+settings.performance,Performance Options,settings.performance,English.xml,keyed,Performance Options
+settings.developer,Developer Options,settings.developer,English.xml,keyed,Developer Options
+settings.wiki,Analyzer Wiki,settings.wiki,English.xml,keyed,Analyzer Wiki
+settings.discord,Dubs Discord,settings.discord,English.xml,keyed,Dubs Discord
+settings.dnspy,Path to Dnspy (Including the Exe),settings.dnspy,English.xml,keyed,Path to Dnspy (Including the Exe)
+settings.ups,Stat updates per second,settings.ups,English.xml,keyed,Stat updates per second
+settings.logging,Verbose Logging,settings.logging,English.xml,keyed,Verbose Logging
+settings.disable.tps.counter,Disable FPS and TPS Counter,settings.disable.tps.counter,English.xml,keyed,Disable FPS and TPS Counter
+settings.disable.cleanup,Disable automatic cleanup,settings.disable.cleanup,English.xml,keyed,Disable automatic cleanup
+settings.disable.cleanup.desc,Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting 'Cleanup',settings.disable.cleanup.desc,English.xml,keyed,Do NOT do this if you do not know what you are doing. This will prevent analyzer from cleaning up from after itself automatically. Analyzer can be forced to manually cleanup immediately by right clicking the menu tab button and selecting 'Cleanup'
+settings.enable.debug.log,Enable log without debug mode,settings.enable.debug.log,English.xml,keyed,Enable log without debug mode
+settings.show.icon,Show the main tab icon on the bottom bar,settings.show.icon,English.xml,keyed,Show the main tab icon on the bottom bar
+settings.long.form.names,Show methods in analyzer using long-form names (includes params),settings.long.form.names,English.xml,keyed,Show methods in analyzer using long-form names (includes params)
+settings.disable.threading,"Disable multi-threaded patching, may prevent issues with assembly patching.",settings.disable.threading,English.xml,keyed,"Disable multi-threaded patching, may prevent issues with assembly patching."
+devoptions.heading,Profile,devoptions.heading,English.xml,keyed,Profile
+devoptions.input.method,Method,devoptions.input.method,English.xml,keyed,Method
+devoptions.input.methodinternal,Method Internals,devoptions.input.methodinternal,English.xml,keyed,Method Internals
+devoptions.input.methodharmony,Method Harmony,devoptions.input.methodharmony,English.xml,keyed,Method Harmony
+devoptions.input.subclasses,Subclass of Type,devoptions.input.subclasses,English.xml,keyed,Subclass of Type
+devoptions.input.typeharmony,Type Harmony,devoptions.input.typeharmony,English.xml,keyed,Type Harmony
+devoptions.input.assembly,Assembly,devoptions.input.assembly,English.xml,keyed,Assembly
+devoptions.patchtype.tick,Tick,devoptions.patchtype.tick,English.xml,keyed,Tick
+devoptions.patchtype.update,Update,devoptions.patchtype.update,English.xml,keyed,Update
+top.pause.analyzer,"Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching",top.pause.analyzer,English.xml,keyed,"Pause/Unpause profiling that the analyzer is done, this is not equivalent to unpatching"
+top.refresh,Refresh the list of logs,top.refresh,English.xml,keyed,Refresh the list of logs
+top.search,Search by name or time to filter which entries show,top.search,English.xml,keyed,Search by name or time to filter which entries show
+top.gc.tip,This will show a rough estimate of the memory consumed and thrown away at a given time,top.gc.tip,English.xml,keyed,This will show a rough estimate of the memory consumed and thrown away at a given time
+top.fps.tip,This will show your calculated frames per second,top.fps.tip,English.xml,keyed,This will show your calculated frames per second
+top.tps.tip,"This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x",top.tps.tip,English.xml,keyed,"This will show your ticks per second, ticks are the metric the game uses to quantiy time passing, multiple ticks can happen per second, the game aims to reach 60tps at 1x"
+logs.max,Max,logs.max,English.xml,keyed,Max
+logs.av,Average,logs.av,English.xml,keyed,Average
+logs.avpu,Average Per {0},logs.avpu,English.xml,keyed,Average Per (PH_1)
+logs.percent,Percent,logs.percent,English.xml,keyed,Percent
+logs.avpc,Av Per Call,logs.avpc,English.xml,keyed,Av Per Call
+logs.calls,Calls,logs.calls,English.xml,keyed,Calls
+logs.name,Name,logs.name,English.xml,keyed,Name
+logs.total,Total,logs.total,English.xml,keyed,Total
+logs.callspu,Av Calls Per {0},logs.callspu,English.xml,keyed,Av Calls Per (PH_1)
+logs.maxpu,Max For {0},logs.maxpu,English.xml,keyed,Max For (PH_1)
+dpa.frame,Frame,dpa.frame,English.xml,keyed,Frame
+logs.max.desc,Sort the rows by the maximum (MS) peak the method has reached,logs.max.desc,English.xml,keyed,Sort the rows by the maximum (MS) peak the method has reached
+logs.av.desc,Sort the rows by the average (MS) the method is reaching,logs.av.desc,English.xml,keyed,Sort the rows by the average (MS) the method is reaching
+logs.percent.desc,Sort the rows by relative percent in the category,logs.percent.desc,English.xml,keyed,Sort the rows by relative percent in the category
+logs.avpc.desc,Sort the rows by the average per call (MS),logs.avpc.desc,English.xml,keyed,Sort the rows by the average per call (MS)
+logs.calls.desc,Sort the rows by total amount of calls,logs.calls.desc,English.xml,keyed,Sort the rows by total amount of calls
+logs.name.desc,Sort the rows in alphabetical order,logs.name.desc,English.xml,keyed,Sort the rows in alphabetical order
+logs.total.desc,Sort the rows by total (MS) impact,logs.total.desc,English.xml,keyed,Sort the rows by total (MS) impact
+logs.callspu.desc,Sort the rows by average calls per {0},logs.callspu.desc,English.xml,keyed,Sort the rows by average calls per (PH_1)
+panel.mod.name,Mod Name,panel.mod.name,English.xml,keyed,Mod Name
+panel.opengithub,Open in Github,panel.opengithub,English.xml,keyed,Open in Github
+panel.opendnspy,Open in Dnspy (requires the local path to be set),panel.opendnspy,English.xml,keyed,Open in Dnspy (requires the local path to be set)
+entry.gui.colonistbar,Colonist Bar OnGUI,entry.gui.colonistbar,English.xml,keyed,Colonist Bar OnGUI
+entry.gui.colonistbar.tooltip,The colonist bar along the top of the screen,entry.gui.colonistbar.tooltip,English.xml,keyed,The colonist bar along the top of the screen
+entry.gui.dotabs,Do Tabs,entry.gui.dotabs,English.xml,keyed,Do Tabs
+entry.gui.dotabs.tooltip,The inspect pane which opens up upon selecting a thing,entry.gui.dotabs.tooltip,English.xml,keyed,The inspect pane which opens up upon selecting a thing
+entry.gui.gamecomponent,Game Component OnGUI,entry.gui.gamecomponent,English.xml,keyed,Game Component OnGUI
+entry.gui.gamecomponent.tooltip,The GUI methods for each gamecomponent,entry.gui.gamecomponent.tooltip,English.xml,keyed,The GUI methods for each gamecomponent
+entry.gui.resourcereadout,Resource Readout OnGUI,entry.gui.resourcereadout,English.xml,keyed,Resource Readout OnGUI
+entry.gui.resourcereadout.tooltip,The UI function for the resource readout on the left of the screen,entry.gui.resourcereadout.tooltip,English.xml,keyed,The UI function for the resource readout on the left of the screen
+entry.gui.uiroot,UI Root OnGUI,entry.gui.uiroot,English.xml,keyed,UI Root OnGUI
+entry.gui.uiroot.tooltip,"A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot",entry.gui.uiroot.tooltip,English.xml,keyed,"A variety of OnGUI methods for various types, including; UIRoot_Play, WindowStack, AlertsReadout, MainButtonsRoot"
+entry.gui.windowstack,Window Stack OnGUI,entry.gui.windowstack,English.xml,keyed,Window Stack OnGUI
+entry.gui.windowstack.tooltip,"The OnGUI method for the window stack, should show profiling for all active windows",entry.gui.windowstack.tooltip,English.xml,keyed,"The OnGUI method for the window stack, should show profiling for all active windows"
+entry.gui.thingoverlay.ongui,ThingOverlayONGUI,entry.gui.thingoverlay.ongui,English.xml,keyed,ThingOverlayONGUI
+entry.gui.thingoverlay.ongui.tooltip,Thing overlay ONGUI,entry.gui.thingoverlay.ongui.tooltip,English.xml,keyed,Thing overlay ONGUI
+entry.tick.jobdriver,Job Drivers,entry.tick.jobdriver,English.xml,keyed,Job Drivers
+entry.tick.jobdriver.tooltip,A breakdown of what is occuring in each job as it is being executed by a pawn,entry.tick.jobdriver.tooltip,English.xml,keyed,A breakdown of what is occuring in each job as it is being executed by a (PH_1)
+entry.tick.single,Single Tick,entry.tick.single,English.xml,keyed,Single Tick
+entry.tick.single.tooltip,"A variety of tick methods, including; World, History, FilthMonitor, Storyteller",entry.tick.single.tooltip,English.xml,keyed,"A variety of tick methods, including; World, History, FilthMonitor, Storyteller"
+entry.tick.thingcomp,Thing Comps,entry.tick.thingcomp,English.xml,keyed,Thing Comps
+entry.tick.thingcomp.tooltip,"Thing comps, these can be added to any ThingWithComp, this collects them all into one category",entry.tick.thingcomp.tooltip,English.xml,keyed,"Thing comps, these can be added to any ThingWithComp, this collects them all into one category"
+entry.tick.pathfinder,Pathfinding,entry.tick.pathfinder,English.xml,keyed,Pathfinding
+entry.tick.pathfinder.tooltip,Shows a variety of methods which are used in pathfinding,entry.tick.pathfinder.tooltip,English.xml,keyed,Shows a variety of methods which are used in pathfinding
+entry.tick.gamecomponent,Game Component Tick,entry.tick.gamecomponent,English.xml,keyed,Game Component Tick
+entry.tick.gamecomponent.tooltip,The Tick methods for each gamecomponent,entry.tick.gamecomponent.tooltip,English.xml,keyed,The Tick methods for each gamecomponent
+entry.tick.lord,Lords,entry.tick.lord,English.xml,keyed,Lords
+entry.tick.lord.tooltip,"Lords are used for group AI, like weddings, raids, traders etc",entry.tick.lord.tooltip,English.xml,keyed,"Lords are used for group AI, like weddings, raids, traders etc"
+entry.tick.stats,Statistics,entry.tick.stats,English.xml,keyed,Statistics
+entry.tick.stats.tooltip,A variety of methods which are used to calculate and looking up stat-based values,entry.tick.stats.tooltip,English.xml,keyed,A variety of methods which are used to calculate and looking up stat-based values
+entry.tick.mapcomponent,Map Component Tick,entry.tick.mapcomponent,English.xml,keyed,Map Component Tick
+entry.tick.mapcomponent.tooltip,The Tick method for Map Components,entry.tick.mapcomponent.tooltip,English.xml,keyed,The Tick method for Map Components
+entry.tick.needs,Needs,entry.tick.needs,English.xml,keyed,Needs
+entry.tick.needs.tooltip,Shows a variety of methods which are used in Needs calculations,entry.tick.needs.tooltip,English.xml,keyed,Shows a variety of methods which are used in Needs calculations
+entry.tick.pawngen,Pawn Generation,entry.tick.pawngen,English.xml,keyed,Pawn Generation
+entry.tick.pawngen.tooltip,Shows methods around PawnGen and generation of pawns for raids,entry.tick.pawngen.tooltip,English.xml,keyed,Shows methods around PawnGen and generation of pawns for raids
+entry.tick.pawn,Pawn Tick,entry.tick.pawn,English.xml,keyed,Pawn Tick
+entry.tick.pawn.tooltip,"The variety of methods which are called on Pawn:Tick, including a variety of trackers",entry.tick.pawn.tooltip,English.xml,keyed,"The variety of methods which are called on Pawn:Tick, including a variety of trackers"
+entry.tick.room,Rooms,entry.tick.room,English.xml,keyed,Rooms
+entry.tick.room.tooltip,The method which is responsible for the updating of room stats,entry.tick.room.tooltip,English.xml,keyed,The method which is responsible for the updating of room stats
+entry.tick.storyteller,Storyteller and Incidents,entry.tick.storyteller,English.xml,keyed,Storyteller and Incidents
+entry.tick.storyteller.tooltip,A variety of methods relating to both incident and quest generation,entry.tick.storyteller.tooltip,English.xml,keyed,A variety of methods relating to both incident and quest generation
+entry.tick.thinknodes,ThinkNodes,entry.tick.thinknodes,English.xml,keyed,ThinkNodes
+entry.tick.thinknodes.tooltip,"ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab",entry.tick.thinknodes.tooltip,English.xml,keyed,"ThinkNodes are basically sets of general job givers filtered in an ai tree, like satisfying needs, optimizing apparel, fleeing, work is all combined in a single JobGiver_Work which can be individually profiled by looking at the Work Giver profiler tab"
+entry.tick.things,Tick Things,entry.tick.things,English.xml,keyed,Tick Things
+entry.tick.things.tooltip,Profiles the ticking methods of various things on the map,entry.tick.things.tooltip,English.xml,keyed,Profiles the ticking methods of various things on the map
+entry.tick.jobgiver,Job Giver,entry.tick.jobgiver,English.xml,keyed,Job Giver
+entry.tick.jobgiver.tooltip,"All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc",entry.tick.jobgiver.tooltip,English.xml,keyed,"All jobs which are manually looked for in the pawns thinktree, this includes work like satisfying needs, fleeing from danger, improving worn apparel etc"
+entry.tick.workgiver,Work Giver,entry.tick.workgiver,English.xml,keyed,Work Giver
+entry.tick.workgiver.tooltip,"Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab",entry.tick.workgiver.tooltip,English.xml,keyed,"Work Giver is only jobs done for work, that means all the jobs listed in the Work tab, this does not include jobs run by the ai for things like satisfying needs or optimizing apparel, those can be found in the ThinkNodes profile tab"
+entry.tick.world,World Tick,entry.tick.world,English.xml,keyed,World Tick
+entry.tick.world.tooltip,"Tick methods for various world entries, such as; WorldPawns, Factions, Caravans",entry.tick.world.tooltip,English.xml,keyed,"Tick methods for various world entries, such as; WorldPawns, Factions, Caravans"
+entry.update.alert,Alerts,entry.update.alert,English.xml,keyed,Alerts
+entry.update.alert.tooltip,The recalculate and draw methods for Alerts,entry.update.alert.tooltip,English.xml,keyed,The recalculate and draw methods for Alerts
+entry.update.dynamicdraw,Draw Dynamic Things,entry.update.dynamicdraw,English.xml,keyed,Draw Dynamic Things
+entry.update.dynamicdraw.tooltip,The draw method for things which are drawn via the DynamicDrawManager,entry.update.dynamicdraw.tooltip,English.xml,keyed,The draw method for things which are drawn via the DynamicDrawManager
+entry.update.gamecomponent,Game Component Update,entry.update.gamecomponent,English.xml,keyed,Game Component Update
+entry.update.gamecomponent.tooltip,The Update method for each gamecomponent,entry.update.gamecomponent.tooltip,English.xml,keyed,The Update method for each gamecomponent
+entry.update.harmonypatches,Harmony Patches,entry.update.harmonypatches,English.xml,keyed,Harmony Patches
+entry.update.harmonypatches.tooltip,Harmony patches added by mods (Prefixes and Postfixes only),entry.update.harmonypatches.tooltip,English.xml,keyed,Harmony patches added by mods (Prefixes and Postfixes only)
+entry.update.harmonytranspilers,Harmony Transpilers,entry.update.harmonytranspilers,English.xml,keyed,Harmony Transpilers
+entry.update.harmonytranspilers.tooltip,"Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it",entry.update.harmonytranspilers.tooltip,English.xml,keyed,"Shows a semi-accurate profiling of all Harmony Transpilers, there is a writeup in the Wiki going into detail about it"
+entry.update.infocard,Info Card,entry.update.infocard,English.xml,keyed,Info Card
+entry.update.infocard.tooltip,"A variety of methods which relate to info panels, including stats, and gui methods",entry.update.infocard.tooltip,English.xml,keyed,"A variety of methods which relate to info panels, including stats, and gui methods"
+entry.update.mapcomponent,Map Component Update,entry.update.mapcomponent,English.xml,keyed,Map Component Update
+entry.update.mapcomponent.tooltip,The Update method for Map Components,entry.update.mapcomponent.tooltip,English.xml,keyed,The Update method for Map Components
+entry.update.transpilermethods,Harmony Transpiled Methods,entry.update.transpilermethods,English.xml,keyed,Harmony Transpiled Methods
+entry.update.transpilermethods.tooltip,"Profiles entire methods that have transpiler patches, doesn't show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it",entry.update.transpilermethods.tooltip,English.xml,keyed,"Profiles entire methods that have transpiler patches, doesn't show the impact of individual changes, only the whole method, a transpiler might change how often some code in a method runs, not just call extra methods, use to compare how a method runs before and after adding a mod that patches it"
+entry.update.sectionlayer.thingsdrawlayer,Draw Printed Things,entry.update.sectionlayer.thingsdrawlayer,English.xml,keyed,Draw Printed Things
+entry.update.sectionlayer.thingsdrawlayer.tooltip,Profile how long each thing takes to print,entry.update.sectionlayer.thingsdrawlayer.tooltip,English.xml,keyed,Profile how long each thing takes to print
+entry.update.sections,Sections,entry.update.sections,English.xml,keyed,Sections
+entry.update.sections.tooltip,"Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones)",entry.update.sections.tooltip,English.xml,keyed,"Shows the regenerate method for SectionLayers (sectionlayers are things like Snow, SunShadows, Zones)"
+entry.update.pawnrenderer,Pawn Renderer,entry.update.pawnrenderer,English.xml,keyed,Pawn Renderer
+entry.update.pawnrenderer.tooltip,"Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel",entry.update.pawnrenderer.tooltip,English.xml,keyed,"Shows the pawnrenderer function, which is responsible for the renderering of pawns and apparel"
+entry.update.root,Root,entry.update.root,English.xml,keyed,Root
+entry.update.root.tooltip,Various root methods,entry.update.root.tooltip,English.xml,keyed,Various root methods
+entry.update.sectionlayerthings,Section Layer Things,entry.update.sectionlayerthings,English.xml,keyed,Section Layer Things
+entry.update.sectionlayerthings.tooltip,"More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function",entry.update.sectionlayerthings.tooltip,English.xml,keyed,"More in-depth profiling of Section layers, including mesh creation and the TakePrintFrom function"
+entry.update.mapdrawer,MapDrawer,entry.update.mapdrawer,English.xml,keyed,MapDrawer
+entry.update.mapdrawer.tooltip,Draw method on each map section layer,entry.update.mapdrawer.tooltip,English.xml,keyed,Draw method on each map section layer
+entry.update.shooting,Shooting and Combat,entry.update.shooting,English.xml,keyed,Shooting and Combat
+entry.update.shooting.tooltip,"Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc",entry.update.shooting.tooltip,English.xml,keyed,"Shows a variety of methods related to combat and shooting, including verbs, turrets, projectiles etc"
+entry.update.uiroot,UI Root Update,entry.update.uiroot,English.xml,keyed,UI Root Update
+entry.update.uiroot.tooltip,"A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor",entry.update.uiroot.tooltip,English.xml,keyed,"A variety of update methods for GUI-related functionality, such as; AlertsReadout, Messages, Tutor"
+entry.update.thoughtworker,Thought Workers,entry.update.thoughtworker,English.xml,keyed,Thought Workers
+entry.update.thoughtworker.tooltip,"Thought Workers, these drive the updates of pawns thoughts",entry.update.thoughtworker.tooltip,English.xml,keyed,"Thought Workers, these drive the updates of pawns thoughts"
+entry.update.frametimes,Frame times,entry.update.frametimes,English.xml,keyed,Frame times
+entry.update.frametimes.tooltip,Shows entries which correlate to the frame times of your game (how long does each frame take to complete),entry.update.frametimes.tooltip,English.xml,keyed,Shows entries which correlate to the frame times of your game (how long does each frame take to complete)
+entry.update.custom,Custom Update,entry.update.custom,English.xml,keyed,Custom Update
+entry.update.custom.tooltip,Custom Profiled methods in the update category,entry.update.custom.tooltip,English.xml,keyed,Custom Profiled methods in the update category
+entry.tick.custom,Custom Tick,entry.tick.custom,English.xml,keyed,Custom Tick
+entry.tick.custom.tooltip,Custom Profiled methods in the tick category,entry.tick.custom.tooltip,English.xml,keyed,Custom Profiled methods in the tick category
+FixEverything,Fix Everything,FixEverything,English.xml,keyed,Fix Everything
+performance.alertsoverride,Disable Alerts individually,performance.alertsoverride,English.xml,keyed,Disable Alerts individually
+performance.alertsoverride.tooltip,Choose to disable expensive alerts,performance.alertsoverride.tooltip,English.xml,keyed,Choose to disable expensive alerts
+performance.alertsdisable,Disable all Alerts,performance.alertsdisable,English.xml,keyed,Disable all Alerts
+performance.alertsdisable.tooltip,Disable all alerts,performance.alertsdisable.tooltip,English.xml,keyed,Disable all alerts
+performance.sectionlayersnow,Improve the speed of rendering for snow,performance.sectionlayersnow,English.xml,keyed,Improve the speed of rendering for snow
+performance.sectionlayersnow.tooltip,Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour,performance.sectionlayersnow.tooltip,English.xml,keyed,Replaces a Mathf.Lerp with byte multiplication in the calculation for snow colour
+performance.lordnotifydamage,Remove some stutters for raid AI,performance.lordnotifydamage,English.xml,keyed,Remove some stutters for raid AI
+performance.lordnotifydamage.tooltip,Removes a redundant damage-notification check from the Lord toils 'LordToil_AssaultColony' and 'LordToil_AssaultColonySappers',performance.lordnotifydamage.tooltip,English.xml,keyed,Removes a redundant damage-notification check from the Lord toils 'LordToil_AssaultColony' and 'LordToil_AssaultColonySappers'
+performance.killaudio,Disable in-game music,performance.killaudio,English.xml,keyed,Disable in-game music
+performance.killaudio.tooltip,Prevent music player bugs by destructively prefixing the 'MusicManagerPlay:MusicUpdate' function,performance.killaudio.tooltip,English.xml,keyed,Prevent music player bugs by destructively prefixing the 'MusicManagerPlay:MusicUpdate' function
+performance.buildingrepair,Optimize the repair job,performance.buildingrepair,English.xml,keyed,Optimize the repair job
+performance.buildingrepair.tooltip,Removes objects that are not repairable or do not have hitpoints (which the Type 'ListerBuildingsRepairable' does not filter out),performance.buildingrepair.tooltip,English.xml,keyed,Removes objects that are not repairable or do not have hitpoints (which the Type 'ListerBuildingsRepairable' does not filter out)
+performance.roof,Optimize roof jobgiver,performance.roof,English.xml,keyed,Optimize roof jobgiver
+performance.roof.tooltip,"Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed",performance.roof.tooltip,English.xml,keyed,"Caches when roofs are removed / need replacing, and preventing the jobgiver from running when no state has changed"
+performance.wallsnconduits,Optimize drawing for walls and conduits,performance.wallsnconduits,English.xml,keyed,Optimize drawing for walls and conduits
+performance.wallsnconduits.tooltip,Set the mesh draw type for walls and conduits to 'MapMeshOnly',performance.wallsnconduits.tooltip,English.xml,keyed,Set the mesh draw type for walls and conduits to 'MapMeshOnly'
+performance.compdeepdrill,Optimize deep drills,performance.compdeepdrill,English.xml,keyed,Optimize deep drills
+performance.compdeepdrill.tooltip,"Skips a check for the 'correct' stone under a drill, improves performance of drills when using pawns with high mining",performance.compdeepdrill.tooltip,English.xml,keyed,"Skips a check for the 'correct' stone under a drill, improves performance of drills when using pawns with high mining"
+performance.tempcache,Cache ComfortableTemperatureRange,performance.tempcache,English.xml,keyed,Cache ComfortableTemperatureRange
+performance.tempcache.tooltip,"Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding",performance.tempcache.tooltip,English.xml,keyed,"Caches safe temperature range once per tick, reducing excess cpu load from spamming it for things like pathfinding"
+performance.zoom,Reduce stutters while panning,performance.zoom,English.xml,keyed,Reduce stutters while panning
+performance.zoom.tooltip,Lowers the target tps when panning to reduce stuttering,performance.zoom.tooltip,English.xml,keyed,Lowers the target tps when panning to reduce stuttering
+performance.drawlabelsfix,Optimize pawn labels,performance.drawlabelsfix,English.xml,keyed,Optimize (PH_1) labels
+performance.drawlabelsfix.tooltip,Optimize the drawing of pawn and animal names in-map,performance.drawlabelsfix.tooltip,English.xml,keyed,Optimize the drawing of (PH_1) and animal names in-map
+temp.section,Optimize Map Loading,temp.section,English.xml,keyed,Optimize Map Loading
+temp.section.tooltip,Caches types in the constructor for 'Section' - this should be fixed in a future rw update,temp.section.tooltip,English.xml,keyed,Caches types in the constructor for 'Section' - this should be fixed in a future rw update
+fix.fixmodremoval,"Fix mod removal, may solve grey screen issue",fix.fixmodremoval,English.xml,keyed,"Fix mod removal, may solve grey screen issue"
+fix.fixmodremoval.tooltip,This fixes the area manager trying to loop through null area classes from missing mods,fix.fixmodremoval.tooltip,English.xml,keyed,This fixes the area manager trying to loop through null area classes from missing mods
+fix.faction,Fix missing mod factions,fix.faction,English.xml,keyed,Fix missing mod factions
+fix.faction.tooltip,Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save,fix.faction.tooltip,English.xml,keyed,Removes all references to deleted factions in world objects. This will solve issues when removing factions mid-save
+DubsOptimizer.label,Dubs Performance Analyzer,label,MainButton.xml,def,Dubs Performance Analyzer
+DubsOptimizer.description,Keybinds for Dubs Performance Analyzer.,description,MainButton.xml,def,Keybinds for Dubs Performance Analyzer.
+DubsOptimizerKey.label,Dubs Performance Analyzer,label,MainButton.xml,def,Dubs Performance Analyzer
+DubsOptimizerRestartKey.label,Restart game,label,MainButton.xml,def,Restart game
+dpa_ToggleAlertBlock.label,Toggle Alerts,label,MainButton.xml,def,Toggle Alerts
