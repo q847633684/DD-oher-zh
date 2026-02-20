@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Deafeating [OTHER] in a duel!-->
+  <AM_Duel_WinFriendlyDuel.jobString>Deafeating [OTHER] in a duel!</AM_Duel_WinFriendlyDuel.jobString>
+  <!--EN: Win Friendly Duel-->
+  <AM_Duel_WinFriendlyDuel.label>Win Friendly Duel</AM_Duel_WinFriendlyDuel.label>
+  <!--EN: Execution: Bash-->
+  <AM_Execution_Bash.label>Execution: Bash</AM_Execution_Bash.label>
+  <!--EN: Execution: Big Bash-->
+  <AM_Execution_BashLarge.label>Execution: Big Bash</AM_Execution_BashLarge.label>
+  <!--EN: Execution: Behead-->
+  <AM_Execution_Behead.label>Execution: Behead</AM_Execution_Behead.label>
+  <!--EN: Execution: Jumping Behead-->
+  <AM_Execution_BeheadHigh.label>Execution: Jumping Behead</AM_Execution_BeheadHigh.label>
+  <!--EN: Execution: Fail-->
+  <AM_Execution_Fail.label>Execution: Fail</AM_Execution_Fail.label>
+  <!--EN: Execution: Gáe Bulg-->
+  <AM_Execution_GaeBulg.label>Execution: Gáe Bulg</AM_Execution_GaeBulg.label>
+  <!--EN: Execution: Head Be Gone-->
+  <AM_Execution_HeadRemoval.label>Execution: Head Be Gone</AM_Execution_HeadRemoval.label>
+  <!--EN: Execution: Head Stab-->
+  <AM_Execution_HeadStab.label>Execution: Head Stab</AM_Execution_HeadStab.label>
+  <!--EN: Execution: Jump Throw-->
+  <AM_Execution_JumpThrow.label>Execution: Jump Throw</AM_Execution_JumpThrow.label>
+  <!--EN: Execution: Knockdown Stab-->
+  <AM_Execution_KnockdownStab.label>Execution: Knockdown Stab</AM_Execution_KnockdownStab.label>
+  <!--EN: Execution: Passover-->
+  <AM_Execution_Passover.label>Execution: Passover</AM_Execution_Passover.label>
+  <!--EN: Execution: Pocket Sand!-->
+  <AM_Execution_PocketSand.label>Execution: Pocket Sand!</AM_Execution_PocketSand.label>
+  <!--EN: Execution: Punt-->
+  <AM_Execution_Punt.label>Execution: Punt</AM_Execution_Punt.label>
+  <!--EN: Execution: Acrobatic Backstab-->
+  <AM_Execution_SekiroBS.label>Execution: Acrobatic Backstab</AM_Execution_SekiroBS.label>
+  <!--EN: Execution: Shank-->
+  <AM_Execution_Shank.label>Execution: Shank</AM_Execution_Shank.label>
+  <!--EN: Execution: Spear Stab-->
+  <AM_Execution_SpearLift.label>Execution: Spear Stab</AM_Execution_SpearLift.label>
+  <!--EN: Execution: Stab-->
+  <AM_Execution_Stab.label>Execution: Stab</AM_Execution_Stab.label>
+  <!--EN: Execution: Throw Sharp-->
+  <AM_Execution_ThrowSharp.label>Execution: Throw Sharp</AM_Execution_ThrowSharp.label>
+  <!--EN: Execution: Up & Down Slash-->
+  <AM_Execution_UpDownSlash.label>Execution: Up &amp; Down Slash</AM_Execution_UpDownSlash.label>
+  <!--EN: Execution: Upwards Slash-->
+  <AM_Execution_UpSlash.label>Execution: Upwards Slash</AM_Execution_UpSlash.label>
+  <!--EN: Execution: Upwards Slash (doubletap)-->
+  <AM_Execution_UpSlash_Doubletap.label>Execution: Upwards Slash (doubletap)</AM_Execution_UpSlash_Doubletap.label>
+  <!--EN: Execution: You insulted m'lady-->
+  <AM_Execution_Weebstick.label>Execution: You insulted m'lady</AM_Execution_Weebstick.label>
+  <!--EN: Execution: Whirlwind-->
+  <AM_Execution_Whirlwind.label>Execution: Whirlwind</AM_Execution_Whirlwind.label>
+  <!--EN: Casting unique skill: mystic weapon summon-->
+  <AM_GilgameshVictim.description>Casting unique skill: mystic weapon summon</AM_GilgameshVictim.description>
+  <!--EN: Uh oh...-->
+  <AM_GilgameshVictim.jobString>Uh oh...</AM_GilgameshVictim.jobString>
+  <!--EN: Execution: Mystic Weapon Summon-->
+  <AM_GilgameshVictim.label>Execution: Mystic Weapon Summon</AM_GilgameshVictim.label>
+</LanguageData>

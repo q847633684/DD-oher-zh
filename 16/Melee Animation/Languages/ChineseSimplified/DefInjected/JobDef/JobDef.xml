@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: casting animation-->
+  <AM_ChannelAnimation.reportString>casting animation</AM_ChannelAnimation.reportString>
+  <!--EN: engaging in friendly duel with TargetA-->
+  <AM_DoFriendlyDuel.reportString>engaging in friendly duel with TargetA</AM_DoFriendlyDuel.reportString>
+  <!--EN: lassoing pawn-->
+  <AM_GrapplePawn.reportString>lassoing pawn</AM_GrapplePawn.reportString>
+  <!--EN: in animation-->
+  <AM_InAnimation.reportString>in animation</AM_InAnimation.reportString>
+  <!--EN: spectating duel: cheering for TargetC-->
+  <AM_SpectateFriendlyDuel.reportString>spectating duel: cheering for TargetC</AM_SpectateFriendlyDuel.reportString>
+  <!--EN: moving towards TargetA to perform execution.-->
+  <AM_WalkToExecution.reportString>moving towards TargetA to perform execution.</AM_WalkToExecution.reportString>
+</LanguageData>

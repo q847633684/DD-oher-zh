@@ -1,0 +1,570 @@
+key,text,tag,file,type,protected_text,translated
+AM.ModTitle,Epicguru's Melee Animation,AM.ModTitle,Keys.xml,keyed,Epicguru's Melee Animation,Epiguru 的近战动画
+AM.LoadingText,Loading Melee Animation,AM.LoadingText,Keys.xml,keyed,Loading Melee Animation,加载近战动画
+AM.Animation,Animation,AM.Animation,Keys.xml,keyed,Animation,动画片
+AM.Error.Grapple.FloatMenu,Cannot lasso: {0},AM.Error.Grapple.FloatMenu,Keys.xml,keyed,Cannot lasso: (PH_1),无法 套索：{0}
+AM.Grapple.FloatMenu,Lasso {0},AM.Grapple.FloatMenu,Keys.xml,keyed,Lasso (PH_1),套索 {0}
+AM.Grapple.FloatMenu.Tip,Use a lasso to pull {1} towards {0}.\nThis does not harm {1}.,AM.Grapple.FloatMenu.Tip,Keys.xml,keyed,Use a lasso to pull (PH_4) towards (PH_3).(PH_2)This does not harm (PH_1).,"使用 套索 将 {1} 拉向 {0}。
+这不会伤害 {1}。"
+AM.Grapple.FloatMenu.TipEnemy,"Use a lasso to pull {1} towards {0}.\nThis does not harm {1}, but it does put them into melee/execution range.",AM.Grapple.FloatMenu.TipEnemy,Keys.xml,keyed,"Use a lasso to pull (PH_4) towards (PH_3).(PH_2)This does not harm (PH_1), but it does put them into melee/execution range.","使用套索将{1}拉向{0}。
+这不会伤害{1}，但确实会将它们置于近战/处决范围内。"
+AM.Exec.FloatMenu,Execute {0},AM.Exec.FloatMenu,Keys.xml,keyed,Execute (PH_1),执行{0}
+AM.Exec.FloatMenu.Tip,"Perform an execution animation on {1}.\nPossible outcomes based on weapon, melee skill, armor, mod settings etc:\n{2}",AM.Exec.FloatMenu.Tip,Keys.xml,keyed,"Perform an execution animation on (PH_4).(PH_3)Possible outcomes based on weapon, melee skill, armor, mod settings etc:(PH_2)(PH_1)","在 {1} 上执行执行动画。
+基于武器、近战技能、盔甲、模组设置等的可能结果：
+{2}"
+AM.Exec.FloatMenu.Walk,(walk to target),AM.Exec.FloatMenu.Walk,Keys.xml,keyed,(walk to target),（步行至目标）
+AM.Exec.FloatMenu.Lasso,(lasso),AM.Exec.FloatMenu.Lasso,Keys.xml,keyed,(lasso),(套索)
+AM.Error.Grapple.Internal,Int.Error: {Error},AM.Error.Grapple.Internal,Keys.xml,keyed,Int.Error: (PH_1),内部错误：{Error}
+AM.Error.Grapple.AlreadyAtTarget,{Target} is already in melee range,AM.Error.Grapple.AlreadyAtTarget,Keys.xml,keyed,(PH_1) is already in melee range,{Target} 已处于近战范围内
+AM.ProbReport.Kill,Kill,AM.ProbReport.Kill,Keys.xml,keyed,Kill,杀
+AM.ProbReport.Down,Down,AM.ProbReport.Down,Keys.xml,keyed,Down,向下
+AM.ProbReport.Injure,Injure,AM.ProbReport.Injure,Keys.xml,keyed,Injure,损伤
+AM.ProbReport.Fail,Fail,AM.ProbReport.Fail,Keys.xml,keyed,Fail,失败
+AM.Error.Duel.Internal,Int.Error: {Error},AM.Error.Duel.Internal,Keys.xml,keyed,Int.Error: (PH_1),内部错误：{Error}
+AM.Error.Duel.Dead,{Pawn} is dead,AM.Error.Duel.Dead,Keys.xml,keyed,(PH_1) is dead,{Pawn} 已死亡
+AM.Error.Duel.Down,{Pawn} is downed,AM.Error.Duel.Down,Keys.xml,keyed,(PH_1) is downed,{Pawn} 已被击落
+AM.Error.Duel.NotSpawned,{Pawn} cannot be dueled right now,AM.Error.Duel.NotSpawned,Keys.xml,keyed,(PH_1) cannot be dueled right now,{Pawn} 现在无法决斗
+AM.Error.Duel.NotSpawned.Short,{Pawn} is not available,AM.Error.Duel.NotSpawned.Short,Keys.xml,keyed,(PH_1) is not available,{Pawn} 不可用
+AM.Error.Duel.MissingWeapon,{Pawn} does not have a valid melee weapon,AM.Error.Duel.MissingWeapon,Keys.xml,keyed,(PH_1) does not have a valid melee weapon,{Pawn} 没有有效的近战武器
+AM.Error.Duel.NoAnim,The weapon(s) these pawns are carrying cannot be used to duel with.,AM.Error.Duel.NoAnim,Keys.xml,keyed,The (PH_1) these pawns are carrying cannot be used to duel with.,这些棋子携带的weapon(s)不能用于决斗。
+AM.Error.Duel.NoAnim.Short,These melee weapons cannot be used to duel,AM.Error.Duel.NoAnim.Short,Keys.xml,keyed,These melee weapons cannot be used to duel,这些近战武器不能用于决斗
+AM.Error.Duel.NoPath,{0} cannot reach {1} to start a duel,AM.Error.Duel.NoPath,Keys.xml,keyed,(PH_2) cannot reach (PH_1) to start a duel,{0} 无法到达 {1} 开始决斗
+AM.Error.Duel.OnCooldown,{0}'s duel is on cooldown,AM.Error.Duel.OnCooldown,Keys.xml,keyed,(PH_1)'s duel is on cooldown,{0}的决斗正在冷却中
+AM.Error.Duel.WaitedTooLong,"{0} got tired of waiting for {1} to arrive to their duel, and called it off.",AM.Error.Duel.WaitedTooLong,Keys.xml,keyed,"(PH_2) got tired of waiting for (PH_1) to arrive to their duel, and called it off.",{0} 厌倦了等待 {1} 到达决斗场，因此取消了比赛。
+AM.Gizmos.DuelSpot.StartDuel.Label,Start duel,AM.Gizmos.DuelSpot.StartDuel.Label,Keys.xml,keyed,Start duel,开始决斗
+AM.Gizmos.DuelSpot.StartDuel.Desc,"Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.\n\nThis is a friendly duel, nobody will be hurt.",AM.Gizmos.DuelSpot.StartDuel.Desc,Keys.xml,keyed,"Manually start a duel between two friendly pawns with valid weapons. Prisoners cannot participate.(PH_2)(PH_1)This is a friendly duel, nobody will be hurt.","使用有效武器手动开始两个友方棋子之间的决斗。囚犯不能参加。
+
+这是一场友好的决斗，没有人会受伤。"
+AM.Gizmos.DuelSpot.StartDuel.InUse,The duel spot is currently in use,AM.Gizmos.DuelSpot.StartDuel.InUse,Keys.xml,keyed,The duel spot is currently in use,决斗场地目前正在使用中
+AM.Gizmos.DuelSpot.StartDuel.Forbidden,The duel spot is forbidden,AM.Gizmos.DuelSpot.StartDuel.Forbidden,Keys.xml,keyed,The duel spot is forbidden,决斗场被禁止
+AM.Gizmos.DuelSpot.StartDuel.MissingWeapon,"{0} does not have a valid melee weapon (must be long weapon, not short)",AM.Gizmos.DuelSpot.StartDuel.MissingWeapon,Keys.xml,keyed,"(PH_1) does not have a valid melee weapon (must be long weapon, not short)",{0}没有有效的近战武器（必须是长武器，而不是短武器）
+AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon,"{0}'s weapon cannot be used to duel {1}, their weapons are incompatible (must be long weapons, not short)",AM.Gizmos.DuelSpot.StartDuel.IncompatWeapon,Keys.xml,keyed,"(PH_2)'s weapon cannot be used to duel (PH_1), their weapons are incompatible (must be long weapons, not short)",{0}的武器不能用于决斗{1}，他们的武器不兼容（必须是长武器，不能是短武器）
+AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt,{0}'s current job cannot be interrupted,AM.Gizmos.DuelSpot.StartDuel.CannotInterrupt,Keys.xml,keyed,(PH_1)'s current job cannot be interrupted,{0} 的当前作业无法中断
+AM.Gizmos.DuelSpot.StartDuel.NoPath,{0} cannot reach the duel spot,AM.Gizmos.DuelSpot.StartDuel.NoPath,Keys.xml,keyed,(PH_1) cannot reach the duel spot,{0}无法到达决斗地点
+AM.Gizmos.DuelSpot.StartDuel.OnCooldown,{0} cannot do a friendly duel for another {2} seconds,AM.Gizmos.DuelSpot.StartDuel.OnCooldown,Keys.xml,keyed,(PH_2) cannot do a friendly duel for another (PH_1) seconds,{0} 在 {2} 秒内无法进行友好决斗
+AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle,Select a pawn to duel,AM.Gizmos.DuelSpot.StartDuel.FloatMenuTitle,Keys.xml,keyed,Select a (PH_1) to duel,选择 pawn 进行决斗
+AM.Gizmos.DuelSpot.StartDuel.FailedToStart,An unexpected error caused the duel to not be able to be started. Please send logs to the mod author.,AM.Gizmos.DuelSpot.StartDuel.FailedToStart,Keys.xml,keyed,An unexpected error caused the duel to not be able to be started. Please send logs to the mod author.,意外错误导致决斗无法开始。请将日志发送给模组作者。
+AM.Gizmos.DuelSpot.ToggleVisibility,Toggle visibility,AM.Gizmos.DuelSpot.ToggleVisibility,Keys.xml,keyed,Toggle visibility,切换可见性
+AM.Gizmos.DuelSpot.ToggleVisibility.Desc,"Makes this duel spot invisible, or shows it again.\nWarning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...",AM.Gizmos.DuelSpot.ToggleVisibility.Desc,Keys.xml,keyed,"Makes this duel spot invisible, or shows it again.(PH_1)Warning: it really is invisible! Don't forget where you put it down or you may struggle to find it again...","使此决斗点隐形，或再次显示。
+警告：这确实是隐形！不要忘记你把它放在哪里，否则你可能很难再找到它......"
+AM.Error.Grapple.Dead,{Grappler} is dead,AM.Error.Grapple.Dead,Keys.xml,keyed,(PH_1) is dead,{Grappler} 已死亡
+AM.Error.Grapple.Stunned,{Grappler} is stunned,AM.Error.Grapple.Stunned,Keys.xml,keyed,(PH_1) is stunned,{Grappler}惊呆了
+AM.Error.Grapple.DeadTarget,{Target} is dead,AM.Error.Grapple.DeadTarget,Keys.xml,keyed,(PH_1) is dead,{Target} 已死亡
+AM.Error.Grapple.Downed,{Grappler} is downed,AM.Error.Grapple.Downed,Keys.xml,keyed,(PH_1) is downed,{Grappler} 已被击落
+AM.Error.Grapple.AlreadyTarget,{Target} is already being lassoed,AM.Error.Grapple.AlreadyTarget,Keys.xml,keyed,(PH_1) is already being lassoed,{Target} 已被套住
+AM.Error.Grapple.AlreadyTarget.Short,Already being lassoed,AM.Error.Grapple.AlreadyTarget.Short,Keys.xml,keyed,Already being lassoed,已经被套住了
+AM.Error.Exec.FloatMenu,Cannot execute: {0},AM.Error.Exec.FloatMenu,Keys.xml,keyed,Cannot execute: (PH_1),无法执行：{0}
+AM.Error.Exec.Internal,Int.Error: {Error},AM.Error.Exec.Internal,Keys.xml,keyed,Int.Error: (PH_1),内部错误：{Error}
+AM.Error.Exec.Dead,{Exec} is dead,AM.Error.Exec.Dead,Keys.xml,keyed,(PH_1) is dead,{Exec} 已死亡
+AM.Error.Exec.NoWalk.Short,{Target} cannot be reached,AM.Error.Exec.NoWalk.Short,Keys.xml,keyed,(PH_1) cannot be reached,无法联系 {Target}
+AM.Error.Exec.DeadTarget,{Target} is dead,AM.Error.Exec.DeadTarget,Keys.xml,keyed,(PH_1) is dead,{Target} 已死亡
+AM.Error.Exec.Downed,{Exec} is downed,AM.Error.Exec.Downed,Keys.xml,keyed,(PH_1) is downed,{Exec} 已被击落
+AM.Error.Exec.DownedTarget,{Target} is downed. Downed pawns cannot be executed.,AM.Error.Exec.DownedTarget,Keys.xml,keyed,(PH_1) is downed. Downed pawns cannot be executed.,{Target} 已被击落。被击倒的棋子不能被处决。
+AM.Error.Exec.DownedTarget.Short,{Target} is downed,AM.Error.Exec.DownedTarget.Short,Keys.xml,keyed,(PH_1) is downed,{Target} 已被击落
+AM.Error.Exec.BadRace,{Target} is not a valid target.,AM.Error.Exec.BadRace,Keys.xml,keyed,(PH_1) is not a valid target.,{Target} 不是有效目标。
+AM.Error.Exec.BadRace.Short,{Target} is not a valid target,AM.Error.Exec.BadRace.Short,Keys.xml,keyed,(PH_1) is not a valid target,{Target} 不是有效目标
+AM.Error.Exec.CannotFist,{Exec} has no weapon and cannot use their fists: {Additional},AM.Error.Exec.CannotFist,Keys.xml,keyed,(PH_2) has no weapon and cannot use their fists: (PH_1),{Exec}没有武器，无法使用拳头：{Additional}
+AM.Error.Exec.CannotFist.Short,{Exec} cannot use their fists,AM.Error.Exec.CannotFist.Short,Keys.xml,keyed,(PH_1) cannot use their fists,{Exec} 无法使用拳头
+AM.Error.Exec.SelfInAnimation,{Exec} cannot execute anyone right now,AM.Error.Exec.SelfInAnimation,Keys.xml,keyed,(PH_1) cannot execute anyone right now,{Exec} 现在无法处决任何人
+AM.Error.Exec.InAnimation,{Target} cannot be executed right now,AM.Error.Exec.InAnimation,Keys.xml,keyed,(PH_1) cannot be executed right now,{Target} 现在无法执行
+AM.Error.Exec.Stunned,{Exec} is stunned,AM.Error.Exec.Stunned,Keys.xml,keyed,(PH_1) is stunned,{Exec}惊呆了
+AM.Error.Exec.NoWalk,"{Target} is not adjacent to {Exec}, and cannot be lassoed or walked to.",AM.Error.Exec.NoWalk,Keys.xml,keyed,"(PH_2) is not adjacent to (PH_1), and cannot be lassoed or walked to.",{Target} 与 {Exec} 不相邻，无法用套索套住或步行前往。
+AM.Error.Exec.NoWeapon,{Exec} is not wielding a valid melee weapon,AM.Error.Exec.NoWeapon,Keys.xml,keyed,(PH_1) is not wielding a valid melee weapon,{Exec} 没有使用有效的近战武器
+AM.Error.Exec.NoWeapon.Short,No melee weapon,AM.Error.Exec.NoWeapon.Short,Keys.xml,keyed,No melee weapon,没有近战武器
+AM.Error.Exec.Cooldown,{Exec}'s execution is on cooldown,AM.Error.Exec.Cooldown,Keys.xml,keyed,(PH_1)'s execution is on cooldown,{Exec} 的处决正在冷却中
+AM.Error.Exec.Cooldown.Short,Execution on cooldown,AM.Error.Exec.Cooldown.Short,Keys.xml,keyed,Execution on cooldown,冷却时执行
+AM.Error.Exec.NoAnims,{Exec} cannot perform any execution animations using their {Weapon}.\nThis is probably due to a lack of melee skill or because all animations are disabled in the mod settings.,AM.Error.Exec.NoAnims,Keys.xml,keyed,(PH_3) cannot perform any execution animations using their (PH_2).(PH_1)This is probably due to a lack of melee skill or because all animations are disabled in the mod settings.,"{Exec} 无法使用其 {Weapon} 执行任何执行动画。
+这可能是由于缺乏近战技能或因为 Mod 设置中禁用了所有动画。"
+AM.Error.Exec.NoAnims.Short,No animations available,AM.Error.Exec.NoAnims.Short,Keys.xml,keyed,No animations available,没有可用的动画
+AM.Error.Exec.NoSpace,There is not enough space to perform any execution animation here,AM.Error.Exec.NoSpace,Keys.xml,keyed,There is not enough space to perform any execution animation here,这里没有足够的空间来执行任何执行动画
+AM.Error.Exec.NoSpace.Short,Not enough space,AM.Error.Exec.NoSpace.Short,Keys.xml,keyed,Not enough space,空间不足
+AM.Error.Exec.NoPath,"{Exec} cannot reach {Target} by walking, and their lasso is unavailable or unusable.",AM.Error.Exec.NoPath,Keys.xml,keyed,"(PH_2) cannot reach (PH_1) by walking, and their lasso is unavailable or unusable.",{Exec} 无法通过步行到达 {Target}，并且他们的 套索 不可用或无法使用。
+AM.Error.Exec.NoPath.Short,No path to target,AM.Error.Exec.NoPath.Short,Keys.xml,keyed,No path to target,没有到达目标的路径
+AM.Error.Exec.BadFists,{Exec} use their fists for execution: {Additional}.,AM.Error.Exec.BadFists,Keys.xml,keyed,(PH_2) use their fists for execution: (PH_1).,{Exec} use their fists for execution: {Additional}.
+AM.Error.Exec.BadFists.Short,Cannot use their fists for execution,AM.Error.Exec.BadFists.Short,Keys.xml,keyed,Cannot use their fists for execution,不能用拳头执行死刑
+AM.Error.Grapple.MissingLOS,No line of sight,AM.Error.Grapple.MissingLOS,Keys.xml,keyed,No line of sight,没有视线
+AM.Error.Grapple.TooFar,{Target} is out of reach of {Grappler}'s lasso,AM.Error.Grapple.TooFar,Keys.xml,keyed,(PH_2) is out of reach of (PH_1)'s lasso,{Target} 超出 {Grappler} 的 套索 范围
+AM.Error.Grapple.TooFar.Short,Too far away,AM.Error.Grapple.TooFar.Short,Keys.xml,keyed,Too far away,太远了
+AM.Error.Grapple.InAnimation,{Target} cannot be lassoed right now,AM.Error.Grapple.InAnimation,Keys.xml,keyed,(PH_1) cannot be lassoed right now,现在无法套住 {Target}
+AM.Error.Grapple.SelfInAnimation,{Grappler} cannot lasso right now,AM.Error.Grapple.SelfInAnimation,Keys.xml,keyed,(PH_1) cannot lasso right now,{Grappler} 现在不能 套索
+AM.Error.Grapple.Mass,{Target} is too heavy for {Grappler} to lasso,AM.Error.Grapple.Mass,Keys.xml,keyed,(PH_2) is too heavy for (PH_1) to lasso,{Target} 对于 {Grappler} 到 套索 来说太重
+AM.Error.Grapple.Mass.Short,{Target} is too heavy,AM.Error.Grapple.Mass.Short,Keys.xml,keyed,(PH_1) is too heavy,{Target} 太重
+AM.Error.Grapple.Size,{Target} is too large for {Grappler} to lasso,AM.Error.Grapple.Size,Keys.xml,keyed,(PH_2) is too large for (PH_1) to lasso,{Target} 对于 {Grappler} 到 套索 来说太大
+AM.Error.Grapple.Size.Short,{Target} is too large,AM.Error.Grapple.Size.Short,Keys.xml,keyed,(PH_1) is too large,{Target} 太大
+AM.Error.Grapple.Cooldown,{Grappler}'s lasso is on cooldown,AM.Error.Grapple.Cooldown,Keys.xml,keyed,(PH_1)'s lasso is on cooldown,{Grappler} 的 套索 正在冷却
+AM.Error.Grapple.Cooldown.Short,Lasso on cooldown,AM.Error.Grapple.Cooldown.Short,Keys.xml,keyed,Lasso on cooldown,套索已冷却
+AM.Error.Grapple.SkillIssue,{Grappler} does not have the required melee skill ({MeleeSkill}) to use their lasso,AM.Error.Grapple.SkillIssue,Keys.xml,keyed,(PH_2) does not have the required melee skill ((PH_1)) to use their lasso,{Grappler} 不具备使用 套索 所需的近战技能 ({MeleeSkill})
+AM.Error.Grapple.SkillIssue.Short,Not enough melee skill,AM.Error.Grapple.SkillIssue.Short,Keys.xml,keyed,Not enough melee skill,近战技能不够
+AM.Error.Grapple.Manipulation,{Grappler} does not have the required manipulation to use their lasso,AM.Error.Grapple.Manipulation,Keys.xml,keyed,(PH_1) does not have the required manipulation to use their lasso,{Grappler} 没有使用其 套索 所需的操作
+AM.Error.Grapple.Manipulation.Short,Not enough manipulation,AM.Error.Grapple.Manipulation.Short,Keys.xml,keyed,Not enough manipulation,操纵不够
+AM.Error.Grapple.NoDest,There is no free spot around {Grappler} to drag {Target} to,AM.Error.Grapple.NoDest,Keys.xml,keyed,There is no free spot around (PH_2) to drag (PH_1) to,{Grappler} 周围没有空闲位置可将 {Target} 拖动到
+AM.Error.Grapple.NoDest.Short,No free spot around {Grappler},AM.Error.Grapple.NoDest.Short,Keys.xml,keyed,No free spot around (PH_1),{Grappler} 周围没有空闲位置
+AM.Stats.BaseValue,Base Value: {0},AM.Stats.BaseValue,Keys.xml,keyed,Base Value: (PH_1),基础值：{0}
+AM.Stats.MeleeSkillOffset,Melee Skill ({0}) Effect: {1},AM.Stats.MeleeSkillOffset,Keys.xml,keyed,Melee Skill ((PH_2)) Effect: (PH_1),近战技能（{0}）效果：{1}
+AM.Stats.ConsciousnessOffset,Consciousness ({0}) Effect: {1},AM.Stats.ConsciousnessOffset,Keys.xml,keyed,Consciousness ((PH_2)) Effect: (PH_1),意识（{0}）效果：{1}
+AM.Stats.ManipulationOffset,Manipulation ({0}) Effect: {1},AM.Stats.ManipulationOffset,Keys.xml,keyed,Manipulation ((PH_2)) Effect: (PH_1),操纵 ({0}) 效果：{1}
+AM.Stats.WeaponDamageTypeOffset,Weapon Damage Type ({0}) Effect: {1},AM.Stats.WeaponDamageTypeOffset,Keys.xml,keyed,Weapon Damage Type ((PH_2)) Effect: (PH_1),武器伤害类型（{0}）效果：{1}
+AM.Stats.WeaponDPSCoef,Weapon DPS ({0}) Effect: {1},AM.Stats.WeaponDPSCoef,Keys.xml,keyed,Weapon DPS ((PH_2)) Effect: (PH_1),武器 DPS ({0}) 效果：{1}
+AM.Stats.NoWeapon,No Melee Weapon Equipped: {0},AM.Stats.NoWeapon,Keys.xml,keyed,No Melee Weapon Equipped: (PH_1),未装备近战武器：{0}
+AM.Stats.GlobalCoef,Global {0} Multiplier (from mod settings): {1},AM.Stats.GlobalCoef,Keys.xml,keyed,Global (PH_2) Multiplier (from mod settings): (PH_1),全局 {0} 乘数（来自 mod 设置）：{1}
+AM.Stats.FriendlyCoef,Friendly Pawn Multiplier (from mod settings): x{0},AM.Stats.FriendlyCoef,Keys.xml,keyed,Friendly Pawn Multiplier (from mod settings): x(PH_1),友善兵倍数（来自模组设置）：x{0}
+AM.Stats.SkillCoef,Melee Skill Multiplier: x{0},AM.Stats.SkillCoef,Keys.xml,keyed,Melee Skill Multiplier: x(PH_1),近战技能倍增：x{0}
+AM.Stats.EnemyCoef,Hostile Pawn Multiplier (from mod settings): x{0},AM.Stats.EnemyCoef,Keys.xml,keyed,Hostile Pawn Multiplier (from mod settings): x(PH_1),敌对兵乘数（来自模组设置）：x{0}
+AM.Stats.Lethality,lethality,AM.Stats.Lethality,Keys.xml,keyed,lethality,杀伤力
+AM.Stats.DuelAbility,duel ability,AM.Stats.DuelAbility,Keys.xml,keyed,duel ability,决斗能力
+AM.Stats.FriendlyPawnBonus,Friendly Pawn Bonus (from mod settings): {0},AM.Stats.FriendlyPawnBonus,Keys.xml,keyed,Friendly Pawn Bonus (from mod settings): (PH_1),友好典当奖励（来自模组设置）：{0}
+AM.Skill.Cast,Cast unique skill '{0}' on {1},AM.Skill.Cast,Keys.xml,keyed,Cast unique skill '(PH_2)' on (PH_1),对 {1} 施放独特技能“{0}”
+AM.Skill.CantCast,Can't cast {0}: {1},AM.Skill.CantCast,Keys.xml,keyed,Can't cast (PH_2): (PH_1),无法施放 {0}：{1}
+AM.Skill.CantCastGeneric,Can't cast {0} on {1} right now.,AM.Skill.CantCastGeneric,Keys.xml,keyed,Can't cast (PH_2) on (PH_1) right now.,目前无法对 {1} 施放 {0}。
+AM.Skill.BadTargetState,Target invalid state.,AM.Skill.BadTargetState,Keys.xml,keyed,Target invalid state.,目标无效状态。
+AM.Skill.AlreadyActive,The skill is already active.,AM.Skill.AlreadyActive,Keys.xml,keyed,The skill is already active.,该技能已经激活。
+AM.Skill.OnCooldown,On cooldown for {0} seconds.,AM.Skill.OnCooldown,Keys.xml,keyed,On cooldown for (PH_1) seconds.,冷却时间为 {0} 秒。
+AM.Skill.OnCooldownExec,On cooldown for {0} seconds (because of recent execution).,AM.Skill.OnCooldownExec,Keys.xml,keyed,On cooldown for (PH_1) seconds (because of recent execution).,冷却时间为 {0} 秒（因为最近执行过）。
+AM.Skill.BadWeapon,Missing required weapon.,AM.Skill.BadWeapon,Keys.xml,keyed,Missing required weapon.,缺少所需的武器。
+AM.Skill.Gilgamesh.LowPsy,Psylink level {0} is below required level {1}.,AM.Skill.Gilgamesh.LowPsy,Keys.xml,keyed,Psylink level (PH_2) is below required level (PH_1).,PSYLINK 级别 {0} 低于所需级别 {1}。
+AM.Skill.Gilgamesh.LowMelee,Melee level {0} is below required level {1}.,AM.Skill.Gilgamesh.LowMelee,Keys.xml,keyed,Melee level (PH_2) is below required level (PH_1).,近战等级 {0} 低于所需等级 {1}。
+AM.Patch.OptDisabled,The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.,AM.Patch.OptDisabled,Keys.xml,keyed,The invisibilty optimization has been disabled by the Melee Animation mod due to visual bugs.,由于视觉错误，近战动画模组已禁用隐形优化。
+SimpleSettings.Preset,Preset:,SimpleSettings.Preset,Keys.xml,keyed,Preset:,预设：
+SimpleSettings.Preset.Custom,Custom,SimpleSettings.Preset.Custom,Keys.xml,keyed,Custom,风俗
+SimpleSettings.ClickToReset,Right-click to set an option back to its default value.,SimpleSettings.ClickToReset,Keys.xml,keyed,Right-click to set an option back to its default value.,右键单击可将选项恢复为默认值。
+AM.AMSettings.Presets.Default,Default,AM.AMSettings.Presets.Default,Keys.xml,keyed,Default,默认
+AM.AMSettings.Presets.Default.Desc,Enables all features the mod has to offer,AM.AMSettings.Presets.Default.Desc,Keys.xml,keyed,Enables all features the mod has to offer,启用该模组必须提供的所有功能
+AM.AMSettings.Presets.NoLassos,No Lassos,AM.AMSettings.Presets.NoLassos,Keys.xml,keyed,No Lassos,没有套索
+AM.AMSettings.Presets.NoLassos.Desc,"Everything is enabled except lassos. You can still craft and use lassos manually if you want but enemies will not spawn with or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Adds duels
+* Adds execution animations
+* Adds Unique Skills",AM.AMSettings.Presets.NoLassos.Desc,Keys.xml,keyed,Everything is enabled except lassos. You can still craft and use lassos manually if you want but enemies will not spawn with or use lassos.(PH_6)(PH_5)* Adds melee attack animations.(PH_4)* Adds melee weapon idle animations(PH_3)* Adds duels(PH_2)* Adds execution animations(PH_1)* Adds Unique Skills,"除了套索之外，一切都已启用。如果需要，您仍然可以手动制作和使用套索，但敌人不会生成或使用套索。
+
+* 添加近战攻击动画。
+* 添加近战武器闲置动画
+* 添加决斗
+* 添加执行动画
+* 添加独特技能"
+AM.AMSettings.Presets.VanillaPlus,Vanilla+,AM.AMSettings.Presets.VanillaPlus,Keys.xml,keyed,Vanilla+,香草+
+AM.AMSettings.Presets.VanillaPlus.Desc,"Keeps things very close to vanilla combat. Your pawns will not use lassos unless you manually instruct them to. Your pawns can not do executions, ever. Enemies will never do executions or use lassos.
+
+* Adds melee attack animations.
+* Adds melee weapon idle animations
+* Lassos can be used by friendly pawns, but must be equipped and triggered manually.",AM.AMSettings.Presets.VanillaPlus.Desc,Keys.xml,keyed,"Keeps things very close to vanilla combat. Your pawns will not use lassos unless you manually instruct them to. Your pawns can not do executions, ever. Enemies will never do executions or use lassos.(PH_4)(PH_3)* Adds melee attack animations.(PH_2)* Adds melee weapon idle animations(PH_1)* Lassos can be used by friendly pawns, but must be equipped and triggered manually.","使事情非常接近原版战斗。你的 pawn 不会使用套索，除非你手动指示它们。你的棋子永远不能执行死刑。敌人永远不会执行处决或使用套索。
+
+* 添加近战攻击动画。
+* 添加近战武器闲置动画
+* 套索可由友方 pawn 使用，但必须手动装备和触发。"
+AM.AMSettings.Settings.Header.General,General,AM.AMSettings.Settings.Header.General,Keys.xml,keyed,General,一般的
+AM.AMSettings.Settings.AnimateAtIdle,Always Animate Weapons,AM.AMSettings.Settings.AnimateAtIdle,Keys.xml,keyed,Always Animate Weapons,始终激活武器
+AM.AMSettings.Settings.AnimateAtIdle.Desc,"If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.
+If disabled, animations are limited to duels, special skills and executions.
+
+<b>Leaving this enabled can have a large performance impact on densely populated maps.
+Please reload your save after changing this setting.</b>",AM.AMSettings.Settings.AnimateAtIdle.Desc,Keys.xml,keyed,"If enabled, melee weapons are animated whenever they are held, such as when standing drafted or while moving in combat.(PH_6)If disabled, animations are limited to duels, special skills and executions.(PH_5)(PH_4)(PH_3)Leaving this enabled can have a large performance impact on densely populated maps.(PH_2)Please reload your save after changing this setting.(PH_1)","如果启用，近战武器无论何时握持都会有动画效果，例如站立征兵或在战斗中移动时。
+如果禁用，动画仅限于决斗、特殊技能和处决。
+
+<b>启用此功能可能会对人口稠密的地图产生很大的性能影响。
+更改此设置后请重新加载保存设置。</b>"
+AM.AMSettings.Settings.EnableUniqueSkills,Enable Unique Skills,AM.AMSettings.Settings.EnableUniqueSkills,Keys.xml,keyed,Enable Unique Skills,启用独特技能
+AM.AMSettings.Settings.EnableUniqueSkills.Desc,"Enables or disables the Unique Skill system.
+Unique Skills are powerful attacks or abilities that are unlocked under certain conditions.
+Only your colonists can use these skills and they must be activated manually. See the Steam workshop page for more info.",AM.AMSettings.Settings.EnableUniqueSkills.Desc,Keys.xml,keyed,Enables or disables the Unique Skill system.(PH_2)Unique Skills are powerful attacks or abilities that are unlocked under certain conditions.(PH_1)Only your colonists can use these skills and they must be activated manually. See the Steam workshop page for more info.,"启用或禁用独特技能系统。
+独特技能是在特定条件下解锁的强大攻击或能力。
+只有你的殖民者可以使用这些技能，并且必须手动激活。请参阅 Steam 创意工坊页面了解更多信息。"
+AM.AMSettings.Settings.AllowInvisiblePawns,Animated Pawns Considered Invisible,AM.AMSettings.Settings.AllowInvisiblePawns,Keys.xml,keyed,Animated Pawns Considered Invisible,动画 Pawn 被视为隐形
+AM.AMSettings.Settings.AllowInvisiblePawns.Desc,"When in an animation, such as an execution, pawns are considered invisible by all other pawns and turrets: they will not be actively targeted or shot at. This makes executions less risky.
+Note that pawns in animations can still take damage, such as from stray gunfire or explosions.",AM.AMSettings.Settings.AllowInvisiblePawns.Desc,Keys.xml,keyed,"When in an animation, such as an execution, pawns are considered invisible by all other pawns and turrets: they will not be actively targeted or shot at. This makes executions less risky.(PH_1)Note that pawns in animations can still take damage, such as from stray gunfire or explosions.","在动画中（例如处决）时，pawn 被所有其他 pawn 和炮塔视为 一个透明人参与了性行为。：它们不会被主动瞄准或射击。这使得处决的风险较小。
+请注意，动画中的 pawn 仍然会受到伤害，例如来自流弹或爆炸的伤害。"
+AM.AMSettings.Settings.GlobalAnimationSpeed,Global Animation Speed,AM.AMSettings.Settings.GlobalAnimationSpeed,Keys.xml,keyed,Global Animation Speed,全球动画速度
+AM.AMSettings.Settings.GlobalAnimationSpeed.Desc,"A modifier on the speed of all animations.
+Higher is faster.",AM.AMSettings.Settings.GlobalAnimationSpeed.Desc,Keys.xml,keyed,A modifier on the speed of all animations.(PH_1)Higher is faster.,"所有动画速度的调节器。
+越高速度越快。"
+AM.AMSettings.Settings.animSettings,Individual Animation Settings,AM.AMSettings.Settings.animSettings,Keys.xml,keyed,Individual Animation Settings,单独的动画设置
+AM.AMSettings.Settings.Header.Lasso,Lasso,AM.AMSettings.Settings.Header.Lasso,Keys.xml,keyed,Lasso,套索
+AM.AMSettings.Settings.AutoGrapple,Auto Lasso,AM.AMSettings.Settings.AutoGrapple,Keys.xml,keyed,Auto Lasso,汽车套索
+AM.AMSettings.Settings.AutoGrapple.Desc,"If true, your colonists will automatically use their lassos against enemies.
+
+This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.",AM.AMSettings.Settings.AutoGrapple.Desc,Keys.xml,keyed,"If true, your colonists will automatically use their lassos against enemies.(PH_5)(PH_4)This only changes the (PH_3)default(PH_2) setting. It can also be configured on a per-(PH_1) basis.","如果为 true，您的殖民者将自动使用套索对抗敌人。
+
+这只会更改 <b>默认</b> 设置。它还可以按每个 pawn 进行配置。"
+AM.AMSettings.Settings.GrappleAttemptMTBSeconds,Automatic Lasso Average Interval (Friendly),AM.AMSettings.Settings.GrappleAttemptMTBSeconds,Keys.xml,keyed,Automatic Lasso Average Interval (Friendly),自动套索 平均 间隔（友好）
+AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc,"This is the average time, in seconds, at which friendly pawns will attempt to use their lasso to pull an enemy into melee range.
+If their execution is off cooldown and Auto Execute is enabled, they will immediately execute the lassoed target too.",AM.AMSettings.Settings.GrappleAttemptMTBSeconds.Desc,Keys.xml,keyed,"This is the average time, in seconds, at which friendly pawns will attempt to use their lasso to pull an enemy into melee range.(PH_1)If their execution is off cooldown and Auto Execute is enabled, they will immediately execute the lassoed target too.","这是友方 pawn 尝试使用 套索 将敌人拉入近战范围的平均时间（以秒为单位）。
+如果他们的执行已结束冷却并且启用了自动执行，他们也会立即执行套索的目标。"
+AM.AMSettings.Settings.LassoSpawnChance,Lasso Commonality,AM.AMSettings.Settings.LassoSpawnChance,Keys.xml,keyed,Lasso Commonality,套索共性
+AM.AMSettings.Settings.LassoSpawnChance.Desc,"This is the % chance for any <b>melee fighter</b> pawn to spawn with a lasso equipped.
+Set this to 0% to disable natural lasso generation on pawns.",AM.AMSettings.Settings.LassoSpawnChance.Desc,Keys.xml,keyed,This is the % chance for any (PH_4)melee fighter(PH_3) (PH_2) to spawn with a lasso equipped.(PH_1)Set this to 0% to disable natural lasso generation on pawns.,"这是任何 <b> 近战战士 </b> pawn 生成时装备有 套索 的几率百分比。
+将此设置为 0% 以禁用 pawn 上的自然 套索 生成。"
+AM.AMSettings.Settings.EnemiesCanGrapple,Enemies Can Lasso,AM.AMSettings.Settings.EnemiesCanGrapple,Keys.xml,keyed,Enemies Can Lasso,敌人可以套索
+AM.AMSettings.Settings.EnemiesCanGrapple.Desc,Can enemies use lassos (if they have any) to pull your colonists into melee range?,AM.AMSettings.Settings.EnemiesCanGrapple.Desc,Keys.xml,keyed,Can enemies use lassos (if they have any) to pull your colonists into melee range?,敌人可以使用套索（如果有的话）将你的殖民者拉入近战范围吗？
+AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy,Automatic Lasso Average Interval (Enemy),AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy,Keys.xml,keyed,Automatic Lasso Average Interval (Enemy),自动套索 平均 间隔（敌人）
+AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc,"This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.
+If their execution is off cooldown and 'Enemies Can Perform Executions' is enabled, they will immediately execute the lassoed target too.",AM.AMSettings.Settings.GrappleAttemptMTBSecondsEnemy.Desc,Keys.xml,keyed,"This is the average time, in seconds, at which enemy pawns will attempt to use their lasso to pull a target into melee range.(PH_1)If their execution is off cooldown and 'Enemies Can Perform Executions' is enabled, they will immediately execute the lassoed target too.","这是敌人 pawn 尝试使用 套索 将目标拉入近战范围的平均时间（以秒为单位）。
+如果他们的处决已结束冷却并且启用了“敌人可以执行处决”，他们也会立即处决被套索的目标。"
+AM.AMSettings.Settings.MinMeleeSkillToLasso,Minimum Melee Skill,AM.AMSettings.Settings.MinMeleeSkillToLasso,Keys.xml,keyed,Minimum Melee Skill,最低近战技能
+AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc,"The minumum melee skill required to use a lasso.
+Affects all pawns.",AM.AMSettings.Settings.MinMeleeSkillToLasso.Desc,Keys.xml,keyed,The minumum melee skill required to use a lasso.(PH_1)Affects all pawns.,"使用套索所需的最低近战技能。
+影响所有pawn。"
+AM.AMSettings.Settings.MinManipulationToLasso,Minimum Manipulation,AM.AMSettings.Settings.MinManipulationToLasso,Keys.xml,keyed,Minimum Manipulation,最少的操纵
+AM.AMSettings.Settings.MinManipulationToLasso.Desc,"The minimum Manipulation stat required to use a lasso.
+Affects all pawns.",AM.AMSettings.Settings.MinManipulationToLasso.Desc,Keys.xml,keyed,The minimum Manipulation stat required to use a lasso.(PH_1)Affects all pawns.,"使用 套索 所需的最低操纵统计数据。
+影响所有 pawn。"
+AM.AMSettings.Settings.MaxLassoMass,Max Pawn Mass,AM.AMSettings.Settings.MaxLassoMass,Keys.xml,keyed,Max Pawn Mass,最大棋子质量
+AM.AMSettings.Settings.MaxLassoMass.Desc,"The maximum mass that a pawn can have in order for it to be lassoed. The mass is measured in kilograms. You can check the mass of pawns in their Stat sheet.
+Set to zero to disable the mass limit.",AM.AMSettings.Settings.MaxLassoMass.Desc,Keys.xml,keyed,The maximum mass that a (PH_2) can have in order for it to be lassoed. The mass is measured in kilograms. You can check the mass of pawns in their Stat sheet.(PH_1)Set to zero to disable the mass limit.,"pawn 被套索时可以拥有的最大质量。质量以千克为单位测量。您可以在统计表中检查 pawn 的质量。
+设置为零以禁用质量限制。"
+AM.AMSettings.Settings.MaxLassoBodySize,Max Pawn Size,AM.AMSettings.Settings.MaxLassoBodySize,Keys.xml,keyed,Max Pawn Size,最大棋子尺寸
+AM.AMSettings.Settings.MaxLassoBodySize.Desc,"The maximum 'body size' that a pawn can have in order for it to be lassoed.
+For reference, here are some example body sizes:
+• Chicken: 0.3
+• Human: 1
+• Boomalope: 2
+• Warg: 3
+• Thrumbo: 4
+
+
+Set to zero to disable the body size limit.",AM.AMSettings.Settings.MaxLassoBodySize.Desc,Keys.xml,keyed,"The maximum 'body size' that a (PH_10) can have in order for it to be lassoed.(PH_9)For reference, here are some example body sizes:(PH_8)• Chicken: 0.3(PH_7)• Human: 1(PH_6)• Boomalope: 2(PH_5)• Warg: 3(PH_4)• Thrumbo: 4(PH_3)(PH_2)(PH_1)Set to zero to disable the body size limit.","pawn 可以被套索的最大“体型”。
+作为参考，以下是一些体型大小示例：
+• 鸡：0.3
+• 人类：1
+• 牛羚：2
+• 狼： 3
+• Thrumbo：4
+
+
+设置为零以禁用主体尺寸限制。"
+AM.AMSettings.Settings.GrappleSpeed,Lasso Travel Speed,AM.AMSettings.Settings.GrappleSpeed,Keys.xml,keyed,Lasso Travel Speed,套索行进速度
+AM.AMSettings.Settings.GrappleSpeed.Desc,"Adjusts the speed <b>(not cooldown)</b> of lassos, making it faster or slower to ensnare and pull in an enemy.
+Higher values make the lasso faster.
+Affects all pawns.",AM.AMSettings.Settings.GrappleSpeed.Desc,Keys.xml,keyed,"Adjusts the speed (PH_4)(not cooldown)(PH_3) of lassos, making it faster or slower to ensnare and pull in an enemy.(PH_2)Higher values make the lasso faster.(PH_1)Affects all pawns.","调整套索的速度<b>（无冷却时间）</b>，使其更快或更慢地诱捕和拉动敌人。
+较高的值使套索更快。
+影响所有pawn。"
+AM.AMSettings.Settings.MaxFillPctForLasso,Max Building Fill For Lasso Drag,AM.AMSettings.Settings.MaxFillPctForLasso,Keys.xml,keyed,Max Building Fill For Lasso Drag,套索拖动的最大建筑填充
+AM.AMSettings.Settings.MaxFillPctForLasso.Desc,"The maximum 'fill' percentage of a building that a pawn can be dragged through by a lasso.
+Lower values mean that pawns can <b>not</b> be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.",AM.AMSettings.Settings.MaxFillPctForLasso.Desc,Keys.xml,keyed,The maximum 'fill' percentage of a building that a (PH_4) can be dragged through by a lasso.(PH_3)Lower values mean that pawns can (PH_2)not(PH_1) be dragged through/over partial cover such as sand bags or embrasures. A value of 100% means that the lasso can pull pawns though/over anything except completely solid walls and buildings.,"pawn 可以通过 套索 拖动通过的建筑物的最大“填充”百分比。
+较低的值意味着 pawn 可以 <b> 不能</b> 拖动通过/越过部分覆盖物，例如沙袋或射孔。值为 100% 意味着 套索 可以将 pawn 拉过/越过除完全坚固的墙壁和建筑物之外的任何物体。"
+AM.AMSettings.Settings.Header.Executions___Duels,Executions & Duels,AM.AMSettings.Settings.Header.Executions___Duels,Keys.xml,keyed,Executions & Duels,处决与决斗
+AM.AMSettings.Settings.EnableExecutions,Enable Executions,AM.AMSettings.Settings.EnableExecutions,Keys.xml,keyed,Enable Executions,启用执行
+AM.AMSettings.Settings.EnableExecutions.Desc,"Entirely enables or disables the execution system. Disabling this means that no pawns will ever be able to do executions, and the option is removed from the UI.",AM.AMSettings.Settings.EnableExecutions.Desc,Keys.xml,keyed,"Entirely enables or disables the execution system. Disabling this means that no pawns will ever be able to do executions, and the option is removed from the UI.",完全启用或禁用执行系统。禁用此功能意味着没有 pawn 能够执行执行，并且该选项将从 UI 中删除。
+AM.AMSettings.Settings.AutoExecute,Auto Execute,AM.AMSettings.Settings.AutoExecute,Keys.xml,keyed,Auto Execute,自动执行
+AM.AMSettings.Settings.AutoExecute.Desc,"If true, your pawns will automatically execute enemy pawns in combat, without your input.
+This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.
+
+This only changes the <b>default</b> setting. It can also be configured on a per-pawn basis.",AM.AMSettings.Settings.AutoExecute.Desc,Keys.xml,keyed,"If true, your pawns will automatically execute enemy pawns in combat, without your input.(PH_6)This may include opportunistically using their grappling hooks if the Auto Grapple setting is enabled.(PH_5)(PH_4)This only changes the (PH_3)default(PH_2) setting. It can also be configured on a per-(PH_1) basis.","如果为 true，您的 pawn 将在战斗中自动处决敌方 pawn，无需您的输入。
+如果启用了“自动抓斗”设置，这可能包括机会性地使用其抓钩。
+
+这只会更改 <b>默认</b>设置。它还可以按每个 pawn 进行配置。"
+AM.AMSettings.Settings.EnemiesCanExecute,Enemies Can Perform Executions,AM.AMSettings.Settings.EnemiesCanExecute,Keys.xml,keyed,Enemies Can Perform Executions,敌人可以执行处决
+AM.AMSettings.Settings.EnemiesCanExecute.Desc,Can enemies perform execution animations?,AM.AMSettings.Settings.EnemiesCanExecute.Desc,Keys.xml,keyed,Can enemies perform execution animations?,敌人可以执行处决动画吗？
+AM.AMSettings.Settings.ExecuteAttemptMTBSeconds,Automatic Execution Average Interval (Friendly),AM.AMSettings.Settings.ExecuteAttemptMTBSeconds,Keys.xml,keyed,Automatic Execution Average Interval (Friendly),自动执行平均间隔（友好）
+AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc,"This is the average time, in seconds, at which friendly pawns will attempt to start an execution animation on the enemy they are currently fighting.
+For example, if this is set to 5 and your pawn is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.",AM.AMSettings.Settings.ExecuteAttemptMTBSeconds.Desc,Keys.xml,keyed,"This is the average time, in seconds, at which friendly pawns will attempt to start an execution animation on the enemy they are currently fighting.(PH_6)For example, if this is set to 5 and your (PH_5) is fighting in melee, an execution animation will be triggered on average after 5 seconds.(PH_4)This does not affect execution cooldown, which is a (PH_3)-specific stat.(PH_2)(PH_1)Lower values can greatly impact performance on populated maps.","这是友方 pawn 尝试对当前 战斗中的 的敌人启动处决动画的平均时间（以秒为单位）。
+例如，如果将其设置为 5 并且你的 pawn 在近战中为 战斗中的，则平均会在 5 秒后触发处决动画。
+这不会影响处决冷却时间，是 pawn 特定的统计数据。
+
+较低的值会极大地影响已填充地图的性能。"
+AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy,Automatic Execution Average Interval (Enemy),AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy,Keys.xml,keyed,Automatic Execution Average Interval (Enemy),自动执行平均间隔（敌人）
+AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc,"This is the average time, in seconds, at which enemy pawns will attempt to start an execution animation on the target they are currently fighting.
+For example, if this is set to 5 and an enemy is fighting in melee, an execution animation will be triggered on average after 5 seconds.
+This does not affect execution cooldown, which is a pawn-specific stat.
+
+Lower values can greatly impact performance on populated maps.",AM.AMSettings.Settings.ExecuteAttemptMTBSecondsEnemy.Desc,Keys.xml,keyed,"This is the average time, in seconds, at which enemy pawns will attempt to start an execution animation on the target they are currently fighting.(PH_5)For example, if this is set to 5 and an enemy is fighting in melee, an execution animation will be triggered on average after 5 seconds.(PH_4)This does not affect execution cooldown, which is a (PH_3)-specific stat.(PH_2)(PH_1)Lower values can greatly impact performance on populated maps.","这是敌人 Pawn 尝试在当前目标上启动执行动画的平均时间（以秒为单位）。
+例如，如果将其设置为 5 并且敌人处于近战中 战斗中的，则平均在 5 秒后触发执行动画。
+这不会影响执行冷却时间，即pawn特定统计数据。
+
+较低的值会极大地影响已填充地图的性能。"
+AM.AMSettings.Settings.AnimalsCanBeExecuted,Animals Can Be Executed,AM.AMSettings.Settings.AnimalsCanBeExecuted,Keys.xml,keyed,Animals Can Be Executed,动物可以被处决
+AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc,"Allows animals to be executed.
+You are a bad person if you enable this.",AM.AMSettings.Settings.AnimalsCanBeExecuted.Desc,Keys.xml,keyed,Allows animals to be executed.(PH_1)You are a bad person if you enable this.,"允许处决动物。
+如果您启用此功能，您就是一个坏人。"
+AM.AMSettings.Settings.ExecutionLethalityModifier,Execution Lethality Modifier,AM.AMSettings.Settings.ExecutionLethalityModifier,Keys.xml,keyed,Execution Lethality Modifier,执行致命修改器
+AM.AMSettings.Settings.ExecutionLethalityModifier.Desc,A general modifier on the lethality of execution animations. Higher values make executions more lethal. Affects all pawns.,AM.AMSettings.Settings.ExecutionLethalityModifier.Desc,Keys.xml,keyed,A general modifier on the lethality of execution animations. Higher values make executions more lethal. Affects all pawns.,对执行动画杀伤力的一般修改。值越高，处决就越致命。影响所有棋子。
+AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal,Executions Are Non Lethal On Friendlies,AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal,Keys.xml,keyed,Executions Are Non Lethal On Friendlies,友谊赛中处决不是致命的
+AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc,"If enabled, execution animations on friendly pawns are always non-lethal regardless of other settings.
+Prisoners and slaves are considered friendly.
+
+Useful when trying to stop a mental break or prisoner uprising without causing a bloodbath.",AM.AMSettings.Settings.ExecutionsOnFriendliesAreNotLethal.Desc,Keys.xml,keyed,"If enabled, execution animations on friendly pawns are always non-lethal regardless of other settings.(PH_3)Prisoners and slaves are considered friendly.(PH_2)(PH_1)Useful when trying to stop a mental break or prisoner uprising without causing a bloodbath.","如果启用，无论其他设置如何，友方棋子上的处决动画始终是非致命的。
+囚犯和奴隶被视为友好。
+
+在尝试停止精神崩溃或囚犯起义而不引起血战时很有用。"
+AM.AMSettings.Settings.ExecutionArmorCoefficient,Execution Armor Strength,AM.AMSettings.Settings.ExecutionArmorCoefficient,Keys.xml,keyed,Execution Armor Strength,处决装甲强度
+AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc,"A multiplier on the effectiveness of armor when calculating execution animation outcome.
+Lower values decrease the effect of armor on the outcome, higher values increase the strength of armor.
+Set to 0% to make armor be ignored.",AM.AMSettings.Settings.ExecutionArmorCoefficient.Desc,Keys.xml,keyed,"A multiplier on the effectiveness of armor when calculating execution animation outcome.(PH_2)Lower values decrease the effect of armor on the outcome, higher values increase the strength of armor.(PH_1)Set to 0% to make armor be ignored.","计算执行动画结果时护甲效果的乘数。
+较低的值会降低护甲对结果的影响，较高的值会增加护甲的强度。
+设置为 0% 会使护甲被忽略。"
+AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts,Executions Can Destroy Body Parts,AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts,Keys.xml,keyed,Executions Can Destroy Body Parts,处决会毁坏身体部位
+AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc,"If true, executions can destroy specific vital body parts, such as the heart or head.
+If false, the pawn is simply killed by 'magic' (no specific part takes damage)
+Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: ""<i>name was killed.</i>""",AM.AMSettings.Settings.ExecutionsCanDestroyBodyParts.Desc,Keys.xml,keyed,"If true, executions can destroy specific vital body parts, such as the heart or head.(PH_5)If false, the (PH_4) is simply killed by 'magic' (no specific part takes damage)(PH_3)Note: if disabled, combat log generation does not work properly for the execution, and will give a default message: ""(PH_2)name was killed.(PH_1)""","如果为 true，处决可以摧毁特定的重要身体部位，例如心脏或头部。
+如果为 false，则 pawn 会被“魔法”简单杀死（没有特定部位受到伤害）
+注意：如果禁用，战斗日志生成将无法正常执行处决，并且会给出默认消息：“<i>name was dead.</i>”"
+AM.AMSettings.Settings.MeleeSkillExecCooldownFactor,Amount Skill Affects Execution Cooldown,AM.AMSettings.Settings.MeleeSkillExecCooldownFactor,Keys.xml,keyed,Amount Skill Affects Execution Cooldown,技能数量影响执行冷却时间
+AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc,"The amount that melee skill affects execution cooldown time.
+Higher melee skill means lower cooldown, changing this value increases or decreases the effect of melee skill.
+Set to 0% to disable melee skill as a factor.
+
+Note: only affects friendly pawns.",AM.AMSettings.Settings.MeleeSkillExecCooldownFactor.Desc,Keys.xml,keyed,"The amount that melee skill affects execution cooldown time.(PH_4)Higher melee skill means lower cooldown, changing this value increases or decreases the effect of melee skill.(PH_3)Set to 0% to disable melee skill as a factor.(PH_2)(PH_1)Note: only affects friendly pawns.","近战技能影响执行冷却时间的量。
+近战技能越高意味着冷却时间越短，更改此值会增加或减少近战技能的效果。
+设置为 0% 将禁用近战技能作为一个因素。
+
+注意：仅影响友方棋子。"
+AM.AMSettings.Settings.FriendlyExecCooldownFactor,Execution Cooldown Factor (Friendly),AM.AMSettings.Settings.FriendlyExecCooldownFactor,Keys.xml,keyed,Execution Cooldown Factor (Friendly),执行冷却因子（友好）
+AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc,This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.,AM.AMSettings.Settings.FriendlyExecCooldownFactor.Desc,Keys.xml,keyed,This adjust the execution cooldown time for friendly pawns. Lower values decrease the cooldown. You can see the final cooldown time in the (PH_1)'s stats.,这调整了友方棋子的执行冷却时间。较低的值会减少冷却时间。您可以在 pawn 的统计数据中查看最终冷却时间。
+AM.AMSettings.Settings.EnemyExecCooldownFactor,Execution Cooldown Factor (Enemy),AM.AMSettings.Settings.EnemyExecCooldownFactor,Keys.xml,keyed,Execution Cooldown Factor (Enemy),执行冷却因子（敌人）
+AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc,This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the pawn's stats.,AM.AMSettings.Settings.EnemyExecCooldownFactor.Desc,Keys.xml,keyed,This adjust the execution cooldown time for hostile pawns. Lower values decrease the cooldown. You can see the final cooldown time in the (PH_1)'s stats.,这调整了敌对棋子的执行冷却时间。较低的值会减少冷却时间。您可以在 pawn 的统计数据中查看最终冷却时间。
+AM.AMSettings.Settings.MinDuelDuration,Min Duel Duration,AM.AMSettings.Settings.MinDuelDuration,Keys.xml,keyed,Min Duel Duration,最短决斗持续时间
+AM.AMSettings.Settings.MinDuelDuration.Desc,"The minimum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.",AM.AMSettings.Settings.MinDuelDuration.Desc,Keys.xml,keyed,"The minimum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.",决斗中的最少攻击次数。只影响动画的持续时间，对决斗的结果没有影响。
+AM.AMSettings.Settings.MaxDuelDuration,Max Duel Duration,AM.AMSettings.Settings.MaxDuelDuration,Keys.xml,keyed,Max Duel Duration,最大决斗持续时间
+AM.AMSettings.Settings.MaxDuelDuration.Desc,"The maximum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.",AM.AMSettings.Settings.MaxDuelDuration.Desc,Keys.xml,keyed,"The maximum number of attacks in a duel. Just affects the duration of the animation, has no impact on the outcome of the duel.",决斗中的最大攻击次数。只影响动画的持续时间，对决斗的结果没有影响。
+AM.AMSettings.Settings.FriendlyDuelCooldown,Friendly Duel Cooldown,AM.AMSettings.Settings.FriendlyDuelCooldown,Keys.xml,keyed,Friendly Duel Cooldown,友好决斗冷却时间
+AM.AMSettings.Settings.FriendlyDuelCooldown.Desc,"The cooldown time, in seconds, after a friendly duel where a friendly duel cannot be started again.",AM.AMSettings.Settings.FriendlyDuelCooldown.Desc,Keys.xml,keyed,"The cooldown time, in seconds, after a friendly duel where a friendly duel cannot be started again.",友好决斗后的冷却时间（以秒为单位），并且无法再次开始友好决斗。
+AM.AMSettings.Settings.Header.Visuals,Visuals,AM.AMSettings.Settings.Header.Visuals,Keys.xml,keyed,Visuals,视觉效果
+AM.AMSettings.Settings.ShowHands,Show Hands,AM.AMSettings.Settings.ShowHands,Keys.xml,keyed,Show Hands,举手示意
+AM.AMSettings.Settings.ShowHands.Desc,Should pawn hands be displayed holding melee weapons?,AM.AMSettings.Settings.ShowHands.Desc,Keys.xml,keyed,Should (PH_1) hands be displayed holding melee weapons?,是否应该显示 pawn 双手持有近战武器？
+AM.AMSettings.Settings.Gore_DamageEffect,Damage Effect,AM.AMSettings.Settings.Gore_DamageEffect,Keys.xml,keyed,Damage Effect,伤害效果
+AM.AMSettings.Settings.Gore_DamageEffect.Desc,"Enable or disable the damage affect in animations.
+The damage effect is normally a small, temporary puff of blood.",AM.AMSettings.Settings.Gore_DamageEffect.Desc,Keys.xml,keyed,"Enable or disable the damage affect in animations.(PH_1)The damage effect is normally a small, temporary puff of blood.","启用或禁用动画中的伤害效果。
+伤害效果通常是一小股暂时的血液。"
+AM.AMSettings.Settings.Gore_FloorBlood,Blood (filth),AM.AMSettings.Settings.Gore_FloorBlood,Keys.xml,keyed,Blood (filth),血（污秽）
+AM.AMSettings.Settings.Gore_FloorBlood.Desc,"Enable or disable the spawning of blood in animations.
+The blood is filth that must be cleaned up. Includes modded blood and mechanoid blood (oil).",AM.AMSettings.Settings.Gore_FloorBlood.Desc,Keys.xml,keyed,Enable or disable the spawning of blood in animations.(PH_1)The blood is filth that must be cleaned up. Includes modded blood and mechanoid blood (oil).,"启用或禁用动画中 血液 的生成。
+血液 是必须清理的污物。包括改装的 血液 和机械人 血液（油）。"
+AM.AMSettings.Settings.CorpseOffsetMode,Corpse Offset Mode,AM.AMSettings.Settings.CorpseOffsetMode,Keys.xml,keyed,Corpse Offset Mode,尸体偏移模式
+AM.AMSettings.Settings.CorpseOffsetMode.Desc,"In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.
+This offset can be confusing however, because the corpse no longer occupies the center of the tile.
+<b>Note:</b> The offset corpses are reset after a save-reload.",AM.AMSettings.Settings.CorpseOffsetMode.Desc,Keys.xml,keyed,"In order for the animation to transition seamlessly to regular gameplay, execution animations leave the corpse of the victim in non-vanilla positions and rotations.(PH_4)This offset can be confusing however, because the corpse no longer occupies the center of the tile.(PH_3)(PH_2)Note:(PH_1) The offset corpses are reset after a save-reload.","为了使动画无缝过渡到常规游戏玩法，执行动画将受害者的尸体留在非原版位置和旋转。
+但是，此偏移量可能会令人困惑，因为尸体不再占据图块的中心。
+<b>注意：</b>偏移尸体在保存重新加载后会重置。"
+AM.AMSettings.Settings.MoveAnimSpeedCoef,Move Animation Speed,AM.AMSettings.Settings.MoveAnimSpeedCoef,Keys.xml,keyed,Move Animation Speed,移动动画速度
+AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc,"Changes the speed of the movement animations.
+Higher values increase the speed. This is just a visual change, it obviously doesn't change the pawn's movement speed.",AM.AMSettings.Settings.MoveAnimSpeedCoef.Desc,Keys.xml,keyed,"Changes the speed of the movement animations.(PH_2)Higher values increase the speed. This is just a visual change, it obviously doesn't change the (PH_1)'s movement speed.","更改移动动画的速度。
+值越高，速度越高。这只是视觉上的变化，显然不会改变pawn的移动速度。"
+AM.AMSettings.Settings.SpeedUpAttackAnims,Increase Animation Speed When Attacks Are Fast,AM.AMSettings.Settings.SpeedUpAttackAnims,Keys.xml,keyed,Increase Animation Speed When Attacks Are Fast,当攻击快速时提高动画速度
+AM.AMSettings.Settings.SpeedUpAttackAnims.Desc,"If enabled, the speed of melee attack animations will be automatically increased to match the pawn's melee speed.
+If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.
+This is a purely visual change and does not affect combat.",AM.AMSettings.Settings.SpeedUpAttackAnims.Desc,Keys.xml,keyed,"If enabled, the speed of melee attack animations will be automatically increased to match the (PH_3)'s melee speed.(PH_2)If false, the attack animation speed will never change however the animation may be interrupted by the next attack animation starting before the last one ended.(PH_1)This is a purely visual change and does not affect combat.","如果启用，近战攻击动画的速度将自动增加以匹配 pawn 的近战速度。
+如果为 false，攻击动画速度将永远不会改变，但动画可能会被上一个攻击动画结束之前开始的下一个攻击动画打断。
+这纯粹是视觉变化，不会影响战斗。"
+AM.AMSettings.Settings.FlavourMTB,Idle Animation Average Interval,AM.AMSettings.Settings.FlavourMTB,Keys.xml,keyed,Idle Animation Average Interval,空闲动画 平均 间隔
+AM.AMSettings.Settings.FlavourMTB.Desc,"Pawns standing with their weapon out (such as when drafted) will sometimes play an animation where they swing their weapon about, flourish it etc.
+This option controls the average time, in seconds, between the occurrence of this animation.
+Set to 0 to disable the animations entirely.",AM.AMSettings.Settings.FlavourMTB.Desc,Keys.xml,keyed,"Pawns standing with their weapon out (such as when drafted) will sometimes play an animation where they swing their weapon about, flourish it etc.(PH_2)This option controls the average time, in seconds, between the occurrence of this animation.(PH_1)Set to 0 to disable the animations entirely.","拿着武器站立的 Pawn（例如起草时）有时会播放挥舞武器、挥舞武器等的动画。
+此选项控制此动画发生之间的平均时间（以秒为单位）。
+设置为 0 以完全禁用动画。"
+AM.AMSettings.Settings.AttackPauseDuration,Attack Pause Duration,AM.AMSettings.Settings.AttackPauseDuration,Keys.xml,keyed,Attack Pause Duration,攻击暂停时间
+AM.AMSettings.Settings.AttackPauseDuration.Desc,"When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.
+This lets you know whether an attack connected, as well as giving the hit a bit more visual <i>oomph</i>.
+This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.",AM.AMSettings.Settings.AttackPauseDuration.Desc,Keys.xml,keyed,"When doing a regular melee attack, the animation will very briefly pause at the point when the weapon intersects the target.(PH_4)This lets you know whether an attack connected, as well as giving the hit a bit more visual (PH_3)oomph(PH_2).(PH_1)This setting changes the duration of that pause, or disables it entirely. This is a purely visual change and does not affect combat.","进行常规近战攻击时，动画会在武器与目标相交时短暂暂停。
+这可以让您知道攻击是否已连接，并让攻击更具视觉效果<i>oomph</i>。
+此设置会更改暂停的持续时间，或完全禁用它。这只是纯粹的视觉变化，并不影响战斗。"
+AM.AMSettings.Settings.TrailColor,Weapon Trail Color,AM.AMSettings.Settings.TrailColor,Keys.xml,keyed,Weapon Trail Color,武器轨迹颜色
+AM.AMSettings.Settings.TrailColor.Desc,"The base color of weapon trails. If you set the alpha to 0, trails will be disabled.",AM.AMSettings.Settings.TrailColor.Desc,Keys.xml,keyed,"The base color of weapon trails. If you set the alpha to 0, trails will be disabled.",武器轨迹的基色。如果将 alpha 设置为 0，轨迹将被禁用。
+AM.AMSettings.Settings.TrailLengthScale,Weapon Trail Length,AM.AMSettings.Settings.TrailLengthScale,Keys.xml,keyed,Weapon Trail Length,武器轨迹长度
+AM.AMSettings.Settings.TrailLengthScale.Desc,"A multiplier on the length of weapon trails. If 0%, trails are disabled.",AM.AMSettings.Settings.TrailLengthScale.Desc,Keys.xml,keyed,"A multiplier on the length of weapon trails. If 0%, trails are disabled.",武器轨迹长度的乘数。如果为 0%，则禁用路径。
+AM.AMSettings.Settings.DrawNamesInAnimation,Draw Names In Animation,AM.AMSettings.Settings.DrawNamesInAnimation,Keys.xml,keyed,Draw Names In Animation,在动画中绘制名字
+AM.AMSettings.Settings.DrawNamesInAnimation.Desc,"If true, the name of pawns is drawn below them, just like in the base game.
+If false, the name is not drawn, for a more cinematic animation.",AM.AMSettings.Settings.DrawNamesInAnimation.Desc,Keys.xml,keyed,"If true, the name of pawns is drawn below them, just like in the base game.(PH_1)If false, the name is not drawn, for a more cinematic animation.","如果为 true，则 pawn 的名称将绘制在它们下方，就像在基础游戏中一样。
+如果为 false，则不会绘制名称，以获得更具电影感的动画。"
+AM.AMSettings.Settings.ShowExecutionMotes,Show Execution Outcome Text,AM.AMSettings.Settings.ShowExecutionMotes,Keys.xml,keyed,Show Execution Outcome Text,显示执行结果文本
+AM.AMSettings.Settings.ShowExecutionMotes.Desc,"Enables or disables the text popup that shows the outcome of an execution (i.e. injure, down or kill) when an execution animation plays.",AM.AMSettings.Settings.ShowExecutionMotes.Desc,Keys.xml,keyed,"Enables or disables the text popup that shows the outcome of an execution (i.e. injure, down or kill) when an execution animation plays.",启用或禁用播放执行动画时显示执行结果（即伤害、击倒或杀死）的文本弹出窗口。
+AM.AMSettings.Settings.Header.Performance,Performance,AM.AMSettings.Settings.Header.Performance,Keys.xml,keyed,Performance,表现
+AM.AMSettings.Settings.MaxProcessingThreads,Max Processing Threads,AM.AMSettings.Settings.MaxProcessingThreads,Keys.xml,keyed,Max Processing Threads,最大处理线程数
+AM.AMSettings.Settings.MaxProcessingThreads.Desc,"The maximum number of CPU threads to use when processing pawns for automatic executions & lasso usage.
+If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.
+Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.",AM.AMSettings.Settings.MaxProcessingThreads.Desc,Keys.xml,keyed,"The maximum number of CPU threads to use when processing pawns for automatic executions & lasso usage.(PH_2)If set to 0, the thread count is automatically determined based on your CPU, and if set to 1 then multi-threaded processing is disabled.(PH_1)Set to 1 if you experience error spam caused by a mod conflict, although it will decrease performance considerably.","处理 pawn 进行自动执行和 套索 使用时使用的最大 CPU 线程数。
+如果设置为 0，则根据您的 CPU 自动确定线程数，如果设置为 1，则禁用多线程处理。
+如果您遇到由 mod 冲突引起的错误垃圾邮件，则设置为 1，尽管这会显着降低性能。"
+AM.AMSettings.Settings.MultithreadedMatrixCalculations,Multithreaded Matrix Calculations,AM.AMSettings.Settings.MultithreadedMatrixCalculations,Keys.xml,keyed,Multithreaded Matrix Calculations,多线程矩阵计算
+AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc,"When enabled, multiple CPU threads are used to calculate complex matrix transformation needed for animations.
+The number of threads is given by the Max Processing Threads setting.",AM.AMSettings.Settings.MultithreadedMatrixCalculations.Desc,Keys.xml,keyed,"When enabled, multiple CPU threads are used to calculate complex matrix transformation needed for animations.(PH_1)The number of threads is given by the Max Processing Threads setting.","启用后，多个 CPU 线程用于计算动画所需的复杂矩阵 肉体变形。
+线程数由最大处理线程设置给出。"
+AM.AMSettings.Settings.OffscreenCulling,Offscreen Culling,AM.AMSettings.Settings.OffscreenCulling,Keys.xml,keyed,Offscreen Culling,离屏剔除
+AM.AMSettings.Settings.OffscreenCulling.Desc,"When enabled, offscreen animations are not drawn to save time and increase FPS.
+This option is only here in case there are unexpected bugs related to this culling.",AM.AMSettings.Settings.OffscreenCulling.Desc,Keys.xml,keyed,"When enabled, offscreen animations are not drawn to save time and increase FPS.(PH_1)This option is only here in case there are unexpected bugs related to this culling.","启用后，不会绘制离屏动画，以节省时间并提高 FPS。
+此选项仅在出现与此剔除相关的意外错误时才出现。"
+AM.AMSettings.Settings.ScanTickInterval,Scan Tick Interval,AM.AMSettings.Settings.ScanTickInterval,Keys.xml,keyed,Scan Tick Interval,扫描刻度间隔
+AM.AMSettings.Settings.ScanTickInterval.Desc,"The number of ticks between scanning all pawns on the map for automatic execution/duel/lasso opportunities.
+Higher values can increase FPS at the cost of less responsiveness.",AM.AMSettings.Settings.ScanTickInterval.Desc,Keys.xml,keyed,The number of ticks between scanning all pawns on the map for automatic execution/duel/lasso opportunities.(PH_1)Higher values can increase FPS at the cost of less responsiveness.,"扫描地图上所有 pawn 以获得自动执行/决斗/套索机会之间的刻度数。
+较高的值可以提高 FPS，但代价是响应能力较低。"
+AM.AMSettings.Settings.Header.Other,Other,AM.AMSettings.Settings.Header.Other,Keys.xml,keyed,Other,其他
+AM.AMSettings.Settings.FriendlyPawnLethalityBonus,Friendly Pawn Lethality Bonus,AM.AMSettings.Settings.FriendlyPawnLethalityBonus,Keys.xml,keyed,Friendly Pawn Lethality Bonus,友好典当杀伤力奖励
+AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc,"Positive values act as a lethality bonus for friendly pawns (including slaves) in execution & duel outcomes, meaning that they will be lethal more often.",AM.AMSettings.Settings.FriendlyPawnLethalityBonus.Desc,Keys.xml,keyed,"Positive values act as a lethality bonus for friendly pawns (including slaves) in execution & duel outcomes, meaning that they will be lethal more often.",正值在执行和决斗结果中充当友方棋子（包括奴隶）的杀伤力加成，这意味着他们将更频繁地致命。
+AM.AMSettings.Settings.FriendlyPawnDuelBonus,Friendly Pawn Duel Ability Bonus,AM.AMSettings.Settings.FriendlyPawnDuelBonus,Keys.xml,keyed,Friendly Pawn Duel Ability Bonus,友善典当决斗能力奖励
+AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc,"Positive values act as a duel ability bonus for friendly pawns (including slaves), meaning that they will win duels more often.",AM.AMSettings.Settings.FriendlyPawnDuelBonus.Desc,Keys.xml,keyed,"Positive values act as a duel ability bonus for friendly pawns (including slaves), meaning that they will win duels more often.",正值作为友方棋子（包括奴隶）的决斗能力奖励，意味着他们会更频繁地赢得决斗。
+AM.AMSettings.Settings.NormalDist,Duel Normal Distribution,AM.AMSettings.Settings.NormalDist,Keys.xml,keyed,Duel Normal Distribution,决斗正态分布
+AM.AMSettings.Settings.NormalDist.Desc,"Higher values make duel outcomes less dependent on duel ability and more on randomness, lower values make the outcome more dependent on duel ability and less on randomness.
+
+Technical: This is the standard deviation used in the duel outcome normal distribution curve.",AM.AMSettings.Settings.NormalDist.Desc,Keys.xml,keyed,"Higher values make duel outcomes less dependent on duel ability and more on randomness, lower values make the outcome more dependent on duel ability and less on randomness.(PH_2)(PH_1)Technical: This is the standard deviation used in the duel outcome normal distribution curve.","较高的值使决斗结果更少地依赖于决斗能力而更多地依赖于随机性，较低的值使结果更多地依赖于决斗能力而更少地依赖于随机性。
+
+技术：这是决斗结果正态分布曲线中使用的标准偏差。"
+AM.AMSettings.Settings.WarnOfFriendlyExecution,Show Warning Before Executing Friendly,AM.AMSettings.Settings.WarnOfFriendlyExecution,Keys.xml,keyed,Show Warning Before Executing Friendly,执行友好之前显示警告
+AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc,Prevents you from accidentally executing a friendly pawn by requiring you to hold the [Shift] key when selecting a friendly pawn for execution.,AM.AMSettings.Settings.WarnOfFriendlyExecution.Desc,Keys.xml,keyed,Prevents you from accidentally executing a friendly (PH_3) by requiring you to hold the (PH_2) key when selecting a friendly (PH_1) for execution.,通过要求您在选择执行友方 pawn 时按住 [Shift] 键来防止您意外执行友方 pawn。
+AM.AMSettings.Settings.SendStatistics,Send Anonymous Patch Statistics,AM.AMSettings.Settings.SendStatistics,Keys.xml,keyed,Send Anonymous Patch Statistics,发送匿名补丁统计信息
+AM.AMSettings.Settings.SendStatistics.Desc,"When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod's author know that a patch is needed. The <b>only</b> information logged is: mod ID, mod name, weapon count.
+You can opt out of this functionality by disabling this option.
+Note: logging does not occur the first time you run the game with this mod.",AM.AMSettings.Settings.SendStatistics.Desc,Keys.xml,keyed,"When a mod is missing a patch (that allows the melee weapons to do animations), the ID of said mod is anonymously logged to let this mod's author know that a patch is needed. The (PH_4)only(PH_3) information logged is: mod ID, mod name, weapon count.(PH_2)You can opt out of this functionality by disabling this option.(PH_1)Note: logging does not occur the first time you run the game with this mod.","当某个 mod 缺少补丁（允许近战武器执行动画）时，该 mod 的 ID 会被匿名记录，以让该 mod 的作者知道需要补丁。 <b>仅记录的</b>信息为：模组 ID、模组名称、武器数量。
+您可以通过禁用此选项来选择退出此功能。
+注意：第一次使用此模组运行游戏时不会发生记录。"
+AM.AMSettings.Settings.ChanceToFailMinSkill,Execution Failure Chance (Low Skill),AM.AMSettings.Settings.ChanceToFailMinSkill,Keys.xml,keyed,Execution Failure Chance (Low Skill),执行失败几率（低技能）
+AM.AMSettings.Settings.ChanceToFailMinSkill.Desc,"The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 0 melee skill.
+Affects all pawns.",AM.AMSettings.Settings.ChanceToFailMinSkill.Desc,Keys.xml,keyed,"The chance that an execution attempt will result in failure, stunning the attacking (PH_4) and leaving them vulnerable for a short time.(PH_3)This is the chance when a (PH_2) has 0 melee skill.(PH_1)Affects all pawns.","执行尝试会导致失败的几率，击晕攻击的 pawn 并使他们在短时间内处于脆弱状态。
+这是 pawn 近战技能为 0 时的几率。
+影响所有 pawn。"
+AM.AMSettings.Settings.ChanceToFailMaxSkill,Execution Failure Chance (High Skill),AM.AMSettings.Settings.ChanceToFailMaxSkill,Keys.xml,keyed,Execution Failure Chance (High Skill),执行失败几率（高技能）
+AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc,"The chance that an execution attempt will result in failure, stunning the attacking pawn and leaving them vulnerable for a short time.
+This is the chance when a pawn has 20 melee skill.
+Affects all pawns.",AM.AMSettings.Settings.ChanceToFailMaxSkill.Desc,Keys.xml,keyed,"The chance that an execution attempt will result in failure, stunning the attacking (PH_4) and leaving them vulnerable for a short time.(PH_3)This is the chance when a (PH_2) has 20 melee skill.(PH_1)Affects all pawns.","执行尝试会导致失败的几率，击晕攻击者 pawn 并使其在短时间内处于脆弱状态。
+这是当 pawn 拥有 20 近战技能时的几率。
+影响所有 pawn。"
+AM.ExecutionOutcome.Injured,Injured,AM.ExecutionOutcome.Injured,Keys.xml,keyed,Injured,受伤
+AM.ExecutionOutcome.Downed,Downed,AM.ExecutionOutcome.Downed,Keys.xml,keyed,Downed,被击落
+AM.ExecutionOutcome.Killed,Killed,AM.ExecutionOutcome.Killed,Keys.xml,keyed,Killed,被杀
+AM.ExecutionOutcome.Failed,Failed!,AM.ExecutionOutcome.Failed,Keys.xml,keyed,Failed!,失败的！
+AM_NoTablesBrawl.label,Melee Animation: Brawl,label,VBE.BackgroundImageDef/VBE.BackgroundImageDef.xml,def,Melee Animation: Brawl,近战动画：争吵
+AM_NoTablesBrawl.description,"Artwork created by @No_Tables for the Melee Animation mod.\nThis background is dynamic, with a parallax effect.",description,VBE.BackgroundImageDef/VBE.BackgroundImageDef.xml,def,"Artwork created by @No_Tables for the Melee Animation mod.(PH_1)This background is dynamic, with a parallax effect.","由 @No_Tables 为近战动画 mod 创建的艺术品。
+此背景是动态的，具有视差效果。"
+AM_ExecutionModePawnColumn.headerTip,Auto-Execution mode,headerTip,PawnColumnDef/PawnColumnDef.xml,def,Auto-Execution mode,自动执行模式
+AM_LassoModePawnColumn.headerTip,Auto-Lasso mode,headerTip,PawnColumnDef/PawnColumnDef.xml,def,Auto-Lasso mode,自动套索模式
+AM_Duel_WinFriendlyDuel.label,Win Friendly Duel,label,AM.AnimDef/AM.AnimDef.xml,def,Win Friendly Duel,赢得友谊决斗
+AM_Duel_WinFriendlyDuel.jobString,Deafeating [OTHER] in a duel!,jobString,AM.AnimDef/AM.AnimDef.xml,def,Deafeating (PH_1) in a duel!,在决斗中击败 [OTHER]！
+AM_Execution_Stab.label,Execution: Stab,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Stab,处决：刺
+AM_Execution_Fail.label,Execution: Fail,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Fail,执行：失败
+AM_Execution_Shank.label,Execution: Shank,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Shank,执行方式：柄
+AM_Execution_Bash.label,Execution: Bash,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Bash,执行：重击
+AM_Execution_BashLarge.label,Execution: Big Bash,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Big Bash,执行：大狂欢
+AM_Execution_UpSlash.label,Execution: Upwards Slash,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Upwards Slash,执行：向上斜线
+AM_Execution_UpSlash_Doubletap.label,Execution: Upwards Slash (doubletap),label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Upwards Slash (doubletap),执行：向上斜线（双击）
+AM_Execution_UpDownSlash.label,Execution: Up & Down Slash,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Up & Down Slash,执行：上下斜线
+AM_Execution_SekiroBS.label,Execution: Acrobatic Backstab,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Acrobatic Backstab,处决：杂技背刺
+AM_Execution_ThrowSharp.label,Execution: Throw Sharp,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Throw Sharp,处决：投掷锐利
+AM_Execution_Punt.label,Execution: Punt,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Punt,执行：弃踢
+AM_Execution_HeadStab.label,Execution: Head Stab,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Head Stab,处决：刺头
+AM_Execution_KnockdownStab.label,Execution: Knockdown Stab,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Knockdown Stab,处决：击倒刺击
+AM_Execution_Passover.label,Execution: Passover,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Passover,执行：逾越节
+AM_Execution_Whirlwind.label,Execution: Whirlwind,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Whirlwind,执行：旋风
+AM_Execution_HeadRemoval.label,Execution: Head Be Gone,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Head Be Gone,执行：头走开
+AM_Execution_Behead.label,Execution: Behead,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Behead,处决：斩首
+AM_Execution_BeheadHigh.label,Execution: Jumping Behead,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Jumping Behead,处决：跳斩
+AM_Execution_SpearLift.label,Execution: Spear Stab,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Spear Stab,处决：矛刺
+AM_Execution_JumpThrow.label,Execution: Jump Throw,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Jump Throw,执行方式：跳投
+AM_Execution_PocketSand.label,Execution: Pocket Sand!,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Pocket Sand!,执行：口袋沙！
+AM_KnockedOut.label,knocked out,label,HediffDef/HediffDef.xml,def,knocked out,被淘汰
+AM_KnockedOut.labelNoun,being knocked out,labelNoun,HediffDef/HediffDef.xml,def,being knocked out,被淘汰
+AM_KnockedOut.description,"The result of being knocked out during melee combat.
+Recovery will happen automatically over time, or it can be cured by another pawn, even without medicine.",description,HediffDef/HediffDef.xml,def,"The result of being knocked out during melee combat.(PH_2)Recovery will happen automatically over time, or it can be cured by another (PH_1), even without medicine.","在近战中被击倒的结果。
+随着时间的推移会自动恢复，或者可以通过另一个pawn治愈，即使没有药物。"
+AM_InAnimation.reportString,in animation,reportString,JobDef/JobDef.xml,def,in animation,在动画中
+AM_ChannelAnimation.reportString,casting animation,reportString,JobDef/JobDef.xml,def,casting animation,选角动画
+AM_WalkToExecution.reportString,moving towards TargetA to perform execution.,reportString,JobDef/JobDef.xml,def,moving towards TargetA to perform execution.,向TargetA移动执行。
+AM_DoFriendlyDuel.reportString,engaging in friendly duel with TargetA,reportString,JobDef/JobDef.xml,def,engaging in friendly duel with TargetA,与TargetA进行友好决斗
+AM_SpectateFriendlyDuel.reportString,spectating duel: cheering for TargetC,reportString,JobDef/JobDef.xml,def,spectating duel: cheering for TargetC,观战对决：为TargetC加油
+AM_GrapplePawn.reportString,lassoing pawn,reportString,JobDef/JobDef.xml,def,lassoing (PH_1),套索 pawn
+AM_FriendlyDuelJoyKind.label,duel training,label,JoyKindDef/JoyKindDef.xml,def,duel training,决斗训练
+AM_Hip.label,lasso slot,label,ApparelLayerDef/ApparelLayerDef.xml,def,lasso slot,套索 插槽
+AM_LassoCloth.label,Lasso,label,ThingDef/ThingDef.xml,def,Lasso,套索
+AM_LassoCloth.description,"A cloth lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.",description,ThingDef/ThingDef.xml,def,"A cloth lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.",一块布套索，可以将敌人从远处拖入近战范围，或者将友军拉出伤害范围。
+AM_LassoDevilstrand.label,Devilstrand Lasso,label,ThingDef/ThingDef.xml,def,Devilstrand Lasso,恶魔海岸套索
+AM_LassoDevilstrand.description,"A devilstrand lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a regular lasso.",description,ThingDef/ThingDef.xml,def,"A devilstrand lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.(PH_1)Allows increased lasso reach compared to a regular lasso.","魔鬼绳 套索 可以将敌人从远处拖入近战范围，或将友军拉出伤害范围。
+与常规 套索 相比，可以增加 套索 范围。"
+AM_LassoHyperwave.label,Hyperwave Lasso,label,ThingDef/ThingDef.xml,def,Hyperwave Lasso,超波套索
+AM_LassoHyperwave.description,"A hyperwave lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a devilstrand lasso.",description,ThingDef/ThingDef.xml,def,"A hyperwave lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.(PH_1)Allows increased lasso reach compared to a devilstrand lasso.","超波 套索 可以将敌人从远处拖入近战范围，或将友军拉出伤害范围。
+与恶魔绞线 套索 相比，可以增加 套索 范围。"
+AM_Execution_Includes.rulePack.rulesStrings.0,exec_desc->skillful,li,RulePackDef/RulePackDef.xml,def,(PH_1)skillful,exec_desc->熟练
+AM_Execution_Includes.rulePack.rulesStrings.1,exec_desc->swift,li,RulePackDef/RulePackDef.xml,def,(PH_1)swift,exec_desc->迅速
+AM_Execution_Includes.rulePack.rulesStrings.2,exec_desc->merciful,li,RulePackDef/RulePackDef.xml,def,(PH_1)merciful,exec_desc->仁慈
+AM_Execution_Includes.rulePack.rulesStrings.3,exec_desc->brutal,li,RulePackDef/RulePackDef.xml,def,(PH_1)brutal,exec_desc->残酷
+AM_Execution_Includes.rulePack.rulesStrings.4,exec_desc->vengeful,li,RulePackDef/RulePackDef.xml,def,(PH_1)vengeful,exec_desc->有报复心
+AM_Execution_Includes.rulePack.rulesStrings.5,exec_desc->crude,li,RulePackDef/RulePackDef.xml,def,(PH_1)crude,exec_desc->原油
+AM_Execution_Includes.rulePack.rulesStrings.6,exec_desc->efficient,li,RulePackDef/RulePackDef.xml,def,(PH_1)efficient,exec_desc->高效
+AM_Execution_Includes.rulePack.rulesStrings.7,exec_desc->clean,li,RulePackDef/RulePackDef.xml,def,(PH_1)clean,exec_desc->干净
+AM_Execution_Includes.rulePack.rulesStrings.8,exec_desc->shocking,li,RulePackDef/RulePackDef.xml,def,(PH_1)shocking,exec_desc->令人震惊
+AM_Execution_Includes.rulePack.rulesStrings.9,exec_desc->spectacular,li,RulePackDef/RulePackDef.xml,def,(PH_1)spectacular,exec_desc->壮观
+AM_Execution_Includes.rulePack.rulesStrings.10,impaled->impaled,li,RulePackDef/RulePackDef.xml,def,(PH_1)impaled,impaled->被刺穿
+AM_Execution_Includes.rulePack.rulesStrings.11,impaled->skewered,li,RulePackDef/RulePackDef.xml,def,(PH_1)skewered,impaled->串起来
+AM_Execution_Includes.rulePack.rulesStrings.12,stabbed->stabbed,li,RulePackDef/RulePackDef.xml,def,(PH_1)stabbed,stabbed->被刺伤
+AM_Execution_Includes.rulePack.rulesStrings.13,stabbed->skewered,li,RulePackDef/RulePackDef.xml,def,(PH_1)skewered,stabbed->串起来
+AM_Execution_Includes.rulePack.rulesStrings.14,slashed->slashed,li,RulePackDef/RulePackDef.xml,def,(PH_1)slashed,slashed->已削减
+AM_Execution_Includes.rulePack.rulesStrings.15,slashed->lacerated,li,RulePackDef/RulePackDef.xml,def,(PH_1)lacerated,slashed->撕裂
+AM_Execution_Includes.rulePack.rulesStrings.16,slashed->cut into,li,RulePackDef/RulePackDef.xml,def,(PH_1)cut into,slashed->切入
+AM_Execution_Includes.rulePack.rulesStrings.17,slashed->split open,li,RulePackDef/RulePackDef.xml,def,(PH_1)split open,slashed->分裂打开
+AM_Execution_Includes.rulePack.rulesStrings.18,beat->beat,li,RulePackDef/RulePackDef.xml,def,(PH_1)beat,beat->击败
+AM_Execution_Includes.rulePack.rulesStrings.19,beat->battered,li,RulePackDef/RulePackDef.xml,def,(PH_1)battered,beat->遭受重创
+AM_Execution_Includes.rulePack.rulesStrings.20,beat->bludgeoned,li,RulePackDef/RulePackDef.xml,def,(PH_1)bludgeoned,beat->被殴打
+AM_Execution_Includes.rulePack.rulesStrings.21,skillfully->skillfully,li,RulePackDef/RulePackDef.xml,def,(PH_1)skillfully,skillfully->熟练地
+AM_Execution_Includes.rulePack.rulesStrings.22,skillfully->masterfully,li,RulePackDef/RulePackDef.xml,def,(PH_1)masterfully,skillfully->巧妙地
+AM_Execution_Includes.rulePack.rulesStrings.23,skillfully->nimbly,li,RulePackDef/RulePackDef.xml,def,(PH_1)nimbly,skillfully->灵活地
+AM_Execution_Includes.rulePack.rulesStrings.24,weeb_legend->the Demonic Spirit,li,RulePackDef/RulePackDef.xml,def,(PH_1)the Demonic Spirit,weeb_legend->恶魔之灵
+AM_Execution_Includes.rulePack.rulesStrings.25,"weeb_legend(p=6)->[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]",li,RulePackDef/RulePackDef.xml,def,"(PH_3)->(PH_2), Slayer of (PH_1)",weeb_legend(p=6)->[INITIATOR_definite]，[RECIPIENT_labelPlural]的杀手
+AM_Execution_Includes.rulePack.rulesStrings.26,weeb_legend->[INITIATOR_definite] the Undying,li,RulePackDef/RulePackDef.xml,def,(PH_2)(PH_1) the Undying,weeb_legend->[INITIATOR_definite] 不朽者
+AM_Execution_Includes.rulePack.rulesStrings.27,"weeb_legend->[INITIATOR_definite], Conqueror of the Stars",li,RulePackDef/RulePackDef.xml,def,"(PH_2)(PH_1), Conqueror of the Stars",weeb_legend->[INITIATOR_definite]，星辰征服者
+AM_Execution_Includes.rulePack.rulesStrings.28,weeb_legend->[INITIATOR_definite] the Undead,li,RulePackDef/RulePackDef.xml,def,(PH_2)(PH_1) the Undead,weeb_legend->[INITIATOR_definite]不死族
+AM_Execution_Includes.rulePack.rulesStrings.29,weeb_legend->[INITIATOR_definite] the Edgy,li,RulePackDef/RulePackDef.xml,def,(PH_2)(PH_1) the Edgy,weeb_legend->[INITIATOR_definite] 前卫
+AM_Execution_Includes.rulePack.rulesStrings.30,"weeb_legend->[INITIATOR_definite], Edgelord Supreme",li,RulePackDef/RulePackDef.xml,def,"(PH_2)(PH_1), Edgelord Supreme",weeb_legend->[INITIATOR_definite]，至尊刃领主
+AM_Execution_Includes.rulePack.rulesStrings.31,"weeb_legend->[INITIATOR_definite], Collector of Feetpics",li,RulePackDef/RulePackDef.xml,def,"(PH_2)(PH_1), Collector of Feetpics",weeb_legend->[INITIATOR_definite]，足部照片收藏家
+AM_Execution_Includes.rulePack.rulesStrings.32,weeb_legend->[INITIATOR_definite] the Penetrator,li,RulePackDef/RulePackDef.xml,def,(PH_2)(PH_1) the Penetrator,weeb_legend->[INITIATOR_definite] 穿透者
+AM_Execution_Generic.rulePack.rulesStrings.0,r_logentry->[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.,li,RulePackDef/RulePackDef.xml,def,(PH_4)(PH_3) was killed by (PH_2) in a (PH_1) execution.,r_logentry->[RECIPIENT_definite] 在 [exec_desc] 执行中被 [INITIATOR_definite] 杀死。
+AM_Execution_Stab.rulePack.rulesStrings.0,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].",li,RulePackDef/RulePackDef.xml,def,"(PH_6)Performing a (PH_5) execution, (PH_4) (PH_3) (PH_2) in the (PH_1).",r_logentry->执行[exec_desc]执行，[INITIATOR_definite] [stabbed] [RECIPIENT_definite]在[recipient_part0_label]中。
+AM_Execution_Stab.rulePack.rulesStrings.1,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].",li,RulePackDef/RulePackDef.xml,def,"(PH_7)Performing a (PH_6) execution, (PH_5) (PH_4) (PH_3) with (PH_2) (PH_1).",r_logentry->执行 [exec_desc] 执行，[INITIATOR_definite] [impaled] [RECIPIENT_definite] 和 [INITIATOR_possessive] [TOOL_label]。
+AM_Execution_Slashed.rulePack.rulesStrings.0,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].",li,RulePackDef/RulePackDef.xml,def,"(PH_6)Performing a (PH_5) execution, (PH_4) (PH_3) (PH_2) in the (PH_1).",r_logentry->执行[exec_desc]执行，[INITIATOR_definite] [slashed] [RECIPIENT_definite]在[recipient_part0_label]中。
+AM_Execution_Slashed.rulePack.rulesStrings.1,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].",li,RulePackDef/RulePackDef.xml,def,"(PH_7)Performing a (PH_6) execution, (PH_5) (PH_4) (PH_3) with (PH_2) (PH_1).",r_logentry->执行 [exec_desc] 执行，[INITIATOR_definite] [slashed] [RECIPIENT_definite] 和 [INITIATOR_possessive] [TOOL_label]。
+AM_Execution_Blunt.rulePack.rulesStrings.0,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!",li,RulePackDef/RulePackDef.xml,def,"(PH_5)Performing a (PH_4) execution, (PH_3) (PH_2) (PH_1) to death!",r_logentry->执行[exec_desc]处决，[INITIATOR_definite][beat][RECIPIENT_definite]致死！
+AM_Execution_Blunt.rulePack.rulesStrings.1,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].",li,RulePackDef/RulePackDef.xml,def,"(PH_7)Performing a (PH_6) execution, (PH_5) (PH_4) (PH_3) using (PH_2) (PH_1).",r_logentry->使用 [INITIATOR_possessive] [TOOL_label] 执行 [exec_desc] 执行，[INITIATOR_definite] [beat] [RECIPIENT_definite]。
+AM_Execution_Passover.rulePack.rulesStrings.0,"r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!",li,RulePackDef/RulePackDef.xml,def,"(PH_9)Performing a (PH_8) execution, (PH_7) (PH_6) (PH_5) on (PH_4) (PH_3), then tossed (PH_2) over (PH_1) back! Brutal!",r_logentry->执行[exec_desc]处决，[INITIATOR_definite] [impaled] [RECIPIENT_definite]对[INITIATOR_possessive] [TOOL_label]，然后将[RECIPIENT_definite]扔到[INITIATOR_possessive]上！野蛮！
+AM_Execution_Weebstick.rulePack.rulesStrings.0,"r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.",li,RulePackDef/RulePackDef.xml,def,"(PH_9)Wielding (PH_8) (PH_7), a weapon said to have killed God, (PH_6) confronted (PH_5). Too fast for the eye to follow, (PH_4) (PH_3) (PH_2).(PH_1)Everybody clapped.","r_logentry->挥舞着[INITIATOR_possessive] [TOOL_label]，一件据说杀死了上帝的武器，[INITIATOR_definite]与[RECIPIENT_definite]对峙。速度太快，眼睛无法跟上，[INITIATOR_pronoun] [slashed] [RECIPIENT_definite]。
+每个人都鼓掌。"
+AM_Execution_Weebstick.rulePack.rulesStrings.1,"r_logentry(p=5)->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.",li,RulePackDef/RulePackDef.xml,def,"(PH_10)->Wielding (PH_9) (PH_8), a weapon said to have killed God, (PH_7) confronted (PH_6). Too fast for the eye to follow, (PH_5) (PH_4) (PH_3).(PH_2)Thus the legend of (PH_1) was born.","r_logentry(p=5)->挥舞着[INITIATOR_possessive] [TOOL_label]，一件据说杀死了上帝的武器，[INITIATOR_definite]对抗[RECIPIENT_definite]。速度太快，让人难以跟上，[INITIATOR_pronoun] [slashed] [RECIPIENT_definite]。
+因此，[weeb_legend] 的传奇诞生了。"
+AM_Execution_Weebstick.rulePack.rulesStrings.2,"r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.",li,RulePackDef/RulePackDef.xml,def,"(PH_12)Wielding (PH_11) (PH_10), a weapon said to have killed God, (PH_9) confronted (PH_8). Too fast for the eye to follow, (PH_7) (PH_6) (PH_5).(PH_4)Nobody can be sure if the blade dealt the killing blow, or whether (PH_3) is simply so edgy that (PH_2) powerful aura completely sapped (PH_1) of the will to live.","r_logentry->挥舞着[INITIATOR_possessive] [TOOL_label]，一种据说杀死了上帝的武器，[INITIATOR_definite]与[RECIPIENT_definite]对峙。速度太快，眼睛无法跟上，[INITIATOR_pronoun] [slashed] [RECIPIENT_definite]。
+没有人能确定刀片是否造成了致命一击，或者[INITIATOR_definite]是否太过急躁以至于[INITIATOR_possessive]强大的光环完全削弱了[RECIPIENT_definite]的生存意志。"
+AM_Execution_Gilgamesh.rulePack.rulesStrings.0,r_logentry->In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].,li,RulePackDef/RulePackDef.xml,def,(PH_3)In an impressive feat of psycast mastery (PH_2) summoned dozens of weapons to impale (PH_1).,r_logentry->在精神施法掌握方面取得了令人印象深刻的壮举[INITIATOR_definite]召唤了数十种武器来刺穿[RECIPIENT_definite]。
+AM_DuelSpot.label,duel spot,label,ThingDef/ThingDef.xml,def,duel spot,决斗场
+AM_DuelSpot.description,Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.,description,ThingDef/ThingDef.xml,def,Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.,指定可以进行友好决斗的地点。两名拥有有效近战武器的殖民者可能会在这里为了娱乐和练习而争吵。
+AM_GrappleRadius.label,Max Lasso Distance,label,StatDef/StatDef.xml,def,Max Lasso Distance,最大套索距离
+AM_GrappleRadius.description,The maximum distance from which an enemy can be lassoed by this pawn.\nAffected by the equipped lasso type.,description,StatDef/StatDef.xml,def,The maximum distance from which an enemy can be lassoed by this (PH_2).(PH_1)Affected by the equipped lasso type.,"此 pawn 可以套住敌人的最大距离。
+受装备的 套索 类型影响。"
+AM_Lethality.label,Melee Lethality,label,StatDef/StatDef.xml,def,Melee Lethality,近战杀伤力
+AM_Lethality.description,"This pawn's lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.",description,StatDef/StatDef.xml,def,"This (PH_1)'s lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.",此 pawn 在执行处决时具有杀伤力。该值表示执行执行动画时（包括赢得决斗时）杀死敌人的机会。
+AM_DuelAbility.label,Melee Duel Ability,label,StatDef/StatDef.xml,def,Melee Duel Ability,近战决斗能力
+AM_DuelAbility.description,"This pawn's effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.",description,StatDef/StatDef.xml,def,"This (PH_1)'s effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.",这 pawn 在近战决斗中的有效性。该统计值用于与对手进行比较，并影响决斗的结果。
+AM_GrappleCooldown.label,Lasso Cooldown,label,StatDef/StatDef.xml,def,Lasso Cooldown,套索冷却时间
+AM_GrappleCooldown.description,"The cooldown, measured in seconds, between lasso uses. Affected by lasso type and pawn health status.",description,StatDef/StatDef.xml,def,"The cooldown, measured in seconds, between lasso uses. Affected by lasso type and (PH_1) health status.",套索 使用之间的冷却时间（以秒为单位）。受 套索 类型和 pawn 健康状况影响。
+AM_ExecutionCooldown.label,Execution Cooldown,label,StatDef/StatDef.xml,def,Execution Cooldown,执行冷却
+AM_ExecutionCooldown.description,"The cooldown, measured in seconds, between melee executions. Affected by pawn melee skill and other factors.",description,StatDef/StatDef.xml,def,"The cooldown, measured in seconds, between melee executions. Affected by (PH_1) melee skill and other factors.",近战处决之间的冷却时间（以秒为单位）。受pawn近战技能等因素影响。
+AM_GrappleSpeed.label,Lasso Reel Speed,label,StatDef/StatDef.xml,def,Lasso Reel Speed,套索卷轴速度
+AM_GrappleSpeed.description,The speed of ensnaring and then reeling in an enemy using a lasso.\nHigher values mean that it takes less time to grab and pull the target into melee range.\nThis is NOT the lasso cooldown.,description,StatDef/StatDef.xml,def,The speed of ensnaring and then reeling in an enemy using a lasso.(PH_2)Higher values mean that it takes less time to grab and pull the target into melee range.(PH_1)This is NOT the lasso cooldown.,"使用 套索 诱捕并卷入敌人的速度。
+较高的值意味着抓住目标并将其拉入近战范围所需的时间较短。
+这不是 套索 的冷却时间。"
+AM_FriendlyDuel_Win.stages.0.label,won friendly duel,label,ThoughtDef/ThoughtDef.xml,def,won friendly duel,赢得友谊决斗
+AM_FriendlyDuel_Win.stages.0.description,I won a friendly duel against {OTHERPAWN}!\nIt was a relaxed bout but it still feels good to be victorious.,description,ThoughtDef/ThoughtDef.xml,def,I won a friendly duel against (PH_2)!(PH_1)It was a relaxed bout but it still feels good to be victorious.,"我赢得了与{OTHERPAWN}的友谊决斗！
+这是一场轻松的比赛，但获胜的感觉仍然很好。"
+AM_FriendlyDuel_Lose.stages.0.label,lost friendly duel,label,ThoughtDef/ThoughtDef.xml,def,lost friendly duel,友谊赛失利
+AM_FriendlyDuel_Lose.stages.0.description,I lost in a friendly duel against {OTHERPAWN}.\nLosing is disappointing but it was still good practice. I'll get em' next time!,description,ThoughtDef/ThoughtDef.xml,def,I lost in a friendly duel against (PH_2).(PH_1)Losing is disappointing but it was still good practice. I'll get em' next time!,"我在与 {OTHERPAWN} 的友谊决斗中输了。
+失败令人失望，但这仍然是很好的练习。下次我会得到他们的！"
+AM_Skill_Gilgamesh.label,Mystic Weapon Summon,label,AM.UniqueSkillDef/AM.UniqueSkillDef.xml,def,Mystic Weapon Summon,召唤神秘武器
+AM_Skill_Gilgamesh.description,"Summons a myriad of weapons, of unknown origin, to impale the target.
+Does not require line of sight, and the onslaught of weapons is sure to kill the victim.
+However, such a feat of psychic ability will put the summoner in a psychic coma for around 2 days.",description,AM.UniqueSkillDef/AM.UniqueSkillDef.xml,def,"Summons a myriad of weapons, of unknown origin, to impale the target.(PH_2)Does not require line of sight, and the onslaught of weapons is sure to kill the victim.(PH_1)However, such a feat of psychic ability will put the summoner in a psychic coma for around 2 days.","召唤无数来历不明的武器刺穿目标。
+不需要视线，武器的攻击肯定会杀死受害者。
+然而，这样的心灵能力壮举会让召唤者陷入心灵昏迷大约两天。"
+AM_GilgameshVictim.label,Execution: Mystic Weapon Summon,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Mystic Weapon Summon,执行：神秘武器召唤
+AM_GilgameshVictim.description,Casting unique skill: mystic weapon summon,description,AM.AnimDef/AM.AnimDef.xml,def,Casting unique skill: mystic weapon summon,施展绝活：神兵召唤
+AM_GilgameshVictim.jobString,Uh oh...,jobString,AM.AnimDef/AM.AnimDef.xml,def,Uh oh...,呃哦...
+AM_Skill_Weebstick.label,Scarlet Edge,label,AM.UniqueSkillDef/AM.UniqueSkillDef.xml,def,Scarlet Edge,猩红边缘
+AM_Skill_Weebstick.description,"Slash through a single enemy using Scarlet Edge, killing them instantly.",description,AM.UniqueSkillDef/AM.UniqueSkillDef.xml,def,"Slash through a single enemy using Scarlet Edge, killing them instantly.",使用猩红之刃斩断单个敌人，立即杀死他们。
+AM_Execution_Weebstick.label,Execution: You insulted m'lady,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: You insulted m'lady,处决：你侮辱了女士
+AM_Skill_GaeBulg.label,Lance Ultrakill,label,AM.UniqueSkillDef/AM.UniqueSkillDef.xml,def,Lance Ultrakill,兰斯·超杀
+AM_Skill_GaeBulg.description,Kill a single target in a complex and stylish animation that launches them into the air.\nAlways kills the target.,description,AM.UniqueSkillDef/AM.UniqueSkillDef.xml,def,Kill a single target in a complex and stylish animation that launches them into the air.(PH_1)Always kills the target.,"在复杂而时尚的动画中杀死单个目标，并将其发射到空中。
+总是杀死目标。"
+AM_Execution_GaeBulg.label,Execution: Gáe Bulg,label,AM.AnimDef/AM.AnimDef.xml,def,Execution: Gáe Bulg,执行者：盖·布尔格
+AM_Weebstick.label,Scarlet Edge,label,ThingDef/ThingDef.xml,def,Scarlet Edge,猩红边缘
+AM_Weebstick.description,"A legendary weapon of origin unknown.
+The wielder of this mighty weapon feels compelled to wear a dark trenchcoat and answer questions with a grunt. Some may find this unsettling but none can deny its effectiveness in combat.
+Unlocks a unique and deadly Special Skill animation.",description,ThingDef/ThingDef.xml,def,A legendary weapon of origin unknown.(PH_2)The wielder of this mighty weapon feels compelled to wear a dark trenchcoat and answer questions with a grunt. Some may find this unsettling but none can deny its effectiveness in combat.(PH_1)Unlocks a unique and deadly Special Skill animation.,"起源未知的传奇武器。
+这把强大武器的持有者感觉不得不穿上深色风衣并咕哝着回答问题。有些人可能会觉得这令人不安，但没有人可以否认它在战斗中的有效性。
+解锁独特且致命的特殊技能动画。"
+AM_Weebstick.tools.0.label,point,label,ThingDef/ThingDef.xml,def,point,观点
+AM_Weebstick.tools.1.label,edge,label,ThingDef/ThingDef.xml,def,edge,边缘

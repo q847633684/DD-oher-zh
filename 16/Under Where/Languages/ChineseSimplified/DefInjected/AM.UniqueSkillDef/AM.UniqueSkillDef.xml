@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Kill a single target in a complex and stylish animation that launches them into the air.\nAlways kills the target.-->
+  <AM_Skill_GaeBulg.description>在复杂而时尚的动画中杀死单个目标，并将其发射到空中。
+总是杀死目标。</AM_Skill_GaeBulg.description>
+  <!--EN: Lance Ultrakill-->
+  <AM_Skill_GaeBulg.label>兰斯·超杀</AM_Skill_GaeBulg.label>
+  <!--EN: Summons a myriad of weapons, of unknown origin, to impale the target.
+Does not require line of sight, and the onslaught of weapons is sure to kill the victim.
+However, such a feat of psychic ability will put the summoner in a psychic coma for around 2 days.-->
+  <AM_Skill_Gilgamesh.description>召唤无数来历不明的武器刺穿目标。
+不需要视线，武器的攻击肯定会杀死受害者。
+然而，这样的心灵能力壮举会让召唤者陷入心灵昏迷大约两天。</AM_Skill_Gilgamesh.description>
+  <!--EN: Mystic Weapon Summon-->
+  <AM_Skill_Gilgamesh.label>召唤神秘武器</AM_Skill_Gilgamesh.label>
+  <!--EN: Slash through a single enemy using Scarlet Edge, killing them instantly.-->
+  <AM_Skill_Weebstick.description>使用猩红之刃斩断单个敌人，立即杀死他们。</AM_Skill_Weebstick.description>
+  <!--EN: Scarlet Edge-->
+  <AM_Skill_Weebstick.label>猩红边缘</AM_Skill_Weebstick.label>
+</LanguageData>

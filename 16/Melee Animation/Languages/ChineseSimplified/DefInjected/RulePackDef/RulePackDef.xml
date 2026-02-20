@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <AM_Execution_Blunt.rulePack.rulesStrings>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] to death!</li>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [beat] [RECIPIENT_definite] using [INITIATOR_possessive] [TOOL_label].</li>
+  </AM_Execution_Blunt.rulePack.rulesStrings>
+  <AM_Execution_Generic.rulePack.rulesStrings>
+    <!--EN: r_logentry->[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.-->
+    <li>r_logentry-&gt;[RECIPIENT_definite] was killed by [INITIATOR_definite] in a [exec_desc] execution.</li>
+  </AM_Execution_Generic.rulePack.rulesStrings>
+  <AM_Execution_Gilgamesh.rulePack.rulesStrings>
+    <!--EN: r_logentry->In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].-->
+    <li>r_logentry-&gt;In an impressive feat of psycast mastery [INITIATOR_definite] summoned dozens of weapons to impale [RECIPIENT_definite].</li>
+  </AM_Execution_Gilgamesh.rulePack.rulesStrings>
+  <AM_Execution_Includes.rulePack.rulesStrings>
+    <!--EN: exec_desc->skillful-->
+    <li>exec_desc-&gt;skillful</li>
+    <!--EN: exec_desc->swift-->
+    <li>exec_desc-&gt;swift</li>
+    <!--EN: exec_desc->merciful-->
+    <li>exec_desc-&gt;merciful</li>
+    <!--EN: exec_desc->brutal-->
+    <li>exec_desc-&gt;brutal</li>
+    <!--EN: exec_desc->vengeful-->
+    <li>exec_desc-&gt;vengeful</li>
+    <!--EN: exec_desc->crude-->
+    <li>exec_desc-&gt;crude</li>
+    <!--EN: exec_desc->efficient-->
+    <li>exec_desc-&gt;efficient</li>
+    <!--EN: exec_desc->clean-->
+    <li>exec_desc-&gt;clean</li>
+    <!--EN: exec_desc->shocking-->
+    <li>exec_desc-&gt;shocking</li>
+    <!--EN: exec_desc->spectacular-->
+    <li>exec_desc-&gt;spectacular</li>
+    <!--EN: impaled->impaled-->
+    <li>impaled-&gt;impaled</li>
+    <!--EN: impaled->skewered-->
+    <li>impaled-&gt;skewered</li>
+    <!--EN: stabbed->stabbed-->
+    <li>stabbed-&gt;stabbed</li>
+    <!--EN: stabbed->skewered-->
+    <li>stabbed-&gt;skewered</li>
+    <!--EN: slashed->slashed-->
+    <li>slashed-&gt;slashed</li>
+    <!--EN: slashed->lacerated-->
+    <li>slashed-&gt;lacerated</li>
+    <!--EN: slashed->cut into-->
+    <li>slashed-&gt;cut into</li>
+    <!--EN: slashed->split open-->
+    <li>slashed-&gt;split open</li>
+    <!--EN: beat->beat-->
+    <li>beat-&gt;beat</li>
+    <!--EN: beat->battered-->
+    <li>beat-&gt;battered</li>
+    <!--EN: beat->bludgeoned-->
+    <li>beat-&gt;bludgeoned</li>
+    <!--EN: skillfully->skillfully-->
+    <li>skillfully-&gt;skillfully</li>
+    <!--EN: skillfully->masterfully-->
+    <li>skillfully-&gt;masterfully</li>
+    <!--EN: skillfully->nimbly-->
+    <li>skillfully-&gt;nimbly</li>
+    <!--EN: weeb_legend->the Demonic Spirit-->
+    <li>weeb_legend-&gt;the Demonic Spirit</li>
+    <!--EN: weeb_legend(p=6)->[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]-->
+    <li>weeb_legend(p=6)-&gt;[INITIATOR_definite], Slayer of [RECIPIENT_labelPlural]</li>
+    <!--EN: weeb_legend->[INITIATOR_definite] the Undying-->
+    <li>weeb_legend-&gt;[INITIATOR_definite] the Undying</li>
+    <!--EN: weeb_legend->[INITIATOR_definite], Conqueror of the Stars-->
+    <li>weeb_legend-&gt;[INITIATOR_definite], Conqueror of the Stars</li>
+    <!--EN: weeb_legend->[INITIATOR_definite] the Undead-->
+    <li>weeb_legend-&gt;[INITIATOR_definite] the Undead</li>
+    <!--EN: weeb_legend->[INITIATOR_definite] the Edgy-->
+    <li>weeb_legend-&gt;[INITIATOR_definite] the Edgy</li>
+    <!--EN: weeb_legend->[INITIATOR_definite], Edgelord Supreme-->
+    <li>weeb_legend-&gt;[INITIATOR_definite], Edgelord Supreme</li>
+    <!--EN: weeb_legend->[INITIATOR_definite], Collector of Feetpics-->
+    <li>weeb_legend-&gt;[INITIATOR_definite], Collector of Feetpics</li>
+    <!--EN: weeb_legend->[INITIATOR_definite] the Penetrator-->
+    <li>weeb_legend-&gt;[INITIATOR_definite] the Penetrator</li>
+  </AM_Execution_Includes.rulePack.rulesStrings>
+  <AM_Execution_Passover.rulePack.rulesStrings>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] on [INITIATOR_possessive] [TOOL_label], then tossed [RECIPIENT_definite] over [INITIATOR_possessive] back! Brutal!</li>
+  </AM_Execution_Passover.rulePack.rulesStrings>
+  <AM_Execution_Slashed.rulePack.rulesStrings>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [slashed] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</li>
+  </AM_Execution_Slashed.rulePack.rulesStrings>
+  <AM_Execution_Stab.rulePack.rulesStrings>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [stabbed] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <!--EN: r_logentry->Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].-->
+    <li>r_logentry-&gt;Performing a [exec_desc] execution, [INITIATOR_definite] [impaled] [RECIPIENT_definite] with [INITIATOR_possessive] [TOOL_label].</li>
+  </AM_Execution_Stab.rulePack.rulesStrings>
+  <AM_Execution_Weebstick.rulePack.rulesStrings>
+    <!--EN: r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.-->
+    <li>r_logentry-&gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nEverybody clapped.</li>
+    <!--EN: r_logentry(p=5)->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.-->
+    <li>r_logentry(p=5)-&gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nThus the legend of [weeb_legend] was born.</li>
+    <!--EN: r_logentry->Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.-->
+    <li>r_logentry-&gt;Wielding [INITIATOR_possessive] [TOOL_label], a weapon said to have killed God, [INITIATOR_definite] confronted [RECIPIENT_definite]. Too fast for the eye to follow, [INITIATOR_pronoun] [slashed] [RECIPIENT_definite].\nNobody can be sure if the blade dealt the killing blow, or whether [INITIATOR_definite] is simply so edgy that [INITIATOR_possessive] powerful aura completely sapped [RECIPIENT_definite] of the will to live.</li>
+  </AM_Execution_Weebstick.rulePack.rulesStrings>
+</LanguageData>

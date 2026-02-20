@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.-->
+  <AM_DuelSpot.description>Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.</AM_DuelSpot.description>
+  <!--EN: duel spot-->
+  <AM_DuelSpot.label>duel spot</AM_DuelSpot.label>
+  <!--EN: A cloth lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.-->
+  <AM_LassoCloth.description>A cloth lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.</AM_LassoCloth.description>
+  <!--EN: Lasso-->
+  <AM_LassoCloth.label>Lasso</AM_LassoCloth.label>
+  <!--EN: A devilstrand lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a regular lasso.-->
+  <AM_LassoDevilstrand.description>A devilstrand lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a regular lasso.</AM_LassoDevilstrand.description>
+  <!--EN: Devilstrand Lasso-->
+  <AM_LassoDevilstrand.label>Devilstrand Lasso</AM_LassoDevilstrand.label>
+  <!--EN: A hyperwave lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a devilstrand lasso.-->
+  <AM_LassoHyperwave.description>A hyperwave lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a devilstrand lasso.</AM_LassoHyperwave.description>
+  <!--EN: Hyperwave Lasso-->
+  <AM_LassoHyperwave.label>Hyperwave Lasso</AM_LassoHyperwave.label>
+  <!--EN: A legendary weapon of origin unknown.
+The wielder of this mighty weapon feels compelled to wear a dark trenchcoat and answer questions with a grunt. Some may find this unsettling but none can deny its effectiveness in combat.
+Unlocks a unique and deadly Special Skill animation.-->
+  <AM_Weebstick.description>A legendary weapon of origin unknown.
+The wielder of this mighty weapon feels compelled to wear a dark trenchcoat and answer questions with a grunt. Some may find this unsettling but none can deny its effectiveness in combat.
+Unlocks a unique and deadly Special Skill animation.</AM_Weebstick.description>
+  <!--EN: Scarlet Edge-->
+  <AM_Weebstick.label>Scarlet Edge</AM_Weebstick.label>
+  <!--EN: point-->
+  <AM_Weebstick.tools.0.label>point</AM_Weebstick.tools.0.label>
+  <!--EN: edge-->
+  <AM_Weebstick.tools.1.label>edge</AM_Weebstick.tools.1.label>
+</LanguageData>

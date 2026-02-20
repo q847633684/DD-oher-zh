@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<LanguageData>
-  <!--翻译内容: 'Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.',新增于2026-02-16-->
-  <!--EN: Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.-->
-  <AM_DuelSpot.description>Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.</AM_DuelSpot.description>
-  <!--翻译内容: 'duel spot',新增于2026-02-16-->
-  <!--EN: duel spot-->
-  <AM_DuelSpot.label>duel spot</AM_DuelSpot.label>
-</LanguageData>

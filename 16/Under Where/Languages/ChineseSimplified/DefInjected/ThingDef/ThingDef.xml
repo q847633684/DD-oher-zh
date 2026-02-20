@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Designates a spot where friendly duels can take place. Two colonists with valid melee weapons may spar here for fun and practice.-->
+  <AM_DuelSpot.description>指定可以进行友好决斗的地点。两名拥有有效近战武器的殖民者可能会在这里为了娱乐和练习而争吵。</AM_DuelSpot.description>
+  <!--EN: duel spot-->
+  <AM_DuelSpot.label>决斗场</AM_DuelSpot.label>
+  <!--EN: A cloth lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.-->
+  <AM_LassoCloth.description>一块布套索，可以将敌人从远处拖入近战范围，或者将友军拉出伤害范围。</AM_LassoCloth.description>
+  <!--EN: Lasso-->
+  <AM_LassoCloth.label>套索</AM_LassoCloth.label>
+  <!--EN: A devilstrand lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a regular lasso.-->
+  <AM_LassoDevilstrand.description>魔鬼绳 套索 可以将敌人从远处拖入近战范围，或将友军拉出伤害范围。
+与常规 套索 相比，可以增加 套索 范围。</AM_LassoDevilstrand.description>
+  <!--EN: Devilstrand Lasso-->
+  <AM_LassoDevilstrand.label>恶魔海岸套索</AM_LassoDevilstrand.label>
+  <!--EN: A hyperwave lasso that can drag enemies into melee range from a distance, or pull friendlies out of harm's way.\nAllows increased lasso reach compared to a devilstrand lasso.-->
+  <AM_LassoHyperwave.description>超波 套索 可以将敌人从远处拖入近战范围，或将友军拉出伤害范围。
+与恶魔绞线 套索 相比，可以增加 套索 范围。</AM_LassoHyperwave.description>
+  <!--EN: Hyperwave Lasso-->
+  <AM_LassoHyperwave.label>超波套索</AM_LassoHyperwave.label>
+  <!--EN: A legendary weapon of origin unknown.
+The wielder of this mighty weapon feels compelled to wear a dark trenchcoat and answer questions with a grunt. Some may find this unsettling but none can deny its effectiveness in combat.
+Unlocks a unique and deadly Special Skill animation.-->
+  <AM_Weebstick.description>起源未知的传奇武器。
+这把强大武器的持有者感觉不得不穿上深色风衣并咕哝着回答问题。有些人可能会觉得这令人不安，但没有人可以否认它在战斗中的有效性。
+解锁独特且致命的特殊技能动画。</AM_Weebstick.description>
+  <!--EN: Scarlet Edge-->
+  <AM_Weebstick.label>猩红边缘</AM_Weebstick.label>
+  <!--EN: point-->
+  <AM_Weebstick.tools.0.label>观点</AM_Weebstick.tools.0.label>
+  <!--EN: edge-->
+  <AM_Weebstick.tools.1.label>边缘</AM_Weebstick.tools.1.label>
+</LanguageData>
