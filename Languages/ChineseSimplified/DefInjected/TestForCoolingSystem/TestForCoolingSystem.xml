@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Build one of the available cooling systems and connect it to a turbine using (Coolant pipe). There are three available cooling systems>: water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, and radiators have the lowest cooling capacity, but are smaller and cheaper to build and can be placed indoors.-->
+  <BuildReactorCooling.description>建造一套可用的冷却系统，并使用冷却剂管道将冷却系统与涡轮机相连通。有三种可用的冷却系统：水冷装置需要河流或大面积水域支持；干式冷却塔需要大量的供电和空间，并且必须建在室外；散热器冷却能力较小，但可以放置在室内。</BuildReactorCooling.description>
+  <!--EN: Build a cooling system-->
+  <BuildReactorCooling.label>构建冷却系统</BuildReactorCooling.label>
+</LanguageData>

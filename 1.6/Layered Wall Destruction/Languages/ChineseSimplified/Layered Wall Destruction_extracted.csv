@@ -1,0 +1,11 @@
+key,text,tag,file,type
+Filth_LWD_Planks.label,broken planks,label,ThingDef/ThingDef.xml,def
+Filth_LWD_Planks.description,Splinters from a damaged wall.,description,ThingDef/ThingDef.xml,def
+Filth_LWD_Bricks.label,broken bricks,label,ThingDef/ThingDef.xml,def
+Filth_LWD_Bricks.description,Cracked bricks from a damaged wall.,description,ThingDef/ThingDef.xml,def
+Filth_LWD_Smooth.label,broken rebar,label,ThingDef/ThingDef.xml,def
+Filth_LWD_Smooth.description,Trash from a damaged wall.,description,ThingDef/ThingDef.xml,def
+RestoreWall.label,restore walls,label,WorkGiverDef/WorkGiverDef.xml,def
+RestoreWall.verb,restore,verb,WorkGiverDef/WorkGiverDef.xml,def
+RestoreWall.gerund,restoring,gerund,WorkGiverDef/WorkGiverDef.xml,def
+RestoreWall.reportString,restoring TargetA.,reportString,JobDef/JobDef.xml,def

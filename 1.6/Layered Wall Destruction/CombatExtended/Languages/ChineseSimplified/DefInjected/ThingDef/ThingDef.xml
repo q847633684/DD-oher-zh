@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: breached embrasure-->
+  <CE_Embrasure_Destr_Climbable.label>被破坏的射击孔</CE_Embrasure_Destr_Climbable.label>
+  <!--EN: embrasure rubble-->
+  <CE_Embrasure_Destr_Rubble.label>射击孔碎石</CE_Embrasure_Destr_Rubble.label>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Build central heating systems with radiators, hot water tanks, boilers and thermostats.-->
+  <CentralHeating.description>建造带有散热器、热水箱、锅炉和恒温器的中央供暖系统。</CentralHeating.description>
+  <!--EN: central heating-->
+  <CentralHeating.label>暖气</CentralHeating.label>
+  <!--EN: Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.-->
+  <GeothermalHeating.description>建造可以建在间歇泉上方的地热加热器，为中央供暖和热水箱产生热量。</GeothermalHeating.description>
+  <!--EN: Geothermal Heating-->
+  <GeothermalHeating.label>地热供暖</GeothermalHeating.label>
+  <!--EN: Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.-->
+  <LogBoilers.description>建造可用于房间供暖的原木锅炉，并可放置在浴室附近来加热洗澡水。</LogBoilers.description>
+  <!--EN: heating-->
+  <LogBoilers.label>加热</LogBoilers.label>
+  <!--EN: Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.-->
+  <MultiSplitAirCon.description>构建多联机空调系统，将室外机通过管道连接到室内机和冰柜。</MultiSplitAirCon.description>
+  <!--EN: multi-split air conditioning-->
+  <MultiSplitAirCon.label>多联机空调</MultiSplitAirCon.label>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: This pawn's effectiveness in melee duels. This stat value is compared against the opponents, and influcenes the outcome of the duel.-->
+  <AM_DuelAbility.description>这 pawn 在近战决斗中的有效性。该统计值用于与对手进行比较，并影响决斗的结果。</AM_DuelAbility.description>
+  <!--EN: Melee Duel Ability-->
+  <AM_DuelAbility.label>近战决斗能力</AM_DuelAbility.label>
+  <!--EN: The cooldown, measured in seconds, between melee executions. Affected by pawn melee skill and other factors.-->
+  <AM_ExecutionCooldown.description>近战处决之间的冷却时间（以秒为单位）。受pawn近战技能等因素影响。</AM_ExecutionCooldown.description>
+  <!--EN: Execution Cooldown-->
+  <AM_ExecutionCooldown.label>执行冷却</AM_ExecutionCooldown.label>
+  <!--EN: The cooldown, measured in seconds, between lasso uses. Affected by lasso type and pawn health status.-->
+  <AM_GrappleCooldown.description>套索 使用之间的冷却时间（以秒为单位）。受 套索 类型和 pawn 健康状况影响。</AM_GrappleCooldown.description>
+  <!--EN: Lasso Cooldown-->
+  <AM_GrappleCooldown.label>套索冷却时间</AM_GrappleCooldown.label>
+  <!--EN: The maximum distance from which an enemy can be lassoed by this pawn.\nAffected by the equipped lasso type.-->
+  <AM_GrappleRadius.description>此 pawn 可以套住敌人的最大距离。
+受装备的 套索 类型影响。</AM_GrappleRadius.description>
+  <!--EN: Max Lasso Distance-->
+  <AM_GrappleRadius.label>最大套索距离</AM_GrappleRadius.label>
+  <!--EN: The speed of ensnaring and then reeling in an enemy using a lasso.\nHigher values mean that it takes less time to grab and pull the target into melee range.\nThis is NOT the lasso cooldown.-->
+  <AM_GrappleSpeed.description>使用 套索 诱捕并卷入敌人的速度。
+较高的值意味着抓住目标并将其拉入近战范围所需的时间较短。
+这不是 套索 的冷却时间。</AM_GrappleSpeed.description>
+  <!--EN: Lasso Reel Speed-->
+  <AM_GrappleSpeed.label>套索卷轴速度</AM_GrappleSpeed.label>
+  <!--EN: This pawn's lethality when performing executions. This value represents the chance to kill when performing execution animations, including when winning a duel.-->
+  <AM_Lethality.description>此 pawn 在执行处决时具有杀伤力。该值表示执行执行动画时（包括赢得决斗时）杀死敌人的机会。</AM_Lethality.description>
+  <!--EN: Melee Lethality-->
+  <AM_Lethality.label>近战杀伤力</AM_Lethality.label>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Build a power transformer and connect it to the turbine using high voltage cables. A single transformer can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.-->
+  <BuildTransformer.description>建造高压变压器，并使用高压电缆将高压变压器与涡轮机相连接。一台高压变压器可以将涡轮机的所提供的高达200kW功率的高压电的电压降低到电网所能负荷的水平。多台变压器可以为不同的电网供电，并允许您在电网之间重新分配功率输出。</BuildTransformer.description>
+  <!--EN: Build a power transformer-->
+  <BuildTransformer.label>构建高压变压器</BuildTransformer.label>
+</LanguageData>

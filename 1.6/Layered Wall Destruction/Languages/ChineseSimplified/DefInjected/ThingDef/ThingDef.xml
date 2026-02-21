@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Cracked bricks from a damaged wall.-->
+  <Filth_LWD_Bricks.description>受损墙壁上的砖块破裂。</Filth_LWD_Bricks.description>
+  <!--EN: broken bricks-->
+  <Filth_LWD_Bricks.label>破损砖块</Filth_LWD_Bricks.label>
+  <!--EN: Splinters from a damaged wall.-->
+  <Filth_LWD_Planks.description>受损墙壁上的木板碎片。</Filth_LWD_Planks.description>
+  <!--EN: broken planks-->
+  <Filth_LWD_Planks.label>破损木板</Filth_LWD_Planks.label>
+  <!--EN: Trash from a damaged wall.-->
+  <Filth_LWD_Smooth.description>受损墙壁上的垃圾。</Filth_LWD_Smooth.description>
+  <!--EN: broken rebar-->
+  <Filth_LWD_Smooth.label>破损钢筋</Filth_LWD_Smooth.label>
+</LanguageData>

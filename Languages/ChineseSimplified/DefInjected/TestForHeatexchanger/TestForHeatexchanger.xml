@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: The turbine requires a large quantity of turbine blades, which can be manufactured at a Rimatomics machining table.-->
+  <BuildReactorTurbine.description>建造一个涡轮机。建造涡轮机需要用到大量的涡轮叶片，可在「边缘核能」加工台制作。</BuildReactorTurbine.description>
+  <!--EN: Build a turbine generator-->
+  <BuildReactorTurbine.label>构建涡轮机</BuildReactorTurbine.label>
+</LanguageData>

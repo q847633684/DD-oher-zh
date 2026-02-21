@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
-  <!--EN: underwear-->
-  <Underwear.label>内衣</Underwear.label>
+  <!--EN: hygiene-->
+  <BuildingsHygiene.label>卫生</BuildingsHygiene.label>
+  <!--EN: waste-->
+  <Waste.label>垃圾</Waste.label>
 </LanguageData>

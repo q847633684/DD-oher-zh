@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: A powered, sealed container which can be used to freeze and store perishable food. This unit is double the size.-->
-  <owl_doublerefrigerator.description>一个电力驱动的密封容器，可用于冷冻和储存易腐食品。本装置尺寸为双倍大小。</owl_doublerefrigerator.description>
+  <owl_doublerefrigerator.description>一个动力密封容器，可用于冷冻储存易腐烂的食物。本款容量为双倍。</owl_doublerefrigerator.description>
   <!--EN: doublewide refrigerator-->
-  <owl_doublerefrigerator.label>双倍尺寸冰箱</owl_doublerefrigerator.label>
+  <owl_doublerefrigerator.label>双倍容量冰箱</owl_doublerefrigerator.label>
   <!--EN: A powered, sealed container which can be used to freeze and store perishable food.-->
-  <owl_refrigerator.description>一个电力驱动的密封容器，可用于冷冻和储存易腐食品。</owl_refrigerator.description>
+  <owl_refrigerator.description>一个动力密封容器，可用于冷冻储存易腐烂的食物。</owl_refrigerator.description>
   <!--EN: refrigerator-->
   <owl_refrigerator.label>冰箱</owl_refrigerator.label>
 </LanguageData>

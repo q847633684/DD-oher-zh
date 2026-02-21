@@ -12,4 +12,8 @@
   <Owl_Fencepost_TorchLamp.description>一种用于照亮区域的木制火炬。人们需要光线才能以全速移动和工作。可用木材自动补充燃料。产生少量热量。</Owl_Fencepost_TorchLamp.description>
   <!--EN: fencepost torch-->
   <Owl_Fencepost_TorchLamp.label>栅柱火炬</Owl_Fencepost_TorchLamp.label>
+  <!--EN: A wall mounted device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature.-->
+  <Owl_Heater.description>一种壁挂式设备，将电能转化为热能。它可以自动开启或关闭以达到特定的目标温度。</Owl_Heater.description>
+  <!--EN: mounted heater-->
+  <Owl_Heater.label>壁挂式加热器</Owl_Heater.label>
 </LanguageData>

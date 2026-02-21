@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: exsanguination-->
+  <Exsanguination.description>失血</Exsanguination.description>
+  <!--EN: exsanguination-->
+  <Exsanguination.label>失血</Exsanguination.label>
+  <!--EN: extreme-->
+  <Exsanguination.stages.0.label>极端</Exsanguination.stages.0.label>
+  <!--EN: Fatal Radiation Exposure-->
+  <FatalRad.description>暴露于致命辐射</FatalRad.description>
+  <!--EN: Fatal Radiation Exposure-->
+  <FatalRad.label>暴露于致命辐射</FatalRad.label>
+  <!--EN: initial-->
+  <FatalRad.stages.0.label>最初的</FatalRad.stages.0.label>
+  <!--EN: advanced-->
+  <FatalRad.stages.1.label>先进的</FatalRad.stages.1.label>
+  <!--EN: near death-->
+  <FatalRad.stages.2.label>濒临死亡</FatalRad.stages.2.label>
+  <!--EN: dead-->
+  <FatalRad.stages.3.label>死的</FatalRad.stages.3.label>
+  <!--EN: Flash blindness-->
+  <FlashBlindness.description>强光致盲</FlashBlindness.description>
+  <!--EN: Flash blindness-->
+  <FlashBlindness.label>强光致盲</FlashBlindness.label>
+  <!--EN: Flash blindness-->
+  <FlashBlindness.labelNoun>强光致盲</FlashBlindness.labelNoun>
+  <!--EN: radiation buildup-->
+  <RadiationIncurable.description>辐射累积</RadiationIncurable.description>
+  <!--EN: radiation buildup-->
+  <RadiationIncurable.label>辐射累积</RadiationIncurable.label>
+  <!--EN: initial-hidden-->
+  <RadiationIncurable.stages.0.label>初始隐藏</RadiationIncurable.stages.0.label>
+  <!--EN: initial-->
+  <RadiationIncurable.stages.1.label>最初的</RadiationIncurable.stages.1.label>
+  <!--EN: minor-->
+  <RadiationIncurable.stages.2.label>次要的</RadiationIncurable.stages.2.label>
+  <!--EN: moderate-->
+  <RadiationIncurable.stages.3.label>缓和</RadiationIncurable.stages.3.label>
+  <!--EN: serious-->
+  <RadiationIncurable.stages.4.label>严肃的</RadiationIncurable.stages.4.label>
+  <!--EN: extreme-->
+  <RadiationIncurable.stages.5.label>极端</RadiationIncurable.stages.5.label>
+  <!--EN: Radiation damage-->
+  <RadiationMechanoid.description>辐射损伤</RadiationMechanoid.description>
+  <!--EN: radiation damage-->
+  <RadiationMechanoid.label>辐射损伤</RadiationMechanoid.label>
+  <!--EN: initial-hidden-->
+  <RadiationMechanoid.stages.0.label>初始隐藏</RadiationMechanoid.stages.0.label>
+  <!--EN: initial-->
+  <RadiationMechanoid.stages.1.label>最初的</RadiationMechanoid.stages.1.label>
+  <!--EN: minor-->
+  <RadiationMechanoid.stages.2.label>次要的</RadiationMechanoid.stages.2.label>
+  <!--EN: moderate-->
+  <RadiationMechanoid.stages.3.label>缓和</RadiationMechanoid.stages.3.label>
+  <!--EN: serious-->
+  <RadiationMechanoid.stages.4.label>严肃的</RadiationMechanoid.stages.4.label>
+  <!--EN: extreme-->
+  <RadiationMechanoid.stages.5.label>极端</RadiationMechanoid.stages.5.label>
+  <!--EN: rectal core-->
+  <RectalCoring.description>直肠核心</RectalCoring.description>
+  <!--EN: rectal core-->
+  <RectalCoring.label>直肠核心</RectalCoring.label>
+  <!--EN: extreme-->
+  <RectalCoring.stages.0.label>极端</RectalCoring.stages.0.label>
+  <!--EN: radiation sickness-->
+  <RimatomicsRadiation.description>辐射病</RimatomicsRadiation.description>
+  <!--EN: radiation sickness-->
+  <RimatomicsRadiation.label>辐射病</RimatomicsRadiation.label>
+  <!--EN: initial-hidden-->
+  <RimatomicsRadiation.stages.0.label>初始隐藏</RimatomicsRadiation.stages.0.label>
+  <!--EN: initial-->
+  <RimatomicsRadiation.stages.1.label>最初的</RimatomicsRadiation.stages.1.label>
+  <!--EN: minor-->
+  <RimatomicsRadiation.stages.2.label>次要的</RimatomicsRadiation.stages.2.label>
+  <!--EN: moderate-->
+  <RimatomicsRadiation.stages.3.label>缓和</RimatomicsRadiation.stages.3.label>
+  <!--EN: serious-->
+  <RimatomicsRadiation.stages.4.label>严肃的</RimatomicsRadiation.stages.4.label>
+  <!--EN: extreme-->
+  <RimatomicsRadiation.stages.5.label>极端</RimatomicsRadiation.stages.5.label>
+</LanguageData>

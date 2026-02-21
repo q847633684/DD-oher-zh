@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: restoring-->
+  <RestoreWall.gerund>修复</RestoreWall.gerund>
+  <!--EN: restore walls-->
+  <RestoreWall.label>修复墙壁</RestoreWall.label>
+  <!--EN: restore-->
+  <RestoreWall.verb>修复</RestoreWall.verb>
+</LanguageData>

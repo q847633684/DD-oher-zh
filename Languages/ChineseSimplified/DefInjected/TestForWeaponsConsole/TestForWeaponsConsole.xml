@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.\n\nThese ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays-->
+  <EnergyWeapons7.description>构建脉冲电力集装并将其与能量武器控制台连接到同一个电力网络，对脉冲电池进行充电并使用能量武器控制台来测试所有系统是否正常工作。这些超级电池比标准电池效率高得多，旨在应对「边缘核能」系列能量武器所需的高强度电能消耗。脉冲电池安装在防水容器中，并且像标准电池一样利用电网多余的电量进行充电，建议将其与标准电池隔离以提高效率，如果电网出现短路，脉冲电池为了安全起见将快速耗尽其所储存的电能。</EnergyWeapons7.description>
+  <!--EN: Construct a Pulsed Power Container (PPC)-->
+  <EnergyWeapons7.label>构建脉冲电池</EnergyWeapons7.label>
+</LanguageData>
