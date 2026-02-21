@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.-->
-  <AirConOutdoorUnit.description>多联机空调机组。放置在室外并通过管道连接到室内机或冷冻机。功率模式选择，具有100-1000冷却机组容量。</AirConOutdoorUnit.description>
+  <AirConOutdoorUnit.description>多分体空调机组。室外机放置在室外，用通风管道与室内机或制冷机相连，通过设置变换制冷量，范围从100到1000 U。</AirConOutdoorUnit.description>
   <!--EN: air-con outdoor unit-->
   <AirConOutdoorUnit.label>空调室外机</AirConOutdoorUnit.label>
   <!--EN: Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.-->
-  <AirconIndoorUnit.description>房间的室内空调装置。连接到室外空调装置。需要 100 个冷却装置。</AirconIndoorUnit.description>
+  <AirconIndoorUnit.description>多分体空调机组。室内机放置在房间内，用通风管道与室外机相连，制冷量100 U。</AirconIndoorUnit.description>
   <!--EN: air-con indoor unit-->
   <AirconIndoorUnit.label>空调室内机</AirconIndoorUnit.label>
   <!--EN: basin-->
-  <BasinStuff.label>盆地</BasinStuff.label>
+  <BasinStuff.label>洗手池</BasinStuff.label>
   <!--EN: A small mat used next to a bathtub to absorb water.-->
   <BathMat.description>浴缸旁边用来吸水的小垫子。</BathMat.description>
   <!--EN: Bath Mat-->
@@ -17,25 +17,25 @@
   <!--EN: bathtub-->
   <BathtubStuff.label>浴缸</BathtubStuff.label>
   <!--EN: A receptacle used by a bedridden patient for urine and faeces.-->
-  <BedPan.description>卧床病人用来盛放尿液和粪便的容器。</BedPan.description>
+  <BedPan.description>盛放卧床患者尿液和粪便的容器。</BedPan.description>
   <!--EN: bed pan-->
   <BedPan.label>便盆</BedPan.label>
   <!--EN: When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.-->
-  <Biosolids.description>如果处理得当，污水污泥会变成生物固体，对地形肥力有一定的促进作用。适用于生长空间有限的恶劣环境。生物固体还可以大大提高沙子的肥力，与灌溉相结合可以使其变得肥沃。</Biosolids.description>
+  <Biosolids.description>用粪便污泥发酵制成的肥料。</Biosolids.description>
   <!--EN: biosolids-->
-  <Biosolids.label>生物固体</Biosolids.label>
+  <Biosolids.label>生物有机肥料</Biosolids.label>
   <!--EN: A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.-->
-  <BiosolidsComposter.description>一种将污水转化为肥料以增加可挖掘地形肥力的堆肥器。</BiosolidsComposter.description>
+  <BiosolidsComposter.description>堆肥容器。能够将废水和粪便转化为有机生物肥料，提高地形的肥沃度。</BiosolidsComposter.description>
   <!--EN: biosolids composter-->
-  <BiosolidsComposter.label>生物固体堆肥机</BiosolidsComposter.label>
+  <BiosolidsComposter.label>堆肥器</BiosolidsComposter.label>
   <!--EN: Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.-->
-  <BurnPit.description>通过将粪便污泥作为燃料燃烧来消除。也可用于处理尸体或其他碎屑。如果殖民者在焚烧废物附近呆得太久，他们可能会生病。</BurnPit.description>
+  <BurnPit.description>用于焚烧尸体，衣物或成瘾品等的土坑，以粪便作为燃料。长期滞留在作用范围内可能对健康造成不良影响。</BurnPit.description>
   <!--EN: burn pit-->
-  <BurnPit.label>烧坑</BurnPit.label>
+  <BurnPit.label>燃烧坑</BurnPit.label>
   <!--EN: ceiling fan 2x2-->
-  <CeilingFan.label>吊扇 2x2</CeilingFan.label>
+  <CeilingFan.label>吊扇</CeilingFan.label>
   <!--EN: ceiling fan 1x1-->
-  <CeilingFanS.label>吊扇 1x1</CeilingFanS.label>
+  <CeilingFanS.label>吊扇（1x1）</CeilingFanS.label>
   <!--EN: Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.-->
   <CryogenicExtractionNode.description>提取并升华小行星风化层下的挥发性冰。它产生可用水并产生大量热量，在封闭环境中操作时请小心处理。</CryogenicExtractionNode.description>
   <!--EN: cryogenic extraction node-->
@@ -53,7 +53,7 @@
   <!--EN: Sauna seating-->
   <DBHSaunaSeating.label>桑拿座位</DBHSaunaSeating.label>
   <!--EN: Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.-->
-  <DBHSwimmingPool.description>游泳池用于水疗、放松或娱乐。必须先从水塔注满水。</DBHSwimmingPool.description>
+  <DBHSwimmingPool.description>用于水疗，放松或娱乐的游泳池，使用时需要从水塔中注入水。</DBHSwimmingPool.description>
   <!--EN: swimming pool-->
   <DBHSwimmingPool.label>游泳池</DBHSwimmingPool.label>
   <!--EN: A bottle of water.-->
@@ -65,43 +65,43 @@
   <!--EN: water-->
   <DBH_WaterBottle.label>水</DBH_WaterBottle.label>
   <!--EN: Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.-->
-  <DeepWaterWellInlet.description>获取大面积的地下水，可用水泵抽取。深井不受污染的影响。</DeepWaterWellInlet.description>
+  <DeepWaterWellInlet.description>可以通过水泵获取大量地下水，不受地面污水影响。</DeepWaterWellInlet.description>
   <!--EN: deep water well-->
   <DeepWaterWellInlet.label>深水井</DeepWaterWellInlet.label>
   <!--EN: Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.-->
-  <ElectricBoiler.description>为散热器和热水箱生产数量可变的加热装置。手动控制功率设置。可以通过恒温器控制。</ElectricBoiler.description>
+  <ElectricBoiler.description>电力加热装置。为暖气和热水箱提供热水。具体加热量可手动设置，可用温控器控制。</ElectricBoiler.description>
   <!--EN: electric boiler-->
-  <ElectricBoiler.label>电锅炉</ElectricBoiler.label>
+  <ElectricBoiler.label>电加热器</ElectricBoiler.label>
   <!--EN: Pumps water from wells to water towers. Pumping capacity: 1500 L/day.-->
-  <ElectricPump.description>将水从井抽到水塔。泵送能力：1500 升/天。</ElectricPump.description>
+  <ElectricPump.description>将井里的水抽到水塔。抽水能力: 1500 L/天</ElectricPump.description>
   <!--EN: electric pump-->
-  <ElectricPump.label>电动泵</ElectricPump.label>
+  <ElectricPump.label>电力水泵</ElectricPump.label>
   <!--EN: A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids.-->
-  <FecalSludge.description>装满粪便污泥的桶。可以倾倒、燃烧或堆肥成生物固体。</FecalSludge.description>
+  <FecalSludge.description>一个装满粪便污泥的桶，可以倾倒，焚烧，或者通过堆肥制作成生物有机肥料。</FecalSludge.description>
   <!--EN: fecal sludge-->
   <FecalSludge.label>粪便污泥</FecalSludge.label>
   <!--EN: faeces-->
-  <FilthFaeces.label>屎</FilthFaeces.label>
+  <FilthFaeces.label>粪便</FilthFaeces.label>
   <!--EN: Urine on the ground.-->
-  <FilthUrine.description>尿在地上。</FilthUrine.description>
+  <FilthUrine.description>地上的尿。</FilthUrine.description>
   <!--EN: urine-->
   <FilthUrine.label>尿</FilthUrine.label>
   <!--EN: Trigger fire sprinkler-->
   <FireSprinkler.comps.2.useLabel>触发消防喷头</FireSprinkler.comps.2.useLabel>
   <!--EN: Triggered by fire or high temperature. Douses flames with a spray of water.-->
-  <FireSprinkler.description>因火灾或高温而引发。用水雾扑灭火焰。</FireSprinkler.description>
+  <FireSprinkler.description>遇到火焰或高温时触发，对控制区域喷洒水雾，可以手动开启。</FireSprinkler.description>
   <!--EN: fire sprinkler-->
   <FireSprinkler.label>消防喷淋头</FireSprinkler.label>
   <!--EN: A water fountain used for drinking and washing.-->
-  <Fountain.description>用于饮用和洗涤的饮水机。</Fountain.description>
+  <Fountain.description>简洁而干净的小水池，使用厕所后可以清洁双手。</Fountain.description>
   <!--EN: fountain-->
-  <Fountain.label>喷泉</Fountain.label>
+  <Fountain.label>水池</Fountain.label>
   <!--EN: Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.-->
-  <FreezerUnit.description>用于创建步入式冷冻室的冷冻装置。连接到室外空调装置。需要 300 个冷却装置。</FreezerUnit.description>
+  <FreezerUnit.description>用于制造冷库的大型制冷机，用通风管道与室外机相连，制冷量300 U。</FreezerUnit.description>
   <!--EN: walk-in freezer unit-->
-  <FreezerUnit.label>步入式冷冻装置</FreezerUnit.label>
+  <FreezerUnit.label>大型制冷机</FreezerUnit.label>
   <!--EN: Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.-->
-  <GasBoiler.description>生产 2000 个用于散热器和 性感的 水箱的加热装置。需要化学燃料作为燃料。可以通过恒温器控制。</GasBoiler.description>
+  <GasBoiler.description>加热装置。为暖气和热水箱提供2000 U的加热量。以化合燃料为燃料，可用温控器控制。</GasBoiler.description>
   <!--EN: gas boiler-->
   <GasBoiler.label>燃气锅炉</GasBoiler.label>
   <!--EN: Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.-->
@@ -109,94 +109,92 @@
   <!--EN: Geothermal heater-->
   <GeothermHeater.label>地热加热器</GeothermHeater.label>
   <!--EN: Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.-->
-  <HotTub.description>热水浴缸用于水疗、放松或娱乐。首次使用时充满水塔的水。自加热，不需要排污口。</HotTub.description>
+  <HotTub.description>用于水疗放松，在清洁的同时提高娱乐和舒适度。第一次使用时会从水塔注入水，自行加热，不需要排污口。</HotTub.description>
   <!--EN: hot tub-->
-  <HotTub.label>热浴缸</HotTub.label>
+  <HotTub.label>热水按摩浴缸</HotTub.label>
   <!--EN: Stores hot running water for showers and baths. Connect to any boiler to heat.-->
-  <HotWaterTank.description>储存热淋浴和浴缸的自来水。连接到任何锅炉进行加热。</HotWaterTank.description>
+  <HotWaterTank.description>为淋浴器和浴缸储存热水，通过锅炉或加热器加热。</HotWaterTank.description>
   <!--EN: hot water tank-->
   <HotWaterTank.label>热水箱</HotWaterTank.label>
   <!--EN: Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius.-->
-  <IrrigationSprinkler.description>每天早上给周围区域浇水一次，以提高全天土壤的肥力。每天早上在最大半径处使用 1000L。</IrrigationSprinkler.description>
+  <IrrigationSprinkler.description>每天清晨为所在区域浇水，大幅提高土壤肥力。喷洒需要消耗大量的水。</IrrigationSprinkler.description>
   <!--EN: irrigation sprinkler-->
-  <IrrigationSprinkler.label>灌溉喷头</IrrigationSprinkler.label>
+  <IrrigationSprinkler.label>喷灌器</IrrigationSprinkler.label>
   <!--EN: Everything but a kitchen sink. Increases room cleanliness.-->
-  <KitchenSink.description>除了厨房水槽之外什么都有。提高房间清洁度。</KitchenSink.description>
+  <KitchenSink.description>与洗手池有相同功能的厨房水槽，大幅提高房间的清洁度。</KitchenSink.description>
   <!--EN: kitchen sink-->
   <KitchenSink.label>厨房水槽</KitchenSink.label>
   <!--EN: An indoor faeces and urine collection box for small animals.-->
-  <LitterBox.description>室内小动物粪便、尿液收集箱。</LitterBox.description>
+  <LitterBox.description>小型动物的室内粪便和尿液收集箱。</LitterBox.description>
   <!--EN: litter box-->
-  <LitterBox.label>垃圾箱</LitterBox.label>
+  <LitterBox.label>猫砂盆</LitterBox.label>
   <!--EN: Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.-->
-  <LogBoiler.description>生产 2000 个用于管道散热器和 性感的 水箱的加热装置。为房间和相邻的浴室供暖。需要原木作为燃料。</LogBoiler.description>
+  <LogBoiler.description>加热装置。为暖气和热水箱提供2000 U的加热量。以原木为燃料。</LogBoiler.description>
   <!--EN: log boiler-->
-  <LogBoiler.label>原木锅炉</LogBoiler.label>
+  <LogBoiler.label>锅炉</LogBoiler.label>
   <!--EN: mote-->
-  <Mote_FecalBit.label>微尘</Mote_FecalBit.label>
+  <Mote_FecalBit.label>尘埃</Mote_FecalBit.label>
   <!--EN: Bowl of water used by animals.-->
   <PetWaterBowl.description>动物使用的水碗。</PetWaterBowl.description>
   <!--EN: Water Bowl-->
   <PetWaterBowl.label>水碗</PetWaterBowl.label>
   <!--EN: A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use-->
-  <PitLatrine.description>坑式厕所，将粪便收集在地上的一个洞里。必须手动清空，或者可以通过管道连接。
-每次使用 14L</PitLatrine.description>
+  <PitLatrine.description>一种用贮粪池收集粪便的厕所，没有水也可以使用。集满时必须手动清空。</PitLatrine.description>
   <!--EN: latrine-->
-  <PitLatrine.label>厕所</PitLatrine.label>
+  <PitLatrine.label>茅厕</PitLatrine.label>
   <!--EN: Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.-->
-  <PrimitiveWell.description>获取地下水。水必须先被拖到水桶中才能用于洗涤或饮用。</PrimitiveWell.description>
+  <PrimitiveWell.description>可以从井里取水。（如果饮水需求开启，也可以用来饮水）</PrimitiveWell.description>
   <!--EN: primitive well-->
-  <PrimitiveWell.label>原始井</PrimitiveWell.label>
+  <PrimitiveWell.label>井</PrimitiveWell.label>
   <!--EN: Pumps water from wells to water towers. Pumping capacity: 10000 L/day.-->
-  <PumpingStation.description>将水从井抽到水塔。泵送能力：10000升/天。</PumpingStation.description>
+  <PumpingStation.description>将井里的水抽到水塔。抽水能力: 10000 L/天</PumpingStation.description>
   <!--EN: pumping station-->
-  <PumpingStation.label>泵站</PumpingStation.label>
+  <PumpingStation.label>水泵站</PumpingStation.label>
   <!--EN: Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.-->
-  <RadiatorLarge.description>输出功率是标准散热器的三倍。对于较大的房间很有用。需要300个加热装置。</RadiatorLarge.description>
+  <RadiatorLarge.description>使用循环的热水为房间供热，效果是普通暖气的3倍，适用于较大的房间，发热量300 U。</RadiatorLarge.description>
   <!--EN: large radiator-->
-  <RadiatorLarge.label>大散热器</RadiatorLarge.label>
+  <RadiatorLarge.label>大型暖气</RadiatorLarge.label>
   <!--EN: radiator-->
-  <RadiatorStuffed.label>散热器</RadiatorStuffed.label>
+  <RadiatorStuffed.label>暖气</RadiatorStuffed.label>
   <!--EN: Impressive bathroom towel rail.-->
   <RadiatorTowelRail.description>令人印象深刻的浴室毛巾架。</RadiatorTowelRail.description>
   <!--EN: Towel Rail-->
   <RadiatorTowelRail.label>毛巾架</RadiatorTowelRail.label>
   <!--EN: raw sewage-->
-  <RawSewage.label>原污水</RawSewage.label>
+  <RawSewage.label>污水</RawSewage.label>
   <!--EN: A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.\nMust be mounted on an exterior wall of a ship.-->
   <SewageDumpPort.description>用于航天器的真空密封污水排放口。当连接到真空马桶时，它可以安全地将废物喷射到太空中。
 必须安装在船舶的外墙上。</SewageDumpPort.description>
   <!--EN: sewage dump port-->
   <SewageDumpPort.label>污水倾倒口</SewageDumpPort.label>
   <!--EN: Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up.-->
-  <SewageOutlet.description>可以放置在任何地方。污水会在陆地上汇集并扩散或分散在水中。污水会随着时间的推移而清理干净；树木、水或雨水的存在会加速这一过程。</SewageOutlet.description>
+  <SewageOutlet.description>可以放置在任何地方。污水会出现在地上或流进水中。随着时间推移，污水会慢慢消失。树木，河湖或雨水能加快去污水的速度。</SewageOutlet.description>
   <!--EN: sewage outlet-->
   <SewageOutlet.label>排污口</SewageOutlet.label>
   <!--EN: Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets.-->
-  <SewageSepticTank.description>随着时间的推移慢慢清理污水。污水首先导入化粪池。如果达到满负荷，多余的污水将被送往排污口。</SewageSepticTank.description>
+  <SewageSepticTank.description>随时间逐渐清理污水的设备。污水会先进入化粪池，达到满负荷后，多余的污水将不经处理直接从排污口排出。</SewageSepticTank.description>
   <!--EN: septic tank-->
   <SewageSepticTank.label>化粪池</SewageSepticTank.label>
   <!--EN: Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash-->
-  <ShowerAdvStuff.description>按需加热水，无需 性感的 水箱，清洁速度提高一倍
- 每次洗涤 90 升</ShowerAdvStuff.description>
+  <ShowerAdvStuff.description>采用4喷口110mm大型动力花洒，使酸痛的肌肉得到放松。可以通过热水箱获得热水，不需要排污口。</ShowerAdvStuff.description>
   <!--EN: power shower-->
-  <ShowerAdvStuff.label>强力淋浴</ShowerAdvStuff.label>
+  <ShowerAdvStuff.label>电力淋浴器</ShowerAdvStuff.label>
   <!--EN: simple shower-->
-  <ShowerSimple.label>简单的淋浴</ShowerSimple.label>
+  <ShowerSimple.label>淋浴喷头</ShowerSimple.label>
   <!--EN: shower-->
-  <ShowerStuff.label>淋浴</ShowerStuff.label>
+  <ShowerStuff.label>淋浴器</ShowerStuff.label>
   <!--EN: Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.-->
-  <SolarHeater.description>利用阳光加热热水箱和散热器。 0-2000 单位的加热功率取决于光照强度和环境温度。</SolarHeater.description>
+  <SolarHeater.description>太阳能加热装置。加热量随光照和环境温度变化，范围在0到2000 U之间。</SolarHeater.description>
   <!--EN: solar heater-->
-  <SolarHeater.label>太阳能热水器</SolarHeater.label>
+  <SolarHeater.label>太阳能加热器</SolarHeater.label>
   <!--EN: A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.-->
   <SpacerWaterRecoverySystem.description>紧凑型高效回收节点，可回收和再利用淋浴间和水槽中的水。</SpacerWaterRecoverySystem.description>
   <!--EN: water recovery system-->
   <SpacerWaterRecoverySystem.label>水回收系统</SpacerWaterRecoverySystem.label>
   <!--EN: Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.-->
-  <Thermostat.description>用于控制电锅炉和燃气锅炉。可以放置多个。通过标准管道连接。</Thermostat.description>
+  <Thermostat.description>用于控制电力和燃气锅炉，通过管道连接。</Thermostat.description>
   <!--EN: thermostat-->
-  <Thermostat.label>恒温器</Thermostat.label>
+  <Thermostat.label>温控器</Thermostat.label>
   <!--EN: Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use-->
   <ToiletAdv.description>舒适、自清洁、畅通无阻、超高效的智能马桶。通过自动清洁和除臭提供最佳的多功能体验。
 每次使用 7L</ToiletAdv.description>
@@ -207,55 +205,55 @@
   <!--EN: vacuum toilet-->
   <ToiletSpacer.label>真空马桶</ToiletSpacer.label>
   <!--EN: Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.-->
-  <ToiletStallDoor.description>薄门仅阻挡使用浴室设备的人的视线。不会创建新房间或防止热量损失。</ToiletStallDoor.description>
+  <ToiletStallDoor.description>隔间门只能阻挡人的视线，方便使用卫生设施，并不会分割房间和防止热量流失。</ToiletStallDoor.description>
   <!--EN: stall door-->
-  <ToiletStallDoor.label>档门</ToiletStallDoor.label>
+  <ToiletStallDoor.label>隔间门</ToiletStallDoor.label>
   <!--EN: toilet-->
-  <ToiletStuff.label>洗手间</ToiletStuff.label>
+  <ToiletStuff.label>马桶</ToiletStuff.label>
   <!--EN: Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.-->
-  <WashBucket.description>用于个人卫生的一桶水。必须定期补充淡水，也可补充雨水。如果口渴，也可用于饮用。</WashBucket.description>
+  <WashBucket.description>用于清洁身体的简易水盆，也可以饮用，需要定期补充淡水。（殖民者会在附近的人工或自然水源中取水）</WashBucket.description>
   <!--EN: water tub-->
   <WashBucket.label>水盆</WashBucket.label>
   <!--EN: Washes clothes so well that you can't even tell someone died wearing it!-->
-  <WashingMachine.description>衣服洗得很好，你甚至看不出有人穿着它死了！</WashingMachine.description>
+  <WashingMachine.description>这台机器如此优秀，以至于殖民者甚至无法发现这件衣服曾被死人穿过！</WashingMachine.description>
   <!--EN: washing machine-->
   <WashingMachine.label>洗衣机</WashingMachine.label>
   <!--EN: Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.-->
-  <WaterButt.description>储存水以供管道装置使用。下雨时慢慢充满。如果水被污染，必须将其排出。容量：100。</WaterButt.description>
+  <WaterButt.description>用于存放地下水，如果集水桶中的水被污染，必须排空才能确保安全。可以洗手。</WaterButt.description>
   <!--EN: water butt-->
-  <WaterButt.label>水屁股</WaterButt.label>
+  <WaterButt.label>集水桶</WaterButt.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.-->
   <WaterTankSmall.description>储存水以供管道装置使用。如果水被污染，必须将其排出。容量：2000。</WaterTankSmall.description>
   <!--EN: water tank-->
   <WaterTankSmall.label>水箱</WaterTankSmall.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.-->
-  <WaterTowerL.description>储存水以供管道装置使用。如果水被污染，必须将其排出。容量：50,000。</WaterTowerL.description>
+  <WaterTowerL.description>用于存放水泵抽取的地下水，如果水塔中的水被污染，必须排空才能确保安全。</WaterTowerL.description>
   <!--EN: huge water tower-->
-  <WaterTowerL.label>巨大的水塔</WaterTowerL.label>
+  <WaterTowerL.label>巨型水塔</WaterTowerL.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.-->
-  <WaterTowerS.description>储存水以供管道装置使用。如果水被污染，必须将其排出。容量：8000。</WaterTowerS.description>
+  <WaterTowerS.description>用于存放水泵抽取的地下水，如果水塔中的水被污染，必须排空才能确保安全。</WaterTowerS.description>
   <!--EN: water tower-->
   <WaterTowerS.label>水塔</WaterTowerS.label>
   <!--EN: Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.-->
-  <WaterTreatment.description>清除99.99%的细菌！过滤储存塔中的现有水以及固定装置使用的任何水，消除疾病风险。</WaterTreatment.description>
+  <WaterTreatment.description>清除99.99%的细菌！过滤地下水和水塔中储存的水，消除疾病风险。</WaterTreatment.description>
   <!--EN: water treatment-->
-  <WaterTreatment.label>水处理</WaterTreatment.label>
+  <WaterTreatment.label>水过滤器</WaterTreatment.label>
   <!--EN: Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.-->
   <WaterTrough.description>动物使用的水槽中，带有浮球阀的服务箱会在水位低时自动补充水，在下雨时也会补充水。</WaterTrough.description>
   <!--EN: Water Trough-->
   <WaterTrough.label>水槽</WaterTrough.label>
   <!--EN: Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.-->
-  <WaterWellInlet.description>获取可用水泵抽取的地下水。污水或其他污染物的存在会降低水质并可能造成污染。</WaterWellInlet.description>
+  <WaterWellInlet.description>可以通过水泵获取地下水，如果取水范围内存在污水或其他污染物，会降低水质并有卫生疾病风险。</WaterWellInlet.description>
   <!--EN: water well-->
   <WaterWellInlet.label>水井</WaterWellInlet.label>
   <!--EN: Pumps water from wells to water towers. Pumping capacity: 3000 L/day.-->
-  <WindPump.description>将水从井抽到水塔。泵送能力：3000升/天。</WindPump.description>
+  <WindPump.description>将井里的水抽到水塔。抽水能力: 3000 L/天</WindPump.description>
   <!--EN: wind pump-->
-  <WindPump.label>风泵</WindPump.label>
+  <WindPump.label>风力水泵</WindPump.label>
   <!--EN: Pipe for connecting air-conditioning units.-->
-  <airPipe.description>连接空调机组的管道。</airPipe.description>
+  <airPipe.description>用于连接空调设备的通风管道。</airPipe.description>
   <!--EN: air-con pipe-->
-  <airPipe.label>空调管</airPipe.label>
+  <airPipe.label>通风管道</airPipe.label>
   <!--EN: Pipe for connecting air-conditioning units. (hidden)-->
   <airPipeHidden.description>连接空调机组的管道。 （隐）</airPipeHidden.description>
   <!--EN: air-con pipe (hidden)-->
@@ -269,7 +267,7 @@
   <!--EN: plumbing (hidden)-->
   <sewagePipeHidden.label>管道（隐藏）</sewagePipeHidden.label>
   <!--EN: Plumbing for connecting plumbed things.-->
-  <sewagePipeStuff.description>用于连接管道物体的管道。</sewagePipeStuff.description>
+  <sewagePipeStuff.description>用于连接卫生设备的管道。</sewagePipeStuff.description>
   <!--EN: plumbing-->
   <sewagePipeStuff.label>管道</sewagePipeStuff.label>
 </LanguageData>

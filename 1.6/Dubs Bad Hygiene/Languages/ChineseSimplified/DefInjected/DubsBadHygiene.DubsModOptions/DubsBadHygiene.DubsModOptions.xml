@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Bladder need rate-->
-  <BladderRateD.label>膀胱需要率</BladderRateD.label>
+  <BladderRateD.label>排泄需求率</BladderRateD.label>
   <!--EN: Cheat-->
-  <BladderRateD.options.0.label>欺骗</BladderRateD.options.0.label>
+  <BladderRateD.options.0.label>作弊</BladderRateD.options.0.label>
   <!--EN: 10%-->
   <BladderRateD.options.1.label>10%</BladderRateD.options.1.label>
   <!--EN: 100%-->
@@ -43,9 +43,9 @@
   <!--EN: 90%-->
   <BladderRateD.options.9.label>90%</BladderRateD.options.9.label>
   <!--EN: Contamination chance-->
-  <ContaminationChance.label>污染机会</ContaminationChance.label>
+  <ContaminationChance.label>污染几率</ContaminationChance.label>
   <!--EN: Cheat-->
-  <ContaminationChance.options.0.label>欺骗</ContaminationChance.options.0.label>
+  <ContaminationChance.options.0.label>作弊</ContaminationChance.options.0.label>
   <!--EN: 10%-->
   <ContaminationChance.options.1.label>10%</ContaminationChance.options.1.label>
   <!--EN: 25%-->
@@ -65,7 +65,7 @@
   <!--EN: Fertilizer strength-->
   <FertilizerGridStrength.label>肥料强度</FertilizerGridStrength.label>
   <!--EN: Cheat-->
-  <FertilizerGridStrength.options.0.label>欺骗</FertilizerGridStrength.options.0.label>
+  <FertilizerGridStrength.options.0.label>作弊</FertilizerGridStrength.options.0.label>
   <!--EN: 160%-->
   <FertilizerGridStrength.options.1.label>160%</FertilizerGridStrength.options.1.label>
   <!--EN: 140%-->
@@ -85,19 +85,19 @@
   <!--EN: Fertilizer lifespan-->
   <FertilizerLifespan.label>肥料寿命</FertilizerLifespan.label>
   <!--EN: cheat-->
-  <FertilizerLifespan.options.0.label>欺骗</FertilizerLifespan.options.0.label>
+  <FertilizerLifespan.options.0.label>作弊</FertilizerLifespan.options.0.label>
   <!--EN: 240 days (3 years)-->
-  <FertilizerLifespan.options.1.label>240天（3年）</FertilizerLifespan.options.1.label>
+  <FertilizerLifespan.options.1.label>240天 (3年)</FertilizerLifespan.options.1.label>
   <!--EN: 1 day-->
   <FertilizerLifespan.options.10.label>1天</FertilizerLifespan.options.10.label>
   <!--EN: 180 days-->
   <FertilizerLifespan.options.2.label>180天</FertilizerLifespan.options.2.label>
   <!--EN: 120 days (2 years)-->
-  <FertilizerLifespan.options.3.label>120天（2年）</FertilizerLifespan.options.3.label>
+  <FertilizerLifespan.options.3.label>120天 (2年)</FertilizerLifespan.options.3.label>
   <!--EN: 80 days-->
   <FertilizerLifespan.options.4.label>80天</FertilizerLifespan.options.4.label>
   <!--EN: 60 days (1 year)-->
-  <FertilizerLifespan.options.5.label>60 天（1 年）</FertilizerLifespan.options.5.label>
+  <FertilizerLifespan.options.5.label>60天 (1年)</FertilizerLifespan.options.5.label>
   <!--EN: 40 days-->
   <FertilizerLifespan.options.6.label>40天</FertilizerLifespan.options.6.label>
   <!--EN: 30 days-->
@@ -107,9 +107,9 @@
   <!--EN: 10 days-->
   <FertilizerLifespan.options.9.label>10天</FertilizerLifespan.options.9.label>
   <!--EN: Flush size-->
-  <FlushSize.label>齐平尺寸</FlushSize.label>
+  <FlushSize.label>污水产出量</FlushSize.label>
   <!--EN: Cheat-->
-  <FlushSize.options.0.label>欺骗</FlushSize.options.0.label>
+  <FlushSize.options.0.label>作弊</FlushSize.options.0.label>
   <!--EN: 25%-->
   <FlushSize.options.1.label>25%</FlushSize.options.1.label>
   <!--EN: 50%-->
@@ -125,7 +125,7 @@
   <!--EN: Hygiene need rate-->
   <HygieneRateD.label>卫生需求率</HygieneRateD.label>
   <!--EN: Cheat-->
-  <HygieneRateD.options.0.label>欺骗</HygieneRateD.options.0.label>
+  <HygieneRateD.options.0.label>作弊</HygieneRateD.options.0.label>
   <!--EN: 10%-->
   <HygieneRateD.options.1.label>10%</HygieneRateD.options.1.label>
   <!--EN: 100%-->
@@ -167,7 +167,7 @@
   <!--EN: Irrigation strength-->
   <IrrigationGridStrength.label>灌溉强度</IrrigationGridStrength.label>
   <!--EN: Cheat-->
-  <IrrigationGridStrength.options.0.label>欺骗</IrrigationGridStrength.options.0.label>
+  <IrrigationGridStrength.options.0.label>作弊</IrrigationGridStrength.options.0.label>
   <!--EN: 240%-->
   <IrrigationGridStrength.options.1.label>240%</IrrigationGridStrength.options.1.label>
   <!--EN: 220%-->
@@ -185,9 +185,9 @@
   <!--EN: 110%-->
   <IrrigationGridStrength.options.8.label>110%</IrrigationGridStrength.options.8.label>
   <!--EN: Sewage cleanup rate-->
-  <SewageCleanupRateB.label>污水净化率</SewageCleanupRateB.label>
+  <SewageCleanupRateB.label>污水自然净化率</SewageCleanupRateB.label>
   <!--EN: Cheat-->
-  <SewageCleanupRateB.options.0.label>欺骗</SewageCleanupRateB.options.0.label>
+  <SewageCleanupRateB.options.0.label>作弊</SewageCleanupRateB.options.0.label>
   <!--EN: 300%-->
   <SewageCleanupRateB.options.1.label>300%</SewageCleanupRateB.options.1.label>
   <!--EN: 0%-->
@@ -209,9 +209,9 @@
   <!--EN: 10%-->
   <SewageCleanupRateB.options.9.label>10%</SewageCleanupRateB.options.9.label>
   <!--EN: Sewage limit per cell-->
-  <SewageGridCapacity.label>每个单元的污水限制</SewageGridCapacity.label>
+  <SewageGridCapacity.label>单元污水限制</SewageGridCapacity.label>
   <!--EN: Cheat-->
-  <SewageGridCapacity.options.0.label>欺骗</SewageGridCapacity.options.0.label>
+  <SewageGridCapacity.options.0.label>作弊</SewageGridCapacity.options.0.label>
   <!--EN: 400%-->
   <SewageGridCapacity.options.1.label>400%</SewageGridCapacity.options.1.label>
   <!--EN: 200%-->
@@ -227,7 +227,7 @@
   <!--EN: Sewage treatment rate-->
   <SewageProcRate.label>污水处理率</SewageProcRate.label>
   <!--EN: Cheat-->
-  <SewageProcRate.options.0.label>欺骗</SewageProcRate.options.0.label>
+  <SewageProcRate.options.0.label>作弊</SewageProcRate.options.0.label>
   <!--EN: 200%-->
   <SewageProcRate.options.1.label>200%</SewageProcRate.options.1.label>
   <!--EN: 150%-->
@@ -245,9 +245,9 @@
   <!--EN: 10%-->
   <SewageProcRate.options.8.label>10%</SewageProcRate.options.8.label>
   <!--EN: Base terrain fertility-->
-  <TerrainFertilityFactor.label>基地地形肥力</TerrainFertilityFactor.label>
+  <TerrainFertilityFactor.label>基础地形肥沃度</TerrainFertilityFactor.label>
   <!--EN: Cheat-->
-  <TerrainFertilityFactor.options.0.label>欺骗</TerrainFertilityFactor.options.0.label>
+  <TerrainFertilityFactor.options.0.label>作弊</TerrainFertilityFactor.options.0.label>
   <!--EN: 180%-->
   <TerrainFertilityFactor.options.1.label>180%</TerrainFertilityFactor.options.1.label>
   <!--EN: 20%-->
@@ -269,9 +269,9 @@
   <!--EN: 40%-->
   <TerrainFertilityFactor.options.9.label>40%</TerrainFertilityFactor.options.9.label>
   <!--EN: Thirst need rate-->
-  <ThirstRateD.label>口渴需要率</ThirstRateD.label>
+  <ThirstRateD.label>饮水需求率</ThirstRateD.label>
   <!--EN: Cheat-->
-  <ThirstRateD.options.0.label>欺骗</ThirstRateD.options.0.label>
+  <ThirstRateD.options.0.label>作弊</ThirstRateD.options.0.label>
   <!--EN: 10%-->
   <ThirstRateD.options.1.label>10%</ThirstRateD.options.1.label>
   <!--EN: 100%-->
@@ -311,9 +311,9 @@
   <!--EN: 90%-->
   <ThirstRateD.options.9.label>90%</ThirstRateD.options.9.label>
   <!--EN: Hot water usage-->
-  <WaterHeatingRate.label>热水使用量</WaterHeatingRate.label>
+  <WaterHeatingRate.label>热水消耗率</WaterHeatingRate.label>
   <!--EN: Cheat-->
-  <WaterHeatingRate.options.0.label>欺骗</WaterHeatingRate.options.0.label>
+  <WaterHeatingRate.options.0.label>作弊</WaterHeatingRate.options.0.label>
   <!--EN: 50%-->
   <WaterHeatingRate.options.1.label>50%</WaterHeatingRate.options.1.label>
   <!--EN: 75%-->
@@ -327,9 +327,9 @@
   <!--EN: 200%-->
   <WaterHeatingRate.options.6.label>200%</WaterHeatingRate.options.6.label>
   <!--EN: Water pump capacity-->
-  <WaterPumpCapacity.label>水泵容量</WaterPumpCapacity.label>
+  <WaterPumpCapacity.label>抽水能力</WaterPumpCapacity.label>
   <!--EN: Cheat-->
-  <WaterPumpCapacity.options.0.label>欺骗</WaterPumpCapacity.options.0.label>
+  <WaterPumpCapacity.options.0.label>作弊</WaterPumpCapacity.options.0.label>
   <!--EN: 200%-->
   <WaterPumpCapacity.options.1.label>200%</WaterPumpCapacity.options.1.label>
   <!--EN: 150%-->

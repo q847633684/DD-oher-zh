@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: swimming-->
-  <DBHGoSwimming.reportString>游泳</DBHGoSwimming.reportString>
+  <DBHGoSwimming.reportString>游泳。</DBHGoSwimming.reportString>
   <!--EN: using sauna-->
   <DBHUseSauna.reportString>使用桑拿</DBHUseSauna.reportString>
   <!--EN: relaxing-->
-  <UseHotTub.reportString>放松</UseHotTub.reportString>
+  <UseHotTub.reportString>放松。</UseHotTub.reportString>
   <!--EN: having a bath-->
-  <takeBath.reportString>洗澡</takeBath.reportString>
+  <takeBath.reportString>洗澡。</takeBath.reportString>
   <!--EN: showering with TargetA-->
-  <takeShower.reportString>与 TargetA 一起洗澡</takeShower.reportString>
+  <takeShower.reportString>用TargetA洗澡。</takeShower.reportString>
 </LanguageData>

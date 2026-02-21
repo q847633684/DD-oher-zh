@@ -15,7 +15,7 @@
   <!--EN: mosaic tile-->
   <DBHMosaicTile.label>马赛克瓷砖</DBHMosaicTile.label>
   <!--EN: pool water-->
-  <PoolWater.label>泳池水</PoolWater.label>
+  <PoolWater.label>池水</PoolWater.label>
   <!--EN: water-->
   <PoolWater.tools.0.label>水</PoolWater.tools.0.label>
 </LanguageData>
