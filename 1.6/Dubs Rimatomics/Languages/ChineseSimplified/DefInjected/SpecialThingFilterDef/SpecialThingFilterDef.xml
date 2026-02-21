@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Allow cracked fuel rods to be stored here.-->
-  <NuclearFuelCracked.description>允许将破裂的燃料棒存放在这里。</NuclearFuelCracked.description>
+  <NuclearFuelCracked.description>允许破损的燃料棒存放在这里。</NuclearFuelCracked.description>
   <!--EN: Allow Cracked-->
-  <NuclearFuelCracked.label>允许破解</NuclearFuelCracked.label>
+  <NuclearFuelCracked.label>允许裂化燃料</NuclearFuelCracked.label>
   <!--EN: Allow new fuel to be stored here.-->
-  <NuclearFuelNew.description>允许将新燃料储存在这里。</NuclearFuelNew.description>
+  <NuclearFuelNew.description>允许新燃料棒存放在这里。</NuclearFuelNew.description>
   <!--EN: Allow New Fuel-->
-  <NuclearFuelNew.label>允许使用新燃料</NuclearFuelNew.label>
+  <NuclearFuelNew.label>允许新燃料</NuclearFuelNew.label>
   <!--EN: Allow non cracked fuel rods to be stored here.-->
-  <NuclearFuelNotCracked.description>允许将未破裂的燃料棒存放在这里。</NuclearFuelNotCracked.description>
+  <NuclearFuelNotCracked.description>不允许破损的燃料棒存放在这里。</NuclearFuelNotCracked.description>
   <!--EN: Allow Non Cracked-->
-  <NuclearFuelNotCracked.label>允许非破解</NuclearFuelNotCracked.label>
+  <NuclearFuelNotCracked.label>不允许裂化燃料</NuclearFuelNotCracked.label>
   <!--EN: Allow non processable fuel to be stored here.-->
-  <NuclearFuelNotProcessable.description>允许在此储存不可加工的燃料。</NuclearFuelNotProcessable.description>
+  <NuclearFuelNotProcessable.description>不允许可加工燃料棒存放在这里。</NuclearFuelNotProcessable.description>
   <!--EN: Allow Non Processable-->
-  <NuclearFuelNotProcessable.label>允许不可处理</NuclearFuelNotProcessable.label>
+  <NuclearFuelNotProcessable.label>不允许可加工燃料</NuclearFuelNotProcessable.label>
   <!--EN: Allow processable fuel to be stored here.-->
-  <NuclearFuelProcessable.description>允许将可加工的燃料储存在这里。</NuclearFuelProcessable.description>
+  <NuclearFuelProcessable.description>允许可加工燃料棒存放在这里。</NuclearFuelProcessable.description>
   <!--EN: Allow Processable-->
-  <NuclearFuelProcessable.label>允许可处理</NuclearFuelProcessable.label>
+  <NuclearFuelProcessable.label>允许可加工燃料</NuclearFuelProcessable.label>
   <!--EN: Allow used fuel to be stored here.-->
-  <NuclearFuelUsed.description>允许将用过的燃料储存在这里。</NuclearFuelUsed.description>
+  <NuclearFuelUsed.description>允许用过的燃料棒存放在这里。</NuclearFuelUsed.description>
   <!--EN: Allow Used Fuel-->
-  <NuclearFuelUsed.label>允许使用过的燃料</NuclearFuelUsed.label>
+  <NuclearFuelUsed.label>允许用过的燃料</NuclearFuelUsed.label>
 </LanguageData>

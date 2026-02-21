@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: exsanguination-->
-  <Exsanguination.description>放血</Exsanguination.description>
+  <Exsanguination.description>失血</Exsanguination.description>
   <!--EN: exsanguination-->
-  <Exsanguination.label>放血</Exsanguination.label>
+  <Exsanguination.label>失血</Exsanguination.label>
   <!--EN: extreme-->
   <Exsanguination.stages.0.label>极端</Exsanguination.stages.0.label>
   <!--EN: Fatal Radiation Exposure-->
-  <FatalRad.description>致命的辐射暴露</FatalRad.description>
+  <FatalRad.description>暴露于致命辐射</FatalRad.description>
   <!--EN: Fatal Radiation Exposure-->
-  <FatalRad.label>致命的辐射暴露</FatalRad.label>
+  <FatalRad.label>暴露于致命辐射</FatalRad.label>
   <!--EN: initial-->
   <FatalRad.stages.0.label>最初的</FatalRad.stages.0.label>
   <!--EN: advanced-->
@@ -19,11 +19,11 @@
   <!--EN: dead-->
   <FatalRad.stages.3.label>死的</FatalRad.stages.3.label>
   <!--EN: Flash blindness-->
-  <FlashBlindness.description>闪光失明</FlashBlindness.description>
+  <FlashBlindness.description>强光致盲</FlashBlindness.description>
   <!--EN: Flash blindness-->
-  <FlashBlindness.label>闪光失明</FlashBlindness.label>
+  <FlashBlindness.label>强光致盲</FlashBlindness.label>
   <!--EN: Flash blindness-->
-  <FlashBlindness.labelNoun>闪光失明</FlashBlindness.labelNoun>
+  <FlashBlindness.labelNoun>强光致盲</FlashBlindness.labelNoun>
   <!--EN: radiation buildup-->
   <RadiationIncurable.description>辐射累积</RadiationIncurable.description>
   <!--EN: radiation buildup-->
@@ -63,9 +63,9 @@
   <!--EN: extreme-->
   <RectalCoring.stages.0.label>极端</RectalCoring.stages.0.label>
   <!--EN: radiation sickness-->
-  <RimatomicsRadiation.description>放射病</RimatomicsRadiation.description>
+  <RimatomicsRadiation.description>辐射病</RimatomicsRadiation.description>
   <!--EN: radiation sickness-->
-  <RimatomicsRadiation.label>放射病</RimatomicsRadiation.label>
+  <RimatomicsRadiation.label>辐射病</RimatomicsRadiation.label>
   <!--EN: initial-hidden-->
   <RimatomicsRadiation.stages.0.label>初始隐藏</RimatomicsRadiation.stages.0.label>
   <!--EN: initial-->

@@ -1,303 +1,285 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: via land-->
-  <ATOMattackGround>通过陆路</ATOMattackGround>
+  <ATOMattackGround>经由陆路</ATOMattackGround>
   <!--EN: via drop pods-->
-  <ATOMattackPods>通过空投舱</ATOMattackPods>
+  <ATOMattackPods>经由空投舱</ATOMattackPods>
   <!--EN: Threat Detected!-->
   <ATOMdetection>检测到威胁！</ATOMdetection>
   <!--EN: The TACS has detected a possible threat, it is estimated that {0} will attack {1} in approximately {2}-->
-  <ATOMdetectionDesc>TACS 检测到可能的威胁，预计 {0} 将在大约 {2} 内攻击 {1}</ATOMdetectionDesc>
+  <ATOMdetectionDesc>警戒雷达已经检测到可能的威胁，预计{2}后{0}将攻击{1}。</ATOMdetectionDesc>
   <!--EN: ABORT-->
   <AbortTest>中止</AbortTest>
   <!--EN: Core Melt-->
-  <AlertCoreMelt>核心熔化</AlertCoreMelt>
+  <AlertCoreMelt>堆芯熔化</AlertCoreMelt>
   <!--EN: A reactor is suffering a core melt incident, evacuate immediately-->
-  <AlertCoreMeltDesc>反应堆发生堆芯熔化事故，立即撤离</AlertCoreMeltDesc>
+  <AlertCoreMeltDesc>灾难性的堆芯熔化事故，请立即撤离此地！</AlertCoreMeltDesc>
   <!--EN: Reactor Temp-->
-  <AlertCoreOverheat>反应器温度</AlertCoreOverheat>
+  <AlertCoreOverheat>反应堆故障</AlertCoreOverheat>
   <!--EN: A reactor is being damaged due to overheating-->
-  <AlertCoreOverheatDesc>反应堆因过热而损坏</AlertCoreOverheatDesc>
+  <AlertCoreOverheatDesc>反应堆因过热而损坏。</AlertCoreOverheatDesc>
   <!--EN: Cracked Core-->
-  <AlertCracked>裂核</AlertCracked>
+  <AlertCracked>反应堆损坏</AlertCracked>
   <!--EN: Stress from running the core at high temperatures for a long period of time has caused the core to crack, it will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power and damage the fuel rods.-->
-  <AlertCrackedDesc>堆芯长时间在高温下运行所产生的压力导致堆芯破裂，需要对其进行拆解和重建，否则它将继续发出致命的辐射，产生的功率减少并损坏燃料棒。</AlertCrackedDesc>
+  <AlertCrackedDesc>反应堆在高温下的长时间运行导致其堆芯破裂，需要解构和重建，否则将持续发射致命的辐射，产生较少的电力并损坏燃料棒。</AlertCrackedDesc>
   <!--EN: Turbine needs cooling-->
-  <AlertNeedsCooling>涡轮机需要冷却</AlertNeedsCooling>
+  <AlertNeedsCooling>涡轮机需要连通冷却系统</AlertNeedsCooling>
   <!--EN: A turbine needs to be connected to a cooling system, failure to do so may result in overheating and meltdown-->
-  <AlertNeedsCoolingDesc>涡轮机需要连接到冷却系统，否则可能会导致过热和熔毁</AlertNeedsCoolingDesc>
+  <AlertNeedsCoolingDesc>涡轮机需要连通到冷却系统，如果不这样做，可能会导致反应堆过热熔毁。</AlertNeedsCoolingDesc>
   <!--EN: Core needs turbine-->
-  <AlertNeedsTurbine>核心需要涡轮</AlertNeedsTurbine>
+  <AlertNeedsTurbine>反应堆需要连通涡轮机</AlertNeedsTurbine>
   <!--EN: A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown-->
-  <AlertNeedsTurbineDesc>反应堆需要连接到涡轮机，否则可能会导致过热和熔化</AlertNeedsTurbineDesc>
+  <AlertNeedsTurbineDesc>反应堆需要连通到涡轮机，如果不这样做，可能会导致反应堆过热熔毁。</AlertNeedsTurbineDesc>
   <!--EN: Research Facility Missing-->
-  <Alert_ResearchFacility>研究设施失踪</Alert_ResearchFacility>
+  <Alert_ResearchFacility>缺少研究设施</Alert_ResearchFacility>
   <!--EN: an unknown force-->
-  <AnUnknownForce>未知的力量</AnUnknownForce>
+  <AnUnknownForce>一个未知势力</AnUnknownForce>
   <!--EN: Auto Scram-->
-  <AutoScram>自动急停</AutoScram>
+  <AutoScram>自动关闭</AutoScram>
   <!--EN: SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected-->
-  <AutoScramDesc>当温度达到不安全水平或检测到太阳耀斑时，对反应堆堆芯进行 SCRAM</AutoScramDesc>
+  <AutoScramDesc>当堆芯温度达到危险阈值或发生太阳耀斑时自动关闭反应堆</AutoScramDesc>
   <!--EN: Multiple cores set to {0}, each core must have a unique ID for auto-throttle to engage-->
-  <AutothrotIDCount>多个核心设置为 {0}，每个核心必须有一个唯一的 ID 才能启用自动调节</AutothrotIDCount>
+  <AutothrotIDCount>多个堆芯被重复设置为{0}，每个堆芯都必须有一个唯一对应ID才能才能启动以便开启自动调节</AutothrotIDCount>
   <!--EN: Auto-throttle disengaged for {0}-->
-  <AutothrotOff>自动油门已脱离 {0}</AutothrotOff>
+  <AutothrotOff>关闭自动调节：{0}</AutothrotOff>
   <!--EN: Auto-throttle engaged for {0}-->
-  <AutothrotOn>自动油门已启用 {0}</AutothrotOn>
+  <AutothrotOn>开启自动调节：{0}</AutothrotOn>
   <!--EN: Grid excess must be within +/- 5000w to engage-->
-  <AutothrotRange>电网过剩功率必须在 +/- 5000w 范围内才能参与</AutothrotRange>
+  <AutothrotRange>电网剩余电量必须在+/-5000w范围内才能接入</AutothrotRange>
   <!--EN: Engage Auto-throttle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage-->
-  <AutothrotTip>启用自动油门
-
-控制通量水平以匹配电网负载，该控制台所连接的电网上的电网过剩必须在 +/- 5000w 范围内才能启用</AutothrotTip>
+  <AutothrotTip>开启自动调节\n\n控制中子通量水平以匹配电网负载，此控制台所连接的电网上的剩余电量必须在+/-5000w范围内才能接入</AutothrotTip>
   <!--EN: This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module-->
-  <BlueprintUpgradeDesc>这是一个蓝图升级，新建筑将作为标准内置此升级，现有建筑将需要使用精心制作的模块进行手动升级</BlueprintUpgradeDesc>
+  <BlueprintUpgradeDesc>这是一个升级蓝图，新的建筑将以此为标准，现有的建筑仍需要手动升级模块。</BlueprintUpgradeDesc>
   <!--EN: Hot Load-->
-  <BreederHotLoading>热负载</BreederHotLoading>
+  <BreederHotLoading>热装填</BreederHotLoading>
   <!--EN: Allow fuel to be changed while the core is running-->
-  <BreederHotLoadingDesc>允许在核心运行时更换燃料</BreederHotLoadingDesc>
+  <BreederHotLoadingDesc>允许在堆芯运行时更换燃料棒</BreederHotLoadingDesc>
   <!--EN: Breeder Test-->
-  <BreederTest>饲养员测试</BreederTest>
+  <BreederTest>测试增殖反应堆</BreederTest>
   <!--EN: ::CONTROL RODS JAMMED::-->
-  <CONTROLRODJAM>::控制杆卡住了::</CONTROLRODJAM>
+  <CONTROLRODJAM>::控制棒故障::</CONTROLRODJAM>
   <!--EN: ::CORE MELT IMMINENT::-->
-  <COREMELT>::核心融化迫在眉睫::</COREMELT>
+  <COREMELT>::堆芯即将熔化::</COREMELT>
   <!--EN: ::CRACKED FUEL::-->
-  <CRACKEDFUEL>::破裂的燃料::</CRACKEDFUEL>
+  <CRACKEDFUEL>::燃料棒破裂::</CRACKEDFUEL>
   <!--EN: Abort Launch-->
-  <CancelICBMLaunch>中止发射</CancelICBMLaunch>
+  <CancelICBMLaunch>发射中止</CancelICBMLaunch>
   <!--EN: Abort Launch-->
-  <CancelICBMLaunchDesc>中止发射</CancelICBMLaunchDesc>
+  <CancelICBMLaunchDesc>发射中止</CancelICBMLaunchDesc>
   <!--EN: Requires 8 intellectual-->
-  <CantUseReactorConsole>需要8个智力</CantUseReactorConsole>
+  <CantUseReactorConsole>需要8智识</CantUseReactorConsole>
   <!--EN: Clear all designations-->
-  <Clearalldesignations>清除所有指定</Clearalldesignations>
+  <Clearalldesignations>清除所有标识</Clearalldesignations>
   <!--EN: Contains {0} / {1} Chemfuel.-->
-  <ContainsChemfuel>包含 {0} / {1} 化学燃料。</ContainsChemfuel>
+  <ContainsChemfuel>含有 {0} / {1} 化合燃料</ContainsChemfuel>
   <!--EN: Contains {0} / {1} Nuclear fuel.-->
-  <ContainsFuel>包含{0} / {1}核燃料。</ContainsFuel>
+  <ContainsFuel>含有 {0} / {1} 的燃料</ContainsFuel>
   <!--EN: Control Rods-->
   <ControlRod>控制棒</ControlRod>
   <!--EN: Cooling\n\nTotal amount of your cooling capacity that is in use. If the gauge turns red add more cooling or reduce power-->
-  <CoolingTip>冷却
-
-正在使用的冷却能力总量。如果仪表变红，请增加冷却或降低功率</CoolingTip>
+  <CoolingTip>冷却系统\n\n冷却系统的总承载量。如果仪表变红，则须要扩大冷却系统规模或降低发电功率</CoolingTip>
   <!--EN: Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle-->
-  <CoreIdMismatch>Reactor 和控制台 ID 不匹配，每个核心都需要自己的控制台，并具有用于自动节流的唯一 ID</CoreIdMismatch>
+  <CoreIdMismatch>反应堆和控制台ID不匹配，每个堆芯都需要连接一个与之唯一ID对应的反应堆控制台以开启自动调节</CoreIdMismatch>
   <!--EN: Not Built-->
   <CoreNotBuilt>未建成</CoreNotBuilt>
   <!--EN: Project: {0}-->
-  <CurProj>项目：{0}</CurProj>
+  <CurProj>项目: {0}</CurProj>
   <!--EN: Step: {0}-->
-  <CurStep>步骤：{0}</CurStep>
+  <CurStep>进度: {0}</CurStep>
   <!--EN: Install fuel into all slots-->
-  <Designateinstallall>将燃油装入所有槽中</Designateinstallall>
+  <Designateinstallall>将燃料棒插入所有插槽中</Designateinstallall>
   <!--EN: Remove all fuel-->
-  <Designateremoveall>取出所有燃料</Designateremoveall>
+  <Designateremoveall>清除所有燃料棒</Designateremoveall>
   <!--EN: Remove all processable fuel-->
-  <Designateremoveallprocessable>去除所有可加工燃料</Designateremoveallprocessable>
+  <Designateremoveallprocessable>清除所有可处理的燃料棒</Designateremoveallprocessable>
   <!--EN: Remove all spent fuel-->
-  <Designateremoveallspent>清除所有乏燃料</Designateremoveallspent>
+  <Designateremoveallspent>清除所有已燃尽的燃料棒</Designateremoveallspent>
   <!--EN: Remove Cold Water-->
-  <DesignatorRemoveColdWater>除去冷水</DesignatorRemoveColdWater>
+  <DesignatorRemoveColdWater>拆除冷水导管</DesignatorRemoveColdWater>
   <!--EN: Remove Cold water pipes-->
-  <DesignatorRemoveColdWaterDesc>拆除冷水管</DesignatorRemoveColdWaterDesc>
+  <DesignatorRemoveColdWaterDesc>拆除冷水导管。</DesignatorRemoveColdWaterDesc>
   <!--EN: Remove Cooling-->
-  <DesignatorRemoveCooling>移除冷却</DesignatorRemoveCooling>
+  <DesignatorRemoveCooling>拆除冷却剂导管</DesignatorRemoveCooling>
   <!--EN: Remove Cooling pipes-->
-  <DesignatorRemoveCoolingDesc>拆下冷却管</DesignatorRemoveCoolingDesc>
+  <DesignatorRemoveCoolingDesc>拆除冷却剂导管。</DesignatorRemoveCoolingDesc>
   <!--EN: Remove High Voltage-->
-  <DesignatorRemoveHighVoltage>消除高电压</DesignatorRemoveHighVoltage>
+  <DesignatorRemoveHighVoltage>拆除高压电缆</DesignatorRemoveHighVoltage>
   <!--EN: Remove High Voltage lines-->
-  <DesignatorRemoveHighVoltageDesc>拆除高压线</DesignatorRemoveHighVoltageDesc>
+  <DesignatorRemoveHighVoltageDesc>拆除高压电缆。</DesignatorRemoveHighVoltageDesc>
   <!--EN: Remove Loom-->
-  <DesignatorRemoveLoom>移除织机</DesignatorRemoveLoom>
+  <DesignatorRemoveLoom>拆除数据电缆</DesignatorRemoveLoom>
   <!--EN: Remove Wiring Loom-->
-  <DesignatorRemoveLoomDesc>拆除接线器</DesignatorRemoveLoomDesc>
+  <DesignatorRemoveLoomDesc>拆除数据电缆。</DesignatorRemoveLoomDesc>
   <!--EN: Deconstruct Pipes-->
-  <DesignatorRemoveRimatomicsPipes>解构管道</DesignatorRemoveRimatomicsPipes>
+  <DesignatorRemoveRimatomicsPipes>拆除管道</DesignatorRemoveRimatomicsPipes>
   <!--EN: Designate pipes for deconstruction-->
-  <DesignatorRemoveRimatomicsPipesDesc>指定解构管道</DesignatorRemoveRimatomicsPipesDesc>
+  <DesignatorRemoveRimatomicsPipesDesc>拆除管道</DesignatorRemoveRimatomicsPipesDesc>
   <!--EN: Remove Steam-->
-  <DesignatorRemoveSteam>去除蒸汽</DesignatorRemoveSteam>
+  <DesignatorRemoveSteam>拆除蒸汽导管</DesignatorRemoveSteam>
   <!--EN: Remove Steam pipes-->
-  <DesignatorRemoveSteamDesc>拆除蒸汽管</DesignatorRemoveSteamDesc>
+  <DesignatorRemoveSteamDesc>拆除蒸汽导管</DesignatorRemoveSteamDesc>
   <!--EN: Detonating...-->
-  <Detonating>引爆...</Detonating>
+  <Detonating>起爆...</Detonating>
   <!--EN: Drag to increase flux level to produce more power-->
-  <Dragtoincreasefluxlevel>拖动以增加通量水平以产生更多功率</Dragtoincreasefluxlevel>
+  <Dragtoincreasefluxlevel>拖动以增加中子通量来提高发电量</Dragtoincreasefluxlevel>
   <!--EN: ::EVACUATE::-->
-  <EVACUATE>：：撤离：：</EVACUATE>
+  <EVACUATE>::疏散::</EVACUATE>
   <!--EN: Weapons console connection required-->
-  <EnergyWeaponNeedConsole>需要武器控制台连接</EnergyWeaponNeedConsole>
+  <EnergyWeaponNeedConsole>需要连接能量武器控制台</EnergyWeaponNeedConsole>
   <!--EN: Requires a manned weapons console-->
-  <EnergyWeaponNeedsMannedConsole>需要有人武器控制台</EnergyWeaponNeedsMannedConsole>
+  <EnergyWeaponNeedsMannedConsole>需要有人操作能量武器控制台</EnergyWeaponNeedsMannedConsole>
   <!--EN: No Power-->
-  <FacilityNoPower>没有电源</FacilityNoPower>
+  <FacilityNoPower>未接通电源</FacilityNoPower>
   <!--EN: A solar flare has triggered a reactor SCRAM-->
-  <FlareSCRAMletterText>太阳耀斑触发了反应堆 SCRAM</FlareSCRAMletterText>
+  <FlareSCRAMletterText>发生太阳耀斑，反应堆自动关闭</FlareSCRAMletterText>
   <!--EN: Flare SCRAM-->
-  <FlareScram>火炬紧急储存</FlareScram>
+  <FlareScram>耀斑急停</FlareScram>
   <!--EN: SCRAM the reactor during solar flares-->
-  <FlareScramDesc>太阳耀斑期间的反应堆 SCRAM</FlareScramDesc>
+  <FlareScramDesc>在太阳耀斑期间紧急关闭反应堆</FlareScramDesc>
   <!--EN: {0} Fuel Life-->
-  <FuelLifeRange>{0} 燃油寿命</FuelLifeRange>
+  <FuelLifeRange>燃料使用期限：{0}</FuelLifeRange>
   <!--EN: Fuel\n\nThe total amount of fuel in the core. Fuel chain reacts with fuel in adjacent slots which produces more power\nFuel will produce less power over time until it is spent-->
-  <FuelTip>燃料
-
-堆芯中的燃料总量。燃料 锁链 与相邻槽中的燃料发生反应，产生更多能量
-随着时间的推移，燃料将产生更少的能量，直至耗尽</FuelTip>
+  <FuelTip>燃料\n\n反应堆堆芯中的燃料总量。相邻燃料棒之间发生链式反应，产生更多的能量\n随着时间的推移，燃料产生的能量会减少，直到燃料耗尽</FuelTip>
   <!--EN: High Yield-->
-  <HighYieldWarhead>高产</HighYieldWarhead>
+  <HighYieldWarhead>高当量</HighYieldWarhead>
   <!--EN: Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker-->
-  <HighYieldWarheadDesc>从这个发射井发射的弹头将产生巨大的爆炸，摧毁地图上山地掩体之外的任何东西</HighYieldWarheadDesc>
+  <HighYieldWarheadDesc>从这个发射井发射的导弹将产生一次巨大的爆炸，摧毁地图上任何不在山间掩体内的东西</HighYieldWarheadDesc>
   <!--EN: Already Launching-->
-  <ICBMAlreadyLaunching>已经启动</ICBMAlreadyLaunching>
+  <ICBMAlreadyLaunching>已发射</ICBMAlreadyLaunching>
   <!--EN: strategic missile launch aborted-->
-  <ICBMLaunchCancelled>战略导弹发射失败</ICBMLaunchCancelled>
+  <ICBMLaunchCancelled>洲际弹道导弹发射中止</ICBMLaunchCancelled>
   <!--EN: Requires a manned SACS weapon console-->
-  <ICBMNeedConsole>需要有人驾驶 SACS 武器控制台</ICBMNeedConsole>
+  <ICBMNeedConsole>需要有人操作能量武器控制台</ICBMNeedConsole>
   <!--EN: A missile is required for launch-->
-  <ICBMNeedMissile>发射时需要导弹</ICBMNeedMissile>
+  <ICBMNeedMissile>需要装载导弹才能发射</ICBMNeedMissile>
   <!--EN: strategic missile ready-->
-  <ICBMReady>战略导弹准备就绪</ICBMReady>
+  <ICBMReady>洲际弹道导弹已准备就绪</ICBMReady>
   <!--EN: Install all-->
-  <InstallAll>安装全部</InstallAll>
+  <InstallAll>全部安装</InstallAll>
   <!--EN: Kills: {0}-->
-  <KillCounter>击杀数：{0}</KillCounter>
+  <KillCounter>击杀数: {0}</KillCounter>
   <!--EN: Strategic Launch-->
-  <LongRangeStratLaunch>战略发布</LongRangeStratLaunch>
+  <LongRangeStratLaunch>战略发射</LongRangeStratLaunch>
   <!--EN: Launch the missile at a target on this Rimworld-->
-  <LongRangeStratLaunchDesc>向环世界的目标发射导弹</LongRangeStratLaunchDesc>
+  <LongRangeStratLaunchDesc>在大地图上发射一枚导弹</LongRangeStratLaunchDesc>
   <!--EN: Low Yield-->
-  <LowYieldWarhead>低产量</LowYieldWarhead>
+  <LowYieldWarhead>低当量</LowYieldWarhead>
   <!--EN: Missiles launched from this silo are set to create a small tactical explosion-->
-  <LowYieldWarheadDesc>从这个发射井发射的导弹将造成小型战术爆炸</LowYieldWarheadDesc>
+  <LowYieldWarheadDesc>从这个发射井发射的导弹将产生一次小范围的爆炸</LowYieldWarheadDesc>
   <!--EN: Lower Power Limit-->
-  <LowerPowerLimit>功率下限</LowerPowerLimit>
+  <LowerPowerLimit>降低输出功率上限</LowerPowerLimit>
   <!--EN: MOX-->
   <MOX>混合氧化物</MOX>
   <!--EN: Manage-->
-  <Managefuel>管理</Managefuel>
+  <Managefuel>管控</Managefuel>
   <!--EN: Manned reactor console-->
-  <Mannedreactorconsole>载人反应堆控制台</Mannedreactorconsole>
+  <Mannedreactorconsole>反应堆控制台须有人操控</Mannedreactorconsole>
   <!--EN: Reactor consoles must me manned by a pawn for the control window to open, else it can be opened from a button-->
-  <MannedreactorconsoleDesc>Reactor 控制台必须由 pawn 操作才能打开控制窗口，否则可以通过按钮打开它</MannedreactorconsoleDesc>
+  <MannedreactorconsoleDesc>反应堆控制台必须有人操控才能打开控制窗口，取消勾选后你可以在无人操作时直接控制窗口</MannedreactorconsoleDesc>
   <!--EN: Cannot target your own map.-->
-  <MessageRailgunCantTargetMyMap>无法定位您自己的地图。</MessageRailgunCantTargetMyMap>
+  <MessageRailgunCantTargetMyMap>不能瞄准你自己的基地。</MessageRailgunCantTargetMyMap>
   <!--EN: Map not generated, send colonists to scout-->
-  <MessageRailgunNeedsMap>地图未生成，派遣殖民者侦察</MessageRailgunNeedsMap>
+  <MessageRailgunNeedsMap>没有地图数据，需要派出殖民者侦察</MessageRailgunNeedsMap>
   <!--EN: Target is not valid-->
   <MessageRailgunTargetInvalid>目标无效</MessageRailgunTargetInvalid>
   <!--EN: Target not within range-->
-  <MissileRangeBad>目标不在范围内</MissileRangeBad>
+  <MissileRangeBad>目标不在射程范围内</MissileRangeBad>
   <!--EN: Missile target is not valid-->
   <MissileTargetInvalid>导弹目标无效</MissileTargetInvalid>
   <!--EN: When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.-->
-  <MissingPESUpgrades>当 Preemtive Strike 模组运行时，其天空物体检测研究项目必须先完成，然后 ATOM 才能检测到传入的空投舱。然而，扰频器仍将正常运行。</MissingPESUpgrades>
+  <MissingPESUpgrades>当使用“先发制人”Mod时，其防空研究相关项目须先于「边缘核能」的防空相关研究项目之前完成。干扰功能仍正常运行。</MissingPESUpgrades>
   <!--EN: Missing Pulsed Power Container-->
-  <MissingPPC>缺少脉冲能量容器</MissingPPC>
+  <MissingPPC>缺少脉冲电池</MissingPPC>
   <!--EN: ::NO COOLING::-->
-  <NOCOOLING>::无冷却::</NOCOOLING>
+  <NOCOOLING>::没有冷却系统::</NOCOOLING>
   <!--EN: Needs to be placed next to a river, lake or ocean-->
-  <NeedsRiver>需要放置在河流、湖泊或海洋旁边</NeedsRiver>
+  <NeedsRiver>需要邻近河流、湖泊或者海洋建造。</NeedsRiver>
   <!--EN: Next Part: {0}, {1} Needed-->
-  <NextPart>下一部分：需要 {0}、{1}</NextPart>
+  <NextPart>下一步: {0},需要{1}</NextPart>
   <!--EN: Next Step:-->
   <NextResearchStep>下一步：</NextResearchStep>
   <!--EN: No active bench with required project-->
-  <NoActiveBenchWithProject>没有所需项目的活动工作台</NoActiveBenchWithProject>
+  <NoActiveBenchWithProject>没有需要连接的工作台</NoActiveBenchWithProject>
   <!--EN: No Rimatomics research bench available-->
-  <NoBenchAvailable>没有可用的 Rimatomics 研究台</NoBenchAvailable>
+  <NoBenchAvailable>没有可用的「边缘核能」研究台</NoBenchAvailable>
   <!--EN: No chemfuel-->
-  <NoChemfuel>非化学燃料</NoChemfuel>
+  <NoChemfuel>没有化合燃料</NoChemfuel>
   <!--EN: No sabot rounds to extract-->
-  <NoSabotToExtract>无需提取弹托弹</NoSabotToExtract>
+  <NoSabotToExtract>没有磁轨炮弹可用</NoSabotToExtract>
   <!--EN: No adjacent standable cell-->
-  <NoStandableCell>没有相邻的独立电池</NoStandableCell>
+  <NoStandableCell>周围没有可站立的工作点</NoStandableCell>
   <!--EN: ::OVERHEATING:: {0}-->
   <OVERHEATING>::过热:: {0}</OVERHEATING>
   <!--EN: Open target tracking display-->
-  <OpenRadar>打开目标跟踪显示</OpenRadar>
+  <OpenRadar>打开目标追踪界面</OpenRadar>
   <!--EN: The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse-->
-  <PodsScrambledDesc>TACS 使用 {0}kw 脉冲扰乱敌方空投舱制导系统</PodsScrambledDesc>
+  <PodsScrambledDesc>敌军空投舱的制导系统被警戒雷达用{0}kw脉冲所干扰。</PodsScrambledDesc>
   <!--EN: Failed to scramble enemy drop pods-->
-  <PodsScrambledFail>未能扰乱敌人的空投舱</PodsScrambledFail>
+  <PodsScrambledFail>干扰敌军空投舱失败</PodsScrambledFail>
   <!--EN: The {0}kw pulse required to scramble this raid was not available-->
-  <PodsScrambledFailDesc>扰乱本次袭击所需的 {0}kw 脉冲不可用</PodsScrambledFailDesc>
+  <PodsScrambledFailDesc>干扰此次敌袭所需的{0}kw脉冲不可用。</PodsScrambledFailDesc>
   <!--EN: Enemy drop pods scrambled by TACS-->
-  <PodsScrambledOK>敌方空投舱被 TACS 扰乱</PodsScrambledOK>
+  <PodsScrambledOK>敌军空投舱被警戒雷达干扰</PodsScrambledOK>
   <!--EN: Loading-->
-  <PoolLoading>加载中</PoolLoading>
+  <PoolLoading>装入</PoolLoading>
   <!--EN: Unloading-->
-  <PoolUnloading>卸货</PoolUnloading>
+  <PoolUnloading>取出</PoolUnloading>
   <!--EN: Change the power limit for this transformer, used for changing power distribution over multiple power nets\n\nHold Shift for finer control-->
-  <PowerLimitDesc>更改此变压器的功率限制，用于更改多个电网的功率分配
-
-按住 Shift 进行更精细的控制</PowerLimitDesc>
+  <PowerLimitDesc>更改此变压器的输出功率上限，用于控制电力在不同电网的输出量\n\n按住Shift以微调。</PowerLimitDesc>
   <!--EN: Power\n\nTotal amount of power being produced by the reactor, does not count how much is actually being generated by turbines and transformers-->
-  <PowerTip>功率
-
-反应堆产生的总功率，不计算涡轮机和变压器实际产生的功率</PowerTip>
+  <PowerTip>发电量\n\n反应堆产生的总发电量，不是经由涡轮机和变压器后实际输出到电网的电量</PowerTip>
   <!--EN: Progress: {0} {1}-->
-  <ProcessingProgress>进度：{0} {1}</ProcessingProgress>
+  <ProcessingProgress>进度: {0} / {1}</ProcessingProgress>
   <!--EN: Project initiated-->
-  <ProjectInitiated>项目启动</ProjectInitiated>
+  <ProjectInitiated>项目已启动</ProjectInitiated>
   <!--EN: Project terminated-->
-  <ProjectTerminated>项目终止</ProjectTerminated>
+  <ProjectTerminated>项目已终止</ProjectTerminated>
   <!--EN: Pu: {0}-->
-  <PuCreated>浦：{0}</PuCreated>
+  <PuCreated>钚: {0}</PuCreated>
   <!--EN: Pulse: {0} Wd / Damage: {1}-->
-  <PulseSize>脉冲：{0} Wd / 伤害：{1}</PulseSize>
+  <PulseSize>脉冲: {0}Wd / 伤害 :{1}</PulseSize>
   <!--EN: ::RADIATION LEAK::-->
   <RADIATIONLEAK>::辐射泄漏::</RADIATIONLEAK>
   <!--EN: ::RADIATION IN SYSTEM::-->
-  <RADIATIONLEAKSYSTEM>::系统中的辐射::</RADIATIONLEAKSYSTEM>
+  <RADIATIONLEAKSYSTEM>::系统辐射::</RADIATIONLEAKSYSTEM>
   <!--EN: Radiation\n\nThe core will emit radiation if it becomes damaged, the amount of radiation increases with the amount of damage-->
-  <RadiationTip>辐射
-
-核心受到损坏会发出辐射，辐射量随着损坏程度的增加而增加</RadiationTip>
+  <RadiationTip>辐射\n\n如果反应堆堆芯受损，会有核辐射泄露，辐射量会随着损坏程度的增加而增加</RadiationTip>
   <!--EN: Raise Power Limit-->
-  <RaisePowerLimit>提高功率限制</RaisePowerLimit>
+  <RaisePowerLimit>提高输出功率上限</RaisePowerLimit>
   <!--EN: Reactor Alert!-->
   <ReactorAlert>反应堆警报！</ReactorAlert>
   <!--EN: Reactor Alerts:-->
-  <ReactorAlerts>反应堆警报：</ReactorAlerts>
+  <ReactorAlerts>反应堆警报:</ReactorAlerts>
   <!--EN: ID: {0}\nStatus: {1}\nMax power: {2}W\nConversion ratio: {3}\n\n{4}-->
-  <ReactorBreakdown>ID：{0}
-状态：{1}
-最大功率：{2}W
-转换比率：{3}
-
-{4}</ReactorBreakdown>
+  <ReactorBreakdown>ID: {0}\n状态: {1}\n最大电流: {2}W\n转换率: {3}\n\n{4}</ReactorBreakdown>
   <!--EN: Uptime: {0}-->
-  <ReactorUptime>正常运行时间：{0}</ReactorUptime>
+  <ReactorUptime>运行时间: {0}</ReactorUptime>
   <!--EN: Requires:-->
-  <RequiresFac>要求：</RequiresFac>
+  <RequiresFac>需要:</RequiresFac>
   <!--EN: {0} required for current step-->
-  <RequiresFacility>当前步骤需要 {0}</RequiresFacility>
+  <RequiresFacility>当前步骤需要{0}</RequiresFacility>
   <!--EN: Research Complete-->
   <ResearchComplete>研究完成</ResearchComplete>
   <!--EN: Requires {0} Silver near a trade beacon-->
-  <ResearchPriceNeed>需要贸易信标附近的 {0} 白银</ResearchPriceNeed>
+  <ResearchPriceNeed>需要在轨道贸易信标附近放置{0}白银</ResearchPriceNeed>
   <!--EN: {0}/{1}-->
   <ResearchProg>{0}/{1}</ResearchProg>
   <!--EN: Research Purchased!-->
-  <ResearchPurchased>研究已购买！</ResearchPurchased>
+  <ResearchPurchased>研究项目已购买！</ResearchPurchased>
   <!--EN: Probe detected.-->
-  <RimUnlocked>检测到探针。</RimUnlocked>
+  <RimUnlocked>检测到探测器。</RimUnlocked>
   <!--EN: Activated-->
-  <RimatomActivated>活性</RimatomActivated>
+  <RimatomActivated>激活</RimatomActivated>
   <!--EN: Active-->
-  <RimatomActive>积极的</RimatomActive>
+  <RimatomActive>激活</RimatomActive>
   <!--EN: Cracked-->
   <RimatomCracked>破裂</RimatomCracked>
   <!--EN: Empty-->
-  <RimatomEmpty>空的</RimatomEmpty>
+  <RimatomEmpty>清空</RimatomEmpty>
   <!--EN: Free-->
-  <RimatomFree>自由的</RimatomFree>
+  <RimatomFree>免费</RimatomFree>
   <!--EN: Life-->
-  <RimatomLife>生活</RimatomLife>
+  <RimatomLife>使用期限</RimatomLife>
   <!--EN: New-->
   <RimatomNew>新的</RimatomNew>
   <!--EN: Price-->
@@ -305,275 +287,257 @@
   <!--EN: Purchase-->
   <RimatomPurchase>购买</RimatomPurchase>
   <!--EN: Remove-->
-  <RimatomRemove>消除</RimatomRemove>
+  <RimatomRemove>清除</RimatomRemove>
   <!--EN: Spent-->
-  <RimatomSpent>花费</RimatomSpent>
+  <RimatomSpent>废弃</RimatomSpent>
   <!--EN: Step Completed-->
-  <RimatomStepComplete>步骤已完成</RimatomStepComplete>
+  <RimatomStepComplete>阶段目标达成</RimatomStepComplete>
   <!--EN: Store-->
-  <RimatomStore>店铺</RimatomStore>
+  <RimatomStore>贮存</RimatomStore>
   <!--EN: Unlocks-->
-  <RimatomUnlocks>解锁</RimatomUnlocks>
+  <RimatomUnlocks>解锁研究</RimatomUnlocks>
   <!--EN: Project: {0}\nStep: {1}\nTask: {2}-->
-  <RimatomicResearchAlertMess>项目：{0}
-步骤：{1}
-任务：{2}</RimatomicResearchAlertMess>
+  <RimatomicResearchAlertMess>研究项目: {0}\n进度: {1}\n任务: {2}</RimatomicResearchAlertMess>
   <!--EN: {0} - complete\n\n{1}-->
-  <RimatomicResearchCompleteDialog>{0} - 完成
-
-{1}</RimatomicResearchCompleteDialog>
+  <RimatomicResearchCompleteDialog>{0} - 完成\n\n{1}</RimatomicResearchCompleteDialog>
   <!--EN: Low Reactor Cooling-->
-  <Rimatomics.LowCoolingCapacity>低反应堆冷却</Rimatomics.LowCoolingCapacity>
+  <Rimatomics.LowCoolingCapacity>低效的反应堆冷却装置</Rimatomics.LowCoolingCapacity>
   <!--EN: A reactor cooling building is running at low capacity\n\nTowers need to be unroofed, water coolers need enough surface water, if you are using bad hygiene link mode make sure cooling towers are filled with water-->
-  <Rimatomics.LowCoolingCapacityDesc>反应堆冷却建筑正在低容量运行
-
-塔需要拆掉屋顶，水冷却器需要足够的地表水，如果您使用的是不良卫生链接模式，请确保冷却塔充满水</Rimatomics.LowCoolingCapacityDesc>
+  <Rimatomics.LowCoolingCapacityDesc>反应堆冷却装置正低效运行\n\n干式冷却塔不能在屋顶下，水冷装置需要临近大范围水域，如果你还启用了卫生与温控Mod，请确保冷却塔注满水</Rimatomics.LowCoolingCapacityDesc>
   <!--EN: Missing Facility-->
   <Rimatomics.MissingFacility>缺少设施</Rimatomics.MissingFacility>
   <!--EN: Rimatomics Research-->
-  <RimatomicsResearchAlert>Rimatomics研究</RimatomicsResearchAlert>
+  <RimatomicsResearchAlert>「边缘核能」研究项目</RimatomicsResearchAlert>
   <!--EN: Toggle Valve-->
-  <RimatomicsValveLabel>切换阀</RimatomicsValveLabel>
+  <RimatomicsValveLabel>切换阀门</RimatomicsValveLabel>
   <!--EN: Toggle the valve open or closed-->
   <RimatomicsValveLabelDesc>打开或关闭阀门</RimatomicsValveLabelDesc>
   <!--EN: Tower blocked by roof-->
-  <RoofedTower>塔楼被屋顶挡住</RoofedTower>
+  <RoofedTower>炮台被屋顶挡住了</RoofedTower>
   <!--EN: Unsafe core temperature has triggered a reactor SCRAM-->
-  <SCRAMletterText>不安全的核心温度触发了反应堆 SCRAM</SCRAMletterText>
+  <SCRAMletterText>堆心温度超过警戒线，反应堆自动关闭</SCRAMletterText>
   <!--EN: SCAD HP: {0}-->
-  <ScadLivesMatter>SCAD HP：{0}</ScadLivesMatter>
+  <ScadLivesMatter>电磁防护系统耐久度: {0}</ScadLivesMatter>
   <!--EN: Scramble Drop Pods-->
-  <ScrambleDropPods>争夺空投舱</ScrambleDropPods>
+  <ScrambleDropPods>干扰空投舱</ScrambleDropPods>
   <!--EN: Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods-->
-  <ScrambleDropPodsDesc>使用连接的 PPC 发出的大能量脉冲扰乱即将到来的空投舱的制导系统，防止袭击者降落在地图中心</ScrambleDropPodsDesc>
+  <ScrambleDropPodsDesc>通过脉冲电池供能生成大量高能脉冲来干扰来袭空投舱的制导系统，使其无法精准空投到地图中央。</ScrambleDropPodsDesc>
   <!--EN: Set Camo-->
-  <SetCamoMode>设置迷彩</SetCamoMode>
+  <SetCamoMode>设置保护色涂层</SetCamoMode>
   <!--EN: Tactical Launch-->
   <ShortRangeStratLaunch>战术发射</ShortRangeStratLaunch>
   <!--EN: Launch a strategic missile on this map-->
-  <ShortRangeStratLaunchDesc>在此地图上发射战略导弹</ShortRangeStratLaunchDesc>
+  <ShortRangeStratLaunchDesc>在此地图上发射一枚导弹</ShortRangeStratLaunchDesc>
   <!--EN: Show research button-->
-  <Showresearchbutton>显示研究按钮</Showresearchbutton>
+  <Showresearchbutton>显示「边缘核能」标签</Showresearchbutton>
   <!--EN: Adds a Rimatomics research button to the main tabs, else it can be opened from a tab on each research bench-->
-  <ShowresearchbuttonDesc>在主选项卡中添加 Rimatomics 研究按钮，否则可以从每个研究台上的选项卡打开它</ShowresearchbuttonDesc>
+  <ShowresearchbuttonDesc>在主界面下方开启「边缘核能」标签，可以快捷打开「边缘核能」研究界面，取消勾选后你只能在「边缘核能」研究台上打开研究界面。</ShowresearchbuttonDesc>
   <!--EN: Shutdown and Cold-->
-  <ShutdownCold>关机和冷</ShutdownCold>
+  <ShutdownCold>关闭并冷却</ShutdownCold>
   <!--EN: Shutting down-->
-  <ShuttingDown>正在关闭</ShuttingDown>
+  <ShuttingDown>关闭</ShuttingDown>
   <!--EN: Silo Full-->
-  <SiloFull>筒仓已满</SiloFull>
+  <SiloFull>发射井已装载</SiloFull>
   <!--EN: Missiles: {0}/{1}-->
-  <SiloMagazine>导弹：{0}/{1}</SiloMagazine>
+  <SiloMagazine>导弹: {0}/{1}</SiloMagazine>
   <!--EN: Requires part: {0}-->
-  <SiloMissingPart>需要部分：{0}</SiloMissingPart>
+  <SiloMissingPart>需要组件: {0}</SiloMissingPart>
   <!--EN: Estimated Life: {0}\nMax Power: {1}W\nCurrent Power: {2}W\nFuel Life: {3}\nPu Yield: {4}-->
-  <SlotBreakdown>预计寿命：{0}
-最大功率：{1}W
-当前功率：{2}W
-燃料寿命：{3}
-Pu产量：{4}</SlotBreakdown>
+  <SlotBreakdown>衰变预期: {0}\n最大功率: {1}W\n当前功率: {2}W\n使用: {3}\n比率: {4}\n现在可以处理: {5}</SlotBreakdown>
   <!--EN: Start Project-->
   <StartProject>启动项目</StartProject>
   <!--EN: Starting up-->
-  <StartingUp>正在启动</StartingUp>
+  <StartingUp>启动</StartingUp>
   <!--EN: Step: {0}-->
-  <StepInspect>步骤：{0}</StepInspect>
+  <StepInspect>进展: {0}</StepInspect>
   <!--EN: Still testing prototype-->
   <StillTestingDef>仍在测试原型</StillTestingDef>
   <!--EN: Stop Project-->
-  <StopProject>停止项目</StopProject>
+  <StopProject>终止项目</StopProject>
   <!--EN: Research-->
   <TabResearch>研究</TabResearch>
   <!--EN: Target All Shells-->
-  <TargetAllShells>瞄准所有炮弹</TargetAllShells>
+  <TargetAllShells>拦截所有炮弹</TargetAllShells>
   <!--EN: Target Enemy Shells-->
-  <TargetEnemyShells>瞄准敌人炮弹</TargetEnemyShells>
+  <TargetEnemyShells>拦截敌军炮弹</TargetEnemyShells>
   <!--EN: Temperature\n\nHigh temperature can cause damage to the core, and crack the fuel. If the cores HP reaches 0 while it is at or above its normal operating temperature it will explode-->
-  <TemperatureTip>温度
-
-高温可能会导致堆芯损坏，并使燃料破裂。如果核心 HP 在达到或高于正常工作温度时达到 0，则会爆炸</TemperatureTip>
+  <TemperatureTip>温度\n\n高温会损坏反应堆堆芯，并使燃料棒破裂。如果堆芯处于正常工作温度或高于正常工作温度时耐久度达归零，则会引发爆炸</TemperatureTip>
   <!--EN: Shoot down our own mortar shells for data gathering.-->
-  <TestFireHELSOnOwnShells>击落我们自己的迫击炮 炮弹 以收集数据。</TestFireHELSOnOwnShells>
+  <TestFireHELSOnOwnShells>击落我方的炮弹以收集数据。</TestFireHELSOnOwnShells>
   <!--EN: Threat Detection-->
-  <ThreatDetection>威胁检测</ThreatDetection>
+  <ThreatDetection>威胁侦测</ThreatDetection>
   <!--EN: Threat Detection-->
-  <ThreatDetectionToggle>威胁检测</ThreatDetectionToggle>
+  <ThreatDetectionToggle>威胁侦测</ThreatDetectionToggle>
   <!--EN: Toggle threat detection mode-->
-  <ThreatDetectionToggleDesc>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</ThreatDetectionToggleDesc>
+  <ThreatDetectionToggleDesc>切换威胁侦测模式</ThreatDetectionToggleDesc>
   <!--EN: Trade Ship Arrival: {0}-->
-  <TradeShipArrival>贸易船抵达：{0}</TradeShipArrival>
+  <TradeShipArrival>贸易飞船到达: {0}</TradeShipArrival>
   <!--EN: Trade Ship Cooldown: {0}-->
-  <TradeShipCooldown>贸易船冷却时间：{0}</TradeShipCooldown>
+  <TradeShipCooldown>贸易飞船冷却时间: {0}</TradeShipCooldown>
   <!--EN: Send trade ship ({0} silver)-->
-  <TradeShipPrice>发送贸易船（{0}银）</TradeShipPrice>
+  <TradeShipPrice>呼叫贸易飞船（花费{0}白银）</TradeShipPrice>
   <!--EN: Need {0} silver to send trade ship-->
-  <TradeShipPriceNeed>需要 {0} 白银来发送贸易船</TradeShipPriceNeed>
+  <TradeShipPriceNeed>需要{0}白银支付呼叫贸易飞船的费用</TradeShipPriceNeed>
   <!--EN: A Rimatomics trade ship has been dispatched to your planet.\n\nIt will take 2 days to arrive.-->
-  <TradeShipReq>一艘 Rimatomics 贸易船已被派往您的星球。
-
-需要 2 天才能到达。</TradeShipReq>
+  <TradeShipReq>一艘「边缘核能」的贸易飞船已经被派往你所在的星球。\n\n它将需要花费两天时间到达。</TradeShipReq>
   <!--EN: Rimatomics trade ship ready in {0}-->
-  <TradeShipWait>Rimatomics 贸易船已在 {0} 准备就绪</TradeShipWait>
+  <TradeShipWait>边缘核能贸易船已在{0}处准备完毕</TradeShipWait>
   <!--EN: Power Limit: {0}kW-->
-  <TrannyLimit>功率限制：{0}kW</TrannyLimit>
+  <TrannyLimit>输出功率上限: {0}kW</TrannyLimit>
   <!--EN: Turbine Power: {0}kW-->
-  <TurbinePower>涡轮功率：{0}kW</TurbinePower>
+  <TurbinePower>涡轮机功率: {0}kW</TurbinePower>
   <!--EN: RPM: {0} ({1})-->
-  <TurbineRPM>转速：{0} ({1})</TurbineRPM>
+  <TurbineRPM>转速: {0} ({1})</TurbineRPM>
   <!--EN: Turbine\n\nTotal amount of your turbine capacity that is in use. If the gauge turns red add more turbines or reduce power\n\nTurbines also require enough transformers to distribute the power to standard power nets-->
-  <TurbineTip>涡轮机
-
-正在使用的涡轮机容量总量。如果仪表变成红色，请添加更多涡轮机或减少功率
-
-涡轮机还需要足够的变压器将电力分配到标准电网</TurbineTip>
+  <TurbineTip>涡轮机\n\n所有涡轮机的总承载量。如果仪表变红，则须要增加涡轮机或降低发电功率\n\n涡轮机还需要匹配足够的变压器以将涡轮机输出的高压电转换并接入电网</TurbineTip>
   <!--EN: Unsafe Facility-->
   <UnsafeFacility>不安全设施</UnsafeFacility>
   <!--EN: Used-->
-  <Used>用过的</Used>
+  <Used>已使用过</Used>
   <!--EN: Bonus: Cooldown -{0}%-->
-  <VeteranBonus>奖励：冷却时间 -{0}%</VeteranBonus>
+  <VeteranBonus>修正: 冷却时间 -{0}%</VeteranBonus>
   <!--EN: Weapon rank icons-->
-  <Weaponrankicons>武器等级图标</Weaponrankicons>
+  <Weaponrankicons>能量武器等级图标</Weaponrankicons>
   <!--EN: Shows small rank icons on veteran energy weapons when zoomed in-->
-  <WeaponrankiconsDesc>放大时显示退伍军人能量武器上的小等级图标</WeaponrankiconsDesc>
+  <WeaponrankiconsDesc>镜头放大时显示能量武器上的击杀等级图标</WeaponrankiconsDesc>
   <!--EN: Can't upgrade while core is active-->
-  <coreUpgradeFail>核心处于活动状态时无法升级</coreUpgradeFail>
+  <coreUpgradeFail>堆芯运行时不能升级</coreUpgradeFail>
   <!--EN: \nCRACKED! Remove Now-->
-  <crackedRemoveNow>破解！立即删除</crackedRemoveNow>
+  <crackedRemoveNow>\n已破裂！立即撤离</crackedRemoveNow>
   <!--EN: Core is still active-->
-  <critActiveCore>核心仍然活跃</critActiveCore>
+  <critActiveCore>堆芯仍在运行</critActiveCore>
   <!--EN: Any fuel-->
-  <critAnyfuel>任何燃料</critAnyfuel>
+  <critAnyfuel>允许所有燃料</critAnyfuel>
   <!--EN: Arm-->
-  <critArm>手臂</critArm>
+  <critArm>引爆</critArm>
   <!--EN: The bomb has detonated-->
-  <critBombDet>炸弹已经爆炸了</critBombDet>
+  <critBombDet>核弹已爆炸</critBombDet>
   <!--EN: The bomb detonated and the {0} has been destroyed-->
-  <critBombDetFac>炸弹爆炸，{0} 已被摧毁</critBombDetFac>
+  <critBombDetFac>核弹爆炸，{0}已被摧毁</critBombDetFac>
   <!--EN: Close Valve-->
   <critCloseValve>关闭阀门</critCloseValve>
   <!--EN: Fire Mission-->
-  <critCommandFireMission>消防任务</critCommandFireMission>
+  <critCommandFireMission>开火指令</critCommandFireMission>
   <!--EN: Long range artillery shot-->
-  <critCommandFireMissionDesc>远程火炮射击</critCommandFireMissionDesc>
+  <critCommandFireMissionDesc>远程火力打击</critCommandFireMissionDesc>
   <!--EN: Consumed: {0} W-->
-  <critConsumed>消耗：{0} W</critConsumed>
+  <critConsumed>已消耗电量: {0} W</critConsumed>
   <!--EN: Control Rods-->
   <critControlRod>控制棒</critControlRod>
   <!--EN: Cooling-->
-  <critCooling>冷却</critCooling>
+  <critCooling>冷却系统承载量</critCooling>
   <!--EN: Cooling capacity share: {0} with {1} Turbines-->
-  <critCoolingCapShare>冷却能力份额：{0} 与 {1} 涡轮机</critCoolingCapShare>
+  <critCoolingCapShare>冷却系统所能维持的限度: {0} / 涡轮机已使用: {1}</critCoolingCapShare>
   <!--EN: Cooling: {0}-->
-  <critCoreCooling>冷却：{0}</critCoreCooling>
+  <critCoreCooling>冷却: {0}</critCoreCooling>
   <!--EN: Energy: {0}kW-->
-  <critCoreEnergy>能量：{0}kW</critCoreEnergy>
+  <critCoreEnergy>能量: {0}kW</critCoreEnergy>
   <!--EN: Neutron Flux: {0}-->
-  <critCoreFlux>中子通量：{0}</critCoreFlux>
+  <critCoreFlux>中子通量: {0}</critCoreFlux>
   <!--EN: The integrity of this core is so low that it may crack.-->
-  <critCoreIntegrityDesc>该核心的完整性如此之低，以至于可能会破裂。</critCoreIntegrityDesc>
+  <critCoreIntegrityDesc>这个堆芯损坏严重，可能会破裂。</critCoreIntegrityDesc>
   <!--EN: Core Temp: {0}C-->
-  <critCoreTemp>核心温度：{0}C</critCoreTemp>
+  <critCoreTemp>堆芯温度: {0}℃</critCoreTemp>
   <!--EN: Countdown: {0}-->
-  <critCountdown>倒计时：{0}</critCountdown>
+  <critCountdown>倒计时: {0}</critCountdown>
   <!--EN: Core is cracked-->
-  <critCrackedcore>核心有裂纹</critCrackedcore>
+  <critCrackedcore>堆芯破裂</critCrackedcore>
   <!--EN: Can be reprocessed-->
-  <critEnouPU>可重新加工</critEnouPU>
+  <critEnouPU>可再加工</critEnouPU>
   <!--EN: Fuel Remaining: {0}-->
-  <critFuelRemaining2>剩余燃料：{0}</critFuelRemaining2>
+  <critFuelRemaining2>剩余燃料: {0}</critFuelRemaining2>
   <!--EN: Generated: {0} W-->
-  <critGenerated>生成：{0} W</critGenerated>
+  <critGenerated>已发电量: {0} W</critGenerated>
   <!--EN: Magazine: {0}-->
-  <critMagazine>杂志：{0}</critMagazine>
+  <critMagazine>弹药: {0}</critMagazine>
   <!--EN: Manage Reactor-->
-  <critManageReactor>管理反应堆</critManageReactor>
+  <critManageReactor>操控反应堆</critManageReactor>
   <!--EN: Requires a larger body of water-->
-  <critMoreWater>需要更大的水体</critMoreWater>
+  <critMoreWater>需要邻近大型水体</critMoreWater>
   <!--EN: No storage pool available-->
   <critNoPool>没有可用的存储池</critNoPool>
   <!--EN: No Sabot ammunition-->
-  <critNoSabotRounds>周六弹药</critNoSabotRounds>
+  <critNoSabotRounds>没有弹药</critNoSabotRounds>
   <!--EN: No designated slots-->
-  <critNoSlotDes>无指定槽位</critNoSlotDes>
+  <critNoSlotDes>没有指定插槽</critNoSlotDes>
   <!--EN: No Space-->
   <critNoSpace>没有空间</critNoSpace>
   <!--EN: Open Valve-->
   <critOpenValve>打开阀门</critOpenValve>
   <!--EN: Must be placed on a molten core of correct type-->
-  <critPlaceOnCore>必须放置在正确类型的熔芯上</critPlaceOnCore>
+  <critPlaceOnCore>必须建造在熔化的堆芯上</critPlaceOnCore>
   <!--EN: Powernet Load: {0}-->
-  <critPnetPct>电网负载：{0}</critPnetPct>
+  <critPnetPct>电网负荷: {0}</critPnetPct>
   <!--EN: Power Generation: {0} W-->
-  <critPowerGeneration>发电量：{0} W</critPowerGeneration>
+  <critPowerGeneration>发电: {0} W</critPowerGeneration>
   <!--EN: Progress: {0}-->
-  <critProg>进度：{0}</critProg>
+  <critProg>进度: {0}</critProg>
   <!--EN: Processing complete, remove material-->
-  <critRemovePlutonium>加工完成，去除材料</critRemovePlutonium>
+  <critRemovePlutonium>加工完毕，取出材料</critRemovePlutonium>
   <!--EN: Shutdown-->
   <critShutdown>关闭</critShutdown>
   <!--EN: Shuts down the core, leaving it powered but cold, for refueling and repairs.-->
-  <critShutdownDesc>关闭核心，使其保持供电但处于冷态，以进行加油和维修。</critShutdownDesc>
+  <critShutdownDesc>关闭堆芯，维持供电，使其冷却下来，以便增加燃料和维修。</critShutdownDesc>
   <!--EN: Set for spent fuel only, none available-->
-  <critSpentOnly>仅针对乏燃料设置，无可用</critSpentOnly>
+  <critSpentOnly>单纯消耗燃料，没有产生效益</critSpentOnly>
   <!--EN: Spent fuel only-->
-  <critSpentfuelonly>仅乏燃料</critSpentfuelonly>
+  <critSpentfuelonly>只允许核燃料</critSpentfuelonly>
   <!--EN: Startup-->
   <critStartup>启动</critStartup>
   <!--EN: Starts the core, allowing temperatures and flux levels to rise-->
-  <critStartupDesc>启动核心，使温度和通量水平上升</critStartupDesc>
+  <critStartupDesc>启动堆芯，提高温度和中子通量。</critStartupDesc>
   <!--EN: Storage Capacity: {0} / {1}-->
-  <critStorageCapacity>存储容量：{0} / {1}</critStorageCapacity>
+  <critStorageCapacity>存储容量: {0} / {1}</critStorageCapacity>
   <!--EN: Control Rods To-->
-  <critTargetRod>控制棒至</critTargetRod>
+  <critTargetRod>控制棒用于</critTargetRod>
   <!--EN: Temp-->
-  <critTemp>温度</critTemp>
+  <critTemp>堆芯温度</critTemp>
   <!--EN: Temp Boost-->
-  <critTempBoost>温度提升</critTempBoost>
+  <critTempBoost>温度上升</critTempBoost>
   <!--EN: Operate the valve-->
   <critToggleValve>操作阀门</critToggleValve>
   <!--EN: Turbine-->
-  <critTurbine>涡轮</critTurbine>
+  <critTurbine>涡轮机承载量</critTurbine>
   <!--EN: Valve: Closed-->
-  <critValveClosed>阀门：关闭</critValveClosed>
+  <critValveClosed>阀门: 关闭</critValveClosed>
   <!--EN: Valve: Open-->
-  <critValveOpen>阀门：打开</critValveOpen>
+  <critValveOpen>阀门: 打开</critValveOpen>
   <!--EN: The enemy faction {0} are preparing to launch a missile attack from a nearby base, you have {1} days before launch.-->
-  <criticbmAttack>敌方派系 {0} 正准备从附近的基地发射导弹攻击，距离发射还有 {1} 天。</criticbmAttack>
+  <criticbmAttack>敌对派系{0}正在准备从附近的基地对你发动洲际弹道导弹打击，在发射前您还有{1}天的准备时间。</criticbmAttack>
   <!--EN: No Fuel Assembly Available-->
-  <critnoFuelRods>没有可用的燃料组件</critnoFuelRods>
+  <critnoFuelRods>没有燃料可用</critnoFuelRods>
   <!--EN: Reactor stable-->
   <critreactionstable>反应堆稳定</critreactionstable>
   <!--EN: Reactor critical-->
-  <critreactorcritical>反应堆临界</critreactorcritical>
+  <critreactorcritical>反应堆不稳定</critreactorcritical>
   <!--EN: Reactor leaking-->
   <critreactorleaking>反应堆泄漏</critreactorleaking>
   <!--EN: Return temperature and neutron flux to base values, but leaves the core on-->
-  <critscramDesc>将温度和中子通量返回到基础值，但使堆芯保持开启状态</critscramDesc>
+  <critscramDesc>将温度和中子通量的降低到基本值，但保持堆芯运行。</critscramDesc>
   <!--EN: Set ID-->
   <critsetid>设置ID</critsetid>
   <!--EN: Monitor All-->
-  <cycleScreens>监控全部</cycleScreens>
+  <cycleScreens>监控所有</cycleScreens>
   <!--EN: Monitor all reactors on this network-->
-  <cycleScreensDesc>监控该网络上的所有反应堆</cycleScreensDesc>
+  <cycleScreensDesc>监控连接的的所有反应堆</cycleScreensDesc>
   <!--EN: Loaded: {0}-->
-  <energyWepLoadedShell>已加载：{0}</energyWepLoadedShell>
+  <energyWepLoadedShell>已装载: {0}</energyWepLoadedShell>
   <!--EN: Cracked!-->
-  <fuelCracked>破裂了！</fuelCracked>
+  <fuelCracked>破裂！</fuelCracked>
   <!--EN: Needs TACS-->
-  <needsRadar>需要战术控制系统</needsRadar>
+  <needsRadar>需要搭配警戒雷达</needsRadar>
   <!--EN: Allow New Fuel-->
-  <nuclearFuelAllowNew>允许使用新燃料</nuclearFuelAllowNew>
+  <nuclearFuelAllowNew>允许新燃料</nuclearFuelAllowNew>
   <!--EN: Allow Used Fuel-->
-  <nuclearFuelAllowUsed>允许使用过的燃料</nuclearFuelAllowUsed>
+  <nuclearFuelAllowUsed>允许用过的燃料</nuclearFuelAllowUsed>
   <!--EN: Open Research Panel-->
-  <openResearchPanel>开放研究小组</openResearchPanel>
+  <openResearchPanel>打开研究面板</openResearchPanel>
   <!--EN: Building must be powered down before upgrading-->
   <powerUpgradeFail>升级前必须关闭建筑物电源</powerUpgradeFail>
   <!--EN: SCRAM-->
-  <reactorSCRAM>连续随机存储器</reactorSCRAM>
+  <reactorSCRAM>关闭</reactorSCRAM>
   <!--EN: START-->
-  <reactorSTART>开始</reactorSTART>
+  <reactorSTART>启动</reactorSTART>
   <!--EN: Prototype-->
   <rimatomicsProto>原型</rimatomicsProto>
   <!--EN: Unlocked - -->

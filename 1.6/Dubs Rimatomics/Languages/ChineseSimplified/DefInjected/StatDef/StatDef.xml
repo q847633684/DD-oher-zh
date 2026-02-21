@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: This person does Construction research at this speed.-->
-  <ConstructionResearchSpeed.description>这个人以这种速度进行建筑研究。</ConstructionResearchSpeed.description>
+  <ConstructionResearchSpeed.description>此人从事建造类研究时的速度。</ConstructionResearchSpeed.description>
   <!--EN: Construction research speed-->
-  <ConstructionResearchSpeed.label>建设研究速度</ConstructionResearchSpeed.label>
+  <ConstructionResearchSpeed.label>建造研究速度</ConstructionResearchSpeed.label>
   <!--EN: This person does Crafting research at this speed.-->
-  <CraftingResearchSpeed.description>这个人以这种速度进行工艺研究。</CraftingResearchSpeed.description>
+  <CraftingResearchSpeed.description>此人从事手工类研究时的速度。</CraftingResearchSpeed.description>
   <!--EN: Crafting research speed-->
-  <CraftingResearchSpeed.label>制作研究速度</CraftingResearchSpeed.label>
+  <CraftingResearchSpeed.label>手工研究速度</CraftingResearchSpeed.label>
   <!--EN: Multiplier on the impact of radiation buildup on this character.-->
-  <Radiation.description>辐射累积对该角色影响的乘数。</Radiation.description>
+  <Radiation.description>核辐射对此人造成影响的乘数。</Radiation.description>
   <!--EN: radiation sensitivity-->
-  <Radiation.label>辐射敏感性</Radiation.label>
+  <Radiation.label>辐射敏感度</Radiation.label>
 </LanguageData>

@@ -1,143 +1,143 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Upgrade parts for Rimatomics energy weapons-->
-  <ALC.description>Rimatomics 能源武器的升级部件</ALC.description>
+  <ALC.description>「边缘核能」系列能量武器的升级组件。</ALC.description>
   <!--EN: ALC-->
-  <ALC.label>ALC</ALC.label>
+  <ALC.label>先进水冷系统</ALC.label>
   <!--EN: Upgrade module for TACS-->
-  <ATOM.description>TACS升级模块</ATOM.description>
+  <ATOM.description>「边缘核能」警戒雷达的升级组件。</ATOM.description>
   <!--EN: ATOM-->
-  <ATOM.label>原子</ATOM.label>
+  <ATOM.label>先进威胁预警模块</ATOM.label>
   <!--EN: MOPP mask(Desert)-->
-  <Apparel_MoppMaskDesert.label>澳门币 mask(Desert)</Apparel_MoppMaskDesert.label>
+  <Apparel_MoppMaskDesert.label>军用防辐射面罩(沙漠)</Apparel_MoppMaskDesert.label>
   <!--EN: MOPP mask(Snow)-->
-  <Apparel_MoppMaskSnow.label>澳门币 mask(Snow)</Apparel_MoppMaskSnow.label>
+  <Apparel_MoppMaskSnow.label>军用防辐射面罩(雪地)</Apparel_MoppMaskSnow.label>
   <!--EN: MOPP mask(Woodland)-->
-  <Apparel_MoppMaskWoodland.label>澳门币 mask(Woodland)</Apparel_MoppMaskWoodland.label>
+  <Apparel_MoppMaskWoodland.label>军用防辐射面罩(树林)</Apparel_MoppMaskWoodland.label>
   <!--EN: MOPP suit(Desert)-->
-  <Apparel_MoppSuitDesert.label>澳门币 suit(Desert)</Apparel_MoppSuitDesert.label>
+  <Apparel_MoppSuitDesert.label>军用防辐射服(沙漠)</Apparel_MoppSuitDesert.label>
   <!--EN: MOPP suit(Snow)-->
-  <Apparel_MoppSuitSnow.label>澳门币 suit(Snow)</Apparel_MoppSuitSnow.label>
+  <Apparel_MoppSuitSnow.label>军用防辐射服(雪地)</Apparel_MoppSuitSnow.label>
   <!--EN: MOPP suit(Woodland)-->
-  <Apparel_MoppSuitWoodland.label>澳门币 suit(Woodland)</Apparel_MoppSuitWoodland.label>
+  <Apparel_MoppSuitWoodland.label>军用防辐射服(树林)</Apparel_MoppSuitWoodland.label>
   <!--EN: Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.-->
-  <Apparel_RadiationMask.description>通过衬里屏蔽来防止辐射，但更重要的是防止直接接触或吸入放射性颗粒或气体。</Apparel_RadiationMask.description>
+  <Apparel_RadiationMask.description>通过辐射屏蔽衬里保护使用者免于暴露于核辐射，并且能够防止使用者直接接触或吸入辐射尘埃或气体。</Apparel_RadiationMask.description>
   <!--EN: radiation mask-->
   <Apparel_RadiationMask.label>防辐射面罩</Apparel_RadiationMask.label>
   <!--EN: A suit that protects against radiation through shielding in the lining.-->
-  <Apparel_RadiationSuit.description>一种通过衬里屏蔽来防止辐射的防护服。</Apparel_RadiationSuit.description>
+  <Apparel_RadiationSuit.description>通过辐射屏蔽衬里保护使用者免于暴露于核辐射。</Apparel_RadiationSuit.description>
   <!--EN: radiation suit-->
   <Apparel_RadiationSuit.label>防辐射服</Apparel_RadiationSuit.label>
   <!--EN: Upgrade parts for the Rimatomics Obelisk.-->
-  <BeamSplitter.description>Rimatomics 方尖碑的升级零件。</BeamSplitter.description>
+  <BeamSplitter.description>「边缘核能」光明石碑的升级组件。</BeamSplitter.description>
   <!--EN: Beam Splitter-->
-  <BeamSplitter.label>分光镜</BeamSplitter.label>
+  <BeamSplitter.label>电子束分裂器</BeamSplitter.label>
   <!--EN: Plasma Toroid-->
-  <Bullet_PlasmaToroid.label>等离子环形线圈</Bullet_PlasmaToroid.label>
+  <Bullet_PlasmaToroid.label>等离子回旋体</Bullet_PlasmaToroid.label>
   <!--EN: Sabot Round-->
-  <Bullet_Sabot.label>圆形木托</Bullet_Sabot.label>
+  <Bullet_Sabot.label>磁轨炮弹(高爆)</Bullet_Sabot.label>
   <!--EN: DU Sabot Round-->
-  <Bullet_Sabot_DU.label>DU Sabot 圆形</Bullet_Sabot_DU.label>
+  <Bullet_Sabot_DU.label>磁轨炮弹(贫铀)</Bullet_Sabot_DU.label>
   <!--EN: radioactive slag chunk-->
-  <ChunkRadioactiveSlag.label>放射性渣块</ChunkRadioactiveSlag.label>
+  <ChunkRadioactiveSlag.label>放射性废渣块</ChunkRadioactiveSlag.label>
   <!--EN: Upgrade parts for the Rimatomics nuclear reactor-->
-  <ControlRodActuator.description>Rimatoomics 核反应堆的升级部件</ControlRodActuator.description>
+  <ControlRodActuator.description>「边缘核能」核反应堆的升级组件。</ControlRodActuator.description>
   <!--EN: Control Rod Actuator-->
-  <ControlRodActuator.label>控制杆执行器</ControlRodActuator.label>
+  <ControlRodActuator.label>控制棒传动器</ControlRodActuator.label>
   <!--EN: DU sabot incoming-->
-  <DUSabotRoundIncoming.label>DU 木棍来袭</DUSabotRoundIncoming.label>
+  <DUSabotRoundIncoming.label>磁轨炮弹(贫铀)即将到达</DUSabotRoundIncoming.label>
   <!--EN: Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.-->
-  <DU_Blastdoor.description>非常坚固的防爆门，用贫铀加固，提供全面的辐射屏蔽。</DU_Blastdoor.description>
+  <DU_Blastdoor.description>用贫铀加固的非常坚固的防护门，可屏蔽辐射。</DU_Blastdoor.description>
   <!--EN: DU Blast door-->
-  <DU_Blastdoor.label>DU 爆炸</DU_Blastdoor.label>
+  <DU_Blastdoor.label>贫铀防护门</DU_Blastdoor.label>
   <!--EN: Pellets of depleted uranium used in the construction of nuclear fuel rods.-->
-  <DepletedUraniumPellets.description>用于建造核燃料棒的贫铀颗粒。</DepletedUraniumPellets.description>
+  <DepletedUraniumPellets.description>贫铀颗粒可用于制作核燃料棒。</DepletedUraniumPellets.description>
   <!--EN: Depleted Uranium-->
   <DepletedUraniumPellets.label>贫铀</DepletedUraniumPellets.label>
   <!--EN: Upgrade parts for Rimatomics energy weapons-->
-  <DriveActuator.description>Rimatomics 能源武器的升级部件</DriveActuator.description>
+  <DriveActuator.description>「边缘核能」系列能量武器的升级组件。</DriveActuator.description>
   <!--EN: Drive Actuator-->
-  <DriveActuator.label>驱动执行器</DriveActuator.label>
+  <DriveActuator.label>促动器</DriveActuator.label>
   <!--EN: Upgrade parts for Rimatomics energy weapons-->
-  <ERS.description>Rimatomics 能源武器的升级部件</ERS.description>
+  <ERS.description>「边缘核能」系列能量武器的升级组件。</ERS.description>
   <!--EN: ERS-->
-  <ERS.label>急诊室</ERS.label>
+  <ERS.label>能量回收系统</ERS.label>
   <!--EN: An explosive device that derives its destructive force from nuclear reactions.-->
-  <FissionWarhead.description>一种从核反应中产生破坏力的爆炸装置。</FissionWarhead.description>
+  <FissionWarhead.description>其破坏力来自核裂变反应。</FissionWarhead.description>
   <!--EN: Nuclear Warhead-->
   <FissionWarhead.label>核弹头</FissionWarhead.label>
   <!--EN: strategic missile strike-->
-  <ICBMStrike.label>战略导弹打击</ICBMStrike.label>
+  <ICBMStrike.label>洲际弹道导弹打击</ICBMStrike.label>
   <!--EN: strategic missile-->
-  <ICBM_Fission.label>战略导弹</ICBM_Fission.label>
+  <ICBM_Fission.label>洲际弹道导弹</ICBM_Fission.label>
   <!--EN: Upgrade parts for the Rimatomics Obelisk.-->
-  <LenseModule.description>Rimatomics 方尖碑的升级零件。</LenseModule.description>
+  <LenseModule.description>「边缘核能」光明石碑的升级组件。</LenseModule.description>
   <!--EN: Lens Module-->
-  <LenseModule.label>镜头模组</LenseModule.label>
+  <LenseModule.label>棱镜模块</LenseModule.label>
   <!--EN: Upgrade parts for Rimatomics energy weapons-->
-  <MEPS.description>Rimatomics 能源武器的升级部件</MEPS.description>
+  <MEPS.description>「边缘核能」系列能量武器的升级组件。</MEPS.description>
   <!--EN: MEPS-->
-  <MEPS.label>最低能效标准</MEPS.label>
+  <MEPS.label>模块化电力系统</MEPS.label>
   <!--EN: Fuselage for building strategic missiles.-->
-  <MissileFuselage.description>用于建造战略导弹的机身。</MissileFuselage.description>
+  <MissileFuselage.description>洲际弹道导弹的外壳。</MissileFuselage.description>
   <!--EN: Missile Fuselage-->
-  <MissileFuselage.label>导弹机身</MissileFuselage.label>
+  <MissileFuselage.label>导弹外壳</MissileFuselage.label>
   <!--EN: Contains Rimatomics research projects. Requires power.-->
-  <NuclearResearchBench.description>包含 Rimatomics 研究项目。需要电源。</NuclearResearchBench.description>
+  <NuclearResearchBench.description>用于「边缘核能」的研究项目。需要消耗电力。</NuclearResearchBench.description>
   <!--EN: Rimatomics research bench-->
-  <NuclearResearchBench.label>Rimatomics研究台</NuclearResearchBench.label>
+  <NuclearResearchBench.label>「边缘核能」研究台</NuclearResearchBench.label>
   <!--EN: warhead incoming-->
-  <NuclearWarheadIncoming.label>弹头来袭</NuclearWarheadIncoming.label>
+  <NuclearWarheadIncoming.label>弹头就位</NuclearWarheadIncoming.label>
   <!--EN: A drum of nuclear waste.-->
   <NuclearWaste.description>一桶核废料。</NuclearWaste.description>
   <!--EN: A case of plutonium used to create nuclear weapons or nuclear fuel rods.-->
-  <Plutonium.description>一箱用于制造核武器或核燃料棒的钚。</Plutonium.description>
+  <Plutonium.description>一种用于制造核武器和核燃料棒材料。</Plutonium.description>
   <!--EN: plutonium-->
   <Plutonium.label>钚</Plutonium.label>
   <!--EN: Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.-->
-  <PotassiumIodide.description>碘化钾片剂用于与阻断放射性碘吸收相关的紧急用途。</PotassiumIodide.description>
+  <PotassiumIodide.description>碘化钾片用于预防并减少核辐射的伤害。</PotassiumIodide.description>
   <!--EN: Potassium iodide-->
   <PotassiumIodide.label>碘化钾</PotassiumIodide.label>
   <!--EN: A kinetic energy projectile fired from a railgun.-->
-  <RailgunSabot.description>从轨道炮发射的动能弹丸。</RailgunSabot.description>
+  <RailgunSabot.description>磁轨炮所发射的的高爆炮弹。</RailgunSabot.description>
   <!--EN: Sabot Round-->
-  <RailgunSabot.label>圆形木托</RailgunSabot.label>
+  <RailgunSabot.label>磁轨炮弹(高爆)</RailgunSabot.label>
   <!--EN: A kinetic energy projectile fired from a railgun, inert and safe to stockpile.-->
-  <RailgunSabotDU.description>从轨道炮发射的动能弹丸，惰性且可以安全储存。</RailgunSabotDU.description>
+  <RailgunSabotDU.description>磁轨炮所发射的的贫铀炮弹，已被安全保存着。</RailgunSabotDU.description>
   <!--EN: DU Sabot Round-->
-  <RailgunSabotDU.label>DU Sabot 圆形</RailgunSabotDU.label>
+  <RailgunSabotDU.label>磁轨炮弹(贫铀)</RailgunSabotDU.label>
   <!--EN: Engines for building rocket propelled machines.-->
-  <RocketEngine.description>用于建造火箭推进机器的发动机。</RocketEngine.description>
+  <RocketEngine.description>洲际弹道导弹的引擎。</RocketEngine.description>
   <!--EN: Rocket Engine-->
-  <RocketEngine.label>火箭发动机</RocketEngine.label>
+  <RocketEngine.label>火箭引擎</RocketEngine.label>
   <!--EN: Upgrade parts for Rimatomics energy weapons-->
-  <SCAD.description>Rimatomics 能源武器的升级部件</SCAD.description>
+  <SCAD.description>「边缘核能」系列能量武器的升级组件。</SCAD.description>
   <!--EN: SCAD-->
-  <SCAD.label>计算机辅助设计</SCAD.label>
+  <SCAD.label>电磁防护系统</SCAD.label>
   <!--EN: sabot incoming-->
-  <SabotRoundIncoming.label>木板传入</SabotRoundIncoming.label>
+  <SabotRoundIncoming.label>磁轨炮弹(高爆)即将到达</SabotRoundIncoming.label>
   <!--EN: A work station for assembling Rimatomics technologies-->
-  <TableRimatomicsMachining.description>用于 组装 Rimatomics 技术的工作站</TableRimatomicsMachining.description>
+  <TableRimatomicsMachining.description>「边缘核能」产品装配工作台。</TableRimatomicsMachining.description>
   <!--EN: Rimatomics machining table-->
-  <TableRimatomicsMachining.label>Rimatomics 加工台</TableRimatomicsMachining.label>
+  <TableRimatomicsMachining.label>「边缘核能」加工台</TableRimatomicsMachining.label>
   <!--EN: Upgrade parts for the Rimatomics Railgun-->
-  <TargetingChip.description>Rimatomics 轨道炮的升级部件</TargetingChip.description>
+  <TargetingChip.description>「边缘核能」磁轨炮的升级组件。</TargetingChip.description>
   <!--EN: Targeting Chip-->
-  <TargetingChip.label>靶向芯片</TargetingChip.label>
+  <TargetingChip.label>定向芯片</TargetingChip.label>
   <!--EN: ThrownSlag-->
-  <ThrownSlag.label>抛渣</ThrownSlag.label>
+  <ThrownSlag.label>废渣</ThrownSlag.label>
   <!--EN: An unfinished Rimatomics item.-->
-  <UnfinishedRimatomics.description>未完成的 Rimatomics 项目。</UnfinishedRimatomics.description>
+  <UnfinishedRimatomics.description>未完成的「边缘核能」组件。</UnfinishedRimatomics.description>
   <!--EN: unfinished Rimatomics item-->
-  <UnfinishedRimatomics.label>未完成的 Rimatomics 项目</UnfinishedRimatomics.label>
+  <UnfinishedRimatomics.label>未完成的「边缘核能」组件</UnfinishedRimatomics.label>
   <!--EN: Pellets of uranium used in the construction of nuclear fuel rods.-->
-  <UraniumPellets.description>用于建造核燃料棒的铀颗粒。</UraniumPellets.description>
+  <UraniumPellets.description>用于制造核燃料棒。</UraniumPellets.description>
   <!--EN: Uranium Pellets-->
-  <UraniumPellets.label>铀弹丸</UraniumPellets.label>
+  <UraniumPellets.label>铀芯块</UraniumPellets.label>
   <!--EN: notReal-->
-  <notReal.label>不真实</notReal.label>
+  <notReal.label>不真实的</notReal.label>
   <!--EN: Used to construct generators.-->
-  <turbineBlade.description>用于构造发电机。</turbineBlade.description>
+  <turbineBlade.description>用于制造涡轮机。</turbineBlade.description>
   <!--EN: Turbine Blades-->
   <turbineBlade.label>涡轮叶片</turbineBlade.label>
 </LanguageData>

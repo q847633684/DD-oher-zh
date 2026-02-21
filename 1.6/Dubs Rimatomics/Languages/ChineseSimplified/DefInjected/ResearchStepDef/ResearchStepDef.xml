@@ -1,378 +1,367 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: A skilled researcher needs to study the designs and learn how the ADS works before we can build our own-->
-  <ADS1.description>在我们构建自己的 ADS 之前，熟练的研究人员需要研究设计并了解 ADS 的工作原理</ADS1.description>
+  <ADS1.description>由高智识的殖民者研究主动驱敌系统原理，设计主动驱敌系统组件的制作方案。</ADS1.description>
   <!--EN: Research the ADS-->
-  <ADS1.label>研究ADS</ADS1.label>
+  <ADS1.label>主动驱敌系统原理</ADS1.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <ADS2.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</ADS2.description>
+  <ADS2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</ADS2.description>
   <!--EN: Experiment with energy weapons-->
-  <ADS2.label>能量武器实验</ADS2.label>
+  <ADS2.label>能量武器试验</ADS2.label>
   <!--EN: Construct a prototype version of the ADS. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing-->
-  <ADS4.description>构建 ADS 的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施</ADS4.description>
+  <ADS4.description>建造主动驱敌系统原型机，需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</ADS4.description>
   <!--EN: Construct a prototype ADS-->
-  <ADS4.label>构建 ADS 原型</ADS4.label>
+  <ADS4.label>构建主动驱敌系统原型</ADS4.label>
   <!--EN: Test fire the ADS on any living targets to gather weapons data-->
-  <ADS5.description>对任何活动目标试射 ADS 以收集武器数据</ADS5.description>
+  <ADS5.description>使用主动驱敌系统对任何活动目标开火以收集武器数据并测试性能。</ADS5.description>
   <!--EN: Gather weapons data-->
   <ADS5.label>收集武器数据</ADS5.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis-->
-  <ALC1.description>熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析</ALC1.description>
+  <ALC1.description>由高智识的殖民者对「边缘核能」系列能量武器进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</ALC1.description>
   <!--EN: Research ALC-->
-  <ALC1.label>研究ALC</ALC1.label>
+  <ALC1.label>先进水冷系统原理</ALC1.label>
   <!--EN: Fire any Rimatomics energy weapon at full power to collect data.-->
-  <ALC2.description>全功率发射任何 Rimatomics 能量武器来收集数据。</ALC2.description>
+  <ALC2.description>使用「边缘核能」系列能量武器以最高耗能开火以收集武器数据。</ALC2.description>
   <!--EN: Gather weapons data-->
   <ALC2.label>收集武器数据</ALC2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the ALC module-->
-  <ALC3.description>分析收集到的数据并最终确定 ALC 模块的设计</ALC3.description>
+  <ALC3.description>分析收集的数据以最终确定制作先进水冷系统的方案。</ALC3.description>
   <!--EN: Research ALC-->
-  <ALC3.label>研究ALC</ALC3.label>
+  <ALC3.label>研发先进水冷系统</ALC3.label>
   <!--EN: A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!-->
-  <AdvReactor1.description>熟练的研究人员需要使用研究堆进行实验。这一步有可能会导致灾难性的失败！</AdvReactor1.description>
+  <AdvReactor1.description>由高智识的殖民者利用研究用核反应堆进行试验。这一阶段可能发生灾难性失败！</AdvReactor1.description>
   <!--EN: Experiment with research reactors (High Risk)-->
-  <AdvReactor1.label>研究堆实验（高风险）</AdvReactor1.label>
+  <AdvReactor1.label>核反应堆试验（高风险）</AdvReactor1.label>
   <!--EN: A skilled researcher needs to finalize the design of the advanced reactors before they are ready for construction.-->
-  <AdvReactor2.description>熟练的研究人员需要在先进反应堆准备建造之前完成其设计。</AdvReactor2.description>
+  <AdvReactor2.description>由高智识的殖民者研究先进增殖反应堆的工作原理，设计快中子增殖反应堆组件的制作方案。</AdvReactor2.description>
   <!--EN: Research nuclear reactors-->
-  <AdvReactor2.label>研究核反应堆</AdvReactor2.label>
+  <AdvReactor2.label>快中子增殖反应堆原理</AdvReactor2.label>
   <!--EN: Build an advanced nuclear reactor core. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer.-->
-  <AdvReactor3.description>建造先进的核反应堆堆芯。强烈建议将核心建造在屏蔽收容室中，以在燃料传输过程中保护殖民者。</AdvReactor3.description>
+  <AdvReactor3.description>建造快中子增殖反应堆框架，并完成后续作业以构建完整的反应堆。强烈建议将反应堆建在密闭的隔离室内，以保护殖民者在取送燃料的过程中免于遭受核辐射。墙壁厚度和耐久决定了其吸收核辐射能力的强弱。建议在反应堆周围留出一定空间，因为核辐射强度会随距离的增加而减弱。</AdvReactor3.description>
   <!--EN: Build an advanced reactor core-->
-  <AdvReactor3.label>建造先进的反应堆堆芯</AdvReactor3.label>
+  <AdvReactor3.label>构建快中子增殖反应堆</AdvReactor3.label>
   <!--EN: Power up the advanced reactor and start producing power to gather data.-->
-  <AdvReactor4.description>启动先进反应堆并开始发电以收集数据。</AdvReactor4.description>
+  <AdvReactor4.description>通电启动快中子增殖反应堆开始发电并收集数据。</AdvReactor4.description>
   <!--EN: Test the nuclear reactor-->
-  <AdvReactor4.label>测试核反应堆</AdvReactor4.label>
+  <AdvReactor4.label>测试运行快中子增殖反应堆</AdvReactor4.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis-->
-  <BeamSplitter1.description>熟练的研究人员必须计划一系列可以在方尖碑上进行的测试，以收集数据进行分析</BeamSplitter1.description>
+  <BeamSplitter1.description>由高智识的殖民者对光明石碑进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</BeamSplitter1.description>
   <!--EN: Research Beam Splitters-->
-  <BeamSplitter1.label>研究分束器</BeamSplitter1.label>
+  <BeamSplitter1.label>电子束分裂器原理</BeamSplitter1.label>
   <!--EN: Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each burst.-->
-  <BeamSplitter2.description>在任何目标上使用方尖碑来收集数据，获得的数据量根据每次爆发所用的伤害百分比进行缩放。</BeamSplitter2.description>
+  <BeamSplitter2.description>使用光明石碑对任何活动目标开火以收集不同耗能下光明石碑击破护盾时所造成的伤害数据。</BeamSplitter2.description>
   <!--EN: Gather weapons data-->
   <BeamSplitter2.label>收集武器数据</BeamSplitter2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the beam splitter device-->
-  <BeamSplitter3.description>分析收集的数据并最终确定分束器装置的设计</BeamSplitter3.description>
+  <BeamSplitter3.description>分析收集的数据以最终确定制作电子束分裂器的方案。</BeamSplitter3.description>
   <!--EN: Research Beam Splitters-->
-  <BeamSplitter3.label>研究分束器</BeamSplitter3.label>
+  <BeamSplitter3.label>研发电子束分裂器</BeamSplitter3.label>
   <!--EN: Build the frame for a nuclear reactor core. Note that once the frame is complete, more work must be done to finish constructing the core. It is highly recommended that the core be built in a containment room to protect colonists during fuel transfer. The thickness of the wall and HP of the materials used determines how much radiation is absorbed. We advise leaving space around the core as the frequency of radiation damage also decreases over distance.-->
-  <BuildReactorCore.description>建造核反应堆堆芯的框架。请注意，框架完成后，必须做更多的工作才能完成核心的构建。强烈建议将核心建造在收容室中，以在燃料传输过程中保护殖民者。壁的厚度和所用材料的 HP 决定了吸收的辐射量。我们建议在核心周围留出空间，因为辐射损伤的频率也会随着距离的增加而降低。</BuildReactorCore.description>
+  <BuildReactorCore.description>建造轻水反应堆框架，并完成后续作业以构建完整的反应堆。强烈建议将反应堆建在密闭的隔离室内，以保护殖民者在取送燃料的过程中免于遭受核辐射。墙壁厚度和耐久决定了其吸收核辐射能力的强弱。建议在反应堆周围留出一定空间，因为核辐射强度会随距离的增加而减弱。</BuildReactorCore.description>
   <!--EN: Build a reactor core-->
-  <BuildReactorCore.label>建造反应堆堆芯</BuildReactorCore.label>
+  <BuildReactorCore.label>构建轻水反应堆</BuildReactorCore.label>
   <!--EN: Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing, colonists will need access to the bench for experimentation, it is advised to build it in a secure fireproof lab.-->
-  <ConstructWeaponBenchStep.description>建造一个武器研究台，配备用于原型设计和测试各种能源武器的专用设备，它是大多数能源武器研究和测试所需的设施，殖民者需要使用该台进行实验，建议将其建造在安全的防火实验室中。</ConstructWeaponBenchStep.description>
+  <ConstructWeaponBenchStep.description>建造能量武器实验台，实验台配备专门的设备，用于原型设计和测试各种能量武器，这是大多数能量武器研究和测试所必需的设施。建议将研究用反应堆建在安全、防火的场所，以便研究者进行试验。</ConstructWeaponBenchStep.description>
   <!--EN: Construct a Weapons Research Bench-->
-  <ConstructWeaponBenchStep.label>建造武器研究台</ConstructWeaponBenchStep.label>
+  <ConstructWeaponBenchStep.label>构建能量武器实验台</ConstructWeaponBenchStep.label>
   <!--EN: Experiment with the research reactor and plan tests which can be performed on a live reactor core-->
-  <ControlRodActuators1.description>对研究堆进行实验并计划在运行的反应堆堆芯上进行测试</ControlRodActuators1.description>
+  <ControlRodActuators1.description>由高智识的殖民者对反应堆堆芯进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</ControlRodActuators1.description>
   <!--EN: Research nuclear reactors-->
-  <ControlRodActuators1.label>研究核反应堆</ControlRodActuators1.label>
+  <ControlRodActuators1.label>核反应堆进阶研究</ControlRodActuators1.label>
   <!--EN: Test the control rod system by performing a reactor SCRAM while it is fully fueled and set to 100% power.-->
-  <ControlRodActuators2.description>通过在燃料充足并设置为 100% 功率时执行反应堆 SCRAM 来测试控制棒系统。</ControlRodActuators2.description>
+  <ControlRodActuators2.description>利用关闭反应堆指令测试控制棒传动器：当反应堆满载运行且中子通量达到100％时执行关闭反应堆指令进行测试。</ControlRodActuators2.description>
   <!--EN: Perform 2 reactor SCRAM's-->
-  <ControlRodActuators2.label>执行 2 个反应堆 SCRAM</ControlRodActuators2.label>
+  <ControlRodActuators2.label>执行两次关闭反应堆指令</ControlRodActuators2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the new control rod actuators-->
-  <ControlRodActuators3.description>分析收集到的数据并最终确定新控制杆执行器的设计</ControlRodActuators3.description>
+  <ControlRodActuators3.description>收集反应堆数据以最终确定制作控制棒传动器的方案。</ControlRodActuators3.description>
   <!--EN: Research nuclear reactors-->
-  <ControlRodActuators3.label>研究核反应堆</ControlRodActuators3.label>
+  <ControlRodActuators3.label>收集反应堆数据</ControlRodActuators3.label>
   <!--EN: A skilled researcher must experiment at a weapon research bench-->
-  <DriveActuator1.description>熟练的研究人员必须在武器研究台上进行实验</DriveActuator1.description>
+  <DriveActuator1.description>由高智识的殖民者对数据进行分析，设计假想方案并利用能量武器实验台进行实验。</DriveActuator1.description>
   <!--EN: Research Drive Actuators-->
-  <DriveActuator1.label>研究驱动执行器</DriveActuator1.label>
+  <DriveActuator1.label>促动器原理</DriveActuator1.label>
   <!--EN: Analyze the data gathered and finalize the designs for the Drive Actuators-->
-  <DriveActuator2.description>分析收集的数据并最终确定驱动执行器的设计</DriveActuator2.description>
+  <DriveActuator2.description>分析收集的数据以最终确定制作促动器的方案。</DriveActuator2.description>
   <!--EN: Research Drive Actuators-->
-  <DriveActuator2.label>研究驱动执行器</DriveActuator2.label>
+  <DriveActuator2.label>研发促动器</DriveActuator2.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis-->
-  <ERS1.description>熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析</ERS1.description>
+  <ERS1.description>由高智识的殖民者对「边缘核能」系列能量武器进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</ERS1.description>
   <!--EN: Research ERS-->
-  <ERS1.label>研究 ERS</ERS1.label>
+  <ERS1.label>能量回收系统原理</ERS1.label>
   <!--EN: Fire any Rimatomics energy weapon at full power to collect data.-->
-  <ERS2.description>全功率发射任何 Rimatomics 能量武器来收集数据。</ERS2.description>
+  <ERS2.description>使用「边缘核能」系列能量武器以最高耗能开火以收集武器数据。</ERS2.description>
   <!--EN: Gather weapons data-->
   <ERS2.label>收集武器数据</ERS2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the ERS module-->
-  <ERS3.description>分析收集到的数据并最终确定 ERS ​​模块的设计</ERS3.description>
+  <ERS3.description>分析收集的数据以最终确定制作能量回收系统的方案。</ERS3.description>
   <!--EN: Research ERS-->
-  <ERS3.label>研究 ERS</ERS3.label>
+  <ERS3.label>研发能量回收系统</ERS3.label>
   <!--EN: A skilled researcher needs to study how Rimatomics energy shields work-->
-  <EnergyShields1.description>熟练的研究人员需要研究 Rimatomics 能量护罩的工作原理</EnergyShields1.description>
+  <EnergyShields1.description>由高智识的殖民者研究「边缘核能」系列的能量护盾的原理，为进一步研究能量护盾的制造做铺垫。</EnergyShields1.description>
   <!--EN: Research energy weapons-->
-  <EnergyShields1.label>研究能源武器</EnergyShields1.label>
+  <EnergyShields1.label>能量武器原理</EnergyShields1.label>
   <!--EN: Researchers must perform practical experiments using the weapons research bench, Rimatomics energy shields are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <EnergyShields2.description>研究人员必须使用武器研究台进行实际实验，Rimatomics 能量护盾不是 插头 和游戏，并且必须测试和理解该技术。
-实验步骤可能很危险</EnergyShields2.description>
+  <EnergyShields2.description>研究者利用能量武器实验台进行能量武器实测，以便掌握其原理和设计思路，为之后的研究打下基础。能量护盾的研发不是一蹴而就，而是循序渐进的。\n实验过程可能存在危险因素</EnergyShields2.description>
   <!--EN: Experiment with energy weapons-->
-  <EnergyShields2.label>能量武器实验</EnergyShields2.label>
+  <EnergyShields2.label>能量武器试验</EnergyShields2.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <EnergyWeapExperiments.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</EnergyWeapExperiments.description>
+  <EnergyWeapExperiments.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。\n实验过程可能存在危险因素</EnergyWeapExperiments.description>
   <!--EN: Experiment with energy weapons-->
-  <EnergyWeapExperiments.label>能量武器实验</EnergyWeapExperiments.label>
+  <EnergyWeapExperiments.label>能量武器试验</EnergyWeapExperiments.label>
   <!--EN: A skilled researcher needs to study how Rimatomics energy weapons work-->
-  <EnergyWeapons1.description>熟练的研究人员需要研究 Rimatomics 能源武器的工作原理</EnergyWeapons1.description>
+  <EnergyWeapons1.description>由高智识的殖民者研究「边缘核能」系列的能量武器的原理，为进一步研究能量武器的制造做铺垫。</EnergyWeapons1.description>
   <!--EN: Research energy weapons-->
-  <EnergyWeapons1.label>研究能源武器</EnergyWeapons1.label>
+  <EnergyWeapons1.label>能量武器原理</EnergyWeapons1.label>
   <!--EN: Construct a SACS, this console is a target acquisition computer required by all energy weapons, it networks to all Rimatomics energy weapons that share the same power net, then it assigns targets using the onboard sensors of the weapons combined with the Target Acquisition System (TACS).\n\nThe main display features a real time ground target and aerial projectile tracker, and a gauge displays the total stored PPC energy on the net.\nSome weapons require the console to be manned to function, this will be displayed in the inspect tab for the weapon-->
-  <EnergyWeapons5.description>构建一个 SACS，该控制台是所有能量武器所需的目标捕获计算机，它与共享同一电网的所有 Rimatomics 能量武器联网，然后使用武器的机载传感器结合目标捕获系统 (TACS) 来分配目标。
-
-主显示器具有实时地面目标和空中射弹跟踪器，仪表显示上存储的总 PPC 能量。 net.
-某些武器需要控制台有人操作才能运行，这将显示在武器的检查选项卡中</EnergyWeapons5.description>
+  <EnergyWeapons5.description>建造能量武器控制台，用于探测目标和操控能量武器的智能计算机，它通过电网连接「边缘核能」系列能量武器，能量武器控制台使用警戒雷达检测敌对目标，主显示器具有对实时地面和空中目标的跟踪功能，脉冲电池容量计显示电网上存储的脉冲电池总能量。某些武器需要控制台有人操控。</EnergyWeapons5.description>
   <!--EN: Construct a Semi Automated Command Station (SACS)-->
-  <EnergyWeapons5.label>建造半自动化指挥站（SACS）</EnergyWeapons5.label>
+  <EnergyWeapons5.label>构建能量武器控制台</EnergyWeapons5.label>
   <!--EN: Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles. The information is routed to a SACS console where targets are selected and tracking information can be displayed-->
-  <EnergyWeapons6.description>构建 TACS。该系统使用多种技术来跟踪陆地和空中目标，包括活体或机器人目标、迫击炮炮弹或轨道炮弹丸等射弹，以及弹道导弹的远程跟踪。信息被路由到 SACS 控制台，在其中选择目标并显示跟踪信息</EnergyWeapons6.description>
+  <EnergyWeapons6.description>建造警戒雷达，警戒雷达采用了一系列先进技术来追踪地面和空中目标，可与「边缘核能」武器系统配合追踪包括动物、机器人、炮弹和导弹等在内的目标。信息将被传送到能量武器控制台。</EnergyWeapons6.description>
   <!--EN: Construct a Target Acquisition and Communications System (TACS)-->
-  <EnergyWeapons6.label>构建目标捕获和通信系统（TACS）</EnergyWeapons6.label>
+  <EnergyWeapons6.label>构建警戒雷达</EnergyWeapons6.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the radiation detectors work.-->
-  <Geigercounter1.description>熟练的研究人员需要研究设计并了解辐射探测器的工作原理。</Geigercounter1.description>
+  <Geigercounter1.description>由高智识的殖民者研究辐射探测器的工作原理。</Geigercounter1.description>
   <!--EN: Research radiation detectors-->
-  <Geigercounter1.label>研究辐射探测器</Geigercounter1.label>
+  <Geigercounter1.label>电磁辐射探测理论</Geigercounter1.label>
   <!--EN: A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available.-->
-  <Geigercounter2.description>熟练的工匠需要弄清楚如何使用可用的资源和工具为所有殖民者建造和维护辐射探测器。</Geigercounter2.description>
+  <Geigercounter2.description>由高手工的殖民者利用现有的的资源和工具来确定如何制作和维护所有殖民者的辐射探测器。</Geigercounter2.description>
   <!--EN: Evaluate components-->
-  <Geigercounter2.label>评估组件</Geigercounter2.label>
+  <Geigercounter2.label>组件材料分析</Geigercounter2.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis-->
-  <GuidenceSystem1.description>熟练的研究人员必须计划一系列可对战略导弹进行的测试，以收集数据进行分析</GuidenceSystem1.description>
+  <GuidenceSystem1.description>由高智识的殖民者对洲际弹道导弹进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</GuidenceSystem1.description>
   <!--EN: Research nuclear reactors-->
-  <GuidenceSystem1.label>研究核反应堆</GuidenceSystem1.label>
+  <GuidenceSystem1.label>全球定位系统原理</GuidenceSystem1.label>
   <!--EN: Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum.-->
-  <GuidenceSystem2.description>向任意目标发射战略导弹来收集数据，收集的数据量取决于发射的成功与否，在目标上成功引爆可获得最大数据量。</GuidenceSystem2.description>
+  <GuidenceSystem2.description>使用聚变打击任何目标并收集数据，分析发射是否成功，是否成功引爆目标，是否造成最大破坏。</GuidenceSystem2.description>
   <!--EN: Gather weapons data-->
   <GuidenceSystem2.label>收集武器数据</GuidenceSystem2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the Guidance System-->
-  <GuidenceSystem3.description>分析收集到的数据并最终确定制导系统的设计</GuidenceSystem3.description>
+  <GuidenceSystem3.description>分析收集的数据以最终确定制作全球定位系统的方案。</GuidenceSystem3.description>
   <!--EN: Research nuclear reactors-->
-  <GuidenceSystem3.label>研究核反应堆</GuidenceSystem3.label>
+  <GuidenceSystem3.label>研发全球定位系统</GuidenceSystem3.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the HEL works before we can build our own-->
-  <HEL1.description>熟练的研究人员需要研究设计并了解 HEL 的工作原理，然后我们才能构建自己的 HEL</HEL1.description>
+  <HEL1.description>由高智识的殖民者研究激光点防御原理，设计激光点防御的制作方案。</HEL1.description>
   <!--EN: Research the HEL-->
-  <HEL1.label>研究高能激光</HEL1.label>
+  <HEL1.label>激光点防御原理</HEL1.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <HEL2.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</HEL2.description>
+  <HEL2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</HEL2.description>
   <!--EN: Experiment with energy weapons-->
-  <HEL2.label>能量武器实验</HEL2.label>
+  <HEL2.label>能量武器试验</HEL2.label>
   <!--EN: Construct a prototype version of the HEL. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing-->
-  <HEL4.description>构建 HEL 的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施</HEL4.description>
+  <HEL4.description>建造激光点防御原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</HEL4.description>
   <!--EN: Construct a prototype HEL-->
-  <HEL4.label>构建 HEL 原型</HEL4.label>
+  <HEL4.label>构建激光点防御原型</HEL4.label>
   <!--EN: Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells-->
-  <HEL5.description>在炮弹目标上测试 HEL 来收集武器数据，您可以使用武器控制台更改其目标获取以包括友军 炮弹</HEL5.description>
+  <HEL5.description>使用激光点防御尝试击落炮弹以收集武器数据，你可以使用能武器控制台改变其攻击目标以拦截友方的炮弹。</HEL5.description>
   <!--EN: Gather weapons data-->
   <HEL5.label>收集武器数据</HEL5.label>
   <!--EN: A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own.-->
-  <ICBM1.description>在我们开始制造自己的核武器之前，熟练的研究人员需要研究设计并了解核武器的工作原理。</ICBM1.description>
+  <ICBM1.description>由高智识的殖民者研究核武器原理，设计洲际弹道导弹及其发射台组件的制作方案。</ICBM1.description>
   <!--EN: Research nuclear weapons-->
-  <ICBM1.label>研究核武器</ICBM1.label>
+  <ICBM1.label>核武器原理</ICBM1.label>
   <!--EN: Create some plutonium, which is required to make a bomb. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.-->
-  <ICBM2.description>制造一些制造炸弹所需的钚。为此，反应堆中的乏核燃料必须在钚处理器中进行处理。</ICBM2.description>
+  <ICBM2.description>利用钚分离器从已部分或完全燃烧的燃料棒中提取钚。</ICBM2.description>
   <!--EN: Create plutonium-->
-  <ICBM2.label>制造钚</ICBM2.label>
+  <ICBM2.label>提取钚</ICBM2.label>
   <!--EN: Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon.-->
-  <ICBM3.description>在我们尝试制造武器之前，先对研究堆进行实验，以更好地了解核物理。</ICBM3.description>
+  <ICBM3.description>由高智识的殖民者利用研究用核反应堆进行试验，以便深入了解核武器原理。</ICBM3.description>
   <!--EN: Experiment with the research reactor-->
-  <ICBM3.label>研究堆实验</ICBM3.label>
+  <ICBM3.label>核反应堆试验</ICBM3.label>
   <!--EN: Construct a weapons console. The weapons console is a manned target acquisition computer required by all energy weapons. It networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real-time ground and air target tracking, and a PPC capacity gauge displays the total stored PPC energy on the net.-->
-  <ICBM4.description>建造一个武器控制台。武器控制台是所有能源武器都需要的载人目标捕获计算机。它与共享同一电网的任何 Rimatomics 能源武器联网，然后使用武器的机载传感器和目标获取系统来检测敌人以分配目标。主显示屏具有实时地面和空中目标跟踪功能，PPC 容量表显示网络上存储的总 PPC 能量。</ICBM4.description>
+  <ICBM4.description>建造能量武器控制台，用于探测目标和操控能量武器的智能计算机，它通过电网连接「边缘核能」系列能量武器，能量武器控制台使用警戒雷达检测敌对目标，主显示器具有对实时地面和空中目标的跟踪功能，脉冲电池容量计显示电网上存储的脉冲电池总能量。</ICBM4.description>
   <!--EN: Construct a weapons console-->
-  <ICBM4.label>建造一个武器控制台</ICBM4.label>
+  <ICBM4.label>构建能量武器控制台</ICBM4.label>
   <!--EN: Construct a TACS. The system uses a combination of technologies to track land- and air-based targets. This includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long-range tracking of ballistic missiles.-->
-  <ICBM5.description>构建 TACS。该系统使用多种技术来跟踪陆基和空基目标。这包括活体或机器人目标、迫击炮 炮弹 或轨道炮弹壳等射弹，以及弹道导弹的远程跟踪。</ICBM5.description>
+  <ICBM5.description>建造警戒雷达，此设备采用一系列先进技术来跟踪地面和空中目标，目标包括生物或机器人个体，迫击炮弹或磁轨炮弹等炮弹，以及弹道导弹。</ICBM5.description>
   <!--EN: Construct a Target Acquisition and Communications System (TACS)-->
-  <ICBM5.label>构建目标捕获和通信系统（TACS）</ICBM5.label>
+  <ICBM5.label>构建警戒雷达</ICBM5.label>
   <!--EN: Construct a Liberator. It must be connected via power conduit to a weapons console to control the launch systems.-->
-  <ICBM6.description>建造一个解放者。它必须通过电源导管连接到武器控制台以控制发射系统。</ICBM6.description>
+  <ICBM6.description>建造导弹发射台，必须通过电网连接到能量武器控制台来控制导弹发射系统。</ICBM6.description>
   <!--EN: Construct a Liberator-->
-  <ICBM6.label>建造一个解放者</ICBM6.label>
+  <ICBM6.label>构建导弹发射井</ICBM6.label>
   <!--EN: Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum amount of data.-->
-  <ICBM7.description>向任何目标发射战略导弹以收集数据。收集的数据量取决于发射的成功与否，目标上的成功爆炸会提供最大量的数据。</ICBM7.description>
+  <ICBM7.description>使用洲际弹道导弹打击任何目标并收集数据，分析发射是否成功，是否成功引爆目标，是否造成最大破坏。</ICBM7.description>
   <!--EN: Gather weapons data-->
   <ICBM7.label>收集武器数据</ICBM7.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis-->
-  <LenseModule1.description>熟练的研究人员必须计划一系列可以在方尖碑上进行的测试，以收集数据进行分析</LenseModule1.description>
+  <LenseModule1.description>由高智识的殖民者对光明石碑进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</LenseModule1.description>
   <!--EN: Research Lens Modules-->
-  <LenseModule1.label>研究镜头模块</LenseModule1.label>
+  <LenseModule1.label>棱镜模块原理</LenseModule1.label>
   <!--EN: Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each shot-->
-  <LenseModule2.description>在任何目标上使用方尖碑来收集数据，获得的数据量根据每次射击的伤害百分比而定</LenseModule2.description>
+  <LenseModule2.description>使用光明石碑对任何活动目标开火以收集不同耗能下光明石碑所造成的伤害数据。</LenseModule2.description>
   <!--EN: Gather weapons data-->
   <LenseModule2.label>收集武器数据</LenseModule2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the lens module-->
-  <LenseModule3.description>分析收集到的数据并最终确定镜头模块的设计</LenseModule3.description>
+  <LenseModule3.description>分析收集的数据以最终确定制作棱镜模块的方案。</LenseModule3.description>
   <!--EN: Research Lens Modules-->
-  <LenseModule3.label>研究镜头模块</LenseModule3.label>
+  <LenseModule3.label>研发棱镜模块</LenseModule3.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis-->
-  <MEPS1.description>熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析</MEPS1.description>
+  <MEPS1.description>由高智识的殖民者对「边缘核能」系列能量武器进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</MEPS1.description>
   <!--EN: Research MEPS-->
-  <MEPS1.label>研究最低能效标准</MEPS1.label>
+  <MEPS1.label>模块化电力系统原理</MEPS1.label>
   <!--EN: Fire any Rimatomics energy weapon at full power to collect data.-->
-  <MEPS2.description>全功率发射任何 Rimatomics 能量武器来收集数据。</MEPS2.description>
+  <MEPS2.description>使用「边缘核能」系列能量武器以最高耗能开火以收集武器数据。</MEPS2.description>
   <!--EN: Gather weapons data-->
   <MEPS2.label>收集武器数据</MEPS2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the MEPS module-->
-  <MEPS3.description>分析收集到的数据并最终确定 MEPS 模块的设计</MEPS3.description>
+  <MEPS3.description>分析收集的数据以最终确定制作模块化电力系统的方案。</MEPS3.description>
   <!--EN: Research MEPS-->
-  <MEPS3.label>研究最低能效标准</MEPS3.label>
+  <MEPS3.label>研发模块化电力系统</MEPS3.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the Marauder works before we can build our own-->
-  <Marauder1.description>熟练的研究人员需要研究设计并了解掠夺者的工作原理，然后我们才能建造自己的掠夺者</Marauder1.description>
+  <Marauder1.description>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Marauder1.description>
   <!--EN: Research the Marauder-->
-  <Marauder1.label>研究掠夺者</Marauder1.label>
+  <Marauder1.label>“掠夺者”磁轨炮原理</Marauder1.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <Marauder2.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</Marauder2.description>
+  <Marauder2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Marauder2.description>
   <!--EN: Experiment with energy weapons-->
-  <Marauder2.label>能量武器实验</Marauder2.label>
+  <Marauder2.label>能量武器试验</Marauder2.label>
   <!--EN: Construct a prototype version of the Marauder. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing-->
-  <Marauder4.description>构建掠夺者的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施</Marauder4.description>
+  <Marauder4.description>建造“掠夺者”磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。\n\n!!!警告!!! 原型机有很高的故障概率！</Marauder4.description>
   <!--EN: Construct a prototype Marauder-->
-  <Marauder4.label>构建掠夺者原型</Marauder4.label>
+  <Marauder4.label>构建“掠夺者”磁轨炮原型</Marauder4.label>
   <!--EN: Test fire the Marauder to gather weapons data.-->
-  <Marauder5.description>试射掠夺者以收集武器数据。</Marauder5.description>
+  <Marauder5.description>使用“掠夺者”磁轨炮对任何目标开火以收集武器数据并测试性能。</Marauder5.description>
   <!--EN: Gather weapons data-->
   <Marauder5.label>收集武器数据</Marauder5.label>
   <!--EN: A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!-->
-  <NuclearReactorExperiments.description>熟练的研究人员需要使用研究堆进行实验。这一步有可能会导致灾难性的失败！</NuclearReactorExperiments.description>
+  <NuclearReactorExperiments.description>由高智识的殖民者利用研究用核反应堆进行试验。这一阶段可能发生灾难性失败！</NuclearReactorExperiments.description>
   <!--EN: Experiment with research reactors (High Risk)-->
-  <NuclearReactorExperiments.label>研究堆实验（高风险）</NuclearReactorExperiments.label>
+  <NuclearReactorExperiments.label>核反应堆试验（高风险）</NuclearReactorExperiments.label>
   <!--EN: A skilled researcher needs to study the Rimatomics reactor designs and prepare for the construction of our first power reactor.-->
-  <NuclearReactorResearchPhase.description>熟练的研究人员需要研究 Rimatomics 反应堆设计并为建造我们的第一个动力反应堆做好准备。</NuclearReactorResearchPhase.description>
+  <NuclearReactorResearchPhase.description>由高智识的殖民者研究电站系统的工作原理，设计各个发电组件及其配套扩展方案。</NuclearReactorResearchPhase.description>
   <!--EN: Research nuclear reactors-->
-  <NuclearReactorResearchPhase.label>研究核反应堆</NuclearReactorResearchPhase.label>
+  <NuclearReactorResearchPhase.label>核电站系统原理</NuclearReactorResearchPhase.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own.-->
-  <NuclearResearch1.description>熟练的研究人员需要研究设计并了解研究堆的工作原理，然后才能建造自己的研究堆。</NuclearResearch1.description>
+  <NuclearResearch1.description>由高智识的殖民者研究核反应堆的工作原理，设计出简易的研究用核反应堆制作方案。</NuclearResearch1.description>
   <!--EN: Research reactor technology-->
-  <NuclearResearch1.label>研究堆技术</NuclearResearch1.label>
+  <NuclearResearch1.label>研究用核反应堆原理</NuclearResearch1.label>
   <!--EN: Install reactor control software and perform training exercises while testing the reactor's capabilities.-->
-  <NuclearResearchPractical.description>安装反应堆控制软件并进行培训练习，同时测试反应堆的能力。</NuclearResearchPractical.description>
+  <NuclearResearchPractical.description>安装研究用核反应堆控制软件，利用研究用核反应堆进行实验并测试反应堆性能。</NuclearResearchPractical.description>
   <!--EN: Research and train-->
-  <NuclearResearchPractical.label>研究和培训</NuclearResearchPractical.label>
+  <NuclearResearchPractical.label>实验和观测</NuclearResearchPractical.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own-->
-  <Obelisk1.description>在我们建造自己的方尖碑之前，熟练的研究人员需要研究设计并了解方尖碑的工作原理</Obelisk1.description>
+  <Obelisk1.description>由高智识的殖民者研究光明石碑原理，设计光明石碑的制作方案。</Obelisk1.description>
   <!--EN: Research the Obelisk-->
-  <Obelisk1.label>研究方尖碑</Obelisk1.label>
+  <Obelisk1.label>光明石碑原理</Obelisk1.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <Obelisk2.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</Obelisk2.description>
+  <Obelisk2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Obelisk2.description>
   <!--EN: Experiment with energy weapons-->
-  <Obelisk2.label>能量武器实验</Obelisk2.label>
+  <Obelisk2.label>能量武器试验</Obelisk2.label>
   <!--EN: Construct a prototype version of the Obelisk, Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing-->
-  <Obelisk4.description>建造方尖碑的原型版本，原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施</Obelisk4.description>
+  <Obelisk4.description>建造光明石碑原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</Obelisk4.description>
   <!--EN: Construct an Obelisk-->
-  <Obelisk4.label>建造方尖碑</Obelisk4.label>
+  <Obelisk4.label>构建光明石碑原型</Obelisk4.label>
   <!--EN: Test fire the Obelisk on any targets to collect data-->
-  <Obelisk5.description>测试向任何目标发射方尖碑以收集数据</Obelisk5.description>
+  <Obelisk5.description>使用光明石碑对任何活动目标开火以收集武器数据并测试性能。</Obelisk5.description>
   <!--EN: Gather weapons data-->
   <Obelisk5.label>收集武器数据</Obelisk5.label>
   <!--EN: A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel reprocessing facility.-->
-  <Plutonium1.description>熟练的研究人员需要研究钚处理的工作原理，并最终确定原型燃料后处理设施的设计。</Plutonium1.description>
+  <Plutonium1.description>由高智识的殖民者研究钚分离器的工作原理，设计钚分离器原型机的制作方案。</Plutonium1.description>
   <!--EN: Research plutonium processing-->
-  <Plutonium1.label>研究钚加工</Plutonium1.label>
+  <Plutonium1.label>钚分离原理</Plutonium1.label>
   <!--EN: Construct a Plutonium Processor. To reduce the duration of exposure while handling radioactive fuel, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage. Radiation suits will be required for workers that are moving radioactive fuel.-->
-  <Plutonium2.description>建造一个钚处理器。为了减少处理放射性燃料时的暴露时间，建议将钚处理器放置在距离反应堆或乏燃料储存处较近的位置。搬运放射性燃料的工人需要穿着防辐射服。</Plutonium2.description>
+  <Plutonium2.description>建造钚处理器，建议尽量缩短钚分离器与废弃燃料棒组件存放点的距离，以减少殖民者处理放射性燃料时暴露于核辐射中时间。当然防辐射套件是必须装备的。</Plutonium2.description>
   <!--EN: Construct a Plutonium Processor-->
-  <Plutonium2.label>建造钚处理器</Plutonium2.label>
+  <Plutonium2.label>构建钚分离器</Plutonium2.label>
   <!--EN: Experiment with the prototype plutonium processor, ensuring that it is functioning correctly.-->
-  <Plutonium3.description>对原型钚处理器进行实验，确保其正常运行。</Plutonium3.description>
+  <Plutonium3.description>试运行钚分离器原型机，确保其能正常工作。</Plutonium3.description>
   <!--EN: Experiment with the plutonium processor (High Risk)-->
-  <Plutonium3.label>实验钚处理器（高风险）</Plutonium3.label>
+  <Plutonium3.label>进行钚分离实验(高风险)</Plutonium3.label>
   <!--EN: A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own.-->
-  <RTG1.description>在我们开始制造自己的发电机之前，熟练的研究人员需要研究设计并了解放射性同位素热电发电机的工作原理。</RTG1.description>
+  <RTG1.description>由高智识的殖民者研究放射性同位素发电原理，设计放射性同位素发电机组件的制作方案。</RTG1.description>
   <!--EN: Research RTGs-->
-  <RTG1.label>研究 RTG</RTG1.label>
+  <RTG1.label>放射性同位素发电原理</RTG1.label>
   <!--EN: Create some plutonium, which is required to make an RTG. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.-->
-  <RTG2.description>制造一些制造 RTG 所需的钚。为此，反应堆中的乏核燃料必须在钚处理器中进行处理。</RTG2.description>
+  <RTG2.description>放射性同位素发电需要钚。可利用钚分离器从已部分或完全燃烧的燃料棒中提取。</RTG2.description>
   <!--EN: Create plutonium-->
-  <RTG2.label>制造钚</RTG2.label>
+  <RTG2.label>提取钚</RTG2.label>
   <!--EN: A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us.-->
-  <RTG3.description>熟练的工匠需要计划如何利用我们可用的资源制造放射性同位素热电发电机所需的组件。</RTG3.description>
+  <RTG3.description>由高手工的殖民者利用现有的的资源和工具来确定如何制作放射性同位素发电机组件。</RTG3.description>
   <!--EN: Evaluate components-->
-  <RTG3.label>评估组件</RTG3.label>
+  <RTG3.label>组件材料分析</RTG3.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own.-->
-  <RadiationSuits1.description>熟练的研究人员需要研究设计并了解防辐射服的工作原理，然后我们才能开始制造自己的防辐射服。</RadiationSuits1.description>
+  <RadiationSuits1.description>由高智识的殖民者研究适合隔离辐射的方法，设计制作方案。</RadiationSuits1.description>
   <!--EN: Research radiation suits-->
-  <RadiationSuits1.label>研究防辐射服</RadiationSuits1.label>
+  <RadiationSuits1.label>辐射隔离理论</RadiationSuits1.label>
   <!--EN: A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us.-->
-  <RadiationSuits2.description>熟练的工匠需要利用我们可用的资源和工具制定定制防辐射服的计划。</RadiationSuits2.description>
+  <RadiationSuits2.description>由高手工的殖民者利用现有的的资源和工具来确定如何制作供殖民者使用的防辐射服装。</RadiationSuits2.description>
   <!--EN: Evaluate components-->
-  <RadiationSuits2.label>评估组件</RadiationSuits2.label>
+  <RadiationSuits2.label>组件材料分析</RadiationSuits2.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the Punisher works before we can build our own-->
-  <Railgun1.description>熟练的研究人员需要研究设计并了解惩罚者的工作原理，然后我们才能构建自己的惩罚者</Railgun1.description>
+  <Railgun1.description>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Railgun1.description>
   <!--EN: Research the Punisher-->
-  <Railgun1.label>研究惩罚者</Railgun1.label>
+  <Railgun1.label>“惩戒者”磁轨炮原理</Railgun1.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <Railgun2.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</Railgun2.description>
+  <Railgun2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Railgun2.description>
   <!--EN: Experiment with energy weapons-->
-  <Railgun2.label>能量武器实验</Railgun2.label>
+  <Railgun2.label>能量武器试验</Railgun2.label>
   <!--EN: Construct a prototype version of the Punisher. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing-->
-  <Railgun4.description>构建惩罚者的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施</Railgun4.description>
+  <Railgun4.description>建造“惩戒者”磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。\n\n!!!警告!!! 原型机有很高的故障概率！</Railgun4.description>
   <!--EN: Construct a prototype Punisher-->
-  <Railgun4.label>构建惩罚者原型</Railgun4.label>
+  <Railgun4.label>构建“惩戒者”磁轨炮原型</Railgun4.label>
   <!--EN: Test fire the Punisher on any targets to gather weapons data. You can craft Sabot rounds at a Rimatomics machining table-->
-  <Railgun5.description>对任何目标试射惩罚者以收集武器数据。您可以在 Rimatomics 加工台上制作 Sabot 弹</Railgun5.description>
+  <Railgun5.description>使用“惩戒者”磁轨炮对任何目标开火以收集武器数据并测试性能。</Railgun5.description>
   <!--EN: Gather weapons data-->
   <Railgun5.label>收集武器数据</Railgun5.label>
   <!--EN: Test the fire mission functionality of the Punisher. You must send scouts to another map, then select the prototype Punisher and click Fire Mission-->
-  <Railgun6.description>测试惩罚者的火力任务功能。您必须将侦察兵发送到另一张地图，然后选择原型惩罚者并单击Fire Mission</Railgun6.description>
+  <Railgun6.description>测试“惩戒者”磁轨炮开火指令。你必须排除侦察者到另一地图，然后使用“惩戒者”磁轨炮的开火指令。</Railgun6.description>
   <!--EN: Gather weapons data-->
   <Railgun6.label>收集武器数据</Railgun6.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis-->
-  <Railgun_TargetingChip1.description>熟练的研究人员必须计划一系列可以在轨道炮上进行的测试，以收集数据进行分析</Railgun_TargetingChip1.description>
+  <Railgun_TargetingChip1.description>由高智识的殖民者对磁轨炮进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</Railgun_TargetingChip1.description>
   <!--EN: Research Targeting chips-->
-  <Railgun_TargetingChip1.label>研究靶向芯片</Railgun_TargetingChip1.label>
+  <Railgun_TargetingChip1.label>定向芯片原理</Railgun_TargetingChip1.label>
   <!--EN: Use the Railgun on any targets to collect data-->
-  <Railgun_TargetingChip2.description>对任何目标使用轨道炮来收集数据</Railgun_TargetingChip2.description>
+  <Railgun_TargetingChip2.description>使用磁轨炮对任何目标开火以收集武器数据。</Railgun_TargetingChip2.description>
   <!--EN: Gather weapons data-->
   <Railgun_TargetingChip2.label>收集武器数据</Railgun_TargetingChip2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the targeting chip-->
-  <Railgun_TargetingChip3.description>分析收集到的数据并最终确定目标芯片的设计</Railgun_TargetingChip3.description>
+  <Railgun_TargetingChip3.description>分析收集的数据以最终确定制作定向芯片的方案。</Railgun_TargetingChip3.description>
   <!--EN: Research Targeting chips-->
-  <Railgun_TargetingChip3.label>研究靶向芯片</Railgun_TargetingChip3.label>
+  <Railgun_TargetingChip3.label>研发定向芯片</Railgun_TargetingChip3.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis-->
-  <SCAD1.description>熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析</SCAD1.description>
+  <SCAD1.description>由高智识的殖民者对「边缘核能」系列能量武器进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</SCAD1.description>
   <!--EN: Research SCAD-->
-  <SCAD1.label>研究SCAD</SCAD1.label>
+  <SCAD1.label>电磁防护系统</SCAD1.label>
   <!--EN: Fire any Rimatomics energy weapon at full power to collect data.-->
-  <SCAD2.description>全功率发射任何 Rimatomics 能量武器来收集数据。</SCAD2.description>
+  <SCAD2.description>使用「边缘核能」系列能量武器以最高耗能开火以收集武器数据。</SCAD2.description>
   <!--EN: Gather weapons data-->
   <SCAD2.label>收集武器数据</SCAD2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the SCAD module-->
-  <SCAD3.description>分析收集的数据并最终确定 SCAD 模块的设计</SCAD3.description>
+  <SCAD3.description>分析收集的数据以最终确定制作电磁防护系统的方案。</SCAD3.description>
   <!--EN: Research SCAD-->
-  <SCAD3.label>研究SCAD</SCAD3.label>
+  <SCAD3.label>研发电磁防护系统</SCAD3.label>
   <!--EN: A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own-->
-  <TeslaCoil1.description>在我们建造自己的线圈之前，熟练的研究人员需要研究设计并了解特斯拉线圈的工作原理</TeslaCoil1.description>
+  <TeslaCoil1.description>由高智识的殖民者研究磁暴线圈原理，设计磁暴线圈组件的制作方案。</TeslaCoil1.description>
   <!--EN: Research tesla coils-->
-  <TeslaCoil1.label>研究特斯拉线圈</TeslaCoil1.label>
+  <TeslaCoil1.label>磁暴线圈原理</TeslaCoil1.label>
   <!--EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous-->
-  <TeslaCoil2.description>研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
-实验步骤可能很危险</TeslaCoil2.description>
+  <TeslaCoil2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</TeslaCoil2.description>
   <!--EN: Experiment with energy weapons-->
-  <TeslaCoil2.label>能量武器实验</TeslaCoil2.label>
+  <TeslaCoil2.label>能量武器试验</TeslaCoil2.label>
   <!--EN: Construct a prototype version of the Tesla Coil. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing-->
-  <TeslaCoil4.description>构建特斯拉线圈的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施</TeslaCoil4.description>
+  <TeslaCoil4.description>建造磁暴线圈原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</TeslaCoil4.description>
   <!--EN: Construct a prototype Tesla Coil-->
-  <TeslaCoil4.label>构建特斯拉线圈原型</TeslaCoil4.label>
+  <TeslaCoil4.label>构建磁暴线圈原型</TeslaCoil4.label>
   <!--EN: Test fire the Tesla coil on any targets to gather weapons data-->
-  <TeslaCoil5.description>在任何目标上测试特斯拉线圈以收集武器数据</TeslaCoil5.description>
+  <TeslaCoil5.description>使用磁暴线圈对任何活动目标开火以收集武器数据并测试性能。</TeslaCoil5.description>
   <!--EN: Gather weapons data-->
   <TeslaCoil5.label>收集武器数据</TeslaCoil5.label>
   <!--EN: Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.-->
-  <TestReactor.description>建造或购买核燃料棒，并使用反应堆控制台指定装载槽将其装载到反应堆堆芯中。并排装载至少两个燃料组件以创建链，使用反应堆控制台启动堆芯，然后将控制棒提升到8％或更高以开始收集数据。</TestReactor.description>
+  <TestReactor.description>制作或购买核燃料棒，使用反应堆控制台将其装载到反应堆堆芯中已指定用于装载的槽。至少需要并排装载两个核燃料棒才能引发链式反应，使用反应堆控制台启动反应堆并将中子通量调高到8％或更高以收集数据。</TestReactor.description>
   <!--EN: Test the nuclear reactor-->
-  <TestReactor.label>测试核反应堆</TestReactor.label>
+  <TestReactor.label>测试运行反应堆</TestReactor.label>
   <!--EN: A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis-->
-  <ThreatDetection1.description>熟练的研究人员必须计划一系列可以在 TACS 上执行的测试，以收集数据进行分析</ThreatDetection1.description>
+  <ThreatDetection1.description>由高智识的殖民者对警戒雷达进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</ThreatDetection1.description>
   <!--EN: Research threat detection-->
-  <ThreatDetection1.label>研究威胁检测</ThreatDetection1.label>
+  <ThreatDetection1.label>威胁侦测原理</ThreatDetection1.label>
   <!--EN: Collect data from raids, each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model-->
-  <ThreatDetection2.description>从突袭中收集数据，每次突袭时，都会分析其规模和到达方式，并与传感器数据进行比较，以创建预测模型</ThreatDetection2.description>
+  <ThreatDetection2.description>使用警戒雷达对每次袭击的方位和规模进行分析，以建立威胁侦测模型。</ThreatDetection2.description>
   <!--EN: Collect data on raids-->
   <ThreatDetection2.label>收集袭击数据</ThreatDetection2.label>
   <!--EN: Analyze the data gathered and finalize the designs for the ATOM-->
-  <ThreatDetection3.description>分析收集到的数据并最终确定 ATOM 的设计</ThreatDetection3.description>
+  <ThreatDetection3.description>分析收集的数据以最终确定制作潜在先进威胁预警模块的方案。</ThreatDetection3.description>
   <!--EN: Research threat detection-->
-  <ThreatDetection3.label>研究威胁检测</ThreatDetection3.label>
+  <ThreatDetection3.label>研发先进威胁预警模块</ThreatDetection3.label>
 </LanguageData>

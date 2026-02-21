@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Fuel Burn Rate-->
-  <FuelBurnRate.label>燃油燃烧率</FuelBurnRate.label>
+  <FuelBurnRate.label>燃料燃烧速率</FuelBurnRate.label>
   <!--EN: Cheat-->
-  <FuelBurnRate.options.0.label>欺骗</FuelBurnRate.options.0.label>
+  <FuelBurnRate.options.0.label>无</FuelBurnRate.options.0.label>
   <!--EN: 25%-->
   <FuelBurnRate.options.1.label>25%</FuelBurnRate.options.1.label>
   <!--EN: 700%-->
@@ -27,9 +27,9 @@
   <!--EN: 500%-->
   <FuelBurnRate.options.9.label>500%</FuelBurnRate.options.9.label>
   <!--EN: Pulse Size Scaling-->
-  <PulseSizeScaling.label>脉冲大小缩放</PulseSizeScaling.label>
+  <PulseSizeScaling.label>脉冲振幅缩放比例</PulseSizeScaling.label>
   <!--EN: Cheat-->
-  <PulseSizeScaling.options.0.label>欺骗</PulseSizeScaling.options.0.label>
+  <PulseSizeScaling.options.0.label>无</PulseSizeScaling.options.0.label>
   <!--EN: 25%-->
   <PulseSizeScaling.options.1.label>25%</PulseSizeScaling.options.1.label>
   <!--EN: 700%-->
@@ -55,7 +55,7 @@
   <!--EN: Radiation Strength-->
   <RadiationStrength.label>辐射强度</RadiationStrength.label>
   <!--EN: Cheat-->
-  <RadiationStrength.options.0.label>欺骗</RadiationStrength.options.0.label>
+  <RadiationStrength.options.0.label>无</RadiationStrength.options.0.label>
   <!--EN: 25%-->
   <RadiationStrength.options.1.label>25%</RadiationStrength.options.1.label>
   <!--EN: 700%-->
@@ -79,9 +79,9 @@
   <!--EN: 500%-->
   <RadiationStrength.options.9.label>500%</RadiationStrength.options.9.label>
   <!--EN: Rimatomics Trader Cooldown-->
-  <RimatomicsTraderCooldown.label>Rimatomics 交易者冷却</RimatomicsTraderCooldown.label>
+  <RimatomicsTraderCooldown.label>「边缘核能」交易冷却</RimatomicsTraderCooldown.label>
   <!--EN: Cheat-->
-  <RimatomicsTraderCooldown.options.0.label>欺骗</RimatomicsTraderCooldown.options.0.label>
+  <RimatomicsTraderCooldown.options.0.label>无</RimatomicsTraderCooldown.options.0.label>
   <!--EN: 2 days-->
   <RimatomicsTraderCooldown.options.1.label>2天</RimatomicsTraderCooldown.options.1.label>
   <!--EN: 5 days-->

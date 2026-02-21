@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Construct a research reactor. Colonists will need access to the reactor for experimentation. It is advised to build the reactor in a secure, fireproof lab.-->
-  <NuclearResearchConstruct.description>建造一个研究堆。殖民者需要进入反应堆进行实验。建议在安全、防火的实验室中建造反应堆。</NuclearResearchConstruct.description>
+  <NuclearResearchConstruct.description>建造一个可与「边缘核能」研究台连接的研究用核反应堆。建议将研究用反应堆建在安全、防火的场所，以便研究者进行试验。</NuclearResearchConstruct.description>
   <!--EN: Construct a research reactor-->
-  <NuclearResearchConstruct.label>建造研究堆</NuclearResearchConstruct.label>
+  <NuclearResearchConstruct.label>构建研究用核反应堆</NuclearResearchConstruct.label>
 </LanguageData>

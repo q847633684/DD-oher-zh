@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors.-->
-  <TestForCore.description>通过在反应堆堆芯和涡轮发电机之间构建（蒸汽管）和（冷水管）将它们连接起来。涡轮机并不危险，可以建在屏蔽室外部，但必须建在室内。</TestForCore.description>
+  <TestForCore.description>使用蒸汽导管和冷水导管将反应堆与涡轮机相连通。涡轮机并不危险，不需要隔离，但必须建在室内。</TestForCore.description>
   <!--EN: Connect the reactor to the turbine-->
-  <TestForCore.label>将反应堆连接到涡轮机</TestForCore.label>
+  <TestForCore.label>连接反应堆与涡轮机</TestForCore.label>
 </LanguageData>

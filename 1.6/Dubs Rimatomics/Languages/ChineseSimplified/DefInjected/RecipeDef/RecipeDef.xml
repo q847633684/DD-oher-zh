@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Salvaging useful materials from a warhead-->
-  <DismantleWarhead.description>从弹头中回收有用的材料</DismantleWarhead.description>
+  <DismantleWarhead.description>从核弹头中回收有用的材料。</DismantleWarhead.description>
   <!--EN: Dismantling warhead.-->
-  <DismantleWarhead.jobString>拆除弹头。</DismantleWarhead.jobString>
+  <DismantleWarhead.jobString>正在拆解核弹头。</DismantleWarhead.jobString>
   <!--EN: Dismantle warhead-->
-  <DismantleWarhead.label>拆除弹头</DismantleWarhead.label>
+  <DismantleWarhead.label>拆解核弹头</DismantleWarhead.label>
   <!--EN: Construct MOX fuel rods.-->
-  <MakeMoxFuelRods.description>建造 MOX 燃料棒。</MakeMoxFuelRods.description>
+  <MakeMoxFuelRods.description>制作混合氧化物核燃料棒。</MakeMoxFuelRods.description>
   <!--EN: Making MOX fuel rods.-->
-  <MakeMoxFuelRods.jobString>制造 MOX 燃料棒。</MakeMoxFuelRods.jobString>
+  <MakeMoxFuelRods.jobString>正在制作混合氧化物核燃料棒。</MakeMoxFuelRods.jobString>
   <!--EN: Make MOX fuel rods-->
-  <MakeMoxFuelRods.label>制作 MOX 燃料棒</MakeMoxFuelRods.label>
+  <MakeMoxFuelRods.label>制作混合氧化物核燃料棒</MakeMoxFuelRods.label>
   <!--EN: Use heat and strong electromagnets to break turbine blades into useful resources.-->
-  <SmeltBlades.description>使用热量和强电磁体将涡轮叶片分解成有用的资源。</SmeltBlades.description>
+  <SmeltBlades.description>利用高温和强电磁场将涡轮叶片熔炼成有用的资源。</SmeltBlades.description>
   <!--EN: Smelting turbine blade.-->
-  <SmeltBlades.jobString>冶炼涡轮叶片。</SmeltBlades.jobString>
+  <SmeltBlades.jobString>正在熔炼涡轮叶片。</SmeltBlades.jobString>
   <!--EN: smelt turbine blades-->
-  <SmeltBlades.label>冶炼涡轮叶片</SmeltBlades.label>
+  <SmeltBlades.label>熔炼涡轮叶片</SmeltBlades.label>
 </LanguageData>

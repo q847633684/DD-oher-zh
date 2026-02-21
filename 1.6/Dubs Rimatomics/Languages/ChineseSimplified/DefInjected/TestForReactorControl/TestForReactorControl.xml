@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Build a reactor control computer and connect it to the nuclear reactor core using (Controller loom). This console is used to control reactor cores. They can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls. Multiple controls can be open at the same time.-->
-  <BuildControlComputer.description>构建反应堆控制计算机并使用（Controller loom）将其连接到核反应堆堆芯。该控制台用于控制反应堆堆芯。它们可以通过分配 ID 与特定核心配对，从而允许您在核心之间进行 锁链 连接。派一名殖民者到空间站操作控制装置。可以同时打开多个控件。</BuildControlComputer.description>
+  <BuildControlComputer.description>建造反应堆控制台，并用数据电缆将反应堆控制台与反应堆相连接。此控制台用于控制反应堆，反应堆控制台可通过分配一个ID与反应堆配对，从而可以互相串联多个反应堆。反应堆控制台需要殖民者操控，多个控制台可以同时操控。</BuildControlComputer.description>
   <!--EN: Build a reactor control computer-->
-  <BuildControlComputer.label>建造反应堆控制计算机</BuildControlComputer.label>
+  <BuildControlComputer.label>构建反应堆控制台</BuildControlComputer.label>
 </LanguageData>
