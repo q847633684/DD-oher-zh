@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--原中文: '通用', 原英文: '无' -> 新英文: 'generic',更新于2026-02-16-->
+  <!--EN: generic-->
+  <DummySmokeEmitter.label>通用</DummySmokeEmitter.label>
+  <!--原中文: '錯誤:這個項目不應該存在，請在Simple FX: Smoke評論區進行報告。', 原英文: '无' -> 新英文: 'Error: this item should not exist. Please report to Simple FX: Smoke comment's section.',更新于2026-02-16-->
+  <!--EN: Error: this item should not exist. Please report to Simple FX: Smoke comment's section.-->
+  <DummySmokeEmitter.description>错误:这个项目不应该存在，请在Simple FX: Smoke评论区进行报告。</DummySmokeEmitter.description>
+</LanguageData>

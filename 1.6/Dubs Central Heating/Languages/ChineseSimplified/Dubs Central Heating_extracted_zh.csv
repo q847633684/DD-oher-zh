@@ -1,0 +1,96 @@
+key,text,tag,file,type,protected_text,translated
+DesignatorRemovePlumbing,Remove pipes,DesignatorRemovePlumbing,DubsCentralHeating.xml,keyed,Remove pipes,拆除管道
+DesignatorRemovePlumbingDesc,Designate sections of a pipe type for deconstruction.,DesignatorRemovePlumbingDesc,DubsCentralHeating.xml,keyed,Designate sections of a pipe type for deconstruction.,指定管道类型的部分进行解构。
+RemovePlumbing,Remove plumbing,RemovePlumbing,DubsCentralHeating.xml,keyed,Remove plumbing,拆除管道
+RemoveAirCon,Remove air-con,RemoveAirCon,DubsCentralHeating.xml,keyed,Remove air-con,拆掉空调
+LowCoolingCap,Low cooling capacity. You can increase the power of outdoor units.,LowCoolingCap,DubsCentralHeating.xml,keyed,Low cooling capacity. You can increase the power of outdoor units.,冷却能力低。您可以增加室外机的功率。
+LowWaterTemp,Low water temp,LowWaterTemp,DubsCentralHeating.xml,keyed,Low water temp,水温低
+LowWaterTempDesc,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank.",LowWaterTempDesc,DubsCentralHeating.xml,keyed,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.(PH_2)(PH_1)Turn on boilers, increase the heating capacity, or add another hot water tank.","该水箱内的水温太低；想要使用 性感的 水的殖民者可能会感到恼火。
+
+打开锅炉，增加加热能力，或添加另一个 性感的 水箱。"
+WaterTemp,Water temp: {0},WaterTemp,DubsCentralHeating.xml,keyed,Water temp: (PH_1),水温：{0}
+ConnectedHeatingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedHeatingCapacity,DubsCentralHeating.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1)),连接需求/容量：{0} / {1} U ({2})
+ConnectedCoolingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedCoolingCapacity,DubsCentralHeating.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1)),连接需求/容量：{0} / {1} U ({2})
+HeatingUnits,Heating usage: {0} U,HeatingUnits,DubsCentralHeating.xml,keyed,Heating usage: (PH_1) U,供暖用量：{0} U
+CoolingUnits,Cooling usage: {0} U,CoolingUnits,DubsCentralHeating.xml,keyed,Cooling usage: (PH_1) U,冷却使用量：{0} U
+HeatingMode,Heating units/power: {0} U / {1} W,HeatingMode,DubsCentralHeating.xml,keyed,Heating units/power: (PH_2) U / (PH_1) W,加热单位/功率：{0} U / {1} W
+CoolingMode,Cooling units/power: {0} U / {1} W,CoolingMode,DubsCentralHeating.xml,keyed,Cooling units/power: (PH_2) U / (PH_1) W,冷却装置/功率：{0} U / {1} W
+CoolingEfficiencyGood,Efficiency: {0},CoolingEfficiencyGood,DubsCentralHeating.xml,keyed,Efficiency: (PH_1),效率：{0}
+CoolingEfficiencyBad,Efficiency: {0} overheating,CoolingEfficiencyBad,DubsCentralHeating.xml,keyed,Efficiency: (PH_1) overheating,效率：{0} 过热
+TargetTemp,Minimum temp: {0},TargetTemp,DubsCentralHeating.xml,keyed,Minimum temp: (PH_1),最低温度：{0}
+LowerPower,Reduce power,LowerPower,DubsCentralHeating.xml,keyed,Reduce power,减少功率
+LowerPowerDesc,Reduce the heating capacity.,LowerPowerDesc,DubsCentralHeating.xml,keyed,Reduce the heating capacity.,减少制热量。
+RaisePower,Increase power,RaisePower,DubsCentralHeating.xml,keyed,Increase power,增加功率
+RaisePowerDesc,Increase the heating capacity.,RaisePowerDesc,DubsCentralHeating.xml,keyed,Increase the heating capacity.,增加加热能力。
+HotwaterCapacity,Hot water capacity: {0},HotwaterCapacity,DubsCentralHeating.xml,keyed,Hot water capacity: (PH_1),热水容量：{0}
+OverrideThermostat,Override thermostat,OverrideThermostat,DubsCentralHeating.xml,keyed,Override thermostat,超控恒温器
+OverrideThermostatDesc,Force the boiler to run continuously.,OverrideThermostatDesc,DubsCentralHeating.xml,keyed,Force the boiler to run continuously.,强制锅炉连续运行。
+MustPlaceFreezerWithFreeSpaces,Exhaust vents must be kept clear!,MustPlaceFreezerWithFreeSpaces,DubsCentralHeating.xml,keyed,Exhaust vents must be kept clear!,排气口必须保持畅通！
+SolarEfficiencyCold,Too cold,SolarEfficiencyCold,DubsCentralHeating.xml,keyed,Too cold,太冷了
+SolarEfficiencyRoof,Roofed,SolarEfficiencyRoof,DubsCentralHeating.xml,keyed,Roofed,有屋顶的
+SolarEfficiencyGood,Heating units (efficiency): {0} U ({1}),SolarEfficiencyGood,DubsCentralHeating.xml,keyed,Heating units (efficiency): (PH_2) U ((PH_1)),加热装置（效率）：{0} U ({1})
+RadCurrentCap,Radiator temp: {0},RadCurrentCap,DubsCentralHeating.xml,keyed,Radiator temp: (PH_1),散热器温度：{0}
+ThermostatSetupWarning,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.,ThermostatSetupWarning,DubsCentralHeating.xml,keyed,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.,恒温器被热水箱覆盖。将所有连接的 性感的 水箱设置为恒温器模式。
+HotWaterTankUseThermostat,Thermostat control,HotWaterTankUseThermostat,DubsCentralHeating.xml,keyed,Thermostat control,恒温器控制
+HotWaterTankUseThermostatDesc,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.,HotWaterTankUseThermostatDesc,DubsCentralHeating.xml,keyed,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.,当水箱温度较低时，打开锅炉1小时。如果禁用此功能，则锅炉将连续运行并忽略房间恒温器。
+CommandDesignateOpenCloseValveLabel,Toggle valve,CommandDesignateOpenCloseValveLabel,DubsCentralHeating.xml,keyed,Toggle valve,切换阀
+CommandDesignateOpenCloseValveDesc,Toggle the valve between open and closed.,CommandDesignateOpenCloseValveDesc,DubsCentralHeating.xml,keyed,Toggle the valve between open and closed.,在打开和关闭之间切换阀门。
+ValveClosed,Valve closed,ValveClosed,DubsCentralHeating.xml,keyed,Valve closed,阀门关闭
+dbh.restartconfirm,Restart,dbh.restartconfirm,DubsCentralHeating.xml,keyed,Restart,重新启动
+dbh.ModRemove,Mod removal assist,dbh.ModRemove,DubsCentralHeating.xml,keyed,Mod removal assist,模组移除辅助
+dbh.ModRemoveDesc,"Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!",dbh.ModRemoveDesc,DubsCentralHeating.xml,keyed,"Steps:(PH_5)(PH_4)1: Save your game immediately after pressing confirm(PH_3)2: Quit to the main menu and disable the mod and restart the game(PH_2)3: Load your save game, ignore any exceptions and save it again(PH_1)Load the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!","步骤：
+
+1：按确认后立即保存游戏
+2：退出主菜单并禁用模组并重新启动游戏
+3：加载您的保存游戏，忽略任何异常并再次保存[
+再次加载保存游戏，不应该出现任何与缺少不良卫生定义或类别相关的异常！"
+QuitToMenuToChange,Quit to main menu to change.,QuitToMenuToChange,DubsCentralHeating.xml,keyed,Quit to main menu to change.,退出到主菜单进行更改。
+CoolingEfficiency,Cooling efficiency,CoolingEfficiency,DubsCentralHeating.xml,keyed,Cooling efficiency,冷却效率
+CoolingEfficiencyTip,Set if high temperature should affect cooling efficiency like standard AC,CoolingEfficiencyTip,DubsCentralHeating.xml,keyed,Set if high temperature should affect cooling efficiency like standard AC,设置高温是否会像标准空调一样影响冷却效率
+MainFeatures,Main features,MainFeatures,DubsCentralHeating.xml,keyed,Main features,主要特点
+ExperimentalFeatures,Experimental features,ExperimentalFeatures,DubsCentralHeating.xml,keyed,Experimental features,实验特点
+dbh.ExtraFeatures,Extra features,dbh.ExtraFeatures,DubsCentralHeating.xml,keyed,Extra features,额外功能
+HygieneWiki,Bad Hygiene Wiki,HygieneWiki,DubsCentralHeating.xml,keyed,Bad Hygiene Wiki,不良卫生维基百科
+HygieneWikiDesc,Go to the Bad Hygiene Wiki,HygieneWikiDesc,DubsCentralHeating.xml,keyed,Go to the Bad Hygiene Wiki,前往不良卫生维基百科
+DubsCentralHeating.label,Dubs Central Heating,label,ResearchTabDef/ResearchTabDef.xml,def,Dubs Central Heating,杜布斯中央供暖系统
+MultiSplitAirCon.label,multi-split air conditioning,label,ResearchProjectDef/ResearchProjectDef.xml,def,multi-split air conditioning,多联机空调
+MultiSplitAirCon.description,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.,构建多联机空调系统，将室外机通过管道连接到室内机和冰柜。
+LogBoilers.label,heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,heating,加热
+LogBoilers.description,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.,建造可用于房间供暖的原木锅炉，并可放置在浴室附近来加热洗澡水。
+CentralHeating.label,central heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,central heating,暖气
+CentralHeating.description,"Build central heating systems with radiators, hot water tanks, boilers and thermostats.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build central heating systems with radiators, hot water tanks, boilers and thermostats.",建造带有散热器、热水箱、锅炉和恒温器的中央供暖系统。
+GeothermalHeating.label,Geothermal Heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,Geothermal Heating,地热供暖
+GeothermalHeating.description,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.,建造可以建在间歇泉上方的地热加热器，为中央供暖和热水箱产生热量。
+HeatingPipe.label,Heating Pipe,label,ThingDef/ThingDef.xml,def,Heating Pipe,加热管
+HeatingPipe.description,Plumbing for connecting central heating.,description,ThingDef/ThingDef.xml,def,Plumbing for connecting central heating.,连接中央供暖系统的管道。
+HeatingPipeHidden.label,Heating Pipe (hidden),label,ThingDef/ThingDef.xml,def,Heating Pipe (hidden),加热管（隐藏式）
+HeatingPipeHidden.description,Plumbing for connecting central heating (hidden).,description,ThingDef/ThingDef.xml,def,Plumbing for connecting central heating (hidden).,连接中央供暖系统的管道（隐藏）。
+airPipe.label,air-con pipe,label,ThingDef/ThingDef.xml,def,air-con pipe,空调管
+airPipe.description,Pipe for connecting air-conditioning units.,description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units.,连接空调机组的管道。
+airPipeHidden.label,air-con pipe (hidden),label,ThingDef/ThingDef.xml,def,air-con pipe (hidden),空调管（隐藏式）
+airPipeHidden.description,Pipe for connecting air-conditioning units. (hidden),description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units. (hidden),连接空调机组的管道。 （隐）
+Thermostat.label,thermostat,label,ThingDef/ThingDef.xml,def,thermostat,恒温器
+Thermostat.description,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.,description,ThingDef/ThingDef.xml,def,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.,用于控制电锅炉和燃气锅炉。可以放置多个。通过标准管道连接。
+LogBoiler.label,log boiler,label,ThingDef/ThingDef.xml,def,log boiler,原木锅炉
+LogBoiler.description,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.,生产 2000 个用于管道散热器和 性感的 水箱的加热装置。为房间和相邻的浴室供暖。需要原木作为燃料。
+GasBoiler.label,gas boiler,label,ThingDef/ThingDef.xml,def,gas boiler,燃气锅炉
+GasBoiler.description,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.,生产 2000 个用于散热器和 性感的 水箱的加热装置。需要化学燃料作为燃料。可以通过恒温器控制。
+ElectricBoiler.label,electric boiler,label,ThingDef/ThingDef.xml,def,electric boiler,电锅炉
+ElectricBoiler.description,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.,为散热器和热水箱生产数量可变的加热装置。手动控制功率设置。可以通过恒温器控制。
+SolarHeater.label,solar heater,label,ThingDef/ThingDef.xml,def,solar heater,太阳能热水器
+SolarHeater.description,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.,description,ThingDef/ThingDef.xml,def,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.,利用阳光加热热水箱和散热器。 0-2000 单位的加热功率取决于光照强度和环境温度。
+GeothermHeater.label,Geothermal heater,label,ThingDef/ThingDef.xml,def,Geothermal heater,地热加热器
+GeothermHeater.description,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.,description,ThingDef/ThingDef.xml,def,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.,使用地热来加热 性感的 水箱和散热器。供暖3700单位。
+RadiatorStuffed.label,radiator,label,ThingDef/ThingDef.xml,def,radiator,散热器
+RadiatorLarge.label,large radiator,label,ThingDef/ThingDef.xml,def,large radiator,大散热器
+RadiatorLarge.description,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.,description,ThingDef/ThingDef.xml,def,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.,输出功率是标准散热器的三倍。对于较大的房间很有用。需要300个加热装置。
+RadiatorTowelRail.label,Towel Rail,label,ThingDef/ThingDef.xml,def,Towel Rail,毛巾架
+RadiatorTowelRail.description,Impressive bathroom towel rail.,description,ThingDef/ThingDef.xml,def,Impressive bathroom towel rail.,令人印象深刻的浴室毛巾架。
+CeilingFan.label,ceiling fan 2x2,label,ThingDef/ThingDef.xml,def,ceiling fan 2x2,吊扇 2x2
+CeilingFanS.label,ceiling fan 1x1,label,ThingDef/ThingDef.xml,def,ceiling fan 1x1,吊扇 1x1
+AirConOutdoorUnit.label,air-con outdoor unit,label,ThingDef/ThingDef.xml,def,air-con outdoor unit,空调室外机
+AirConOutdoorUnit.description,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.,description,ThingDef/ThingDef.xml,def,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.,多联机空调机组。放置在室外并通过管道连接到室内机或冷冻机。功率模式选择，具有100-1000冷却机组容量。
+AirconIndoorUnit.label,air-con indoor unit,label,ThingDef/ThingDef.xml,def,air-con indoor unit,空调室内机
+AirconIndoorUnit.description,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.,description,ThingDef/ThingDef.xml,def,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.,房间的室内空调装置。连接到室外空调装置。需要 100 个冷却装置。
+FreezerUnit.label,walk-in freezer unit,label,ThingDef/ThingDef.xml,def,walk-in freezer unit,步入式冷冻装置
+FreezerUnit.description,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.,description,ThingDef/ThingDef.xml,def,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.,用于创建步入式冷冻室的冷冻装置。连接到室外空调装置。需要 300 个冷却装置。

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: ADS Dish.-->
+  <ADS_Dish.description>ADS 菜。</ADS_Dish.description>
+  <!--EN: ADS Dish-->
+  <ADS_Dish.label>ADS 盘</ADS_Dish.label>
+  <!--EN: A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt-->
+  <BigTurbine.description>由蒸汽驱动的涡轮机带动发电机发电。 Zeus 的最大功率输出为 1 兆瓦</BigTurbine.description>
+  <!--EN: Zeus Turbine-->
+  <BigTurbine.label>宙斯涡轮机</BigTurbine.label>
+  <!--EN: Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.\n25kW cooling capacity-->
+  <CoolingRadiator.description>Small 空气冷却器，设计用于在资源或空间有限的情况下为小型核反应堆提供冷却。
+25kW 冷却能力</CoolingRadiator.description>
+  <!--EN: Radiator-->
+  <CoolingRadiator.label>散热器</CoolingRadiator.label>
+  <!--EN: Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.\n250kW cooling capacity-->
+  <CoolingTower.description>超大型空气冷却器，旨在在没有天然水体的情况下为核反应堆提供大量冷却。
+250kW 冷却能力</CoolingTower.description>
+  <!--EN: Cooling Tower-->
+  <CoolingTower.label>冷却塔</CoolingTower.label>
+  <!--EN: Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.\n250kW cooling capacity-->
+  <CoolingWater.description>利用河流、湖泊或海洋中的冷水为核反应堆提供大量冷却。
+250kW 冷却能力</CoolingWater.description>
+  <!--EN: Water Cooling-->
+  <CoolingWater.label>水冷</CoolingWater.label>
+  <!--EN: A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.-->
+  <FuelRods.description>一组充满铀颗粒的棒，当装入反应堆堆芯时，它们会产生热量，可用于驱动涡轮机。</FuelRods.description>
+  <!--EN: fuel rods-->
+  <FuelRods.label>燃料棒</FuelRods.label>
+  <!--EN: A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.-->
+  <FuelRodsMOX.description>一组充满铀和钚混合物的棒，当装入反应堆堆芯时，它们会产生热量，可用于驱动涡轮机。</FuelRodsMOX.description>
+  <!--EN: fuel rods MOX-->
+  <FuelRodsMOX.label>燃料棒MOX</FuelRodsMOX.label>
+  <!--EN: HEL Laser.-->
+  <HEL_Laser.description>高能激光。</HEL_Laser.description>
+  <!--EN: HEL Laser-->
+  <HEL_Laser.label>高能激光</HEL_Laser.label>
+  <!--EN: Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.-->
+  <HighVoltage.description>用于将高压电力从涡轮机传输到变压器的电缆。可以放置在墙壁和其他建筑物下。</HighVoltage.description>
+  <!--EN: High Voltage-->
+  <HighVoltage.label>高压</HighVoltage.label>
+  <!--EN: Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.-->
+  <HighVoltageHidden.description>用于将高压电力从涡轮机传输到变压器的隐藏电缆。可以放置在墙壁和其他建筑物下。</HighVoltageHidden.description>
+  <!--EN: high voltage (hidden)-->
+  <HighVoltageHidden.label>高压（隐藏）</HighVoltageHidden.label>
+  <!--EN: Marauder Railgun.-->
+  <Marauder_Railgun.description>掠夺者磁轨炮。</Marauder_Railgun.description>
+  <!--EN: Marauder Railgun-->
+  <Marauder_Railgun.label>掠夺者磁轨炮</Marauder_Railgun.label>
+  <!--EN: The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.-->
+  <MissileSilo.description>RA-1776b 解放者是一种独立的一体化战略导弹制造和发射设施，具有 5 个导弹弹匣容量。需要有人值守的 SACS 才能发挥作用。</MissileSilo.description>
+  <!--EN: Liberator-->
+  <MissileSilo.label>救星</MissileSilo.label>
+  <!--EN: Obelisk Laser.-->
+  <Obelisk_Laser.description>方尖碑激光。</Obelisk_Laser.description>
+  <!--EN: Obelisk Laser-->
+  <Obelisk_Laser.label>方尖碑激光</Obelisk_Laser.label>
+  <!--EN: The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons-->
+  <PPC.description>RA-P3 脉冲功率电容器在一组超级电容器中存储大量能量，这些超级电容器可以通过兼容的 Rimatomics 能量武器在单脉冲中放电</PPC.description>
+  <!--EN: PPC-->
+  <PPC.label>个人电脑</PPC.label>
+  <!--EN: The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.-->
+  <PPCADS.description>RA-22 主动拒止系统 (ADS) 是一种非致命定向能武器，专为区域拒止和人群控制而设计。它会加热目标人类对象的皮肤，导致他们破坏秩序并逃跑。不需要视线。需要有人值守的 SACS。</PPCADS.description>
+  <!--EN: ADS-->
+  <PPCADS.label>ADS</PPCADS.label>
+  <!--EN: The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range.-->
+  <PPCHEL.description>RA-702 高能激光器 (HEL) 可以摧毁敌人的空中射弹，例如迫击炮 炮弹。当迫击炮发射时，系统将检查 炮弹 是否会穿过 HEL 的射程，并尝试跟踪目标并在目标进入射程后开火。</PPCHEL.description>
+  <!--EN: HEL-->
+  <PPCHEL.label>赫尔</PPCHEL.label>
+  <!--EN: The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS.-->
+  <PPCMarauder.description>RA-3b 掠夺者是一种多管同轴等离子轨道炮平台，大电磁脉冲以极快的速度发射一系列加速等离子环形线圈，造成爆炸性辐射发射影响。需要有人值守的 SACS。</PPCMarauder.description>
+  <!--EN: Marauder-->
+  <PPCMarauder.label>掠夺者</PPCMarauder.label>
+  <!--EN: The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting-->
+  <PPCObelisk.description>RA-2152-X 方尖碑是一种定向能武器，使用聚焦固态激光来蒸发目标。 100% 准确，射程远，威力强大。自动瞄准和射击。手动瞄准所需的载人 SACS</PPCObelisk.description>
+  <!--EN: Obelisk-->
+  <PPCObelisk.label>方尖碑</PPCObelisk.label>
+  <!--EN: The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.-->
+  <PPCRailgun.description>RA-1802D Punisher 是一款 25 发弹匣供弹轨道炮平台，它使用大电磁脉冲以极高的速度和射程发射弹壳弹丸。需要视线。火力任务不需要视线。手动瞄准需要载人 SACS。需要有人值守的 SACS。</PPCRailgun.description>
+  <!--EN: Punisher-->
+  <PPCRailgun.label>惩罚者</PPCRailgun.label>
+  <!--EN: The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.-->
+  <PPCTeslaCoil.description>RA-42T 特斯拉线圈向目标发出巨大的电弧放电，导致严重烧伤或死亡。 100% 准确，中等射程，可点燃目标。自动瞄准和射击。手动瞄准需要载人 SACS。</PPCTeslaCoil.description>
+  <!--EN: Tesla Coil-->
+  <PPCTeslaCoil.label>特斯拉线圈</PPCTeslaCoil.label>
+  <!--EN: The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.-->
+  <PPCWeaponsConsole.description>所有 Rimatomics 能源武器都需要 RA-c85 半自动指挥站，可能需要人员配备才能使某些武器充分发挥作用。</PPCWeaponsConsole.description>
+  <!--EN: SACS-->
+  <PPCWeaponsConsole.label>萨克斯</PPCWeaponsConsole.label>
+  <!--EN: A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.-->
+  <PlutoniumProcessor.description>使用化学品从乏核燃料中分离可裂变钚的机器。</PlutoniumProcessor.description>
+  <!--EN: Plutonium Processor-->
+  <PlutoniumProcessor.label>钚处理器</PlutoniumProcessor.label>
+  <!--EN: The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.-->
+  <RadarDish.description>RA-92 目标捕获和通信系统采用多种技术来跟踪陆地和空中目标并与武器系统进行通信。</RadarDish.description>
+  <!--EN: TACS-->
+  <RadarDish.label>塔塔控制系统</RadarDish.label>
+  <!--EN: Radiation detector, can be placed near reactors to detect radiation leaks-->
+  <RadiationDetector.description>辐射探测器，可放置在反应堆附近以检测辐射泄漏</RadiationDetector.description>
+  <!--EN: Radiation Detector-->
+  <RadiationDetector.label>辐射探测器</RadiationDetector.label>
+  <!--EN: Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation-->
+  <RadiationShielding.description>非常坚固的墙，用贫铀加固，提供全面的辐射屏蔽</RadiationShielding.description>
+  <!--EN: Reinforced DU Wall-->
+  <RadiationShielding.label>强化 DU 墙</RadiationShielding.label>
+  <!--EN: Railgun Railgun.-->
+  <Railgun_Cannon.description>轨道炮 轨道炮。</Railgun_Cannon.description>
+  <!--EN: Punisher Railgun-->
+  <Railgun_Cannon.label>惩罚者磁轨炮</Railgun_Cannon.label>
+  <!--EN: Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time-->
+  <ReactorControl.description>设计用于控制核反应堆的计算机系统。派遣一名殖民者来操作空间站以访问控件，可以同时打开多个控件</ReactorControl.description>
+  <!--EN: reactor console-->
+  <ReactorControl.label>反应堆控制台</ReactorControl.label>
+  <!--EN: Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated-->
+  <ReactorCoreA.description>Rimatomics热反应堆堆芯具有21个燃料组件的能力。反应堆堆芯包含发生核反应并产生热量的燃料成分</ReactorCoreA.description>
+  <!--EN: Reactor Type A-->
+  <ReactorCoreA.label>A型反应器</ReactorCoreA.label>
+  <!--EN: An advanced breeder reactor design which can generate more fissile material than it consumes.-->
+  <ReactorCoreB.description>先进的增殖反应堆设计，可产生比消耗的更多的裂变材料。</ReactorCoreB.description>
+  <!--EN: Reactor Type X-->
+  <ReactorCoreB.label>X 型反应器</ReactorCoreB.label>
+  <!--EN: A massive advanced breeder reactor design which can generate more fissile material than it consumes.-->
+  <ReactorCoreC.description>大型先进增殖反应堆设计，可产生比消耗的裂变材料更多的裂变材料。</ReactorCoreC.description>
+  <!--EN: Reactor Type V-->
+  <ReactorCoreC.label>V 型反应器</ReactorCoreC.label>
+  <!--EN: Sarcophagus Type A-->
+  <ReactorSacrophagus.label>A型石棺</ReactorSacrophagus.label>
+  <!--EN: Sarcophagus Type X-->
+  <ReactorSacrophagusB.label>X型石棺</ReactorSacrophagusB.label>
+  <!--EN: Sarcophagus Type V-->
+  <ReactorSacrophagusC.label>V型石棺</ReactorSacrophagusC.label>
+  <!--EN: Research reactor.-->
+  <ResearchReactor.description>研究堆。</ResearchReactor.description>
+  <!--EN: Research Reactor-->
+  <ResearchReactor.label>研究堆</ResearchReactor.label>
+  <!--EN: An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.-->
+  <RimatomicsRTG.description>一种发电机，使用一系列热电偶将适当放射性材料衰变释放的热量转化为电能。</RimatomicsRTG.description>
+  <!--EN: R.T.G-->
+  <RimatomicsRTG.label>RTG</RimatomicsRTG.label>
+  <!--EN: The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer.-->
+  <RimatomicsShieldGenerator.description>RA-S4 Sentinel 是一种能量护盾，它结合使用激光、微波和电弧放电来产生等离子体场，可以拦截基于物理或能量的射弹武器。传感器检测产生冲击波的事件，确定冲击波相对于防御目标的方向和距离，并计算射击计划，然后该设备利用反射、折射、色散、吸收和动量传递来衰减冲击波事件。</RimatomicsShieldGenerator.description>
+  <!--EN: Sentinel-->
+  <RimatomicsShieldGenerator.label>哨兵</RimatomicsShieldGenerator.label>
+  <!--EN: Tesla Coil Arc Discharger.-->
+  <Tesla_Coil_Arc_Discharger.description>特斯拉线圈电弧放电器。</Tesla_Coil_Arc_Discharger.description>
+  <!--EN: Tesla Coil Arc Discharger-->
+  <Tesla_Coil_Arc_Discharger.label>特斯拉线圈电弧放电器</Tesla_Coil_Arc_Discharger.label>
+  <!--EN: Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits-->
+  <Transformer.description>提供来自涡轮发电机的最终电压变换，将高压线路中使用的电压降低到电力管道使用的水平</Transformer.description>
+  <!--EN: High Voltage Transformer-->
+  <Transformer.label>高压变压器</Transformer.label>
+  <!--EN: A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts-->
+  <Turbine.description>由蒸汽驱动的涡轮机带动发电机发电。雷神的最大功率输出为 100 千瓦</Turbine.description>
+  <!--EN: Thor Turbine-->
+  <Turbine.label>雷神涡轮机</Turbine.label>
+  <!--EN: Weapons research bench.-->
+  <WeaponsBench.description>武器研究台。</WeaponsBench.description>
+  <!--EN: Weapons Research Bench-->
+  <WeaponsBench.label>武器研究台</WeaponsBench.label>
+  <!--EN: Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.-->
+  <controllerLoom.description>用于在核心和控制台之间传输信号的布线器。可以放置在墙壁和其他建筑物下。</controllerLoom.description>
+  <!--EN: Console Loom-->
+  <controllerLoom.label>控制台织机</controllerLoom.label>
+  <!--EN: Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.-->
+  <controllerLoomHidden.description>用于在核心和控制台之间传输信号的隐藏布线器。可以放置在墙壁和其他建筑物下。</controllerLoomHidden.description>
+  <!--EN: console loom (hidden)-->
+  <controllerLoomHidden.label>控制台织机（隐藏）</controllerLoomHidden.label>
+  <!--EN: Opens or closes connections between coolant pipes.-->
+  <coolantValve.description>打开或关闭冷却剂管道之间的连接。</coolantValve.description>
+  <!--EN: Coolant valve-->
+  <coolantValve.label>冷却液阀</coolantValve.label>
+  <!--EN: Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.-->
+  <coolingPipe.description>用于将冷却剂从涡轮机泵送到冷却系统的管道。可以放置在墙壁和其他建筑物下。</coolingPipe.description>
+  <!--EN: coolant pipe-->
+  <coolingPipe.label>冷却液管</coolingPipe.label>
+  <!--EN: Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.-->
+  <coolingPipeHidden.description>用于将冷却剂从涡轮机泵送到冷却系统的隐藏管道。可以放置在墙壁和其他建筑物下。</coolingPipeHidden.description>
+  <!--EN: coolant pipe (hidden)-->
+  <coolingPipeHidden.label>冷却液管（隐藏式）</coolingPipeHidden.label>
+  <!--EN: Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.-->
+  <steamPipe.description>用于将高压蒸汽从反应堆泵送到涡轮机的管道。可以放置在墙壁和其他建筑物下。</steamPipe.description>
+  <!--EN: Steam pipe-->
+  <steamPipe.label>蒸汽管</steamPipe.label>
+  <!--EN: Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.-->
+  <steamPipeHidden.description>用于将高压蒸汽从反应堆泵送到涡轮机的隐藏管道。可以放置在墙壁和其他建筑物下。</steamPipeHidden.description>
+  <!--EN: steam water pipe (hidden)-->
+  <steamPipeHidden.label>蒸汽水管（隐藏式）</steamPipeHidden.label>
+  <!--EN: Opens or closes connections between steam pipes.-->
+  <steamValve.description>打开或关闭蒸汽管道之间的连接。</steamValve.description>
+  <!--EN: Steam valve-->
+  <steamValve.label>蒸汽阀</steamValve.label>
+  <!--EN: A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used-->
+  <storagePool.description>用于安全储存废核燃料棒的储存池，池中的水会吸收辐射，燃料必须手动从池中取出才能使用</storagePool.description>
+  <!--EN: Storage Pool-->
+  <storagePool.label>存储池</storagePool.label>
+  <!--EN: Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.-->
+  <waterPipe.description>用于将冷水从涡轮机或热交换器泵回核心的管道。可以放置在墙壁和其他建筑物下。</waterPipe.description>
+  <!--EN: cold water pipe-->
+  <waterPipe.label>冷水管</waterPipe.label>
+  <!--EN: Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.-->
+  <waterPipeHidden.description>用于将冷水从涡轮机或热交换器抽回核心的隐藏管道。可以放置在墙壁和其他建筑物下。</waterPipeHidden.description>
+  <!--EN: cold water pipe (hidden)-->
+  <waterPipeHidden.label>冷水管（隐藏式）</waterPipeHidden.label>
+  <!--EN: Opens or closes connections between cold water pipes.-->
+  <waterValve.description>打开或关闭冷水管之间的连接。</waterValve.description>
+  <!--EN: Cold water valve-->
+  <waterValve.label>冷水阀</waterValve.label>
+</LanguageData>

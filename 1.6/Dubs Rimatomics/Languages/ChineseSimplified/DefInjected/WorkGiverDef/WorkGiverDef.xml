@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: working at-->
+  <DoBillsTableNuclear.gerund>工作于</DoBillsTableNuclear.gerund>
+  <!--EN: Do bills at nuclear machining table-->
+  <DoBillsTableNuclear.label>在核加工台上做帐单</DoBillsTableNuclear.label>
+  <!--EN: work-->
+  <DoBillsTableNuclear.verb>工作</DoBillsTableNuclear.verb>
+  <!--EN: loading fuel into-->
+  <LoadFuelModule.gerund>将燃料装入</LoadFuelModule.gerund>
+  <!--EN: Load fuel-->
+  <LoadFuelModule.label>装载燃油</LoadFuelModule.label>
+  <!--EN: load fuel into-->
+  <LoadFuelModule.verb>将燃油装入</LoadFuelModule.verb>
+  <!--EN: loading-->
+  <LoadProcChemFuel.gerund>加载中</LoadProcChemFuel.gerund>
+  <!--EN: Load chemfuel-->
+  <LoadProcChemFuel.label>加载化学燃料</LoadProcChemFuel.label>
+  <!--EN: load-->
+  <LoadProcChemFuel.verb>加载</LoadProcChemFuel.verb>
+  <!--EN: loading-->
+  <LoadRailgunMagazine.gerund>加载中</LoadRailgunMagazine.gerund>
+  <!--EN: Load sabot rounds-->
+  <LoadRailgunMagazine.label>装载弹壳弹</LoadRailgunMagazine.label>
+  <!--EN: load-->
+  <LoadRailgunMagazine.verb>加载</LoadRailgunMagazine.verb>
+  <!--EN: loading-->
+  <LoadSilo.gerund>加载中</LoadSilo.gerund>
+  <!--EN: Load silo-->
+  <LoadSilo.label>装载筒仓</LoadSilo.label>
+  <!--EN: load-->
+  <LoadSilo.verb>加载</LoadSilo.verb>
+  <!--EN: loading-->
+  <LoadSpentFuel.gerund>加载中</LoadSpentFuel.gerund>
+  <!--EN: Load spent fuel-->
+  <LoadSpentFuel.label>装载乏燃料</LoadSpentFuel.label>
+  <!--EN: load-->
+  <LoadSpentFuel.verb>加载</LoadSpentFuel.verb>
+  <!--EN: removing fuel from-->
+  <RemoveFuelModule.gerund>去除燃料</RemoveFuelModule.gerund>
+  <!--EN: Remove fuel-->
+  <RemoveFuelModule.label>去除燃油</RemoveFuelModule.label>
+  <!--EN: remove fuel from-->
+  <RemoveFuelModule.verb>去除燃料</RemoveFuelModule.verb>
+  <!--EN: Constructing-->
+  <RimatomicsConstruction.gerund>建设中</RimatomicsConstruction.gerund>
+  <!--EN: Do Rimatomics construction-->
+  <RimatomicsConstruction.label>进行 Rimatomics 构建</RimatomicsConstruction.label>
+  <!--EN: Construct-->
+  <RimatomicsConstruction.verb>构造</RimatomicsConstruction.verb>
+  <!--EN: researching at-->
+  <RimatomicsCrafting.gerund>研究于</RimatomicsCrafting.gerund>
+  <!--EN: Do research-->
+  <RimatomicsCrafting.label>做研究</RimatomicsCrafting.label>
+  <!--EN: research-->
+  <RimatomicsCrafting.verb>研究</RimatomicsCrafting.verb>
+  <!--EN: researching at-->
+  <RimatomicsResearch.gerund>研究于</RimatomicsResearch.gerund>
+  <!--EN: Do rimatomics research-->
+  <RimatomicsResearch.label>进行 Rimatomics 研究</RimatomicsResearch.label>
+  <!--EN: rimatomics research-->
+  <RimatomicsResearch.verb>病毒组学研究</RimatomicsResearch.verb>
+  <!--EN: researching at-->
+  <RimatomicsSuperviseResearch.gerund>研究于</RimatomicsSuperviseResearch.gerund>
+  <!--EN: Do Supervise research-->
+  <RimatomicsSuperviseResearch.label>监督研究</RimatomicsSuperviseResearch.label>
+  <!--EN: Supervise research-->
+  <RimatomicsSuperviseResearch.verb>监督研究</RimatomicsSuperviseResearch.verb>
+  <!--EN: unloading-->
+  <UnloadPlutonium.gerund>卸货</UnloadPlutonium.gerund>
+  <!--EN: Remove plutonium-->
+  <UnloadPlutonium.label>去除钚</UnloadPlutonium.label>
+  <!--EN: unload-->
+  <UnloadPlutonium.verb>卸下</UnloadPlutonium.verb>
+  <!--EN: upgrading-->
+  <UpgradeBuilding.gerund>升级</UpgradeBuilding.gerund>
+  <!--EN: Upgrade Rimatomics buildings-->
+  <UpgradeBuilding.label>升级 Rimatomics 建筑</UpgradeBuilding.label>
+  <!--EN: Upgrade-->
+  <UpgradeBuilding.verb>升级</UpgradeBuilding.verb>
+</LanguageData>

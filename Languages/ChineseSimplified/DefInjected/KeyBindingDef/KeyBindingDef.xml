@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Mint Build Menu-->
+  <MintMenus_BuildMenu.label>Mint 建造菜单</MintMenus_BuildMenu.label>
+  <!--EN: Mint Bill Menu-->
+  <MintMenus_MintBillMenu.label>Mint 工作清单菜单</MintMenus_MintBillMenu.label>
+  <!--EN: Mint Gear Menu-->
+  <MintMenus_MintGearMenu.label>Mint 装备菜单</MintMenus_MintGearMenu.label>
+  <!--EN: Mint Research Menu-->
+  <MintMenus_MintResearch.label>Mint 研究菜单</MintMenus_MintResearch.label>
+  <!--EN: Mint Wheel-->
+  <MintMenus_MintWheel.label>Mint 环形菜单</MintMenus_MintWheel.label>
+  <!--EN: Hide resource readout (except pins)-->
+  <MintMenus_PinningHide.label>隐藏资源读数（固定项除外）</MintMenus_PinningHide.label>
+</LanguageData>

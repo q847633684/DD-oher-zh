@@ -1,0 +1,17 @@
+key,text,tag,file,type
+Underwear.label,underwear,label,ThingCategoryDef/ThingCategoryDef.xml,def
+UnderWhere_Panties.label,panties,label,ThingDef/ThingDef.xml,def
+UnderWhere_Panties.description,A pair of simple women's undergarments.,description,ThingDef/ThingDef.xml,def
+UnderWhere_Boxers.label,boxers,label,ThingDef/ThingDef.xml,def
+UnderWhere_Boxers.description,A pair of simple men's undergarments.,description,ThingDef/ThingDef.xml,def
+UnderWhere_Bra.label,bra,label,ThingDef/ThingDef.xml,def
+UnderWhere_Bra.description,"A bra, for providing support to women's fun bits.",description,ThingDef/ThingDef.xml,def
+UnderWhere_Tanktop.label,tanktop,label,ThingDef/ThingDef.xml,def
+UnderWhere_Tanktop.description,"Tanktop, wifebeater, A-Shirt, singlet. Whatever you call it, its an undershirt for both sexes.",description,ThingDef/ThingDef.xml,def
+UnderWhere_Chestwrap.label,chestwrap,label,ThingDef/ThingDef.xml,def
+UnderWhere_Chestwrap.description,"A primitive chestwrap, for providing support to women's fun bits.",description,ThingDef/ThingDef.xml,def
+UnderWhere_Loincloth.label,loincloth,label,ThingDef/ThingDef.xml,def
+UnderWhere_Loincloth.description,A primitive excuse for modesty. Very drafty.,description,ThingDef/ThingDef.xml,def
+UnderWhere_LongJohns.label,long johns,label,ThingDef/ThingDef.xml,def
+UnderWhere_LongJohns.description,This type of full-body underwear for both sexes is popular in cold climates for its thermal insulative properties.,description,ThingDef/ThingDef.xml,def
+UnderwearTop.label,underwear top,label,ApparelLayerDef/ApparelLayerDef.xml,def

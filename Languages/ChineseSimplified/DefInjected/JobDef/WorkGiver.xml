@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--原中文: '正在收集TargetA物资。', 原英文: '无' -> 新英文: 'gathering TargetA to hauling inventory.',更新于2026-02-16-->
+  <!--EN: gathering TargetA to hauling inventory.-->
+  <HaulToInventory.reportString>正在收集TargetA物资。</HaulToInventory.reportString>
+  <!--原中文: '正在卸载物资。', 原英文: '无' -> 新英文: 'unloading inventory.',更新于2026-02-16-->
+  <!--EN: unloading inventory.-->
+  <UnloadYourHauledInventory.reportString>正在卸载物资。</UnloadYourHauledInventory.reportString>
+</LanguageData>

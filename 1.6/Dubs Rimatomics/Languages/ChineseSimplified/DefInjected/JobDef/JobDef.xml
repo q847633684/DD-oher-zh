@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Fleeing TargetA.-->
+  <FleeADS.reportString>逃离目标A.</FleeADS.reportString>
+  <!--EN: Hauling TargetB to TargetA.-->
+  <HaulModuletoCore.reportString>将 TargetB 拖至 TargetA。</HaulModuletoCore.reportString>
+  <!--EN: Loading railgun magazine.-->
+  <LoadRailgunMagazine.reportString>正在装载轨道炮弹匣。</LoadRailgunMagazine.reportString>
+  <!--EN: Loading Silo.-->
+  <LoadSilo.reportString>装载筒仓。</LoadSilo.reportString>
+  <!--EN: hauling TargetB to TargetA.-->
+  <LoadSpentFuel.reportString>将 TargetB 拖至 TargetA。</LoadSpentFuel.reportString>
+  <!--EN: removing fuel rods from TargetA.-->
+  <RemoveFuelModule.reportString>从 TargetA 上移除燃料棒。</RemoveFuelModule.reportString>
+  <!--EN: Researching at TargetA.-->
+  <RimatomicsResearch.reportString>在 TargetA 进行研究。</RimatomicsResearch.reportString>
+  <!--EN: Constructing TargetA.-->
+  <SuperviseConstruction.reportString>构建目标A.</SuperviseConstruction.reportString>
+  <!--EN: Researching at TargetA.-->
+  <SuperviseResearch.reportString>在 TargetA 进行研究。</SuperviseResearch.reportString>
+  <!--EN: removing plutonium from TargetA.-->
+  <UnloadPlutonium.reportString>从 TargetA 中去除钚。</UnloadPlutonium.reportString>
+  <!--EN: Upgrading TargetA.-->
+  <UpgradeBuilding.reportString>升级目标A.</UpgradeBuilding.reportString>
+  <!--EN: Using reactor console.-->
+  <UseReactorConsole.reportString>使用反应堆控制台。</UseReactorConsole.reportString>
+</LanguageData>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Apparel equip speed-->
+  <Apparel_equip_speed>服装装备速度</Apparel_equip_speed>
+  <!--EN: Apparel visibility-->
+  <Apparel_visibility>服装可见度</Apparel_visibility>
+  <!--EN: Change equip speeds-->
+  <Change_equip_speeds>改变装备速度</Change_equip_speeds>
+  <!--EN: Equip duration %-->
+  <Equip_duration>装备持续时间%</Equip_duration>
+  <!--EN: Equip speed Ticks-->
+  <Equip_speed_Ticks>装备速度刻度</Equip_speed_Ticks>
+  <!--EN: Ctrl+H on a selected pawn will toggle the visibility of that hair type under hats-->
+  <HairFiltersTip>在选定的 pawn 上按 Ctrl+H 将切换帽子下该头发类型的可见性</HairFiltersTip>
+  <!--EN: {0} always hidden under {1}-->
+  <HairHat_Filter_Add>{0} 始终隐藏在 {1} 下</HairHat_Filter_Add>
+  <!--EN: {0} now visible under {1}-->
+  <HairHat_Filter_Remove>{0} 现在在 {1} 下可见</HairHat_Filter_Remove>
+  <!--EN: Reset-->
+  <HairScaleReset>重置</HairScaleReset>
+  <!--EN: {0} always hidden under hats-->
+  <Hair_Filter_Add>{0} 总是隐藏在帽子下面</Hair_Filter_Add>
+  <!--EN: {0} can now be shown under hats-->
+  <Hair_Filter_Remove>{0} 现在可以显示在帽子下</Hair_Filter_Remove>
+  <!--EN: Hair visibility-->
+  <Hair_visibility>头发可见度</Hair_visibility>
+  <!--EN: Ctrl+J on a selected pawn will toggle the visibility of that hat type-->
+  <HatFiltersTip>在选定的 pawn 上按 Ctrl+J 将切换该帽子类型的可见性</HatFiltersTip>
+  <!--EN: Ctrl+K on a selected pawn will toggle the visibility of that hair and hat combination-->
+  <HatHairFiltersTip>在选定的 pawn 上按 Ctrl+K 将切换该头发和帽子组合的可见性</HatHairFiltersTip>
+  <!--EN: Hat Scaling-->
+  <HatScaling>帽子缩放</HatScaling>
+  <!--EN: {0} always visible-->
+  <Hat_Filter_Add>{0} 始终可见</Hat_Filter_Add>
+  <!--EN: {0} can now be hidden while indoors or undrafted-->
+  <Hat_Filter_Remove>{0} 现在可以在室内或未起草时隐藏</Hat_Filter_Remove>
+  <!--EN: Hats only while drafted-->
+  <Hats_only_while_drafted>仅在选秀时戴帽子</Hats_only_while_drafted>
+  <!--EN: Hide hats-->
+  <Hide_hats_when_indoors>隐藏帽子</Hide_hats_when_indoors>
+  <!--EN: Hide shell layers-->
+  <Hide_jackets_when_indoors>隐藏 贝壳 层</Hide_jackets_when_indoors>
+  <!--EN: Only hide apparel indoors-->
+  <IndoorHidingMode>只将衣物藏在室内</IndoorHidingMode>
+  <!--EN: Narrow Width-->
+  <Narrow_Width>窄幅</Narrow_Width>
+  <!--EN: Normal + Narrow Height-->
+  <Normal__Narrow_Height>正常+窄高</Normal__Narrow_Height>
+  <!--EN: Same speed for all apparel-->
+  <Same_speed_for_all_apparel>所有服装的速度相同</Same_speed_for_all_apparel>
+  <!--EN: Show hair under hats-->
+  <Show_hair_under_hats>帽子下露出头发</Show_hair_under_hats>
+  <!--EN: Select layers to hide-->
+  <VisibilityTogglesDesc>选择要隐藏的图层</VisibilityTogglesDesc>
+</LanguageData>

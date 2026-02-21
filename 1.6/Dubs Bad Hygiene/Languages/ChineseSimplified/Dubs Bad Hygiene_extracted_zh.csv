@@ -1,0 +1,860 @@
+key,text,tag,file,type,protected_text,translated
+dbh.Things,Things:,dbh.Things,DubsHygiene.xml,keyed,Things:,事物：
+dbh.Terrain,Terrain:,dbh.Terrain,DubsHygiene.xml,keyed,Terrain:,地形：
+dbh.Environment,Environment:,dbh.Environment,DubsHygiene.xml,keyed,Environment:,环境：
+dbh.Pollution,Pollution,dbh.Pollution,DubsHygiene.xml,keyed,Pollution,污染
+dbh.Sewagecontamination,Sewage contamination,dbh.Sewagecontamination,DubsHygiene.xml,keyed,Sewage contamination,污水污染
+DesignatorRemovePlumbing,Remove pipes,DesignatorRemovePlumbing,DubsHygiene.xml,keyed,Remove pipes,拆除管道
+DesignatorRemovePlumbingDesc,Designate sections of a pipe type for deconstruction.,DesignatorRemovePlumbingDesc,DubsHygiene.xml,keyed,Designate sections of a pipe type for deconstruction.,指定管道类型的部分进行解构。
+RemoveSewage,Remove sewage,RemoveSewage,DubsHygiene.xml,keyed,Remove sewage,清除污水
+RemoveSewageDesc,Remove sewage from the ground and place it into barrels.,RemoveSewageDesc,DubsHygiene.xml,keyed,Remove sewage from the ground and place it into barrels.,将地面污水清除并放入桶中。
+RemovePlumbing,Remove plumbing,RemovePlumbing,DubsHygiene.xml,keyed,Remove plumbing,拆除管道
+RemoveAirCon,Remove air-con,RemoveAirCon,DubsHygiene.xml,keyed,Remove air-con,拆掉空调
+DBH.requiresSaunaRoom,Room is too large to heat!\nMaximum of 50 cells per heater\nAdd more sauna heaters or shrink the room,DBH.requiresSaunaRoom,DubsHygiene.xml,keyed,Room is too large to heat!(PH_2)Maximum of 50 cells per heater(PH_1)Add more sauna heaters or shrink the room,"房间太大，无法供暖！
+每个加热器最多 50 个单元
+添加更多桑拿加热器或缩小房间"
+DBH.HeatedPool,Pool is heated,DBH.HeatedPool,DubsHygiene.xml,keyed,Pool is heated,泳池是恒温的
+DBH.CantUsePool,Cannot use pool now:,DBH.CantUsePool,DubsHygiene.xml,keyed,Cannot use pool now:,现在无法使用池：
+DBH.PoolRaining,Raining,DBH.PoolRaining,DubsHygiene.xml,keyed,Raining,下雨
+DBH.PoolTooCold,Too cold {0},DBH.PoolTooCold,DubsHygiene.xml,keyed,Too cold (PH_1),太冷了 {0}
+DBHPrisonWater,Prison needs water source,DBHPrisonWater,DubsHygiene.xml,keyed,Prison needs water source,监狱需要水源
+DBHPrisonWaterEx,"A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water",DBHPrisonWaterEx,DubsHygiene.xml,keyed,"A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water",监狱牢房没有饮用水，应建立至少 1 个饮用水源，如水盆或水盆，以便囚犯能够自由获得饮用水
+Alert_MissingTower,Missing water tower,Alert_MissingTower,DubsHygiene.xml,keyed,Missing water tower,水塔不见了
+Alert_MissingTowerDesc,A water tower or water butt is required to store water pumped from wells.,Alert_MissingTowerDesc,DubsHygiene.xml,keyed,A water tower or water butt is required to store water pumped from wells.,需要水塔或水桶来储存从井中抽出的水。
+Alert_MissingWell,Missing well,Alert_MissingWell,DubsHygiene.xml,keyed,Missing well,失踪井
+Alert_MissingWellDesc,Pumps require a piped well to access ground water.,Alert_MissingWellDesc,DubsHygiene.xml,keyed,Pumps require a piped well to access ground water.,泵需要管道井才能获取地下水。
+Alert_MissingPump,Missing water pump,Alert_MissingPump,DubsHygiene.xml,keyed,Missing water pump,缺少水泵
+Alert_MissingPumpDesc,A water pump is required to pump the water from a well to a water tower.,Alert_MissingPumpDesc,DubsHygiene.xml,keyed,A water pump is required to pump the water from a well to a water tower.,需要水泵将水从井抽到水塔。
+DBHFalloutWarning,Fallout water contamination,DBHFalloutWarning,DubsHygiene.xml,keyed,Fallout water contamination,沉降水污染
+DBHFalloutWarningEx,"After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves.",DBHFalloutWarningEx,DubsHygiene.xml,keyed,"After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.(PH_4)(PH_3)Prepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.(PH_2)(PH_1)You can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves.","有毒沉降物经过 2 天后，堆积物将污染所有与水井相连的储水罐。
+
+做好准备，先建立一个水储备，然后使用阀门断开水井，以防止水受到污染。
+
+您还可以使用深井获取未受污染的水，或安装水处理系统，消除所有污染。水储备的污染。"
+DBHVacuum,In a vacuum,DBHVacuum,DubsHygiene.xml,keyed,In a vacuum,在真空中
+LowCoolingCap,Low cooling capacity. You can increase the power of outdoor units.,LowCoolingCap,DubsHygiene.xml,keyed,Low cooling capacity. You can increase the power of outdoor units.,冷却能力低。您可以增加室外机的功率。
+NotOwned,Access restricted,NotOwned,DubsHygiene.xml,keyed,Access restricted,访问受限
+GenderRestricted,{0} only,GenderRestricted,DubsHygiene.xml,keyed,(PH_1) only,仅 {0}
+PrisonersOnly,Prisoners only,PrisonersOnly,DubsHygiene.xml,keyed,Prisoners only,仅限囚犯
+BlockedSewage,A sewage outlet has become blocked.,BlockedSewage,DubsHygiene.xml,keyed,A sewage outlet has become blocked.,排污口被堵塞。
+BlockedSewageDesc,Sewage has built up around the drain hole and is blocking the outlet.\n\nBuild more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.,BlockedSewageDesc,DubsHygiene.xml,keyed,Sewage has built up around the drain hole and is blocking the outlet.(PH_2)(PH_1)Build more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.,"污水在排水孔周围堆积并堵塞了出口。
+
+建造更多出口或添加化粪池以形成缓冲区并减少出口压力。"
+LowWaterTemp,Low water temp,LowWaterTemp,DubsHygiene.xml,keyed,Low water temp,水温低
+LowWaterTempDesc,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank.",LowWaterTempDesc,DubsHygiene.xml,keyed,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.(PH_2)(PH_1)Turn on boilers, increase the heating capacity, or add another hot water tank.","该水箱内的水温太低；想要使用 性感的 水的殖民者可能会感到恼火。
+
+打开锅炉，增加加热能力，或添加另一个 性感的 水箱。"
+WellNeedsWater,Must be placed over a cell with ground water.,WellNeedsWater,DubsHygiene.xml,keyed,Must be placed over a cell with ground water.,必须放置在有地下水的牢房上方。
+WellNeedsIce,Must be placed over a cell with subsurface ice deposits,WellNeedsIce,DubsHygiene.xml,keyed,Must be placed over a cell with subsurface ice deposits,必须放置在有地下冰沉积的单元上方
+AssigningRequiresRoom,The fixture must be inside a room to restrict it.,AssigningRequiresRoom,DubsHygiene.xml,keyed,The fixture must be inside a room to restrict it.,灯具必须位于房间内才能对其进行限制。
+NoWaterTowers,Requires water storage tower,NoWaterTowers,DubsHygiene.xml,keyed,Requires water storage tower,需要储水塔
+AssigningRequiresBladderNeed,"Assigning requires bladder need, but {0} doesn't have bladder need.",AssigningRequiresBladderNeed,DubsHygiene.xml,keyed,"Assigning requires bladder need, but (PH_1) doesn't have bladder need.",分配需要膀胱需求，但 {0} 没有膀胱需求。
+DBHExtractorFrozen,Equipment frozen: {0},DBHExtractorFrozen,DubsHygiene.xml,keyed,Equipment frozen: (PH_1),设备冻结：{0}
+NoCompostingMaterial,No composting material,NoCompostingMaterial,DubsHygiene.xml,keyed,No composting material,无堆肥材料
+Nowater,No water capacity,Nowater,DubsHygiene.xml,keyed,No water capacity,无水容量
+Nosewage,No sewage capacity,Nosewage,DubsHygiene.xml,keyed,No sewage capacity,无排污能力
+RequiresPlumbing,Requires plumbing,RequiresPlumbing,DubsHygiene.xml,keyed,Requires plumbing,需要管道
+AccessRestricted,Access restricted,AccessRestricted,DubsHygiene.xml,keyed,Access restricted,访问受限
+TooHot,Too hot: x{0},TooHot,DubsHygiene.xml,keyed,Too hot: x(PH_1),太热：x{0}
+InRain,In rain: x{0},InRain,DubsHygiene.xml,keyed,In rain: x(PH_1),雨中：x{0}
+PhysicalActivity,Exertion: x{0},PhysicalActivity,DubsHygiene.xml,keyed,Exertion: x(PH_1),努力：x{0}
+FilthyRoom,Room: x{0},FilthyRoom,DubsHygiene.xml,keyed,Room: x(PH_1),房间：x{0}
+TotalHygieneStat,Total: x{0},TotalHygieneStat,DubsHygiene.xml,keyed,Total: x(PH_1),总计：x{0}
+DirtyHands,Dirty hands - Disease risk,DirtyHands,DubsHygiene.xml,keyed,Dirty hands - Disease risk,脏手 - 疾病风险
+LetterLabelBlockedDrain,A drain has become blocked.,LetterLabelBlockedDrain,DubsHygiene.xml,keyed,A drain has become blocked.,下水道被堵塞了。
+LetterBlockedDrain,A drain has become blocked. A cleaner must clean the blockage.,LetterBlockedDrain,DubsHygiene.xml,keyed,A drain has become blocked. A cleaner must clean the blockage.,下水道被堵塞了。清洁工必须清理堵塞物。
+ContaminationAlert,Contaminated water,ContaminationAlert,DubsHygiene.xml,keyed,Contaminated water,受污染的水
+ContaminationAlertDesc,"A well has become polluted.\n\nSources of contamination:\n{0}\n\nEither move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time.",ContaminationAlertDesc,DubsHygiene.xml,keyed,"A well has become polluted.(PH_6)(PH_5)Sources of contamination:(PH_4)(PH_3)(PH_2)(PH_1)Either move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time.","一口井已被污染。
+
+污染源：
+{0}
+
+移动井，消除污染源，或者如果您使用的是管道井，则添加一个水处理系统，随着时间的推移，该系统也将清洁受污染的水塔。"
+ContaminatiedTowerAlert,Contaminated water tower,ContaminatiedTowerAlert,DubsHygiene.xml,keyed,Contaminated water tower,被污染的水塔
+ContaminatiedTowerAlertDesc,"A water tower has become polluted, posing a serious health risk to your colonists. Solve the cause of the pollution and then drain the tank, or build a water treatment system.",ContaminatiedTowerAlertDesc,DubsHygiene.xml,keyed,"A water tower has become polluted, posing a serious health risk to your colonists. Solve the cause of the pollution and then drain the tank, or build a water treatment system.",一座水塔已被污染，对殖民者造成严重的健康风险。解决污染原因，然后排空水箱，或建造水处理系统。
+MessageHygieneDisease,{0} has contracted {1} because of bad personal hygiene,MessageHygieneDisease,DubsHygiene.xml,keyed,(PH_2) has contracted (PH_1) because of bad personal hygiene,{0} 由于个人卫生不良而感染了 {1}
+MessageWaterDisease,{0} has contracted {1} from drinking untreated water,MessageWaterDisease,DubsHygiene.xml,keyed,(PH_2) has contracted (PH_1) from drinking untreated water,{0} 因饮用未经处理的水而感染了 {1}
+MessageWaterDiseaseContaminated,{0} has contracted {1} from drinking contaminated water,MessageWaterDiseaseContaminated,DubsHygiene.xml,keyed,(PH_2) has contracted (PH_1) from drinking contaminated water,{0} 因饮用受污染的水而感染了 {1}
+ChangeGenderRestriction,Change gender restriction,ChangeGenderRestriction,DubsHygiene.xml,keyed,Change gender restriction,改变性别限制
+CommandFixtureSetAsMedicalLabel,Medical,CommandFixtureSetAsMedicalLabel,DubsHygiene.xml,keyed,Medical,医疗的
+CommandFixtureSetAsMedicalDesc,Limit this fixture to patients only.,CommandFixtureSetAsMedicalDesc,DubsHygiene.xml,keyed,Limit this fixture to patients only.,仅限患者使用此固定装置。
+PatientsOnly,Patients only,PatientsOnly,DubsHygiene.xml,keyed,Patients only,仅限患者
+AttackHelicopter,Attack helicopter,AttackHelicopter,DubsHygiene.xml,keyed,Attack helicopter,攻击直升机
+Unisex,Unisex,Unisex,DubsHygiene.xml,keyed,Unisex,男女通用的
+ConnectFixturesToBed,Link bed,ConnectFixturesToBed,DubsHygiene.xml,keyed,Link bed,链接床
+ConnectFixturesToBedDesc,Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds,ConnectFixturesToBedDesc,DubsHygiene.xml,keyed,Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds,将固定装置连接到附近的床，以便它们继承所有权。按住shift分配多个床位
+CancelConnectFixturesToBed,Clear bed link,CancelConnectFixturesToBed,DubsHygiene.xml,keyed,Clear bed link,清除床链接
+CancelConnectFixturesToBedDesc,Clear the link to beds,CancelConnectFixturesToBedDesc,DubsHygiene.xml,keyed,Clear the link to beds,清除床位链接
+dbh.Animalsonly,Animals only,dbh.Animalsonly,DubsHygiene.xml,keyed,Animals only,仅限动物
+ChangeOccupancyRestriction,Occupancy Check,ChangeOccupancyRestriction,DubsHygiene.xml,keyed,Occupancy Check,入住检查
+ChangeOccupancyRestrictionDesc,"Should pawns check if anything in the room is reserved before trying to use the fixture, prevents pawns from walking in on each other to use basins and toilets at the same time",ChangeOccupancyRestrictionDesc,DubsHygiene.xml,keyed,"Should pawns check if anything in the room is reserved before trying to use the fixture, prevents pawns from walking in on each other to use basins and toilets at the same time",当棋子在尝试使用固定装置之前是否应该检查房间内是否有任何东西被保留，以防止棋子互相走近同时使用脸盆和厕所
+dbh.AllowColonists,Colonists,dbh.AllowColonists,DubsHygiene.xml,keyed,Colonists,殖民者
+dbh.AllowSlaves,Slaves,dbh.AllowSlaves,DubsHygiene.xml,keyed,Slaves,奴隶
+dbh.AllowGuests,Guests,dbh.AllowGuests,DubsHygiene.xml,keyed,Guests,嘉宾
+dbh.NoColonists,Colonists restricted,dbh.NoColonists,DubsHygiene.xml,keyed,Colonists restricted,殖民者受到限制
+dbh.NoSlaves,Slaves restricted,dbh.NoSlaves,DubsHygiene.xml,keyed,Slaves restricted,奴隶限制
+dbh.NoGuests,Guests restricted,dbh.NoGuests,DubsHygiene.xml,keyed,Guests restricted,宾客限制
+WaterTemp,Water temp: {0},WaterTemp,DubsHygiene.xml,keyed,Water temp: (PH_1),水温：{0}
+ConnectedHeatingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedHeatingCapacity,DubsHygiene.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1)),连接需求/容量：{0} / {1} U ({2})
+ConnectedCoolingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedCoolingCapacity,DubsHygiene.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1)),连接需求/容量：{0} / {1} U ({2})
+HeatingUnits,Heating usage: {0} U,HeatingUnits,DubsHygiene.xml,keyed,Heating usage: (PH_1) U,供暖用量：{0} U
+CoolingUnits,Cooling usage: {0} U,CoolingUnits,DubsHygiene.xml,keyed,Cooling usage: (PH_1) U,冷却使用量：{0} U
+HeatingMode,Heating units/power: {0} U / {1} W,HeatingMode,DubsHygiene.xml,keyed,Heating units/power: (PH_2) U / (PH_1) W,加热单位/功率：{0} U / {1} W
+CoolingMode,Cooling units/power: {0} U / {1} W,CoolingMode,DubsHygiene.xml,keyed,Cooling units/power: (PH_2) U / (PH_1) W,冷却装置/功率：{0} U / {1} W
+CoolingEfficiencyGood,Efficiency: {0},CoolingEfficiencyGood,DubsHygiene.xml,keyed,Efficiency: (PH_1),效率：{0}
+CoolingEfficiencyBad,Efficiency: {0} overheating,CoolingEfficiencyBad,DubsHygiene.xml,keyed,Efficiency: (PH_1) overheating,效率：{0} 过热
+TargetTemp,Minimum temp: {0},TargetTemp,DubsHygiene.xml,keyed,Minimum temp: (PH_1),最低温度：{0}
+LowerPower,Reduce power,LowerPower,DubsHygiene.xml,keyed,Reduce power,减少功率
+LowerPowerDesc,Reduce the heating capacity.,LowerPowerDesc,DubsHygiene.xml,keyed,Reduce the heating capacity.,减少制热量。
+RaisePower,Increase power,RaisePower,DubsHygiene.xml,keyed,Increase power,增加功率
+RaisePowerDesc,Increase the heating capacity.,RaisePowerDesc,DubsHygiene.xml,keyed,Increase the heating capacity.,增加加热能力。
+HotwaterCapacity,Hot water capacity: {0},HotwaterCapacity,DubsHygiene.xml,keyed,Hot water capacity: (PH_1),热水容量：{0}
+OverrideThermostat,Override thermostat,OverrideThermostat,DubsHygiene.xml,keyed,Override thermostat,超控恒温器
+OverrideThermostatDesc,Force the boiler to run continuously.,OverrideThermostatDesc,DubsHygiene.xml,keyed,Force the boiler to run continuously.,强制锅炉连续运行。
+MustPlaceFreezerWithFreeSpaces,Exhaust vents must be kept clear!,MustPlaceFreezerWithFreeSpaces,DubsHygiene.xml,keyed,Exhaust vents must be kept clear!,排气口必须保持畅通！
+SolarEfficiencyCold,Too cold,SolarEfficiencyCold,DubsHygiene.xml,keyed,Too cold,太冷了
+SolarEfficiencyRoof,Roofed,SolarEfficiencyRoof,DubsHygiene.xml,keyed,Roofed,有屋顶的
+SolarEfficiencyGood,Heating units (efficiency): {0} U ({1}),SolarEfficiencyGood,DubsHygiene.xml,keyed,Heating units (efficiency): (PH_2) U ((PH_1)),加热装置（效率）：{0} U ({1})
+RadCurrentCap,Radiator temp: {0},RadCurrentCap,DubsHygiene.xml,keyed,Radiator temp: (PH_1),散热器温度：{0}
+ThermostatSetupWarning,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.,ThermostatSetupWarning,DubsHygiene.xml,keyed,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.,恒温器被热水箱覆盖。将所有连接的 性感的 水箱设置为恒温器模式。
+HotWaterTankUseThermostat,Thermostat control,HotWaterTankUseThermostat,DubsHygiene.xml,keyed,Thermostat control,恒温器控制
+HotWaterTankUseThermostatDesc,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.,HotWaterTankUseThermostatDesc,DubsHygiene.xml,keyed,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.,当水箱温度较低时，打开锅炉1小时。如果禁用此功能，则锅炉将连续运行并忽略房间恒温器。
+WashHands,Wash hands,WashHands,DubsHygiene.xml,keyed,Wash hands,洗手
+Wash,Wash,Wash,DubsHygiene.xml,keyed,Wash,洗
+UseToilet,Use,UseToilet,DubsHygiene.xml,keyed,Use,使用
+SewageUsage,Usage = {0},SewageUsage,DubsHygiene.xml,keyed,Usage = (PH_1),用法 = {0}
+MustBePlumbing,Must be plumbing,MustBePlumbing,DubsHygiene.xml,keyed,Must be plumbing,一定是水管
+BlockedDrain,Blocked drain,BlockedDrain,DubsHygiene.xml,keyed,Blocked drain,排水管堵塞
+PlumbOrEmpty,Plumb or empty the latrine,PlumbOrEmpty,DubsHygiene.xml,keyed,Plumb or empty the latrine,清理或清空厕所
+WashingMachineSpinning,Running...,WashingMachineSpinning,DubsHygiene.xml,keyed,Running...,跑步...
+WashingMachineUnload,Unload now,WashingMachineUnload,DubsHygiene.xml,keyed,Unload now,立即卸载
+WashingMachineLoad,Load: {0}/{1},WashingMachineLoad,DubsHygiene.xml,keyed,Load: (PH_2)/(PH_1),负载：{0}/{1}
+NoDirtyClothes,No dirty clothes,NoDirtyClothes,DubsHygiene.xml,keyed,No dirty clothes,没有脏衣服
+WashingNoSpace,No space,WashingNoSpace,DubsHygiene.xml,keyed,No space,没有空间
+NoUnreservedSource,No unreserved water sources of the highest available quality.,NoUnreservedSource,DubsHygiene.xml,keyed,No unreserved water sources of the highest available quality.,没有未经保留的最高可用质量水源。
+RaiseFillRate,Flow +50L,RaiseFillRate,DubsHygiene.xml,keyed,Flow +50L,流量+50L
+LowerFillRate,Flow -50L,LowerFillRate,DubsHygiene.xml,keyed,Flow -50L,流量-50L
+WaterFillRate,Fill Rate: {0}L/h,WaterFillRate,DubsHygiene.xml,keyed,Fill Rate: (PH_1)L/h,填充率：{0}L/h
+dbhDrink,Drink,dbhDrink,DubsHygiene.xml,keyed,Drink,喝
+CommandDesignateOpenCloseValveLabel,Toggle valve,CommandDesignateOpenCloseValveLabel,DubsHygiene.xml,keyed,Toggle valve,切换阀
+CommandDesignateOpenCloseValveDesc,Toggle the valve between open and closed.,CommandDesignateOpenCloseValveDesc,DubsHygiene.xml,keyed,Toggle the valve between open and closed.,在打开和关闭之间切换阀门。
+ValveClosed,Valve closed,ValveClosed,DubsHygiene.xml,keyed,Valve closed,阀门关闭
+PumpCapacity,Pump capacity: {0} L/day,PumpCapacity,DubsHygiene.xml,keyed,Pump capacity: (PH_1) L/day,泵容量：{0} L/天
+GroundCapacity,Ground capacity: {0} L/day,GroundCapacity,DubsHygiene.xml,keyed,Ground capacity: (PH_1) L/day,地面容量：{0} L/天
+PipedPumpCapacity,Piped pump/Ground capacity: {0}/{1} L/day ({2}),PipedPumpCapacity,DubsHygiene.xml,keyed,Piped pump/Ground capacity: (PH_3)/(PH_2) L/day ((PH_1)),管道泵/地面容量：{0}/{1} L/天 ({2})
+WaterStorage,Water stored: {0} L,WaterStorage,DubsHygiene.xml,keyed,Water stored: (PH_1) L,储存水量：{0} L
+TotalWaterStorage,Piped water stored: {0} L,TotalWaterStorage,DubsHygiene.xml,keyed,Piped water stored: (PH_1) L,储存的自来水：{0} L
+PollutionLevel,Pollution level: {0},PollutionLevel,DubsHygiene.xml,keyed,Pollution level: (PH_1),污染等级：{0}
+CommandSprinkleDown,Decrease radius,CommandSprinkleDown,DubsHygiene.xml,keyed,Decrease radius,减小半径
+CommandSprinkleUp,Increase radius,CommandSprinkleUp,DubsHygiene.xml,keyed,Increase radius,增加半径
+UntreatedWater,Quality: Untreated - Small disease risk,UntreatedWater,DubsHygiene.xml,keyed,Quality: Untreated - Small disease risk,质量：未经治疗 - 小 疾病风险
+ContaminatedWater,Quality: Contaminated - High disease risk!,ContaminatedWater,DubsHygiene.xml,keyed,Quality: Contaminated - High disease risk!,质量：受污染 - 高疾病风险！
+TreatedWater,Quality: Treated - Safe,TreatedWater,DubsHygiene.xml,keyed,Quality: Treated - Safe,质量：经过处理 - 安全
+DrainTank,Drain tank,DrainTank,DubsHygiene.xml,keyed,Drain tank,排水箱
+DrainTankDesc,Drain the tank and remove contamination.,DrainTankDesc,DubsHygiene.xml,keyed,Drain the tank and remove contamination.,排空水箱并清除污染物。
+WaterValueOffset,Water value: {0} for {1} L,WaterValueOffset,DubsHygiene.xml,keyed,Water value: (PH_2) for (PH_1) L,水值：{0} 为 {1} L
+HyWater,Water,HyWater,DubsHygiene.xml,keyed,Water,水
+OverlapsWells,Overlaps with {0} wells,OverlapsWells,DubsHygiene.xml,keyed,Overlaps with (PH_1) wells,与 {0} 孔重叠
+TransferStorageTank,Transfer Tank,TransferStorageTank,DubsHygiene.xml,keyed,Transfer Tank,转运罐
+TransferStorageTankDesc,Transfer the contents of this tank to other available tanks,TransferStorageTankDesc,DubsHygiene.xml,keyed,Transfer the contents of this tank to other available tanks,将此罐中的内容转移到其他可用罐中
+dbh.SewageReadout,Sewage {0},dbh.SewageReadout,DubsHygiene.xml,keyed,Sewage (PH_1),污水{0}
+DrainSepticTank,Drain,DrainSepticTank,DubsHygiene.xml,keyed,Drain,流走
+DrainSepticTankDesc,"Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids or fuel.",DrainSepticTankDesc,DubsHygiene.xml,keyed,"Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids or fuel.",设置粪便污泥应倒入桶中的水位。粪便污泥可以被移动、打翻、燃烧或转化为生物固体或燃料。
+SewageProcessing,Treating: {0} L/d. Holding: {1} L ({2}),SewageProcessing,DubsHygiene.xml,keyed,Treating: (PH_3) L/d. Holding: (PH_2) L ((PH_1)),治疗：{0} L/d。持有：{1} L ({2})
+DoNotDrainTank,Do not drain,DoNotDrainTank,DubsHygiene.xml,keyed,Do not drain,请勿排水
+DrainSepticTankAt,Drain tank at {0},DrainSepticTankAt,DubsHygiene.xml,keyed,Drain tank at (PH_1),在 {0} 处排空水箱
+PitCapacity,Pit: {0},PitCapacity,DubsHygiene.xml,keyed,Pit: (PH_1),坑：{0}
+PitFull,"Pit is full, empty now!",PitFull,DubsHygiene.xml,keyed,"Pit is full, empty now!",坑已经满了，现在空了！
+KickOver,Kick over,KickOver,DubsHygiene.xml,keyed,Kick over,踢过去
+KickOverDesc,Spill this barrel of sewage on the ground.,KickOverDesc,DubsHygiene.xml,keyed,Spill this barrel of sewage on the ground.,把这桶污水洒在地上。
+ContainsCompost,Contains compost: {0}/{1} L,ContainsCompost,DubsHygiene.xml,keyed,Contains compost: (PH_2)/(PH_1) L,包含堆肥：{0}/{1} L
+ContainsFecalSludge,Contains fecal sludge: {0}/{1} L,ContainsFecalSludge,DubsHygiene.xml,keyed,Contains fecal sludge: (PH_2)/(PH_1) L,含有粪便污泥：{0}/{1} L
+Composted,Composted,Composted,DubsHygiene.xml,keyed,Composted,堆肥
+CompostingProgress,Composting progress: {0} ({1}),CompostingProgress,DubsHygiene.xml,keyed,Composting progress: (PH_2) ((PH_1)),堆肥进度：{0} ({1})
+ComposterOutOfIdealTemperature,Composter has non-ideal temperature,ComposterOutOfIdealTemperature,DubsHygiene.xml,keyed,Composter has non-ideal temperature,堆肥机的温度不理想
+IdealCompostingTemperature,Ideal composting temperature,IdealCompostingTemperature,DubsHygiene.xml,keyed,Ideal composting temperature,理想的堆肥温度
+GrowingZoneNotAllowed,Growing zone sowing disabled,GrowingZoneNotAllowed,DubsHygiene.xml,keyed,Growing zone sowing disabled,生长区禁止播种
+NoFertilizerFound,No fertilizer found,NoFertilizerFound,DubsHygiene.xml,keyed,No fertilizer found,没有找到肥料
+AreaPlaceFertilizer,Fertilizer area,AreaPlaceFertilizer,DubsHygiene.xml,keyed,Fertilizer area,施肥面积
+AreaPlaceFertilizerDesc,Designate areas to fertilize with biosolids.,AreaPlaceFertilizerDesc,DubsHygiene.xml,keyed,Designate areas to fertilize with biosolids.,指定用生物固体施肥的区域。
+AddFertilizerArea,Add area,AddFertilizerArea,DubsHygiene.xml,keyed,Add area,添加区域
+RemoveFertilizerArea,Remove area,RemoveFertilizerArea,DubsHygiene.xml,keyed,Remove area,删除区域
+dbh.DrinkPackSearchRange,Drink packing search range: {0},dbh.DrinkPackSearchRange,DubsHygiene.xml,keyed,Drink packing search range: (PH_1),饮料包装搜索范围：{0}
+dbh.DrinksToPack,"Drink packing: search at {0}, pack {1}",dbh.DrinksToPack,DubsHygiene.xml,keyed,"Drink packing: search at (PH_2), pack (PH_1)",饮料包装：搜索{0}，包装{1}
+dbh.restartconfirm,Restart,dbh.restartconfirm,DubsHygiene.xml,keyed,Restart,重新启动
+dbh.restartlater,Later,dbh.restartlater,DubsHygiene.xml,keyed,Later,之后
+dbh.PriorityIndoorCleaning,Prioritize indoor cleaning,dbh.PriorityIndoorCleaning,DubsHygiene.xml,keyed,Prioritize indoor cleaning,优先考虑室内清洁
+dbh.PriorityIndoorCleaningTip,Enables a higher priority cleaning job to clean indoors first,dbh.PriorityIndoorCleaningTip,DubsHygiene.xml,keyed,Enables a higher priority cleaning job to clean indoors first,启用更高优先级的清洁工作，首先清洁室内
+dbh.ModRemove,Mod removal assist,dbh.ModRemove,DubsHygiene.xml,keyed,Mod removal assist,模组移除辅助
+dbh.ModRemoveDesc,"Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!",dbh.ModRemoveDesc,DubsHygiene.xml,keyed,"Steps:(PH_5)(PH_4)1: Save your game immediately after pressing confirm(PH_3)2: Quit to the main menu and disable the mod and restart the game(PH_2)3: Load your save game, ignore any exceptions and save it again(PH_1)Load the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!","步骤：
+
+1：按确认后立即保存游戏
+2：退出主菜单并禁用模组并重新启动游戏
+3：加载您的保存游戏，忽略任何异常并再次保存[
+再次加载保存游戏，不应该出现任何与缺少不良卫生定义或类别相关的异常！"
+PetsGetThirst,Pet thirst,PetsGetThirst,DubsHygiene.xml,keyed,Pet thirst,宠物口渴
+PetsGetThirstTip,Pets get the thirst need,PetsGetThirstTip,DubsHygiene.xml,keyed,Pets get the thirst need,宠物需要解渴
+fixtureQualityRequiresRestart,A restart is required to add quality and art comps back in.\n\n restart now?,fixtureQualityRequiresRestart,DubsHygiene.xml,keyed,A restart is required to add quality and art comps back in.(PH_2)(PH_1) restart now?,"需要重新启动才能重新添加质量和艺术组合。
+
+ 现在重新启动吗？"
+fixtureQuality,Fixture quality and art,fixtureQuality,DubsHygiene.xml,keyed,Fixture quality and art,灯具品质与艺术
+fixtureQualityTip,Enable quality and art comps for fixtures like toilets,fixtureQualityTip,DubsHygiene.xml,keyed,Enable quality and art comps for fixtures like toilets,为厕所等固定装置提供质量和艺术比较
+QuitToMenuToChange,Quit to main menu to change.,QuitToMenuToChange,DubsHygiene.xml,keyed,Quit to main menu to change.,退出到主菜单进行更改。
+RimefellerLink,Rimefeller link,RimefellerLink,DubsHygiene.xml,keyed,Rimefeller link,雷姆费勒链接
+RimefellerLinkTip,Enable water usage on crackers and refiners in Rimefeller.,RimefellerLinkTip,DubsHygiene.xml,keyed,Enable water usage on crackers and refiners in Rimefeller.,启用 Rimefeller 的裂解装置和精炼装置的用水。
+RimatomicsLink,Rimatomics link,RimatomicsLink,DubsHygiene.xml,keyed,Rimatomics link,Rimatomics链接
+RimatomicsLinkTip,Enable water usage on cooling towers in Rimatomics.,RimatomicsLinkTip,DubsHygiene.xml,keyed,Enable water usage on cooling towers in Rimatomics.,在 Rimatomics 中启用冷却塔的用水。
+OverrideNeedSettingsTip,"Manually disable needs by body type, race, or active hediff.",OverrideNeedSettingsTip,DubsHygiene.xml,keyed,"Manually disable needs by body type, race, or active hediff.",按体型、种族或活跃状态手动禁用需求。
+OverrideNeedsSettings,Needs filter,OverrideNeedsSettings,DubsHygiene.xml,keyed,Needs filter,需要过滤器
+Disablebladderneed,Disable bladder need,Disablebladderneed,DubsHygiene.xml,keyed,Disable bladder need,禁用膀胱需要
+Disablehygieneneed,Disable hygiene need,Disablehygieneneed,DubsHygiene.xml,keyed,Disable hygiene need,禁用卫生需求
+DisableNeedsLabel,Needs,DisableNeedsLabel,DubsHygiene.xml,keyed,Needs,需求
+NeedCheckboxTip,Tick to enable,NeedCheckboxTip,DubsHygiene.xml,keyed,Tick to enable,勾选启用
+PrisonersGetNeeds,Prisoners,PrisonersGetNeeds,DubsHygiene.xml,keyed,Prisoners,囚犯
+PrisonersGetNeedsTip,Set if prisoners should have needs,PrisonersGetNeedsTip,DubsHygiene.xml,keyed,Set if prisoners should have needs,设置囚犯是否有需要
+HospitalityGuestsGetNeeds,Guests,HospitalityGuestsGetNeeds,DubsHygiene.xml,keyed,Guests,嘉宾
+HospitalityGuestsGetNeedsTip,Set if guests have needs,HospitalityGuestsGetNeedsTip,DubsHygiene.xml,keyed,Set if guests have needs,如果客人有需要就设置
+PrivacyChecks,Privacy,PrivacyChecks,DubsHygiene.xml,keyed,Privacy,隐私
+PrivacyChecksTip,Colonists care about privacy when bathing or using toilets.,PrivacyChecksTip,DubsHygiene.xml,keyed,Colonists care about privacy when bathing or using toilets.,殖民者在洗澡或使用厕所时关心隐私。
+CoolingEfficiency,Cooling efficiency,CoolingEfficiency,DubsHygiene.xml,keyed,Cooling efficiency,冷却效率
+CoolingEfficiencyTip,Set if high temperature should affect cooling efficiency like standard AC,CoolingEfficiencyTip,DubsHygiene.xml,keyed,Set if high temperature should affect cooling efficiency like standard AC,设置高温是否会像标准空调一样影响冷却效率
+RainIrrigation,Rain irrigation,RainIrrigation,DubsHygiene.xml,keyed,Rain irrigation,雨水灌溉
+RainIrrigationTip,Rain will give the same boost as sprinklers. Might reduce game performance.,RainIrrigationTip,DubsHygiene.xml,keyed,Rain will give the same boost as sprinklers. Might reduce game performance.,雨水会产生与洒水装置相同的推动力。可能会降低游戏性能。
+DisableNeeds,Toggle needs,DisableNeeds,DubsHygiene.xml,keyed,Toggle needs,切换需求
+DisableNeedsTip,Disable needs entirely. Overrides all other settings.,DisableNeedsTip,DubsHygiene.xml,keyed,Disable needs entirely. Overrides all other settings.,完全禁用需求。覆盖所有其他设置。
+AllowModdedDrinks,Allow modded drinks,AllowModdedDrinks,DubsHygiene.xml,keyed,Allow modded drinks,允许调制饮料
+AllowModdedDrinksTip,"Pawns will also be allowed to drink and pack any modded drinks. VGP and RimCuisine drinks can be used default, others will require modding an extension to the def.",AllowModdedDrinksTip,DubsHygiene.xml,keyed,"Pawns will also be allowed to drink and pack any modded drinks. VGP and RimCuisine drinks can be used default, others will require modding an extension to the def.",典当也将被允许饮用和包装任何改装饮料。 VGP 和 RimCuisine 饮料可以默认使用，其他饮料则需要对 def 进行修改扩展。
+AllowDrinkPacking,Pack water bottles,AllowDrinkPacking,DubsHygiene.xml,keyed,Pack water bottles,装水瓶
+AllowDrinkPackingTip,"Pawns will automatically pack water bottles into their inventory when they can.\n\nMay not work with some mods, for CE you will need to manually manage your loadout to include water bottles else they will keep dropping them.",AllowDrinkPackingTip,DubsHygiene.xml,keyed,"Pawns will automatically pack water bottles into their inventory when they can.(PH_2)(PH_1)May not work with some mods, for CE you will need to manually manage your loadout to include water bottles else they will keep dropping them.","Pawn 会在可能的情况下自动将水瓶装入其库存中。
+
+可能不适用于某些模组，对于 CE，您需要手动管理装载以包含水瓶，否则它们会不断掉落水瓶。"
+NeedsFilter,Needs filter,NeedsFilter,DubsHygiene.xml,keyed,Needs filter,需要过滤器
+MainFeatures,Main features,MainFeatures,DubsHygiene.xml,keyed,Main features,主要特点
+ExperimentalFeatures,Experimental features,ExperimentalFeatures,DubsHygiene.xml,keyed,Experimental features,实验特点
+PetsGetBladder,Pet bladders,PetsGetBladder,DubsHygiene.xml,keyed,Pet bladders,宠物膀胱
+PetsGetBladderTip,Enable bladder need on pets. Also adds litter boxes for pets.,PetsGetBladderTip,DubsHygiene.xml,keyed,Enable bladder need on pets. Also adds litter boxes for pets.,满足宠物的膀胱需求。还添加了宠物垃圾箱。
+WildAnimalsGetBladder,Wild animal bladders,WildAnimalsGetBladder,DubsHygiene.xml,keyed,Wild animal bladders,野生动物膀胱
+WildAnimalsGetBladderTip,Enable bladder need on all wild animals. This could get messy.,WildAnimalsGetBladderTip,DubsHygiene.xml,keyed,Enable bladder need on all wild animals. This could get messy.,满足所有野生动物的膀胱需求。这可能会变得混乱。
+ThirstNeed,Thirst need,ThirstNeed,DubsHygiene.xml,keyed,Thirst need,口渴需要
+ThirstNeedTip,Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart.,ThirstNeedTip,DubsHygiene.xml,keyed,Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart.,满足所有有膀胱需求的殖民者的口渴需求。添加饮水机和水瓶。需要重新启动。
+FertilizerVisible,Fertilizer visible,FertilizerVisible,DubsHygiene.xml,keyed,Fertilizer visible,肥料可见
+FertilizerVisibleTip,Set if the fertilizer grid should be visible,FertilizerVisibleTip,DubsHygiene.xml,keyed,Set if the fertilizer grid should be visible,设置肥料网格是否可见
+AllowNonHuman,Non-human colonists,AllowNonHuman,DubsHygiene.xml,keyed,Non-human colonists,非人类殖民者
+AllowNonHumanTip,Enables needs on non-human colonists. You can disable specific beings with the needs filter.,AllowNonHumanTip,DubsHygiene.xml,keyed,Enables needs on non-human colonists. You can disable specific beings with the needs filter.,满足非人类殖民者的需求。您可以使用需求过滤器禁用特定的存在。
+dbh.ExtraFeatures,Extra features,dbh.ExtraFeatures,DubsHygiene.xml,keyed,Extra features,额外功能
+DBHLiteMode,Lite Mode (Simplifies the mod),DBHLiteMode,DubsHygiene.xml,keyed,Lite Mode (Simplifies the mod),精简模式（简化模组）
+DBHLiteModeTip,"Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.\n\nThis will prevent many defs from loading and requires a restart.\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating",DBHLiteModeTip,DubsHygiene.xml,keyed,"Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.(PH_4)(PH_3)This will prevent many defs from loading and requires a restart.(PH_2)(PH_1)If you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating","将模组切换为简化模式，移除管道、水和污水管理以及任何与卫生和口渴不直接相关的建筑物和工作。
+
+这将阻止许多定义加载并需要重新启动。
+
+如果您尝试加载现有卫生建筑物的保存，您可能需要在激活后保存并重新加载它"
+LiteRequiresRestart,You must restart the game to enable Lite mode\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors,LiteRequiresRestart,DubsHygiene.xml,keyed,You must restart the game to enable Lite mode(PH_2)(PH_1)If you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors,"您必须重新启动游戏才能启用精简模式
+
+如果您尝试加载现有卫生建筑的保存，您可能需要在激活后保存并重新加载以清除错误"
+PassiveWaterCoolersLink,Passive coolers use water,PassiveWaterCoolersLink,DubsHygiene.xml,keyed,Passive coolers use water,被动冷却器使用水
+PassiveWaterCoolersLinkTip,"Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs.",PassiveWaterCoolersLinkTip,DubsHygiene.xml,keyed,"Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs.",被动式冷却器去掉了木材燃料，取而代之的是充满水，类似于水桶。
+sos2int,SoS2 integration,sos2int,DubsHygiene.xml,keyed,SoS2 integration,SoS2 集成
+sos2intTip,"Adds water and sewage processing to life support, and adds pipes to ship structures.",sos2intTip,DubsHygiene.xml,keyed,"Adds water and sewage processing to life support, and adds pipes to ship structures.",为生命支持增加水和污水处理，并为船舶结构增加管道。
+StockpileWater,Stockpile water x{0},StockpileWater,DubsHygiene.xml,keyed,Stockpile water x(PH_1),储存水 x{0}
+HygieneWiki,Bad Hygiene Wiki,HygieneWiki,DubsHygiene.xml,keyed,Bad Hygiene Wiki,不良卫生维基百科
+HygieneWikiDesc,Go to the Bad Hygiene Wiki,HygieneWikiDesc,DubsHygiene.xml,keyed,Go to the Bad Hygiene Wiki,前往不良卫生维基百科
+SurvivalMode,Survival mode,SurvivalMode,DubsHygiene.xml,keyed,Survival mode,生存模式
+SurvivalModeTip,"Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.\n\nA new game is not required; works with existing saves.",SurvivalModeTip,DubsHygiene.xml,keyed,"Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.(PH_2)(PH_1)A new game is not required; works with existing saves.","将默认的浅水网格生成限制为非常小的补丁。地形特征不再生成水，并且地表水周围的半径减小。
+
+不需要新游戏；与现有保存一起使用。"
+HydroponicsLink,Hydroponics,HydroponicsLink,DubsHygiene.xml,keyed,Hydroponics,水培法
+HydroponicsLinkTip,"Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered.",HydroponicsLinkTip,DubsHygiene.xml,keyed,"Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered.",水培等动力生长建筑物的水箱需要通过管道填充。植物会因缺水而不是缺电而死亡，但水箱只有在建筑物通电时才会充满。
+ThirstRequiresRestart,A restart is required to add and remove thirst-related items.\n\nRestart now?,ThirstRequiresRestart,DubsHygiene.xml,keyed,A restart is required to add and remove thirst-related items.(PH_2)(PH_1)Restart now?,"需要重新启动才能添加和删除与口渴相关的项目。
+
+立即重新启动吗？"
+Hygiene.label,Hygiene,label,DesignationCategoryDef/DesignationCategoryDef.xml,def,Hygiene,卫生
+Hygiene.description,Things for colonists' hygiene.,description,DesignationCategoryDef/DesignationCategoryDef.xml,def,Things for colonists' hygiene.,用于殖民者卫生的东西。
+Mote_FecalBit.label,mote,label,ThingDef/ThingDef.xml,def,mote,微尘
+Washing.label,washing,label,HediffDef/HediffDef.xml,def,washing,洗涤
+Washing.labelNoun,washing,labelNoun,HediffDef/HediffDef.xml,def,washing,洗涤
+Washing.description,washing,description,HediffDef/HediffDef.xml,def,washing,洗涤
+BadHygiene.label,bad hygiene,label,HediffDef/HediffDef.xml,def,bad hygiene,卫生条件差
+BadHygiene.description,Bad hygiene will increase risk of disease and impact social interaction.,description,HediffDef/HediffDef.xml,def,Bad hygiene will increase risk of disease and impact social interaction.,不良的卫生习惯会增加患病风险并影响社交互动。
+BadHygiene.stages.0.label,moderate,label,HediffDef/HediffDef.xml,def,moderate,缓和
+BadHygiene.stages.1.label,severe,label,HediffDef/HediffDef.xml,def,severe,严重
+BadHygiene.stages.2.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+Diarrhea.label,diarrhea,label,HediffDef/HediffDef.xml,def,diarrhea,腹泻
+Diarrhea.description,"Diarrhea is loose, watery stools. Also known as bowel movements.",description,HediffDef/HediffDef.xml,def,"Diarrhea is loose, watery stools. Also known as bowel movements.",腹泻是稀松的、水样的大便。也称为排便。
+Diarrhea.stages.0.label,recovering,label,HediffDef/HediffDef.xml,def,recovering,恢复中
+Diarrhea.stages.1.label,major,label,HediffDef/HediffDef.xml,def,major,主要的
+Diarrhea.stages.2.label,initial,label,HediffDef/HediffDef.xml,def,initial,最初的
+Dysentery.label,dysentery,label,HediffDef/HediffDef.xml,def,dysentery,痢
+Dysentery.description,Dysentery is a type of gastroenteritis that results in diarrhea with blood.,description,HediffDef/HediffDef.xml,def,Dysentery is a type of gastroenteritis that results in diarrhea with blood.,痢疾是一种胃肠炎，会导致腹泻血。
+Dysentery.stages.0.label,minor,label,HediffDef/HediffDef.xml,def,minor,次要的
+Dysentery.stages.1.label,major,label,HediffDef/HediffDef.xml,def,major,主要的
+Dysentery.stages.2.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+Cholera.label,cholera,label,HediffDef/HediffDef.xml,def,cholera,霍乱
+Cholera.description,"Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated.",description,HediffDef/HediffDef.xml,def,"Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated.",霍乱是一种传染病，会导致严重的水样腹泻，如果不及时治疗，可能会导致脱水甚至死亡。
+Cholera.stages.0.label,minor,label,HediffDef/HediffDef.xml,def,minor,次要的
+Cholera.stages.1.label,major,label,HediffDef/HediffDef.xml,def,major,主要的
+Cholera.stages.2.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+Cholera.stages.3.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+DBHDehydration.label,dehydration,label,HediffDef/HediffDef.xml,def,dehydration,脱水
+DBHDehydration.description,"Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in.",description,HediffDef/HediffDef.xml,def,"Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in.",脱水是当体液（主要是水）的流失量超过摄入量时可能发生的情况。
+DBHDehydration.stages.0.label,trivial,label,HediffDef/HediffDef.xml,def,trivial,琐碎的
+DBHDehydration.stages.1.label,minor,label,HediffDef/HediffDef.xml,def,minor,次要的
+DBHDehydration.stages.2.label,moderate,label,HediffDef/HediffDef.xml,def,moderate,缓和
+DBHDehydration.stages.3.label,severe,label,HediffDef/HediffDef.xml,def,severe,严重
+DBHDehydration.stages.4.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+BionicBladder.label,bionic bladder,label,HediffDef/HediffDef.xml,def,bionic bladder,仿生膀胱
+BionicBladder.labelNoun,a bionic bladder,labelNoun,HediffDef/HediffDef.xml,def,a bionic bladder,仿生膀胱
+BionicBladder.description,An installed bionic bladder.,description,HediffDef/HediffDef.xml,def,An installed bionic bladder.,安装好的仿生膀胱。
+InstallBionicBladder.label,install bionic bladder,label,RecipeDef/RecipeDef.xml,def,install bionic bladder,安装仿生膀胱
+InstallBionicBladder.description,Install a bionic bladder.,description,RecipeDef/RecipeDef.xml,def,Install a bionic bladder.,安装仿生膀胱。
+InstallBionicBladder.jobString,Installing bionic bladder.,jobString,RecipeDef/RecipeDef.xml,def,Installing bionic bladder.,安装仿生膀胱。
+HygieneEnhancer.label,hygiene enhancer,label,HediffDef/HediffDef.xml,def,hygiene enhancer,卫生促进剂
+HygieneEnhancer.labelNoun,a hygiene enhancer,labelNoun,HediffDef/HediffDef.xml,def,a hygiene enhancer,卫生促进剂
+HygieneEnhancer.description,An installed hygiene enhancer.,description,HediffDef/HediffDef.xml,def,An installed hygiene enhancer.,安装的卫生增强剂。
+InstallHygieneEnhancer.label,install hygiene enhancer,label,RecipeDef/RecipeDef.xml,def,install hygiene enhancer,安装卫生增强剂
+InstallHygieneEnhancer.description,Install a hygiene enhancer.,description,RecipeDef/RecipeDef.xml,def,Install a hygiene enhancer.,安装卫生增强剂。
+InstallHygieneEnhancer.jobString,Installing hygiene enhancer.,jobString,RecipeDef/RecipeDef.xml,def,Installing hygiene enhancer.,安装卫生增强剂。
+TriggerFireSprinkler.reportString,activating TargetA,reportString,JobDef/JobDef.xml,def,activating TargetA,激活目标A
+emptySeptictank.reportString,emptying TargetA,reportString,JobDef/JobDef.xml,def,emptying TargetA,清空目标A
+emptyLatrine.reportString,emptying TargetA,reportString,JobDef/JobDef.xml,def,emptying TargetA,清空目标A
+LoadWashing.reportString,loading TargetA,reportString,JobDef/JobDef.xml,def,loading TargetA,加载目标A
+UnloadWashing.reportString,unloading TargetA,reportString,JobDef/JobDef.xml,def,unloading TargetA,卸载目标A
+LoadComposter.reportString,filling TargetA,reportString,JobDef/JobDef.xml,def,filling TargetA,填充目标A
+UnloadComposter.reportString,taking compost out of TargetA,reportString,JobDef/JobDef.xml,def,taking compost out of TargetA,从 TargetA 中取出堆肥
+RemoveSewage.reportString,removing sewage,reportString,JobDef/JobDef.xml,def,removing sewage,清除污水
+WatchWashingMachine.reportString,watching the spin cycle,reportString,JobDef/JobDef.xml,def,watching the spin cycle,观察旋转周期
+TipOverSewage.reportString,tipping TargetA,reportString,JobDef/JobDef.xml,def,tipping TargetA,小费目标A
+DrainWaterTankJob.reportString,draining TargetA,reportString,JobDef/JobDef.xml,def,draining TargetA,排出目标A
+PlaceFertilizer.reportString,fertilizing soil,reportString,JobDef/JobDef.xml,def,fertilizing soil,施肥土壤
+DBHDrinkFromGround.reportString,drinking water,reportString,JobDef/JobDef.xml,def,drinking water,饮用水
+DBHDrinkFromBasin.reportString,drinking water from TargetA,reportString,JobDef/JobDef.xml,def,drinking water from TargetA,TargetA 的饮用水
+DBHPackWaterBottle.reportString,filling water bottle from TargetA,reportString,JobDef/JobDef.xml,def,filling water bottle from TargetA,TargetA 的水瓶灌装
+DBHStockpileWaterBottles.reportString,stockpiling water from TargetA,reportString,JobDef/JobDef.xml,def,stockpiling water from TargetA,从 TargetA 储存水
+DBHAdministerFluids.reportString,bringing water to TargetB,reportString,JobDef/JobDef.xml,def,bringing water to TargetB,给 TargetB 送水
+UseToilet.reportString,using the TargetA,reportString,JobDef/JobDef.xml,def,using the TargetA,使用目标A
+haveWildPoo.reportString,defecating in the open,reportString,JobDef/JobDef.xml,def,defecating in the open,在露天排便
+useWashBucket.reportString,washing with TargetA,reportString,JobDef/JobDef.xml,def,washing with TargetA,用 TargetA 清洗
+washAtCell.reportString,washing,reportString,JobDef/JobDef.xml,def,washing,洗涤
+takeShower.reportString,showering with TargetA,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,showering with TargetA,与 TargetA 一起洗澡
+takeBath.reportString,having a bath,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,having a bath,洗澡
+washHands.reportString,washing hands,reportString,JobDef/JobDef.xml,def,washing hands,洗手
+washPatient.reportString,washing TargetA,reportString,JobDef/JobDef.xml,def,washing TargetA,洗涤目标A
+RefillTub.reportString,refilling wash tub,reportString,JobDef/JobDef.xml,def,refilling wash tub,重新注满洗涤桶
+RefillWater.reportString,refilling water,reportString,JobDef/JobDef.xml,def,refilling water,补充水
+cleanBedpan.reportString,cleaning up bed pan,reportString,JobDef/JobDef.xml,def,cleaning up bed pan,清理便盆
+clearBlockage.reportString,unclogging the blocked TargetA,reportString,JobDef/JobDef.xml,def,unclogging the blocked TargetA,疏通被封锁的TargetA
+Hydrotherapy.label,hydrotherapy,label,JoyKindDef/JoyKindDef.xml,def,hydrotherapy,水疗
+DBHGoSwimming.reportString,swimming,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,swimming,游泳
+UseHotTub.reportString,relaxing,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,relaxing,放松
+DBHUseSauna.reportString,using sauna,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,using sauna,使用桑拿
+HygieneRateD.label,Hygiene need rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Hygiene need rate,卫生需求率
+HygieneRateD.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+HygieneRateD.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%,10%
+HygieneRateD.options.2.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%,20%
+HygieneRateD.options.3.label,30%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30%,30%
+HygieneRateD.options.4.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%,40%
+HygieneRateD.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+HygieneRateD.options.6.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%,60%
+HygieneRateD.options.7.label,70%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,70%,70%
+HygieneRateD.options.8.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%,80%
+HygieneRateD.options.9.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%,90%
+HygieneRateD.options.10.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+HygieneRateD.options.11.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%,110%
+HygieneRateD.options.12.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%,120%
+HygieneRateD.options.13.label,130%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,130%,130%
+HygieneRateD.options.14.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%,140%
+HygieneRateD.options.15.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+HygieneRateD.options.16.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+HygieneRateD.options.17.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%,300%
+HygieneRateD.options.18.label,500%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,500%,500%
+HygieneRateD.options.19.label,1000%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1000%,1000%
+BladderRateD.label,Bladder need rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Bladder need rate,膀胱需要率
+BladderRateD.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+BladderRateD.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%,10%
+BladderRateD.options.2.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%,20%
+BladderRateD.options.3.label,30%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30%,30%
+BladderRateD.options.4.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%,40%
+BladderRateD.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+BladderRateD.options.6.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%,60%
+BladderRateD.options.7.label,70%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,70%,70%
+BladderRateD.options.8.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%,80%
+BladderRateD.options.9.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%,90%
+BladderRateD.options.10.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+BladderRateD.options.11.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%,110%
+BladderRateD.options.12.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%,120%
+BladderRateD.options.13.label,130%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,130%,130%
+BladderRateD.options.14.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%,140%
+BladderRateD.options.15.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+BladderRateD.options.16.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+BladderRateD.options.17.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%,300%
+BladderRateD.options.18.label,500%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,500%,500%
+BladderRateD.options.19.label,1000%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1000%,1000%
+FlushSize.label,Flush size,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Flush size,齐平尺寸
+FlushSize.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+FlushSize.options.1.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%,25%
+FlushSize.options.2.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+FlushSize.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+FlushSize.options.4.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+FlushSize.options.5.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+FlushSize.options.6.label,250%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,250%,250%
+ThirstRateD.label,Thirst need rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Thirst need rate,口渴需要率
+ThirstRateD.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+ThirstRateD.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%,10%
+ThirstRateD.options.2.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%,20%
+ThirstRateD.options.3.label,30%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30%,30%
+ThirstRateD.options.4.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%,40%
+ThirstRateD.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+ThirstRateD.options.6.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%,60%
+ThirstRateD.options.7.label,70%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,70%,70%
+ThirstRateD.options.8.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%,80%
+ThirstRateD.options.9.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%,90%
+ThirstRateD.options.10.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+ThirstRateD.options.11.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%,110%
+ThirstRateD.options.12.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%,120%
+ThirstRateD.options.13.label,130%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,130%,130%
+ThirstRateD.options.14.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%,140%
+ThirstRateD.options.15.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+ThirstRateD.options.16.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+ThirstRateD.options.17.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%,300%
+ThirstRateD.options.18.label,500%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,500%,500%
+ThirstRateD.options.19.label,1000%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1000%,1000%
+ContaminationChance.label,Contamination chance,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Contamination chance,污染机会
+ContaminationChance.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+ContaminationChance.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%,10%
+ContaminationChance.options.2.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%,25%
+ContaminationChance.options.3.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+ContaminationChance.options.4.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+ContaminationChance.options.5.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%,125%
+ContaminationChance.options.6.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+ContaminationChance.options.7.label,175%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,175%,175%
+ContaminationChance.options.8.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+WaterPumpCapacity.label,Water pump capacity,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Water pump capacity,水泵容量
+WaterPumpCapacity.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+WaterPumpCapacity.options.1.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+WaterPumpCapacity.options.2.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+WaterPumpCapacity.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+WaterPumpCapacity.options.4.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%,75%
+WaterPumpCapacity.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+WaterPumpCapacity.options.6.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%,25%
+WaterHeatingRate.label,Hot water usage,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Hot water usage,热水使用量
+WaterHeatingRate.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+WaterHeatingRate.options.1.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+WaterHeatingRate.options.2.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%,75%
+WaterHeatingRate.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+WaterHeatingRate.options.4.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%,125%
+WaterHeatingRate.options.5.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+WaterHeatingRate.options.6.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+SewageGridCapacity.label,Sewage limit per cell,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Sewage limit per cell,每个单元的污水限制
+SewageGridCapacity.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+SewageGridCapacity.options.1.label,400%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,400%,400%
+SewageGridCapacity.options.2.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+SewageGridCapacity.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+SewageGridCapacity.options.4.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%,80%
+SewageGridCapacity.options.5.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%,60%
+SewageGridCapacity.options.6.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%,20%
+SewageCleanupRateB.label,Sewage cleanup rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Sewage cleanup rate,污水净化率
+SewageCleanupRateB.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+SewageCleanupRateB.options.1.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%,300%
+SewageCleanupRateB.options.2.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+SewageCleanupRateB.options.3.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+SewageCleanupRateB.options.4.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%,125%
+SewageCleanupRateB.options.5.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+SewageCleanupRateB.options.6.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%,75%
+SewageCleanupRateB.options.7.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+SewageCleanupRateB.options.8.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%,25%
+SewageCleanupRateB.options.9.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%,10%
+SewageCleanupRateB.options.10.label,0%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,0%,0%
+SewageProcRate.label,Sewage treatment rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Sewage treatment rate,污水处理率
+SewageProcRate.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+SewageProcRate.options.1.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+SewageProcRate.options.2.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%,150%
+SewageProcRate.options.3.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%,125%
+SewageProcRate.options.4.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+SewageProcRate.options.5.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%,75%
+SewageProcRate.options.6.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%,50%
+SewageProcRate.options.7.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%,25%
+SewageProcRate.options.8.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%,10%
+IrrigationGridStrength.label,Irrigation strength,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Irrigation strength,灌溉强度
+IrrigationGridStrength.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+IrrigationGridStrength.options.1.label,240%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,240%,240%
+IrrigationGridStrength.options.2.label,220%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,220%,220%
+IrrigationGridStrength.options.3.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%,200%
+IrrigationGridStrength.options.4.label,180%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,180%,180%
+IrrigationGridStrength.options.5.label,160%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,160%,160%
+IrrigationGridStrength.options.6.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%,140%
+IrrigationGridStrength.options.7.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%,120%
+IrrigationGridStrength.options.8.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%,110%
+FertilizerGridStrength.label,Fertilizer strength,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Fertilizer strength,肥料强度
+FertilizerGridStrength.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+FertilizerGridStrength.options.1.label,160%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,160%,160%
+FertilizerGridStrength.options.2.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%,140%
+FertilizerGridStrength.options.3.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%,120%
+FertilizerGridStrength.options.4.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%,110%
+FertilizerGridStrength.options.5.label,108%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,108%,108%
+FertilizerGridStrength.options.6.label,106%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,106%,106%
+FertilizerGridStrength.options.7.label,104%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,104%,104%
+FertilizerGridStrength.options.8.label,102%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,102%,102%
+TerrainFertilityFactor.label,Base terrain fertility,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Base terrain fertility,基地地形肥力
+TerrainFertilityFactor.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat,欺骗
+TerrainFertilityFactor.options.1.label,180%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,180%,180%
+TerrainFertilityFactor.options.2.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%,140%
+TerrainFertilityFactor.options.3.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%,120%
+TerrainFertilityFactor.options.4.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%,110%
+TerrainFertilityFactor.options.5.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%,100%
+TerrainFertilityFactor.options.6.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%,90%
+TerrainFertilityFactor.options.7.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%,80%
+TerrainFertilityFactor.options.8.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%,60%
+TerrainFertilityFactor.options.9.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%,40%
+TerrainFertilityFactor.options.10.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%,20%
+FertilizerLifespan.label,Fertilizer lifespan,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Fertilizer lifespan,肥料寿命
+FertilizerLifespan.options.0.label,cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,cheat,欺骗
+FertilizerLifespan.options.1.label,240 days (3 years),label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,240 days (3 years),240天（3年）
+FertilizerLifespan.options.2.label,180 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,180 days,180天
+FertilizerLifespan.options.3.label,120 days (2 years),label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120 days (2 years),120天（2年）
+FertilizerLifespan.options.4.label,80 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80 days,80天
+FertilizerLifespan.options.5.label,60 days (1 year),label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60 days (1 year),60 天（1 年）
+FertilizerLifespan.options.6.label,40 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40 days,40天
+FertilizerLifespan.options.7.label,30 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30 days,30天
+FertilizerLifespan.options.8.label,20 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20 days,20天
+FertilizerLifespan.options.9.label,10 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10 days,10天
+FertilizerLifespan.options.10.label,1 day,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1 day,1天
+Bladder.label,bladder,label,Needy/Needy.xml,def,bladder,膀胱
+Bladder.description,"To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply.",description,Needy/Needy.xml,def,"To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply.",为了预防疾病风险，重要的是通过清除或处理废物并防止污水污染供水来保持良好的卫生水平。
+DBHThirst.label,thirst,label,Needy/Needy.xml,def,thirst,口渴
+DBHThirst.description,Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration.,description,Needy/Needy.xml,def,Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration.,生命的许多生理过程都需要水。如果达到零，那么该生物将慢慢因脱水而死亡。
+Make_ChemfuelFromFecalSludge.label,make chemfuel from fecal sludge,label,RecipeDef/RecipeDef.xml,def,make chemfuel from fecal sludge,用粪便污泥制造化学燃料
+Make_ChemfuelFromFecalSludge.description,Make a batch of chemfuel from fecal sludge.,description,RecipeDef/RecipeDef.xml,def,Make a batch of chemfuel from fecal sludge.,用粪便污泥制作一批化学燃料。
+Make_ChemfuelFromFecalSludge.jobString,Refining chemfuel from fecal sludge,jobString,RecipeDef/RecipeDef.xml,def,Refining chemfuel from fecal sludge,从粪便污泥中提炼化学燃料
+DubsBadHygiene.label,Dubs Bad Hygiene,label,ResearchTabDef/ResearchTabDef.xml,def,Dubs Bad Hygiene,配音卫生条件差
+SewageSludgeComposting.label,sewage sludge composting,label,ResearchProjectDef/ResearchProjectDef.xml,def,sewage sludge composting,污水污泥堆肥
+SewageSludgeComposting.description,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.",如果处理得当，污水污泥会变成生物固体，对地形肥力有一定的促进作用。适用于生长空间有限的恶劣环境。生物固体还可以大大提高沙子的肥力，与灌溉相结合可以使其变得肥沃。
+MultiSplitAirCon.label,multi-split air conditioning,label,ResearchProjectDef/ResearchProjectDef.xml,def,multi-split air conditioning,多联机空调
+MultiSplitAirCon.description,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.,构建多联机空调系统，将室外机通过管道连接到室内机和冰柜。
+Plumbing.label,plumbing,label,ResearchProjectDef/ResearchProjectDef.xml,def,plumbing,管道
+Plumbing.description,"Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage.",使用管道、管道装置、储罐、风泵和其他设备来输送和排出水和污水。
+LogBoilers.label,heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,heating,加热
+LogBoilers.description,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.,建造可用于房间供暖的原木锅炉，并可放置在浴室附近来加热洗澡水。
+CentralHeating.label,central heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,central heating,暖气
+CentralHeating.description,"Build central heating systems with radiators, hot water tanks, boilers and thermostats.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build central heating systems with radiators, hot water tanks, boilers and thermostats.",建造带有散热器、热水箱、锅炉和恒温器的中央供暖系统。
+GeothermalHeating.label,Geothermal Heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,Geothermal Heating,地热供暖
+GeothermalHeating.description,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.,建造可以建在间歇泉上方的地热加热器，为中央供暖和热水箱产生热量。
+Saunas.label,saunas,label,ResearchProjectDef/ResearchProjectDef.xml,def,saunas,桑拿
+Saunas.description,"Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.",建造一个带有桑拿加热器的专用房间，殖民者可以在那里放松和清洁，经常使用可以减少心脏病发作的机会。
+ModernFixtures.label,modern bathroom fixtures,label,ResearchProjectDef/ResearchProjectDef.xml,def,modern bathroom fixtures,现代浴室装置
+ModernFixtures.description,Build modern-style bathroom fixtures like toilets and showers.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build modern-style bathroom fixtures like toilets and showers.,建造现代风格的浴室设备，如厕所和淋浴间。
+ElectricPumps.label,electric pumps,label,ResearchProjectDef/ResearchProjectDef.xml,def,electric pumps,电动泵
+ElectricPumps.description,Powered water pumps for pressurized continuous water pumping.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Powered water pumps for pressurized continuous water pumping.,用于加压连续抽水的动力水泵。
+AdvancedShowers.label,power showers,label,ResearchProjectDef/ResearchProjectDef.xml,def,power showers,强力淋浴
+AdvancedShowers.description,Build power showers which halve the time spent showering and improve comfort.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build power showers which halve the time spent showering and improve comfort.,建造强力淋浴，可将淋浴时间减少一半并提高舒适度。
+AdvancedToilets.label,smart toilets,label,ResearchProjectDef/ResearchProjectDef.xml,def,smart toilets,智能马桶
+AdvancedToilets.description,"Build comfortable, self cleaning, super efficient smart toilets.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build comfortable, self cleaning, super efficient smart toilets.",打造舒适、自清洁、超高效的智能厕所。
+HotTubs.label,hot tubs,label,ResearchProjectDef/ResearchProjectDef.xml,def,hot tubs,热浴缸
+HotTubs.description,"Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure.",建造热浴缸，可用于水疗、放松和娱乐。
+LargeWaterPumps.label,industrial-scale pumps,label,ResearchProjectDef/ResearchProjectDef.xml,def,industrial-scale pumps,工业规模泵
+LargeWaterPumps.description,Build industrial-scale water pumps and storage tanks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build industrial-scale water pumps and storage tanks.,建造工业规模的水泵和储罐。
+DeepWells.label,deep wells,label,ResearchProjectDef/ResearchProjectDef.xml,def,deep wells,深井
+DeepWells.description,Drill deeper wells to access a much larger area of ground water.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Drill deeper wells to access a much larger area of ground water.,钻更深的井以获得更大面积的地下水。
+WashingMachines.label,washing machines,label,ResearchProjectDef/ResearchProjectDef.xml,def,washing machines,洗衣机
+WashingMachines.description,Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!,建造可以很好地洗衣服的洗衣机，以至于你甚至看不出有人穿着它死了！
+WaterFiltration.label,water filtration,label,ResearchProjectDef/ResearchProjectDef.xml,def,water filtration,水过滤
+WaterFiltration.description,"Build water filtration systems which treat the water supply, eliminating the risk of disease.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build water filtration systems which treat the water supply, eliminating the risk of disease.",建立水过滤系统来处理供水，消除疾病风险。
+HygieneBionics.label,Hygiene Bionics,label,ResearchProjectDef/ResearchProjectDef.xml,def,Hygiene Bionics,卫生仿生学
+HygieneBionics.description,Craft bionics that help to process bodily waste and manage personal hygiene.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Craft bionics that help to process bodily waste and manage personal hygiene.,制作有助于处理身体废物和管理个人卫生的仿生学。
+SepticTanks.label,septic tanks,label,ResearchProjectDef/ResearchProjectDef.xml,def,septic tanks,化粪池
+SepticTanks.description,Build septic tanks which accumulate sewage and provide moderate treatment of sewage.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build septic tanks which accumulate sewage and provide moderate treatment of sewage.,建设化粪池积存污水，并对污水进行适度处理。
+SewageTreatment.label,sewage treatment,label,ResearchProjectDef/ResearchProjectDef.xml,def,sewage treatment,污水处理
+SewageTreatment.description,Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage.,建设大型污水处理系统，积累大量污水，实现污水快速处理。
+SwimmingPools.label,swimming pools,label,ResearchProjectDef/ResearchProjectDef.xml,def,swimming pools,游泳池
+SwimmingPools.description,Build swimming pools.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build swimming pools.,建造游泳池。
+Irrigation.label,irrigation,label,ResearchProjectDef/ResearchProjectDef.xml,def,irrigation,灌溉
+Irrigation.description,Build sprinklers that can irrigate soil to improve fertility.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build sprinklers that can irrigate soil to improve fertility.,建造可以灌溉土壤以提高肥力的喷头。
+FireSuppression.label,fire suppression,label,ResearchProjectDef/ResearchProjectDef.xml,def,fire suppression,灭火
+FireSuppression.description,Build sprinklers that suppress fires with a spray of water.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build sprinklers that suppress fires with a spray of water.,建造洒水装置，通过喷水灭火。
+SpacerHygieneRecycling.label,spacer hygiene recycling,label,ResearchProjectDef/ResearchProjectDef.xml,def,spacer hygiene recycling,垫片卫生回收
+SpacerHygieneRecycling.description,Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.,紧凑型高效回收节点，可回收和再利用淋浴间和水槽中的水。
+AsteroidCryoMining.label,asteroid cryo mining,label,ResearchProjectDef/ResearchProjectDef.xml,def,asteroid cryo mining,小行星低温采矿
+AsteroidCryoMining.description,Extract and sublimate volatile ices trapped beneath asteroid regolith.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Extract and sublimate volatile ices trapped beneath asteroid regolith.,提取并升华小行星风化层下的挥发性冰。
+PublicBathroom.label,public bathroom,label,RoomRoleDef/RoomRoleDef.xml,def,public bathroom,公共卫生间
+PrivateBathroom.label,private bathroom,label,RoomRoleDef/RoomRoleDef.xml,def,private bathroom,私人浴室
+SaunaRoom.label,Sauna room,label,RoomRoleDef/RoomRoleDef.xml,def,Sauna room,桑拿房
+ThirstRateMultiplier.label,thirst rate factor,label,StatDef/StatDef.xml,def,thirst rate factor,口渴率因素
+ThirstRateMultiplier.description,A multiplier on how quickly a creature becomes thirsty.,description,StatDef/StatDef.xml,def,A multiplier on how quickly a creature becomes thirsty.,生物口渴速度的乘数。
+HygieneRateMultiplier.label,hygiene rate factor,label,StatDef/StatDef.xml,def,hygiene rate factor,卫生率因素
+HygieneRateMultiplier.description,A multiplier on how quickly a creatures hygiene level falls.,description,StatDef/StatDef.xml,def,A multiplier on how quickly a creatures hygiene level falls.,生物卫生水平下降速度的乘数。
+BladderRateMultiplier.label,bladder rate factor,label,StatDef/StatDef.xml,def,bladder rate factor,膀胱率因子
+BladderRateMultiplier.description,A multiplier on how quickly a creatures bladder level falls.,description,StatDef/StatDef.xml,def,A multiplier on how quickly a creatures bladder level falls.,生物膀胱水位下降速度的乘数。
+Waste.label,waste,label,ThingCategoryDef/ThingCategoryDef.xml,def,waste,浪费
+BuildingsHygiene.label,hygiene,label,ThingCategoryDef/ThingCategoryDef.xml,def,hygiene,卫生
+DBH_Floor_Tile_Mosaic.label,mosaic tile,label,DesignatorDropdownGroupDef/DesignatorDropdownGroupDef.xml,def,mosaic tile,马赛克瓷砖
+DBHMosaicTile.label,mosaic tile,label,TerrainDef/TerrainDef.xml,def,mosaic tile,马赛克瓷砖
+DBHMosaicTile.description,"Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.",description,TerrainDef/TerrainDef.xml,def,"Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.",马赛克图案的钢制瓷砖，在浴室或厨房里很时尚。
+DBHMosaicSandstone.label,sandstone mosaic tile,label,TerrainDef/TerrainDef.xml,def,sandstone mosaic tile,砂岩马赛克瓷砖
+DBHMosaicGranite.label,granite mosaic tile,label,TerrainDef/TerrainDef.xml,def,granite mosaic tile,花岗岩马赛克
+DBHMosaicLimestone.label,limestone mosaic tile,label,TerrainDef/TerrainDef.xml,def,limestone mosaic tile,石灰石马赛克瓷砖
+DBHMosaicSlate.label,slate mosaic tile,label,TerrainDef/TerrainDef.xml,def,slate mosaic tile,板岩马赛克瓷砖
+DBHMosaicMarble.label,marble mosaic tile,label,TerrainDef/TerrainDef.xml,def,marble mosaic tile,大理石马赛克瓷砖
+sewagePipeStuff.label,plumbing,label,ThingDef/ThingDef.xml,def,plumbing,管道
+sewagePipeStuff.description,Plumbing for connecting plumbed things.,description,ThingDef/ThingDef.xml,def,Plumbing for connecting plumbed things.,用于连接管道物体的管道。
+sewagePipeHidden.label,plumbing (hidden),label,ThingDef/ThingDef.xml,def,plumbing (hidden),管道（隐藏）
+sewagePipeHidden.description,Plumbing for connecting plumbed things (hidden).,description,ThingDef/ThingDef.xml,def,Plumbing for connecting plumbed things (hidden).,用于连接管道物体的管道（隐藏）。
+plumbingValve.label,plumbing valve,label,ThingDef/ThingDef.xml,def,plumbing valve,管道阀门
+plumbingValve.description,Opens or closes connections between pipes.,description,ThingDef/ThingDef.xml,def,Opens or closes connections between pipes.,打开或关闭管道之间的连接。
+airPipe.label,air-con pipe,label,ThingDef/ThingDef.xml,def,air-con pipe,空调管
+airPipe.description,Pipe for connecting air-conditioning units.,description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units.,连接空调机组的管道。
+airPipeHidden.label,air-con pipe (hidden),label,ThingDef/ThingDef.xml,def,air-con pipe (hidden),空调管（隐藏式）
+airPipeHidden.description,Pipe for connecting air-conditioning units. (hidden),description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units. (hidden),连接空调机组的管道。 （隐）
+ToiletStallDoor.label,stall door,label,ThingDef/ThingDef.xml,def,stall door,档门
+ToiletStallDoor.description,Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.,description,ThingDef/ThingDef.xml,def,Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.,薄门仅阻挡使用浴室设备的人的视线。不会创建新房间或防止热量损失。
+PitLatrine.label,latrine,label,ThingDef/ThingDef.xml,def,latrine,厕所
+PitLatrine.description,"A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use",description,ThingDef/ThingDef.xml,def,"A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.(PH_1)14L per use","坑式厕所，将粪便收集在地上的一个洞里。必须手动清空，或者可以通过管道连接。
+每次使用 14L"
+PrimitiveWell.label,primitive well,label,ThingDef/ThingDef.xml,def,primitive well,原始井
+PrimitiveWell.description,Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.,description,ThingDef/ThingDef.xml,def,Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.,获取地下水。水必须先被拖到水桶中才能用于洗涤或饮用。
+WashBucket.label,water tub,label,ThingDef/ThingDef.xml,def,water tub,水盆
+WashBucket.description,"Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.",description,ThingDef/ThingDef.xml,def,"Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.",用于个人卫生的一桶水。必须定期补充淡水，也可补充雨水。如果口渴，也可用于饮用。
+WaterTrough.label,Water Trough,label,ThingDef/ThingDef.xml,def,Water Trough,水槽
+WaterTrough.description,"Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.",description,ThingDef/ThingDef.xml,def,"Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.",动物使用的水槽中，带有浮球阀的服务箱会在水位低时自动补充水，在下雨时也会补充水。
+PetWaterBowl.label,Water Bowl,label,ThingDef/ThingDef.xml,def,Water Bowl,水碗
+PetWaterBowl.description,Bowl of water used by animals.,description,ThingDef/ThingDef.xml,def,Bowl of water used by animals.,动物使用的水碗。
+LitterBox.label,litter box,label,ThingDef/ThingDef.xml,def,litter box,垃圾箱
+LitterBox.description,An indoor faeces and urine collection box for small animals.,description,ThingDef/ThingDef.xml,def,An indoor faeces and urine collection box for small animals.,室内小动物粪便、尿液收集箱。
+BurnPit.label,burn pit,label,ThingDef/ThingDef.xml,def,burn pit,烧坑
+BurnPit.description,Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.,description,ThingDef/ThingDef.xml,def,Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.,通过将粪便污泥作为燃料燃烧来消除。也可用于处理尸体或其他碎屑。如果殖民者在焚烧废物附近呆得太久，他们可能会生病。
+BasinStuff.label,basin,label,ThingDef/ThingDef.xml,def,basin,盆地
+Fountain.label,fountain,label,ThingDef/ThingDef.xml,def,fountain,喷泉
+Fountain.description,A water fountain used for drinking and washing.,description,ThingDef/ThingDef.xml,def,A water fountain used for drinking and washing.,用于饮用和洗涤的饮水机。
+KitchenSink.label,kitchen sink,label,ThingDef/ThingDef.xml,def,kitchen sink,厨房水槽
+KitchenSink.description,Everything but a kitchen sink. Increases room cleanliness.,description,ThingDef/ThingDef.xml,def,Everything but a kitchen sink. Increases room cleanliness.,除了厨房水槽之外什么都有。提高房间清洁度。
+ToiletStuff.label,toilet,label,ThingDef/ThingDef.xml,def,toilet,洗手间
+ToiletAdv.description,"Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use",description,ThingDef/ThingDef.xml,def,"Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.(PH_1)7L per use","舒适、自清洁、畅通无阻、超高效的智能马桶。通过自动清洁和除臭提供最佳的多功能体验。
+每次使用 7L"
+ToiletAdvStuff.label,smart toilet,label,ThingDef/ThingDef.xml,def,smart toilet,智能马桶
+ToiletSpacer.description,Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports.,description,ThingDef/ThingDef.xml,def,Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports.,真空厕所不需要水，并通过污水倾倒口将所有废物丢弃到太空中。
+ToiletSpacer.label,vacuum toilet,label,ThingDef/ThingDef.xml,def,vacuum toilet,真空马桶
+BathMat.label,Bath Mat,label,ThingDef/ThingDef.xml,def,Bath Mat,浴室防滑垫
+BathMat.description,A small mat used next to a bathtub to absorb water.,description,ThingDef/ThingDef.xml,def,A small mat used next to a bathtub to absorb water.,浴缸旁边用来吸水的小垫子。
+BathtubStuff.label,bathtub,label,ThingDef/ThingDef.xml,def,bathtub,浴缸
+ShowerStuff.label,shower,label,ThingDef/ThingDef.xml,def,shower,淋浴
+ShowerSimple.label,simple shower,label,ThingDef/ThingDef.xml,def,simple shower,简单的淋浴
+ShowerAdvStuff.label,power shower,label,ThingDef/ThingDef.xml,def,power shower,强力淋浴
+ShowerAdvStuff.description,"Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash",description,ThingDef/ThingDef.xml,def,"Heats water on demand and does not need a hot water tank, cleans twice as fast(PH_1)90L per wash","按需加热水，无需 性感的 水箱，清洁速度提高一倍
+ 每次洗涤 90 升"
+PoolWater.tools.0.label,water,label,TerrainDef/TerrainDef.xml,def,water,水
+PoolWater.label,pool water,label,TerrainDef/TerrainDef.xml,def,pool water,泳池水
+DBHSwimmingPool.description,"Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.",description,ThingDef/ThingDef.xml,def,"Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.",游泳池用于水疗、放松或娱乐。必须先从水塔注满水。
+DBHSwimmingPool.label,swimming pool,label,ThingDef/ThingDef.xml,def,swimming pool,游泳池
+HotTub.description,"Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.",description,ThingDef/ThingDef.xml,def,"Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.",热水浴缸用于水疗、放松或娱乐。首次使用时充满水塔的水。自加热，不需要排污口。
+HotTub.label,hot tub,label,ThingDef/ThingDef.xml,def,hot tub,热浴缸
+WashingMachine.label,washing machine,label,ThingDef/ThingDef.xml,def,washing machine,洗衣机
+WashingMachine.description,Washes clothes so well that you can't even tell someone died wearing it!,description,ThingDef/ThingDef.xml,def,Washes clothes so well that you can't even tell someone died wearing it!,衣服洗得很好，你甚至看不出有人穿着它死了！
+DBHSaunaHeaterLog.label,Fueled Sauna Heater,label,ThingDef/ThingDef.xml,def,Fueled Sauna Heater,燃油桑拿炉
+DBHSaunaHeaterLog.description,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.",description,ThingDef/ThingDef.xml,def,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.",专为创建桑拿房而设计的加热器，定期使用桑拿房可降低心脏病发作的风险，将房间加热至 60 摄氏度。
+DBHSaunaHeaterElec.label,Electric Sauna Heater,label,ThingDef/ThingDef.xml,def,Electric Sauna Heater,电桑拿炉
+DBHSaunaHeaterElec.description,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.",description,ThingDef/ThingDef.xml,def,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.",专为创建桑拿房而设计的加热器，定期使用桑拿房可降低心脏病发作的风险，将房间加热至 60 摄氏度。
+DBHSaunaSeating.label,Sauna seating,label,ThingDef/ThingDef.xml,def,Sauna seating,桑拿座位
+DBHSaunaSeating.description,Slatted seating for sauna rooms,description,ThingDef/ThingDef.xml,def,Slatted seating for sauna rooms,桑拿房的板条座椅
+WaterWellInlet.label,water well,label,ThingDef/ThingDef.xml,def,water well,水井
+WaterWellInlet.description,Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.,description,ThingDef/ThingDef.xml,def,Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.,获取可用水泵抽取的地下水。污水或其他污染物的存在会降低水质并可能造成污染。
+DeepWaterWellInlet.label,deep water well,label,ThingDef/ThingDef.xml,def,deep water well,深水井
+DeepWaterWellInlet.description,Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.,description,ThingDef/ThingDef.xml,def,Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.,获取大面积的地下水，可用水泵抽取。深井不受污染的影响。
+WaterButt.description,Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.,description,ThingDef/ThingDef.xml,def,Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.,储存水以供管道装置使用。下雨时慢慢充满。如果水被污染，必须将其排出。容量：100。
+WaterButt.label,water butt,label,ThingDef/ThingDef.xml,def,water butt,水屁股
+WaterTowerS.label,water tower,label,ThingDef/ThingDef.xml,def,water tower,水塔
+WaterTowerS.description,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.,description,ThingDef/ThingDef.xml,def,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.,储存水以供管道装置使用。如果水被污染，必须将其排出。容量：8000。
+WaterTowerL.label,huge water tower,label,ThingDef/ThingDef.xml,def,huge water tower,巨大的水塔
+WaterTowerL.description,"Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.",description,ThingDef/ThingDef.xml,def,"Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.","储存水以供管道装置使用。如果水被污染，必须将其排出。容量：50,000。"
+WindPump.label,wind pump,label,ThingDef/ThingDef.xml,def,wind pump,风泵
+WindPump.description,Pumps water from wells to water towers. Pumping capacity: 3000 L/day.,description,ThingDef/ThingDef.xml,def,Pumps water from wells to water towers. Pumping capacity: 3000 L/day.,将水从井抽到水塔。泵送能力：3000升/天。
+ElectricPump.label,electric pump,label,ThingDef/ThingDef.xml,def,electric pump,电动泵
+ElectricPump.description,Pumps water from wells to water towers. Pumping capacity: 1500 L/day.,description,ThingDef/ThingDef.xml,def,Pumps water from wells to water towers. Pumping capacity: 1500 L/day.,将水从井抽到水塔。泵送能力：1500 升/天。
+PumpingStation.label,pumping station,label,ThingDef/ThingDef.xml,def,pumping station,泵站
+PumpingStation.description,Pumps water from wells to water towers. Pumping capacity: 10000 L/day.,description,ThingDef/ThingDef.xml,def,Pumps water from wells to water towers. Pumping capacity: 10000 L/day.,将水从井抽到水塔。泵送能力：10000升/天。
+SewageOutlet.label,sewage outlet,label,ThingDef/ThingDef.xml,def,sewage outlet,排污口
+SewageOutlet.description,"Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up.",description,ThingDef/ThingDef.xml,def,"Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up.",可以放置在任何地方。污水会在陆地上汇集并扩散或分散在水中。污水会随着时间的推移而清理干净；树木、水或雨水的存在会加速这一过程。
+SewageSepticTank.label,septic tank,label,ThingDef/ThingDef.xml,def,septic tank,化粪池
+SewageSepticTank.description,"Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets.",description,ThingDef/ThingDef.xml,def,"Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets.",随着时间的推移慢慢清理污水。污水首先导入化粪池。如果达到满负荷，多余的污水将被送往排污口。
+WaterTreatment.label,water treatment,label,ThingDef/ThingDef.xml,def,water treatment,水处理
+WaterTreatment.description,"Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.",description,ThingDef/ThingDef.xml,def,"Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.",清除99.99%的细菌！过滤储存塔中的现有水以及固定装置使用的任何水，消除疾病风险。
+SewageDumpPort.label,sewage dump port,label,ThingDef/ThingDef.xml,def,sewage dump port,污水倾倒口
+SewageDumpPort.description,"A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.\nMust be mounted on an exterior wall of a ship.",description,ThingDef/ThingDef.xml,def,"A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.(PH_1)Must be mounted on an exterior wall of a ship.","用于航天器的真空密封污水排放口。当连接到真空马桶时，它可以安全地将废物喷射到太空中。
+必须安装在船舶的外墙上。"
+CryogenicExtractionNode.label,cryogenic extraction node,label,ThingDef/ThingDef.xml,def,cryogenic extraction node,低温提取节点
+CryogenicExtractionNode.description,Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.,description,ThingDef/ThingDef.xml,def,Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.,提取并升华小行星风化层下的挥发性冰。它产生可用水并产生大量热量，在封闭环境中操作时请小心处理。
+SpacerWaterRecoverySystem.label,water recovery system,label,ThingDef/ThingDef.xml,def,water recovery system,水回收系统
+SpacerWaterRecoverySystem.description,A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.,description,ThingDef/ThingDef.xml,def,A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.,紧凑型高效回收节点，可回收和再利用淋浴间和水槽中的水。
+WaterTankSmall.label,water tank,label,ThingDef/ThingDef.xml,def,water tank,水箱
+WaterTankSmall.description,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.,description,ThingDef/ThingDef.xml,def,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.,储存水以供管道装置使用。如果水被污染，必须将其排出。容量：2000。
+Thermostat.label,thermostat,label,ThingDef/ThingDef.xml,def,thermostat,恒温器
+Thermostat.description,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.,description,ThingDef/ThingDef.xml,def,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.,用于控制电锅炉和燃气锅炉。可以放置多个。通过标准管道连接。
+LogBoiler.label,log boiler,label,ThingDef/ThingDef.xml,def,log boiler,原木锅炉
+LogBoiler.description,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.,生产 2000 个用于管道散热器和 性感的 水箱的加热装置。为房间和相邻的浴室供暖。需要原木作为燃料。
+GasBoiler.label,gas boiler,label,ThingDef/ThingDef.xml,def,gas boiler,燃气锅炉
+GasBoiler.description,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.,生产 2000 个用于散热器和 性感的 水箱的加热装置。需要化学燃料作为燃料。可以通过恒温器控制。
+ElectricBoiler.label,electric boiler,label,ThingDef/ThingDef.xml,def,electric boiler,电锅炉
+ElectricBoiler.description,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.,为散热器和热水箱生产数量可变的加热装置。手动控制功率设置。可以通过恒温器控制。
+SolarHeater.label,solar heater,label,ThingDef/ThingDef.xml,def,solar heater,太阳能热水器
+SolarHeater.description,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.,description,ThingDef/ThingDef.xml,def,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.,利用阳光加热热水箱和散热器。 0-2000 单位的加热功率取决于光照强度和环境温度。
+GeothermHeater.label,Geothermal heater,label,ThingDef/ThingDef.xml,def,Geothermal heater,地热加热器
+GeothermHeater.description,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.,description,ThingDef/ThingDef.xml,def,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.,使用地热来加热 性感的 水箱和散热器。供暖3700单位。
+HotWaterTank.label,hot water tank,label,ThingDef/ThingDef.xml,def,hot water tank,热水箱
+HotWaterTank.description,Stores hot running water for showers and baths. Connect to any boiler to heat.,description,ThingDef/ThingDef.xml,def,Stores hot running water for showers and baths. Connect to any boiler to heat.,储存热淋浴和浴缸的自来水。连接到任何锅炉进行加热。
+RadiatorStuffed.label,radiator,label,ThingDef/ThingDef.xml,def,radiator,散热器
+RadiatorLarge.label,large radiator,label,ThingDef/ThingDef.xml,def,large radiator,大散热器
+RadiatorLarge.description,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.,description,ThingDef/ThingDef.xml,def,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.,输出功率是标准散热器的三倍。对于较大的房间很有用。需要300个加热装置。
+RadiatorTowelRail.label,Towel Rail,label,ThingDef/ThingDef.xml,def,Towel Rail,毛巾架
+RadiatorTowelRail.description,Impressive bathroom towel rail.,description,ThingDef/ThingDef.xml,def,Impressive bathroom towel rail.,令人印象深刻的浴室毛巾架。
+CeilingFan.label,ceiling fan 2x2,label,ThingDef/ThingDef.xml,def,ceiling fan 2x2,吊扇 2x2
+CeilingFanS.label,ceiling fan 1x1,label,ThingDef/ThingDef.xml,def,ceiling fan 1x1,吊扇 1x1
+AirConOutdoorUnit.label,air-con outdoor unit,label,ThingDef/ThingDef.xml,def,air-con outdoor unit,空调室外机
+AirConOutdoorUnit.description,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.,description,ThingDef/ThingDef.xml,def,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.,多联机空调机组。放置在室外并通过管道连接到室内机或冷冻机。功率模式选择，具有100-1000冷却机组容量。
+AirconIndoorUnit.label,air-con indoor unit,label,ThingDef/ThingDef.xml,def,air-con indoor unit,空调室内机
+AirconIndoorUnit.description,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.,description,ThingDef/ThingDef.xml,def,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.,房间的室内空调装置。连接到室外空调装置。需要 100 个冷却装置。
+FreezerUnit.label,walk-in freezer unit,label,ThingDef/ThingDef.xml,def,walk-in freezer unit,步入式冷冻装置
+FreezerUnit.description,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.,description,ThingDef/ThingDef.xml,def,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.,用于创建步入式冷冻室的冷冻装置。连接到室外空调装置。需要 300 个冷却装置。
+IrrigationSprinkler.label,irrigation sprinkler,label,ThingDef/ThingDef.xml,def,irrigation sprinkler,灌溉喷头
+IrrigationSprinkler.description,Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius.,description,ThingDef/ThingDef.xml,def,Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius.,每天早上给周围区域浇水一次，以提高全天土壤的肥力。每天早上在最大半径处使用 1000L。
+FireSprinkler.label,fire sprinkler,label,ThingDef/ThingDef.xml,def,fire sprinkler,消防喷淋头
+FireSprinkler.description,Triggered by fire or high temperature. Douses flames with a spray of water.,description,ThingDef/ThingDef.xml,def,Triggered by fire or high temperature. Douses flames with a spray of water.,因火灾或高温而引发。用水雾扑灭火焰。
+FireSprinkler.comps.2.useLabel,Trigger fire sprinkler,useLabel,ThingDef/ThingDef.xml,def,Trigger fire sprinkler,触发消防喷头
+BiosolidsComposter.label,biosolids composter,label,ThingDef/ThingDef.xml,def,biosolids composter,生物固体堆肥机
+BiosolidsComposter.description,A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.,description,ThingDef/ThingDef.xml,def,A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.,一种将污水转化为肥料以增加可挖掘地形肥力的堆肥器。
+BedPan.label,bed pan,label,ThingDef/ThingDef.xml,def,bed pan,便盆
+BedPan.description,A receptacle used by a bedridden patient for urine and faeces.,description,ThingDef/ThingDef.xml,def,A receptacle used by a bedridden patient for urine and faeces.,卧床病人用来盛放尿液和粪便的容器。
+Biosolids.label,biosolids,label,ThingDef/ThingDef.xml,def,biosolids,生物固体
+Biosolids.description,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.",description,ThingDef/ThingDef.xml,def,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.",如果处理得当，污水污泥会变成生物固体，对地形肥力有一定的促进作用。适用于生长空间有限的恶劣环境。生物固体还可以大大提高沙子的肥力，与灌溉相结合可以使其变得肥沃。
+FecalSludge.label,fecal sludge,label,ThingDef/ThingDef.xml,def,fecal sludge,粪便污泥
+FecalSludge.description,"A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids.",description,ThingDef/ThingDef.xml,def,"A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids.",装满粪便污泥的桶。可以倾倒、燃烧或堆肥成生物固体。
+DBH_WaterBottle.label,water,label,ThingDef/ThingDef.xml,def,water,水
+DBH_WaterBottle.description,A bottle of water.,description,ThingDef/ThingDef.xml,def,A bottle of water.,一瓶水。
+DBH_WaterBottle.ingestible.ingestCommandString,Drink {0},ingestCommandString,ThingDef/ThingDef.xml,def,Drink (PH_1),喝{0}
+DBH_WaterBottle.ingestible.ingestReportString,Drinking {0}.,ingestReportString,ThingDef/ThingDef.xml,def,Drinking (PH_1).,饮酒 {0}。
+FilthUrine.label,urine,label,ThingDef/ThingDef.xml,def,urine,尿
+FilthUrine.description,Urine on the ground.,description,ThingDef/ThingDef.xml,def,Urine on the ground.,尿在地上。
+FilthFaeces.label,faeces,label,ThingDef/ThingDef.xml,def,faeces,屎
+RawSewage.label,raw sewage,label,ThingDef/ThingDef.xml,def,raw sewage,原污水
+DrankCleanWater.stages.0.label,refreshed,label,ThoughtDef/ThoughtDef.xml,def,refreshed,焕然一新
+DrankCleanWater.stages.0.description,Drank refreshing clean water.,description,ThoughtDef/ThoughtDef.xml,def,Drank refreshing clean water.,喝清爽干净的水。
+DrankDirtyWater.stages.0.label,drank filthy water,label,ThoughtDef/ThoughtDef.xml,def,drank filthy water,喝了脏水
+DrankDirtyWater.stages.0.description,Drank a bottle of contaminated water.,description,ThoughtDef/ThoughtDef.xml,def,Drank a bottle of contaminated water.,喝了一瓶被污染的水。
+DrankUrine.stages.0.label,drank urine,label,ThoughtDef/ThoughtDef.xml,def,drank urine,喝尿
+DrankUrine.stages.0.description,I drank my own urine.,description,ThoughtDef/ThoughtDef.xml,def,I drank my own urine.,我喝了自己的尿。
+WashPrivacy.stages.0.label,embarrassed,label,ThoughtDef/ThoughtDef.xml,def,embarrassed,尴尬的
+WashPrivacy.stages.0.description,Someone saw me bathing and it made me uncomfortable.,description,ThoughtDef/ThoughtDef.xml,def,Someone saw me bathing and it made me uncomfortable.,有人看到我洗澡，我感到很不舒服。
+ToiletPrivacy.stages.0.label,embarrassed,label,ThoughtDef/ThoughtDef.xml,def,embarrassed,尴尬的
+ToiletPrivacy.stages.0.description,Someone walked in on me while I was using the toilet.,description,ThoughtDef/ThoughtDef.xml,def,Someone walked in on me while I was using the toilet.,当我上厕所时，有人走进了我。
+SoiledSelf.stages.0.label,soiled myself,label,ThoughtDef/ThoughtDef.xml,def,soiled myself,弄脏了我自己
+SoiledSelf.stages.0.description,I couldn't hold it in any longer and soiled myself.,description,ThoughtDef/ThoughtDef.xml,def,I couldn't hold it in any longer and soiled myself.,我再也坚持不住了，弄脏了自己。
+HotShower.stages.0.label,hot shower,label,ThoughtDef/ThoughtDef.xml,def,hot shower,热淋浴
+HotShower.stages.0.description,I had a nice hot shower.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice hot shower.,我洗了个舒服的热淋浴。
+HeatedPool.stages.0.label,heated pool,label,ThoughtDef/ThoughtDef.xml,def,heated pool,温水泳池
+HeatedPool.stages.0.description,The heated pool was very relaxing.,description,ThoughtDef/ThoughtDef.xml,def,The heated pool was very relaxing.,温水泳池让人非常放松。
+HotBath.stages.0.label,hot bath,label,ThoughtDef/ThoughtDef.xml,def,hot bath,热洗澡
+HotBath.stages.0.description,I had a nice hot bath.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice hot bath.,我洗了个舒服的热澡。
+ColdBath.stages.0.label,cold bath,label,ThoughtDef/ThoughtDef.xml,def,cold bath,冷水浴
+ColdBath.stages.0.description,I had a nice refreshing cold bath.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice refreshing cold bath.,我洗了一个清爽的冷水澡。
+ColdShower.stages.0.label,cold shower,label,ThoughtDef/ThoughtDef.xml,def,cold shower,冷水淋浴
+ColdShower.stages.0.description,I had a nice refreshing cold shower.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice refreshing cold shower.,我洗了一个清爽的冷水澡。
+ColdWater.stages.0.label,cold water,label,ThoughtDef/ThoughtDef.xml,def,cold water,冷水
+ColdWater.stages.0.description,There was no hot water!,description,ThoughtDef/ThoughtDef.xml,def,There was no hot water!,没有热水！
+tookDump.stages.0.label,relieved myself,label,ThoughtDef/ThoughtDef.xml,def,relieved myself,我松了口气
+tookDump.stages.0.description,Aaaah much better.,description,ThoughtDef/ThoughtDef.xml,def,Aaaah much better.,啊啊好多了。
+openDefecation.stages.0.label,open defecation,label,ThoughtDef/ThoughtDef.xml,def,open defecation,露天排便
+openDefecation.stages.0.description,I had to relieve myself outside in the open.,description,ThoughtDef/ThoughtDef.xml,def,I had to relieve myself outside in the open.,我不得不在外面露天解手。
+UsedPrivateBathroom.stages.0.label,awful bathroom,label,ThoughtDef/ThoughtDef.xml,def,awful bathroom,糟糕的浴室
+UsedPrivateBathroom.stages.0.description,My bathroom is an awful place.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is an awful place.,我的浴室是个很糟糕的地方。
+UsedPrivateBathroom.stages.2.label,decent bathroom,label,ThoughtDef/ThoughtDef.xml,def,decent bathroom,体面的浴室
+UsedPrivateBathroom.stages.2.description,My bathroom is very interesting. I like it.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is very interesting. I like it.,我的浴室很有趣。我喜欢它。
+UsedPrivateBathroom.stages.3.label,slightly impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,slightly impressive bathroom,稍微令人印象深刻的浴室
+UsedPrivateBathroom.stages.3.description,My bathroom is actually slightly impressive. I like it.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is actually slightly impressive. I like it.,我的浴室实际上有点令人印象深刻。我喜欢它。
+UsedPrivateBathroom.stages.4.label,impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,impressive bathroom,令人印象深刻的浴室
+UsedPrivateBathroom.stages.4.description,My bathroom is impressive. I love it!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is impressive. I love it!,我的浴室令人印象深刻。我喜欢它！
+UsedPrivateBathroom.stages.5.label,very impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,very impressive bathroom,非常令人印象深刻的浴室
+UsedPrivateBathroom.stages.5.description,My bathroom is very impressive. This is the best place ever!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is very impressive. This is the best place ever!,我的浴室非常令人印象深刻。这是有史以来最好的地方！
+UsedPrivateBathroom.stages.6.label,extremely impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,extremely impressive bathroom,非常令人印象深刻的浴室
+UsedPrivateBathroom.stages.6.description,My bathroom is extremely impressive. This is the best place ever!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is extremely impressive. This is the best place ever!,我的浴室非常令人印象深刻。这是有史以来最好的地方！
+UsedPrivateBathroom.stages.7.label,unbelievably impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,unbelievably impressive bathroom,令人难以置信的令人印象深刻的浴室
+UsedPrivateBathroom.stages.7.description,My bathroom is unbelievably impressive. This is the best place ever!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is unbelievably impressive. This is the best place ever!,我的浴室令人难以置信地令人印象深刻。这是有史以来最好的地方！
+UsedPrivateBathroom.stages.8.label,wondrously impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,wondrously impressive bathroom,令人印象深刻的浴室
+UsedPrivateBathroom.stages.8.description,My bathroom is the best place one can ever imagine. It's wonderful.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is the best place one can ever imagine. It's wonderful.,我的浴室是人们能想象到的最好的地方。太棒了。
+HygieneLevel.stages.0.label,filthy,label,ThoughtDef/ThoughtDef.xml,def,filthy,污秽
+HygieneLevel.stages.0.description,I smell like I have been swimming in sewage.,description,ThoughtDef/ThoughtDef.xml,def,I smell like I have been swimming in sewage.,我闻就像我一直在污水中游泳一样。
+HygieneLevel.stages.1.label,grimy,label,ThoughtDef/ThoughtDef.xml,def,grimy,肮脏的
+HygieneLevel.stages.1.description,I feel a little grimy.,description,ThoughtDef/ThoughtDef.xml,def,I feel a little grimy.,我感觉有点脏。
+HygieneLevel.stages.2.label,clean,label,ThoughtDef/ThoughtDef.xml,def,clean,干净的
+HygieneLevel.stages.2.description,I feel fresh and clean.,description,ThoughtDef/ThoughtDef.xml,def,I feel fresh and clean.,我感觉清新干净。
+HygieneLevel.stages.3.label,squeaky clean,label,ThoughtDef/ThoughtDef.xml,def,squeaky clean,干净整洁
+HygieneLevel.stages.3.description,I'm squeaky clean!,description,ThoughtDef/ThoughtDef.xml,def,I'm squeaky clean!,我干净得很！
+BowelLevel.stages.0.label,bursting,label,ThoughtDef/ThoughtDef.xml,def,bursting,爆裂
+BowelLevel.stages.0.description,I need to go so bad I'm about to burst!,description,ThoughtDef/ThoughtDef.xml,def,I need to go so bad I'm about to burst!,我需要变得如此糟糕，我快要爆炸了！
+BowelLevel.stages.1.label,need the bathroom,label,ThoughtDef/ThoughtDef.xml,def,need the bathroom,需要卫生间
+BowelLevel.stages.1.description,I need to go to the bathroom.,description,ThoughtDef/ThoughtDef.xml,def,I need to go to the bathroom.,我要去趟洗手间。
+Hygienic.degreeDatas.0.label,germaphobe,label,TraitDef/TraitDef.xml,def,germaphobe,洁癖者
+Hygienic.degreeDatas.0.description,[PAWN_nameDef] is obsessed with germs and will wash much more frequently than normal.,description,TraitDef/TraitDef.xml,def,(PH_1) is obsessed with germs and will wash much more frequently than normal.,[PAWN_nameDef] 很容易沾染细菌，并且会比平时更频繁地洗澡。
+Hygienic.degreeDatas.1.label,hygienic,label,TraitDef/TraitDef.xml,def,hygienic,卫生的
+Hygienic.degreeDatas.1.description,[PAWN_nameDef] is very hygienic and will wash more frequently.,description,TraitDef/TraitDef.xml,def,(PH_1) is very hygienic and will wash more frequently.,[PAWN_nameDef]很卫生，会更勤洗。
+Hygienic.degreeDatas.2.label,unhygienic,label,TraitDef/TraitDef.xml,def,unhygienic,不卫生的
+Hygienic.degreeDatas.2.description,[PAWN_nameDef] is very unhygienic and will wash less frequently.,description,TraitDef/TraitDef.xml,def,(PH_1) is very unhygienic and will wash less frequently.,[PAWN_nameDef]非常不卫生，清洗频率会降低。
+Hygienic.degreeDatas.3.label,slob,label,TraitDef/TraitDef.xml,def,slob,邋遢的
+Hygienic.degreeDatas.3.description,[PAWN_nameDef] has very low standards of cleanliness and will only wash when they absolutely have to.,description,TraitDef/TraitDef.xml,def,(PH_1) has very low standards of cleanliness and will only wash when they absolutely have to.,[PAWN_nameDef] 的清洁标准非常低，只有在绝对必要时才会清洗。
+PlaceFertilizer.label,fertilize,label,WorkGiverDef/WorkGiverDef.xml,def,fertilize,施肥
+PlaceFertilizer.verb,fertilize,verb,WorkGiverDef/WorkGiverDef.xml,def,fertilize,施肥
+PlaceFertilizer.gerund,fertilizing,gerund,WorkGiverDef/WorkGiverDef.xml,def,fertilizing,施肥
+TipSewage.label,tip sewage,label,WorkGiverDef/WorkGiverDef.xml,def,tip sewage,倾倒污水
+TipSewage.verb,tip Sewage,verb,WorkGiverDef/WorkGiverDef.xml,def,tip Sewage,尖端污水
+TipSewage.gerund,tipping over,gerund,WorkGiverDef/WorkGiverDef.xml,def,tipping over,翻倒
+DrainWaterTank.label,drain water,label,WorkGiverDef/WorkGiverDef.xml,def,drain water,沥干水
+DrainWaterTank.verb,drain,verb,WorkGiverDef/WorkGiverDef.xml,def,drain,流走
+DrainWaterTank.gerund,draining,gerund,WorkGiverDef/WorkGiverDef.xml,def,draining,排水
+DBHAdministerFluids.label,administer fluids,label,WorkGiverDef/WorkGiverDef.xml,def,administer fluids,输液
+DBHAdministerFluids.verb,give drink,verb,WorkGiverDef/WorkGiverDef.xml,def,give drink,给饮料
+DBHAdministerFluids.gerund,serving drink,gerund,WorkGiverDef/WorkGiverDef.xml,def,serving drink,服务饮料
+DBHAdministerFluidsWarden.label,administer fluids,label,WorkGiverDef/WorkGiverDef.xml,def,administer fluids,输液
+DBHAdministerFluidsWarden.verb,give drink,verb,WorkGiverDef/WorkGiverDef.xml,def,give drink,给饮料
+DBHAdministerFluidsWarden.gerund,serving drink,gerund,WorkGiverDef/WorkGiverDef.xml,def,serving drink,服务饮料
+ClearBlockage.label,clear blockage,label,WorkGiverDef/WorkGiverDef.xml,def,clear blockage,清除堵塞
+ClearBlockage.verb,clear blockage,verb,WorkGiverDef/WorkGiverDef.xml,def,clear blockage,清除堵塞
+ClearBlockage.gerund,clearing blockage,gerund,WorkGiverDef/WorkGiverDef.xml,def,clearing blockage,清除堵塞
+washPatient.label,wash patient,label,WorkGiverDef/WorkGiverDef.xml,def,wash patient,给病人洗澡
+washPatient.verb,wash,verb,WorkGiverDef/WorkGiverDef.xml,def,wash,洗
+washPatient.gerund,washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,washing,洗涤
+washChild.label,wash child,label,WorkGiverDef/WorkGiverDef.xml,def,wash child,给孩子洗澡
+washChild.verb,wash,verb,WorkGiverDef/WorkGiverDef.xml,def,wash,洗
+washChild.gerund,washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,washing,洗涤
+DocCleanBedpan.label,clean bed pan,label,WorkGiverDef/WorkGiverDef.xml,def,clean bed pan,干净的便盆
+DocCleanBedpan.verb,clean,verb,WorkGiverDef/WorkGiverDef.xml,def,clean,干净的
+DocCleanBedpan.gerund,cleaning,gerund,WorkGiverDef/WorkGiverDef.xml,def,cleaning,打扫
+cleanBedpan.label,clean bed pan,label,WorkGiverDef/WorkGiverDef.xml,def,clean bed pan,干净的便盆
+cleanBedpan.verb,clean,verb,WorkGiverDef/WorkGiverDef.xml,def,clean,干净的
+cleanBedpan.gerund,cleaning,gerund,WorkGiverDef/WorkGiverDef.xml,def,cleaning,打扫
+DoBillsBurnPit.label,do burn pit bills,label,WorkGiverDef/WorkGiverDef.xml,def,do burn pit bills,烧掉矿坑账单
+DoBillsBurnPit.verb,burn,verb,WorkGiverDef/WorkGiverDef.xml,def,burn,烧伤
+DoBillsBurnPit.gerund,burning at,gerund,WorkGiverDef/WorkGiverDef.xml,def,burning at,燃烧于
+RemoveSewage.label,shovel sewage into barrels,label,WorkGiverDef/WorkGiverDef.xml,def,shovel sewage into barrels,将污水铲入桶中
+RemoveSewage.verb,remove sewage,verb,WorkGiverDef/WorkGiverDef.xml,def,remove sewage,清除污水
+RemoveSewage.gerund,removing sewage,gerund,WorkGiverDef/WorkGiverDef.xml,def,removing sewage,清除污水
+UnloadWashing.label,unload washing,label,WorkGiverDef/WorkGiverDef.xml,def,unload washing,卸载洗涤物
+UnloadWashing.verb,unload washing,verb,WorkGiverDef/WorkGiverDef.xml,def,unload washing,卸载洗涤物
+UnloadWashing.gerund,unloading washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,unloading washing,卸洗
+LoadWashing.label,load washing,label,WorkGiverDef/WorkGiverDef.xml,def,load washing,负载洗涤
+LoadWashing.verb,load washing,verb,WorkGiverDef/WorkGiverDef.xml,def,load washing,负载洗涤
+LoadWashing.gerund,loading washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading washing,装载洗涤
+UnloadComposter.label,take compost out of composter,label,WorkGiverDef/WorkGiverDef.xml,def,take compost out of composter,从堆肥机中取出堆肥
+UnloadComposter.verb,take compost,verb,WorkGiverDef/WorkGiverDef.xml,def,take compost,采取堆肥
+UnloadComposter.gerund,taking compost from,gerund,WorkGiverDef/WorkGiverDef.xml,def,taking compost from,从中获取堆肥
+FillComposter.label,fill composter,label,WorkGiverDef/WorkGiverDef.xml,def,fill composter,填充堆肥机
+FillComposter.verb,fill,verb,WorkGiverDef/WorkGiverDef.xml,def,fill,充满
+FillComposter.gerund,filling,gerund,WorkGiverDef/WorkGiverDef.xml,def,filling,填充
+emptySepticTank.label,empty septic tank,label,WorkGiverDef/WorkGiverDef.xml,def,empty septic tank,空化粪池
+emptySepticTank.verb,empty,verb,WorkGiverDef/WorkGiverDef.xml,def,empty,空的
+emptySepticTank.gerund,emptying,gerund,WorkGiverDef/WorkGiverDef.xml,def,emptying,排空
+WardenEmptySepticTank.label,empty septic tank,label,WorkGiverDef/WorkGiverDef.xml,def,empty septic tank,空化粪池
+WardenEmptySepticTank.verb,empty,verb,WorkGiverDef/WorkGiverDef.xml,def,empty,空的
+WardenEmptySepticTank.gerund,emptying,gerund,WorkGiverDef/WorkGiverDef.xml,def,emptying,排空
+RefillWater.label,refill water,label,WorkGiverDef/WorkGiverDef.xml,def,refill water,加水
+RefillWater.verb,refill,verb,WorkGiverDef/WorkGiverDef.xml,def,refill,补充装
+RefillWater.gerund,refilling,gerund,WorkGiverDef/WorkGiverDef.xml,def,refilling,补充
+WardenRefillWater.label,refill water,label,WorkGiverDef/WorkGiverDef.xml,def,refill water,加水
+WardenRefillWater.verb,refill,verb,WorkGiverDef/WorkGiverDef.xml,def,refill,补充装
+WardenRefillWater.gerund,refilling,gerund,WorkGiverDef/WorkGiverDef.xml,def,refilling,补充
+CleanFilthIndoors.label,clean filth indoors,label,WorkGiverDef/WorkGiverDef.xml,def,clean filth indoors,清理室内污物
+CleanFilthIndoors.verb,clean,verb,WorkGiverDef/WorkGiverDef.xml,def,clean,干净的
+CleanFilthIndoors.gerund,cleaning,gerund,WorkGiverDef/WorkGiverDef.xml,def,cleaning,打扫

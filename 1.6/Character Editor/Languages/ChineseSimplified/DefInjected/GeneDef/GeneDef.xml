@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: 50%-->
+  <SZBodySize_05.description>50%</SZBodySize_05.description>
+  <!--EN: Bodysize 05-->
+  <SZBodySize_05.label>身体尺寸 05</SZBodySize_05.label>
+  <!--EN: 60%-->
+  <SZBodySize_06.description>60%</SZBodySize_06.description>
+  <!--EN: Bodysize 06-->
+  <SZBodySize_06.label>身体尺寸 06</SZBodySize_06.label>
+  <!--EN: 70%-->
+  <SZBodySize_07.description>70%</SZBodySize_07.description>
+  <!--EN: Bodysize 07-->
+  <SZBodySize_07.label>身体尺寸 07</SZBodySize_07.label>
+  <!--EN: 80%-->
+  <SZBodySize_08.description>80%</SZBodySize_08.description>
+  <!--EN: Bodysize 08-->
+  <SZBodySize_08.label>身体尺寸 08</SZBodySize_08.label>
+  <!--EN: 90%-->
+  <SZBodySize_09.description>90%</SZBodySize_09.description>
+  <!--EN: Bodysize 09-->
+  <SZBodySize_09.label>身体尺寸 09</SZBodySize_09.label>
+  <!--EN: 100%-->
+  <SZBodySize_10.description>100%</SZBodySize_10.description>
+  <!--EN: Bodysize 10-->
+  <SZBodySize_10.label>身体尺寸 10</SZBodySize_10.label>
+  <!--EN: 110%-->
+  <SZBodySize_11.description>110%</SZBodySize_11.description>
+  <!--EN: Bodysize 11-->
+  <SZBodySize_11.label>身体尺寸 11</SZBodySize_11.label>
+  <!--EN: 120%-->
+  <SZBodySize_12.description>120%</SZBodySize_12.description>
+  <!--EN: Bodysize 12-->
+  <SZBodySize_12.label>身体尺寸 12</SZBodySize_12.label>
+  <!--EN: 130%-->
+  <SZBodySize_13.description>130%</SZBodySize_13.description>
+  <!--EN: Bodysize 13-->
+  <SZBodySize_13.label>身体尺寸 13</SZBodySize_13.label>
+  <!--EN: 140%-->
+  <SZBodySize_14.description>140%</SZBodySize_14.description>
+  <!--EN: Bodysize 14-->
+  <SZBodySize_14.label>身体尺寸 14</SZBodySize_14.label>
+  <!--EN: 150%-->
+  <SZBodySize_15.description>150%</SZBodySize_15.description>
+  <!--EN: Bodysize 15-->
+  <SZBodySize_15.label>身体尺寸 15</SZBodySize_15.label>
+  <!--EN: 160%-->
+  <SZBodySize_16.description>160%</SZBodySize_16.description>
+  <!--EN: Bodysize 16-->
+  <SZBodySize_16.label>身体尺寸 16</SZBodySize_16.label>
+  <!--EN: 170%-->
+  <SZBodySize_17.description>170%</SZBodySize_17.description>
+  <!--EN: Bodysize 17-->
+  <SZBodySize_17.label>身体尺寸 17</SZBodySize_17.label>
+  <!--EN: 180%-->
+  <SZBodySize_18.description>180%</SZBodySize_18.description>
+  <!--EN: Bodysize 18-->
+  <SZBodySize_18.label>身体尺寸 18</SZBodySize_18.label>
+  <!--EN: 190%-->
+  <SZBodySize_19.description>190%</SZBodySize_19.description>
+  <!--EN: Bodysize 19-->
+  <SZBodySize_19.label>身体尺寸 19</SZBodySize_19.label>
+  <!--EN: 200%-->
+  <SZBodySize_20.description>200%</SZBodySize_20.description>
+  <!--EN: Bodysize 20-->
+  <SZBodySize_20.label>身体尺寸 20</SZBodySize_20.label>
+  <!--EN: 300%-->
+  <SZBodySize_30.description>300%</SZBodySize_30.description>
+  <!--EN: Bodysize 30-->
+  <SZBodySize_30.label>身体尺寸 30</SZBodySize_30.label>
+  <!--EN: 400%-->
+  <SZBodySize_40.description>400%</SZBodySize_40.description>
+  <!--EN: Bodysize 40-->
+  <SZBodySize_40.label>身体尺寸 40</SZBodySize_40.label>
+</LanguageData>

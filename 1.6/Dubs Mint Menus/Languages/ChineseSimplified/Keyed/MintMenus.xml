@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Close on select-->
+  <AutoCloseArchitect>关闭选择</AutoCloseArchitect>
+  <!--EN: Closes the architect menu when a designator is selected-->
+  <AutoCloseArchitectDesc>选择指示符后关闭架构师菜单</AutoCloseArchitectDesc>
+  <!--EN: Auto focus search box-->
+  <AutoFocusSearch>自动对焦搜索框</AutoFocusSearch>
+  <!--EN: Automatically focus the search box to start typing each time the build menu is opened-->
+  <AutoFocusSearchDesc>每次打开构建菜单时自动聚焦搜索框以开始输入</AutoFocusSearchDesc>
+  <!--EN: Auto project step-->
+  <Autoprojectstep>自动项目步骤</Autoprojectstep>
+  <!--EN: Automatically start the next research project step to complete the target project-->
+  <AutoprojectstepDesc>自动启动下一个研究项目步骤以完成目标项目</AutoprojectstepDesc>
+  <!--EN: Searchable words include:\n\nAny words in bill labels or product labels e.g. pants\n\nStuff catagories e.g. leather\n\nBody part groups e.g. head\n\nTags e.g. industrial\n\nLayers e.g. overhead-->
+  <BillSearchTip>可搜索的单词包括：
+
+账单标签或产品标签中的任何单词，例如裤子
+
+物品类别，例如皮革
+
+身体部位组，例如head
+
+标签工业
+
+层开销</BillSearchTip>
+  <!--EN: Box Width-->
+  <BoxSizeX>箱体宽度</BoxSizeX>
+  <!--EN: Box Height-->
+  <BoxSizeY>盒子高度</BoxSizeY>
+  <!--EN: Enable Resource pinning-->
+  <EnablePinningResources>启用资源固定</EnablePinningResources>
+  <!--EN: Ctrl click on things in the resource readout to pin them to the top (category mode only)-->
+  <EnablePinningResourcesTip>按住 Ctrl 键单击资源读数中的内容，将其固定到顶部（仅限类别模式）</EnablePinningResourcesTip>
+  <!--EN: Hide finished research projects-->
+  <HideFinishedProjects>隐藏已完成的研究项目</HideFinishedProjects>
+  <!--EN: Hide locked research projects-->
+  <HideLockedProjects>隐藏锁定的研究项目</HideLockedProjects>
+  <!--EN: Infocard Width-->
+  <InfocardWidth>信息卡宽度</InfocardWidth>
+  <!--EN: List Width-->
+  <ListWidth>列表宽度</ListWidth>
+  <!--EN: Max Height-->
+  <MaxHeight>最大高度</MaxHeight>
+  <!--EN: Can't equip while downed-->
+  <MessageCantEquipWhileDowned>倒地时无法装备</MessageCantEquipWhileDowned>
+  <!--EN: Mint Assign Menu-->
+  <Mint.AssignMenu>Mint 分配菜单</Mint.AssignMenu>
+  <!--EN: Replace the default assign menu with a mint version-->
+  <Mint.AssignMenuDesc>将默认分配菜单替换为全新版本</Mint.AssignMenuDesc>
+  <!--EN: Bills-->
+  <Mint.Bills>账单</Mint.Bills>
+  <!--EN: Clone Bills-->
+  <Mint.CloneBills>克隆比尔</Mint.CloneBills>
+  <!--EN: Clone the bill stack from this worktable-->
+  <Mint.CloneWorktable>从此工作表克隆帐单堆栈</Mint.CloneWorktable>
+  <!--EN: Clones-->
+  <Mint.Clones>克隆</Mint.Clones>
+  <!--EN: Confirm delete clone-->
+  <Mint.ConfirmDeleteTemplate>确认删除克隆</Mint.ConfirmDeleteTemplate>
+  <!--EN: Delete Template-->
+  <Mint.DeleteTemplate>删除模板</Mint.DeleteTemplate>
+  <!--EN: Mint Gear Menu (Experimental)-->
+  <Mint.GearMenu>薄荷装备菜单（实验性）</Mint.GearMenu>
+  <!--EN: Activate a button to open a gear management menu which allows you to drag and drop available gear onto any pawn-->
+  <Mint.GearMenuDesc>激活按钮以打开齿轮管理菜单，该菜单允许您将可用齿轮拖放到任何 pawn 上</Mint.GearMenuDesc>
+  <!--EN: Main button visible-->
+  <Mint.GearMenuVisible>主按钮可见</Mint.GearMenuVisible>
+  <!--EN: Paste bill stack to table-->
+  <Mint.PasteTemplateTip>将帐单堆栈粘贴到表格</Mint.PasteTemplateTip>
+  <!--EN: Rename-->
+  <Mint.RenameTemplateTip>重命名</Mint.RenameTemplateTip>
+  <!--EN: Select a bench to add a bill-->
+  <Mint.SelectABenchToAddBills>选择一个长凳以添加账单</Mint.SelectABenchToAddBills>
+  <!--EN: Setup-->
+  <Mint.Setup>设置</Mint.Setup>
+  <!--EN: Show ingredient icons-->
+  <Mint.ShowBillIngredientIcons>显示成分图标</Mint.ShowBillIngredientIcons>
+  <!--EN: Show work to make icons-->
+  <Mint.ShowBillWorkIcons>展示制作图标的作品</Mint.ShowBillWorkIcons>
+  <!--EN: Show mint bills main button-->
+  <Mint.ShowMintBillsButton>显示铸币钞票主按钮</Mint.ShowMintBillsButton>
+  <!--EN: Show the mint bills button on the main tabs list along the bottom of the screen-->
+  <Mint.ShowMintBillsButtonTip>在屏幕底部的主选项卡列表上显示铸币按钮</Mint.ShowMintBillsButtonTip>
+  <!--EN: Bills-->
+  <MintBills>账单</MintBills>
+  <!--EN: Build menu-->
+  <MintBuildMenu>构建菜单</MintBuildMenu>
+  <!--EN: Dubs Mods Discord-->
+  <MintDiscord>配音 Mod 不和谐</MintDiscord>
+  <!--EN: Extras-->
+  <MintExperimental>附加功能</MintExperimental>
+  <!--EN: Support Links-->
+  <MintHelpLinks>支持链接</MintHelpLinks>
+  <!--EN: List width-->
+  <MintListWidth>列表宽度</MintListWidth>
+  <!--EN: Plants-->
+  <MintPlants>植物</MintPlants>
+  <!--EN: Reset All-->
+  <MintResetAll>全部重置</MintResetAll>
+  <!--EN: Mint Resource Readout-->
+  <MintResourceReadout>造币厂资源读数</MintResourceReadout>
+  <!--EN: Mint wheel-->
+  <MintWheel>薄荷轮</MintWheel>
+  <!--EN: Mint Wheel {0}/{1} Ctrl+Click to assign-->
+  <MintWheelDesc>薄荷轮 {0}/{1} Ctrl+单击进行分配</MintWheelDesc>
+  <!--EN: Click designators in the architect menu to add them to the wheel\nDrag and drop to arrange in the wheel-->
+  <MintWheelEditMode>单击架构师菜单中的指示符将其添加到轮子中
+拖放以在轮子中进行排列</MintWheelEditMode>
+  <!--EN: Mint Wheel Menu-->
+  <MintWheelMenu>薄荷轮菜单</MintWheelMenu>
+  <!--EN: Open the Mint wheel on right click instead of opening the architect menu-->
+  <MintWheelRightClickDesc>右键单击打开 Mint 轮，而不是打开建筑师菜单</MintWheelRightClickDesc>
+  <!--EN: Mint Wheel on right click-->
+  <MintWheelonrightclick>右键单击薄荷轮</MintWheelonrightclick>
+  <!--EN: Mint Menus Wiki-->
+  <MintWiki>薄荷菜单维基</MintWiki>
+  <!--EN: No Active Project-->
+  <NoActiveProject>没有活跃的项目</NoActiveProject>
+  <!--EN: Override architect tab-->
+  <OverrideArchitectTab>覆盖架构师选项卡</OverrideArchitectTab>
+  <!--EN: Make the mint build menu the default architect tab (hold ctrl for default)-->
+  <OverrideArchitectTabDesc>将 mint 构建菜单设置为默认的架构选项卡（按住 ctrl 进行默认设置）</OverrideArchitectTabDesc>
+  <!--EN: Override research tab-->
+  <OverrideResearchTab>覆盖研究选项卡</OverrideResearchTab>
+  <!--EN: Make the mint research menu the default research tab (hold ctrl for default)-->
+  <OverrideResearchTabDesc>将薄荷研究菜单设置为默认研究选项卡（按住 ctrl 进行默认设置）</OverrideResearchTabDesc>
+  <!--EN: Pinned-->
+  <PinnedRes>已固定</PinnedRes>
+  <!--EN: Research project requirements are not met-->
+  <ProjectStalled>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</ProjectStalled>
+  <!--EN: Project stopped-->
+  <ProjectStopped>项目停止</ProjectStopped>
+  <!--EN: Queue-->
+  <QueueResearchProj>队列</QueueResearchProj>
+  <!--EN: Mint Plant Menu-->
+  <ReplacePlantMenu>薄荷植物菜单</ReplacePlantMenu>
+  <!--EN: Open the mint plant menu instead of vanilla drop down, if disabled you can ctrl click to open the mint menu instead-->
+  <ReplacePlantMenuTip>打开薄荷植物菜单而不是香草下拉菜单，如果禁用，您可以按住 Ctrl 键单击来打开薄荷菜单</ReplacePlantMenuTip>
+  <!--EN: Research Completion Mode-->
+  <ResearchCompletionMode>研究完成模式</ResearchCompletionMode>
+  <!--EN: Research-->
+  <ResearchMenu>研究</ResearchMenu>
+  <!--EN: Research Queue - Drag to order-->
+  <ResearchQueueTip>研究队列 - 拖动以排序</ResearchQueueTip>
+  <!--EN: Row Height-->
+  <RowHeight>行高</RowHeight>
+  <!--EN: Add buttons using the Mint build menu (ctrl click architect menu)-->
+  <SetButtonsFromBuildo>使用 Mint 构建菜单添加 纽扣（按住 Ctrl 键单击架构师菜单）</SetButtonsFromBuildo>
+  <!--EN: Hide resource readout-->
+  <ShowHideResourceList>隐藏资源读数</ShowHideResourceList>
+  <!--EN: Hide the resource readout on the left of the screen-->
+  <ShowHideResourceListTip>隐藏屏幕左侧的资源读数</ShowHideResourceListTip>
+  <!--EN: Target Project: {0}-->
+  <TargetProject>目标项目：{0}</TargetProject>
+  <!--EN: Top Offset-->
+  <TopOffset>顶部偏移</TopOffset>
+  <!--EN: Unlocks Things-->
+  <UnlockedThings>解锁事物</UnlockedThings>
+  <!--EN: Drag\n&\nDrop-->
+  <dragdropdes>拖动
+&amp;
+放置</dragdropdes>
+</LanguageData>

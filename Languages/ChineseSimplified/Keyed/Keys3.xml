@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: All work animations-->
+  <YayoAnim_AllJobs>所有工作动画</YayoAnim_AllJobs>
+  <!--EN: Animal combat animations-->
+  <YayoAnim_AnimalCombat>动物战斗动画</YayoAnim_AnimalCombat>
+  <!--EN: Animal work animations-->
+  <YayoAnim_AnimalJob>动物工作动画</YayoAnim_AnimalJob>
+  <!--EN: Animal walking animations-->
+  <YayoAnim_AnimalWalk>动物行走动画</YayoAnim_AnimalWalk>
+  <!--EN: Combat animations-->
+  <YayoAnim_Combat>战斗动画</YayoAnim_Combat>
+  <!--EN: Debug mode-->
+  <YayoAnim_DebugMode>调试模式</YayoAnim_DebugMode>
+  <!--EN: Lovin' animations-->
+  <YayoAnim_LovinBed>亲密动画</YayoAnim_LovinBed>
+  <!--EN: Maximum zoom level: {0}-->
+  <YayoAnim_MaximumZoomLevel>最大缩放级别：{0}</YayoAnim_MaximumZoomLevel>
+  <!--EN: Determines maximum zoom level at which the animations will play. If you zoom beyond it, the animations will stop playing.-->
+  <YayoAnim_MaximumZoomLevelTooltip>决定动画播放的最大缩放级别。如果缩放超过此级别，动画将停止播放。</YayoAnim_MaximumZoomLevelTooltip>
+  <!--EN: Close-->
+  <YayoAnim_MaximumZoomLevel_Close>近</YayoAnim_MaximumZoomLevel_Close>
+  <!--EN: Closest-->
+  <YayoAnim_MaximumZoomLevel_Closest>最近</YayoAnim_MaximumZoomLevel_Closest>
+  <!--EN: Far-->
+  <YayoAnim_MaximumZoomLevel_Far>远</YayoAnim_MaximumZoomLevel_Far>
+  <!--EN: Any zoom level-->
+  <YayoAnim_MaximumZoomLevel_Furthest>任意缩放级别</YayoAnim_MaximumZoomLevel_Furthest>
+  <!--EN: Middle-->
+  <YayoAnim_MaximumZoomLevel_Middle>中</YayoAnim_MaximumZoomLevel_Middle>
+  <!--EN: Mechanoid combat animations-->
+  <YayoAnim_MechanoidCombat>机械体战斗动画</YayoAnim_MechanoidCombat>
+  <!--EN: Mechanoid work animations-->
+  <YayoAnim_MechanoidJob>机械体工作动画</YayoAnim_MechanoidJob>
+  <!--EN: Mechanoid walking animations-->
+  <YayoAnim_MechanoidWalk>机械体行走动画</YayoAnim_MechanoidWalk>
+  <!--EN: Only player pawn animations-->
+  <YayoAnim_OnlyPlayerPawns>仅玩家角色动画</YayoAnim_OnlyPlayerPawns>
+  <!--EN: Prevents any pawn (be it human, animal, or mechanoid) from having any animations unless they're from player's faction.-->
+  <YayoAnim_OnlyPlayerPawnsTooltip>禁止任何非玩家派系的角色（无论是人类、动物还是机械体）播放动画。</YayoAnim_OnlyPlayerPawnsTooltip>
+  <!--EN: Requires combat animations to be enabled as well-->
+  <YayoAnim_RequiresCombatTooltip>需要同时启用战斗动画</YayoAnim_RequiresCombatTooltip>
+  <!--EN: Requires all work animations to be anbled as well-->
+  <YayoAnim_RequiresJobTooltip>需要同时启用所有工作动画</YayoAnim_RequiresJobTooltip>
+  <!--EN: Requires walking animations to be enabled as well-->
+  <YayoAnim_RequiresWalkTooltip>需要同时启用行走动画</YayoAnim_RequiresWalkTooltip>
+  <!--EN: Reset to default-->
+  <YayoAnim_ResetToDefault>重置为默认值</YayoAnim_ResetToDefault>
+  <!--EN: Sleeping animations-->
+  <YayoAnim_Sleep>睡眠动画</YayoAnim_Sleep>
+  <!--EN: Weapon twirling-->
+  <YayoAnim_TwirlWeapon>武器挥舞</YayoAnim_TwirlWeapon>
+  <!--EN: Max weapon mass for twirling-->
+  <YayoAnim_TwirlWeaponMaxMass>挥舞武器最大质量</YayoAnim_TwirlWeaponMaxMass>
+  <!--EN: Disable weapon twirling for weapons over specific mass-->
+  <YayoAnim_TwirlWeaponMaxMassEnabled>对超过特定质量的武器禁用挥舞动画</YayoAnim_TwirlWeaponMaxMassEnabled>
+  <!--EN: Update frequency (in ticks)-->
+  <YayoAnim_UpdateFrequency>更新频率（ ticks）</YayoAnim_UpdateFrequency>
+  <!--EN: Walking animations-->
+  <YayoAnim_Walk>行走动画</YayoAnim_Walk>
+  <!--EN: Walking motion angle-->
+  <YayoAnim_WalkAnimAngle>行走动作角度</YayoAnim_WalkAnimAngle>
+  <!--EN: Walking motion speed-->
+  <YayoAnim_WalkAnimSpeed>行走动作速度</YayoAnim_WalkAnimSpeed>
+</LanguageData>

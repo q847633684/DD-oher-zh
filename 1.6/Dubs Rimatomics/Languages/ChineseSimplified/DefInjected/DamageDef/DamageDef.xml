@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Arc Discharge-->
+  <ArcDischarge.label>电弧放电</ArcDischarge.label>
+  <!--EN: {0} has died in an explosion.-->
+  <CoreBlast.deathMessage>{0} 在爆炸中死亡。</CoreBlast.deathMessage>
+  <!--EN: CoreBlast-->
+  <CoreBlast.label>核心爆炸</CoreBlast.label>
+  <!--EN: Laser Discharge-->
+  <LaserDischarge.label>激光放电</LaserDischarge.label>
+</LanguageData>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: View all bills.-->
+  <MintBillMenu.description>查看所有工作清单。</MintBillMenu.description>
+  <!--EN: mint bill menu-->
+  <MintBillMenu.label>Mint 工作清单菜单</MintBillMenu.label>
+  <!--EN: Quick select designators.-->
+  <MintDesignators.description>快速选择指令。</MintDesignators.description>
+  <!--EN: mint designators-->
+  <MintDesignators.label>Mint 指令菜单</MintDesignators.label>
+  <!--EN: View all pawns gear.-->
+  <MintGearMenu.description>查看所有角色的装备。</MintGearMenu.description>
+  <!--EN: mint gear menu-->
+  <MintGearMenu.label>Mint 装备菜单</MintGearMenu.label>
+  <!--EN: Search all buildings of all mods.-->
+  <MintMenus.description>搜索所有模组的建筑。</MintMenus.description>
+  <!--EN: mint menus-->
+  <MintMenus.label>Mint 菜单</MintMenus.label>
+  <!--EN: Search research projects.-->
+  <MintResearch.description>搜索研究项目。</MintResearch.description>
+  <!--EN: mint research-->
+  <MintResearch.label>Mint 研究菜单</MintResearch.label>
+</LanguageData>

@@ -1,0 +1,865 @@
+key,text,tag,file,type,protected_text
+nuclearFuelAllowNew,Allow New Fuel,nuclearFuelAllowNew,Rimatomics.xml,keyed,Allow New Fuel
+nuclearFuelAllowUsed,Allow Used Fuel,nuclearFuelAllowUsed,Rimatomics.xml,keyed,Allow Used Fuel
+Weaponrankicons,Weapon rank icons,Weaponrankicons,Rimatomics.xml,keyed,Weapon rank icons
+WeaponrankiconsDesc,Shows small rank icons on veteran energy weapons when zoomed in,WeaponrankiconsDesc,Rimatomics.xml,keyed,Shows small rank icons on veteran energy weapons when zoomed in
+Showresearchbutton,Show research button,Showresearchbutton,Rimatomics.xml,keyed,Show research button
+ShowresearchbuttonDesc,"Adds a Rimatomics research button to the main tabs, else it can be opened from a tab on each research bench",ShowresearchbuttonDesc,Rimatomics.xml,keyed,"Adds a Rimatomics research button to the main tabs, else it can be opened from a tab on each research bench"
+Mannedreactorconsole,Manned reactor console,Mannedreactorconsole,Rimatomics.xml,keyed,Manned reactor console
+MannedreactorconsoleDesc,"Reactor consoles must me manned by a pawn for the control window to open, else it can be opened from a button",MannedreactorconsoleDesc,Rimatomics.xml,keyed,"Reactor consoles must me manned by a (PH_1) for the control window to open, else it can be opened from a button"
+ThreatDetectionToggle,Threat Detection,ThreatDetectionToggle,Rimatomics.xml,keyed,Threat Detection
+ThreatDetectionToggleDesc,Toggle threat detection mode,ThreatDetectionToggleDesc,Rimatomics.xml,keyed,Toggle threat detection mode
+AutothrotIDCount,"Multiple cores set to {0}, each core must have a unique ID for auto-throttle to engage",AutothrotIDCount,Rimatomics.xml,keyed,"Multiple cores set to (PH_1), each core must have a unique ID for auto-throttle to engage"
+AutothrotOn,Auto-throttle engaged for {0},AutothrotOn,Rimatomics.xml,keyed,Auto-throttle engaged for (PH_1)
+AutothrotOff,Auto-throttle disengaged for {0},AutothrotOff,Rimatomics.xml,keyed,Auto-throttle disengaged for (PH_1)
+AutothrotRange,Grid excess must be within +/- 5000w to engage,AutothrotRange,Rimatomics.xml,keyed,Grid excess must be within +/- 5000w to engage
+AutothrotTip,"Engage Auto-throttle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage",AutothrotTip,Rimatomics.xml,keyed,"Engage Auto-throttle(PH_2)(PH_1)control flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage"
+CoreIdMismatch,"Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle",CoreIdMismatch,Rimatomics.xml,keyed,"Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle"
+FuelLifeRange,{0} Fuel Life,FuelLifeRange,Rimatomics.xml,keyed,(PH_1) Fuel Life
+PoolLoading,Loading,PoolLoading,Rimatomics.xml,keyed,Loading
+PoolUnloading,Unloading,PoolUnloading,Rimatomics.xml,keyed,Unloading
+Designateremoveallspent,Remove all spent fuel,Designateremoveallspent,Rimatomics.xml,keyed,Remove all spent fuel
+Designateremoveall,Remove all fuel,Designateremoveall,Rimatomics.xml,keyed,Remove all fuel
+Designateremoveallprocessable,Remove all processable fuel,Designateremoveallprocessable,Rimatomics.xml,keyed,Remove all processable fuel
+Designateinstallall,Install fuel into all slots,Designateinstallall,Rimatomics.xml,keyed,Install fuel into all slots
+Clearalldesignations,Clear all designations,Clearalldesignations,Rimatomics.xml,keyed,Clear all designations
+MissingPESUpgrades,When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.,MissingPESUpgrades,Rimatomics.xml,keyed,When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.
+ReactorAlert,Reactor Alert!,ReactorAlert,Rimatomics.xml,keyed,Reactor Alert!
+ShortRangeStratLaunch,Tactical Launch,ShortRangeStratLaunch,Rimatomics.xml,keyed,Tactical Launch
+ShortRangeStratLaunchDesc,Launch a strategic missile on this map,ShortRangeStratLaunchDesc,Rimatomics.xml,keyed,Launch a strategic missile on this map
+LongRangeStratLaunch,Strategic Launch,LongRangeStratLaunch,Rimatomics.xml,keyed,Strategic Launch
+LongRangeStratLaunchDesc,Launch the missile at a target on this Rimworld,LongRangeStratLaunchDesc,Rimatomics.xml,keyed,Launch the missile at a target on this Rimworld
+HighYieldWarhead,High Yield,HighYieldWarhead,Rimatomics.xml,keyed,High Yield
+HighYieldWarheadDesc,Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker,HighYieldWarheadDesc,Rimatomics.xml,keyed,Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker
+LowYieldWarhead,Low Yield,LowYieldWarhead,Rimatomics.xml,keyed,Low Yield
+LowYieldWarheadDesc,Missiles launched from this silo are set to create a small tactical explosion,LowYieldWarheadDesc,Rimatomics.xml,keyed,Missiles launched from this silo are set to create a small tactical explosion
+RimatomicsValveLabel,Toggle Valve,RimatomicsValveLabel,Rimatomics.xml,keyed,Toggle Valve
+RimatomicsValveLabelDesc,Toggle the valve open or closed,RimatomicsValveLabelDesc,Rimatomics.xml,keyed,Toggle the valve open or closed
+FlareScram,Flare SCRAM,FlareScram,Rimatomics.xml,keyed,Flare SCRAM
+FlareScramDesc,SCRAM the reactor during solar flares,FlareScramDesc,Rimatomics.xml,keyed,SCRAM the reactor during solar flares
+TargetAllShells,Target All Shells,TargetAllShells,Rimatomics.xml,keyed,Target All Shells
+TargetEnemyShells,Target Enemy Shells,TargetEnemyShells,Rimatomics.xml,keyed,Target Enemy Shells
+ThreatDetection,Threat Detection,ThreatDetection,Rimatomics.xml,keyed,Threat Detection
+NextResearchStep,Next Step:,NextResearchStep,Rimatomics.xml,keyed,Next Step:
+Rimatomics.LowCoolingCapacityDesc,"A reactor cooling building is running at low capacity\n\nTowers need to be unroofed, water coolers need enough surface water, if you are using bad hygiene link mode make sure cooling towers are filled with water",Rimatomics.LowCoolingCapacityDesc,Rimatomics.xml,keyed,"A reactor cooling building is running at low capacity(PH_2)(PH_1)Towers need to be unroofed, water coolers need enough surface water, if you are using bad hygiene link mode make sure cooling towers are filled with water"
+Rimatomics.LowCoolingCapacity,Low Reactor Cooling,Rimatomics.LowCoolingCapacity,Rimatomics.xml,keyed,Low Reactor Cooling
+AlertNeedsTurbine,Core needs turbine,AlertNeedsTurbine,Rimatomics.xml,keyed,Core needs turbine
+AlertNeedsTurbineDesc,"A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown",AlertNeedsTurbineDesc,Rimatomics.xml,keyed,"A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown"
+AlertNeedsCooling,Turbine needs cooling,AlertNeedsCooling,Rimatomics.xml,keyed,Turbine needs cooling
+AlertNeedsCoolingDesc,"A turbine needs to be connected to a cooling system, failure to do so may result in overheating and meltdown",AlertNeedsCoolingDesc,Rimatomics.xml,keyed,"A turbine needs to be connected to a cooling system, failure to do so may result in overheating and meltdown"
+AlertCoreMelt,Core Melt,AlertCoreMelt,Rimatomics.xml,keyed,Core Melt
+AlertCoreMeltDesc,"A reactor is suffering a core melt incident, evacuate immediately",AlertCoreMeltDesc,Rimatomics.xml,keyed,"A reactor is suffering a core melt incident, evacuate immediately"
+AlertCoreOverheat,Reactor Temp,AlertCoreOverheat,Rimatomics.xml,keyed,Reactor Temp
+AlertCoreOverheatDesc,A reactor is being damaged due to overheating,AlertCoreOverheatDesc,Rimatomics.xml,keyed,A reactor is being damaged due to overheating
+AlertCracked,Cracked Core,AlertCracked,Rimatomics.xml,keyed,Cracked Core
+AlertCrackedDesc,"Stress from running the core at high temperatures for a long period of time has caused the core to crack, it will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power and damage the fuel rods.",AlertCrackedDesc,Rimatomics.xml,keyed,"Stress from running the core at high temperatures for a long period of time has caused the core to crack, it will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power and damage the fuel rods."
+CRACKEDFUEL,::CRACKED FUEL::,CRACKEDFUEL,Rimatomics.xml,keyed,::CRACKED FUEL::
+NOCOOLING,::NO COOLING::,NOCOOLING,Rimatomics.xml,keyed,::NO COOLING::
+OVERHEATING,::OVERHEATING:: {0},OVERHEATING,Rimatomics.xml,keyed,::OVERHEATING:: (PH_1)
+COREMELT,::CORE MELT IMMINENT::,COREMELT,Rimatomics.xml,keyed,::CORE MELT IMMINENT::
+EVACUATE,::EVACUATE::,EVACUATE,Rimatomics.xml,keyed,::EVACUATE::
+CONTROLRODJAM,::CONTROL RODS JAMMED::,CONTROLRODJAM,Rimatomics.xml,keyed,::CONTROL RODS JAMMED::
+ReactorAlerts,Reactor Alerts:,ReactorAlerts,Rimatomics.xml,keyed,Reactor Alerts:
+RADIATIONLEAK,::RADIATION LEAK::,RADIATIONLEAK,Rimatomics.xml,keyed,::RADIATION LEAK::
+RADIATIONLEAKSYSTEM,::RADIATION IN SYSTEM::,RADIATIONLEAKSYSTEM,Rimatomics.xml,keyed,::RADIATION IN SYSTEM::
+PodsScrambledOK,Enemy drop pods scrambled by TACS,PodsScrambledOK,Rimatomics.xml,keyed,Enemy drop pods scrambled by TACS
+PodsScrambledDesc,The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse,PodsScrambledDesc,Rimatomics.xml,keyed,The enemy drop pod guidance systems were scrambled by the TACS using a (PH_1)kw pulse
+PodsScrambledFail,Failed to scramble enemy drop pods,PodsScrambledFail,Rimatomics.xml,keyed,Failed to scramble enemy drop pods
+PodsScrambledFailDesc,The {0}kw pulse required to scramble this raid was not available,PodsScrambledFailDesc,Rimatomics.xml,keyed,The (PH_1)kw pulse required to scramble this raid was not available
+ScrambleDropPods,Scramble Drop Pods,ScrambleDropPods,Rimatomics.xml,keyed,Scramble Drop Pods
+ScrambleDropPodsDesc,Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods,ScrambleDropPodsDesc,Rimatomics.xml,keyed,Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods
+TemperatureTip,"Temperature\n\nHigh temperature can cause damage to the core, and crack the fuel. If the cores HP reaches 0 while it is at or above its normal operating temperature it will explode",TemperatureTip,Rimatomics.xml,keyed,"Temperature(PH_2)(PH_1)High temperature can cause damage to the core, and crack the fuel. If the cores HP reaches 0 while it is at or above its normal operating temperature it will explode"
+FuelTip,Fuel\n\nThe total amount of fuel in the core. Fuel chain reacts with fuel in adjacent slots which produces more power\nFuel will produce less power over time until it is spent,FuelTip,Rimatomics.xml,keyed,Fuel(PH_3)(PH_2)The total amount of fuel in the core. Fuel chain reacts with fuel in adjacent slots which produces more power(PH_1)Fuel will produce less power over time until it is spent
+CoolingTip,Cooling\n\nTotal amount of your cooling capacity that is in use. If the gauge turns red add more cooling or reduce power,CoolingTip,Rimatomics.xml,keyed,Cooling(PH_2)(PH_1)Total amount of your cooling capacity that is in use. If the gauge turns red add more cooling or reduce power
+TurbineTip,Turbine\n\nTotal amount of your turbine capacity that is in use. If the gauge turns red add more turbines or reduce power\n\nTurbines also require enough transformers to distribute the power to standard power nets,TurbineTip,Rimatomics.xml,keyed,Turbine(PH_4)(PH_3)Total amount of your turbine capacity that is in use. If the gauge turns red add more turbines or reduce power(PH_2)(PH_1)Turbines also require enough transformers to distribute the power to standard power nets
+PowerTip,"Power\n\nTotal amount of power being produced by the reactor, does not count how much is actually being generated by turbines and transformers",PowerTip,Rimatomics.xml,keyed,"Power(PH_2)(PH_1)Total amount of power being produced by the reactor, does not count how much is actually being generated by turbines and transformers"
+RadiationTip,"Radiation\n\nThe core will emit radiation if it becomes damaged, the amount of radiation increases with the amount of damage",RadiationTip,Rimatomics.xml,keyed,"Radiation(PH_2)(PH_1)The core will emit radiation if it becomes damaged, the amount of radiation increases with the amount of damage"
+CoreNotBuilt,Not Built,CoreNotBuilt,Rimatomics.xml,keyed,Not Built
+Dragtoincreasefluxlevel,Drag to increase flux level to produce more power,Dragtoincreasefluxlevel,Rimatomics.xml,keyed,Drag to increase flux level to produce more power
+MOX,MOX,MOX,Rimatomics.xml,keyed,MOX
+Used,Used,Used,Rimatomics.xml,keyed,Used
+AbortTest,ABORT,AbortTest,Rimatomics.xml,keyed,ABORT
+reactorSCRAM,SCRAM,reactorSCRAM,Rimatomics.xml,keyed,SCRAM
+reactorSTART,START,reactorSTART,Rimatomics.xml,keyed,START
+BreederTest,Breeder Test,BreederTest,Rimatomics.xml,keyed,Breeder Test
+InstallAll,Install all,InstallAll,Rimatomics.xml,keyed,Install all
+ShutdownCold,Shutdown and Cold,ShutdownCold,Rimatomics.xml,keyed,Shutdown and Cold
+StartingUp,Starting up,StartingUp,Rimatomics.xml,keyed,Starting up
+ShuttingDown,Shutting down,ShuttingDown,Rimatomics.xml,keyed,Shutting down
+RimatomActive,Active,RimatomActive,Rimatomics.xml,keyed,Active
+ReactorBreakdown,ID: {0}\nStatus: {1}\nMax power: {2}W\nConversion ratio: {3}\n\n{4},ReactorBreakdown,Rimatomics.xml,keyed,ID: (PH_10)(PH_9)Status: (PH_8)(PH_7)Max power: (PH_6)W(PH_5)Conversion ratio: (PH_4)(PH_3)(PH_2)(PH_1)
+SlotBreakdown,Estimated Life: {0}\nMax Power: {1}W\nCurrent Power: {2}W\nFuel Life: {3}\nPu Yield: {4},SlotBreakdown,Rimatomics.xml,keyed,Estimated Life: (PH_9)(PH_8)Max Power: (PH_7)W(PH_6)Current Power: (PH_5)W(PH_4)Fuel Life: (PH_3)(PH_2)Pu Yield: (PH_1)
+cycleScreensDesc,Monitor all reactors on this network,cycleScreensDesc,Rimatomics.xml,keyed,Monitor all reactors on this network
+cycleScreens,Monitor All,cycleScreens,Rimatomics.xml,keyed,Monitor All
+AutoScram,Auto Scram,AutoScram,Rimatomics.xml,keyed,Auto Scram
+AutoScramDesc,"SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected",AutoScramDesc,Rimatomics.xml,keyed,"SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected"
+FlareSCRAMletterText,A solar flare has triggered a reactor SCRAM,FlareSCRAMletterText,Rimatomics.xml,keyed,A solar flare has triggered a reactor SCRAM
+SCRAMletterText,Unsafe core temperature has triggered a reactor SCRAM,SCRAMletterText,Rimatomics.xml,keyed,Unsafe core temperature has triggered a reactor SCRAM
+CantUseReactorConsole,Requires 8 intellectual,CantUseReactorConsole,Rimatomics.xml,keyed,Requires 8 intellectual
+ProcessingProgress,Progress: {0} {1},ProcessingProgress,Rimatomics.xml,keyed,Progress: (PH_2) (PH_1)
+ContainsFuel,Contains {0} / {1} Nuclear fuel.,ContainsFuel,Rimatomics.xml,keyed,Contains (PH_2) / (PH_1) Nuclear fuel.
+ContainsChemfuel,Contains {0} / {1} Chemfuel.,ContainsChemfuel,Rimatomics.xml,keyed,Contains (PH_2) / (PH_1) Chemfuel.
+critSpentfuelonly,Spent fuel only,critSpentfuelonly,Rimatomics.xml,keyed,Spent fuel only
+critAnyfuel,Any fuel,critAnyfuel,Rimatomics.xml,keyed,Any fuel
+critProg,Progress: {0},critProg,Rimatomics.xml,keyed,Progress: (PH_1)
+critRemovePlutonium,"Processing complete, remove material",critRemovePlutonium,Rimatomics.xml,keyed,"Processing complete, remove material"
+critEnouPU,Can be reprocessed,critEnouPU,Rimatomics.xml,keyed,Can be reprocessed
+NoChemfuel,No chemfuel,NoChemfuel,Rimatomics.xml,keyed,No chemfuel
+VeteranBonus,Bonus: Cooldown -{0}%,VeteranBonus,Rimatomics.xml,keyed,Bonus: Cooldown -(PH_1)
+AnUnknownForce,an unknown force,AnUnknownForce,Rimatomics.xml,keyed,an unknown force
+ATOMattackGround,via land,ATOMattackGround,Rimatomics.xml,keyed,via land
+ATOMattackPods,via drop pods,ATOMattackPods,Rimatomics.xml,keyed,via drop pods
+ATOMdetection,Threat Detected!,ATOMdetection,Rimatomics.xml,keyed,Threat Detected!
+ATOMdetectionDesc,"The TACS has detected a possible threat, it is estimated that {0} will attack {1} in approximately {2}",ATOMdetectionDesc,Rimatomics.xml,keyed,"The TACS has detected a possible threat, it is estimated that (PH_3) will attack (PH_2) in approximately (PH_1)"
+ScadLivesMatter,SCAD HP: {0},ScadLivesMatter,Rimatomics.xml,keyed,SCAD HP: (PH_1)
+Detonating,Detonating...,Detonating,Rimatomics.xml,keyed,Detonating...
+KillCounter,Kills: {0},KillCounter,Rimatomics.xml,keyed,Kills: (PH_1)
+energyWepLoadedShell,Loaded: {0},energyWepLoadedShell,Rimatomics.xml,keyed,Loaded: (PH_1)
+MessageRailgunCantTargetMyMap,Cannot target your own map.,MessageRailgunCantTargetMyMap,Rimatomics.xml,keyed,Cannot target your own map.
+needsRadar,Needs TACS,needsRadar,Rimatomics.xml,keyed,Needs TACS
+ICBMNeedConsole,Requires a manned SACS weapon console,ICBMNeedConsole,Rimatomics.xml,keyed,Requires a manned SACS weapon console
+ICBMNeedMissile,A missile is required for launch,ICBMNeedMissile,Rimatomics.xml,keyed,A missile is required for launch
+ICBMAlreadyLaunching,Already Launching,ICBMAlreadyLaunching,Rimatomics.xml,keyed,Already Launching
+MissileRangeBad,Target not within range,MissileRangeBad,Rimatomics.xml,keyed,Target not within range
+MissileTargetInvalid,Missile target is not valid,MissileTargetInvalid,Rimatomics.xml,keyed,Missile target is not valid
+EnergyWeaponNeedsMannedConsole,Requires a manned weapons console,EnergyWeaponNeedsMannedConsole,Rimatomics.xml,keyed,Requires a manned weapons console
+EnergyWeaponNeedConsole,Weapons console connection required,EnergyWeaponNeedConsole,Rimatomics.xml,keyed,Weapons console connection required
+MissingPPC,Missing Pulsed Power Container,MissingPPC,Rimatomics.xml,keyed,Missing Pulsed Power Container
+PulseSize,Pulse: {0} Wd / Damage: {1},PulseSize,Rimatomics.xml,keyed,Pulse: (PH_2) Wd / Damage: (PH_1)
+critCommandFireMission,Fire Mission,critCommandFireMission,Rimatomics.xml,keyed,Fire Mission
+critCommandFireMissionDesc,Long range artillery shot,critCommandFireMissionDesc,Rimatomics.xml,keyed,Long range artillery shot
+criticbmAttack,"The enemy faction {0} are preparing to launch a missile attack from a nearby base, you have {1} days before launch.",criticbmAttack,Rimatomics.xml,keyed,"The enemy faction (PH_2) are preparing to launch a missile attack from a nearby base, you have (PH_1) days before launch."
+critMagazine,Magazine: {0},critMagazine,Rimatomics.xml,keyed,Magazine: (PH_1)
+critNoSabotRounds,No Sabot ammunition,critNoSabotRounds,Rimatomics.xml,keyed,No Sabot ammunition
+SiloMissingPart,Requires part: {0},SiloMissingPart,Rimatomics.xml,keyed,Requires part: (PH_1)
+critBombDet,The bomb has detonated,critBombDet,Rimatomics.xml,keyed,The bomb has detonated
+critBombDetFac,The bomb detonated and the {0} has been destroyed,critBombDetFac,Rimatomics.xml,keyed,The bomb detonated and the (PH_1) has been destroyed
+SetCamoMode,Set Camo,SetCamoMode,Rimatomics.xml,keyed,Set Camo
+critCountdown,Countdown: {0},critCountdown,Rimatomics.xml,keyed,Countdown: (PH_1)
+critArm,Arm,critArm,Rimatomics.xml,keyed,Arm
+MessageRailgunNeedsMap,"Map not generated, send colonists to scout",MessageRailgunNeedsMap,Rimatomics.xml,keyed,"Map not generated, send colonists to scout"
+MessageRailgunTargetInvalid,Target is not valid,MessageRailgunTargetInvalid,Rimatomics.xml,keyed,Target is not valid
+NextPart,"Next Part: {0}, {1} Needed",NextPart,Rimatomics.xml,keyed,"Next Part: (PH_2), (PH_1) Needed"
+SiloFull,Silo Full,SiloFull,Rimatomics.xml,keyed,Silo Full
+SiloMagazine,Missiles: {0}/{1},SiloMagazine,Rimatomics.xml,keyed,Missiles: (PH_2)/(PH_1)
+ICBMReady,strategic missile ready,ICBMReady,Rimatomics.xml,keyed,strategic missile ready
+TestFireHELSOnOwnShells,Shoot down our own mortar shells for data gathering.,TestFireHELSOnOwnShells,Rimatomics.xml,keyed,Shoot down our own mortar shells for data gathering.
+OpenRadar,Open target tracking display,OpenRadar,Rimatomics.xml,keyed,Open target tracking display
+NoSabotToExtract,No sabot rounds to extract,NoSabotToExtract,Rimatomics.xml,keyed,No sabot rounds to extract
+CancelICBMLaunch,Abort Launch,CancelICBMLaunch,Rimatomics.xml,keyed,Abort Launch
+CancelICBMLaunchDesc,Abort Launch,CancelICBMLaunchDesc,Rimatomics.xml,keyed,Abort Launch
+ICBMLaunchCancelled,strategic missile launch aborted,ICBMLaunchCancelled,Rimatomics.xml,keyed,strategic missile launch aborted
+ReactorUptime,Uptime: {0},ReactorUptime,Rimatomics.xml,keyed,Uptime: (PH_1)
+PuCreated,Pu: {0},PuCreated,Rimatomics.xml,keyed,Pu: (PH_1)
+fuelCracked,Cracked!,fuelCracked,Rimatomics.xml,keyed,Cracked!
+Managefuel,Manage,Managefuel,Rimatomics.xml,keyed,Manage
+RoofedTower,Tower blocked by roof,RoofedTower,Rimatomics.xml,keyed,Tower blocked by roof
+TurbineRPM,RPM: {0} ({1}),TurbineRPM,Rimatomics.xml,keyed,RPM: (PH_2) ((PH_1))
+TradeShipWait,Rimatomics trade ship ready in {0},TradeShipWait,Rimatomics.xml,keyed,Rimatomics trade ship ready in (PH_1)
+critsetid,Set ID,critsetid,Rimatomics.xml,keyed,Set ID
+critCoolingCapShare,Cooling capacity share: {0} with {1} Turbines,critCoolingCapShare,Rimatomics.xml,keyed,Cooling capacity share: (PH_2) with (PH_1) Turbines
+BreederHotLoading,Hot Load,BreederHotLoading,Rimatomics.xml,keyed,Hot Load
+BreederHotLoadingDesc,Allow fuel to be changed while the core is running,BreederHotLoadingDesc,Rimatomics.xml,keyed,Allow fuel to be changed while the core is running
+ControlRod,Control Rods,ControlRod,Rimatomics.xml,keyed,Control Rods
+crackedRemoveNow,\nCRACKED! Remove Now,crackedRemoveNow,Rimatomics.xml,keyed,(PH_1)CRACKED! Remove Now
+critCoreTemp,Core Temp: {0}C,critCoreTemp,Rimatomics.xml,keyed,Core Temp: (PH_1)C
+critCoreEnergy,Energy: {0}kW,critCoreEnergy,Rimatomics.xml,keyed,Energy: (PH_1)kW
+critCoreCooling,Cooling: {0},critCoreCooling,Rimatomics.xml,keyed,Cooling: (PH_1)
+critCoreFlux,Neutron Flux: {0},critCoreFlux,Rimatomics.xml,keyed,Neutron Flux: (PH_1)
+critscramDesc,"Return temperature and neutron flux to base values, but leaves the core on",critscramDesc,Rimatomics.xml,keyed,"Return temperature and neutron flux to base values, but leaves the core on"
+critStartup,Startup,critStartup,Rimatomics.xml,keyed,Startup
+critShutdown,Shutdown,critShutdown,Rimatomics.xml,keyed,Shutdown
+critStartupDesc,"Starts the core, allowing temperatures and flux levels to rise",critStartupDesc,Rimatomics.xml,keyed,"Starts the core, allowing temperatures and flux levels to rise"
+critShutdownDesc,"Shuts down the core, leaving it powered but cold, for refueling and repairs.",critShutdownDesc,Rimatomics.xml,keyed,"Shuts down the core, leaving it powered but cold, for refueling and repairs."
+critManageReactor,Manage Reactor,critManageReactor,Rimatomics.xml,keyed,Manage Reactor
+critreactorcritical,Reactor critical,critreactorcritical,Rimatomics.xml,keyed,Reactor critical
+critreactorleaking,Reactor leaking,critreactorleaking,Rimatomics.xml,keyed,Reactor leaking
+critreactionstable,Reactor stable,critreactionstable,Rimatomics.xml,keyed,Reactor stable
+critStorageCapacity,Storage Capacity: {0} / {1},critStorageCapacity,Rimatomics.xml,keyed,Storage Capacity: (PH_2) / (PH_1)
+critGenerated,Generated: {0} W,critGenerated,Rimatomics.xml,keyed,Generated: (PH_1) W
+critConsumed,Consumed: {0} W,critConsumed,Rimatomics.xml,keyed,Consumed: (PH_1) W
+critPnetPct,Powernet Load: {0},critPnetPct,Rimatomics.xml,keyed,Powernet Load: (PH_1)
+critPowerGeneration,Power Generation: {0} W,critPowerGeneration,Rimatomics.xml,keyed,Power Generation: (PH_1) W
+critValveOpen,Valve: Open,critValveOpen,Rimatomics.xml,keyed,Valve: Open
+critValveClosed,Valve: Closed,critValveClosed,Rimatomics.xml,keyed,Valve: Closed
+critOpenValve,Open Valve,critOpenValve,Rimatomics.xml,keyed,Open Valve
+critCloseValve,Close Valve,critCloseValve,Rimatomics.xml,keyed,Close Valve
+critToggleValve,Operate the valve,critToggleValve,Rimatomics.xml,keyed,Operate the valve
+critTempBoost,Temp Boost,critTempBoost,Rimatomics.xml,keyed,Temp Boost
+critTemp,Temp,critTemp,Rimatomics.xml,keyed,Temp
+critCooling,Cooling,critCooling,Rimatomics.xml,keyed,Cooling
+critTurbine,Turbine,critTurbine,Rimatomics.xml,keyed,Turbine
+critControlRod,Control Rods,critControlRod,Rimatomics.xml,keyed,Control Rods
+critTargetRod,Control Rods To,critTargetRod,Rimatomics.xml,keyed,Control Rods To
+critFuelRemaining2,Fuel Remaining: {0},critFuelRemaining2,Rimatomics.xml,keyed,Fuel Remaining: (PH_1)
+RimatomEmpty,Empty,RimatomEmpty,Rimatomics.xml,keyed,Empty
+RimatomActivated,Activated,RimatomActivated,Rimatomics.xml,keyed,Activated
+RimatomCracked,Cracked,RimatomCracked,Rimatomics.xml,keyed,Cracked
+RimatomSpent,Spent,RimatomSpent,Rimatomics.xml,keyed,Spent
+RimatomNew,New,RimatomNew,Rimatomics.xml,keyed,New
+RimatomRemove,Remove,RimatomRemove,Rimatomics.xml,keyed,Remove
+RimatomStore,Store,RimatomStore,Rimatomics.xml,keyed,Store
+RimatomLife,Life,RimatomLife,Rimatomics.xml,keyed,Life
+UnsafeFacility,Unsafe Facility,UnsafeFacility,Rimatomics.xml,keyed,Unsafe Facility
+FacilityNoPower,No Power,FacilityNoPower,Rimatomics.xml,keyed,No Power
+NoActiveBenchWithProject,No active bench with required project,NoActiveBenchWithProject,Rimatomics.xml,keyed,No active bench with required project
+NoStandableCell,No adjacent standable cell,NoStandableCell,Rimatomics.xml,keyed,No adjacent standable cell
+critPlaceOnCore,Must be placed on a molten core of correct type,critPlaceOnCore,Rimatomics.xml,keyed,Must be placed on a molten core of correct type
+NeedsRiver,"Needs to be placed next to a river, lake or ocean",NeedsRiver,Rimatomics.xml,keyed,"Needs to be placed next to a river, lake or ocean"
+critMoreWater,Requires a larger body of water,critMoreWater,Rimatomics.xml,keyed,Requires a larger body of water
+critActiveCore,Core is still active,critActiveCore,Rimatomics.xml,keyed,Core is still active
+critCrackedcore,Core is cracked,critCrackedcore,Rimatomics.xml,keyed,Core is cracked
+critNoSlotDes,No designated slots,critNoSlotDes,Rimatomics.xml,keyed,No designated slots
+critnoFuelRods,No Fuel Assembly Available,critnoFuelRods,Rimatomics.xml,keyed,No Fuel Assembly Available
+critNoSpace,No Space,critNoSpace,Rimatomics.xml,keyed,No Space
+critSpentOnly,"Set for spent fuel only, none available",critSpentOnly,Rimatomics.xml,keyed,"Set for spent fuel only, none available"
+critNoPool,No storage pool available,critNoPool,Rimatomics.xml,keyed,No storage pool available
+critCoreIntegrityDesc,The integrity of this core is so low that it may crack.,critCoreIntegrityDesc,Rimatomics.xml,keyed,The integrity of this core is so low that it may crack.
+TradeShipPrice,Send trade ship ({0} silver),TradeShipPrice,Rimatomics.xml,keyed,Send trade ship ((PH_1) silver)
+TradeShipPriceNeed,Need {0} silver to send trade ship,TradeShipPriceNeed,Rimatomics.xml,keyed,Need (PH_1) silver to send trade ship
+TradeShipCooldown,Trade Ship Cooldown: {0},TradeShipCooldown,Rimatomics.xml,keyed,Trade Ship Cooldown: (PH_1)
+TradeShipArrival,Trade Ship Arrival: {0},TradeShipArrival,Rimatomics.xml,keyed,Trade Ship Arrival: (PH_1)
+TradeShipReq,A Rimatomics trade ship has been dispatched to your planet.\n\nIt will take 2 days to arrive.,TradeShipReq,Rimatomics.xml,keyed,A Rimatomics trade ship has been dispatched to your planet.(PH_2)(PH_1)It will take 2 days to arrive.
+LowerPowerLimit,Lower Power Limit,LowerPowerLimit,Rimatomics.xml,keyed,Lower Power Limit
+RaisePowerLimit,Raise Power Limit,RaisePowerLimit,Rimatomics.xml,keyed,Raise Power Limit
+PowerLimitDesc,"Change the power limit for this transformer, used for changing power distribution over multiple power nets\n\nHold Shift for finer control",PowerLimitDesc,Rimatomics.xml,keyed,"Change the power limit for this transformer, used for changing power distribution over multiple power nets(PH_2)(PH_1)Hold Shift for finer control"
+TrannyLimit,Power Limit: {0}kW,TrannyLimit,Rimatomics.xml,keyed,Power Limit: (PH_1)kW
+TurbinePower,Turbine Power: {0}kW,TurbinePower,Rimatomics.xml,keyed,Turbine Power: (PH_1)kW
+BlueprintUpgradeDesc,"This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module",BlueprintUpgradeDesc,Rimatomics.xml,keyed,"This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module"
+RimatomFree,Free,RimatomFree,Rimatomics.xml,keyed,Free
+RimatomPurchase,Purchase,RimatomPurchase,Rimatomics.xml,keyed,Purchase
+RimatomPrice,Price,RimatomPrice,Rimatomics.xml,keyed,Price
+RimatomUnlocks,Unlocks,RimatomUnlocks,Rimatomics.xml,keyed,Unlocks
+openResearchPanel,Open Research Panel,openResearchPanel,Rimatomics.xml,keyed,Open Research Panel
+ResearchProg,{0}/{1},ResearchProg,Rimatomics.xml,keyed,(PH_2)/(PH_1)
+ResearchPriceNeed,Requires {0} Silver near a trade beacon,ResearchPriceNeed,Rimatomics.xml,keyed,Requires (PH_1) Silver near a trade beacon
+RimUnlocked,Probe detected.,RimUnlocked,Rimatomics.xml,keyed,Probe detected.
+RimatomicsResearchAlert,Rimatomics Research,RimatomicsResearchAlert,Rimatomics.xml,keyed,Rimatomics Research
+RimatomicResearchAlertMess,Project: {0}\nStep: {1}\nTask: {2},RimatomicResearchAlertMess,Rimatomics.xml,keyed,Project: (PH_5)(PH_4)Step: (PH_3)(PH_2)Task: (PH_1)
+thingsUnlocked,Unlocked -,thingsUnlocked,Rimatomics.xml,keyed,Unlocked -
+RimatomStepComplete,Step Completed,RimatomStepComplete,Rimatomics.xml,keyed,Step Completed
+RequiresFac,Requires:,RequiresFac,Rimatomics.xml,keyed,Requires:
+StepInspect,Step: {0},StepInspect,Rimatomics.xml,keyed,Step: (PH_1)
+ResearchComplete,Research Complete,ResearchComplete,Rimatomics.xml,keyed,Research Complete
+StillTestingDef,Still testing prototype,StillTestingDef,Rimatomics.xml,keyed,Still testing prototype
+TabResearch,Research,TabResearch,Rimatomics.xml,keyed,Research
+CurProj,Project: {0},CurProj,Rimatomics.xml,keyed,Project: (PH_1)
+CurStep,Step: {0},CurStep,Rimatomics.xml,keyed,Step: (PH_1)
+Rimatomics.MissingFacility,Missing Facility,Rimatomics.MissingFacility,Rimatomics.xml,keyed,Missing Facility
+DesignatorRemoveRimatomicsPipes,Deconstruct Pipes,DesignatorRemoveRimatomicsPipes,Rimatomics.xml,keyed,Deconstruct Pipes
+DesignatorRemoveRimatomicsPipesDesc,Designate pipes for deconstruction,DesignatorRemoveRimatomicsPipesDesc,Rimatomics.xml,keyed,Designate pipes for deconstruction
+Alert_ResearchFacility,Research Facility Missing,Alert_ResearchFacility,Rimatomics.xml,keyed,Research Facility Missing
+RequiresFacility,{0} required for current step,RequiresFacility,Rimatomics.xml,keyed,(PH_1) required for current step
+DesignatorRemoveColdWater,Remove Cold Water,DesignatorRemoveColdWater,Rimatomics.xml,keyed,Remove Cold Water
+DesignatorRemoveColdWaterDesc,Remove Cold water pipes,DesignatorRemoveColdWaterDesc,Rimatomics.xml,keyed,Remove Cold water pipes
+DesignatorRemoveCooling,Remove Cooling,DesignatorRemoveCooling,Rimatomics.xml,keyed,Remove Cooling
+DesignatorRemoveCoolingDesc,Remove Cooling pipes,DesignatorRemoveCoolingDesc,Rimatomics.xml,keyed,Remove Cooling pipes
+DesignatorRemoveHighVoltage,Remove High Voltage,DesignatorRemoveHighVoltage,Rimatomics.xml,keyed,Remove High Voltage
+DesignatorRemoveHighVoltageDesc,Remove High Voltage lines,DesignatorRemoveHighVoltageDesc,Rimatomics.xml,keyed,Remove High Voltage lines
+DesignatorRemoveLoom,Remove Loom,DesignatorRemoveLoom,Rimatomics.xml,keyed,Remove Loom
+DesignatorRemoveLoomDesc,Remove Wiring Loom,DesignatorRemoveLoomDesc,Rimatomics.xml,keyed,Remove Wiring Loom
+DesignatorRemoveSteam,Remove Steam,DesignatorRemoveSteam,Rimatomics.xml,keyed,Remove Steam
+DesignatorRemoveSteamDesc,Remove Steam pipes,DesignatorRemoveSteamDesc,Rimatomics.xml,keyed,Remove Steam pipes
+coreUpgradeFail,Can't upgrade while core is active,coreUpgradeFail,Rimatomics.xml,keyed,Can't upgrade while core is active
+powerUpgradeFail,Building must be powered down before upgrading,powerUpgradeFail,Rimatomics.xml,keyed,Building must be powered down before upgrading
+RimatomicResearchCompleteDialog,{0} - complete\n\n{1},RimatomicResearchCompleteDialog,Rimatomics.xml,keyed,(PH_4) - complete(PH_3)(PH_2)(PH_1)
+rimatomicsProto,Prototype,rimatomicsProto,Rimatomics.xml,keyed,Prototype
+StartProject,Start Project,StartProject,Rimatomics.xml,keyed,Start Project
+ProjectInitiated,Project initiated,ProjectInitiated,Rimatomics.xml,keyed,Project initiated
+StopProject,Stop Project,StopProject,Rimatomics.xml,keyed,Stop Project
+ProjectTerminated,Project terminated,ProjectTerminated,Rimatomics.xml,keyed,Project terminated
+NoBenchAvailable,No Rimatomics research bench available,NoBenchAvailable,Rimatomics.xml,keyed,No Rimatomics research bench available
+ResearchPurchased,Research Purchased!,ResearchPurchased,Rimatomics.xml,keyed,Research Purchased!
+CoreBlast.label,CoreBlast,label,DamageDef/DamageDef.xml,def,CoreBlast
+CoreBlast.deathMessage,{0} has died in an explosion.,deathMessage,DamageDef/DamageDef.xml,def,(PH_1) has died in an explosion.
+ArcDischarge.label,Arc Discharge,label,DamageDef/DamageDef.xml,def,Arc Discharge
+LaserDischarge.label,Laser Discharge,label,DamageDef/DamageDef.xml,def,Laser Discharge
+Rimatomics.label,Rimatomics,label,DesignationCategoryDef/DesignationCategoryDef.xml,def,Rimatomics
+Rimatomics.description,All Rimatomics buildings,description,DesignationCategoryDef/DesignationCategoryDef.xml,def,All Rimatomics buildings
+PotassiumIodide.label,Potassium iodide,label,ThingDef/ThingDef.xml,def,Potassium iodide
+PotassiumIodide.description,Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.,description,ThingDef/ThingDef.xml,def,Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.
+RadioactiveFallout.label,meltdown fallout,label,GameConditionDef/GameConditionDef.xml,def,meltdown fallout
+RadioactiveFallout.description,A plume of radioactive smoke and ash from a reactor meltdown has been ejected into the air and will settle in the surrounding area.,description,GameConditionDef/GameConditionDef.xml,def,A plume of radioactive smoke and ash from a reactor meltdown has been ejected into the air and will settle in the surrounding area.
+RadioactiveFallout.endMessage,The worst of the radioactive dust has been washed away.,endMessage,GameConditionDef/GameConditionDef.xml,def,The worst of the radioactive dust has been washed away.
+NuclearFallout.label,nuclear blast fallout,label,GameConditionDef/GameConditionDef.xml,def,nuclear blast fallout
+NuclearFallout.description,A plume of radioactive smoke and ash from a nuclear blast has been ejected into the air and will settle in the surrounding area.,description,GameConditionDef/GameConditionDef.xml,def,A plume of radioactive smoke and ash from a nuclear blast has been ejected into the air and will settle in the surrounding area.
+NuclearFallout.endMessage,The worst of the radioactive dust has been washed away.,endMessage,GameConditionDef/GameConditionDef.xml,def,The worst of the radioactive dust has been washed away.
+FlashBlindness.label,Flash blindness,label,HediffDef/HediffDef.xml,def,Flash blindness
+FlashBlindness.description,Flash blindness,description,HediffDef/HediffDef.xml,def,Flash blindness
+FlashBlindness.labelNoun,Flash blindness,labelNoun,HediffDef/HediffDef.xml,def,Flash blindness
+RectalCoring.label,rectal core,label,HediffDef/HediffDef.xml,def,rectal core
+RectalCoring.description,rectal core,description,HediffDef/HediffDef.xml,def,rectal core
+RectalCoring.stages.0.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+Exsanguination.label,exsanguination,label,HediffDef/HediffDef.xml,def,exsanguination
+Exsanguination.description,exsanguination,description,HediffDef/HediffDef.xml,def,exsanguination
+Exsanguination.stages.0.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+FatalRad.label,Fatal Radiation Exposure,label,HediffDef/HediffDef.xml,def,Fatal Radiation Exposure
+FatalRad.description,Fatal Radiation Exposure,description,HediffDef/HediffDef.xml,def,Fatal Radiation Exposure
+FatalRad.stages.0.label,initial,label,HediffDef/HediffDef.xml,def,initial
+FatalRad.stages.1.label,advanced,label,HediffDef/HediffDef.xml,def,advanced
+FatalRad.stages.2.label,near death,label,HediffDef/HediffDef.xml,def,near death
+FatalRad.stages.3.label,dead,label,HediffDef/HediffDef.xml,def,dead
+RimatomicsRadiation.description,radiation sickness,description,HediffDef/HediffDef.xml,def,radiation sickness
+RimatomicsRadiation.label,radiation sickness,label,HediffDef/HediffDef.xml,def,radiation sickness
+RimatomicsRadiation.stages.0.label,initial-hidden,label,HediffDef/HediffDef.xml,def,initial-hidden
+RimatomicsRadiation.stages.1.label,initial,label,HediffDef/HediffDef.xml,def,initial
+RimatomicsRadiation.stages.2.label,minor,label,HediffDef/HediffDef.xml,def,minor
+RimatomicsRadiation.stages.3.label,moderate,label,HediffDef/HediffDef.xml,def,moderate
+RimatomicsRadiation.stages.4.label,serious,label,HediffDef/HediffDef.xml,def,serious
+RimatomicsRadiation.stages.5.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+RadiationIncurable.description,radiation buildup,description,HediffDef/HediffDef.xml,def,radiation buildup
+RadiationIncurable.label,radiation buildup,label,HediffDef/HediffDef.xml,def,radiation buildup
+RadiationIncurable.stages.0.label,initial-hidden,label,HediffDef/HediffDef.xml,def,initial-hidden
+RadiationIncurable.stages.1.label,initial,label,HediffDef/HediffDef.xml,def,initial
+RadiationIncurable.stages.2.label,minor,label,HediffDef/HediffDef.xml,def,minor
+RadiationIncurable.stages.3.label,moderate,label,HediffDef/HediffDef.xml,def,moderate
+RadiationIncurable.stages.4.label,serious,label,HediffDef/HediffDef.xml,def,serious
+RadiationIncurable.stages.5.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+RadiationMechanoid.description,Radiation damage,description,HediffDef/HediffDef.xml,def,Radiation damage
+RadiationMechanoid.label,radiation damage,label,HediffDef/HediffDef.xml,def,radiation damage
+RadiationMechanoid.stages.0.label,initial-hidden,label,HediffDef/HediffDef.xml,def,initial-hidden
+RadiationMechanoid.stages.1.label,initial,label,HediffDef/HediffDef.xml,def,initial
+RadiationMechanoid.stages.2.label,minor,label,HediffDef/HediffDef.xml,def,minor
+RadiationMechanoid.stages.3.label,moderate,label,HediffDef/HediffDef.xml,def,moderate
+RadiationMechanoid.stages.4.label,serious,label,HediffDef/HediffDef.xml,def,serious
+RadiationMechanoid.stages.5.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+RimatomicsResearch.reportString,Researching at TargetA.,reportString,JobDef/JobDef.xml,def,Researching at TargetA.
+SuperviseConstruction.reportString,Constructing TargetA.,reportString,JobDef/JobDef.xml,def,Constructing TargetA.
+SuperviseResearch.reportString,Researching at TargetA.,reportString,JobDef/JobDef.xml,def,Researching at TargetA.
+UpgradeBuilding.reportString,Upgrading TargetA.,reportString,JobDef/JobDef.xml,def,Upgrading TargetA.
+FleeADS.reportString,Fleeing TargetA.,reportString,JobDef/JobDef.xml,def,Fleeing TargetA.
+LoadRailgunMagazine.reportString,Loading railgun magazine.,reportString,JobDef/JobDef.xml,def,Loading railgun magazine.
+LoadSilo.reportString,Loading Silo.,reportString,JobDef/JobDef.xml,def,Loading Silo.
+UseReactorConsole.reportString,Using reactor console.,reportString,JobDef/JobDef.xml,def,Using reactor console.
+HaulModuletoCore.reportString,Hauling TargetB to TargetA.,reportString,JobDef/JobDef.xml,def,Hauling TargetB to TargetA.
+RemoveFuelModule.reportString,removing fuel rods from TargetA.,reportString,JobDef/JobDef.xml,def,removing fuel rods from TargetA.
+LoadSpentFuel.reportString,hauling TargetB to TargetA.,reportString,JobDef/JobDef.xml,def,hauling TargetB to TargetA.
+UnloadPlutonium.reportString,removing plutonium from TargetA.,reportString,JobDef/JobDef.xml,def,removing plutonium from TargetA.
+RimatomicsTraderCooldown.label,Rimatomics Trader Cooldown,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Rimatomics Trader Cooldown
+RimatomicsTraderCooldown.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat
+RimatomicsTraderCooldown.options.1.label,2 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,2 days
+RimatomicsTraderCooldown.options.2.label,5 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,5 days
+RimatomicsTraderCooldown.options.3.label,10 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,10 days
+RimatomicsTraderCooldown.options.4.label,15 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,15 days
+RimatomicsTraderCooldown.options.5.label,20 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,20 days
+RimatomicsTraderCooldown.options.6.label,25 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25 days
+RimatomicsTraderCooldown.options.7.label,30 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,30 days
+RadiationStrength.label,Radiation Strength,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Radiation Strength
+RadiationStrength.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat
+RadiationStrength.options.1.label,25%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25%
+RadiationStrength.options.2.label,50%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,50%
+RadiationStrength.options.3.label,75%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,75%
+RadiationStrength.options.4.label,100%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,100%
+RadiationStrength.options.5.label,125%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,125%
+RadiationStrength.options.6.label,150%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,150%
+RadiationStrength.options.7.label,200%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,200%
+RadiationStrength.options.8.label,300%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,300%
+RadiationStrength.options.9.label,500%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,500%
+RadiationStrength.options.10.label,700%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,700%
+RadiationStrength.options.11.label,1000%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,1000%
+FuelBurnRate.label,Fuel Burn Rate,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Fuel Burn Rate
+FuelBurnRate.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat
+FuelBurnRate.options.1.label,25%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25%
+FuelBurnRate.options.2.label,50%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,50%
+FuelBurnRate.options.3.label,75%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,75%
+FuelBurnRate.options.4.label,100%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,100%
+FuelBurnRate.options.5.label,125%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,125%
+FuelBurnRate.options.6.label,150%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,150%
+FuelBurnRate.options.7.label,200%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,200%
+FuelBurnRate.options.8.label,300%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,300%
+FuelBurnRate.options.9.label,500%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,500%
+FuelBurnRate.options.10.label,700%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,700%
+FuelBurnRate.options.11.label,1000%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,1000%
+PulseSizeScaling.label,Pulse Size Scaling,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Pulse Size Scaling
+PulseSizeScaling.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat
+PulseSizeScaling.options.1.label,25%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25%
+PulseSizeScaling.options.2.label,50%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,50%
+PulseSizeScaling.options.3.label,75%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,75%
+PulseSizeScaling.options.4.label,100%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,100%
+PulseSizeScaling.options.5.label,125%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,125%
+PulseSizeScaling.options.6.label,150%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,150%
+PulseSizeScaling.options.7.label,200%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,200%
+PulseSizeScaling.options.8.label,300%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,300%
+PulseSizeScaling.options.9.label,500%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,500%
+PulseSizeScaling.options.10.label,700%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,700%
+PulseSizeScaling.options.11.label,1000%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,1000%
+SmeltBlades.label,smelt turbine blades,label,RecipeDef/RecipeDef.xml,def,smelt turbine blades
+SmeltBlades.description,Use heat and strong electromagnets to break turbine blades into useful resources.,description,RecipeDef/RecipeDef.xml,def,Use heat and strong electromagnets to break turbine blades into useful resources.
+SmeltBlades.jobString,Smelting turbine blade.,jobString,RecipeDef/RecipeDef.xml,def,Smelting turbine blade.
+MakeMoxFuelRods.label,Make MOX fuel rods,label,RecipeDef/RecipeDef.xml,def,Make MOX fuel rods
+MakeMoxFuelRods.description,Construct MOX fuel rods.,description,RecipeDef/RecipeDef.xml,def,Construct MOX fuel rods.
+MakeMoxFuelRods.jobString,Making MOX fuel rods.,jobString,RecipeDef/RecipeDef.xml,def,Making MOX fuel rods.
+DismantleWarhead.label,Dismantle warhead,label,RecipeDef/RecipeDef.xml,def,Dismantle warhead
+DismantleWarhead.description,Salvaging useful materials from a warhead,description,RecipeDef/RecipeDef.xml,def,Salvaging useful materials from a warhead
+DismantleWarhead.jobString,Dismantling warhead.,jobString,RecipeDef/RecipeDef.xml,def,Dismantling warhead.
+RimatomicsActivate.label,Rimatomics,label,ResearchProjectDef/ResearchProjectDef.xml,def,Rimatomics
+RimatomicsActivate.description,A probe has been detected in orbit! It seems to be sending signals to the surface; maybe we can decipher its message.,description,ResearchProjectDef/ResearchProjectDef.xml,def,A probe has been detected in orbit! It seems to be sending signals to the surface; maybe we can decipher its message.
+Failure_FacilityBreakdown.label,Facility Breakdown,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Facility Breakdown
+Failure_FacilityBreakdown.description,The facility has broken down during research,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility has broken down during research
+Failure_RadiationLeak.label,Radiation Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Radiation Leak
+Failure_RadiationLeak.description,The facility is leaking a short burst of radiation,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking a short burst of radiation
+Failure_MicrowaveLeak.label,Microwave Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Microwave Leak
+Failure_MicrowaveLeak.description,The facility is leaking microwave radiation,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking microwave radiation
+Failure_AcidLeak.label,Acid Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Acid Leak
+Failure_AcidLeak.description,The facility is leaking acid,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking acid
+Failure_GasLeak.label,Gas Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Gas Leak
+Failure_GasLeak.description,The facility is leaking toxic gas,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking toxic gas
+Failure_BlindingFlash.label,Blinding Flash,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Blinding Flash
+Failure_BlindingFlash.description,A blinding flash of light has emanated from the facility,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,A blinding flash of light has emanated from the facility
+Failure_ArcDischarge.label,Arc Discharge,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Arc Discharge
+Failure_ArcDischarge.description,An arc of high voltage electricity shot from the facility,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,An arc of high voltage electricity shot from the facility
+Failure_LaserDischarge.label,Laser Discharge,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Laser Discharge
+Failure_LaserDischarge.description,A Laser discharge shot from the facility,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,A Laser discharge shot from the facility
+Failure_Overvoltage.label,Overvoltage,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Overvoltage
+Failure_Overvoltage.description,The facility has suffered a power surge and started a fire,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility has suffered a power surge and started a fire
+Failure_ShortCircuit.label,Short Circuit,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Short Circuit
+Failure_ShortCircuit.description,The facility has short-circuited. Switch off the power immediately or the building will be destroyed!,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility has short-circuited. Switch off the power immediately or the building will be destroyed!
+Geigercounter1.label,Research radiation detectors,label,ResearchStepDef/ResearchStepDef.xml,def,Research radiation detectors
+Geigercounter1.description,A skilled researcher needs to study the designs and learn how the radiation detectors work.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the radiation detectors work.
+Geigercounter2.label,Evaluate components,label,ResearchStepDef/ResearchStepDef.xml,def,Evaluate components
+Geigercounter2.description,A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available.
+RadiationSuits1.label,Research radiation suits,label,ResearchStepDef/ResearchStepDef.xml,def,Research radiation suits
+RadiationSuits1.description,A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own.
+RadiationSuits2.label,Evaluate components,label,ResearchStepDef/ResearchStepDef.xml,def,Evaluate components
+RadiationSuits2.description,A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us.
+NuclearResearch1.label,Research reactor technology,label,ResearchStepDef/ResearchStepDef.xml,def,Research reactor technology
+NuclearResearch1.description,A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own.
+NuclearResearchConstruct.label,Construct a research reactor,label,TestForReactor/TestForReactor.xml,def,Construct a research reactor
+NuclearResearchConstruct.description,"Construct a research reactor. Colonists will need access to the reactor for experimentation. It is advised to build the reactor in a secure, fireproof lab.",description,TestForReactor/TestForReactor.xml,def,"Construct a research reactor. Colonists will need access to the reactor for experimentation. It is advised to build the reactor in a secure, fireproof lab."
+NuclearResearchPractical.label,Research and train,label,ResearchStepDef/ResearchStepDef.xml,def,Research and train
+NuclearResearchPractical.description,Install reactor control software and perform training exercises while testing the reactor's capabilities.,description,ResearchStepDef/ResearchStepDef.xml,def,Install reactor control software and perform training exercises while testing the reactor's capabilities.
+NuclearReactorResearchPhase.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors
+NuclearReactorResearchPhase.description,A skilled researcher needs to study the Rimatomics reactor designs and prepare for the construction of our first power reactor.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the Rimatomics reactor designs and prepare for the construction of our first power reactor.
+NuclearReactorExperiments.label,Experiment with research reactors (High Risk),label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with research reactors (High Risk)
+NuclearReactorExperiments.description,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!
+BuildReactorCore.label,Build a reactor core,label,ResearchStepDef/ResearchStepDef.xml,def,Build a reactor core
+BuildReactorCore.description,"Build the frame for a nuclear reactor core. Note that once the frame is complete, more work must be done to finish constructing the core. It is highly recommended that the core be built in a containment room to protect colonists during fuel transfer. The thickness of the wall and HP of the materials used determines how much radiation is absorbed. We advise leaving space around the core as the frequency of radiation damage also decreases over distance.",description,ResearchStepDef/ResearchStepDef.xml,def,"Build the frame for a nuclear reactor core. Note that once the frame is complete, more work must be done to finish constructing the core. It is highly recommended that the core be built in a containment room to protect colonists during fuel transfer. The thickness of the wall and HP of the materials used determines how much radiation is absorbed. We advise leaving space around the core as the frequency of radiation damage also decreases over distance."
+BuildReactorTurbine.label,Build a turbine generator,label,TestForHeatexchanger/TestForHeatexchanger.xml,def,Build a turbine generator
+BuildReactorTurbine.description,"The turbine requires a large quantity of turbine blades, which can be manufactured at a Rimatomics machining table.",description,TestForHeatexchanger/TestForHeatexchanger.xml,def,"The turbine requires a large quantity of turbine blades, which can be manufactured at a Rimatomics machining table."
+TestForCore.label,Connect the reactor to the turbine,label,TestForCore/TestForCore.xml,def,Connect the reactor to the turbine
+TestForCore.description,"Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors.",description,TestForCore/TestForCore.xml,def,"Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors."
+BuildReactorCooling.label,Build a cooling system,label,TestForCoolingSystem/TestForCoolingSystem.xml,def,Build a cooling system
+BuildReactorCooling.description,"Build one of the available cooling systems and connect it to a turbine using (Coolant pipe). There are three available cooling systems>: water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, and radiators have the lowest cooling capacity, but are smaller and cheaper to build and can be placed indoors.",description,TestForCoolingSystem/TestForCoolingSystem.xml,def,"Build one of the available cooling systems and connect it to a turbine using (Coolant pipe). There are three available cooling systems>: water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, and radiators have the lowest cooling capacity, but are smaller and cheaper to build and can be placed indoors."
+BuildTransformer.label,Build a power transformer,label,TestForTranny/TestForTranny.xml,def,Build a power transformer
+BuildTransformer.description,Build a power transformer and connect it to the turbine using high voltage cables. A single transformer can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.,description,TestForTranny/TestForTranny.xml,def,Build a power transformer and connect it to the turbine using high voltage cables. A single transformer can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.
+BuildControlComputer.label,Build a reactor control computer,label,TestForReactorControl/TestForReactorControl.xml,def,Build a reactor control computer
+BuildControlComputer.description,"Build a reactor control computer and connect it to the nuclear reactor core using (Controller loom). This console is used to control reactor cores. They can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls. Multiple controls can be open at the same time.",description,TestForReactorControl/TestForReactorControl.xml,def,"Build a reactor control computer and connect it to the nuclear reactor core using (Controller loom). This console is used to control reactor cores. They can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls. Multiple controls can be open at the same time."
+TestReactor.label,Test the nuclear reactor,label,ResearchStepDef/ResearchStepDef.xml,def,Test the nuclear reactor
+TestReactor.description,"Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data."
+Plutonium1.label,Research plutonium processing,label,ResearchStepDef/ResearchStepDef.xml,def,Research plutonium processing
+Plutonium1.description,"A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel reprocessing facility.",description,ResearchStepDef/ResearchStepDef.xml,def,"A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel reprocessing facility."
+Plutonium2.label,Construct a Plutonium Processor,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Plutonium Processor
+Plutonium2.description,"Construct a Plutonium Processor. To reduce the duration of exposure while handling radioactive fuel, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage. Radiation suits will be required for workers that are moving radioactive fuel.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a Plutonium Processor. To reduce the duration of exposure while handling radioactive fuel, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage. Radiation suits will be required for workers that are moving radioactive fuel."
+Plutonium3.label,Experiment with the plutonium processor (High Risk),label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the plutonium processor (High Risk)
+Plutonium3.description,"Experiment with the prototype plutonium processor, ensuring that it is functioning correctly.",description,ResearchStepDef/ResearchStepDef.xml,def,"Experiment with the prototype plutonium processor, ensuring that it is functioning correctly."
+AdvReactor1.label,Experiment with research reactors (High Risk),label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with research reactors (High Risk)
+AdvReactor1.description,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!
+AdvReactor2.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors
+AdvReactor2.description,A skilled researcher needs to finalize the design of the advanced reactors before they are ready for construction.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to finalize the design of the advanced reactors before they are ready for construction.
+AdvReactor3.label,Build an advanced reactor core,label,ResearchStepDef/ResearchStepDef.xml,def,Build an advanced reactor core
+AdvReactor3.description,Build an advanced nuclear reactor core. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer.,description,ResearchStepDef/ResearchStepDef.xml,def,Build an advanced nuclear reactor core. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer.
+AdvReactor4.label,Test the nuclear reactor,label,ResearchStepDef/ResearchStepDef.xml,def,Test the nuclear reactor
+AdvReactor4.description,Power up the advanced reactor and start producing power to gather data.,description,ResearchStepDef/ResearchStepDef.xml,def,Power up the advanced reactor and start producing power to gather data.
+RTG1.label,Research RTGs,label,ResearchStepDef/ResearchStepDef.xml,def,Research RTGs
+RTG1.description,A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own.
+RTG2.label,Create plutonium,label,ResearchStepDef/ResearchStepDef.xml,def,Create plutonium
+RTG2.description,"Create some plutonium, which is required to make an RTG. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.",description,ResearchStepDef/ResearchStepDef.xml,def,"Create some plutonium, which is required to make an RTG. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor."
+RTG3.label,Evaluate components,label,ResearchStepDef/ResearchStepDef.xml,def,Evaluate components
+RTG3.description,A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us.
+ICBM1.label,Research nuclear weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear weapons
+ICBM1.description,A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own.
+ICBM2.label,Create plutonium,label,ResearchStepDef/ResearchStepDef.xml,def,Create plutonium
+ICBM2.description,"Create some plutonium, which is required to make a bomb. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.",description,ResearchStepDef/ResearchStepDef.xml,def,"Create some plutonium, which is required to make a bomb. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor."
+ICBM3.label,Experiment with the research reactor,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the research reactor
+ICBM3.description,Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon.,description,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon.
+ICBM4.label,Construct a weapons console,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a weapons console
+ICBM4.description,"Construct a weapons console. The weapons console is a manned target acquisition computer required by all energy weapons. It networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real-time ground and air target tracking, and a PPC capacity gauge displays the total stored PPC energy on the net.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a weapons console. The weapons console is a manned target acquisition computer required by all energy weapons. It networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real-time ground and air target tracking, and a PPC capacity gauge displays the total stored PPC energy on the net."
+ICBM5.label,Construct a Target Acquisition and Communications System (TACS),label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Target Acquisition and Communications System (TACS)
+ICBM5.description,"Construct a TACS. The system uses a combination of technologies to track land- and air-based targets. This includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long-range tracking of ballistic missiles.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a TACS. The system uses a combination of technologies to track land- and air-based targets. This includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long-range tracking of ballistic missiles."
+ICBM6.label,Construct a Liberator,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Liberator
+ICBM6.description,Construct a Liberator. It must be connected via power conduit to a weapons console to control the launch systems.,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a Liberator. It must be connected via power conduit to a weapons console to control the launch systems.
+ICBM7.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+ICBM7.description,"Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum amount of data.",description,ResearchStepDef/ResearchStepDef.xml,def,"Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum amount of data."
+EnergyWeapons1.label,Research energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Research energy weapons
+EnergyWeapons1.description,A skilled researcher needs to study how Rimatomics energy weapons work,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study how Rimatomics energy weapons work
+ConstructWeaponBenchStep.label,Construct a Weapons Research Bench,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Weapons Research Bench
+ConstructWeaponBenchStep.description,"Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing, colonists will need access to the bench for experimentation, it is advised to build it in a secure fireproof lab.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing, colonists will need access to the bench for experimentation, it is advised to build it in a secure fireproof lab."
+EnergyWeapExperiments.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+EnergyWeapExperiments.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+EnergyWeapons5.label,Construct a Semi Automated Command Station (SACS),label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Semi Automated Command Station (SACS)
+EnergyWeapons5.description,"Construct a SACS, this console is a target acquisition computer required by all energy weapons, it networks to all Rimatomics energy weapons that share the same power net, then it assigns targets using the onboard sensors of the weapons combined with the Target Acquisition System (TACS).\n\nThe main display features a real time ground target and aerial projectile tracker, and a gauge displays the total stored PPC energy on the net.\nSome weapons require the console to be manned to function, this will be displayed in the inspect tab for the weapon",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a SACS, this console is a target acquisition computer required by all energy weapons, it networks to all Rimatomics energy weapons that share the same power net, then it assigns targets using the onboard sensors of the weapons combined with the Target Acquisition System (TACS).(PH_3)(PH_2)The main display features a real time ground target and aerial projectile tracker, and a gauge displays the total stored PPC energy on the net.(PH_1)Some weapons require the console to be manned to function, this will be displayed in the inspect tab for the weapon"
+EnergyWeapons6.label,Construct a Target Acquisition and Communications System (TACS),label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Target Acquisition and Communications System (TACS)
+EnergyWeapons6.description,"Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles. The information is routed to a SACS console where targets are selected and tracking information can be displayed",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles. The information is routed to a SACS console where targets are selected and tracking information can be displayed"
+EnergyWeapons7.label,Construct a Pulsed Power Container (PPC),label,TestForWeaponsConsole/TestForWeaponsConsole.xml,def,Construct a Pulsed Power Container (PPC)
+EnergyWeapons7.description,Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.\n\nThese ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays,description,TestForWeaponsConsole/TestForWeaponsConsole.xml,def,Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.(PH_2)(PH_1)These ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays
+ADS1.label,Research the ADS,label,ResearchStepDef/ResearchStepDef.xml,def,Research the ADS
+ADS1.description,A skilled researcher needs to study the designs and learn how the ADS works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the ADS works before we can build our own
+ADS2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+ADS2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+ADS4.label,Construct a prototype ADS,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype ADS
+ADS4.description,Construct a prototype version of the ADS. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the ADS. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing
+ADS5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+ADS5.description,Test fire the ADS on any living targets to gather weapons data,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the ADS on any living targets to gather weapons data
+TeslaCoil1.label,Research tesla coils,label,ResearchStepDef/ResearchStepDef.xml,def,Research tesla coils
+TeslaCoil1.description,A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own
+TeslaCoil2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+TeslaCoil2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+TeslaCoil4.label,Construct a prototype Tesla Coil,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype Tesla Coil
+TeslaCoil4.description,Construct a prototype version of the Tesla Coil. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the Tesla Coil. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing
+TeslaCoil5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+TeslaCoil5.description,Test fire the Tesla coil on any targets to gather weapons data,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Tesla coil on any targets to gather weapons data
+HEL1.label,Research the HEL,label,ResearchStepDef/ResearchStepDef.xml,def,Research the HEL
+HEL1.description,A skilled researcher needs to study the designs and learn how the HEL works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the HEL works before we can build our own
+HEL2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+HEL2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+HEL4.label,Construct a prototype HEL,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype HEL
+HEL4.description,Construct a prototype version of the HEL. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the HEL. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing
+HEL5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+HEL5.description,"Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells",description,ResearchStepDef/ResearchStepDef.xml,def,"Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells"
+Railgun1.label,Research the Punisher,label,ResearchStepDef/ResearchStepDef.xml,def,Research the Punisher
+Railgun1.description,A skilled researcher needs to study the designs and learn how the Punisher works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the Punisher works before we can build our own
+Railgun2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+Railgun2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+Railgun4.label,Construct a prototype Punisher,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype Punisher
+Railgun4.description,Construct a prototype version of the Punisher. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the Punisher. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing
+Railgun5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+Railgun5.description,Test fire the Punisher on any targets to gather weapons data. You can craft Sabot rounds at a Rimatomics machining table,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Punisher on any targets to gather weapons data. You can craft Sabot rounds at a Rimatomics machining table
+Railgun6.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+Railgun6.description,"Test the fire mission functionality of the Punisher. You must send scouts to another map, then select the prototype Punisher and click Fire Mission",description,ResearchStepDef/ResearchStepDef.xml,def,"Test the fire mission functionality of the Punisher. You must send scouts to another map, then select the prototype Punisher and click Fire Mission"
+Obelisk1.label,Research the Obelisk,label,ResearchStepDef/ResearchStepDef.xml,def,Research the Obelisk
+Obelisk1.description,A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own
+Obelisk2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+Obelisk2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+Obelisk4.label,Construct an Obelisk,label,ResearchStepDef/ResearchStepDef.xml,def,Construct an Obelisk
+Obelisk4.description,"Construct a prototype version of the Obelisk, Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a prototype version of the Obelisk, Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing"
+Obelisk5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+Obelisk5.description,Test fire the Obelisk on any targets to collect data,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Obelisk on any targets to collect data
+Marauder1.label,Research the Marauder,label,ResearchStepDef/ResearchStepDef.xml,def,Research the Marauder
+Marauder1.description,A skilled researcher needs to study the designs and learn how the Marauder works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the Marauder works before we can build our own
+Marauder2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+Marauder2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+Marauder4.label,Construct a prototype Marauder,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype Marauder
+Marauder4.description,Construct a prototype version of the Marauder. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the Marauder. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing
+Marauder5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+Marauder5.description,Test fire the Marauder to gather weapons data.,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Marauder to gather weapons data.
+EnergyShields1.label,Research energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Research energy weapons
+EnergyShields1.description,A skilled researcher needs to study how Rimatomics energy shields work,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study how Rimatomics energy shields work
+EnergyShields2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons
+EnergyShields2.description,"Researchers must perform practical experiments using the weapons research bench, Rimatomics energy shields are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform practical experiments using the weapons research bench, Rimatomics energy shields are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous"
+ControlRodActuators1.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors
+ControlRodActuators1.description,Experiment with the research reactor and plan tests which can be performed on a live reactor core,description,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the research reactor and plan tests which can be performed on a live reactor core
+ControlRodActuators2.label,Perform 2 reactor SCRAM's,label,ResearchStepDef/ResearchStepDef.xml,def,Perform 2 reactor SCRAM's
+ControlRodActuators2.description,Test the control rod system by performing a reactor SCRAM while it is fully fueled and set to 100% power.,description,ResearchStepDef/ResearchStepDef.xml,def,Test the control rod system by performing a reactor SCRAM while it is fully fueled and set to 100% power.
+ControlRodActuators3.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors
+ControlRodActuators3.description,Analyze the data gathered and finalize the designs for the new control rod actuators,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the new control rod actuators
+ThreatDetection1.label,Research threat detection,label,ResearchStepDef/ResearchStepDef.xml,def,Research threat detection
+ThreatDetection1.description,A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis
+ThreatDetection2.label,Collect data on raids,label,ResearchStepDef/ResearchStepDef.xml,def,Collect data on raids
+ThreatDetection2.description,"Collect data from raids, each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model",description,ResearchStepDef/ResearchStepDef.xml,def,"Collect data from raids, each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model"
+ThreatDetection3.label,Research threat detection,label,ResearchStepDef/ResearchStepDef.xml,def,Research threat detection
+ThreatDetection3.description,Analyze the data gathered and finalize the designs for the ATOM,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the ATOM
+GuidenceSystem1.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors
+GuidenceSystem1.description,A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis
+GuidenceSystem2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+GuidenceSystem2.description,"Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum.",description,ResearchStepDef/ResearchStepDef.xml,def,"Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum."
+GuidenceSystem3.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors
+GuidenceSystem3.description,Analyze the data gathered and finalize the designs for the Guidance System,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the Guidance System
+MEPS1.label,Research MEPS,label,ResearchStepDef/ResearchStepDef.xml,def,Research MEPS
+MEPS1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis
+MEPS2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+MEPS2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.
+MEPS3.label,Research MEPS,label,ResearchStepDef/ResearchStepDef.xml,def,Research MEPS
+MEPS3.description,Analyze the data gathered and finalize the designs for the MEPS module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the MEPS module
+ALC1.label,Research ALC,label,ResearchStepDef/ResearchStepDef.xml,def,Research ALC
+ALC1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis
+ALC2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+ALC2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.
+ALC3.label,Research ALC,label,ResearchStepDef/ResearchStepDef.xml,def,Research ALC
+ALC3.description,Analyze the data gathered and finalize the designs for the ALC module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the ALC module
+ERS1.label,Research ERS,label,ResearchStepDef/ResearchStepDef.xml,def,Research ERS
+ERS1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis
+ERS2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+ERS2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.
+ERS3.label,Research ERS,label,ResearchStepDef/ResearchStepDef.xml,def,Research ERS
+ERS3.description,Analyze the data gathered and finalize the designs for the ERS module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the ERS module
+SCAD1.label,Research SCAD,label,ResearchStepDef/ResearchStepDef.xml,def,Research SCAD
+SCAD1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis
+SCAD2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+SCAD2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.
+SCAD3.label,Research SCAD,label,ResearchStepDef/ResearchStepDef.xml,def,Research SCAD
+SCAD3.description,Analyze the data gathered and finalize the designs for the SCAD module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the SCAD module
+DriveActuator1.label,Research Drive Actuators,label,ResearchStepDef/ResearchStepDef.xml,def,Research Drive Actuators
+DriveActuator1.description,A skilled researcher must experiment at a weapon research bench,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must experiment at a weapon research bench
+DriveActuator2.label,Research Drive Actuators,label,ResearchStepDef/ResearchStepDef.xml,def,Research Drive Actuators
+DriveActuator2.description,Analyze the data gathered and finalize the designs for the Drive Actuators,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the Drive Actuators
+Railgun_TargetingChip1.label,Research Targeting chips,label,ResearchStepDef/ResearchStepDef.xml,def,Research Targeting chips
+Railgun_TargetingChip1.description,A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis
+Railgun_TargetingChip2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+Railgun_TargetingChip2.description,Use the Railgun on any targets to collect data,description,ResearchStepDef/ResearchStepDef.xml,def,Use the Railgun on any targets to collect data
+Railgun_TargetingChip3.label,Research Targeting chips,label,ResearchStepDef/ResearchStepDef.xml,def,Research Targeting chips
+Railgun_TargetingChip3.description,Analyze the data gathered and finalize the designs for the targeting chip,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the targeting chip
+LenseModule1.label,Research Lens Modules,label,ResearchStepDef/ResearchStepDef.xml,def,Research Lens Modules
+LenseModule1.description,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis
+LenseModule2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+LenseModule2.description,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each shot",description,ResearchStepDef/ResearchStepDef.xml,def,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each shot"
+LenseModule3.label,Research Lens Modules,label,ResearchStepDef/ResearchStepDef.xml,def,Research Lens Modules
+LenseModule3.description,Analyze the data gathered and finalize the designs for the lens module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the lens module
+BeamSplitter1.label,Research Beam Splitters,label,ResearchStepDef/ResearchStepDef.xml,def,Research Beam Splitters
+BeamSplitter1.description,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis
+BeamSplitter2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data
+BeamSplitter2.description,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each burst.",description,ResearchStepDef/ResearchStepDef.xml,def,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each burst."
+BeamSplitter3.label,Research Beam Splitters,label,ResearchStepDef/ResearchStepDef.xml,def,Research Beam Splitters
+BeamSplitter3.description,Analyze the data gathered and finalize the designs for the beam splitter device,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the beam splitter device
+NuclearFuelNew.label,Allow New Fuel,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow New Fuel
+NuclearFuelNew.description,Allow new fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow new fuel to be stored here.
+NuclearFuelUsed.label,Allow Used Fuel,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Used Fuel
+NuclearFuelUsed.description,Allow used fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow used fuel to be stored here.
+NuclearFuelCracked.label,Allow Cracked,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Cracked
+NuclearFuelCracked.description,Allow cracked fuel rods to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow cracked fuel rods to be stored here.
+NuclearFuelNotCracked.label,Allow Non Cracked,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Non Cracked
+NuclearFuelNotCracked.description,Allow non cracked fuel rods to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow non cracked fuel rods to be stored here.
+NuclearFuelProcessable.label,Allow Processable,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Processable
+NuclearFuelProcessable.description,Allow processable fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow processable fuel to be stored here.
+NuclearFuelNotProcessable.label,Allow Non Processable,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Non Processable
+NuclearFuelNotProcessable.description,Allow non processable fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow non processable fuel to be stored here.
+Radiation.label,radiation sensitivity,label,StatDef/StatDef.xml,def,radiation sensitivity
+Radiation.description,Multiplier on the impact of radiation buildup on this character.,description,StatDef/StatDef.xml,def,Multiplier on the impact of radiation buildup on this character.
+CraftingResearchSpeed.label,Crafting research speed,label,StatDef/StatDef.xml,def,Crafting research speed
+CraftingResearchSpeed.description,This person does Crafting research at this speed.,description,StatDef/StatDef.xml,def,This person does Crafting research at this speed.
+ConstructionResearchSpeed.label,Construction research speed,label,StatDef/StatDef.xml,def,Construction research speed
+ConstructionResearchSpeed.description,This person does Construction research at this speed.,description,StatDef/StatDef.xml,def,This person does Construction research at this speed.
+TransformerExplosion.label,Transformer Explosion,label,IncidentDef/IncidentDef.xml,def,Transformer Explosion
+TransformerExplosion.letterLabel,Transformer Explosion,letterLabel,IncidentDef/IncidentDef.xml,def,Transformer Explosion
+TransformerExplosion.letterText,Overcurrent in a transformer has caused the circuits to fry.,letterText,IncidentDef/IncidentDef.xml,def,Overcurrent in a transformer has caused the circuits to fry.
+notNothing.label,?,label,IncidentDef/IncidentDef.xml,def,?
+notNothing.letterLabel,?,letterLabel,IncidentDef/IncidentDef.xml,def,?
+notNothing.letterText,?,letterText,IncidentDef/IncidentDef.xml,def,?
+BuildingsNuclear.label,nuclear,label,ThingCategoryDef/ThingCategoryDef.xml,def,nuclear
+NuclearWaste.label,nuclear waste,label,ThingCategoryDef/ThingCategoryDef.xml,def,nuclear waste
+NuclearFuel.label,nuclear fuel,label,ThingCategoryDef/ThingCategoryDef.xml,def,nuclear fuel
+RimatomicsProduct.label,Rimatomics Product,label,ThingCategoryDef/ThingCategoryDef.xml,def,Rimatomics Product
+SabotRounds.label,Sabot Rounds,label,ThingCategoryDef/ThingCategoryDef.xml,def,Sabot Rounds
+Hazmat.label,hazmat,label,ThingCategoryDef/ThingCategoryDef.xml,def,hazmat
+Mopp.label,mopp,label,ThingCategoryDef/ThingCategoryDef.xml,def,mopp
+coolingPipe.label,coolant pipe,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,coolant pipe
+coolingPipe.description,Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.
+coolingPipeHidden.label,coolant pipe (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,coolant pipe (hidden)
+coolingPipeHidden.description,Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.
+coolantValve.label,Coolant valve,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Coolant valve
+coolantValve.description,Opens or closes connections between coolant pipes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Opens or closes connections between coolant pipes.
+steamPipe.label,Steam pipe,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Steam pipe
+steamPipe.description,Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.
+steamPipeHidden.label,steam water pipe (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,steam water pipe (hidden)
+steamPipeHidden.description,Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.
+steamValve.label,Steam valve,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Steam valve
+steamValve.description,Opens or closes connections between steam pipes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Opens or closes connections between steam pipes.
+waterPipe.label,cold water pipe,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,cold water pipe
+waterPipe.description,Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.
+waterPipeHidden.label,cold water pipe (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,cold water pipe (hidden)
+waterPipeHidden.description,Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.
+waterValve.label,Cold water valve,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Cold water valve
+waterValve.description,Opens or closes connections between cold water pipes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Opens or closes connections between cold water pipes.
+HighVoltage.label,High Voltage,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,High Voltage
+HighVoltage.description,Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.
+HighVoltageHidden.label,high voltage (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,high voltage (hidden)
+HighVoltageHidden.description,Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.
+controllerLoom.label,Console Loom,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Console Loom
+controllerLoom.description,Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.
+controllerLoomHidden.label,console loom (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,console loom (hidden)
+controllerLoomHidden.description,Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.
+NuclearResearchBench.label,Rimatomics research bench,label,ThingDef/ThingDef.xml,def,Rimatomics research bench
+NuclearResearchBench.description,Contains Rimatomics research projects. Requires power.,description,ThingDef/ThingDef.xml,def,Contains Rimatomics research projects. Requires power.
+TableRimatomicsMachining.label,Rimatomics machining table,label,ThingDef/ThingDef.xml,def,Rimatomics machining table
+TableRimatomicsMachining.description,A work station for assembling Rimatomics technologies,description,ThingDef/ThingDef.xml,def,A work station for assembling Rimatomics technologies
+ResearchReactor.label,Research Reactor,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Research Reactor
+ResearchReactor.description,Research reactor.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Research reactor.
+WeaponsBench.label,Weapons Research Bench,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Weapons Research Bench
+WeaponsBench.description,Weapons research bench.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Weapons research bench.
+PlutoniumProcessor.label,Plutonium Processor,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Plutonium Processor
+PlutoniumProcessor.description,A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.
+RimatomicsRTG.label,R.T.G,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,R.T.G
+RimatomicsRTG.description,An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.
+ReactorCoreA.label,Reactor Type A,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reactor Type A
+ReactorCoreA.description,Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated
+ReactorCoreB.label,Reactor Type X,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reactor Type X
+ReactorCoreB.description,An advanced breeder reactor design which can generate more fissile material than it consumes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,An advanced breeder reactor design which can generate more fissile material than it consumes.
+ReactorCoreC.label,Reactor Type V,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reactor Type V
+ReactorCoreC.description,A massive advanced breeder reactor design which can generate more fissile material than it consumes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A massive advanced breeder reactor design which can generate more fissile material than it consumes.
+Turbine.label,Thor Turbine,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Thor Turbine
+Turbine.description,A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts
+BigTurbine.label,Zeus Turbine,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Zeus Turbine
+BigTurbine.description,A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt
+CoolingRadiator.label,Radiator,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Radiator
+CoolingRadiator.description,Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.\n25kW cooling capacity,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.(PH_1)25kW cooling capacity
+CoolingWater.label,Water Cooling,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Water Cooling
+CoolingWater.description,"Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.\n250kW cooling capacity",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.(PH_1)250kW cooling capacity"
+CoolingTower.label,Cooling Tower,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Cooling Tower
+CoolingTower.description,Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.\n250kW cooling capacity,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.(PH_1)250kW cooling capacity
+Transformer.label,High Voltage Transformer,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,High Voltage Transformer
+Transformer.description,"Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits"
+ReactorControl.label,reactor console,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,reactor console
+ReactorControl.description,"Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time"
+storagePool.label,Storage Pool,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Storage Pool
+storagePool.description,"A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used"
+RadiationDetector.label,Radiation Detector,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Radiation Detector
+RadiationDetector.description,"Radiation detector, can be placed near reactors to detect radiation leaks",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Radiation detector, can be placed near reactors to detect radiation leaks"
+RadiationShielding.label,Reinforced DU Wall,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reinforced DU Wall
+RadiationShielding.description,"Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation"
+ReactorSacrophagus.label,Sarcophagus Type A,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sarcophagus Type A
+ReactorSacrophagusB.label,Sarcophagus Type X,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sarcophagus Type X
+ReactorSacrophagusC.label,Sarcophagus Type V,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sarcophagus Type V
+DU_Blastdoor.label,DU Blast door,label,ThingDef/ThingDef.xml,def,DU Blast door
+DU_Blastdoor.description,"Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.",description,ThingDef/ThingDef.xml,def,"Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation."
+PPC.label,PPC,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,PPC
+PPC.description,"The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons"
+PPCWeaponsConsole.label,SACS,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,SACS
+PPCWeaponsConsole.description,"The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully."
+RadarDish.label,TACS,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,TACS
+RadarDish.description,"The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems."
+PPCADS.label,ADS,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,ADS
+PPCADS.description,"The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS."
+ADS_Dish.label,ADS Dish,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,ADS Dish
+ADS_Dish.description,ADS Dish.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,ADS Dish.
+PPCTeslaCoil.label,Tesla Coil,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Tesla Coil
+PPCTeslaCoil.description,"The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting."
+Tesla_Coil_Arc_Discharger.label,Tesla Coil Arc Discharger,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Tesla Coil Arc Discharger
+Tesla_Coil_Arc_Discharger.description,Tesla Coil Arc Discharger.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Tesla Coil Arc Discharger.
+PPCHEL.label,HEL,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,HEL
+PPCHEL.description,"The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range."
+HEL_Laser.label,HEL Laser,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,HEL Laser
+HEL_Laser.description,HEL Laser.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,HEL Laser.
+PPCRailgun.label,Punisher,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Punisher
+PPCRailgun.description,The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.
+Railgun_Cannon.label,Punisher Railgun,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Punisher Railgun
+Railgun_Cannon.description,Railgun Railgun.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Railgun Railgun.
+PPCObelisk.label,Obelisk,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Obelisk
+PPCObelisk.description,The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting
+Obelisk_Laser.label,Obelisk Laser,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Obelisk Laser
+Obelisk_Laser.description,Obelisk Laser.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Obelisk Laser.
+PPCMarauder.label,Marauder,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Marauder
+PPCMarauder.description,"The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS."
+Marauder_Railgun.label,Marauder Railgun,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Marauder Railgun
+Marauder_Railgun.description,Marauder Railgun.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Marauder Railgun.
+Bullet_PlasmaToroid.label,Plasma Toroid,label,ThingDef/ThingDef.xml,def,Plasma Toroid
+RimatomicsShieldGenerator.label,Sentinel,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sentinel
+RimatomicsShieldGenerator.description,"The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer."
+MissileSilo.label,Liberator,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Liberator
+MissileSilo.description,The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.
+notReal.label,notReal,label,ThingDef/ThingDef.xml,def,notReal
+RocketEngine.label,Rocket Engine,label,ThingDef/ThingDef.xml,def,Rocket Engine
+RocketEngine.description,Engines for building rocket propelled machines.,description,ThingDef/ThingDef.xml,def,Engines for building rocket propelled machines.
+MissileFuselage.label,Missile Fuselage,label,ThingDef/ThingDef.xml,def,Missile Fuselage
+MissileFuselage.description,Fuselage for building strategic missiles.,description,ThingDef/ThingDef.xml,def,Fuselage for building strategic missiles.
+FissionWarhead.label,Nuclear Warhead,label,ThingDef/ThingDef.xml,def,Nuclear Warhead
+FissionWarhead.description,An explosive device that derives its destructive force from nuclear reactions.,description,ThingDef/ThingDef.xml,def,An explosive device that derives its destructive force from nuclear reactions.
+ICBM_Fission.label,strategic missile,label,ThingDef/ThingDef.xml,def,strategic missile
+NuclearWarheadIncoming.label,warhead incoming,label,ThingDef/ThingDef.xml,def,warhead incoming
+ICBMStrike.label,strategic missile strike,label,ThingDef/ThingDef.xml,def,strategic missile strike
+turbineBlade.label,Turbine Blades,label,ThingDef/ThingDef.xml,def,Turbine Blades
+turbineBlade.description,Used to construct generators.,description,ThingDef/ThingDef.xml,def,Used to construct generators.
+UraniumPellets.label,Uranium Pellets,label,ThingDef/ThingDef.xml,def,Uranium Pellets
+UraniumPellets.description,Pellets of uranium used in the construction of nuclear fuel rods.,description,ThingDef/ThingDef.xml,def,Pellets of uranium used in the construction of nuclear fuel rods.
+Plutonium.label,plutonium,label,ThingDef/ThingDef.xml,def,plutonium
+Plutonium.description,A case of plutonium used to create nuclear weapons or nuclear fuel rods.,description,ThingDef/ThingDef.xml,def,A case of plutonium used to create nuclear weapons or nuclear fuel rods.
+DepletedUraniumPellets.label,Depleted Uranium,label,ThingDef/ThingDef.xml,def,Depleted Uranium
+DepletedUraniumPellets.description,Pellets of depleted uranium used in the construction of nuclear fuel rods.,description,ThingDef/ThingDef.xml,def,Pellets of depleted uranium used in the construction of nuclear fuel rods.
+FuelRods.label,fuel rods,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,fuel rods
+FuelRods.description,"A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine."
+FuelRodsMOX.label,fuel rods MOX,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,fuel rods MOX
+FuelRodsMOX.description,"A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine."
+ChunkRadioactiveSlag.label,radioactive slag chunk,label,ThingDef/ThingDef.xml,def,radioactive slag chunk
+NuclearWaste.description,A drum of nuclear waste.,description,ThingDef/ThingDef.xml,def,A drum of nuclear waste.
+ThrownSlag.label,ThrownSlag,label,ThingDef/ThingDef.xml,def,ThrownSlag
+Apparel_RadiationMask.label,radiation mask,label,ThingDef/ThingDef.xml,def,radiation mask
+Apparel_RadiationMask.description,"Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.",description,ThingDef/ThingDef.xml,def,"Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas."
+Apparel_MoppMaskDesert.label,MOPP mask(Desert),label,ThingDef/ThingDef.xml,def,MOPP (PH_1)
+Apparel_MoppMaskWoodland.label,MOPP mask(Woodland),label,ThingDef/ThingDef.xml,def,MOPP (PH_1)
+Apparel_MoppMaskSnow.label,MOPP mask(Snow),label,ThingDef/ThingDef.xml,def,MOPP (PH_1)
+Apparel_RadiationSuit.label,radiation suit,label,ThingDef/ThingDef.xml,def,radiation suit
+Apparel_RadiationSuit.description,A suit that protects against radiation through shielding in the lining.,description,ThingDef/ThingDef.xml,def,A suit that protects against radiation through shielding in the lining.
+Apparel_MoppSuitDesert.label,MOPP suit(Desert),label,ThingDef/ThingDef.xml,def,MOPP (PH_1)
+Apparel_MoppSuitWoodland.label,MOPP suit(Woodland),label,ThingDef/ThingDef.xml,def,MOPP (PH_1)
+Apparel_MoppSuitSnow.label,MOPP suit(Snow),label,ThingDef/ThingDef.xml,def,MOPP (PH_1)
+RailgunSabot.label,Sabot Round,label,ThingDef/ThingDef.xml,def,Sabot Round
+RailgunSabot.description,A kinetic energy projectile fired from a railgun.,description,ThingDef/ThingDef.xml,def,A kinetic energy projectile fired from a railgun.
+Bullet_Sabot.label,Sabot Round,label,ThingDef/ThingDef.xml,def,Sabot Round
+RailgunSabotDU.label,DU Sabot Round,label,ThingDef/ThingDef.xml,def,DU Sabot Round
+RailgunSabotDU.description,"A kinetic energy projectile fired from a railgun, inert and safe to stockpile.",description,ThingDef/ThingDef.xml,def,"A kinetic energy projectile fired from a railgun, inert and safe to stockpile."
+Bullet_Sabot_DU.label,DU Sabot Round,label,ThingDef/ThingDef.xml,def,DU Sabot Round
+SabotRoundIncoming.label,sabot incoming,label,ThingDef/ThingDef.xml,def,sabot incoming
+DUSabotRoundIncoming.label,DU sabot incoming,label,ThingDef/ThingDef.xml,def,DU sabot incoming
+UnfinishedRimatomics.label,unfinished Rimatomics item,label,ThingDef/ThingDef.xml,def,unfinished Rimatomics item
+UnfinishedRimatomics.description,An unfinished Rimatomics item.,description,ThingDef/ThingDef.xml,def,An unfinished Rimatomics item.
+ControlRodActuator.label,Control Rod Actuator,label,ThingDef/ThingDef.xml,def,Control Rod Actuator
+ControlRodActuator.description,Upgrade parts for the Rimatomics nuclear reactor,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics nuclear reactor
+ATOM.label,ATOM,label,ThingDef/ThingDef.xml,def,ATOM
+ATOM.description,Upgrade module for TACS,description,ThingDef/ThingDef.xml,def,Upgrade module for TACS
+SCAD.label,SCAD,label,ThingDef/ThingDef.xml,def,SCAD
+SCAD.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons
+MEPS.label,MEPS,label,ThingDef/ThingDef.xml,def,MEPS
+MEPS.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons
+ALC.label,ALC,label,ThingDef/ThingDef.xml,def,ALC
+ALC.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons
+ERS.label,ERS,label,ThingDef/ThingDef.xml,def,ERS
+ERS.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons
+DriveActuator.label,Drive Actuator,label,ThingDef/ThingDef.xml,def,Drive Actuator
+DriveActuator.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons
+TargetingChip.label,Targeting Chip,label,ThingDef/ThingDef.xml,def,Targeting Chip
+TargetingChip.description,Upgrade parts for the Rimatomics Railgun,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics Railgun
+BeamSplitter.label,Beam Splitter,label,ThingDef/ThingDef.xml,def,Beam Splitter
+BeamSplitter.description,Upgrade parts for the Rimatomics Obelisk.,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics Obelisk.
+LenseModule.label,Lens Module,label,ThingDef/ThingDef.xml,def,Lens Module
+LenseModule.description,Upgrade parts for the Rimatomics Obelisk.,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics Obelisk.
+Abducted.stages.0.label,I cant explain it.,label,ThoughtDef/ThoughtDef.xml,def,I cant explain it.
+Abducted.stages.0.description,"Something happened last night, I don't know where I was!",description,ThoughtDef/ThoughtDef.xml,def,"Something happened last night, I don't know where I was!"
+Orbital_Rimatomics.label,military industrial trader,label,TraderKindDef/TraderKindDef.xml,def,military industrial trader
+LoadRailgunMagazine.label,Load sabot rounds,label,WorkGiverDef/WorkGiverDef.xml,def,Load sabot rounds
+LoadRailgunMagazine.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load
+LoadRailgunMagazine.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading
+LoadSilo.label,Load silo,label,WorkGiverDef/WorkGiverDef.xml,def,Load silo
+LoadSilo.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load
+LoadSilo.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading
+LoadFuelModule.label,Load fuel,label,WorkGiverDef/WorkGiverDef.xml,def,Load fuel
+LoadFuelModule.verb,load fuel into,verb,WorkGiverDef/WorkGiverDef.xml,def,load fuel into
+LoadFuelModule.gerund,loading fuel into,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading fuel into
+LoadSpentFuel.label,Load spent fuel,label,WorkGiverDef/WorkGiverDef.xml,def,Load spent fuel
+LoadSpentFuel.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load
+LoadSpentFuel.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading
+LoadProcChemFuel.label,Load chemfuel,label,WorkGiverDef/WorkGiverDef.xml,def,Load chemfuel
+LoadProcChemFuel.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load
+LoadProcChemFuel.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading
+UnloadPlutonium.label,Remove plutonium,label,WorkGiverDef/WorkGiverDef.xml,def,Remove plutonium
+UnloadPlutonium.verb,unload,verb,WorkGiverDef/WorkGiverDef.xml,def,unload
+UnloadPlutonium.gerund,unloading,gerund,WorkGiverDef/WorkGiverDef.xml,def,unloading
+RemoveFuelModule.label,Remove fuel,label,WorkGiverDef/WorkGiverDef.xml,def,Remove fuel
+RemoveFuelModule.verb,remove fuel from,verb,WorkGiverDef/WorkGiverDef.xml,def,remove fuel from
+RemoveFuelModule.gerund,removing fuel from,gerund,WorkGiverDef/WorkGiverDef.xml,def,removing fuel from
+UpgradeBuilding.label,Upgrade Rimatomics buildings,label,WorkGiverDef/WorkGiverDef.xml,def,Upgrade Rimatomics buildings
+UpgradeBuilding.verb,Upgrade,verb,WorkGiverDef/WorkGiverDef.xml,def,Upgrade
+UpgradeBuilding.gerund,upgrading,gerund,WorkGiverDef/WorkGiverDef.xml,def,upgrading
+DoBillsTableNuclear.label,Do bills at nuclear machining table,label,WorkGiverDef/WorkGiverDef.xml,def,Do bills at nuclear machining table
+DoBillsTableNuclear.verb,work,verb,WorkGiverDef/WorkGiverDef.xml,def,work
+DoBillsTableNuclear.gerund,working at,gerund,WorkGiverDef/WorkGiverDef.xml,def,working at
+RimatomicsCrafting.label,Do research,label,WorkGiverDef/WorkGiverDef.xml,def,Do research
+RimatomicsCrafting.verb,research,verb,WorkGiverDef/WorkGiverDef.xml,def,research
+RimatomicsCrafting.gerund,researching at,gerund,WorkGiverDef/WorkGiverDef.xml,def,researching at
+RimatomicsResearch.label,Do rimatomics research,label,WorkGiverDef/WorkGiverDef.xml,def,Do rimatomics research
+RimatomicsResearch.verb,rimatomics research,verb,WorkGiverDef/WorkGiverDef.xml,def,rimatomics research
+RimatomicsResearch.gerund,researching at,gerund,WorkGiverDef/WorkGiverDef.xml,def,researching at
+RimatomicsSuperviseResearch.label,Do Supervise research,label,WorkGiverDef/WorkGiverDef.xml,def,Do Supervise research
+RimatomicsSuperviseResearch.verb,Supervise research,verb,WorkGiverDef/WorkGiverDef.xml,def,Supervise research
+RimatomicsSuperviseResearch.gerund,researching at,gerund,WorkGiverDef/WorkGiverDef.xml,def,researching at
+RimatomicsConstruction.label,Do Rimatomics construction,label,WorkGiverDef/WorkGiverDef.xml,def,Do Rimatomics construction
+RimatomicsConstruction.verb,Construct,verb,WorkGiverDef/WorkGiverDef.xml,def,Construct
+RimatomicsConstruction.gerund,Constructing,gerund,WorkGiverDef/WorkGiverDef.xml,def,Constructing
+NuclearWork.labelShort,Nuclear,labelShort,WorkTypeDef/WorkTypeDef.xml,def,Nuclear
+NuclearWork.pawnLabel,Nuclear managing,pawnLabel,WorkTypeDef/WorkTypeDef.xml,def,Nuclear managing
+NuclearWork.gerundLabel,Loading,gerundLabel,WorkTypeDef/WorkTypeDef.xml,def,Loading
+NuclearWork.description,Move and load radioactive material.,description,WorkTypeDef/WorkTypeDef.xml,def,Move and load radioactive material.
+NuclearWork.verb,Nuclear,verb,WorkTypeDef/WorkTypeDef.xml,def,Nuclear
+ICBMfission.label,strategic missile,label,WorldObjectDef/WorldObjectDef.xml,def,strategic missile
+ICBMfission.description,"A strategic missile is a rocket powered guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.",description,WorldObjectDef/WorldObjectDef.xml,def,"A strategic missile is a rocket powered guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead."
+Sabot.label,Sabot,label,WorldObjectDef/WorldObjectDef.xml,def,Sabot
+Sabot.description,Railgun Sabot Round,description,WorldObjectDef/WorldObjectDef.xml,def,Railgun Sabot Round
+Fallout.label,Nuclear Fallout,label,WorldObjectDef/WorldObjectDef.xml,def,Nuclear Fallout
+Fallout.description,Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.,description,WorldObjectDef/WorldObjectDef.xml,def,Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.

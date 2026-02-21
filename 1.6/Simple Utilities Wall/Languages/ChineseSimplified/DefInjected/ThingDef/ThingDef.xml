@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: A lamp fueled by chemfuel, and can be safely placed outside.-->
+  <Owl_Fencepost_Chemlamp.description>一种以化合燃料为能源的灯，可以安全地放置在室外。</Owl_Fencepost_Chemlamp.description>
+  <!--EN: fencepost chemlamp-->
+  <Owl_Fencepost_Chemlamp.label>栅柱化合燃料灯</Owl_Fencepost_Chemlamp.label>
+  <!--EN: An electrical standing lamp that lights an area. People need light to move and work at full speed.-->
+  <Owl_Fencepost_Lamp.description>一种电动落地灯，用于照亮区域。人们需要光线才能以全速移动和工作。</Owl_Fencepost_Lamp.description>
+  <!--EN: fencepost lamp-->
+  <Owl_Fencepost_Lamp.label>栅柱灯</Owl_Fencepost_Lamp.label>
+  <!--EN: A wooden torch for lighting an area. People need light to move and work at full speed. Can be automatically refueled with wood. Produces a small amount of heat.-->
+  <Owl_Fencepost_TorchLamp.description>一种用于照亮区域的木制火炬。人们需要光线才能以全速移动和工作。可用木材自动补充燃料。产生少量热量。</Owl_Fencepost_TorchLamp.description>
+  <!--EN: fencepost torch-->
+  <Owl_Fencepost_TorchLamp.label>栅柱火炬</Owl_Fencepost_TorchLamp.label>
+  <!--EN: A wall mounted device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature.-->
+  <Owl_Heater.description>一种壁挂式设备，将电能转化为热能。它可以自动开启或关闭以达到特定的目标温度。</Owl_Heater.description>
+  <!--EN: mounted heater-->
+  <Owl_Heater.label>壁挂式加热器</Owl_Heater.label>
+</LanguageData>

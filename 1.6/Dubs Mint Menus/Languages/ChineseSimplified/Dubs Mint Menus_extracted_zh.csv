@@ -1,0 +1,104 @@
+key,text,tag,file,type,protected_text,translated
+Mint.GearMenu,Mint Gear Menu (Experimental),Mint.GearMenu,MintMenus.xml,keyed,Mint Gear Menu (Experimental),薄荷装备菜单（实验性）
+Mint.GearMenuVisible,Main button visible,Mint.GearMenuVisible,MintMenus.xml,keyed,Main button visible,主按钮可见
+Mint.GearMenuDesc,Activate a button to open a gear management menu which allows you to drag and drop available gear onto any pawn,Mint.GearMenuDesc,MintMenus.xml,keyed,Activate a button to open a gear management menu which allows you to drag and drop available gear onto any (PH_1),激活按钮以打开齿轮管理菜单，该菜单允许您将可用齿轮拖放到任何 pawn 上
+Mint.Setup,Setup,Mint.Setup,MintMenus.xml,keyed,Setup,设置
+Mint.AssignMenu,Mint Assign Menu,Mint.AssignMenu,MintMenus.xml,keyed,Mint Assign Menu,Mint 分配菜单
+Mint.AssignMenuDesc,Replace the default assign menu with a mint version,Mint.AssignMenuDesc,MintMenus.xml,keyed,Replace the default assign menu with a mint version,将默认分配菜单替换为全新版本
+MessageCantEquipWhileDowned,Can't equip while downed,MessageCantEquipWhileDowned,MintMenus.xml,keyed,Can't equip while downed,倒地时无法装备
+Mint.ShowMintBillsButton,Show mint bills main button,Mint.ShowMintBillsButton,MintMenus.xml,keyed,Show mint bills main button,显示铸币钞票主按钮
+Mint.ShowMintBillsButtonTip,Show the mint bills button on the main tabs list along the bottom of the screen,Mint.ShowMintBillsButtonTip,MintMenus.xml,keyed,Show the mint bills button on the main tabs list along the bottom of the screen,在屏幕底部的主选项卡列表上显示铸币按钮
+ReplacePlantMenuTip,"Open the mint plant menu instead of vanilla drop down, if disabled you can ctrl click to open the mint menu instead",ReplacePlantMenuTip,MintMenus.xml,keyed,"Open the mint plant menu instead of vanilla drop down, if disabled you can ctrl click to open the mint menu instead",打开薄荷植物菜单而不是香草下拉菜单，如果禁用，您可以按住 Ctrl 键单击来打开薄荷菜单
+Mint.ShowBillWorkIcons,Show work to make icons,Mint.ShowBillWorkIcons,MintMenus.xml,keyed,Show work to make icons,展示制作图标的作品
+Mint.ShowBillIngredientIcons,Show ingredient icons,Mint.ShowBillIngredientIcons,MintMenus.xml,keyed,Show ingredient icons,显示成分图标
+Mint.ConfirmDeleteTemplate,Confirm delete clone,Mint.ConfirmDeleteTemplate,MintMenus.xml,keyed,Confirm delete clone,确认删除克隆
+Mint.RenameTemplateTip,Rename,Mint.RenameTemplateTip,MintMenus.xml,keyed,Rename,重命名
+Mint.Clones,Clones,Mint.Clones,MintMenus.xml,keyed,Clones,克隆
+Mint.Bills,Bills,Mint.Bills,MintMenus.xml,keyed,Bills,账单
+Mint.PasteTemplateTip,Paste bill stack to table,Mint.PasteTemplateTip,MintMenus.xml,keyed,Paste bill stack to table,将帐单堆栈粘贴到表格
+Mint.CloneBills,Clone Bills,Mint.CloneBills,MintMenus.xml,keyed,Clone Bills,克隆比尔
+Mint.DeleteTemplate,Delete Template,Mint.DeleteTemplate,MintMenus.xml,keyed,Delete Template,删除模板
+Mint.CloneWorktable,Clone the bill stack from this worktable,Mint.CloneWorktable,MintMenus.xml,keyed,Clone the bill stack from this worktable,从此工作表克隆帐单堆栈
+Mint.SelectABenchToAddBills,Select a bench to add a bill,Mint.SelectABenchToAddBills,MintMenus.xml,keyed,Select a bench to add a bill,选择一个长凳以添加账单
+AutoCloseArchitect,Close on select,AutoCloseArchitect,MintMenus.xml,keyed,Close on select,关闭选择
+AutoCloseArchitectDesc,Closes the architect menu when a designator is selected,AutoCloseArchitectDesc,MintMenus.xml,keyed,Closes the architect menu when a designator is selected,选择指示符后关闭架构师菜单
+ResearchQueueTip,Research Queue - Drag to order,ResearchQueueTip,MintMenus.xml,keyed,Research Queue - Drag to order,研究队列 - 拖动以排序
+QueueResearchProj,Queue,QueueResearchProj,MintMenus.xml,keyed,Queue,队列
+EnablePinningResources,Enable Resource pinning,EnablePinningResources,MintMenus.xml,keyed,Enable Resource pinning,启用资源固定
+EnablePinningResourcesTip,Ctrl click on things in the resource readout to pin them to the top (category mode only),EnablePinningResourcesTip,MintMenus.xml,keyed,Ctrl click on things in the resource readout to pin them to the top (category mode only),按住 Ctrl 键单击资源读数中的内容，将其固定到顶部（仅限类别模式）
+ShowHideResourceList,Hide resource readout,ShowHideResourceList,MintMenus.xml,keyed,Hide resource readout,隐藏资源读数
+ShowHideResourceListTip,Hide the resource readout on the left of the screen,ShowHideResourceListTip,MintMenus.xml,keyed,Hide the resource readout on the left of the screen,隐藏屏幕左侧的资源读数
+dragdropdes,Drag\n&\nDrop,dragdropdes,MintMenus.xml,keyed,Drag(PH_2)&(PH_1)Drop,"拖动
+&
+放置"
+ReplacePlantMenu,Mint Plant Menu,ReplacePlantMenu,MintMenus.xml,keyed,Mint Plant Menu,薄荷植物菜单
+ResearchCompletionMode,Research Completion Mode,ResearchCompletionMode,MintMenus.xml,keyed,Research Completion Mode,研究完成模式
+MintHelpLinks,Support Links,MintHelpLinks,MintMenus.xml,keyed,Support Links,支持链接
+MintDiscord,Dubs Mods Discord,MintDiscord,MintMenus.xml,keyed,Dubs Mods Discord,配音 Mod 不和谐
+ProjectStalled,Research project requirements are not met,ProjectStalled,MintMenus.xml,keyed,Research project requirements are not met,Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.
+ProjectStopped,Project stopped,ProjectStopped,MintMenus.xml,keyed,Project stopped,项目停止
+MintWiki,Mint Menus Wiki,MintWiki,MintMenus.xml,keyed,Mint Menus Wiki,薄荷菜单维基
+SetButtonsFromBuildo,Add buttons using the Mint build menu (ctrl click architect menu),SetButtonsFromBuildo,MintMenus.xml,keyed,Add buttons using the Mint build menu (ctrl click architect menu),使用 Mint 构建菜单添加 纽扣（按住 Ctrl 键单击架构师菜单）
+BillSearchTip,Searchable words include:\n\nAny words in bill labels or product labels e.g. pants\n\nStuff catagories e.g. leather\n\nBody part groups e.g. head\n\nTags e.g. industrial\n\nLayers e.g. overhead,BillSearchTip,MintMenus.xml,keyed,Searchable words include:(PH_10)(PH_9)Any words in bill labels or product labels e.g. pants(PH_8)(PH_7)Stuff catagories e.g. leather(PH_6)(PH_5)Body part groups e.g. head(PH_4)(PH_3)Tags e.g. industrial(PH_2)(PH_1)Layers e.g. overhead,"可搜索的单词包括：
+
+账单标签或产品标签中的任何单词，例如裤子
+
+物品类别，例如皮革
+
+身体部位组，例如head
+
+标签工业
+
+层开销"
+NoActiveProject,No Active Project,NoActiveProject,MintMenus.xml,keyed,No Active Project,没有活跃的项目
+TargetProject,Target Project: {0},TargetProject,MintMenus.xml,keyed,Target Project: (PH_1),目标项目：{0}
+MintWheelEditMode,Click designators in the architect menu to add them to the wheel\nDrag and drop to arrange in the wheel,MintWheelEditMode,MintMenus.xml,keyed,Click designators in the architect menu to add them to the wheel(PH_1)Drag and drop to arrange in the wheel,"单击架构师菜单中的指示符将其添加到轮子中
+拖放以在轮子中进行排列"
+MintWheelDesc,Mint Wheel {0}/{1} Ctrl+Click to assign,MintWheelDesc,MintMenus.xml,keyed,Mint Wheel (PH_2)/(PH_1) Ctrl+Click to assign,薄荷轮 {0}/{1} Ctrl+单击进行分配
+MintWheelMenu,Mint Wheel Menu,MintWheelMenu,MintMenus.xml,keyed,Mint Wheel Menu,薄荷轮菜单
+MintWheelonrightclick,Mint Wheel on right click,MintWheelonrightclick,MintMenus.xml,keyed,Mint Wheel on right click,右键单击薄荷轮
+MintWheelRightClickDesc,Open the Mint wheel on right click instead of opening the architect menu,MintWheelRightClickDesc,MintMenus.xml,keyed,Open the Mint wheel on right click instead of opening the architect menu,右键单击打开 Mint 轮，而不是打开建筑师菜单
+MintWheel,Mint wheel,MintWheel,MintMenus.xml,keyed,Mint wheel,薄荷轮
+MintBuildMenu,Build menu,MintBuildMenu,MintMenus.xml,keyed,Build menu,构建菜单
+AutoFocusSearch,Auto focus search box,AutoFocusSearch,MintMenus.xml,keyed,Auto focus search box,自动对焦搜索框
+AutoFocusSearchDesc,Automatically focus the search box to start typing each time the build menu is opened,AutoFocusSearchDesc,MintMenus.xml,keyed,Automatically focus the search box to start typing each time the build menu is opened,每次打开构建菜单时自动聚焦搜索框以开始输入
+OverrideArchitectTab,Override architect tab,OverrideArchitectTab,MintMenus.xml,keyed,Override architect tab,覆盖架构师选项卡
+OverrideArchitectTabDesc,Make the mint build menu the default architect tab (hold ctrl for default),OverrideArchitectTabDesc,MintMenus.xml,keyed,Make the mint build menu the default architect tab (hold ctrl for default),将 mint 构建菜单设置为默认的架构选项卡（按住 ctrl 进行默认设置）
+ResearchMenu,Research,ResearchMenu,MintMenus.xml,keyed,Research,研究
+MintListWidth,List width,MintListWidth,MintMenus.xml,keyed,List width,列表宽度
+OverrideResearchTab,Override research tab,OverrideResearchTab,MintMenus.xml,keyed,Override research tab,覆盖研究选项卡
+OverrideResearchTabDesc,Make the mint research menu the default research tab (hold ctrl for default),OverrideResearchTabDesc,MintMenus.xml,keyed,Make the mint research menu the default research tab (hold ctrl for default),将薄荷研究菜单设置为默认研究选项卡（按住 ctrl 进行默认设置）
+UnlockedThings,Unlocks Things,UnlockedThings,MintMenus.xml,keyed,Unlocks Things,解锁事物
+HideFinishedProjects,Hide finished research projects,HideFinishedProjects,MintMenus.xml,keyed,Hide finished research projects,隐藏已完成的研究项目
+HideLockedProjects,Hide locked research projects,HideLockedProjects,MintMenus.xml,keyed,Hide locked research projects,隐藏锁定的研究项目
+PinnedRes,Pinned,PinnedRes,MintMenus.xml,keyed,Pinned,已固定
+MintResourceReadout,Mint Resource Readout,MintResourceReadout,MintMenus.xml,keyed,Mint Resource Readout,造币厂资源读数
+MintExperimental,Extras,MintExperimental,MintMenus.xml,keyed,Extras,附加功能
+Autoprojectstep,Auto project step,Autoprojectstep,MintMenus.xml,keyed,Auto project step,自动项目步骤
+AutoprojectstepDesc,Automatically start the next research project step to complete the target project,AutoprojectstepDesc,MintMenus.xml,keyed,Automatically start the next research project step to complete the target project,自动启动下一个研究项目步骤以完成目标项目
+MintBills,Bills,MintBills,MintMenus.xml,keyed,Bills,账单
+ListWidth,List Width,ListWidth,MintMenus.xml,keyed,List Width,列表宽度
+RowHeight,Row Height,RowHeight,MintMenus.xml,keyed,Row Height,行高
+InfocardWidth,Infocard Width,InfocardWidth,MintMenus.xml,keyed,Infocard Width,信息卡宽度
+TopOffset,Top Offset,TopOffset,MintMenus.xml,keyed,Top Offset,顶部偏移
+MaxHeight,Max Height,MaxHeight,MintMenus.xml,keyed,Max Height,最大高度
+MintPlants,Plants,MintPlants,MintMenus.xml,keyed,Plants,植物
+BoxSizeX,Box Width,BoxSizeX,MintMenus.xml,keyed,Box Width,箱体宽度
+BoxSizeY,Box Height,BoxSizeY,MintMenus.xml,keyed,Box Height,盒子高度
+MintResetAll,Reset All,MintResetAll,MintMenus.xml,keyed,Reset All,全部重置
+MintMenus.label,mint menus,label,MainButtons.xml,def,mint menus,作为菜单
+MintMenus.description,Search all buildings of all mods.,description,MainButtons.xml,def,Search all buildings of all mods.,搜索所有模组的所有建筑物。
+MintResearch.label,mint research,label,MainButtons.xml,def,mint research,薄荷研究
+MintResearch.description,Search research projects.,description,MainButtons.xml,def,Search research projects.,搜索研究项目。
+MintDesignators.label,mint designators,label,MainButtons.xml,def,mint designators,铸币厂指示符
+MintDesignators.description,Quick select designators.,description,MainButtons.xml,def,Quick select designators.,快速选择指示符。
+MintBillMenu.label,mint bill menu,label,MainButtons.xml,def,mint bill menu,薄荷钞票菜单
+MintBillMenu.description,View all bills.,description,MainButtons.xml,def,View all bills.,查看所有账单。
+MintGearMenu.label,mint gear menu,label,MainButtons.xml,def,mint gear menu,薄荷齿轮菜单
+MintGearMenu.description,View all pawns gear.,description,MainButtons.xml,def,View all pawns gear.,查看所有典当装备。
+MintMenus_BuildMenu.label,Mint Build Menu,label,MainButtons.xml,def,Mint Build Menu,薄荷构建菜单
+MintMenus_MintResearch.label,Mint Research Menu,label,MainButtons.xml,def,Mint Research Menu,薄荷研究菜单
+MintMenus_MintWheel.label,Mint Wheel,label,MainButtons.xml,def,Mint Wheel,薄荷轮
+MintMenus_MintBillMenu.label,Mint Bill Menu,label,MainButtons.xml,def,Mint Bill Menu,薄荷钞票菜单
+MintMenus_PinningHide.label,Hide resource readout (except pins),label,MainButtons.xml,def,Hide resource readout (except pins),隐藏资源读数（引脚除外）
+MintMenus_MintGearMenu.label,Mint Gear Menu,label,MainButtons.xml,def,Mint Gear Menu,薄荷齿轮菜单

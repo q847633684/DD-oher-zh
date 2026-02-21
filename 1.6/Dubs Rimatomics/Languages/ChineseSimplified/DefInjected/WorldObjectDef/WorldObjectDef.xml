@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.-->
+  <Fallout.description>核沉降物是由于核爆炸或核反应堆熔毁而喷射到空气中的残留放射性物质。</Fallout.description>
+  <!--EN: Nuclear Fallout-->
+  <Fallout.label>核辐射</Fallout.label>
+  <!--EN: A strategic missile is a rocket powered guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.-->
+  <ICBMfission.description>战略导弹是一种火箭动力制导弹道导弹，主要用于核武器运载，其尖端装有裂变弹头。</ICBMfission.description>
+  <!--EN: strategic missile-->
+  <ICBMfission.label>战略导弹</ICBMfission.label>
+  <!--EN: Railgun Sabot Round-->
+  <Sabot.description>轨道炮圆形弹托</Sabot.description>
+  <!--EN: Sabot-->
+  <Sabot.label>理解</Sabot.label>
+</LanguageData>

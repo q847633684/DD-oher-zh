@@ -1,0 +1,822 @@
+key,text,tag,file,type,protected_text
+dbh.Things,Things:,dbh.Things,DubsHygiene.xml,keyed,Things:
+dbh.Terrain,Terrain:,dbh.Terrain,DubsHygiene.xml,keyed,Terrain:
+dbh.Environment,Environment:,dbh.Environment,DubsHygiene.xml,keyed,Environment:
+dbh.Pollution,Pollution,dbh.Pollution,DubsHygiene.xml,keyed,Pollution
+dbh.Sewagecontamination,Sewage contamination,dbh.Sewagecontamination,DubsHygiene.xml,keyed,Sewage contamination
+DesignatorRemovePlumbing,Remove pipes,DesignatorRemovePlumbing,DubsHygiene.xml,keyed,Remove pipes
+DesignatorRemovePlumbingDesc,Designate sections of a pipe type for deconstruction.,DesignatorRemovePlumbingDesc,DubsHygiene.xml,keyed,Designate sections of a pipe type for deconstruction.
+RemoveSewage,Remove sewage,RemoveSewage,DubsHygiene.xml,keyed,Remove sewage
+RemoveSewageDesc,Remove sewage from the ground and place it into barrels.,RemoveSewageDesc,DubsHygiene.xml,keyed,Remove sewage from the ground and place it into barrels.
+RemovePlumbing,Remove plumbing,RemovePlumbing,DubsHygiene.xml,keyed,Remove plumbing
+RemoveAirCon,Remove air-con,RemoveAirCon,DubsHygiene.xml,keyed,Remove air-con
+DBH.requiresSaunaRoom,Room is too large to heat!\nMaximum of 50 cells per heater\nAdd more sauna heaters or shrink the room,DBH.requiresSaunaRoom,DubsHygiene.xml,keyed,Room is too large to heat!(PH_2)Maximum of 50 cells per heater(PH_1)Add more sauna heaters or shrink the room
+DBH.HeatedPool,Pool is heated,DBH.HeatedPool,DubsHygiene.xml,keyed,Pool is heated
+DBH.CantUsePool,Cannot use pool now:,DBH.CantUsePool,DubsHygiene.xml,keyed,Cannot use pool now:
+DBH.PoolRaining,Raining,DBH.PoolRaining,DubsHygiene.xml,keyed,Raining
+DBH.PoolTooCold,Too cold {0},DBH.PoolTooCold,DubsHygiene.xml,keyed,Too cold (PH_1)
+DBHPrisonWater,Prison needs water source,DBHPrisonWater,DubsHygiene.xml,keyed,Prison needs water source
+DBHPrisonWaterEx,"A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water",DBHPrisonWaterEx,DubsHygiene.xml,keyed,"A prison cell has no access to drinking water, build at least 1 drinking water source like a water tub or basin so that prisoners have free access to drinking water"
+Alert_MissingTower,Missing water tower,Alert_MissingTower,DubsHygiene.xml,keyed,Missing water tower
+Alert_MissingTowerDesc,A water tower or water butt is required to store water pumped from wells.,Alert_MissingTowerDesc,DubsHygiene.xml,keyed,A water tower or water butt is required to store water pumped from wells.
+Alert_MissingWell,Missing well,Alert_MissingWell,DubsHygiene.xml,keyed,Missing well
+Alert_MissingWellDesc,Pumps require a piped well to access ground water.,Alert_MissingWellDesc,DubsHygiene.xml,keyed,Pumps require a piped well to access ground water.
+Alert_MissingPump,Missing water pump,Alert_MissingPump,DubsHygiene.xml,keyed,Missing water pump
+Alert_MissingPumpDesc,A water pump is required to pump the water from a well to a water tower.,Alert_MissingPumpDesc,DubsHygiene.xml,keyed,A water pump is required to pump the water from a well to a water tower.
+DBHFalloutWarning,Fallout water contamination,DBHFalloutWarning,DubsHygiene.xml,keyed,Fallout water contamination
+DBHFalloutWarningEx,"After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.\n\nPrepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.\n\nYou can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves.",DBHFalloutWarningEx,DubsHygiene.xml,keyed,"After 2 days of toxic fallout the buildup will contaminate any water storage tanks connected to water wells.(PH_4)(PH_3)Prepare by creating a reserve of water and then using a valve to disconnect the wells to protect the water from contamination before it is too late.(PH_2)(PH_1)You can also use a deep well to access uncontaminated water, or install a water treatment system which will eliminate all contamination from water reserves."
+DBHVacuum,In a vacuum,DBHVacuum,DubsHygiene.xml,keyed,In a vacuum
+LowCoolingCap,Low cooling capacity. You can increase the power of outdoor units.,LowCoolingCap,DubsHygiene.xml,keyed,Low cooling capacity. You can increase the power of outdoor units.
+NotOwned,Access restricted,NotOwned,DubsHygiene.xml,keyed,Access restricted
+GenderRestricted,{0} only,GenderRestricted,DubsHygiene.xml,keyed,(PH_1) only
+PrisonersOnly,Prisoners only,PrisonersOnly,DubsHygiene.xml,keyed,Prisoners only
+BlockedSewage,A sewage outlet has become blocked.,BlockedSewage,DubsHygiene.xml,keyed,A sewage outlet has become blocked.
+BlockedSewageDesc,Sewage has built up around the drain hole and is blocking the outlet.\n\nBuild more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.,BlockedSewageDesc,DubsHygiene.xml,keyed,Sewage has built up around the drain hole and is blocking the outlet.(PH_2)(PH_1)Build more outlets or add a septic tank to create a buffer and reduce pressure on the outlets.
+LowWaterTemp,Low water temp,LowWaterTemp,DubsHygiene.xml,keyed,Low water temp
+LowWaterTempDesc,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank.",LowWaterTempDesc,DubsHygiene.xml,keyed,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.(PH_2)(PH_1)Turn on boilers, increase the heating capacity, or add another hot water tank."
+WellNeedsWater,Must be placed over a cell with ground water.,WellNeedsWater,DubsHygiene.xml,keyed,Must be placed over a cell with ground water.
+WellNeedsIce,Must be placed over a cell with subsurface ice deposits,WellNeedsIce,DubsHygiene.xml,keyed,Must be placed over a cell with subsurface ice deposits
+AssigningRequiresRoom,The fixture must be inside a room to restrict it.,AssigningRequiresRoom,DubsHygiene.xml,keyed,The fixture must be inside a room to restrict it.
+NoWaterTowers,Requires water storage tower,NoWaterTowers,DubsHygiene.xml,keyed,Requires water storage tower
+AssigningRequiresBladderNeed,"Assigning requires bladder need, but {0} doesn't have bladder need.",AssigningRequiresBladderNeed,DubsHygiene.xml,keyed,"Assigning requires bladder need, but (PH_1) doesn't have bladder need."
+DBHExtractorFrozen,Equipment frozen: {0},DBHExtractorFrozen,DubsHygiene.xml,keyed,Equipment frozen: (PH_1)
+NoCompostingMaterial,No composting material,NoCompostingMaterial,DubsHygiene.xml,keyed,No composting material
+Nowater,No water capacity,Nowater,DubsHygiene.xml,keyed,No water capacity
+Nosewage,No sewage capacity,Nosewage,DubsHygiene.xml,keyed,No sewage capacity
+RequiresPlumbing,Requires plumbing,RequiresPlumbing,DubsHygiene.xml,keyed,Requires plumbing
+AccessRestricted,Access restricted,AccessRestricted,DubsHygiene.xml,keyed,Access restricted
+TooHot,Too hot: x{0},TooHot,DubsHygiene.xml,keyed,Too hot: x(PH_1)
+InRain,In rain: x{0},InRain,DubsHygiene.xml,keyed,In rain: x(PH_1)
+PhysicalActivity,Exertion: x{0},PhysicalActivity,DubsHygiene.xml,keyed,Exertion: x(PH_1)
+FilthyRoom,Room: x{0},FilthyRoom,DubsHygiene.xml,keyed,Room: x(PH_1)
+TotalHygieneStat,Total: x{0},TotalHygieneStat,DubsHygiene.xml,keyed,Total: x(PH_1)
+DirtyHands,Dirty hands - Disease risk,DirtyHands,DubsHygiene.xml,keyed,Dirty hands - Disease risk
+LetterLabelBlockedDrain,A drain has become blocked.,LetterLabelBlockedDrain,DubsHygiene.xml,keyed,A drain has become blocked.
+LetterBlockedDrain,A drain has become blocked. A cleaner must clean the blockage.,LetterBlockedDrain,DubsHygiene.xml,keyed,A drain has become blocked. A cleaner must clean the blockage.
+ContaminationAlert,Contaminated water,ContaminationAlert,DubsHygiene.xml,keyed,Contaminated water
+ContaminationAlertDesc,"A well has become polluted.\n\nSources of contamination:\n{0}\n\nEither move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time.",ContaminationAlertDesc,DubsHygiene.xml,keyed,"A well has become polluted.(PH_6)(PH_5)Sources of contamination:(PH_4)(PH_3)(PH_2)(PH_1)Either move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time."
+ContaminatiedTowerAlert,Contaminated water tower,ContaminatiedTowerAlert,DubsHygiene.xml,keyed,Contaminated water tower
+ContaminatiedTowerAlertDesc,"A water tower has become polluted, posing a serious health risk to your colonists. Solve the cause of the pollution and then drain the tank, or build a water treatment system.",ContaminatiedTowerAlertDesc,DubsHygiene.xml,keyed,"A water tower has become polluted, posing a serious health risk to your colonists. Solve the cause of the pollution and then drain the tank, or build a water treatment system."
+MessageHygieneDisease,{0} has contracted {1} because of bad personal hygiene,MessageHygieneDisease,DubsHygiene.xml,keyed,(PH_2) has contracted (PH_1) because of bad personal hygiene
+MessageWaterDisease,{0} has contracted {1} from drinking untreated water,MessageWaterDisease,DubsHygiene.xml,keyed,(PH_2) has contracted (PH_1) from drinking untreated water
+MessageWaterDiseaseContaminated,{0} has contracted {1} from drinking contaminated water,MessageWaterDiseaseContaminated,DubsHygiene.xml,keyed,(PH_2) has contracted (PH_1) from drinking contaminated water
+ChangeGenderRestriction,Change gender restriction,ChangeGenderRestriction,DubsHygiene.xml,keyed,Change gender restriction
+CommandFixtureSetAsMedicalLabel,Medical,CommandFixtureSetAsMedicalLabel,DubsHygiene.xml,keyed,Medical
+CommandFixtureSetAsMedicalDesc,Limit this fixture to patients only.,CommandFixtureSetAsMedicalDesc,DubsHygiene.xml,keyed,Limit this fixture to patients only.
+PatientsOnly,Patients only,PatientsOnly,DubsHygiene.xml,keyed,Patients only
+AttackHelicopter,Attack helicopter,AttackHelicopter,DubsHygiene.xml,keyed,Attack helicopter
+Unisex,Unisex,Unisex,DubsHygiene.xml,keyed,Unisex
+ConnectFixturesToBed,Link bed,ConnectFixturesToBed,DubsHygiene.xml,keyed,Link bed
+ConnectFixturesToBedDesc,Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds,ConnectFixturesToBedDesc,DubsHygiene.xml,keyed,Connect the fixtures to a nearby bed so they inherit the ownership. Hold shift to assign multiple beds
+CancelConnectFixturesToBed,Clear bed link,CancelConnectFixturesToBed,DubsHygiene.xml,keyed,Clear bed link
+CancelConnectFixturesToBedDesc,Clear the link to beds,CancelConnectFixturesToBedDesc,DubsHygiene.xml,keyed,Clear the link to beds
+dbh.Animalsonly,Animals only,dbh.Animalsonly,DubsHygiene.xml,keyed,Animals only
+ChangeOccupancyRestriction,Occupancy Check,ChangeOccupancyRestriction,DubsHygiene.xml,keyed,Occupancy Check
+ChangeOccupancyRestrictionDesc,"Should pawns check if anything in the room is reserved before trying to use the fixture, prevents pawns from walking in on each other to use basins and toilets at the same time",ChangeOccupancyRestrictionDesc,DubsHygiene.xml,keyed,"Should pawns check if anything in the room is reserved before trying to use the fixture, prevents pawns from walking in on each other to use basins and toilets at the same time"
+dbh.AllowColonists,Colonists,dbh.AllowColonists,DubsHygiene.xml,keyed,Colonists
+dbh.AllowSlaves,Slaves,dbh.AllowSlaves,DubsHygiene.xml,keyed,Slaves
+dbh.AllowGuests,Guests,dbh.AllowGuests,DubsHygiene.xml,keyed,Guests
+dbh.NoColonists,Colonists restricted,dbh.NoColonists,DubsHygiene.xml,keyed,Colonists restricted
+dbh.NoSlaves,Slaves restricted,dbh.NoSlaves,DubsHygiene.xml,keyed,Slaves restricted
+dbh.NoGuests,Guests restricted,dbh.NoGuests,DubsHygiene.xml,keyed,Guests restricted
+WaterTemp,Water temp: {0},WaterTemp,DubsHygiene.xml,keyed,Water temp: (PH_1)
+ConnectedHeatingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedHeatingCapacity,DubsHygiene.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1))
+ConnectedCoolingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedCoolingCapacity,DubsHygiene.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1))
+HeatingUnits,Heating usage: {0} U,HeatingUnits,DubsHygiene.xml,keyed,Heating usage: (PH_1) U
+CoolingUnits,Cooling usage: {0} U,CoolingUnits,DubsHygiene.xml,keyed,Cooling usage: (PH_1) U
+HeatingMode,Heating units/power: {0} U / {1} W,HeatingMode,DubsHygiene.xml,keyed,Heating units/power: (PH_2) U / (PH_1) W
+CoolingMode,Cooling units/power: {0} U / {1} W,CoolingMode,DubsHygiene.xml,keyed,Cooling units/power: (PH_2) U / (PH_1) W
+CoolingEfficiencyGood,Efficiency: {0},CoolingEfficiencyGood,DubsHygiene.xml,keyed,Efficiency: (PH_1)
+CoolingEfficiencyBad,Efficiency: {0} overheating,CoolingEfficiencyBad,DubsHygiene.xml,keyed,Efficiency: (PH_1) overheating
+TargetTemp,Minimum temp: {0},TargetTemp,DubsHygiene.xml,keyed,Minimum temp: (PH_1)
+LowerPower,Reduce power,LowerPower,DubsHygiene.xml,keyed,Reduce power
+LowerPowerDesc,Reduce the heating capacity.,LowerPowerDesc,DubsHygiene.xml,keyed,Reduce the heating capacity.
+RaisePower,Increase power,RaisePower,DubsHygiene.xml,keyed,Increase power
+RaisePowerDesc,Increase the heating capacity.,RaisePowerDesc,DubsHygiene.xml,keyed,Increase the heating capacity.
+HotwaterCapacity,Hot water capacity: {0},HotwaterCapacity,DubsHygiene.xml,keyed,Hot water capacity: (PH_1)
+OverrideThermostat,Override thermostat,OverrideThermostat,DubsHygiene.xml,keyed,Override thermostat
+OverrideThermostatDesc,Force the boiler to run continuously.,OverrideThermostatDesc,DubsHygiene.xml,keyed,Force the boiler to run continuously.
+MustPlaceFreezerWithFreeSpaces,Exhaust vents must be kept clear!,MustPlaceFreezerWithFreeSpaces,DubsHygiene.xml,keyed,Exhaust vents must be kept clear!
+SolarEfficiencyCold,Too cold,SolarEfficiencyCold,DubsHygiene.xml,keyed,Too cold
+SolarEfficiencyRoof,Roofed,SolarEfficiencyRoof,DubsHygiene.xml,keyed,Roofed
+SolarEfficiencyGood,Heating units (efficiency): {0} U ({1}),SolarEfficiencyGood,DubsHygiene.xml,keyed,Heating units (efficiency): (PH_2) U ((PH_1))
+RadCurrentCap,Radiator temp: {0},RadCurrentCap,DubsHygiene.xml,keyed,Radiator temp: (PH_1)
+ThermostatSetupWarning,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.,ThermostatSetupWarning,DubsHygiene.xml,keyed,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.
+HotWaterTankUseThermostat,Thermostat control,HotWaterTankUseThermostat,DubsHygiene.xml,keyed,Thermostat control
+HotWaterTankUseThermostatDesc,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.,HotWaterTankUseThermostatDesc,DubsHygiene.xml,keyed,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.
+WashHands,Wash hands,WashHands,DubsHygiene.xml,keyed,Wash hands
+Wash,Wash,Wash,DubsHygiene.xml,keyed,Wash
+UseToilet,Use,UseToilet,DubsHygiene.xml,keyed,Use
+SewageUsage,Usage = {0},SewageUsage,DubsHygiene.xml,keyed,Usage = (PH_1)
+MustBePlumbing,Must be plumbing,MustBePlumbing,DubsHygiene.xml,keyed,Must be plumbing
+BlockedDrain,Blocked drain,BlockedDrain,DubsHygiene.xml,keyed,Blocked drain
+PlumbOrEmpty,Plumb or empty the latrine,PlumbOrEmpty,DubsHygiene.xml,keyed,Plumb or empty the latrine
+WashingMachineSpinning,Running...,WashingMachineSpinning,DubsHygiene.xml,keyed,Running...
+WashingMachineUnload,Unload now,WashingMachineUnload,DubsHygiene.xml,keyed,Unload now
+WashingMachineLoad,Load: {0}/{1},WashingMachineLoad,DubsHygiene.xml,keyed,Load: (PH_2)/(PH_1)
+NoDirtyClothes,No dirty clothes,NoDirtyClothes,DubsHygiene.xml,keyed,No dirty clothes
+WashingNoSpace,No space,WashingNoSpace,DubsHygiene.xml,keyed,No space
+NoUnreservedSource,No unreserved water sources of the highest available quality.,NoUnreservedSource,DubsHygiene.xml,keyed,No unreserved water sources of the highest available quality.
+RaiseFillRate,Flow +50L,RaiseFillRate,DubsHygiene.xml,keyed,Flow +50L
+LowerFillRate,Flow -50L,LowerFillRate,DubsHygiene.xml,keyed,Flow -50L
+WaterFillRate,Fill Rate: {0}L/h,WaterFillRate,DubsHygiene.xml,keyed,Fill Rate: (PH_1)L/h
+dbhDrink,Drink,dbhDrink,DubsHygiene.xml,keyed,Drink
+CommandDesignateOpenCloseValveLabel,Toggle valve,CommandDesignateOpenCloseValveLabel,DubsHygiene.xml,keyed,Toggle valve
+CommandDesignateOpenCloseValveDesc,Toggle the valve between open and closed.,CommandDesignateOpenCloseValveDesc,DubsHygiene.xml,keyed,Toggle the valve between open and closed.
+ValveClosed,Valve closed,ValveClosed,DubsHygiene.xml,keyed,Valve closed
+PumpCapacity,Pump capacity: {0} L/day,PumpCapacity,DubsHygiene.xml,keyed,Pump capacity: (PH_1) L/day
+GroundCapacity,Ground capacity: {0} L/day,GroundCapacity,DubsHygiene.xml,keyed,Ground capacity: (PH_1) L/day
+PipedPumpCapacity,Piped pump/Ground capacity: {0}/{1} L/day ({2}),PipedPumpCapacity,DubsHygiene.xml,keyed,Piped pump/Ground capacity: (PH_3)/(PH_2) L/day ((PH_1))
+WaterStorage,Water stored: {0} L,WaterStorage,DubsHygiene.xml,keyed,Water stored: (PH_1) L
+TotalWaterStorage,Piped water stored: {0} L,TotalWaterStorage,DubsHygiene.xml,keyed,Piped water stored: (PH_1) L
+PollutionLevel,Pollution level: {0},PollutionLevel,DubsHygiene.xml,keyed,Pollution level: (PH_1)
+CommandSprinkleDown,Decrease radius,CommandSprinkleDown,DubsHygiene.xml,keyed,Decrease radius
+CommandSprinkleUp,Increase radius,CommandSprinkleUp,DubsHygiene.xml,keyed,Increase radius
+UntreatedWater,Quality: Untreated - Small disease risk,UntreatedWater,DubsHygiene.xml,keyed,Quality: Untreated - Small disease risk
+ContaminatedWater,Quality: Contaminated - High disease risk!,ContaminatedWater,DubsHygiene.xml,keyed,Quality: Contaminated - High disease risk!
+TreatedWater,Quality: Treated - Safe,TreatedWater,DubsHygiene.xml,keyed,Quality: Treated - Safe
+DrainTank,Drain tank,DrainTank,DubsHygiene.xml,keyed,Drain tank
+DrainTankDesc,Drain the tank and remove contamination.,DrainTankDesc,DubsHygiene.xml,keyed,Drain the tank and remove contamination.
+WaterValueOffset,Water value: {0} for {1} L,WaterValueOffset,DubsHygiene.xml,keyed,Water value: (PH_2) for (PH_1) L
+HyWater,Water,HyWater,DubsHygiene.xml,keyed,Water
+OverlapsWells,Overlaps with {0} wells,OverlapsWells,DubsHygiene.xml,keyed,Overlaps with (PH_1) wells
+TransferStorageTank,Transfer Tank,TransferStorageTank,DubsHygiene.xml,keyed,Transfer Tank
+TransferStorageTankDesc,Transfer the contents of this tank to other available tanks,TransferStorageTankDesc,DubsHygiene.xml,keyed,Transfer the contents of this tank to other available tanks
+dbh.SewageReadout,Sewage {0},dbh.SewageReadout,DubsHygiene.xml,keyed,Sewage (PH_1)
+DrainSepticTank,Drain,DrainSepticTank,DubsHygiene.xml,keyed,Drain
+DrainSepticTankDesc,"Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids or fuel.",DrainSepticTankDesc,DubsHygiene.xml,keyed,"Set the level at which fecal sludge should be emptied into barrels. Fecal sludge can be moved and knocked over, burned, or turned into biosolids or fuel."
+SewageProcessing,Treating: {0} L/d. Holding: {1} L ({2}),SewageProcessing,DubsHygiene.xml,keyed,Treating: (PH_3) L/d. Holding: (PH_2) L ((PH_1))
+DoNotDrainTank,Do not drain,DoNotDrainTank,DubsHygiene.xml,keyed,Do not drain
+DrainSepticTankAt,Drain tank at {0},DrainSepticTankAt,DubsHygiene.xml,keyed,Drain tank at (PH_1)
+PitCapacity,Pit: {0},PitCapacity,DubsHygiene.xml,keyed,Pit: (PH_1)
+PitFull,"Pit is full, empty now!",PitFull,DubsHygiene.xml,keyed,"Pit is full, empty now!"
+KickOver,Kick over,KickOver,DubsHygiene.xml,keyed,Kick over
+KickOverDesc,Spill this barrel of sewage on the ground.,KickOverDesc,DubsHygiene.xml,keyed,Spill this barrel of sewage on the ground.
+ContainsCompost,Contains compost: {0}/{1} L,ContainsCompost,DubsHygiene.xml,keyed,Contains compost: (PH_2)/(PH_1) L
+ContainsFecalSludge,Contains fecal sludge: {0}/{1} L,ContainsFecalSludge,DubsHygiene.xml,keyed,Contains fecal sludge: (PH_2)/(PH_1) L
+Composted,Composted,Composted,DubsHygiene.xml,keyed,Composted
+CompostingProgress,Composting progress: {0} ({1}),CompostingProgress,DubsHygiene.xml,keyed,Composting progress: (PH_2) ((PH_1))
+ComposterOutOfIdealTemperature,Composter has non-ideal temperature,ComposterOutOfIdealTemperature,DubsHygiene.xml,keyed,Composter has non-ideal temperature
+IdealCompostingTemperature,Ideal composting temperature,IdealCompostingTemperature,DubsHygiene.xml,keyed,Ideal composting temperature
+GrowingZoneNotAllowed,Growing zone sowing disabled,GrowingZoneNotAllowed,DubsHygiene.xml,keyed,Growing zone sowing disabled
+NoFertilizerFound,No fertilizer found,NoFertilizerFound,DubsHygiene.xml,keyed,No fertilizer found
+AreaPlaceFertilizer,Fertilizer area,AreaPlaceFertilizer,DubsHygiene.xml,keyed,Fertilizer area
+AreaPlaceFertilizerDesc,Designate areas to fertilize with biosolids.,AreaPlaceFertilizerDesc,DubsHygiene.xml,keyed,Designate areas to fertilize with biosolids.
+AddFertilizerArea,Add area,AddFertilizerArea,DubsHygiene.xml,keyed,Add area
+RemoveFertilizerArea,Remove area,RemoveFertilizerArea,DubsHygiene.xml,keyed,Remove area
+dbh.DrinkPackSearchRange,Drink packing search range: {0},dbh.DrinkPackSearchRange,DubsHygiene.xml,keyed,Drink packing search range: (PH_1)
+dbh.DrinksToPack,"Drink packing: search at {0}, pack {1}",dbh.DrinksToPack,DubsHygiene.xml,keyed,"Drink packing: search at (PH_2), pack (PH_1)"
+dbh.restartconfirm,Restart,dbh.restartconfirm,DubsHygiene.xml,keyed,Restart
+dbh.restartlater,Later,dbh.restartlater,DubsHygiene.xml,keyed,Later
+dbh.PriorityIndoorCleaning,Prioritize indoor cleaning,dbh.PriorityIndoorCleaning,DubsHygiene.xml,keyed,Prioritize indoor cleaning
+dbh.PriorityIndoorCleaningTip,Enables a higher priority cleaning job to clean indoors first,dbh.PriorityIndoorCleaningTip,DubsHygiene.xml,keyed,Enables a higher priority cleaning job to clean indoors first
+dbh.ModRemove,Mod removal assist,dbh.ModRemove,DubsHygiene.xml,keyed,Mod removal assist
+dbh.ModRemoveDesc,"Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!",dbh.ModRemoveDesc,DubsHygiene.xml,keyed,"Steps:(PH_5)(PH_4)1: Save your game immediately after pressing confirm(PH_3)2: Quit to the main menu and disable the mod and restart the game(PH_2)3: Load your save game, ignore any exceptions and save it again(PH_1)Load the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!"
+PetsGetThirst,Pet thirst,PetsGetThirst,DubsHygiene.xml,keyed,Pet thirst
+PetsGetThirstTip,Pets get the thirst need,PetsGetThirstTip,DubsHygiene.xml,keyed,Pets get the thirst need
+fixtureQualityRequiresRestart,A restart is required to add quality and art comps back in.\n\n restart now?,fixtureQualityRequiresRestart,DubsHygiene.xml,keyed,A restart is required to add quality and art comps back in.(PH_2)(PH_1) restart now?
+fixtureQuality,Fixture quality and art,fixtureQuality,DubsHygiene.xml,keyed,Fixture quality and art
+fixtureQualityTip,Enable quality and art comps for fixtures like toilets,fixtureQualityTip,DubsHygiene.xml,keyed,Enable quality and art comps for fixtures like toilets
+QuitToMenuToChange,Quit to main menu to change.,QuitToMenuToChange,DubsHygiene.xml,keyed,Quit to main menu to change.
+RimefellerLink,Rimefeller link,RimefellerLink,DubsHygiene.xml,keyed,Rimefeller link
+RimefellerLinkTip,Enable water usage on crackers and refiners in Rimefeller.,RimefellerLinkTip,DubsHygiene.xml,keyed,Enable water usage on crackers and refiners in Rimefeller.
+RimatomicsLink,Rimatomics link,RimatomicsLink,DubsHygiene.xml,keyed,Rimatomics link
+RimatomicsLinkTip,Enable water usage on cooling towers in Rimatomics.,RimatomicsLinkTip,DubsHygiene.xml,keyed,Enable water usage on cooling towers in Rimatomics.
+OverrideNeedSettingsTip,"Manually disable needs by body type, race, or active hediff.",OverrideNeedSettingsTip,DubsHygiene.xml,keyed,"Manually disable needs by body type, race, or active hediff."
+OverrideNeedsSettings,Needs filter,OverrideNeedsSettings,DubsHygiene.xml,keyed,Needs filter
+Disablebladderneed,Disable bladder need,Disablebladderneed,DubsHygiene.xml,keyed,Disable bladder need
+Disablehygieneneed,Disable hygiene need,Disablehygieneneed,DubsHygiene.xml,keyed,Disable hygiene need
+DisableNeedsLabel,Needs,DisableNeedsLabel,DubsHygiene.xml,keyed,Needs
+NeedCheckboxTip,Tick to enable,NeedCheckboxTip,DubsHygiene.xml,keyed,Tick to enable
+PrisonersGetNeeds,Prisoners,PrisonersGetNeeds,DubsHygiene.xml,keyed,Prisoners
+PrisonersGetNeedsTip,Set if prisoners should have needs,PrisonersGetNeedsTip,DubsHygiene.xml,keyed,Set if prisoners should have needs
+HospitalityGuestsGetNeeds,Guests,HospitalityGuestsGetNeeds,DubsHygiene.xml,keyed,Guests
+HospitalityGuestsGetNeedsTip,Set if guests have needs,HospitalityGuestsGetNeedsTip,DubsHygiene.xml,keyed,Set if guests have needs
+PrivacyChecks,Privacy,PrivacyChecks,DubsHygiene.xml,keyed,Privacy
+PrivacyChecksTip,Colonists care about privacy when bathing or using toilets.,PrivacyChecksTip,DubsHygiene.xml,keyed,Colonists care about privacy when bathing or using toilets.
+CoolingEfficiency,Cooling efficiency,CoolingEfficiency,DubsHygiene.xml,keyed,Cooling efficiency
+CoolingEfficiencyTip,Set if high temperature should affect cooling efficiency like standard AC,CoolingEfficiencyTip,DubsHygiene.xml,keyed,Set if high temperature should affect cooling efficiency like standard AC
+RainIrrigation,Rain irrigation,RainIrrigation,DubsHygiene.xml,keyed,Rain irrigation
+RainIrrigationTip,Rain will give the same boost as sprinklers. Might reduce game performance.,RainIrrigationTip,DubsHygiene.xml,keyed,Rain will give the same boost as sprinklers. Might reduce game performance.
+DisableNeeds,Toggle needs,DisableNeeds,DubsHygiene.xml,keyed,Toggle needs
+DisableNeedsTip,Disable needs entirely. Overrides all other settings.,DisableNeedsTip,DubsHygiene.xml,keyed,Disable needs entirely. Overrides all other settings.
+AllowModdedDrinks,Allow modded drinks,AllowModdedDrinks,DubsHygiene.xml,keyed,Allow modded drinks
+AllowModdedDrinksTip,"Pawns will also be allowed to drink and pack any modded drinks. VGP and RimCuisine drinks can be used default, others will require modding an extension to the def.",AllowModdedDrinksTip,DubsHygiene.xml,keyed,"Pawns will also be allowed to drink and pack any modded drinks. VGP and RimCuisine drinks can be used default, others will require modding an extension to the def."
+AllowDrinkPacking,Pack water bottles,AllowDrinkPacking,DubsHygiene.xml,keyed,Pack water bottles
+AllowDrinkPackingTip,"Pawns will automatically pack water bottles into their inventory when they can.\n\nMay not work with some mods, for CE you will need to manually manage your loadout to include water bottles else they will keep dropping them.",AllowDrinkPackingTip,DubsHygiene.xml,keyed,"Pawns will automatically pack water bottles into their inventory when they can.(PH_2)(PH_1)May not work with some mods, for CE you will need to manually manage your loadout to include water bottles else they will keep dropping them."
+NeedsFilter,Needs filter,NeedsFilter,DubsHygiene.xml,keyed,Needs filter
+MainFeatures,Main features,MainFeatures,DubsHygiene.xml,keyed,Main features
+ExperimentalFeatures,Experimental features,ExperimentalFeatures,DubsHygiene.xml,keyed,Experimental features
+PetsGetBladder,Pet bladders,PetsGetBladder,DubsHygiene.xml,keyed,Pet bladders
+PetsGetBladderTip,Enable bladder need on pets. Also adds litter boxes for pets.,PetsGetBladderTip,DubsHygiene.xml,keyed,Enable bladder need on pets. Also adds litter boxes for pets.
+WildAnimalsGetBladder,Wild animal bladders,WildAnimalsGetBladder,DubsHygiene.xml,keyed,Wild animal bladders
+WildAnimalsGetBladderTip,Enable bladder need on all wild animals. This could get messy.,WildAnimalsGetBladderTip,DubsHygiene.xml,keyed,Enable bladder need on all wild animals. This could get messy.
+ThirstNeed,Thirst need,ThirstNeed,DubsHygiene.xml,keyed,Thirst need
+ThirstNeedTip,Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart.,ThirstNeedTip,DubsHygiene.xml,keyed,Enable thirst need on all colonists with bladder need. Adds drinking fountains and water bottles. Requires a restart.
+FertilizerVisible,Fertilizer visible,FertilizerVisible,DubsHygiene.xml,keyed,Fertilizer visible
+FertilizerVisibleTip,Set if the fertilizer grid should be visible,FertilizerVisibleTip,DubsHygiene.xml,keyed,Set if the fertilizer grid should be visible
+AllowNonHuman,Non-human colonists,AllowNonHuman,DubsHygiene.xml,keyed,Non-human colonists
+AllowNonHumanTip,Enables needs on non-human colonists. You can disable specific beings with the needs filter.,AllowNonHumanTip,DubsHygiene.xml,keyed,Enables needs on non-human colonists. You can disable specific beings with the needs filter.
+dbh.ExtraFeatures,Extra features,dbh.ExtraFeatures,DubsHygiene.xml,keyed,Extra features
+DBHLiteMode,Lite Mode (Simplifies the mod),DBHLiteMode,DubsHygiene.xml,keyed,Lite Mode (Simplifies the mod)
+DBHLiteModeTip,"Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.\n\nThis will prevent many defs from loading and requires a restart.\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating",DBHLiteModeTip,DubsHygiene.xml,keyed,"Switch the mod into a simplified mode which removes pipes, water and sewage management, and any buildings and jobs not directly related to hygiene and thirst.(PH_4)(PH_3)This will prevent many defs from loading and requires a restart.(PH_2)(PH_1)If you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating"
+LiteRequiresRestart,You must restart the game to enable Lite mode\n\nIf you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors,LiteRequiresRestart,DubsHygiene.xml,keyed,You must restart the game to enable Lite mode(PH_2)(PH_1)If you are trying to load a save with existing hygiene buildings you may need to save and reload it after activating to clear errors
+PassiveWaterCoolersLink,Passive coolers use water,PassiveWaterCoolersLink,DubsHygiene.xml,keyed,Passive coolers use water
+PassiveWaterCoolersLinkTip,"Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs.",PassiveWaterCoolersLinkTip,DubsHygiene.xml,keyed,"Passive coolers have their wood fueling removed and are instead filled with water, similar to water tubs."
+sos2int,SoS2 integration,sos2int,DubsHygiene.xml,keyed,SoS2 integration
+sos2intTip,"Adds water and sewage processing to life support, and adds pipes to ship structures.",sos2intTip,DubsHygiene.xml,keyed,"Adds water and sewage processing to life support, and adds pipes to ship structures."
+StockpileWater,Stockpile water x{0},StockpileWater,DubsHygiene.xml,keyed,Stockpile water x(PH_1)
+HygieneWiki,Bad Hygiene Wiki,HygieneWiki,DubsHygiene.xml,keyed,Bad Hygiene Wiki
+HygieneWikiDesc,Go to the Bad Hygiene Wiki,HygieneWikiDesc,DubsHygiene.xml,keyed,Go to the Bad Hygiene Wiki
+SurvivalMode,Survival mode,SurvivalMode,DubsHygiene.xml,keyed,Survival mode
+SurvivalModeTip,"Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.\n\nA new game is not required; works with existing saves.",SurvivalModeTip,DubsHygiene.xml,keyed,"Limits the default shallow water grid generation to very small patches. Terrain features no longer generate water, and the radius around surface water is reduced.(PH_2)(PH_1)A new game is not required; works with existing saves."
+HydroponicsLink,Hydroponics,HydroponicsLink,DubsHygiene.xml,keyed,Hydroponics
+HydroponicsLinkTip,"Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered.",HydroponicsLinkTip,DubsHygiene.xml,keyed,"Powered growing buildings like hydroponics have water tanks that require filling from pipes. Plants die from lack of water instead of power, but water tanks only fill when the building is powered."
+ThirstRequiresRestart,A restart is required to add and remove thirst-related items.\n\nRestart now?,ThirstRequiresRestart,DubsHygiene.xml,keyed,A restart is required to add and remove thirst-related items.(PH_2)(PH_1)Restart now?
+Hygiene.label,Hygiene,label,DesignationCategoryDef/DesignationCategoryDef.xml,def,Hygiene
+Hygiene.description,Things for colonists' hygiene.,description,DesignationCategoryDef/DesignationCategoryDef.xml,def,Things for colonists' hygiene.
+Mote_FecalBit.label,mote,label,ThingDef/ThingDef.xml,def,mote
+Washing.label,washing,label,HediffDef/HediffDef.xml,def,washing
+Washing.labelNoun,washing,labelNoun,HediffDef/HediffDef.xml,def,washing
+Washing.description,washing,description,HediffDef/HediffDef.xml,def,washing
+BadHygiene.label,bad hygiene,label,HediffDef/HediffDef.xml,def,bad hygiene
+BadHygiene.description,Bad hygiene will increase risk of disease and impact social interaction.,description,HediffDef/HediffDef.xml,def,Bad hygiene will increase risk of disease and impact social interaction.
+BadHygiene.stages.0.label,moderate,label,HediffDef/HediffDef.xml,def,moderate
+BadHygiene.stages.1.label,severe,label,HediffDef/HediffDef.xml,def,severe
+BadHygiene.stages.2.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+Diarrhea.label,diarrhea,label,HediffDef/HediffDef.xml,def,diarrhea
+Diarrhea.description,"Diarrhea is loose, watery stools. Also known as bowel movements.",description,HediffDef/HediffDef.xml,def,"Diarrhea is loose, watery stools. Also known as bowel movements."
+Diarrhea.stages.0.label,recovering,label,HediffDef/HediffDef.xml,def,recovering
+Diarrhea.stages.1.label,major,label,HediffDef/HediffDef.xml,def,major
+Diarrhea.stages.2.label,initial,label,HediffDef/HediffDef.xml,def,initial
+Dysentery.label,dysentery,label,HediffDef/HediffDef.xml,def,dysentery
+Dysentery.description,Dysentery is a type of gastroenteritis that results in diarrhea with blood.,description,HediffDef/HediffDef.xml,def,Dysentery is a type of gastroenteritis that results in diarrhea with blood.
+Dysentery.stages.0.label,minor,label,HediffDef/HediffDef.xml,def,minor
+Dysentery.stages.1.label,major,label,HediffDef/HediffDef.xml,def,major
+Dysentery.stages.2.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+Cholera.label,cholera,label,HediffDef/HediffDef.xml,def,cholera
+Cholera.description,"Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated.",description,HediffDef/HediffDef.xml,def,"Cholera is an infectious disease that causes severe watery diarrhea, which can lead to dehydration and even death if untreated."
+Cholera.stages.0.label,minor,label,HediffDef/HediffDef.xml,def,minor
+Cholera.stages.1.label,major,label,HediffDef/HediffDef.xml,def,major
+Cholera.stages.2.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+Cholera.stages.3.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+DBHDehydration.label,dehydration,label,HediffDef/HediffDef.xml,def,dehydration
+DBHDehydration.description,"Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in.",description,HediffDef/HediffDef.xml,def,"Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in."
+DBHDehydration.stages.0.label,trivial,label,HediffDef/HediffDef.xml,def,trivial
+DBHDehydration.stages.1.label,minor,label,HediffDef/HediffDef.xml,def,minor
+DBHDehydration.stages.2.label,moderate,label,HediffDef/HediffDef.xml,def,moderate
+DBHDehydration.stages.3.label,severe,label,HediffDef/HediffDef.xml,def,severe
+DBHDehydration.stages.4.label,extreme,label,HediffDef/HediffDef.xml,def,extreme
+BionicBladder.label,bionic bladder,label,HediffDef/HediffDef.xml,def,bionic bladder
+BionicBladder.labelNoun,a bionic bladder,labelNoun,HediffDef/HediffDef.xml,def,a bionic bladder
+BionicBladder.description,An installed bionic bladder.,description,HediffDef/HediffDef.xml,def,An installed bionic bladder.
+InstallBionicBladder.label,install bionic bladder,label,RecipeDef/RecipeDef.xml,def,install bionic bladder
+InstallBionicBladder.description,Install a bionic bladder.,description,RecipeDef/RecipeDef.xml,def,Install a bionic bladder.
+InstallBionicBladder.jobString,Installing bionic bladder.,jobString,RecipeDef/RecipeDef.xml,def,Installing bionic bladder.
+HygieneEnhancer.label,hygiene enhancer,label,HediffDef/HediffDef.xml,def,hygiene enhancer
+HygieneEnhancer.labelNoun,a hygiene enhancer,labelNoun,HediffDef/HediffDef.xml,def,a hygiene enhancer
+HygieneEnhancer.description,An installed hygiene enhancer.,description,HediffDef/HediffDef.xml,def,An installed hygiene enhancer.
+InstallHygieneEnhancer.label,install hygiene enhancer,label,RecipeDef/RecipeDef.xml,def,install hygiene enhancer
+InstallHygieneEnhancer.description,Install a hygiene enhancer.,description,RecipeDef/RecipeDef.xml,def,Install a hygiene enhancer.
+InstallHygieneEnhancer.jobString,Installing hygiene enhancer.,jobString,RecipeDef/RecipeDef.xml,def,Installing hygiene enhancer.
+TriggerFireSprinkler.reportString,activating TargetA,reportString,JobDef/JobDef.xml,def,activating TargetA
+emptySeptictank.reportString,emptying TargetA,reportString,JobDef/JobDef.xml,def,emptying TargetA
+emptyLatrine.reportString,emptying TargetA,reportString,JobDef/JobDef.xml,def,emptying TargetA
+LoadWashing.reportString,loading TargetA,reportString,JobDef/JobDef.xml,def,loading TargetA
+UnloadWashing.reportString,unloading TargetA,reportString,JobDef/JobDef.xml,def,unloading TargetA
+LoadComposter.reportString,filling TargetA,reportString,JobDef/JobDef.xml,def,filling TargetA
+UnloadComposter.reportString,taking compost out of TargetA,reportString,JobDef/JobDef.xml,def,taking compost out of TargetA
+RemoveSewage.reportString,removing sewage,reportString,JobDef/JobDef.xml,def,removing sewage
+WatchWashingMachine.reportString,watching the spin cycle,reportString,JobDef/JobDef.xml,def,watching the spin cycle
+TipOverSewage.reportString,tipping TargetA,reportString,JobDef/JobDef.xml,def,tipping TargetA
+DrainWaterTankJob.reportString,draining TargetA,reportString,JobDef/JobDef.xml,def,draining TargetA
+PlaceFertilizer.reportString,fertilizing soil,reportString,JobDef/JobDef.xml,def,fertilizing soil
+DBHDrinkFromGround.reportString,drinking water,reportString,JobDef/JobDef.xml,def,drinking water
+DBHDrinkFromBasin.reportString,drinking water from TargetA,reportString,JobDef/JobDef.xml,def,drinking water from TargetA
+DBHPackWaterBottle.reportString,filling water bottle from TargetA,reportString,JobDef/JobDef.xml,def,filling water bottle from TargetA
+DBHStockpileWaterBottles.reportString,stockpiling water from TargetA,reportString,JobDef/JobDef.xml,def,stockpiling water from TargetA
+DBHAdministerFluids.reportString,bringing water to TargetB,reportString,JobDef/JobDef.xml,def,bringing water to TargetB
+UseToilet.reportString,using the TargetA,reportString,JobDef/JobDef.xml,def,using the TargetA
+haveWildPoo.reportString,defecating in the open,reportString,JobDef/JobDef.xml,def,defecating in the open
+useWashBucket.reportString,washing with TargetA,reportString,JobDef/JobDef.xml,def,washing with TargetA
+washAtCell.reportString,washing,reportString,JobDef/JobDef.xml,def,washing
+takeShower.reportString,showering with TargetA,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,showering with TargetA
+takeBath.reportString,having a bath,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,having a bath
+washHands.reportString,washing hands,reportString,JobDef/JobDef.xml,def,washing hands
+washPatient.reportString,washing TargetA,reportString,JobDef/JobDef.xml,def,washing TargetA
+RefillTub.reportString,refilling wash tub,reportString,JobDef/JobDef.xml,def,refilling wash tub
+RefillWater.reportString,refilling water,reportString,JobDef/JobDef.xml,def,refilling water
+cleanBedpan.reportString,cleaning up bed pan,reportString,JobDef/JobDef.xml,def,cleaning up bed pan
+clearBlockage.reportString,unclogging the blocked TargetA,reportString,JobDef/JobDef.xml,def,unclogging the blocked TargetA
+Hydrotherapy.label,hydrotherapy,label,JoyKindDef/JoyKindDef.xml,def,hydrotherapy
+DBHGoSwimming.reportString,swimming,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,swimming
+UseHotTub.reportString,relaxing,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,relaxing
+DBHUseSauna.reportString,using sauna,reportString,DubsBadHygiene.WashingJobDef/DubsBadHygiene.WashingJobDef.xml,def,using sauna
+HygieneRateD.label,Hygiene need rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Hygiene need rate
+HygieneRateD.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+HygieneRateD.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%
+HygieneRateD.options.2.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%
+HygieneRateD.options.3.label,30%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30%
+HygieneRateD.options.4.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%
+HygieneRateD.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+HygieneRateD.options.6.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%
+HygieneRateD.options.7.label,70%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,70%
+HygieneRateD.options.8.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%
+HygieneRateD.options.9.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%
+HygieneRateD.options.10.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+HygieneRateD.options.11.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%
+HygieneRateD.options.12.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%
+HygieneRateD.options.13.label,130%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,130%
+HygieneRateD.options.14.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%
+HygieneRateD.options.15.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+HygieneRateD.options.16.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+HygieneRateD.options.17.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%
+HygieneRateD.options.18.label,500%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,500%
+HygieneRateD.options.19.label,1000%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1000%
+BladderRateD.label,Bladder need rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Bladder need rate
+BladderRateD.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+BladderRateD.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%
+BladderRateD.options.2.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%
+BladderRateD.options.3.label,30%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30%
+BladderRateD.options.4.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%
+BladderRateD.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+BladderRateD.options.6.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%
+BladderRateD.options.7.label,70%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,70%
+BladderRateD.options.8.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%
+BladderRateD.options.9.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%
+BladderRateD.options.10.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+BladderRateD.options.11.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%
+BladderRateD.options.12.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%
+BladderRateD.options.13.label,130%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,130%
+BladderRateD.options.14.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%
+BladderRateD.options.15.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+BladderRateD.options.16.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+BladderRateD.options.17.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%
+BladderRateD.options.18.label,500%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,500%
+BladderRateD.options.19.label,1000%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1000%
+FlushSize.label,Flush size,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Flush size
+FlushSize.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+FlushSize.options.1.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%
+FlushSize.options.2.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+FlushSize.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+FlushSize.options.4.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+FlushSize.options.5.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+FlushSize.options.6.label,250%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,250%
+ThirstRateD.label,Thirst need rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Thirst need rate
+ThirstRateD.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+ThirstRateD.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%
+ThirstRateD.options.2.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%
+ThirstRateD.options.3.label,30%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30%
+ThirstRateD.options.4.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%
+ThirstRateD.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+ThirstRateD.options.6.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%
+ThirstRateD.options.7.label,70%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,70%
+ThirstRateD.options.8.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%
+ThirstRateD.options.9.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%
+ThirstRateD.options.10.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+ThirstRateD.options.11.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%
+ThirstRateD.options.12.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%
+ThirstRateD.options.13.label,130%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,130%
+ThirstRateD.options.14.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%
+ThirstRateD.options.15.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+ThirstRateD.options.16.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+ThirstRateD.options.17.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%
+ThirstRateD.options.18.label,500%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,500%
+ThirstRateD.options.19.label,1000%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1000%
+ContaminationChance.label,Contamination chance,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Contamination chance
+ContaminationChance.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+ContaminationChance.options.1.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%
+ContaminationChance.options.2.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%
+ContaminationChance.options.3.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+ContaminationChance.options.4.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+ContaminationChance.options.5.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%
+ContaminationChance.options.6.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+ContaminationChance.options.7.label,175%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,175%
+ContaminationChance.options.8.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+WaterPumpCapacity.label,Water pump capacity,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Water pump capacity
+WaterPumpCapacity.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+WaterPumpCapacity.options.1.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+WaterPumpCapacity.options.2.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+WaterPumpCapacity.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+WaterPumpCapacity.options.4.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%
+WaterPumpCapacity.options.5.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+WaterPumpCapacity.options.6.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%
+WaterHeatingRate.label,Hot water usage,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Hot water usage
+WaterHeatingRate.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+WaterHeatingRate.options.1.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+WaterHeatingRate.options.2.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%
+WaterHeatingRate.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+WaterHeatingRate.options.4.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%
+WaterHeatingRate.options.5.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+WaterHeatingRate.options.6.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+SewageGridCapacity.label,Sewage limit per cell,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Sewage limit per cell
+SewageGridCapacity.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+SewageGridCapacity.options.1.label,400%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,400%
+SewageGridCapacity.options.2.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+SewageGridCapacity.options.3.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+SewageGridCapacity.options.4.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%
+SewageGridCapacity.options.5.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%
+SewageGridCapacity.options.6.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%
+SewageCleanupRateB.label,Sewage cleanup rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Sewage cleanup rate
+SewageCleanupRateB.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+SewageCleanupRateB.options.1.label,300%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,300%
+SewageCleanupRateB.options.2.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+SewageCleanupRateB.options.3.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+SewageCleanupRateB.options.4.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%
+SewageCleanupRateB.options.5.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+SewageCleanupRateB.options.6.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%
+SewageCleanupRateB.options.7.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+SewageCleanupRateB.options.8.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%
+SewageCleanupRateB.options.9.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%
+SewageCleanupRateB.options.10.label,0%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,0%
+SewageProcRate.label,Sewage treatment rate,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Sewage treatment rate
+SewageProcRate.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+SewageProcRate.options.1.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+SewageProcRate.options.2.label,150%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,150%
+SewageProcRate.options.3.label,125%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,125%
+SewageProcRate.options.4.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+SewageProcRate.options.5.label,75%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,75%
+SewageProcRate.options.6.label,50%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,50%
+SewageProcRate.options.7.label,25%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,25%
+SewageProcRate.options.8.label,10%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10%
+IrrigationGridStrength.label,Irrigation strength,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Irrigation strength
+IrrigationGridStrength.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+IrrigationGridStrength.options.1.label,240%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,240%
+IrrigationGridStrength.options.2.label,220%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,220%
+IrrigationGridStrength.options.3.label,200%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,200%
+IrrigationGridStrength.options.4.label,180%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,180%
+IrrigationGridStrength.options.5.label,160%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,160%
+IrrigationGridStrength.options.6.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%
+IrrigationGridStrength.options.7.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%
+IrrigationGridStrength.options.8.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%
+FertilizerGridStrength.label,Fertilizer strength,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Fertilizer strength
+FertilizerGridStrength.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+FertilizerGridStrength.options.1.label,160%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,160%
+FertilizerGridStrength.options.2.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%
+FertilizerGridStrength.options.3.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%
+FertilizerGridStrength.options.4.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%
+FertilizerGridStrength.options.5.label,108%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,108%
+FertilizerGridStrength.options.6.label,106%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,106%
+FertilizerGridStrength.options.7.label,104%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,104%
+FertilizerGridStrength.options.8.label,102%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,102%
+TerrainFertilityFactor.label,Base terrain fertility,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Base terrain fertility
+TerrainFertilityFactor.options.0.label,Cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Cheat
+TerrainFertilityFactor.options.1.label,180%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,180%
+TerrainFertilityFactor.options.2.label,140%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,140%
+TerrainFertilityFactor.options.3.label,120%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120%
+TerrainFertilityFactor.options.4.label,110%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,110%
+TerrainFertilityFactor.options.5.label,100%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,100%
+TerrainFertilityFactor.options.6.label,90%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,90%
+TerrainFertilityFactor.options.7.label,80%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80%
+TerrainFertilityFactor.options.8.label,60%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60%
+TerrainFertilityFactor.options.9.label,40%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40%
+TerrainFertilityFactor.options.10.label,20%,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20%
+FertilizerLifespan.label,Fertilizer lifespan,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,Fertilizer lifespan
+FertilizerLifespan.options.0.label,cheat,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,cheat
+FertilizerLifespan.options.1.label,240 days (3 years),label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,240 days (3 years)
+FertilizerLifespan.options.2.label,180 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,180 days
+FertilizerLifespan.options.3.label,120 days (2 years),label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,120 days (2 years)
+FertilizerLifespan.options.4.label,80 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,80 days
+FertilizerLifespan.options.5.label,60 days (1 year),label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,60 days (1 year)
+FertilizerLifespan.options.6.label,40 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,40 days
+FertilizerLifespan.options.7.label,30 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,30 days
+FertilizerLifespan.options.8.label,20 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,20 days
+FertilizerLifespan.options.9.label,10 days,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,10 days
+FertilizerLifespan.options.10.label,1 day,label,DubsBadHygiene.DubsModOptions/DubsBadHygiene.DubsModOptions.xml,def,1 day
+Bladder.label,bladder,label,Needy/Needy.xml,def,bladder
+Bladder.description,"To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply.",description,Needy/Needy.xml,def,"To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply."
+DBHThirst.label,thirst,label,Needy/Needy.xml,def,thirst
+DBHThirst.description,Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration.,description,Needy/Needy.xml,def,Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration.
+Make_ChemfuelFromFecalSludge.label,make chemfuel from fecal sludge,label,RecipeDef/RecipeDef.xml,def,make chemfuel from fecal sludge
+Make_ChemfuelFromFecalSludge.description,Make a batch of chemfuel from fecal sludge.,description,RecipeDef/RecipeDef.xml,def,Make a batch of chemfuel from fecal sludge.
+Make_ChemfuelFromFecalSludge.jobString,Refining chemfuel from fecal sludge,jobString,RecipeDef/RecipeDef.xml,def,Refining chemfuel from fecal sludge
+DubsBadHygiene.label,Dubs Bad Hygiene,label,ResearchTabDef/ResearchTabDef.xml,def,Dubs Bad Hygiene
+SewageSludgeComposting.label,sewage sludge composting,label,ResearchProjectDef/ResearchProjectDef.xml,def,sewage sludge composting
+SewageSludgeComposting.description,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation."
+MultiSplitAirCon.label,multi-split air conditioning,label,ResearchProjectDef/ResearchProjectDef.xml,def,multi-split air conditioning
+MultiSplitAirCon.description,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.
+Plumbing.label,plumbing,label,ResearchProjectDef/ResearchProjectDef.xml,def,plumbing
+Plumbing.description,"Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage."
+LogBoilers.label,heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,heating
+LogBoilers.description,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.
+CentralHeating.label,central heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,central heating
+CentralHeating.description,"Build central heating systems with radiators, hot water tanks, boilers and thermostats.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build central heating systems with radiators, hot water tanks, boilers and thermostats."
+GeothermalHeating.label,Geothermal Heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,Geothermal Heating
+GeothermalHeating.description,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.
+Saunas.label,saunas,label,ResearchProjectDef/ResearchProjectDef.xml,def,saunas
+Saunas.description,"Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks."
+ModernFixtures.label,modern bathroom fixtures,label,ResearchProjectDef/ResearchProjectDef.xml,def,modern bathroom fixtures
+ModernFixtures.description,Build modern-style bathroom fixtures like toilets and showers.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build modern-style bathroom fixtures like toilets and showers.
+ElectricPumps.label,electric pumps,label,ResearchProjectDef/ResearchProjectDef.xml,def,electric pumps
+ElectricPumps.description,Powered water pumps for pressurized continuous water pumping.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Powered water pumps for pressurized continuous water pumping.
+AdvancedShowers.label,power showers,label,ResearchProjectDef/ResearchProjectDef.xml,def,power showers
+AdvancedShowers.description,Build power showers which halve the time spent showering and improve comfort.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build power showers which halve the time spent showering and improve comfort.
+AdvancedToilets.label,smart toilets,label,ResearchProjectDef/ResearchProjectDef.xml,def,smart toilets
+AdvancedToilets.description,"Build comfortable, self cleaning, super efficient smart toilets.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build comfortable, self cleaning, super efficient smart toilets."
+HotTubs.label,hot tubs,label,ResearchProjectDef/ResearchProjectDef.xml,def,hot tubs
+HotTubs.description,"Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure."
+LargeWaterPumps.label,industrial-scale pumps,label,ResearchProjectDef/ResearchProjectDef.xml,def,industrial-scale pumps
+LargeWaterPumps.description,Build industrial-scale water pumps and storage tanks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build industrial-scale water pumps and storage tanks.
+DeepWells.label,deep wells,label,ResearchProjectDef/ResearchProjectDef.xml,def,deep wells
+DeepWells.description,Drill deeper wells to access a much larger area of ground water.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Drill deeper wells to access a much larger area of ground water.
+WashingMachines.label,washing machines,label,ResearchProjectDef/ResearchProjectDef.xml,def,washing machines
+WashingMachines.description,Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!
+WaterFiltration.label,water filtration,label,ResearchProjectDef/ResearchProjectDef.xml,def,water filtration
+WaterFiltration.description,"Build water filtration systems which treat the water supply, eliminating the risk of disease.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build water filtration systems which treat the water supply, eliminating the risk of disease."
+HygieneBionics.label,Hygiene Bionics,label,ResearchProjectDef/ResearchProjectDef.xml,def,Hygiene Bionics
+HygieneBionics.description,Craft bionics that help to process bodily waste and manage personal hygiene.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Craft bionics that help to process bodily waste and manage personal hygiene.
+SepticTanks.label,septic tanks,label,ResearchProjectDef/ResearchProjectDef.xml,def,septic tanks
+SepticTanks.description,Build septic tanks which accumulate sewage and provide moderate treatment of sewage.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build septic tanks which accumulate sewage and provide moderate treatment of sewage.
+SewageTreatment.label,sewage treatment,label,ResearchProjectDef/ResearchProjectDef.xml,def,sewage treatment
+SewageTreatment.description,Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage.
+SwimmingPools.label,swimming pools,label,ResearchProjectDef/ResearchProjectDef.xml,def,swimming pools
+SwimmingPools.description,Build swimming pools.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build swimming pools.
+Irrigation.label,irrigation,label,ResearchProjectDef/ResearchProjectDef.xml,def,irrigation
+Irrigation.description,Build sprinklers that can irrigate soil to improve fertility.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build sprinklers that can irrigate soil to improve fertility.
+FireSuppression.label,fire suppression,label,ResearchProjectDef/ResearchProjectDef.xml,def,fire suppression
+FireSuppression.description,Build sprinklers that suppress fires with a spray of water.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build sprinklers that suppress fires with a spray of water.
+SpacerHygieneRecycling.label,spacer hygiene recycling,label,ResearchProjectDef/ResearchProjectDef.xml,def,spacer hygiene recycling
+SpacerHygieneRecycling.description,Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.
+AsteroidCryoMining.label,asteroid cryo mining,label,ResearchProjectDef/ResearchProjectDef.xml,def,asteroid cryo mining
+AsteroidCryoMining.description,Extract and sublimate volatile ices trapped beneath asteroid regolith.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Extract and sublimate volatile ices trapped beneath asteroid regolith.
+PublicBathroom.label,public bathroom,label,RoomRoleDef/RoomRoleDef.xml,def,public bathroom
+PrivateBathroom.label,private bathroom,label,RoomRoleDef/RoomRoleDef.xml,def,private bathroom
+SaunaRoom.label,Sauna room,label,RoomRoleDef/RoomRoleDef.xml,def,Sauna room
+ThirstRateMultiplier.label,thirst rate factor,label,StatDef/StatDef.xml,def,thirst rate factor
+ThirstRateMultiplier.description,A multiplier on how quickly a creature becomes thirsty.,description,StatDef/StatDef.xml,def,A multiplier on how quickly a creature becomes thirsty.
+HygieneRateMultiplier.label,hygiene rate factor,label,StatDef/StatDef.xml,def,hygiene rate factor
+HygieneRateMultiplier.description,A multiplier on how quickly a creatures hygiene level falls.,description,StatDef/StatDef.xml,def,A multiplier on how quickly a creatures hygiene level falls.
+BladderRateMultiplier.label,bladder rate factor,label,StatDef/StatDef.xml,def,bladder rate factor
+BladderRateMultiplier.description,A multiplier on how quickly a creatures bladder level falls.,description,StatDef/StatDef.xml,def,A multiplier on how quickly a creatures bladder level falls.
+Waste.label,waste,label,ThingCategoryDef/ThingCategoryDef.xml,def,waste
+BuildingsHygiene.label,hygiene,label,ThingCategoryDef/ThingCategoryDef.xml,def,hygiene
+DBH_Floor_Tile_Mosaic.label,mosaic tile,label,DesignatorDropdownGroupDef/DesignatorDropdownGroupDef.xml,def,mosaic tile
+DBHMosaicTile.label,mosaic tile,label,TerrainDef/TerrainDef.xml,def,mosaic tile
+DBHMosaicTile.description,"Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.",description,TerrainDef/TerrainDef.xml,def,"Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens."
+DBHMosaicSandstone.label,sandstone mosaic tile,label,TerrainDef/TerrainDef.xml,def,sandstone mosaic tile
+DBHMosaicGranite.label,granite mosaic tile,label,TerrainDef/TerrainDef.xml,def,granite mosaic tile
+DBHMosaicLimestone.label,limestone mosaic tile,label,TerrainDef/TerrainDef.xml,def,limestone mosaic tile
+DBHMosaicSlate.label,slate mosaic tile,label,TerrainDef/TerrainDef.xml,def,slate mosaic tile
+DBHMosaicMarble.label,marble mosaic tile,label,TerrainDef/TerrainDef.xml,def,marble mosaic tile
+sewagePipeStuff.label,plumbing,label,ThingDef/ThingDef.xml,def,plumbing
+sewagePipeStuff.description,Plumbing for connecting plumbed things.,description,ThingDef/ThingDef.xml,def,Plumbing for connecting plumbed things.
+sewagePipeHidden.label,plumbing (hidden),label,ThingDef/ThingDef.xml,def,plumbing (hidden)
+sewagePipeHidden.description,Plumbing for connecting plumbed things (hidden).,description,ThingDef/ThingDef.xml,def,Plumbing for connecting plumbed things (hidden).
+plumbingValve.label,plumbing valve,label,ThingDef/ThingDef.xml,def,plumbing valve
+plumbingValve.description,Opens or closes connections between pipes.,description,ThingDef/ThingDef.xml,def,Opens or closes connections between pipes.
+airPipe.label,air-con pipe,label,ThingDef/ThingDef.xml,def,air-con pipe
+airPipe.description,Pipe for connecting air-conditioning units.,description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units.
+airPipeHidden.label,air-con pipe (hidden),label,ThingDef/ThingDef.xml,def,air-con pipe (hidden)
+airPipeHidden.description,Pipe for connecting air-conditioning units. (hidden),description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units. (hidden)
+ToiletStallDoor.label,stall door,label,ThingDef/ThingDef.xml,def,stall door
+ToiletStallDoor.description,Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.,description,ThingDef/ThingDef.xml,def,Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.
+PitLatrine.label,latrine,label,ThingDef/ThingDef.xml,def,latrine
+PitLatrine.description,"A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use",description,ThingDef/ThingDef.xml,def,"A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.(PH_1)14L per use"
+PrimitiveWell.label,primitive well,label,ThingDef/ThingDef.xml,def,primitive well
+PrimitiveWell.description,Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.,description,ThingDef/ThingDef.xml,def,Accesses ground water. Water must be hauled to a water tub before it can be used for washing or drinking.
+WashBucket.label,water tub,label,ThingDef/ThingDef.xml,def,water tub
+WashBucket.description,"Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled.",description,ThingDef/ThingDef.xml,def,"Tub of water used for personal hygiene. Must be regularly refilled with fresh water, also fills with rain water. Can also be used for drinking if thirst is enabled."
+WaterTrough.label,Water Trough,label,ThingDef/ThingDef.xml,def,Water Trough
+WaterTrough.description,"Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.",description,ThingDef/ThingDef.xml,def,"Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain."
+PetWaterBowl.label,Water Bowl,label,ThingDef/ThingDef.xml,def,Water Bowl
+PetWaterBowl.description,Bowl of water used by animals.,description,ThingDef/ThingDef.xml,def,Bowl of water used by animals.
+LitterBox.label,litter box,label,ThingDef/ThingDef.xml,def,litter box
+LitterBox.description,An indoor faeces and urine collection box for small animals.,description,ThingDef/ThingDef.xml,def,An indoor faeces and urine collection box for small animals.
+BurnPit.label,burn pit,label,ThingDef/ThingDef.xml,def,burn pit
+BurnPit.description,Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.,description,ThingDef/ThingDef.xml,def,Eliminates fecal sludge by burning it as fuel. Can also be used for disposing of corpses or other detritus. Colonists may become sick if they spend too long near burning waste.
+BasinStuff.label,basin,label,ThingDef/ThingDef.xml,def,basin
+Fountain.label,fountain,label,ThingDef/ThingDef.xml,def,fountain
+Fountain.description,A water fountain used for drinking and washing.,description,ThingDef/ThingDef.xml,def,A water fountain used for drinking and washing.
+KitchenSink.label,kitchen sink,label,ThingDef/ThingDef.xml,def,kitchen sink
+KitchenSink.description,Everything but a kitchen sink. Increases room cleanliness.,description,ThingDef/ThingDef.xml,def,Everything but a kitchen sink. Increases room cleanliness.
+ToiletStuff.label,toilet,label,ThingDef/ThingDef.xml,def,toilet
+ToiletAdv.description,"Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use",description,ThingDef/ThingDef.xml,def,"Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.(PH_1)7L per use"
+ToiletAdvStuff.label,smart toilet,label,ThingDef/ThingDef.xml,def,smart toilet
+ToiletSpacer.description,Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports.,description,ThingDef/ThingDef.xml,def,Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports.
+ToiletSpacer.label,vacuum toilet,label,ThingDef/ThingDef.xml,def,vacuum toilet
+BathMat.label,Bath Mat,label,ThingDef/ThingDef.xml,def,Bath Mat
+BathMat.description,A small mat used next to a bathtub to absorb water.,description,ThingDef/ThingDef.xml,def,A small mat used next to a bathtub to absorb water.
+BathtubStuff.label,bathtub,label,ThingDef/ThingDef.xml,def,bathtub
+ShowerStuff.label,shower,label,ThingDef/ThingDef.xml,def,shower
+ShowerSimple.label,simple shower,label,ThingDef/ThingDef.xml,def,simple shower
+ShowerAdvStuff.label,power shower,label,ThingDef/ThingDef.xml,def,power shower
+ShowerAdvStuff.description,"Heats water on demand and does not need a hot water tank, cleans twice as fast\n90L per wash",description,ThingDef/ThingDef.xml,def,"Heats water on demand and does not need a hot water tank, cleans twice as fast(PH_1)90L per wash"
+PoolWater.tools.0.label,water,label,TerrainDef/TerrainDef.xml,def,water
+PoolWater.label,pool water,label,TerrainDef/TerrainDef.xml,def,pool water
+DBHSwimmingPool.description,"Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.",description,ThingDef/ThingDef.xml,def,"Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first."
+DBHSwimmingPool.label,swimming pool,label,ThingDef/ThingDef.xml,def,swimming pool
+HotTub.description,"Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.",description,ThingDef/ThingDef.xml,def,"Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet."
+HotTub.label,hot tub,label,ThingDef/ThingDef.xml,def,hot tub
+WashingMachine.label,washing machine,label,ThingDef/ThingDef.xml,def,washing machine
+WashingMachine.description,Washes clothes so well that you can't even tell someone died wearing it!,description,ThingDef/ThingDef.xml,def,Washes clothes so well that you can't even tell someone died wearing it!
+DBHSaunaHeaterLog.label,Fueled Sauna Heater,label,ThingDef/ThingDef.xml,def,Fueled Sauna Heater
+DBHSaunaHeaterLog.description,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.",description,ThingDef/ThingDef.xml,def,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c."
+DBHSaunaHeaterElec.label,Electric Sauna Heater,label,ThingDef/ThingDef.xml,def,Electric Sauna Heater
+DBHSaunaHeaterElec.description,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.",description,ThingDef/ThingDef.xml,def,"A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c."
+DBHSaunaSeating.label,Sauna seating,label,ThingDef/ThingDef.xml,def,Sauna seating
+DBHSaunaSeating.description,Slatted seating for sauna rooms,description,ThingDef/ThingDef.xml,def,Slatted seating for sauna rooms
+WaterWellInlet.label,water well,label,ThingDef/ThingDef.xml,def,water well
+WaterWellInlet.description,Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.,description,ThingDef/ThingDef.xml,def,Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.
+DeepWaterWellInlet.label,deep water well,label,ThingDef/ThingDef.xml,def,deep water well
+DeepWaterWellInlet.description,Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.,description,ThingDef/ThingDef.xml,def,Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.
+WaterButt.description,Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.,description,ThingDef/ThingDef.xml,def,Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.
+WaterButt.label,water butt,label,ThingDef/ThingDef.xml,def,water butt
+WaterTowerS.label,water tower,label,ThingDef/ThingDef.xml,def,water tower
+WaterTowerS.description,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.,description,ThingDef/ThingDef.xml,def,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.
+WaterTowerL.label,huge water tower,label,ThingDef/ThingDef.xml,def,huge water tower
+WaterTowerL.description,"Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.",description,ThingDef/ThingDef.xml,def,"Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000."
+WindPump.label,wind pump,label,ThingDef/ThingDef.xml,def,wind pump
+WindPump.description,Pumps water from wells to water towers. Pumping capacity: 3000 L/day.,description,ThingDef/ThingDef.xml,def,Pumps water from wells to water towers. Pumping capacity: 3000 L/day.
+ElectricPump.label,electric pump,label,ThingDef/ThingDef.xml,def,electric pump
+ElectricPump.description,Pumps water from wells to water towers. Pumping capacity: 1500 L/day.,description,ThingDef/ThingDef.xml,def,Pumps water from wells to water towers. Pumping capacity: 1500 L/day.
+PumpingStation.label,pumping station,label,ThingDef/ThingDef.xml,def,pumping station
+PumpingStation.description,Pumps water from wells to water towers. Pumping capacity: 10000 L/day.,description,ThingDef/ThingDef.xml,def,Pumps water from wells to water towers. Pumping capacity: 10000 L/day.
+SewageOutlet.label,sewage outlet,label,ThingDef/ThingDef.xml,def,sewage outlet
+SewageOutlet.description,"Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up.",description,ThingDef/ThingDef.xml,def,"Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up."
+SewageSepticTank.label,septic tank,label,ThingDef/ThingDef.xml,def,septic tank
+SewageSepticTank.description,"Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets.",description,ThingDef/ThingDef.xml,def,"Slowly cleans sewage over time. Sewage is directed to septic tanks first. If it reaches full capacity, excess sewage is sent to sewage outlets."
+WaterTreatment.label,water treatment,label,ThingDef/ThingDef.xml,def,water treatment
+WaterTreatment.description,"Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.",description,ThingDef/ThingDef.xml,def,"Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease."
+SewageDumpPort.label,sewage dump port,label,ThingDef/ThingDef.xml,def,sewage dump port
+SewageDumpPort.description,"A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.\nMust be mounted on an exterior wall of a ship.",description,ThingDef/ThingDef.xml,def,"A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.(PH_1)Must be mounted on an exterior wall of a ship."
+CryogenicExtractionNode.label,cryogenic extraction node,label,ThingDef/ThingDef.xml,def,cryogenic extraction node
+CryogenicExtractionNode.description,Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.,description,ThingDef/ThingDef.xml,def,Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.
+SpacerWaterRecoverySystem.label,water recovery system,label,ThingDef/ThingDef.xml,def,water recovery system
+SpacerWaterRecoverySystem.description,A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.,description,ThingDef/ThingDef.xml,def,A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.
+WaterTankSmall.label,water tank,label,ThingDef/ThingDef.xml,def,water tank
+WaterTankSmall.description,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.,description,ThingDef/ThingDef.xml,def,Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.
+Thermostat.label,thermostat,label,ThingDef/ThingDef.xml,def,thermostat
+Thermostat.description,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.,description,ThingDef/ThingDef.xml,def,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.
+LogBoiler.label,log boiler,label,ThingDef/ThingDef.xml,def,log boiler
+LogBoiler.description,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.
+GasBoiler.label,gas boiler,label,ThingDef/ThingDef.xml,def,gas boiler
+GasBoiler.description,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.
+ElectricBoiler.label,electric boiler,label,ThingDef/ThingDef.xml,def,electric boiler
+ElectricBoiler.description,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.
+SolarHeater.label,solar heater,label,ThingDef/ThingDef.xml,def,solar heater
+SolarHeater.description,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.,description,ThingDef/ThingDef.xml,def,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.
+GeothermHeater.label,Geothermal heater,label,ThingDef/ThingDef.xml,def,Geothermal heater
+GeothermHeater.description,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.,description,ThingDef/ThingDef.xml,def,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.
+HotWaterTank.label,hot water tank,label,ThingDef/ThingDef.xml,def,hot water tank
+HotWaterTank.description,Stores hot running water for showers and baths. Connect to any boiler to heat.,description,ThingDef/ThingDef.xml,def,Stores hot running water for showers and baths. Connect to any boiler to heat.
+RadiatorStuffed.label,radiator,label,ThingDef/ThingDef.xml,def,radiator
+RadiatorLarge.label,large radiator,label,ThingDef/ThingDef.xml,def,large radiator
+RadiatorLarge.description,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.,description,ThingDef/ThingDef.xml,def,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.
+RadiatorTowelRail.label,Towel Rail,label,ThingDef/ThingDef.xml,def,Towel Rail
+RadiatorTowelRail.description,Impressive bathroom towel rail.,description,ThingDef/ThingDef.xml,def,Impressive bathroom towel rail.
+CeilingFan.label,ceiling fan 2x2,label,ThingDef/ThingDef.xml,def,ceiling fan 2x2
+CeilingFanS.label,ceiling fan 1x1,label,ThingDef/ThingDef.xml,def,ceiling fan 1x1
+AirConOutdoorUnit.label,air-con outdoor unit,label,ThingDef/ThingDef.xml,def,air-con outdoor unit
+AirConOutdoorUnit.description,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.,description,ThingDef/ThingDef.xml,def,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.
+AirconIndoorUnit.label,air-con indoor unit,label,ThingDef/ThingDef.xml,def,air-con indoor unit
+AirconIndoorUnit.description,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.,description,ThingDef/ThingDef.xml,def,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.
+FreezerUnit.label,walk-in freezer unit,label,ThingDef/ThingDef.xml,def,walk-in freezer unit
+FreezerUnit.description,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.,description,ThingDef/ThingDef.xml,def,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.
+IrrigationSprinkler.label,irrigation sprinkler,label,ThingDef/ThingDef.xml,def,irrigation sprinkler
+IrrigationSprinkler.description,Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius.,description,ThingDef/ThingDef.xml,def,Waters the surrounding area once every morning to improve the fertility of the soil through the day. Uses 1000L each morning at max radius.
+FireSprinkler.label,fire sprinkler,label,ThingDef/ThingDef.xml,def,fire sprinkler
+FireSprinkler.description,Triggered by fire or high temperature. Douses flames with a spray of water.,description,ThingDef/ThingDef.xml,def,Triggered by fire or high temperature. Douses flames with a spray of water.
+FireSprinkler.comps.2.useLabel,Trigger fire sprinkler,useLabel,ThingDef/ThingDef.xml,def,Trigger fire sprinkler
+BiosolidsComposter.label,biosolids composter,label,ThingDef/ThingDef.xml,def,biosolids composter
+BiosolidsComposter.description,A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.,description,ThingDef/ThingDef.xml,def,A composter for turning sewage into fertilizer for increasing the fertility of diggable terrain.
+BedPan.label,bed pan,label,ThingDef/ThingDef.xml,def,bed pan
+BedPan.description,A receptacle used by a bedridden patient for urine and faeces.,description,ThingDef/ThingDef.xml,def,A receptacle used by a bedridden patient for urine and faeces.
+Biosolids.label,biosolids,label,ThingDef/ThingDef.xml,def,biosolids
+Biosolids.description,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.",description,ThingDef/ThingDef.xml,def,"When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation."
+FecalSludge.label,fecal sludge,label,ThingDef/ThingDef.xml,def,fecal sludge
+FecalSludge.description,"A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids.",description,ThingDef/ThingDef.xml,def,"A barrel filled with fecal sludge. Can be dumped, burned, or composted into biosolids."
+DBH_WaterBottle.label,water,label,ThingDef/ThingDef.xml,def,water
+DBH_WaterBottle.description,A bottle of water.,description,ThingDef/ThingDef.xml,def,A bottle of water.
+DBH_WaterBottle.ingestible.ingestCommandString,Drink {0},ingestCommandString,ThingDef/ThingDef.xml,def,Drink (PH_1)
+DBH_WaterBottle.ingestible.ingestReportString,Drinking {0}.,ingestReportString,ThingDef/ThingDef.xml,def,Drinking (PH_1).
+FilthUrine.label,urine,label,ThingDef/ThingDef.xml,def,urine
+FilthUrine.description,Urine on the ground.,description,ThingDef/ThingDef.xml,def,Urine on the ground.
+FilthFaeces.label,faeces,label,ThingDef/ThingDef.xml,def,faeces
+RawSewage.label,raw sewage,label,ThingDef/ThingDef.xml,def,raw sewage
+DrankCleanWater.stages.0.label,refreshed,label,ThoughtDef/ThoughtDef.xml,def,refreshed
+DrankCleanWater.stages.0.description,Drank refreshing clean water.,description,ThoughtDef/ThoughtDef.xml,def,Drank refreshing clean water.
+DrankDirtyWater.stages.0.label,drank filthy water,label,ThoughtDef/ThoughtDef.xml,def,drank filthy water
+DrankDirtyWater.stages.0.description,Drank a bottle of contaminated water.,description,ThoughtDef/ThoughtDef.xml,def,Drank a bottle of contaminated water.
+DrankUrine.stages.0.label,drank urine,label,ThoughtDef/ThoughtDef.xml,def,drank urine
+DrankUrine.stages.0.description,I drank my own urine.,description,ThoughtDef/ThoughtDef.xml,def,I drank my own urine.
+WashPrivacy.stages.0.label,embarrassed,label,ThoughtDef/ThoughtDef.xml,def,embarrassed
+WashPrivacy.stages.0.description,Someone saw me bathing and it made me uncomfortable.,description,ThoughtDef/ThoughtDef.xml,def,Someone saw me bathing and it made me uncomfortable.
+ToiletPrivacy.stages.0.label,embarrassed,label,ThoughtDef/ThoughtDef.xml,def,embarrassed
+ToiletPrivacy.stages.0.description,Someone walked in on me while I was using the toilet.,description,ThoughtDef/ThoughtDef.xml,def,Someone walked in on me while I was using the toilet.
+SoiledSelf.stages.0.label,soiled myself,label,ThoughtDef/ThoughtDef.xml,def,soiled myself
+SoiledSelf.stages.0.description,I couldn't hold it in any longer and soiled myself.,description,ThoughtDef/ThoughtDef.xml,def,I couldn't hold it in any longer and soiled myself.
+HotShower.stages.0.label,hot shower,label,ThoughtDef/ThoughtDef.xml,def,hot shower
+HotShower.stages.0.description,I had a nice hot shower.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice hot shower.
+HeatedPool.stages.0.label,heated pool,label,ThoughtDef/ThoughtDef.xml,def,heated pool
+HeatedPool.stages.0.description,The heated pool was very relaxing.,description,ThoughtDef/ThoughtDef.xml,def,The heated pool was very relaxing.
+HotBath.stages.0.label,hot bath,label,ThoughtDef/ThoughtDef.xml,def,hot bath
+HotBath.stages.0.description,I had a nice hot bath.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice hot bath.
+ColdBath.stages.0.label,cold bath,label,ThoughtDef/ThoughtDef.xml,def,cold bath
+ColdBath.stages.0.description,I had a nice refreshing cold bath.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice refreshing cold bath.
+ColdShower.stages.0.label,cold shower,label,ThoughtDef/ThoughtDef.xml,def,cold shower
+ColdShower.stages.0.description,I had a nice refreshing cold shower.,description,ThoughtDef/ThoughtDef.xml,def,I had a nice refreshing cold shower.
+ColdWater.stages.0.label,cold water,label,ThoughtDef/ThoughtDef.xml,def,cold water
+ColdWater.stages.0.description,There was no hot water!,description,ThoughtDef/ThoughtDef.xml,def,There was no hot water!
+tookDump.stages.0.label,relieved myself,label,ThoughtDef/ThoughtDef.xml,def,relieved myself
+tookDump.stages.0.description,Aaaah much better.,description,ThoughtDef/ThoughtDef.xml,def,Aaaah much better.
+openDefecation.stages.0.label,open defecation,label,ThoughtDef/ThoughtDef.xml,def,open defecation
+openDefecation.stages.0.description,I had to relieve myself outside in the open.,description,ThoughtDef/ThoughtDef.xml,def,I had to relieve myself outside in the open.
+UsedPrivateBathroom.stages.0.label,awful bathroom,label,ThoughtDef/ThoughtDef.xml,def,awful bathroom
+UsedPrivateBathroom.stages.0.description,My bathroom is an awful place.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is an awful place.
+UsedPrivateBathroom.stages.2.label,decent bathroom,label,ThoughtDef/ThoughtDef.xml,def,decent bathroom
+UsedPrivateBathroom.stages.2.description,My bathroom is very interesting. I like it.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is very interesting. I like it.
+UsedPrivateBathroom.stages.3.label,slightly impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,slightly impressive bathroom
+UsedPrivateBathroom.stages.3.description,My bathroom is actually slightly impressive. I like it.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is actually slightly impressive. I like it.
+UsedPrivateBathroom.stages.4.label,impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,impressive bathroom
+UsedPrivateBathroom.stages.4.description,My bathroom is impressive. I love it!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is impressive. I love it!
+UsedPrivateBathroom.stages.5.label,very impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,very impressive bathroom
+UsedPrivateBathroom.stages.5.description,My bathroom is very impressive. This is the best place ever!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is very impressive. This is the best place ever!
+UsedPrivateBathroom.stages.6.label,extremely impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,extremely impressive bathroom
+UsedPrivateBathroom.stages.6.description,My bathroom is extremely impressive. This is the best place ever!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is extremely impressive. This is the best place ever!
+UsedPrivateBathroom.stages.7.label,unbelievably impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,unbelievably impressive bathroom
+UsedPrivateBathroom.stages.7.description,My bathroom is unbelievably impressive. This is the best place ever!,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is unbelievably impressive. This is the best place ever!
+UsedPrivateBathroom.stages.8.label,wondrously impressive bathroom,label,ThoughtDef/ThoughtDef.xml,def,wondrously impressive bathroom
+UsedPrivateBathroom.stages.8.description,My bathroom is the best place one can ever imagine. It's wonderful.,description,ThoughtDef/ThoughtDef.xml,def,My bathroom is the best place one can ever imagine. It's wonderful.
+HygieneLevel.stages.0.label,filthy,label,ThoughtDef/ThoughtDef.xml,def,filthy
+HygieneLevel.stages.0.description,I smell like I have been swimming in sewage.,description,ThoughtDef/ThoughtDef.xml,def,I smell like I have been swimming in sewage.
+HygieneLevel.stages.1.label,grimy,label,ThoughtDef/ThoughtDef.xml,def,grimy
+HygieneLevel.stages.1.description,I feel a little grimy.,description,ThoughtDef/ThoughtDef.xml,def,I feel a little grimy.
+HygieneLevel.stages.2.label,clean,label,ThoughtDef/ThoughtDef.xml,def,clean
+HygieneLevel.stages.2.description,I feel fresh and clean.,description,ThoughtDef/ThoughtDef.xml,def,I feel fresh and clean.
+HygieneLevel.stages.3.label,squeaky clean,label,ThoughtDef/ThoughtDef.xml,def,squeaky clean
+HygieneLevel.stages.3.description,I'm squeaky clean!,description,ThoughtDef/ThoughtDef.xml,def,I'm squeaky clean!
+BowelLevel.stages.0.label,bursting,label,ThoughtDef/ThoughtDef.xml,def,bursting
+BowelLevel.stages.0.description,I need to go so bad I'm about to burst!,description,ThoughtDef/ThoughtDef.xml,def,I need to go so bad I'm about to burst!
+BowelLevel.stages.1.label,need the bathroom,label,ThoughtDef/ThoughtDef.xml,def,need the bathroom
+BowelLevel.stages.1.description,I need to go to the bathroom.,description,ThoughtDef/ThoughtDef.xml,def,I need to go to the bathroom.
+Hygienic.degreeDatas.0.label,germaphobe,label,TraitDef/TraitDef.xml,def,germaphobe
+Hygienic.degreeDatas.0.description,[PAWN_nameDef] is obsessed with germs and will wash much more frequently than normal.,description,TraitDef/TraitDef.xml,def,(PH_1) is obsessed with germs and will wash much more frequently than normal.
+Hygienic.degreeDatas.1.label,hygienic,label,TraitDef/TraitDef.xml,def,hygienic
+Hygienic.degreeDatas.1.description,[PAWN_nameDef] is very hygienic and will wash more frequently.,description,TraitDef/TraitDef.xml,def,(PH_1) is very hygienic and will wash more frequently.
+Hygienic.degreeDatas.2.label,unhygienic,label,TraitDef/TraitDef.xml,def,unhygienic
+Hygienic.degreeDatas.2.description,[PAWN_nameDef] is very unhygienic and will wash less frequently.,description,TraitDef/TraitDef.xml,def,(PH_1) is very unhygienic and will wash less frequently.
+Hygienic.degreeDatas.3.label,slob,label,TraitDef/TraitDef.xml,def,slob
+Hygienic.degreeDatas.3.description,[PAWN_nameDef] has very low standards of cleanliness and will only wash when they absolutely have to.,description,TraitDef/TraitDef.xml,def,(PH_1) has very low standards of cleanliness and will only wash when they absolutely have to.
+PlaceFertilizer.label,fertilize,label,WorkGiverDef/WorkGiverDef.xml,def,fertilize
+PlaceFertilizer.verb,fertilize,verb,WorkGiverDef/WorkGiverDef.xml,def,fertilize
+PlaceFertilizer.gerund,fertilizing,gerund,WorkGiverDef/WorkGiverDef.xml,def,fertilizing
+TipSewage.label,tip sewage,label,WorkGiverDef/WorkGiverDef.xml,def,tip sewage
+TipSewage.verb,tip Sewage,verb,WorkGiverDef/WorkGiverDef.xml,def,tip Sewage
+TipSewage.gerund,tipping over,gerund,WorkGiverDef/WorkGiverDef.xml,def,tipping over
+DrainWaterTank.label,drain water,label,WorkGiverDef/WorkGiverDef.xml,def,drain water
+DrainWaterTank.verb,drain,verb,WorkGiverDef/WorkGiverDef.xml,def,drain
+DrainWaterTank.gerund,draining,gerund,WorkGiverDef/WorkGiverDef.xml,def,draining
+DBHAdministerFluids.label,administer fluids,label,WorkGiverDef/WorkGiverDef.xml,def,administer fluids
+DBHAdministerFluids.verb,give drink,verb,WorkGiverDef/WorkGiverDef.xml,def,give drink
+DBHAdministerFluids.gerund,serving drink,gerund,WorkGiverDef/WorkGiverDef.xml,def,serving drink
+DBHAdministerFluidsWarden.label,administer fluids,label,WorkGiverDef/WorkGiverDef.xml,def,administer fluids
+DBHAdministerFluidsWarden.verb,give drink,verb,WorkGiverDef/WorkGiverDef.xml,def,give drink
+DBHAdministerFluidsWarden.gerund,serving drink,gerund,WorkGiverDef/WorkGiverDef.xml,def,serving drink
+ClearBlockage.label,clear blockage,label,WorkGiverDef/WorkGiverDef.xml,def,clear blockage
+ClearBlockage.verb,clear blockage,verb,WorkGiverDef/WorkGiverDef.xml,def,clear blockage
+ClearBlockage.gerund,clearing blockage,gerund,WorkGiverDef/WorkGiverDef.xml,def,clearing blockage
+washPatient.label,wash patient,label,WorkGiverDef/WorkGiverDef.xml,def,wash patient
+washPatient.verb,wash,verb,WorkGiverDef/WorkGiverDef.xml,def,wash
+washPatient.gerund,washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,washing
+washChild.label,wash child,label,WorkGiverDef/WorkGiverDef.xml,def,wash child
+washChild.verb,wash,verb,WorkGiverDef/WorkGiverDef.xml,def,wash
+washChild.gerund,washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,washing
+DocCleanBedpan.label,clean bed pan,label,WorkGiverDef/WorkGiverDef.xml,def,clean bed pan
+DocCleanBedpan.verb,clean,verb,WorkGiverDef/WorkGiverDef.xml,def,clean
+DocCleanBedpan.gerund,cleaning,gerund,WorkGiverDef/WorkGiverDef.xml,def,cleaning
+cleanBedpan.label,clean bed pan,label,WorkGiverDef/WorkGiverDef.xml,def,clean bed pan
+cleanBedpan.verb,clean,verb,WorkGiverDef/WorkGiverDef.xml,def,clean
+cleanBedpan.gerund,cleaning,gerund,WorkGiverDef/WorkGiverDef.xml,def,cleaning
+DoBillsBurnPit.label,do burn pit bills,label,WorkGiverDef/WorkGiverDef.xml,def,do burn pit bills
+DoBillsBurnPit.verb,burn,verb,WorkGiverDef/WorkGiverDef.xml,def,burn
+DoBillsBurnPit.gerund,burning at,gerund,WorkGiverDef/WorkGiverDef.xml,def,burning at
+RemoveSewage.label,shovel sewage into barrels,label,WorkGiverDef/WorkGiverDef.xml,def,shovel sewage into barrels
+RemoveSewage.verb,remove sewage,verb,WorkGiverDef/WorkGiverDef.xml,def,remove sewage
+RemoveSewage.gerund,removing sewage,gerund,WorkGiverDef/WorkGiverDef.xml,def,removing sewage
+UnloadWashing.label,unload washing,label,WorkGiverDef/WorkGiverDef.xml,def,unload washing
+UnloadWashing.verb,unload washing,verb,WorkGiverDef/WorkGiverDef.xml,def,unload washing
+UnloadWashing.gerund,unloading washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,unloading washing
+LoadWashing.label,load washing,label,WorkGiverDef/WorkGiverDef.xml,def,load washing
+LoadWashing.verb,load washing,verb,WorkGiverDef/WorkGiverDef.xml,def,load washing
+LoadWashing.gerund,loading washing,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading washing
+UnloadComposter.label,take compost out of composter,label,WorkGiverDef/WorkGiverDef.xml,def,take compost out of composter
+UnloadComposter.verb,take compost,verb,WorkGiverDef/WorkGiverDef.xml,def,take compost
+UnloadComposter.gerund,taking compost from,gerund,WorkGiverDef/WorkGiverDef.xml,def,taking compost from
+FillComposter.label,fill composter,label,WorkGiverDef/WorkGiverDef.xml,def,fill composter
+FillComposter.verb,fill,verb,WorkGiverDef/WorkGiverDef.xml,def,fill
+FillComposter.gerund,filling,gerund,WorkGiverDef/WorkGiverDef.xml,def,filling
+emptySepticTank.label,empty septic tank,label,WorkGiverDef/WorkGiverDef.xml,def,empty septic tank
+emptySepticTank.verb,empty,verb,WorkGiverDef/WorkGiverDef.xml,def,empty
+emptySepticTank.gerund,emptying,gerund,WorkGiverDef/WorkGiverDef.xml,def,emptying
+WardenEmptySepticTank.label,empty septic tank,label,WorkGiverDef/WorkGiverDef.xml,def,empty septic tank
+WardenEmptySepticTank.verb,empty,verb,WorkGiverDef/WorkGiverDef.xml,def,empty
+WardenEmptySepticTank.gerund,emptying,gerund,WorkGiverDef/WorkGiverDef.xml,def,emptying
+RefillWater.label,refill water,label,WorkGiverDef/WorkGiverDef.xml,def,refill water
+RefillWater.verb,refill,verb,WorkGiverDef/WorkGiverDef.xml,def,refill
+RefillWater.gerund,refilling,gerund,WorkGiverDef/WorkGiverDef.xml,def,refilling
+WardenRefillWater.label,refill water,label,WorkGiverDef/WorkGiverDef.xml,def,refill water
+WardenRefillWater.verb,refill,verb,WorkGiverDef/WorkGiverDef.xml,def,refill
+WardenRefillWater.gerund,refilling,gerund,WorkGiverDef/WorkGiverDef.xml,def,refilling
+CleanFilthIndoors.label,clean filth indoors,label,WorkGiverDef/WorkGiverDef.xml,def,clean filth indoors
+CleanFilthIndoors.verb,clean,verb,WorkGiverDef/WorkGiverDef.xml,def,clean
+CleanFilthIndoors.gerund,cleaning,gerund,WorkGiverDef/WorkGiverDef.xml,def,cleaning

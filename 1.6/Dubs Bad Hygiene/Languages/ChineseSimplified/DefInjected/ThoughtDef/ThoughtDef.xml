@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: I need to go so bad I'm about to burst!-->
+  <BowelLevel.stages.0.description>我需要变得如此糟糕，我快要爆炸了！</BowelLevel.stages.0.description>
+  <!--EN: bursting-->
+  <BowelLevel.stages.0.label>爆裂</BowelLevel.stages.0.label>
+  <!--EN: I need to go to the bathroom.-->
+  <BowelLevel.stages.1.description>我要去趟洗手间。</BowelLevel.stages.1.description>
+  <!--EN: need the bathroom-->
+  <BowelLevel.stages.1.label>需要卫生间</BowelLevel.stages.1.label>
+  <!--EN: I had a nice refreshing cold bath.-->
+  <ColdBath.stages.0.description>我洗了一个清爽的冷水澡。</ColdBath.stages.0.description>
+  <!--EN: cold bath-->
+  <ColdBath.stages.0.label>冷水浴</ColdBath.stages.0.label>
+  <!--EN: I had a nice refreshing cold shower.-->
+  <ColdShower.stages.0.description>我洗了一个清爽的冷水澡。</ColdShower.stages.0.description>
+  <!--EN: cold shower-->
+  <ColdShower.stages.0.label>冷水淋浴</ColdShower.stages.0.label>
+  <!--EN: There was no hot water!-->
+  <ColdWater.stages.0.description>没有热水！</ColdWater.stages.0.description>
+  <!--EN: cold water-->
+  <ColdWater.stages.0.label>冷水</ColdWater.stages.0.label>
+  <!--EN: Drank refreshing clean water.-->
+  <DrankCleanWater.stages.0.description>喝清爽干净的水。</DrankCleanWater.stages.0.description>
+  <!--EN: refreshed-->
+  <DrankCleanWater.stages.0.label>焕然一新</DrankCleanWater.stages.0.label>
+  <!--EN: Drank a bottle of contaminated water.-->
+  <DrankDirtyWater.stages.0.description>喝了一瓶被污染的水。</DrankDirtyWater.stages.0.description>
+  <!--EN: drank filthy water-->
+  <DrankDirtyWater.stages.0.label>喝了脏水</DrankDirtyWater.stages.0.label>
+  <!--EN: I drank my own urine.-->
+  <DrankUrine.stages.0.description>我喝了自己的尿。</DrankUrine.stages.0.description>
+  <!--EN: drank urine-->
+  <DrankUrine.stages.0.label>喝尿</DrankUrine.stages.0.label>
+  <!--EN: The heated pool was very relaxing.-->
+  <HeatedPool.stages.0.description>温水泳池让人非常放松。</HeatedPool.stages.0.description>
+  <!--EN: heated pool-->
+  <HeatedPool.stages.0.label>温水泳池</HeatedPool.stages.0.label>
+  <!--EN: I had a nice hot bath.-->
+  <HotBath.stages.0.description>我洗了个舒服的热澡。</HotBath.stages.0.description>
+  <!--EN: hot bath-->
+  <HotBath.stages.0.label>热洗澡</HotBath.stages.0.label>
+  <!--EN: I had a nice hot shower.-->
+  <HotShower.stages.0.description>我洗了个舒服的热淋浴。</HotShower.stages.0.description>
+  <!--EN: hot shower-->
+  <HotShower.stages.0.label>热淋浴</HotShower.stages.0.label>
+  <!--EN: I smell like I have been swimming in sewage.-->
+  <HygieneLevel.stages.0.description>我闻起来就像在污水里游泳一样。</HygieneLevel.stages.0.description>
+  <!--EN: filthy-->
+  <HygieneLevel.stages.0.label>污秽</HygieneLevel.stages.0.label>
+  <!--EN: I feel a little grimy.-->
+  <HygieneLevel.stages.1.description>我感觉有点脏。</HygieneLevel.stages.1.description>
+  <!--EN: grimy-->
+  <HygieneLevel.stages.1.label>肮脏的</HygieneLevel.stages.1.label>
+  <!--EN: I feel fresh and clean.-->
+  <HygieneLevel.stages.2.description>我感觉清新干净。</HygieneLevel.stages.2.description>
+  <!--EN: clean-->
+  <HygieneLevel.stages.2.label>干净的</HygieneLevel.stages.2.label>
+  <!--EN: I'm squeaky clean!-->
+  <HygieneLevel.stages.3.description>我干净得很！</HygieneLevel.stages.3.description>
+  <!--EN: squeaky clean-->
+  <HygieneLevel.stages.3.label>干净整洁</HygieneLevel.stages.3.label>
+  <!--EN: I couldn't hold it in any longer and soiled myself.-->
+  <SoiledSelf.stages.0.description>我再也坚持不住了，弄脏了自己。</SoiledSelf.stages.0.description>
+  <!--EN: soiled myself-->
+  <SoiledSelf.stages.0.label>弄脏了我自己</SoiledSelf.stages.0.label>
+  <!--EN: Someone walked in on me while I was using the toilet.-->
+  <ToiletPrivacy.stages.0.description>当我上厕所时，有人走进了我。</ToiletPrivacy.stages.0.description>
+  <!--EN: embarrassed-->
+  <ToiletPrivacy.stages.0.label>尴尬的</ToiletPrivacy.stages.0.label>
+  <!--EN: My bathroom is an awful place.-->
+  <UsedPrivateBathroom.stages.0.description>我的浴室是个很糟糕的地方。</UsedPrivateBathroom.stages.0.description>
+  <!--EN: awful bathroom-->
+  <UsedPrivateBathroom.stages.0.label>糟糕的浴室</UsedPrivateBathroom.stages.0.label>
+  <!--EN: My bathroom is very interesting. I like it.-->
+  <UsedPrivateBathroom.stages.2.description>我的浴室很有趣。我喜欢它。</UsedPrivateBathroom.stages.2.description>
+  <!--EN: decent bathroom-->
+  <UsedPrivateBathroom.stages.2.label>体面的浴室</UsedPrivateBathroom.stages.2.label>
+  <!--EN: My bathroom is actually slightly impressive. I like it.-->
+  <UsedPrivateBathroom.stages.3.description>我的浴室实际上有点令人印象深刻。我喜欢它。</UsedPrivateBathroom.stages.3.description>
+  <!--EN: slightly impressive bathroom-->
+  <UsedPrivateBathroom.stages.3.label>稍微令人印象深刻的浴室</UsedPrivateBathroom.stages.3.label>
+  <!--EN: My bathroom is impressive. I love it!-->
+  <UsedPrivateBathroom.stages.4.description>我的浴室令人印象深刻。我喜欢它！</UsedPrivateBathroom.stages.4.description>
+  <!--EN: impressive bathroom-->
+  <UsedPrivateBathroom.stages.4.label>令人印象深刻的浴室</UsedPrivateBathroom.stages.4.label>
+  <!--EN: My bathroom is very impressive. This is the best place ever!-->
+  <UsedPrivateBathroom.stages.5.description>我的浴室非常令人印象深刻。这是有史以来最好的地方！</UsedPrivateBathroom.stages.5.description>
+  <!--EN: very impressive bathroom-->
+  <UsedPrivateBathroom.stages.5.label>非常令人印象深刻的浴室</UsedPrivateBathroom.stages.5.label>
+  <!--EN: My bathroom is extremely impressive. This is the best place ever!-->
+  <UsedPrivateBathroom.stages.6.description>我的浴室非常令人印象深刻。这是有史以来最好的地方！</UsedPrivateBathroom.stages.6.description>
+  <!--EN: extremely impressive bathroom-->
+  <UsedPrivateBathroom.stages.6.label>非常令人印象深刻的浴室</UsedPrivateBathroom.stages.6.label>
+  <!--EN: My bathroom is unbelievably impressive. This is the best place ever!-->
+  <UsedPrivateBathroom.stages.7.description>我的浴室令人难以置信地令人印象深刻。这是有史以来最好的地方！</UsedPrivateBathroom.stages.7.description>
+  <!--EN: unbelievably impressive bathroom-->
+  <UsedPrivateBathroom.stages.7.label>令人难以置信的令人印象深刻的浴室</UsedPrivateBathroom.stages.7.label>
+  <!--EN: My bathroom is the best place one can ever imagine. It's wonderful.-->
+  <UsedPrivateBathroom.stages.8.description>我的浴室是人们能想象到的最好的地方。太棒了。</UsedPrivateBathroom.stages.8.description>
+  <!--EN: wondrously impressive bathroom-->
+  <UsedPrivateBathroom.stages.8.label>令人印象深刻的浴室</UsedPrivateBathroom.stages.8.label>
+  <!--EN: Someone saw me bathing and it made me uncomfortable.-->
+  <WashPrivacy.stages.0.description>有人看到我洗澡，我感到很不舒服。</WashPrivacy.stages.0.description>
+  <!--EN: embarrassed-->
+  <WashPrivacy.stages.0.label>尴尬的</WashPrivacy.stages.0.label>
+  <!--EN: I had to relieve myself outside in the open.-->
+  <openDefecation.stages.0.description>我不得不在外面露天解手。</openDefecation.stages.0.description>
+  <!--EN: open defecation-->
+  <openDefecation.stages.0.label>露天排便</openDefecation.stages.0.label>
+  <!--EN: Aaaah much better.-->
+  <tookDump.stages.0.description>啊啊好多了。</tookDump.stages.0.description>
+  <!--EN: relieved myself-->
+  <tookDump.stages.0.label>我松了口气</tookDump.stages.0.label>
+</LanguageData>

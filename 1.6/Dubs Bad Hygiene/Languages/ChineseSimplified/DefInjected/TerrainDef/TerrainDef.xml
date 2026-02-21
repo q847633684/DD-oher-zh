@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: granite mosaic tile-->
+  <DBHMosaicGranite.label>卫生</DBHMosaicGranite.label>
+  <!--EN: limestone mosaic tile-->
+  <DBHMosaicLimestone.label>卫生</DBHMosaicLimestone.label>
+  <!--EN: marble mosaic tile-->
+  <DBHMosaicMarble.label>卫生</DBHMosaicMarble.label>
+  <!--EN: sandstone mosaic tile-->
+  <DBHMosaicSandstone.label>卫生</DBHMosaicSandstone.label>
+  <!--EN: slate mosaic tile-->
+  <DBHMosaicSlate.label>卫生</DBHMosaicSlate.label>
+  <!--EN: Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.-->
+  <DBHMosaicTile.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</DBHMosaicTile.description>
+  <!--EN: mosaic tile-->
+  <DBHMosaicTile.label>卫生</DBHMosaicTile.label>
+  <!--EN: pool water-->
+  <PoolWater.label>池水</PoolWater.label>
+  <!--EN: water-->
+  <PoolWater.tools.0.label>水</PoolWater.tools.0.label>
+</LanguageData>

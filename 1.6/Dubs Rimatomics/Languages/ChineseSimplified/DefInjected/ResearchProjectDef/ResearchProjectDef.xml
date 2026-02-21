@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: A probe has been detected in orbit! It seems to be sending signals to the surface; maybe we can decipher its message.-->
+  <RimatomicsActivate.description>在轨道上检测到探测器！它似乎正在向地面发送信号；也许我们可以破译它的信息。</RimatomicsActivate.description>
+  <!--EN: Rimatomics-->
+  <RimatomicsActivate.label>瑞马托组学</RimatomicsActivate.label>
+</LanguageData>

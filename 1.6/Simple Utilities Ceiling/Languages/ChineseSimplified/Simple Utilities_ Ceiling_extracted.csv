@@ -1,0 +1,17 @@
+key,text,tag,file,type
+Owl_ToggleFixtures,Toggle ceiling fixtures.,Owl_ToggleFixtures,owlchemist.ceilingutilities.xml,keyed
+Utilities_useDrawFixturesToggle,Show visibility toggle button,Utilities_useDrawFixturesToggle,owlchemist.ceilingutilities.xml,keyed
+WorkPlacer_NeedsRoof,Must be placed under a roof.,WorkPlacer_NeedsRoof,owlchemist.ceilingutilities.xml,keyed
+WorkPlacer_OverForbiddenThing,Cannot place over these types of things.,WorkPlacer_OverForbiddenThing,owlchemist.ceilingutilities.xml,keyed
+WorkPlacer_OverBlueprint,Cannot be placed over this type of blueprint.,WorkPlacer_OverBlueprint,owlchemist.ceilingutilities.xml,keyed
+Owl_GloomCeilingLight.label,mounted gloomlight,label,ThingDef/ThingDef.xml,def
+Owl_GloomCeilingLight.description,"A self-powered mechanoid node of unknown function. Mech nodes can be deconstructed to yield valuable resources - but only if they are captured intact. The internal micro power cell will flame out and ruin the materials if the unit takes too much damage. This unit has been carefully repurposed into a ceiling fixture, and cannot be salvaged via deconstruction.",description,ThingDef/ThingDef.xml,def
+Owl_Chandelier.label,chandelier,label,ThingDef/ThingDef.xml,def
+Owl_Chandelier.description,A ceiling mounted chandelier with four torches on each side.,description,ThingDef/ThingDef.xml,def
+Owl_CeilingLight.label,ceiling light,label,ThingDef/ThingDef.xml,def
+Owl_CeilingLight.description,An electrical standing lamp that lights an area. People need light to move and work at full speed.,description,ThingDef/ThingDef.xml,def
+Owl_LongCeilingLight.label,long ceiling light,label,ThingDef/ThingDef.xml,def
+Owl_LongCeilingLight.description,An electrical standing lamp that lights an area. People need light to move and work at full speed.,description,ThingDef/ThingDef.xml,def
+Owl_CeilingFirefoamPopper.label,mounted firefoam popper,label,ThingDef/ThingDef.xml,def
+Owl_CeilingSunLamp.label,ceiling sun lamp,label,ThingDef/ThingDef.xml,def
+Owl_GloomlightMinified.label,gloomlight,label,ThingDef/ThingDef.xml,def

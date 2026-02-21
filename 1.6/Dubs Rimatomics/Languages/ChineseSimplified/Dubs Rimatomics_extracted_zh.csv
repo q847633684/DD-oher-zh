@@ -1,0 +1,918 @@
+key,text,tag,file,type,protected_text,translated
+nuclearFuelAllowNew,Allow New Fuel,nuclearFuelAllowNew,Rimatomics.xml,keyed,Allow New Fuel,允许使用新燃料
+nuclearFuelAllowUsed,Allow Used Fuel,nuclearFuelAllowUsed,Rimatomics.xml,keyed,Allow Used Fuel,允许使用过的燃料
+Weaponrankicons,Weapon rank icons,Weaponrankicons,Rimatomics.xml,keyed,Weapon rank icons,武器等级图标
+WeaponrankiconsDesc,Shows small rank icons on veteran energy weapons when zoomed in,WeaponrankiconsDesc,Rimatomics.xml,keyed,Shows small rank icons on veteran energy weapons when zoomed in,放大时显示退伍军人能量武器上的小等级图标
+Showresearchbutton,Show research button,Showresearchbutton,Rimatomics.xml,keyed,Show research button,显示研究按钮
+ShowresearchbuttonDesc,"Adds a Rimatomics research button to the main tabs, else it can be opened from a tab on each research bench",ShowresearchbuttonDesc,Rimatomics.xml,keyed,"Adds a Rimatomics research button to the main tabs, else it can be opened from a tab on each research bench",在主选项卡中添加 Rimatomics 研究按钮，否则可以从每个研究台上的选项卡打开它
+Mannedreactorconsole,Manned reactor console,Mannedreactorconsole,Rimatomics.xml,keyed,Manned reactor console,载人反应堆控制台
+MannedreactorconsoleDesc,"Reactor consoles must me manned by a pawn for the control window to open, else it can be opened from a button",MannedreactorconsoleDesc,Rimatomics.xml,keyed,"Reactor consoles must me manned by a (PH_1) for the control window to open, else it can be opened from a button",Reactor 控制台必须由 pawn 操作才能打开控制窗口，否则可以通过按钮打开它
+ThreatDetectionToggle,Threat Detection,ThreatDetectionToggle,Rimatomics.xml,keyed,Threat Detection,威胁检测
+ThreatDetectionToggleDesc,Toggle threat detection mode,ThreatDetectionToggleDesc,Rimatomics.xml,keyed,Toggle threat detection mode,Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.
+AutothrotIDCount,"Multiple cores set to {0}, each core must have a unique ID for auto-throttle to engage",AutothrotIDCount,Rimatomics.xml,keyed,"Multiple cores set to (PH_1), each core must have a unique ID for auto-throttle to engage",多个核心设置为 {0}，每个核心必须有一个唯一的 ID 才能启用自动调节
+AutothrotOn,Auto-throttle engaged for {0},AutothrotOn,Rimatomics.xml,keyed,Auto-throttle engaged for (PH_1),自动油门已启用 {0}
+AutothrotOff,Auto-throttle disengaged for {0},AutothrotOff,Rimatomics.xml,keyed,Auto-throttle disengaged for (PH_1),自动油门已脱离 {0}
+AutothrotRange,Grid excess must be within +/- 5000w to engage,AutothrotRange,Rimatomics.xml,keyed,Grid excess must be within +/- 5000w to engage,电网过剩功率必须在 +/- 5000w 范围内才能参与
+AutothrotTip,"Engage Auto-throttle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage",AutothrotTip,Rimatomics.xml,keyed,"Engage Auto-throttle(PH_2)(PH_1)control flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage","启用自动油门
+
+控制通量水平以匹配电网负载，该控制台所连接的电网上的电网过剩必须在 +/- 5000w 范围内才能启用"
+CoreIdMismatch,"Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle",CoreIdMismatch,Rimatomics.xml,keyed,"Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle",Reactor 和控制台 ID 不匹配，每个核心都需要自己的控制台，并具有用于自动节流的唯一 ID
+FuelLifeRange,{0} Fuel Life,FuelLifeRange,Rimatomics.xml,keyed,(PH_1) Fuel Life,{0} 燃油寿命
+PoolLoading,Loading,PoolLoading,Rimatomics.xml,keyed,Loading,加载中
+PoolUnloading,Unloading,PoolUnloading,Rimatomics.xml,keyed,Unloading,卸货
+Designateremoveallspent,Remove all spent fuel,Designateremoveallspent,Rimatomics.xml,keyed,Remove all spent fuel,清除所有乏燃料
+Designateremoveall,Remove all fuel,Designateremoveall,Rimatomics.xml,keyed,Remove all fuel,取出所有燃料
+Designateremoveallprocessable,Remove all processable fuel,Designateremoveallprocessable,Rimatomics.xml,keyed,Remove all processable fuel,去除所有可加工燃料
+Designateinstallall,Install fuel into all slots,Designateinstallall,Rimatomics.xml,keyed,Install fuel into all slots,将燃油装入所有槽中
+Clearalldesignations,Clear all designations,Clearalldesignations,Rimatomics.xml,keyed,Clear all designations,清除所有指定
+MissingPESUpgrades,When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.,MissingPESUpgrades,Rimatomics.xml,keyed,When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.,当 Preemtive Strike 模组运行时，其天空物体检测研究项目必须先完成，然后 ATOM 才能检测到传入的空投舱。然而，扰频器仍将正常运行。
+ReactorAlert,Reactor Alert!,ReactorAlert,Rimatomics.xml,keyed,Reactor Alert!,反应堆警报！
+ShortRangeStratLaunch,Tactical Launch,ShortRangeStratLaunch,Rimatomics.xml,keyed,Tactical Launch,战术发射
+ShortRangeStratLaunchDesc,Launch a strategic missile on this map,ShortRangeStratLaunchDesc,Rimatomics.xml,keyed,Launch a strategic missile on this map,在此地图上发射战略导弹
+LongRangeStratLaunch,Strategic Launch,LongRangeStratLaunch,Rimatomics.xml,keyed,Strategic Launch,战略发布
+LongRangeStratLaunchDesc,Launch the missile at a target on this Rimworld,LongRangeStratLaunchDesc,Rimatomics.xml,keyed,Launch the missile at a target on this Rimworld,向环世界的目标发射导弹
+HighYieldWarhead,High Yield,HighYieldWarhead,Rimatomics.xml,keyed,High Yield,高产
+HighYieldWarheadDesc,Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker,HighYieldWarheadDesc,Rimatomics.xml,keyed,Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker,从这个发射井发射的弹头将产生巨大的爆炸，摧毁地图上山地掩体之外的任何东西
+LowYieldWarhead,Low Yield,LowYieldWarhead,Rimatomics.xml,keyed,Low Yield,低产量
+LowYieldWarheadDesc,Missiles launched from this silo are set to create a small tactical explosion,LowYieldWarheadDesc,Rimatomics.xml,keyed,Missiles launched from this silo are set to create a small tactical explosion,从这个发射井发射的导弹将造成小型战术爆炸
+RimatomicsValveLabel,Toggle Valve,RimatomicsValveLabel,Rimatomics.xml,keyed,Toggle Valve,切换阀
+RimatomicsValveLabelDesc,Toggle the valve open or closed,RimatomicsValveLabelDesc,Rimatomics.xml,keyed,Toggle the valve open or closed,打开或关闭阀门
+FlareScram,Flare SCRAM,FlareScram,Rimatomics.xml,keyed,Flare SCRAM,火炬紧急储存
+FlareScramDesc,SCRAM the reactor during solar flares,FlareScramDesc,Rimatomics.xml,keyed,SCRAM the reactor during solar flares,太阳耀斑期间的反应堆 SCRAM
+TargetAllShells,Target All Shells,TargetAllShells,Rimatomics.xml,keyed,Target All Shells,瞄准所有炮弹
+TargetEnemyShells,Target Enemy Shells,TargetEnemyShells,Rimatomics.xml,keyed,Target Enemy Shells,瞄准敌人炮弹
+ThreatDetection,Threat Detection,ThreatDetection,Rimatomics.xml,keyed,Threat Detection,威胁检测
+NextResearchStep,Next Step:,NextResearchStep,Rimatomics.xml,keyed,Next Step:,下一步：
+Rimatomics.LowCoolingCapacityDesc,"A reactor cooling building is running at low capacity\n\nTowers need to be unroofed, water coolers need enough surface water, if you are using bad hygiene link mode make sure cooling towers are filled with water",Rimatomics.LowCoolingCapacityDesc,Rimatomics.xml,keyed,"A reactor cooling building is running at low capacity(PH_2)(PH_1)Towers need to be unroofed, water coolers need enough surface water, if you are using bad hygiene link mode make sure cooling towers are filled with water","反应堆冷却建筑正在低容量运行
+
+塔需要拆掉屋顶，水冷却器需要足够的地表水，如果您使用的是不良卫生链接模式，请确保冷却塔充满水"
+Rimatomics.LowCoolingCapacity,Low Reactor Cooling,Rimatomics.LowCoolingCapacity,Rimatomics.xml,keyed,Low Reactor Cooling,低反应堆冷却
+AlertNeedsTurbine,Core needs turbine,AlertNeedsTurbine,Rimatomics.xml,keyed,Core needs turbine,核心需要涡轮
+AlertNeedsTurbineDesc,"A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown",AlertNeedsTurbineDesc,Rimatomics.xml,keyed,"A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown",反应堆需要连接到涡轮机，否则可能会导致过热和熔化
+AlertNeedsCooling,Turbine needs cooling,AlertNeedsCooling,Rimatomics.xml,keyed,Turbine needs cooling,涡轮机需要冷却
+AlertNeedsCoolingDesc,"A turbine needs to be connected to a cooling system, failure to do so may result in overheating and meltdown",AlertNeedsCoolingDesc,Rimatomics.xml,keyed,"A turbine needs to be connected to a cooling system, failure to do so may result in overheating and meltdown",涡轮机需要连接到冷却系统，否则可能会导致过热和熔毁
+AlertCoreMelt,Core Melt,AlertCoreMelt,Rimatomics.xml,keyed,Core Melt,核心熔化
+AlertCoreMeltDesc,"A reactor is suffering a core melt incident, evacuate immediately",AlertCoreMeltDesc,Rimatomics.xml,keyed,"A reactor is suffering a core melt incident, evacuate immediately",反应堆发生堆芯熔化事故，立即撤离
+AlertCoreOverheat,Reactor Temp,AlertCoreOverheat,Rimatomics.xml,keyed,Reactor Temp,反应器温度
+AlertCoreOverheatDesc,A reactor is being damaged due to overheating,AlertCoreOverheatDesc,Rimatomics.xml,keyed,A reactor is being damaged due to overheating,反应堆因过热而损坏
+AlertCracked,Cracked Core,AlertCracked,Rimatomics.xml,keyed,Cracked Core,裂核
+AlertCrackedDesc,"Stress from running the core at high temperatures for a long period of time has caused the core to crack, it will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power and damage the fuel rods.",AlertCrackedDesc,Rimatomics.xml,keyed,"Stress from running the core at high temperatures for a long period of time has caused the core to crack, it will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power and damage the fuel rods.",堆芯长时间在高温下运行所产生的压力导致堆芯破裂，需要对其进行拆解和重建，否则它将继续发出致命的辐射，产生的功率减少并损坏燃料棒。
+CRACKEDFUEL,::CRACKED FUEL::,CRACKEDFUEL,Rimatomics.xml,keyed,::CRACKED FUEL::,::破裂的燃料::
+NOCOOLING,::NO COOLING::,NOCOOLING,Rimatomics.xml,keyed,::NO COOLING::,::无冷却::
+OVERHEATING,::OVERHEATING:: {0},OVERHEATING,Rimatomics.xml,keyed,::OVERHEATING:: (PH_1),::过热:: {0}
+COREMELT,::CORE MELT IMMINENT::,COREMELT,Rimatomics.xml,keyed,::CORE MELT IMMINENT::,::核心融化迫在眉睫::
+EVACUATE,::EVACUATE::,EVACUATE,Rimatomics.xml,keyed,::EVACUATE::,：：撤离：：
+CONTROLRODJAM,::CONTROL RODS JAMMED::,CONTROLRODJAM,Rimatomics.xml,keyed,::CONTROL RODS JAMMED::,::控制杆卡住了::
+ReactorAlerts,Reactor Alerts:,ReactorAlerts,Rimatomics.xml,keyed,Reactor Alerts:,反应堆警报：
+RADIATIONLEAK,::RADIATION LEAK::,RADIATIONLEAK,Rimatomics.xml,keyed,::RADIATION LEAK::,::辐射泄漏::
+RADIATIONLEAKSYSTEM,::RADIATION IN SYSTEM::,RADIATIONLEAKSYSTEM,Rimatomics.xml,keyed,::RADIATION IN SYSTEM::,::系统中的辐射::
+PodsScrambledOK,Enemy drop pods scrambled by TACS,PodsScrambledOK,Rimatomics.xml,keyed,Enemy drop pods scrambled by TACS,敌方空投舱被 TACS 扰乱
+PodsScrambledDesc,The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse,PodsScrambledDesc,Rimatomics.xml,keyed,The enemy drop pod guidance systems were scrambled by the TACS using a (PH_1)kw pulse,TACS 使用 {0}kw 脉冲扰乱敌方空投舱制导系统
+PodsScrambledFail,Failed to scramble enemy drop pods,PodsScrambledFail,Rimatomics.xml,keyed,Failed to scramble enemy drop pods,未能扰乱敌人的空投舱
+PodsScrambledFailDesc,The {0}kw pulse required to scramble this raid was not available,PodsScrambledFailDesc,Rimatomics.xml,keyed,The (PH_1)kw pulse required to scramble this raid was not available,扰乱本次袭击所需的 {0}kw 脉冲不可用
+ScrambleDropPods,Scramble Drop Pods,ScrambleDropPods,Rimatomics.xml,keyed,Scramble Drop Pods,争夺空投舱
+ScrambleDropPodsDesc,Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods,ScrambleDropPodsDesc,Rimatomics.xml,keyed,Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods,使用连接的 PPC 发出的大能量脉冲扰乱即将到来的空投舱的制导系统，防止袭击者降落在地图中心
+TemperatureTip,"Temperature\n\nHigh temperature can cause damage to the core, and crack the fuel. If the cores HP reaches 0 while it is at or above its normal operating temperature it will explode",TemperatureTip,Rimatomics.xml,keyed,"Temperature(PH_2)(PH_1)High temperature can cause damage to the core, and crack the fuel. If the cores HP reaches 0 while it is at or above its normal operating temperature it will explode","温度
+
+高温可能会导致堆芯损坏，并使燃料破裂。如果核心 HP 在达到或高于正常工作温度时达到 0，则会爆炸"
+FuelTip,Fuel\n\nThe total amount of fuel in the core. Fuel chain reacts with fuel in adjacent slots which produces more power\nFuel will produce less power over time until it is spent,FuelTip,Rimatomics.xml,keyed,Fuel(PH_3)(PH_2)The total amount of fuel in the core. Fuel chain reacts with fuel in adjacent slots which produces more power(PH_1)Fuel will produce less power over time until it is spent,"燃料
+
+堆芯中的燃料总量。燃料 锁链 与相邻槽中的燃料发生反应，产生更多能量
+随着时间的推移，燃料将产生更少的能量，直至耗尽"
+CoolingTip,Cooling\n\nTotal amount of your cooling capacity that is in use. If the gauge turns red add more cooling or reduce power,CoolingTip,Rimatomics.xml,keyed,Cooling(PH_2)(PH_1)Total amount of your cooling capacity that is in use. If the gauge turns red add more cooling or reduce power,"冷却
+
+正在使用的冷却能力总量。如果仪表变红，请增加冷却或降低功率"
+TurbineTip,Turbine\n\nTotal amount of your turbine capacity that is in use. If the gauge turns red add more turbines or reduce power\n\nTurbines also require enough transformers to distribute the power to standard power nets,TurbineTip,Rimatomics.xml,keyed,Turbine(PH_4)(PH_3)Total amount of your turbine capacity that is in use. If the gauge turns red add more turbines or reduce power(PH_2)(PH_1)Turbines also require enough transformers to distribute the power to standard power nets,"涡轮机
+
+正在使用的涡轮机容量总量。如果仪表变成红色，请添加更多涡轮机或减少功率
+
+涡轮机还需要足够的变压器将电力分配到标准电网"
+PowerTip,"Power\n\nTotal amount of power being produced by the reactor, does not count how much is actually being generated by turbines and transformers",PowerTip,Rimatomics.xml,keyed,"Power(PH_2)(PH_1)Total amount of power being produced by the reactor, does not count how much is actually being generated by turbines and transformers","功率
+
+反应堆产生的总功率，不计算涡轮机和变压器实际产生的功率"
+RadiationTip,"Radiation\n\nThe core will emit radiation if it becomes damaged, the amount of radiation increases with the amount of damage",RadiationTip,Rimatomics.xml,keyed,"Radiation(PH_2)(PH_1)The core will emit radiation if it becomes damaged, the amount of radiation increases with the amount of damage","辐射
+
+核心受到损坏会发出辐射，辐射量随着损坏程度的增加而增加"
+CoreNotBuilt,Not Built,CoreNotBuilt,Rimatomics.xml,keyed,Not Built,未建成
+Dragtoincreasefluxlevel,Drag to increase flux level to produce more power,Dragtoincreasefluxlevel,Rimatomics.xml,keyed,Drag to increase flux level to produce more power,拖动以增加通量水平以产生更多功率
+MOX,MOX,MOX,Rimatomics.xml,keyed,MOX,混合氧化物
+Used,Used,Used,Rimatomics.xml,keyed,Used,用过的
+AbortTest,ABORT,AbortTest,Rimatomics.xml,keyed,ABORT,中止
+reactorSCRAM,SCRAM,reactorSCRAM,Rimatomics.xml,keyed,SCRAM,连续随机存储器
+reactorSTART,START,reactorSTART,Rimatomics.xml,keyed,START,开始
+BreederTest,Breeder Test,BreederTest,Rimatomics.xml,keyed,Breeder Test,饲养员测试
+InstallAll,Install all,InstallAll,Rimatomics.xml,keyed,Install all,安装全部
+ShutdownCold,Shutdown and Cold,ShutdownCold,Rimatomics.xml,keyed,Shutdown and Cold,关机和冷
+StartingUp,Starting up,StartingUp,Rimatomics.xml,keyed,Starting up,正在启动
+ShuttingDown,Shutting down,ShuttingDown,Rimatomics.xml,keyed,Shutting down,正在关闭
+RimatomActive,Active,RimatomActive,Rimatomics.xml,keyed,Active,积极的
+ReactorBreakdown,ID: {0}\nStatus: {1}\nMax power: {2}W\nConversion ratio: {3}\n\n{4},ReactorBreakdown,Rimatomics.xml,keyed,ID: (PH_10)(PH_9)Status: (PH_8)(PH_7)Max power: (PH_6)W(PH_5)Conversion ratio: (PH_4)(PH_3)(PH_2)(PH_1),"ID：{0}
+状态：{1}
+最大功率：{2}W
+转换比率：{3}
+
+{4}"
+SlotBreakdown,Estimated Life: {0}\nMax Power: {1}W\nCurrent Power: {2}W\nFuel Life: {3}\nPu Yield: {4},SlotBreakdown,Rimatomics.xml,keyed,Estimated Life: (PH_9)(PH_8)Max Power: (PH_7)W(PH_6)Current Power: (PH_5)W(PH_4)Fuel Life: (PH_3)(PH_2)Pu Yield: (PH_1),"预计寿命：{0}
+最大功率：{1}W
+当前功率：{2}W
+燃料寿命：{3}
+Pu产量：{4}"
+cycleScreensDesc,Monitor all reactors on this network,cycleScreensDesc,Rimatomics.xml,keyed,Monitor all reactors on this network,监控该网络上的所有反应堆
+cycleScreens,Monitor All,cycleScreens,Rimatomics.xml,keyed,Monitor All,监控全部
+AutoScram,Auto Scram,AutoScram,Rimatomics.xml,keyed,Auto Scram,自动急停
+AutoScramDesc,"SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected",AutoScramDesc,Rimatomics.xml,keyed,"SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected",当温度达到不安全水平或检测到太阳耀斑时，对反应堆堆芯进行 SCRAM
+FlareSCRAMletterText,A solar flare has triggered a reactor SCRAM,FlareSCRAMletterText,Rimatomics.xml,keyed,A solar flare has triggered a reactor SCRAM,太阳耀斑触发了反应堆 SCRAM
+SCRAMletterText,Unsafe core temperature has triggered a reactor SCRAM,SCRAMletterText,Rimatomics.xml,keyed,Unsafe core temperature has triggered a reactor SCRAM,不安全的核心温度触发了反应堆 SCRAM
+CantUseReactorConsole,Requires 8 intellectual,CantUseReactorConsole,Rimatomics.xml,keyed,Requires 8 intellectual,需要8个智力
+ProcessingProgress,Progress: {0} {1},ProcessingProgress,Rimatomics.xml,keyed,Progress: (PH_2) (PH_1),进度：{0} {1}
+ContainsFuel,Contains {0} / {1} Nuclear fuel.,ContainsFuel,Rimatomics.xml,keyed,Contains (PH_2) / (PH_1) Nuclear fuel.,包含{0} / {1}核燃料。
+ContainsChemfuel,Contains {0} / {1} Chemfuel.,ContainsChemfuel,Rimatomics.xml,keyed,Contains (PH_2) / (PH_1) Chemfuel.,包含 {0} / {1} 化学燃料。
+critSpentfuelonly,Spent fuel only,critSpentfuelonly,Rimatomics.xml,keyed,Spent fuel only,仅乏燃料
+critAnyfuel,Any fuel,critAnyfuel,Rimatomics.xml,keyed,Any fuel,任何燃料
+critProg,Progress: {0},critProg,Rimatomics.xml,keyed,Progress: (PH_1),进度：{0}
+critRemovePlutonium,"Processing complete, remove material",critRemovePlutonium,Rimatomics.xml,keyed,"Processing complete, remove material",加工完成，去除材料
+critEnouPU,Can be reprocessed,critEnouPU,Rimatomics.xml,keyed,Can be reprocessed,可重新加工
+NoChemfuel,No chemfuel,NoChemfuel,Rimatomics.xml,keyed,No chemfuel,非化学燃料
+VeteranBonus,Bonus: Cooldown -{0}%,VeteranBonus,Rimatomics.xml,keyed,Bonus: Cooldown -(PH_1),奖励：冷却时间 -{0}%
+AnUnknownForce,an unknown force,AnUnknownForce,Rimatomics.xml,keyed,an unknown force,未知的力量
+ATOMattackGround,via land,ATOMattackGround,Rimatomics.xml,keyed,via land,通过陆路
+ATOMattackPods,via drop pods,ATOMattackPods,Rimatomics.xml,keyed,via drop pods,通过空投舱
+ATOMdetection,Threat Detected!,ATOMdetection,Rimatomics.xml,keyed,Threat Detected!,检测到威胁！
+ATOMdetectionDesc,"The TACS has detected a possible threat, it is estimated that {0} will attack {1} in approximately {2}",ATOMdetectionDesc,Rimatomics.xml,keyed,"The TACS has detected a possible threat, it is estimated that (PH_3) will attack (PH_2) in approximately (PH_1)",TACS 检测到可能的威胁，预计 {0} 将在大约 {2} 内攻击 {1}
+ScadLivesMatter,SCAD HP: {0},ScadLivesMatter,Rimatomics.xml,keyed,SCAD HP: (PH_1),SCAD HP：{0}
+Detonating,Detonating...,Detonating,Rimatomics.xml,keyed,Detonating...,引爆...
+KillCounter,Kills: {0},KillCounter,Rimatomics.xml,keyed,Kills: (PH_1),击杀数：{0}
+energyWepLoadedShell,Loaded: {0},energyWepLoadedShell,Rimatomics.xml,keyed,Loaded: (PH_1),已加载：{0}
+MessageRailgunCantTargetMyMap,Cannot target your own map.,MessageRailgunCantTargetMyMap,Rimatomics.xml,keyed,Cannot target your own map.,无法定位您自己的地图。
+needsRadar,Needs TACS,needsRadar,Rimatomics.xml,keyed,Needs TACS,需要战术控制系统
+ICBMNeedConsole,Requires a manned SACS weapon console,ICBMNeedConsole,Rimatomics.xml,keyed,Requires a manned SACS weapon console,需要有人驾驶 SACS 武器控制台
+ICBMNeedMissile,A missile is required for launch,ICBMNeedMissile,Rimatomics.xml,keyed,A missile is required for launch,发射时需要导弹
+ICBMAlreadyLaunching,Already Launching,ICBMAlreadyLaunching,Rimatomics.xml,keyed,Already Launching,已经启动
+MissileRangeBad,Target not within range,MissileRangeBad,Rimatomics.xml,keyed,Target not within range,目标不在范围内
+MissileTargetInvalid,Missile target is not valid,MissileTargetInvalid,Rimatomics.xml,keyed,Missile target is not valid,导弹目标无效
+EnergyWeaponNeedsMannedConsole,Requires a manned weapons console,EnergyWeaponNeedsMannedConsole,Rimatomics.xml,keyed,Requires a manned weapons console,需要有人武器控制台
+EnergyWeaponNeedConsole,Weapons console connection required,EnergyWeaponNeedConsole,Rimatomics.xml,keyed,Weapons console connection required,需要武器控制台连接
+MissingPPC,Missing Pulsed Power Container,MissingPPC,Rimatomics.xml,keyed,Missing Pulsed Power Container,缺少脉冲能量容器
+PulseSize,Pulse: {0} Wd / Damage: {1},PulseSize,Rimatomics.xml,keyed,Pulse: (PH_2) Wd / Damage: (PH_1),脉冲：{0} Wd / 伤害：{1}
+critCommandFireMission,Fire Mission,critCommandFireMission,Rimatomics.xml,keyed,Fire Mission,消防任务
+critCommandFireMissionDesc,Long range artillery shot,critCommandFireMissionDesc,Rimatomics.xml,keyed,Long range artillery shot,远程火炮射击
+criticbmAttack,"The enemy faction {0} are preparing to launch a missile attack from a nearby base, you have {1} days before launch.",criticbmAttack,Rimatomics.xml,keyed,"The enemy faction (PH_2) are preparing to launch a missile attack from a nearby base, you have (PH_1) days before launch.",敌方派系 {0} 正准备从附近的基地发射导弹攻击，距离发射还有 {1} 天。
+critMagazine,Magazine: {0},critMagazine,Rimatomics.xml,keyed,Magazine: (PH_1),杂志：{0}
+critNoSabotRounds,No Sabot ammunition,critNoSabotRounds,Rimatomics.xml,keyed,No Sabot ammunition,周六弹药
+SiloMissingPart,Requires part: {0},SiloMissingPart,Rimatomics.xml,keyed,Requires part: (PH_1),需要部分：{0}
+critBombDet,The bomb has detonated,critBombDet,Rimatomics.xml,keyed,The bomb has detonated,炸弹已经爆炸了
+critBombDetFac,The bomb detonated and the {0} has been destroyed,critBombDetFac,Rimatomics.xml,keyed,The bomb detonated and the (PH_1) has been destroyed,炸弹爆炸，{0} 已被摧毁
+SetCamoMode,Set Camo,SetCamoMode,Rimatomics.xml,keyed,Set Camo,设置迷彩
+critCountdown,Countdown: {0},critCountdown,Rimatomics.xml,keyed,Countdown: (PH_1),倒计时：{0}
+critArm,Arm,critArm,Rimatomics.xml,keyed,Arm,手臂
+MessageRailgunNeedsMap,"Map not generated, send colonists to scout",MessageRailgunNeedsMap,Rimatomics.xml,keyed,"Map not generated, send colonists to scout",地图未生成，派遣殖民者侦察
+MessageRailgunTargetInvalid,Target is not valid,MessageRailgunTargetInvalid,Rimatomics.xml,keyed,Target is not valid,目标无效
+NextPart,"Next Part: {0}, {1} Needed",NextPart,Rimatomics.xml,keyed,"Next Part: (PH_2), (PH_1) Needed",下一部分：需要 {0}、{1}
+SiloFull,Silo Full,SiloFull,Rimatomics.xml,keyed,Silo Full,筒仓已满
+SiloMagazine,Missiles: {0}/{1},SiloMagazine,Rimatomics.xml,keyed,Missiles: (PH_2)/(PH_1),导弹：{0}/{1}
+ICBMReady,strategic missile ready,ICBMReady,Rimatomics.xml,keyed,strategic missile ready,战略导弹准备就绪
+TestFireHELSOnOwnShells,Shoot down our own mortar shells for data gathering.,TestFireHELSOnOwnShells,Rimatomics.xml,keyed,Shoot down our own mortar shells for data gathering.,击落我们自己的迫击炮 炮弹 以收集数据。
+OpenRadar,Open target tracking display,OpenRadar,Rimatomics.xml,keyed,Open target tracking display,打开目标跟踪显示
+NoSabotToExtract,No sabot rounds to extract,NoSabotToExtract,Rimatomics.xml,keyed,No sabot rounds to extract,无需提取弹托弹
+CancelICBMLaunch,Abort Launch,CancelICBMLaunch,Rimatomics.xml,keyed,Abort Launch,中止发射
+CancelICBMLaunchDesc,Abort Launch,CancelICBMLaunchDesc,Rimatomics.xml,keyed,Abort Launch,中止发射
+ICBMLaunchCancelled,strategic missile launch aborted,ICBMLaunchCancelled,Rimatomics.xml,keyed,strategic missile launch aborted,战略导弹发射失败
+ReactorUptime,Uptime: {0},ReactorUptime,Rimatomics.xml,keyed,Uptime: (PH_1),正常运行时间：{0}
+PuCreated,Pu: {0},PuCreated,Rimatomics.xml,keyed,Pu: (PH_1),浦：{0}
+fuelCracked,Cracked!,fuelCracked,Rimatomics.xml,keyed,Cracked!,破裂了！
+Managefuel,Manage,Managefuel,Rimatomics.xml,keyed,Manage,管理
+RoofedTower,Tower blocked by roof,RoofedTower,Rimatomics.xml,keyed,Tower blocked by roof,塔楼被屋顶挡住
+TurbineRPM,RPM: {0} ({1}),TurbineRPM,Rimatomics.xml,keyed,RPM: (PH_2) ((PH_1)),转速：{0} ({1})
+TradeShipWait,Rimatomics trade ship ready in {0},TradeShipWait,Rimatomics.xml,keyed,Rimatomics trade ship ready in (PH_1),Rimatomics 贸易船已在 {0} 准备就绪
+critsetid,Set ID,critsetid,Rimatomics.xml,keyed,Set ID,设置ID
+critCoolingCapShare,Cooling capacity share: {0} with {1} Turbines,critCoolingCapShare,Rimatomics.xml,keyed,Cooling capacity share: (PH_2) with (PH_1) Turbines,冷却能力份额：{0} 与 {1} 涡轮机
+BreederHotLoading,Hot Load,BreederHotLoading,Rimatomics.xml,keyed,Hot Load,热负载
+BreederHotLoadingDesc,Allow fuel to be changed while the core is running,BreederHotLoadingDesc,Rimatomics.xml,keyed,Allow fuel to be changed while the core is running,允许在核心运行时更换燃料
+ControlRod,Control Rods,ControlRod,Rimatomics.xml,keyed,Control Rods,控制棒
+crackedRemoveNow,\nCRACKED! Remove Now,crackedRemoveNow,Rimatomics.xml,keyed,(PH_1)CRACKED! Remove Now,"
+破解！立即删除"
+critCoreTemp,Core Temp: {0}C,critCoreTemp,Rimatomics.xml,keyed,Core Temp: (PH_1)C,核心温度：{0}C
+critCoreEnergy,Energy: {0}kW,critCoreEnergy,Rimatomics.xml,keyed,Energy: (PH_1)kW,能量：{0}kW
+critCoreCooling,Cooling: {0},critCoreCooling,Rimatomics.xml,keyed,Cooling: (PH_1),冷却：{0}
+critCoreFlux,Neutron Flux: {0},critCoreFlux,Rimatomics.xml,keyed,Neutron Flux: (PH_1),中子通量：{0}
+critscramDesc,"Return temperature and neutron flux to base values, but leaves the core on",critscramDesc,Rimatomics.xml,keyed,"Return temperature and neutron flux to base values, but leaves the core on",将温度和中子通量返回到基础值，但使堆芯保持开启状态
+critStartup,Startup,critStartup,Rimatomics.xml,keyed,Startup,启动
+critShutdown,Shutdown,critShutdown,Rimatomics.xml,keyed,Shutdown,关闭
+critStartupDesc,"Starts the core, allowing temperatures and flux levels to rise",critStartupDesc,Rimatomics.xml,keyed,"Starts the core, allowing temperatures and flux levels to rise",启动核心，使温度和通量水平上升
+critShutdownDesc,"Shuts down the core, leaving it powered but cold, for refueling and repairs.",critShutdownDesc,Rimatomics.xml,keyed,"Shuts down the core, leaving it powered but cold, for refueling and repairs.",关闭核心，使其保持供电但处于冷态，以进行加油和维修。
+critManageReactor,Manage Reactor,critManageReactor,Rimatomics.xml,keyed,Manage Reactor,管理反应堆
+critreactorcritical,Reactor critical,critreactorcritical,Rimatomics.xml,keyed,Reactor critical,反应堆临界
+critreactorleaking,Reactor leaking,critreactorleaking,Rimatomics.xml,keyed,Reactor leaking,反应堆泄漏
+critreactionstable,Reactor stable,critreactionstable,Rimatomics.xml,keyed,Reactor stable,反应堆稳定
+critStorageCapacity,Storage Capacity: {0} / {1},critStorageCapacity,Rimatomics.xml,keyed,Storage Capacity: (PH_2) / (PH_1),存储容量：{0} / {1}
+critGenerated,Generated: {0} W,critGenerated,Rimatomics.xml,keyed,Generated: (PH_1) W,生成：{0} W
+critConsumed,Consumed: {0} W,critConsumed,Rimatomics.xml,keyed,Consumed: (PH_1) W,消耗：{0} W
+critPnetPct,Powernet Load: {0},critPnetPct,Rimatomics.xml,keyed,Powernet Load: (PH_1),电网负载：{0}
+critPowerGeneration,Power Generation: {0} W,critPowerGeneration,Rimatomics.xml,keyed,Power Generation: (PH_1) W,发电量：{0} W
+critValveOpen,Valve: Open,critValveOpen,Rimatomics.xml,keyed,Valve: Open,阀门：打开
+critValveClosed,Valve: Closed,critValveClosed,Rimatomics.xml,keyed,Valve: Closed,阀门：关闭
+critOpenValve,Open Valve,critOpenValve,Rimatomics.xml,keyed,Open Valve,打开阀门
+critCloseValve,Close Valve,critCloseValve,Rimatomics.xml,keyed,Close Valve,关闭阀门
+critToggleValve,Operate the valve,critToggleValve,Rimatomics.xml,keyed,Operate the valve,操作阀门
+critTempBoost,Temp Boost,critTempBoost,Rimatomics.xml,keyed,Temp Boost,温度提升
+critTemp,Temp,critTemp,Rimatomics.xml,keyed,Temp,温度
+critCooling,Cooling,critCooling,Rimatomics.xml,keyed,Cooling,冷却
+critTurbine,Turbine,critTurbine,Rimatomics.xml,keyed,Turbine,涡轮
+critControlRod,Control Rods,critControlRod,Rimatomics.xml,keyed,Control Rods,控制棒
+critTargetRod,Control Rods To,critTargetRod,Rimatomics.xml,keyed,Control Rods To,控制棒至
+critFuelRemaining2,Fuel Remaining: {0},critFuelRemaining2,Rimatomics.xml,keyed,Fuel Remaining: (PH_1),剩余燃料：{0}
+RimatomEmpty,Empty,RimatomEmpty,Rimatomics.xml,keyed,Empty,空的
+RimatomActivated,Activated,RimatomActivated,Rimatomics.xml,keyed,Activated,活性
+RimatomCracked,Cracked,RimatomCracked,Rimatomics.xml,keyed,Cracked,破裂
+RimatomSpent,Spent,RimatomSpent,Rimatomics.xml,keyed,Spent,花费
+RimatomNew,New,RimatomNew,Rimatomics.xml,keyed,New,新的
+RimatomRemove,Remove,RimatomRemove,Rimatomics.xml,keyed,Remove,消除
+RimatomStore,Store,RimatomStore,Rimatomics.xml,keyed,Store,店铺
+RimatomLife,Life,RimatomLife,Rimatomics.xml,keyed,Life,生活
+UnsafeFacility,Unsafe Facility,UnsafeFacility,Rimatomics.xml,keyed,Unsafe Facility,不安全设施
+FacilityNoPower,No Power,FacilityNoPower,Rimatomics.xml,keyed,No Power,没有电源
+NoActiveBenchWithProject,No active bench with required project,NoActiveBenchWithProject,Rimatomics.xml,keyed,No active bench with required project,没有所需项目的活动工作台
+NoStandableCell,No adjacent standable cell,NoStandableCell,Rimatomics.xml,keyed,No adjacent standable cell,没有相邻的独立电池
+critPlaceOnCore,Must be placed on a molten core of correct type,critPlaceOnCore,Rimatomics.xml,keyed,Must be placed on a molten core of correct type,必须放置在正确类型的熔芯上
+NeedsRiver,"Needs to be placed next to a river, lake or ocean",NeedsRiver,Rimatomics.xml,keyed,"Needs to be placed next to a river, lake or ocean",需要放置在河流、湖泊或海洋旁边
+critMoreWater,Requires a larger body of water,critMoreWater,Rimatomics.xml,keyed,Requires a larger body of water,需要更大的水体
+critActiveCore,Core is still active,critActiveCore,Rimatomics.xml,keyed,Core is still active,核心仍然活跃
+critCrackedcore,Core is cracked,critCrackedcore,Rimatomics.xml,keyed,Core is cracked,核心有裂纹
+critNoSlotDes,No designated slots,critNoSlotDes,Rimatomics.xml,keyed,No designated slots,无指定槽位
+critnoFuelRods,No Fuel Assembly Available,critnoFuelRods,Rimatomics.xml,keyed,No Fuel Assembly Available,没有可用的燃料组件
+critNoSpace,No Space,critNoSpace,Rimatomics.xml,keyed,No Space,没有空间
+critSpentOnly,"Set for spent fuel only, none available",critSpentOnly,Rimatomics.xml,keyed,"Set for spent fuel only, none available",仅针对乏燃料设置，无可用
+critNoPool,No storage pool available,critNoPool,Rimatomics.xml,keyed,No storage pool available,没有可用的存储池
+critCoreIntegrityDesc,The integrity of this core is so low that it may crack.,critCoreIntegrityDesc,Rimatomics.xml,keyed,The integrity of this core is so low that it may crack.,该核心的完整性如此之低，以至于可能会破裂。
+TradeShipPrice,Send trade ship ({0} silver),TradeShipPrice,Rimatomics.xml,keyed,Send trade ship ((PH_1) silver),发送贸易船（{0}银）
+TradeShipPriceNeed,Need {0} silver to send trade ship,TradeShipPriceNeed,Rimatomics.xml,keyed,Need (PH_1) silver to send trade ship,需要 {0} 白银来发送贸易船
+TradeShipCooldown,Trade Ship Cooldown: {0},TradeShipCooldown,Rimatomics.xml,keyed,Trade Ship Cooldown: (PH_1),贸易船冷却时间：{0}
+TradeShipArrival,Trade Ship Arrival: {0},TradeShipArrival,Rimatomics.xml,keyed,Trade Ship Arrival: (PH_1),贸易船抵达：{0}
+TradeShipReq,A Rimatomics trade ship has been dispatched to your planet.\n\nIt will take 2 days to arrive.,TradeShipReq,Rimatomics.xml,keyed,A Rimatomics trade ship has been dispatched to your planet.(PH_2)(PH_1)It will take 2 days to arrive.,"一艘 Rimatomics 贸易船已被派往您的星球。
+
+需要 2 天才能到达。"
+LowerPowerLimit,Lower Power Limit,LowerPowerLimit,Rimatomics.xml,keyed,Lower Power Limit,功率下限
+RaisePowerLimit,Raise Power Limit,RaisePowerLimit,Rimatomics.xml,keyed,Raise Power Limit,提高功率限制
+PowerLimitDesc,"Change the power limit for this transformer, used for changing power distribution over multiple power nets\n\nHold Shift for finer control",PowerLimitDesc,Rimatomics.xml,keyed,"Change the power limit for this transformer, used for changing power distribution over multiple power nets(PH_2)(PH_1)Hold Shift for finer control","更改此变压器的功率限制，用于更改多个电网的功率分配
+
+按住 Shift 进行更精细的控制"
+TrannyLimit,Power Limit: {0}kW,TrannyLimit,Rimatomics.xml,keyed,Power Limit: (PH_1)kW,功率限制：{0}kW
+TurbinePower,Turbine Power: {0}kW,TurbinePower,Rimatomics.xml,keyed,Turbine Power: (PH_1)kW,涡轮功率：{0}kW
+BlueprintUpgradeDesc,"This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module",BlueprintUpgradeDesc,Rimatomics.xml,keyed,"This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module",这是一个蓝图升级，新建筑将作为标准内置此升级，现有建筑将需要使用精心制作的模块进行手动升级
+RimatomFree,Free,RimatomFree,Rimatomics.xml,keyed,Free,自由的
+RimatomPurchase,Purchase,RimatomPurchase,Rimatomics.xml,keyed,Purchase,购买
+RimatomPrice,Price,RimatomPrice,Rimatomics.xml,keyed,Price,价格
+RimatomUnlocks,Unlocks,RimatomUnlocks,Rimatomics.xml,keyed,Unlocks,解锁
+openResearchPanel,Open Research Panel,openResearchPanel,Rimatomics.xml,keyed,Open Research Panel,开放研究小组
+ResearchProg,{0}/{1},ResearchProg,Rimatomics.xml,keyed,(PH_2)/(PH_1),{0}/{1}
+ResearchPriceNeed,Requires {0} Silver near a trade beacon,ResearchPriceNeed,Rimatomics.xml,keyed,Requires (PH_1) Silver near a trade beacon,需要贸易信标附近的 {0} 白银
+RimUnlocked,Probe detected.,RimUnlocked,Rimatomics.xml,keyed,Probe detected.,检测到探针。
+RimatomicsResearchAlert,Rimatomics Research,RimatomicsResearchAlert,Rimatomics.xml,keyed,Rimatomics Research,Rimatomics研究
+RimatomicResearchAlertMess,Project: {0}\nStep: {1}\nTask: {2},RimatomicResearchAlertMess,Rimatomics.xml,keyed,Project: (PH_5)(PH_4)Step: (PH_3)(PH_2)Task: (PH_1),"项目：{0}
+步骤：{1}
+任务：{2}"
+thingsUnlocked,Unlocked -,thingsUnlocked,Rimatomics.xml,keyed,Unlocked -,解锁 -
+RimatomStepComplete,Step Completed,RimatomStepComplete,Rimatomics.xml,keyed,Step Completed,步骤已完成
+RequiresFac,Requires:,RequiresFac,Rimatomics.xml,keyed,Requires:,要求：
+StepInspect,Step: {0},StepInspect,Rimatomics.xml,keyed,Step: (PH_1),步骤：{0}
+ResearchComplete,Research Complete,ResearchComplete,Rimatomics.xml,keyed,Research Complete,研究完成
+StillTestingDef,Still testing prototype,StillTestingDef,Rimatomics.xml,keyed,Still testing prototype,仍在测试原型
+TabResearch,Research,TabResearch,Rimatomics.xml,keyed,Research,研究
+CurProj,Project: {0},CurProj,Rimatomics.xml,keyed,Project: (PH_1),项目：{0}
+CurStep,Step: {0},CurStep,Rimatomics.xml,keyed,Step: (PH_1),步骤：{0}
+Rimatomics.MissingFacility,Missing Facility,Rimatomics.MissingFacility,Rimatomics.xml,keyed,Missing Facility,缺少设施
+DesignatorRemoveRimatomicsPipes,Deconstruct Pipes,DesignatorRemoveRimatomicsPipes,Rimatomics.xml,keyed,Deconstruct Pipes,解构管道
+DesignatorRemoveRimatomicsPipesDesc,Designate pipes for deconstruction,DesignatorRemoveRimatomicsPipesDesc,Rimatomics.xml,keyed,Designate pipes for deconstruction,指定解构管道
+Alert_ResearchFacility,Research Facility Missing,Alert_ResearchFacility,Rimatomics.xml,keyed,Research Facility Missing,研究设施失踪
+RequiresFacility,{0} required for current step,RequiresFacility,Rimatomics.xml,keyed,(PH_1) required for current step,当前步骤需要 {0}
+DesignatorRemoveColdWater,Remove Cold Water,DesignatorRemoveColdWater,Rimatomics.xml,keyed,Remove Cold Water,除去冷水
+DesignatorRemoveColdWaterDesc,Remove Cold water pipes,DesignatorRemoveColdWaterDesc,Rimatomics.xml,keyed,Remove Cold water pipes,拆除冷水管
+DesignatorRemoveCooling,Remove Cooling,DesignatorRemoveCooling,Rimatomics.xml,keyed,Remove Cooling,移除冷却
+DesignatorRemoveCoolingDesc,Remove Cooling pipes,DesignatorRemoveCoolingDesc,Rimatomics.xml,keyed,Remove Cooling pipes,拆下冷却管
+DesignatorRemoveHighVoltage,Remove High Voltage,DesignatorRemoveHighVoltage,Rimatomics.xml,keyed,Remove High Voltage,消除高电压
+DesignatorRemoveHighVoltageDesc,Remove High Voltage lines,DesignatorRemoveHighVoltageDesc,Rimatomics.xml,keyed,Remove High Voltage lines,拆除高压线
+DesignatorRemoveLoom,Remove Loom,DesignatorRemoveLoom,Rimatomics.xml,keyed,Remove Loom,移除织机
+DesignatorRemoveLoomDesc,Remove Wiring Loom,DesignatorRemoveLoomDesc,Rimatomics.xml,keyed,Remove Wiring Loom,拆除接线器
+DesignatorRemoveSteam,Remove Steam,DesignatorRemoveSteam,Rimatomics.xml,keyed,Remove Steam,去除蒸汽
+DesignatorRemoveSteamDesc,Remove Steam pipes,DesignatorRemoveSteamDesc,Rimatomics.xml,keyed,Remove Steam pipes,拆除蒸汽管
+coreUpgradeFail,Can't upgrade while core is active,coreUpgradeFail,Rimatomics.xml,keyed,Can't upgrade while core is active,核心处于活动状态时无法升级
+powerUpgradeFail,Building must be powered down before upgrading,powerUpgradeFail,Rimatomics.xml,keyed,Building must be powered down before upgrading,升级前必须关闭建筑物电源
+RimatomicResearchCompleteDialog,{0} - complete\n\n{1},RimatomicResearchCompleteDialog,Rimatomics.xml,keyed,(PH_4) - complete(PH_3)(PH_2)(PH_1),"{0} - 完成
+
+{1}"
+rimatomicsProto,Prototype,rimatomicsProto,Rimatomics.xml,keyed,Prototype,原型
+StartProject,Start Project,StartProject,Rimatomics.xml,keyed,Start Project,启动项目
+ProjectInitiated,Project initiated,ProjectInitiated,Rimatomics.xml,keyed,Project initiated,项目启动
+StopProject,Stop Project,StopProject,Rimatomics.xml,keyed,Stop Project,停止项目
+ProjectTerminated,Project terminated,ProjectTerminated,Rimatomics.xml,keyed,Project terminated,项目终止
+NoBenchAvailable,No Rimatomics research bench available,NoBenchAvailable,Rimatomics.xml,keyed,No Rimatomics research bench available,没有可用的 Rimatomics 研究台
+ResearchPurchased,Research Purchased!,ResearchPurchased,Rimatomics.xml,keyed,Research Purchased!,研究已购买！
+CoreBlast.label,CoreBlast,label,DamageDef/DamageDef.xml,def,CoreBlast,核心爆炸
+CoreBlast.deathMessage,{0} has died in an explosion.,deathMessage,DamageDef/DamageDef.xml,def,(PH_1) has died in an explosion.,{0} 在爆炸中死亡。
+ArcDischarge.label,Arc Discharge,label,DamageDef/DamageDef.xml,def,Arc Discharge,电弧放电
+LaserDischarge.label,Laser Discharge,label,DamageDef/DamageDef.xml,def,Laser Discharge,激光放电
+Rimatomics.label,Rimatomics,label,DesignationCategoryDef/DesignationCategoryDef.xml,def,Rimatomics,瑞马托组学
+Rimatomics.description,All Rimatomics buildings,description,DesignationCategoryDef/DesignationCategoryDef.xml,def,All Rimatomics buildings,所有 Rimatomics 建筑
+PotassiumIodide.label,Potassium iodide,label,ThingDef/ThingDef.xml,def,Potassium iodide,碘化钾
+PotassiumIodide.description,Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.,description,ThingDef/ThingDef.xml,def,Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.,碘化钾片剂用于与阻断放射性碘吸收相关的紧急用途。
+RadioactiveFallout.label,meltdown fallout,label,GameConditionDef/GameConditionDef.xml,def,meltdown fallout,崩溃的后果
+RadioactiveFallout.description,A plume of radioactive smoke and ash from a reactor meltdown has been ejected into the air and will settle in the surrounding area.,description,GameConditionDef/GameConditionDef.xml,def,A plume of radioactive smoke and ash from a reactor meltdown has been ejected into the air and will settle in the surrounding area.,反应堆熔毁产生的放射性烟雾和灰烬被喷射到空气中，并将沉积在周围地区。
+RadioactiveFallout.endMessage,The worst of the radioactive dust has been washed away.,endMessage,GameConditionDef/GameConditionDef.xml,def,The worst of the radioactive dust has been washed away.,最严重的放射性尘埃已被冲走。
+NuclearFallout.label,nuclear blast fallout,label,GameConditionDef/GameConditionDef.xml,def,nuclear blast fallout,核爆炸余波
+NuclearFallout.description,A plume of radioactive smoke and ash from a nuclear blast has been ejected into the air and will settle in the surrounding area.,description,GameConditionDef/GameConditionDef.xml,def,A plume of radioactive smoke and ash from a nuclear blast has been ejected into the air and will settle in the surrounding area.,核爆炸产生的放射性烟雾和灰烬被喷射到空气中，并将沉积在周围地区。
+NuclearFallout.endMessage,The worst of the radioactive dust has been washed away.,endMessage,GameConditionDef/GameConditionDef.xml,def,The worst of the radioactive dust has been washed away.,最严重的放射性尘埃已被冲走。
+FlashBlindness.label,Flash blindness,label,HediffDef/HediffDef.xml,def,Flash blindness,闪光失明
+FlashBlindness.description,Flash blindness,description,HediffDef/HediffDef.xml,def,Flash blindness,闪光失明
+FlashBlindness.labelNoun,Flash blindness,labelNoun,HediffDef/HediffDef.xml,def,Flash blindness,闪光失明
+RectalCoring.label,rectal core,label,HediffDef/HediffDef.xml,def,rectal core,直肠核心
+RectalCoring.description,rectal core,description,HediffDef/HediffDef.xml,def,rectal core,直肠核心
+RectalCoring.stages.0.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+Exsanguination.label,exsanguination,label,HediffDef/HediffDef.xml,def,exsanguination,放血
+Exsanguination.description,exsanguination,description,HediffDef/HediffDef.xml,def,exsanguination,放血
+Exsanguination.stages.0.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+FatalRad.label,Fatal Radiation Exposure,label,HediffDef/HediffDef.xml,def,Fatal Radiation Exposure,致命的辐射暴露
+FatalRad.description,Fatal Radiation Exposure,description,HediffDef/HediffDef.xml,def,Fatal Radiation Exposure,致命的辐射暴露
+FatalRad.stages.0.label,initial,label,HediffDef/HediffDef.xml,def,initial,最初的
+FatalRad.stages.1.label,advanced,label,HediffDef/HediffDef.xml,def,advanced,先进的
+FatalRad.stages.2.label,near death,label,HediffDef/HediffDef.xml,def,near death,濒临死亡
+FatalRad.stages.3.label,dead,label,HediffDef/HediffDef.xml,def,dead,死的
+RimatomicsRadiation.description,radiation sickness,description,HediffDef/HediffDef.xml,def,radiation sickness,放射病
+RimatomicsRadiation.label,radiation sickness,label,HediffDef/HediffDef.xml,def,radiation sickness,放射病
+RimatomicsRadiation.stages.0.label,initial-hidden,label,HediffDef/HediffDef.xml,def,initial-hidden,初始隐藏
+RimatomicsRadiation.stages.1.label,initial,label,HediffDef/HediffDef.xml,def,initial,最初的
+RimatomicsRadiation.stages.2.label,minor,label,HediffDef/HediffDef.xml,def,minor,次要的
+RimatomicsRadiation.stages.3.label,moderate,label,HediffDef/HediffDef.xml,def,moderate,缓和
+RimatomicsRadiation.stages.4.label,serious,label,HediffDef/HediffDef.xml,def,serious,严肃的
+RimatomicsRadiation.stages.5.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+RadiationIncurable.description,radiation buildup,description,HediffDef/HediffDef.xml,def,radiation buildup,辐射累积
+RadiationIncurable.label,radiation buildup,label,HediffDef/HediffDef.xml,def,radiation buildup,辐射累积
+RadiationIncurable.stages.0.label,initial-hidden,label,HediffDef/HediffDef.xml,def,initial-hidden,初始隐藏
+RadiationIncurable.stages.1.label,initial,label,HediffDef/HediffDef.xml,def,initial,最初的
+RadiationIncurable.stages.2.label,minor,label,HediffDef/HediffDef.xml,def,minor,次要的
+RadiationIncurable.stages.3.label,moderate,label,HediffDef/HediffDef.xml,def,moderate,缓和
+RadiationIncurable.stages.4.label,serious,label,HediffDef/HediffDef.xml,def,serious,严肃的
+RadiationIncurable.stages.5.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+RadiationMechanoid.description,Radiation damage,description,HediffDef/HediffDef.xml,def,Radiation damage,辐射损伤
+RadiationMechanoid.label,radiation damage,label,HediffDef/HediffDef.xml,def,radiation damage,辐射损伤
+RadiationMechanoid.stages.0.label,initial-hidden,label,HediffDef/HediffDef.xml,def,initial-hidden,初始隐藏
+RadiationMechanoid.stages.1.label,initial,label,HediffDef/HediffDef.xml,def,initial,最初的
+RadiationMechanoid.stages.2.label,minor,label,HediffDef/HediffDef.xml,def,minor,次要的
+RadiationMechanoid.stages.3.label,moderate,label,HediffDef/HediffDef.xml,def,moderate,缓和
+RadiationMechanoid.stages.4.label,serious,label,HediffDef/HediffDef.xml,def,serious,严肃的
+RadiationMechanoid.stages.5.label,extreme,label,HediffDef/HediffDef.xml,def,extreme,极端
+RimatomicsResearch.reportString,Researching at TargetA.,reportString,JobDef/JobDef.xml,def,Researching at TargetA.,在 TargetA 进行研究。
+SuperviseConstruction.reportString,Constructing TargetA.,reportString,JobDef/JobDef.xml,def,Constructing TargetA.,构建目标A.
+SuperviseResearch.reportString,Researching at TargetA.,reportString,JobDef/JobDef.xml,def,Researching at TargetA.,在 TargetA 进行研究。
+UpgradeBuilding.reportString,Upgrading TargetA.,reportString,JobDef/JobDef.xml,def,Upgrading TargetA.,升级目标A.
+FleeADS.reportString,Fleeing TargetA.,reportString,JobDef/JobDef.xml,def,Fleeing TargetA.,逃离目标A.
+LoadRailgunMagazine.reportString,Loading railgun magazine.,reportString,JobDef/JobDef.xml,def,Loading railgun magazine.,正在装载轨道炮弹匣。
+LoadSilo.reportString,Loading Silo.,reportString,JobDef/JobDef.xml,def,Loading Silo.,装载筒仓。
+UseReactorConsole.reportString,Using reactor console.,reportString,JobDef/JobDef.xml,def,Using reactor console.,使用反应堆控制台。
+HaulModuletoCore.reportString,Hauling TargetB to TargetA.,reportString,JobDef/JobDef.xml,def,Hauling TargetB to TargetA.,将 TargetB 拖至 TargetA。
+RemoveFuelModule.reportString,removing fuel rods from TargetA.,reportString,JobDef/JobDef.xml,def,removing fuel rods from TargetA.,从 TargetA 上移除燃料棒。
+LoadSpentFuel.reportString,hauling TargetB to TargetA.,reportString,JobDef/JobDef.xml,def,hauling TargetB to TargetA.,将 TargetB 拖至 TargetA。
+UnloadPlutonium.reportString,removing plutonium from TargetA.,reportString,JobDef/JobDef.xml,def,removing plutonium from TargetA.,从 TargetA 中去除钚。
+RimatomicsTraderCooldown.label,Rimatomics Trader Cooldown,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Rimatomics Trader Cooldown,Rimatomics 交易者冷却
+RimatomicsTraderCooldown.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat,欺骗
+RimatomicsTraderCooldown.options.1.label,2 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,2 days,2天
+RimatomicsTraderCooldown.options.2.label,5 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,5 days,5天
+RimatomicsTraderCooldown.options.3.label,10 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,10 days,10天
+RimatomicsTraderCooldown.options.4.label,15 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,15 days,15天
+RimatomicsTraderCooldown.options.5.label,20 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,20 days,20天
+RimatomicsTraderCooldown.options.6.label,25 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25 days,25天
+RimatomicsTraderCooldown.options.7.label,30 days,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,30 days,30天
+RadiationStrength.label,Radiation Strength,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Radiation Strength,辐射强度
+RadiationStrength.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat,欺骗
+RadiationStrength.options.1.label,25%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25%,25%
+RadiationStrength.options.2.label,50%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,50%,50%
+RadiationStrength.options.3.label,75%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,75%,75%
+RadiationStrength.options.4.label,100%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,100%,100%
+RadiationStrength.options.5.label,125%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,125%,125%
+RadiationStrength.options.6.label,150%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,150%,150%
+RadiationStrength.options.7.label,200%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,200%,200%
+RadiationStrength.options.8.label,300%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,300%,300%
+RadiationStrength.options.9.label,500%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,500%,500%
+RadiationStrength.options.10.label,700%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,700%,700%
+RadiationStrength.options.11.label,1000%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,1000%,1000%
+FuelBurnRate.label,Fuel Burn Rate,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Fuel Burn Rate,燃油燃烧率
+FuelBurnRate.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat,欺骗
+FuelBurnRate.options.1.label,25%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25%,25%
+FuelBurnRate.options.2.label,50%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,50%,50%
+FuelBurnRate.options.3.label,75%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,75%,75%
+FuelBurnRate.options.4.label,100%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,100%,100%
+FuelBurnRate.options.5.label,125%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,125%,125%
+FuelBurnRate.options.6.label,150%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,150%,150%
+FuelBurnRate.options.7.label,200%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,200%,200%
+FuelBurnRate.options.8.label,300%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,300%,300%
+FuelBurnRate.options.9.label,500%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,500%,500%
+FuelBurnRate.options.10.label,700%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,700%,700%
+FuelBurnRate.options.11.label,1000%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,1000%,1000%
+PulseSizeScaling.label,Pulse Size Scaling,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Pulse Size Scaling,脉冲大小缩放
+PulseSizeScaling.options.0.label,Cheat,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,Cheat,欺骗
+PulseSizeScaling.options.1.label,25%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,25%,25%
+PulseSizeScaling.options.2.label,50%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,50%,50%
+PulseSizeScaling.options.3.label,75%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,75%,75%
+PulseSizeScaling.options.4.label,100%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,100%,100%
+PulseSizeScaling.options.5.label,125%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,125%,125%
+PulseSizeScaling.options.6.label,150%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,150%,150%
+PulseSizeScaling.options.7.label,200%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,200%,200%
+PulseSizeScaling.options.8.label,300%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,300%,300%
+PulseSizeScaling.options.9.label,500%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,500%,500%
+PulseSizeScaling.options.10.label,700%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,700%,700%
+PulseSizeScaling.options.11.label,1000%,label,Rimatomics.DubsModOptions/Rimatomics.DubsModOptions.xml,def,1000%,1000%
+SmeltBlades.label,smelt turbine blades,label,RecipeDef/RecipeDef.xml,def,smelt turbine blades,冶炼涡轮叶片
+SmeltBlades.description,Use heat and strong electromagnets to break turbine blades into useful resources.,description,RecipeDef/RecipeDef.xml,def,Use heat and strong electromagnets to break turbine blades into useful resources.,使用热量和强电磁体将涡轮叶片分解成有用的资源。
+SmeltBlades.jobString,Smelting turbine blade.,jobString,RecipeDef/RecipeDef.xml,def,Smelting turbine blade.,冶炼涡轮叶片。
+MakeMoxFuelRods.label,Make MOX fuel rods,label,RecipeDef/RecipeDef.xml,def,Make MOX fuel rods,制作 MOX 燃料棒
+MakeMoxFuelRods.description,Construct MOX fuel rods.,description,RecipeDef/RecipeDef.xml,def,Construct MOX fuel rods.,建造 MOX 燃料棒。
+MakeMoxFuelRods.jobString,Making MOX fuel rods.,jobString,RecipeDef/RecipeDef.xml,def,Making MOX fuel rods.,制造 MOX 燃料棒。
+DismantleWarhead.label,Dismantle warhead,label,RecipeDef/RecipeDef.xml,def,Dismantle warhead,拆除弹头
+DismantleWarhead.description,Salvaging useful materials from a warhead,description,RecipeDef/RecipeDef.xml,def,Salvaging useful materials from a warhead,从弹头中回收有用的材料
+DismantleWarhead.jobString,Dismantling warhead.,jobString,RecipeDef/RecipeDef.xml,def,Dismantling warhead.,拆除弹头。
+RimatomicsActivate.label,Rimatomics,label,ResearchProjectDef/ResearchProjectDef.xml,def,Rimatomics,瑞马托组学
+RimatomicsActivate.description,A probe has been detected in orbit! It seems to be sending signals to the surface; maybe we can decipher its message.,description,ResearchProjectDef/ResearchProjectDef.xml,def,A probe has been detected in orbit! It seems to be sending signals to the surface; maybe we can decipher its message.,在轨道上检测到探测器！它似乎正在向地面发送信号；也许我们可以破译它的信息。
+Failure_FacilityBreakdown.label,Facility Breakdown,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Facility Breakdown,设施故障
+Failure_FacilityBreakdown.description,The facility has broken down during research,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility has broken down during research,该设施在研究过程中损坏发生故障
+Failure_RadiationLeak.label,Radiation Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Radiation Leak,辐射泄漏
+Failure_RadiationLeak.description,The facility is leaking a short burst of radiation,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking a short burst of radiation,该设施正在泄漏短暂的辐射
+Failure_MicrowaveLeak.label,Microwave Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Microwave Leak,微波泄漏
+Failure_MicrowaveLeak.description,The facility is leaking microwave radiation,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking microwave radiation,该设施正在泄漏微波辐射
+Failure_AcidLeak.label,Acid Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Acid Leak,酸泄漏
+Failure_AcidLeak.description,The facility is leaking acid,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking acid,该设施正在泄漏酸
+Failure_GasLeak.label,Gas Leak,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Gas Leak,煤气泄漏
+Failure_GasLeak.description,The facility is leaking toxic gas,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility is leaking toxic gas,该设施泄漏有毒气体
+Failure_BlindingFlash.label,Blinding Flash,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Blinding Flash,致盲闪光
+Failure_BlindingFlash.description,A blinding flash of light has emanated from the facility,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,A blinding flash of light has emanated from the facility,该设施发出耀眼的闪光
+Failure_ArcDischarge.label,Arc Discharge,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Arc Discharge,电弧放电
+Failure_ArcDischarge.description,An arc of high voltage electricity shot from the facility,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,An arc of high voltage electricity shot from the facility,从设施中射出高压电弧
+Failure_LaserDischarge.label,Laser Discharge,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Laser Discharge,激光放电
+Failure_LaserDischarge.description,A Laser discharge shot from the facility,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,A Laser discharge shot from the facility,从该设施拍摄的激光放电照片
+Failure_Overvoltage.label,Overvoltage,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Overvoltage,过电压
+Failure_Overvoltage.description,The facility has suffered a power surge and started a fire,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility has suffered a power surge and started a fire,该设施遭遇电涌并引发火灾
+Failure_ShortCircuit.label,Short Circuit,label,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,Short Circuit,短路
+Failure_ShortCircuit.description,The facility has short-circuited. Switch off the power immediately or the building will be destroyed!,description,RimatomicsFailureDef/RimatomicsFailureDef.xml,def,The facility has short-circuited. Switch off the power immediately or the building will be destroyed!,该设施已短路。立即关闭电源，否则建筑物将被摧毁！
+Geigercounter1.label,Research radiation detectors,label,ResearchStepDef/ResearchStepDef.xml,def,Research radiation detectors,研究辐射探测器
+Geigercounter1.description,A skilled researcher needs to study the designs and learn how the radiation detectors work.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the radiation detectors work.,熟练的研究人员需要研究设计并了解辐射探测器的工作原理。
+Geigercounter2.label,Evaluate components,label,ResearchStepDef/ResearchStepDef.xml,def,Evaluate components,评估组件
+Geigercounter2.description,A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available.,熟练的工匠需要弄清楚如何使用可用的资源和工具为所有殖民者建造和维护辐射探测器。
+RadiationSuits1.label,Research radiation suits,label,ResearchStepDef/ResearchStepDef.xml,def,Research radiation suits,研究防辐射服
+RadiationSuits1.description,A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own.,熟练的研究人员需要研究设计并了解防辐射服的工作原理，然后我们才能开始制造自己的防辐射服。
+RadiationSuits2.label,Evaluate components,label,ResearchStepDef/ResearchStepDef.xml,def,Evaluate components,评估组件
+RadiationSuits2.description,A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us.,熟练的工匠需要利用我们可用的资源和工具制定定制防辐射服的计划。
+NuclearResearch1.label,Research reactor technology,label,ResearchStepDef/ResearchStepDef.xml,def,Research reactor technology,研究堆技术
+NuclearResearch1.description,A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own.,熟练的研究人员需要研究设计并了解研究堆的工作原理，然后才能建造自己的研究堆。
+NuclearResearchConstruct.label,Construct a research reactor,label,TestForReactor/TestForReactor.xml,def,Construct a research reactor,建造研究堆
+NuclearResearchConstruct.description,"Construct a research reactor. Colonists will need access to the reactor for experimentation. It is advised to build the reactor in a secure, fireproof lab.",description,TestForReactor/TestForReactor.xml,def,"Construct a research reactor. Colonists will need access to the reactor for experimentation. It is advised to build the reactor in a secure, fireproof lab.",建造一个研究堆。殖民者需要进入反应堆进行实验。建议在安全、防火的实验室中建造反应堆。
+NuclearResearchPractical.label,Research and train,label,ResearchStepDef/ResearchStepDef.xml,def,Research and train,研究和培训
+NuclearResearchPractical.description,Install reactor control software and perform training exercises while testing the reactor's capabilities.,description,ResearchStepDef/ResearchStepDef.xml,def,Install reactor control software and perform training exercises while testing the reactor's capabilities.,安装反应堆控制软件并进行培训练习，同时测试反应堆的能力。
+NuclearReactorResearchPhase.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors,研究核反应堆
+NuclearReactorResearchPhase.description,A skilled researcher needs to study the Rimatomics reactor designs and prepare for the construction of our first power reactor.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the Rimatomics reactor designs and prepare for the construction of our first power reactor.,熟练的研究人员需要研究 Rimatomics 反应堆设计并为建造我们的第一个动力反应堆做好准备。
+NuclearReactorExperiments.label,Experiment with research reactors (High Risk),label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with research reactors (High Risk),研究堆实验（高风险）
+NuclearReactorExperiments.description,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!,熟练的研究人员需要使用研究堆进行实验。这一步有可能会导致灾难性的失败！
+BuildReactorCore.label,Build a reactor core,label,ResearchStepDef/ResearchStepDef.xml,def,Build a reactor core,建造反应堆堆芯
+BuildReactorCore.description,"Build the frame for a nuclear reactor core. Note that once the frame is complete, more work must be done to finish constructing the core. It is highly recommended that the core be built in a containment room to protect colonists during fuel transfer. The thickness of the wall and HP of the materials used determines how much radiation is absorbed. We advise leaving space around the core as the frequency of radiation damage also decreases over distance.",description,ResearchStepDef/ResearchStepDef.xml,def,"Build the frame for a nuclear reactor core. Note that once the frame is complete, more work must be done to finish constructing the core. It is highly recommended that the core be built in a containment room to protect colonists during fuel transfer. The thickness of the wall and HP of the materials used determines how much radiation is absorbed. We advise leaving space around the core as the frequency of radiation damage also decreases over distance.",建造核反应堆堆芯的框架。请注意，框架完成后，必须做更多的工作才能完成核心的构建。强烈建议将核心建造在收容室中，以在燃料传输过程中保护殖民者。壁的厚度和所用材料的 HP 决定了吸收的辐射量。我们建议在核心周围留出空间，因为辐射损伤的频率也会随着距离的增加而降低。
+BuildReactorTurbine.label,Build a turbine generator,label,TestForHeatexchanger/TestForHeatexchanger.xml,def,Build a turbine generator,建造涡轮发电机
+BuildReactorTurbine.description,"The turbine requires a large quantity of turbine blades, which can be manufactured at a Rimatomics machining table.",description,TestForHeatexchanger/TestForHeatexchanger.xml,def,"The turbine requires a large quantity of turbine blades, which can be manufactured at a Rimatomics machining table.",该涡轮机需要大量涡轮叶片，这些叶片可以在 Rimatomics 加工台上制造。
+TestForCore.label,Connect the reactor to the turbine,label,TestForCore/TestForCore.xml,def,Connect the reactor to the turbine,将反应堆连接到涡轮机
+TestForCore.description,"Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors.",description,TestForCore/TestForCore.xml,def,"Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors.",通过在反应堆堆芯和涡轮发电机之间构建（蒸汽管）和（冷水管）将它们连接起来。涡轮机并不危险，可以建在屏蔽室外部，但必须建在室内。
+BuildReactorCooling.label,Build a cooling system,label,TestForCoolingSystem/TestForCoolingSystem.xml,def,Build a cooling system,建立冷却系统
+BuildReactorCooling.description,"Build one of the available cooling systems and connect it to a turbine using (Coolant pipe). There are three available cooling systems>: water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, and radiators have the lowest cooling capacity, but are smaller and cheaper to build and can be placed indoors.",description,TestForCoolingSystem/TestForCoolingSystem.xml,def,"Build one of the available cooling systems and connect it to a turbine using (Coolant pipe). There are three available cooling systems>: water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, and radiators have the lowest cooling capacity, but are smaller and cheaper to build and can be placed indoors.",构建可用的冷却系统之一，并使用（冷却剂管道）将其连接到涡轮机。有三种可用的冷却系统>：水冷却需要河流或大型水体，冷却塔需要大量电力和空间，必须放置在室外，散热器的冷却能力最低，但体积更小，建造成本更低，可以放置在室内。
+BuildTransformer.label,Build a power transformer,label,TestForTranny/TestForTranny.xml,def,Build a power transformer,建造一个电源变压器
+BuildTransformer.description,Build a power transformer and connect it to the turbine using high voltage cables. A single transformer can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.,description,TestForTranny/TestForTranny.xml,def,Build a power transformer and connect it to the turbine using high voltage cables. A single transformer can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.,建造一个电力变压器并使用高压电缆将其连接到涡轮机。单个变压器可将涡轮机产生的高达 200 千瓦的电力转换为可用电力。多个变压器可用于为不同的电网供电。功率限制设置允许您在电网之间重新分配功率输出。
+BuildControlComputer.label,Build a reactor control computer,label,TestForReactorControl/TestForReactorControl.xml,def,Build a reactor control computer,建造反应堆控制计算机
+BuildControlComputer.description,"Build a reactor control computer and connect it to the nuclear reactor core using (Controller loom). This console is used to control reactor cores. They can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls. Multiple controls can be open at the same time.",description,TestForReactorControl/TestForReactorControl.xml,def,"Build a reactor control computer and connect it to the nuclear reactor core using (Controller loom). This console is used to control reactor cores. They can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls. Multiple controls can be open at the same time.",构建反应堆控制计算机并使用（Controller loom）将其连接到核反应堆堆芯。该控制台用于控制反应堆堆芯。它们可以通过分配 ID 与特定核心配对，从而允许您在核心之间进行 锁链 连接。派一名殖民者到空间站操作控制装置。可以同时打开多个控件。
+TestReactor.label,Test the nuclear reactor,label,ResearchStepDef/ResearchStepDef.xml,def,Test the nuclear reactor,测试核反应堆
+TestReactor.description,"Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.",建造或购买核燃料棒，并使用反应堆控制台指定装载槽将其装载到反应堆堆芯中。并排装载至少两个燃料组件以创建链，使用反应堆控制台启动堆芯，然后将控制棒提升到8％或更高以开始收集数据。
+Plutonium1.label,Research plutonium processing,label,ResearchStepDef/ResearchStepDef.xml,def,Research plutonium processing,研究钚加工
+Plutonium1.description,"A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel reprocessing facility.",description,ResearchStepDef/ResearchStepDef.xml,def,"A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel reprocessing facility.",熟练的研究人员需要研究钚处理的工作原理，并最终确定原型燃料后处理设施的设计。
+Plutonium2.label,Construct a Plutonium Processor,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Plutonium Processor,建造钚处理器
+Plutonium2.description,"Construct a Plutonium Processor. To reduce the duration of exposure while handling radioactive fuel, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage. Radiation suits will be required for workers that are moving radioactive fuel.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a Plutonium Processor. To reduce the duration of exposure while handling radioactive fuel, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage. Radiation suits will be required for workers that are moving radioactive fuel.",建造一个钚处理器。为了减少处理放射性燃料时的暴露时间，建议将钚处理器放置在距离反应堆或乏燃料储存处较近的位置。搬运放射性燃料的工人需要穿着防辐射服。
+Plutonium3.label,Experiment with the plutonium processor (High Risk),label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the plutonium processor (High Risk),实验钚处理器（高风险）
+Plutonium3.description,"Experiment with the prototype plutonium processor, ensuring that it is functioning correctly.",description,ResearchStepDef/ResearchStepDef.xml,def,"Experiment with the prototype plutonium processor, ensuring that it is functioning correctly.",对原型钚处理器进行实验，确保其正常运行。
+AdvReactor1.label,Experiment with research reactors (High Risk),label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with research reactors (High Risk),研究堆实验（高风险）
+AdvReactor1.description,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!,熟练的研究人员需要使用研究堆进行实验。这一步有可能会导致灾难性的失败！
+AdvReactor2.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors,研究核反应堆
+AdvReactor2.description,A skilled researcher needs to finalize the design of the advanced reactors before they are ready for construction.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to finalize the design of the advanced reactors before they are ready for construction.,熟练的研究人员需要在先进反应堆准备建造之前完成其设计。
+AdvReactor3.label,Build an advanced reactor core,label,ResearchStepDef/ResearchStepDef.xml,def,Build an advanced reactor core,建造先进的反应堆堆芯
+AdvReactor3.description,Build an advanced nuclear reactor core. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer.,description,ResearchStepDef/ResearchStepDef.xml,def,Build an advanced nuclear reactor core. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer.,建造先进的核反应堆堆芯。强烈建议将核心建造在屏蔽收容室中，以在燃料传输过程中保护殖民者。
+AdvReactor4.label,Test the nuclear reactor,label,ResearchStepDef/ResearchStepDef.xml,def,Test the nuclear reactor,测试核反应堆
+AdvReactor4.description,Power up the advanced reactor and start producing power to gather data.,description,ResearchStepDef/ResearchStepDef.xml,def,Power up the advanced reactor and start producing power to gather data.,启动先进反应堆并开始发电以收集数据。
+RTG1.label,Research RTGs,label,ResearchStepDef/ResearchStepDef.xml,def,Research RTGs,研究 RTG
+RTG1.description,A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own.,在我们开始制造自己的发电机之前，熟练的研究人员需要研究设计并了解放射性同位素热电发电机的工作原理。
+RTG2.label,Create plutonium,label,ResearchStepDef/ResearchStepDef.xml,def,Create plutonium,制造钚
+RTG2.description,"Create some plutonium, which is required to make an RTG. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.",description,ResearchStepDef/ResearchStepDef.xml,def,"Create some plutonium, which is required to make an RTG. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.",制造一些制造 RTG 所需的钚。为此，反应堆中的乏核燃料必须在钚处理器中进行处理。
+RTG3.label,Evaluate components,label,ResearchStepDef/ResearchStepDef.xml,def,Evaluate components,评估组件
+RTG3.description,A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us.,熟练的工匠需要计划如何利用我们可用的资源制造放射性同位素热电发电机所需的组件。
+ICBM1.label,Research nuclear weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear weapons,研究核武器
+ICBM1.description,A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own.,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own.,在我们开始制造自己的核武器之前，熟练的研究人员需要研究设计并了解核武器的工作原理。
+ICBM2.label,Create plutonium,label,ResearchStepDef/ResearchStepDef.xml,def,Create plutonium,制造钚
+ICBM2.description,"Create some plutonium, which is required to make a bomb. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.",description,ResearchStepDef/ResearchStepDef.xml,def,"Create some plutonium, which is required to make a bomb. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.",制造一些制造炸弹所需的钚。为此，反应堆中的乏核燃料必须在钚处理器中进行处理。
+ICBM3.label,Experiment with the research reactor,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the research reactor,研究堆实验
+ICBM3.description,Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon.,description,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon.,在我们尝试制造武器之前，先对研究堆进行实验，以更好地了解核物理。
+ICBM4.label,Construct a weapons console,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a weapons console,建造一个武器控制台
+ICBM4.description,"Construct a weapons console. The weapons console is a manned target acquisition computer required by all energy weapons. It networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real-time ground and air target tracking, and a PPC capacity gauge displays the total stored PPC energy on the net.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a weapons console. The weapons console is a manned target acquisition computer required by all energy weapons. It networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real-time ground and air target tracking, and a PPC capacity gauge displays the total stored PPC energy on the net.",建造一个武器控制台。武器控制台是所有能源武器都需要的载人目标捕获计算机。它与共享同一电网的任何 Rimatomics 能源武器联网，然后使用武器的机载传感器和目标获取系统来检测敌人以分配目标。主显示屏具有实时地面和空中目标跟踪功能，PPC 容量表显示网络上存储的总 PPC 能量。
+ICBM5.label,Construct a Target Acquisition and Communications System (TACS),label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Target Acquisition and Communications System (TACS),构建目标捕获和通信系统（TACS）
+ICBM5.description,"Construct a TACS. The system uses a combination of technologies to track land- and air-based targets. This includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long-range tracking of ballistic missiles.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a TACS. The system uses a combination of technologies to track land- and air-based targets. This includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long-range tracking of ballistic missiles.",构建 TACS。该系统使用多种技术来跟踪陆基和空基目标。这包括活体或机器人目标、迫击炮 炮弹 或轨道炮弹壳等射弹，以及弹道导弹的远程跟踪。
+ICBM6.label,Construct a Liberator,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Liberator,建造一个解放者
+ICBM6.description,Construct a Liberator. It must be connected via power conduit to a weapons console to control the launch systems.,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a Liberator. It must be connected via power conduit to a weapons console to control the launch systems.,建造一个解放者。它必须通过电源导管连接到武器控制台以控制发射系统。
+ICBM7.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+ICBM7.description,"Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum amount of data.",description,ResearchStepDef/ResearchStepDef.xml,def,"Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum amount of data.",向任何目标发射战略导弹以收集数据。收集的数据量取决于发射的成功与否，目标上的成功爆炸会提供最大量的数据。
+EnergyWeapons1.label,Research energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Research energy weapons,研究能源武器
+EnergyWeapons1.description,A skilled researcher needs to study how Rimatomics energy weapons work,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study how Rimatomics energy weapons work,熟练的研究人员需要研究 Rimatomics 能源武器的工作原理
+ConstructWeaponBenchStep.label,Construct a Weapons Research Bench,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Weapons Research Bench,建造武器研究台
+ConstructWeaponBenchStep.description,"Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing, colonists will need access to the bench for experimentation, it is advised to build it in a secure fireproof lab.",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing, colonists will need access to the bench for experimentation, it is advised to build it in a secure fireproof lab.",建造一个武器研究台，配备用于原型设计和测试各种能源武器的专用设备，它是大多数能源武器研究和测试所需的设施，殖民者需要使用该台进行实验，建议将其建造在安全的防火实验室中。
+EnergyWeapExperiments.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+EnergyWeapExperiments.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+EnergyWeapons5.label,Construct a Semi Automated Command Station (SACS),label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Semi Automated Command Station (SACS),建造半自动化指挥站（SACS）
+EnergyWeapons5.description,"Construct a SACS, this console is a target acquisition computer required by all energy weapons, it networks to all Rimatomics energy weapons that share the same power net, then it assigns targets using the onboard sensors of the weapons combined with the Target Acquisition System (TACS).\n\nThe main display features a real time ground target and aerial projectile tracker, and a gauge displays the total stored PPC energy on the net.\nSome weapons require the console to be manned to function, this will be displayed in the inspect tab for the weapon",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a SACS, this console is a target acquisition computer required by all energy weapons, it networks to all Rimatomics energy weapons that share the same power net, then it assigns targets using the onboard sensors of the weapons combined with the Target Acquisition System (TACS).(PH_3)(PH_2)The main display features a real time ground target and aerial projectile tracker, and a gauge displays the total stored PPC energy on the net.(PH_1)Some weapons require the console to be manned to function, this will be displayed in the inspect tab for the weapon","构建一个 SACS，该控制台是所有能量武器所需的目标捕获计算机，它与共享同一电网的所有 Rimatomics 能量武器联网，然后使用武器的机载传感器结合目标捕获系统 (TACS) 来分配目标。
+
+主显示器具有实时地面目标和空中射弹跟踪器，仪表显示上存储的总 PPC 能量。 net.
+某些武器需要控制台有人操作才能运行，这将显示在武器的检查选项卡中"
+EnergyWeapons6.label,Construct a Target Acquisition and Communications System (TACS),label,ResearchStepDef/ResearchStepDef.xml,def,Construct a Target Acquisition and Communications System (TACS),构建目标捕获和通信系统（TACS）
+EnergyWeapons6.description,"Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles. The information is routed to a SACS console where targets are selected and tracking information can be displayed",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles. The information is routed to a SACS console where targets are selected and tracking information can be displayed",构建 TACS。该系统使用多种技术来跟踪陆地和空中目标，包括活体或机器人目标、迫击炮炮弹或轨道炮弹丸等射弹，以及弹道导弹的远程跟踪。信息被路由到 SACS 控制台，在其中选择目标并显示跟踪信息
+EnergyWeapons7.label,Construct a Pulsed Power Container (PPC),label,TestForWeaponsConsole/TestForWeaponsConsole.xml,def,Construct a Pulsed Power Container (PPC),构建脉冲功率容器 (PPC)
+EnergyWeapons7.description,Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.\n\nThese ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays,description,TestForWeaponsConsole/TestForWeaponsConsole.xml,def,Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.(PH_2)(PH_1)These ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays,"构建一个脉冲功率容器 (PPC) 并将其连接到与 SACS 相同的电网。
+
+这些超级电容器比标准电池效率更高，旨在提供 Rimatoomics 能源武器所需的大量电力。它们被安置在防水容器中，并像标准电池一样充满多余的电量。我们建议使用变压器为您的 PPC 和武器阵列创建隔离的电源网"
+ADS1.label,Research the ADS,label,ResearchStepDef/ResearchStepDef.xml,def,Research the ADS,研究ADS
+ADS1.description,A skilled researcher needs to study the designs and learn how the ADS works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the ADS works before we can build our own,在我们构建自己的 ADS 之前，熟练的研究人员需要研究设计并了解 ADS 的工作原理
+ADS2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+ADS2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+ADS4.label,Construct a prototype ADS,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype ADS,构建 ADS 原型
+ADS4.description,Construct a prototype version of the ADS. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the ADS. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,构建 ADS 的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施
+ADS5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+ADS5.description,Test fire the ADS on any living targets to gather weapons data,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the ADS on any living targets to gather weapons data,对任何活动目标试射 ADS 以收集武器数据
+TeslaCoil1.label,Research tesla coils,label,ResearchStepDef/ResearchStepDef.xml,def,Research tesla coils,研究特斯拉线圈
+TeslaCoil1.description,A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own,在我们建造自己的线圈之前，熟练的研究人员需要研究设计并了解特斯拉线圈的工作原理
+TeslaCoil2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+TeslaCoil2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+TeslaCoil4.label,Construct a prototype Tesla Coil,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype Tesla Coil,构建特斯拉线圈原型
+TeslaCoil4.description,Construct a prototype version of the Tesla Coil. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the Tesla Coil. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,构建特斯拉线圈的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施
+TeslaCoil5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+TeslaCoil5.description,Test fire the Tesla coil on any targets to gather weapons data,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Tesla coil on any targets to gather weapons data,在任何目标上测试特斯拉线圈以收集武器数据
+HEL1.label,Research the HEL,label,ResearchStepDef/ResearchStepDef.xml,def,Research the HEL,研究高能激光
+HEL1.description,A skilled researcher needs to study the designs and learn how the HEL works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the HEL works before we can build our own,熟练的研究人员需要研究设计并了解 HEL 的工作原理，然后我们才能构建自己的 HEL
+HEL2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+HEL2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+HEL4.label,Construct a prototype HEL,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype HEL,构建 HEL 原型
+HEL4.description,Construct a prototype version of the HEL. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the HEL. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,构建 HEL 的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施
+HEL5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+HEL5.description,"Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells",description,ResearchStepDef/ResearchStepDef.xml,def,"Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells",在炮弹目标上测试 HEL 来收集武器数据，您可以使用武器控制台更改其目标获取以包括友军 炮弹
+Railgun1.label,Research the Punisher,label,ResearchStepDef/ResearchStepDef.xml,def,Research the Punisher,研究惩罚者
+Railgun1.description,A skilled researcher needs to study the designs and learn how the Punisher works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the Punisher works before we can build our own,熟练的研究人员需要研究设计并了解惩罚者的工作原理，然后我们才能构建自己的惩罚者
+Railgun2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+Railgun2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+Railgun4.label,Construct a prototype Punisher,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype Punisher,构建惩罚者原型
+Railgun4.description,Construct a prototype version of the Punisher. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the Punisher. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,构建惩罚者的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施
+Railgun5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+Railgun5.description,Test fire the Punisher on any targets to gather weapons data. You can craft Sabot rounds at a Rimatomics machining table,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Punisher on any targets to gather weapons data. You can craft Sabot rounds at a Rimatomics machining table,对任何目标试射惩罚者以收集武器数据。您可以在 Rimatomics 加工台上制作 Sabot 弹
+Railgun6.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+Railgun6.description,"Test the fire mission functionality of the Punisher. You must send scouts to another map, then select the prototype Punisher and click Fire Mission",description,ResearchStepDef/ResearchStepDef.xml,def,"Test the fire mission functionality of the Punisher. You must send scouts to another map, then select the prototype Punisher and click Fire Mission",测试惩罚者的火力任务功能。您必须将侦察兵发送到另一张地图，然后选择原型惩罚者并单击Fire Mission
+Obelisk1.label,Research the Obelisk,label,ResearchStepDef/ResearchStepDef.xml,def,Research the Obelisk,研究方尖碑
+Obelisk1.description,A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own,在我们建造自己的方尖碑之前，熟练的研究人员需要研究设计并了解方尖碑的工作原理
+Obelisk2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+Obelisk2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+Obelisk4.label,Construct an Obelisk,label,ResearchStepDef/ResearchStepDef.xml,def,Construct an Obelisk,建造方尖碑
+Obelisk4.description,"Construct a prototype version of the Obelisk, Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing",description,ResearchStepDef/ResearchStepDef.xml,def,"Construct a prototype version of the Obelisk, Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing",建造方尖碑的原型版本，原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施
+Obelisk5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+Obelisk5.description,Test fire the Obelisk on any targets to collect data,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Obelisk on any targets to collect data,测试向任何目标发射方尖碑以收集数据
+Marauder1.label,Research the Marauder,label,ResearchStepDef/ResearchStepDef.xml,def,Research the Marauder,研究掠夺者
+Marauder1.description,A skilled researcher needs to study the designs and learn how the Marauder works before we can build our own,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study the designs and learn how the Marauder works before we can build our own,熟练的研究人员需要研究设计并了解掠夺者的工作原理，然后我们才能建造自己的掠夺者
+Marauder2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+Marauder2.description,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用新武器研究台进行实验，并为未来的项目奠定基础，Rimatomics 能量武器不是 插头 和游戏，必须测试和理解该技术。
+实验步骤可能很危险"
+Marauder4.label,Construct a prototype Marauder,label,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype Marauder,构建掠夺者原型
+Marauder4.description,Construct a prototype version of the Marauder. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,description,ResearchStepDef/ResearchStepDef.xml,def,Construct a prototype version of the Marauder. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing,构建掠夺者的原型版本。原型武器失败的几率很高！建议使用隔离电网并保持安全距离并采取足够的防火措施
+Marauder5.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+Marauder5.description,Test fire the Marauder to gather weapons data.,description,ResearchStepDef/ResearchStepDef.xml,def,Test fire the Marauder to gather weapons data.,试射掠夺者以收集武器数据。
+EnergyShields1.label,Research energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Research energy weapons,研究能源武器
+EnergyShields1.description,A skilled researcher needs to study how Rimatomics energy shields work,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher needs to study how Rimatomics energy shields work,熟练的研究人员需要研究 Rimatomics 能量护罩的工作原理
+EnergyShields2.label,Experiment with energy weapons,label,ResearchStepDef/ResearchStepDef.xml,def,Experiment with energy weapons,能量武器实验
+EnergyShields2.description,"Researchers must perform practical experiments using the weapons research bench, Rimatomics energy shields are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous",description,ResearchStepDef/ResearchStepDef.xml,def,"Researchers must perform practical experiments using the weapons research bench, Rimatomics energy shields are not plug and play and the technology must be tested and understood.(PH_1)Experimentation steps can be dangerous","研究人员必须使用武器研究台进行实际实验，Rimatomics 能量护盾不是 插头 和游戏，并且必须测试和理解该技术。
+实验步骤可能很危险"
+ControlRodActuators1.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors,研究核反应堆
+ControlRodActuators1.description,Experiment with the research reactor and plan tests which can be performed on a live reactor core,description,ResearchStepDef/ResearchStepDef.xml,def,Experiment with the research reactor and plan tests which can be performed on a live reactor core,对研究堆进行实验并计划在运行的反应堆堆芯上进行测试
+ControlRodActuators2.label,Perform 2 reactor SCRAM's,label,ResearchStepDef/ResearchStepDef.xml,def,Perform 2 reactor SCRAM's,执行 2 个反应堆 SCRAM
+ControlRodActuators2.description,Test the control rod system by performing a reactor SCRAM while it is fully fueled and set to 100% power.,description,ResearchStepDef/ResearchStepDef.xml,def,Test the control rod system by performing a reactor SCRAM while it is fully fueled and set to 100% power.,通过在燃料充足并设置为 100% 功率时执行反应堆 SCRAM 来测试控制棒系统。
+ControlRodActuators3.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors,研究核反应堆
+ControlRodActuators3.description,Analyze the data gathered and finalize the designs for the new control rod actuators,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the new control rod actuators,分析收集到的数据并最终确定新控制杆执行器的设计
+ThreatDetection1.label,Research threat detection,label,ResearchStepDef/ResearchStepDef.xml,def,Research threat detection,研究威胁检测
+ThreatDetection1.description,A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis,熟练的研究人员必须计划一系列可以在 TACS 上执行的测试，以收集数据进行分析
+ThreatDetection2.label,Collect data on raids,label,ResearchStepDef/ResearchStepDef.xml,def,Collect data on raids,收集袭击数据
+ThreatDetection2.description,"Collect data from raids, each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model",description,ResearchStepDef/ResearchStepDef.xml,def,"Collect data from raids, each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model",从突袭中收集数据，每次突袭时，都会分析其规模和到达方式，并与传感器数据进行比较，以创建预测模型
+ThreatDetection3.label,Research threat detection,label,ResearchStepDef/ResearchStepDef.xml,def,Research threat detection,研究威胁检测
+ThreatDetection3.description,Analyze the data gathered and finalize the designs for the ATOM,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the ATOM,分析收集到的数据并最终确定 ATOM 的设计
+GuidenceSystem1.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors,研究核反应堆
+GuidenceSystem1.description,A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis,熟练的研究人员必须计划一系列可对战略导弹进行的测试，以收集数据进行分析
+GuidenceSystem2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+GuidenceSystem2.description,"Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum.",description,ResearchStepDef/ResearchStepDef.xml,def,"Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum.",向任意目标发射战略导弹来收集数据，收集的数据量取决于发射的成功与否，在目标上成功引爆可获得最大数据量。
+GuidenceSystem3.label,Research nuclear reactors,label,ResearchStepDef/ResearchStepDef.xml,def,Research nuclear reactors,研究核反应堆
+GuidenceSystem3.description,Analyze the data gathered and finalize the designs for the Guidance System,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the Guidance System,分析收集到的数据并最终确定制导系统的设计
+MEPS1.label,Research MEPS,label,ResearchStepDef/ResearchStepDef.xml,def,Research MEPS,研究最低能效标准
+MEPS1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析
+MEPS2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+MEPS2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.,全功率发射任何 Rimatomics 能量武器来收集数据。
+MEPS3.label,Research MEPS,label,ResearchStepDef/ResearchStepDef.xml,def,Research MEPS,研究最低能效标准
+MEPS3.description,Analyze the data gathered and finalize the designs for the MEPS module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the MEPS module,分析收集到的数据并最终确定 MEPS 模块的设计
+ALC1.label,Research ALC,label,ResearchStepDef/ResearchStepDef.xml,def,Research ALC,研究ALC
+ALC1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析
+ALC2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+ALC2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.,全功率发射任何 Rimatomics 能量武器来收集数据。
+ALC3.label,Research ALC,label,ResearchStepDef/ResearchStepDef.xml,def,Research ALC,研究ALC
+ALC3.description,Analyze the data gathered and finalize the designs for the ALC module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the ALC module,分析收集到的数据并最终确定 ALC 模块的设计
+ERS1.label,Research ERS,label,ResearchStepDef/ResearchStepDef.xml,def,Research ERS,研究 ERS
+ERS1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析
+ERS2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+ERS2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.,全功率发射任何 Rimatomics 能量武器来收集数据。
+ERS3.label,Research ERS,label,ResearchStepDef/ResearchStepDef.xml,def,Research ERS,研究 ERS
+ERS3.description,Analyze the data gathered and finalize the designs for the ERS module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the ERS module,分析收集到的数据并最终确定 ERS ​​模块的设计
+SCAD1.label,Research SCAD,label,ResearchStepDef/ResearchStepDef.xml,def,Research SCAD,研究SCAD
+SCAD1.description,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis,熟练的研究人员必须计划一系列可以在 Rimatomics 能源武器上进行的测试，以收集数据进行分析
+SCAD2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+SCAD2.description,Fire any Rimatomics energy weapon at full power to collect data.,description,ResearchStepDef/ResearchStepDef.xml,def,Fire any Rimatomics energy weapon at full power to collect data.,全功率发射任何 Rimatomics 能量武器来收集数据。
+SCAD3.label,Research SCAD,label,ResearchStepDef/ResearchStepDef.xml,def,Research SCAD,研究SCAD
+SCAD3.description,Analyze the data gathered and finalize the designs for the SCAD module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the SCAD module,分析收集的数据并最终确定 SCAD 模块的设计
+DriveActuator1.label,Research Drive Actuators,label,ResearchStepDef/ResearchStepDef.xml,def,Research Drive Actuators,研究驱动执行器
+DriveActuator1.description,A skilled researcher must experiment at a weapon research bench,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must experiment at a weapon research bench,熟练的研究人员必须在武器研究台上进行实验
+DriveActuator2.label,Research Drive Actuators,label,ResearchStepDef/ResearchStepDef.xml,def,Research Drive Actuators,研究驱动执行器
+DriveActuator2.description,Analyze the data gathered and finalize the designs for the Drive Actuators,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the Drive Actuators,分析收集的数据并最终确定驱动执行器的设计
+Railgun_TargetingChip1.label,Research Targeting chips,label,ResearchStepDef/ResearchStepDef.xml,def,Research Targeting chips,研究靶向芯片
+Railgun_TargetingChip1.description,A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis,熟练的研究人员必须计划一系列可以在轨道炮上进行的测试，以收集数据进行分析
+Railgun_TargetingChip2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+Railgun_TargetingChip2.description,Use the Railgun on any targets to collect data,description,ResearchStepDef/ResearchStepDef.xml,def,Use the Railgun on any targets to collect data,对任何目标使用轨道炮来收集数据
+Railgun_TargetingChip3.label,Research Targeting chips,label,ResearchStepDef/ResearchStepDef.xml,def,Research Targeting chips,研究靶向芯片
+Railgun_TargetingChip3.description,Analyze the data gathered and finalize the designs for the targeting chip,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the targeting chip,分析收集到的数据并最终确定目标芯片的设计
+LenseModule1.label,Research Lens Modules,label,ResearchStepDef/ResearchStepDef.xml,def,Research Lens Modules,研究镜头模块
+LenseModule1.description,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis,熟练的研究人员必须计划一系列可以在方尖碑上进行的测试，以收集数据进行分析
+LenseModule2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+LenseModule2.description,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each shot",description,ResearchStepDef/ResearchStepDef.xml,def,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each shot",在任何目标上使用方尖碑来收集数据，获得的数据量根据每次射击的伤害百分比而定
+LenseModule3.label,Research Lens Modules,label,ResearchStepDef/ResearchStepDef.xml,def,Research Lens Modules,研究镜头模块
+LenseModule3.description,Analyze the data gathered and finalize the designs for the lens module,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the lens module,分析收集到的数据并最终确定镜头模块的设计
+BeamSplitter1.label,Research Beam Splitters,label,ResearchStepDef/ResearchStepDef.xml,def,Research Beam Splitters,研究分束器
+BeamSplitter1.description,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis,description,ResearchStepDef/ResearchStepDef.xml,def,A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis,熟练的研究人员必须计划一系列可以在方尖碑上进行的测试，以收集数据进行分析
+BeamSplitter2.label,Gather weapons data,label,ResearchStepDef/ResearchStepDef.xml,def,Gather weapons data,收集武器数据
+BeamSplitter2.description,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each burst.",description,ResearchStepDef/ResearchStepDef.xml,def,"Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each burst.",在任何目标上使用方尖碑来收集数据，获得的数据量根据每次爆发所用的伤害百分比进行缩放。
+BeamSplitter3.label,Research Beam Splitters,label,ResearchStepDef/ResearchStepDef.xml,def,Research Beam Splitters,研究分束器
+BeamSplitter3.description,Analyze the data gathered and finalize the designs for the beam splitter device,description,ResearchStepDef/ResearchStepDef.xml,def,Analyze the data gathered and finalize the designs for the beam splitter device,分析收集的数据并最终确定分束器装置的设计
+NuclearFuelNew.label,Allow New Fuel,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow New Fuel,允许使用新燃料
+NuclearFuelNew.description,Allow new fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow new fuel to be stored here.,允许将新燃料储存在这里。
+NuclearFuelUsed.label,Allow Used Fuel,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Used Fuel,允许使用过的燃料
+NuclearFuelUsed.description,Allow used fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow used fuel to be stored here.,允许将用过的燃料储存在这里。
+NuclearFuelCracked.label,Allow Cracked,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Cracked,允许破解
+NuclearFuelCracked.description,Allow cracked fuel rods to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow cracked fuel rods to be stored here.,允许将破裂的燃料棒存放在这里。
+NuclearFuelNotCracked.label,Allow Non Cracked,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Non Cracked,允许非破解
+NuclearFuelNotCracked.description,Allow non cracked fuel rods to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow non cracked fuel rods to be stored here.,允许将未破裂的燃料棒存放在这里。
+NuclearFuelProcessable.label,Allow Processable,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Processable,允许可处理
+NuclearFuelProcessable.description,Allow processable fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow processable fuel to be stored here.,允许将可加工的燃料储存在这里。
+NuclearFuelNotProcessable.label,Allow Non Processable,label,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow Non Processable,允许不可处理
+NuclearFuelNotProcessable.description,Allow non processable fuel to be stored here.,description,SpecialThingFilterDef/SpecialThingFilterDef.xml,def,Allow non processable fuel to be stored here.,允许在此储存不可加工的燃料。
+Radiation.label,radiation sensitivity,label,StatDef/StatDef.xml,def,radiation sensitivity,辐射敏感性
+Radiation.description,Multiplier on the impact of radiation buildup on this character.,description,StatDef/StatDef.xml,def,Multiplier on the impact of radiation buildup on this character.,辐射累积对该角色影响的乘数。
+CraftingResearchSpeed.label,Crafting research speed,label,StatDef/StatDef.xml,def,Crafting research speed,制作研究速度
+CraftingResearchSpeed.description,This person does Crafting research at this speed.,description,StatDef/StatDef.xml,def,This person does Crafting research at this speed.,这个人以这种速度进行工艺研究。
+ConstructionResearchSpeed.label,Construction research speed,label,StatDef/StatDef.xml,def,Construction research speed,建设研究速度
+ConstructionResearchSpeed.description,This person does Construction research at this speed.,description,StatDef/StatDef.xml,def,This person does Construction research at this speed.,这个人以这种速度进行建筑研究。
+TransformerExplosion.label,Transformer Explosion,label,IncidentDef/IncidentDef.xml,def,Transformer Explosion,变压器爆炸
+TransformerExplosion.letterLabel,Transformer Explosion,letterLabel,IncidentDef/IncidentDef.xml,def,Transformer Explosion,变压器爆炸
+TransformerExplosion.letterText,Overcurrent in a transformer has caused the circuits to fry.,letterText,IncidentDef/IncidentDef.xml,def,Overcurrent in a transformer has caused the circuits to fry.,变压器过电流导致电路烧毁。
+notNothing.label,?,label,IncidentDef/IncidentDef.xml,def,?,？
+notNothing.letterLabel,?,letterLabel,IncidentDef/IncidentDef.xml,def,?,？
+notNothing.letterText,?,letterText,IncidentDef/IncidentDef.xml,def,?,？
+BuildingsNuclear.label,nuclear,label,ThingCategoryDef/ThingCategoryDef.xml,def,nuclear,核
+NuclearWaste.label,nuclear waste,label,ThingCategoryDef/ThingCategoryDef.xml,def,nuclear waste,核废料
+NuclearFuel.label,nuclear fuel,label,ThingCategoryDef/ThingCategoryDef.xml,def,nuclear fuel,核燃料
+RimatomicsProduct.label,Rimatomics Product,label,ThingCategoryDef/ThingCategoryDef.xml,def,Rimatomics Product,Rimatomics产品
+SabotRounds.label,Sabot Rounds,label,ThingCategoryDef/ThingCategoryDef.xml,def,Sabot Rounds,木托弹
+Hazmat.label,hazmat,label,ThingCategoryDef/ThingCategoryDef.xml,def,hazmat,危险品
+Mopp.label,mopp,label,ThingCategoryDef/ThingCategoryDef.xml,def,mopp,拖把
+coolingPipe.label,coolant pipe,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,coolant pipe,冷却液管
+coolingPipe.description,Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.,用于将冷却剂从涡轮机泵送到冷却系统的管道。可以放置在墙壁和其他建筑物下。
+coolingPipeHidden.label,coolant pipe (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,coolant pipe (hidden),冷却液管（隐藏式）
+coolingPipeHidden.description,Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.,用于将冷却剂从涡轮机泵送到冷却系统的隐藏管道。可以放置在墙壁和其他建筑物下。
+coolantValve.label,Coolant valve,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Coolant valve,冷却液阀
+coolantValve.description,Opens or closes connections between coolant pipes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Opens or closes connections between coolant pipes.,打开或关闭冷却剂管道之间的连接。
+steamPipe.label,Steam pipe,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Steam pipe,蒸汽管
+steamPipe.description,Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.,用于将高压蒸汽从反应堆泵送到涡轮机的管道。可以放置在墙壁和其他建筑物下。
+steamPipeHidden.label,steam water pipe (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,steam water pipe (hidden),蒸汽水管（隐藏式）
+steamPipeHidden.description,Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.,用于将高压蒸汽从反应堆泵送到涡轮机的隐藏管道。可以放置在墙壁和其他建筑物下。
+steamValve.label,Steam valve,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Steam valve,蒸汽阀
+steamValve.description,Opens or closes connections between steam pipes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Opens or closes connections between steam pipes.,打开或关闭蒸汽管道之间的连接。
+waterPipe.label,cold water pipe,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,cold water pipe,冷水管
+waterPipe.description,Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.,用于将冷水从涡轮机或热交换器泵回核心的管道。可以放置在墙壁和其他建筑物下。
+waterPipeHidden.label,cold water pipe (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,cold water pipe (hidden),冷水管（隐藏式）
+waterPipeHidden.description,Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.,用于将冷水从涡轮机或热交换器抽回核心的隐藏管道。可以放置在墙壁和其他建筑物下。
+waterValve.label,Cold water valve,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Cold water valve,冷水阀
+waterValve.description,Opens or closes connections between cold water pipes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Opens or closes connections between cold water pipes.,打开或关闭冷水管之间的连接。
+HighVoltage.label,High Voltage,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,High Voltage,高压
+HighVoltage.description,Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.,用于将高压电力从涡轮机传输到变压器的电缆。可以放置在墙壁和其他建筑物下。
+HighVoltageHidden.label,high voltage (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,high voltage (hidden),高压（隐藏）
+HighVoltageHidden.description,Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.,用于将高压电力从涡轮机传输到变压器的隐藏电缆。可以放置在墙壁和其他建筑物下。
+controllerLoom.label,Console Loom,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Console Loom,控制台织机
+controllerLoom.description,Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.,用于在核心和控制台之间传输信号的布线器。可以放置在墙壁和其他建筑物下。
+controllerLoomHidden.label,console loom (hidden),label,RimatomicsThingDef/RimatomicsThingDef.xml,def,console loom (hidden),控制台织机（隐藏）
+controllerLoomHidden.description,Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.,用于在核心和控制台之间传输信号的隐藏布线器。可以放置在墙壁和其他建筑物下。
+NuclearResearchBench.label,Rimatomics research bench,label,ThingDef/ThingDef.xml,def,Rimatomics research bench,Rimatomics研究台
+NuclearResearchBench.description,Contains Rimatomics research projects. Requires power.,description,ThingDef/ThingDef.xml,def,Contains Rimatomics research projects. Requires power.,包含 Rimatomics 研究项目。需要电源。
+TableRimatomicsMachining.label,Rimatomics machining table,label,ThingDef/ThingDef.xml,def,Rimatomics machining table,Rimatomics 加工台
+TableRimatomicsMachining.description,A work station for assembling Rimatomics technologies,description,ThingDef/ThingDef.xml,def,A work station for assembling Rimatomics technologies,用于 组装 Rimatomics 技术的工作站
+ResearchReactor.label,Research Reactor,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Research Reactor,研究堆
+ResearchReactor.description,Research reactor.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Research reactor.,研究堆。
+WeaponsBench.label,Weapons Research Bench,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Weapons Research Bench,武器研究台
+WeaponsBench.description,Weapons research bench.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Weapons research bench.,武器研究台。
+PlutoniumProcessor.label,Plutonium Processor,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Plutonium Processor,钚处理器
+PlutoniumProcessor.description,A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.,使用化学品从乏核燃料中分离可裂变钚的机器。
+RimatomicsRTG.label,R.T.G,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,R.T.G,RTG
+RimatomicsRTG.description,An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.,一种发电机，使用一系列热电偶将适当放射性材料衰变释放的热量转化为电能。
+ReactorCoreA.label,Reactor Type A,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reactor Type A,A型反应器
+ReactorCoreA.description,Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated,Rimatomics热反应堆堆芯具有21个燃料组件的能力。反应堆堆芯包含发生核反应并产生热量的燃料成分
+ReactorCoreB.label,Reactor Type X,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reactor Type X,X 型反应器
+ReactorCoreB.description,An advanced breeder reactor design which can generate more fissile material than it consumes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,An advanced breeder reactor design which can generate more fissile material than it consumes.,先进的增殖反应堆设计，可产生比消耗的更多的裂变材料。
+ReactorCoreC.label,Reactor Type V,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reactor Type V,V 型反应器
+ReactorCoreC.description,A massive advanced breeder reactor design which can generate more fissile material than it consumes.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A massive advanced breeder reactor design which can generate more fissile material than it consumes.,大型先进增殖反应堆设计，可产生比消耗的裂变材料更多的裂变材料。
+Turbine.label,Thor Turbine,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Thor Turbine,雷神涡轮机
+Turbine.description,A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts,由蒸汽驱动的涡轮机带动发电机发电。雷神的最大功率输出为 100 千瓦
+BigTurbine.label,Zeus Turbine,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Zeus Turbine,宙斯涡轮机
+BigTurbine.description,A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt,由蒸汽驱动的涡轮机带动发电机发电。 Zeus 的最大功率输出为 1 兆瓦
+CoolingRadiator.label,Radiator,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Radiator,散热器
+CoolingRadiator.description,Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.\n25kW cooling capacity,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.(PH_1)25kW cooling capacity,"Small 空气冷却器，设计用于在资源或空间有限的情况下为小型核反应堆提供冷却。
+25kW 冷却能力"
+CoolingWater.label,Water Cooling,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Water Cooling,水冷
+CoolingWater.description,"Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.\n250kW cooling capacity",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.(PH_1)250kW cooling capacity","利用河流、湖泊或海洋中的冷水为核反应堆提供大量冷却。
+250kW 冷却能力"
+CoolingTower.label,Cooling Tower,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Cooling Tower,冷却塔
+CoolingTower.description,Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.\n250kW cooling capacity,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.(PH_1)250kW cooling capacity,"超大型空气冷却器，旨在在没有天然水体的情况下为核反应堆提供大量冷却。
+250kW 冷却能力"
+Transformer.label,High Voltage Transformer,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,High Voltage Transformer,高压变压器
+Transformer.description,"Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits",提供来自涡轮发电机的最终电压变换，将高压线路中使用的电压降低到电力管道使用的水平
+ReactorControl.label,reactor console,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,reactor console,反应堆控制台
+ReactorControl.description,"Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time",设计用于控制核反应堆的计算机系统。派遣一名殖民者来操作空间站以访问控件，可以同时打开多个控件
+storagePool.label,Storage Pool,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Storage Pool,存储池
+storagePool.description,"A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used",用于安全储存废核燃料棒的储存池，池中的水会吸收辐射，燃料必须手动从池中取出才能使用
+RadiationDetector.label,Radiation Detector,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Radiation Detector,辐射探测器
+RadiationDetector.description,"Radiation detector, can be placed near reactors to detect radiation leaks",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Radiation detector, can be placed near reactors to detect radiation leaks",辐射探测器，可放置在反应堆附近以检测辐射泄漏
+RadiationShielding.label,Reinforced DU Wall,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Reinforced DU Wall,强化 DU 墙
+RadiationShielding.description,"Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation",非常坚固的墙，用贫铀加固，提供全面的辐射屏蔽
+ReactorSacrophagus.label,Sarcophagus Type A,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sarcophagus Type A,A型石棺
+ReactorSacrophagusB.label,Sarcophagus Type X,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sarcophagus Type X,X型石棺
+ReactorSacrophagusC.label,Sarcophagus Type V,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sarcophagus Type V,V型石棺
+DU_Blastdoor.label,DU Blast door,label,ThingDef/ThingDef.xml,def,DU Blast door,DU 爆炸
+DU_Blastdoor.description,"Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.",description,ThingDef/ThingDef.xml,def,"Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.",非常坚固的防爆门，用贫铀加固，提供全面的辐射屏蔽。
+PPC.label,PPC,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,PPC,个人电脑
+PPC.description,"The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons",RA-P3 脉冲功率电容器在一组超级电容器中存储大量能量，这些超级电容器可以通过兼容的 Rimatomics 能量武器在单脉冲中放电
+PPCWeaponsConsole.label,SACS,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,SACS,萨克斯
+PPCWeaponsConsole.description,"The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.",所有 Rimatomics 能源武器都需要 RA-c85 半自动指挥站，可能需要人员配备才能使某些武器充分发挥作用。
+RadarDish.label,TACS,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,TACS,塔塔控制系统
+RadarDish.description,"The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.",RA-92 目标捕获和通信系统采用多种技术来跟踪陆地和空中目标并与武器系统进行通信。
+PPCADS.label,ADS,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,ADS,ADS
+PPCADS.description,"The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.",RA-22 主动拒止系统 (ADS) 是一种非致命定向能武器，专为区域拒止和人群控制而设计。它会加热目标人类对象的皮肤，导致他们破坏秩序并逃跑。不需要视线。需要有人值守的 SACS。
+ADS_Dish.label,ADS Dish,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,ADS Dish,ADS 盘
+ADS_Dish.description,ADS Dish.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,ADS Dish.,ADS 菜。
+PPCTeslaCoil.label,Tesla Coil,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Tesla Coil,特斯拉线圈
+PPCTeslaCoil.description,"The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.",RA-42T 特斯拉线圈向目标发出巨大的电弧放电，导致严重烧伤或死亡。 100% 准确，中等射程，可点燃目标。自动瞄准和射击。手动瞄准需要载人 SACS。
+Tesla_Coil_Arc_Discharger.label,Tesla Coil Arc Discharger,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Tesla Coil Arc Discharger,特斯拉线圈电弧放电器
+Tesla_Coil_Arc_Discharger.description,Tesla Coil Arc Discharger.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Tesla Coil Arc Discharger.,特斯拉线圈电弧放电器。
+PPCHEL.label,HEL,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,HEL,赫尔
+PPCHEL.description,"The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range.",RA-702 高能激光器 (HEL) 可以摧毁敌人的空中射弹，例如迫击炮 炮弹。当迫击炮发射时，系统将检查 炮弹 是否会穿过 HEL 的射程，并尝试跟踪目标并在目标进入射程后开火。
+HEL_Laser.label,HEL Laser,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,HEL Laser,高能激光
+HEL_Laser.description,HEL Laser.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,HEL Laser.,高能激光。
+PPCRailgun.label,Punisher,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Punisher,惩罚者
+PPCRailgun.description,The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.,RA-1802D Punisher 是一款 25 发弹匣供弹轨道炮平台，它使用大电磁脉冲以极高的速度和射程发射弹壳弹丸。需要视线。火力任务不需要视线。手动瞄准需要载人 SACS。需要有人值守的 SACS。
+Railgun_Cannon.label,Punisher Railgun,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Punisher Railgun,惩罚者磁轨炮
+Railgun_Cannon.description,Railgun Railgun.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Railgun Railgun.,轨道炮 轨道炮。
+PPCObelisk.label,Obelisk,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Obelisk,方尖碑
+PPCObelisk.description,The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting,RA-2152-X 方尖碑是一种定向能武器，使用聚焦固态激光来蒸发目标。 100% 准确，射程远，威力强大。自动瞄准和射击。手动瞄准所需的载人 SACS
+Obelisk_Laser.label,Obelisk Laser,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Obelisk Laser,方尖碑激光
+Obelisk_Laser.description,Obelisk Laser.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Obelisk Laser.,方尖碑激光。
+PPCMarauder.label,Marauder,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Marauder,掠夺者
+PPCMarauder.description,"The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS.",RA-3b 掠夺者是一种多管同轴等离子轨道炮平台，大电磁脉冲以极快的速度发射一系列加速等离子环形线圈，造成爆炸性辐射发射影响。需要有人值守的 SACS。
+Marauder_Railgun.label,Marauder Railgun,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Marauder Railgun,掠夺者磁轨炮
+Marauder_Railgun.description,Marauder Railgun.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,Marauder Railgun.,掠夺者磁轨炮。
+Bullet_PlasmaToroid.label,Plasma Toroid,label,ThingDef/ThingDef.xml,def,Plasma Toroid,等离子环形线圈
+RimatomicsShieldGenerator.label,Sentinel,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Sentinel,哨兵
+RimatomicsShieldGenerator.description,"The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer.",RA-S4 Sentinel 是一种能量护盾，它结合使用激光、微波和电弧放电来产生等离子体场，可以拦截基于物理或能量的射弹武器。传感器检测产生冲击波的事件，确定冲击波相对于防御目标的方向和距离，并计算射击计划，然后该设备利用反射、折射、色散、吸收和动量传递来衰减冲击波事件。
+MissileSilo.label,Liberator,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,Liberator,救星
+MissileSilo.description,The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.,description,RimatomicsThingDef/RimatomicsThingDef.xml,def,The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.,RA-1776b 解放者是一种独立的一体化战略导弹制造和发射设施，具有 5 个导弹弹匣容量。需要有人值守的 SACS 才能发挥作用。
+notReal.label,notReal,label,ThingDef/ThingDef.xml,def,notReal,不真实
+RocketEngine.label,Rocket Engine,label,ThingDef/ThingDef.xml,def,Rocket Engine,火箭发动机
+RocketEngine.description,Engines for building rocket propelled machines.,description,ThingDef/ThingDef.xml,def,Engines for building rocket propelled machines.,用于建造火箭推进机器的发动机。
+MissileFuselage.label,Missile Fuselage,label,ThingDef/ThingDef.xml,def,Missile Fuselage,导弹机身
+MissileFuselage.description,Fuselage for building strategic missiles.,description,ThingDef/ThingDef.xml,def,Fuselage for building strategic missiles.,用于建造战略导弹的机身。
+FissionWarhead.label,Nuclear Warhead,label,ThingDef/ThingDef.xml,def,Nuclear Warhead,核弹头
+FissionWarhead.description,An explosive device that derives its destructive force from nuclear reactions.,description,ThingDef/ThingDef.xml,def,An explosive device that derives its destructive force from nuclear reactions.,一种从核反应中产生破坏力的爆炸装置。
+ICBM_Fission.label,strategic missile,label,ThingDef/ThingDef.xml,def,strategic missile,战略导弹
+NuclearWarheadIncoming.label,warhead incoming,label,ThingDef/ThingDef.xml,def,warhead incoming,弹头来袭
+ICBMStrike.label,strategic missile strike,label,ThingDef/ThingDef.xml,def,strategic missile strike,战略导弹打击
+turbineBlade.label,Turbine Blades,label,ThingDef/ThingDef.xml,def,Turbine Blades,涡轮叶片
+turbineBlade.description,Used to construct generators.,description,ThingDef/ThingDef.xml,def,Used to construct generators.,用于构造发电机。
+UraniumPellets.label,Uranium Pellets,label,ThingDef/ThingDef.xml,def,Uranium Pellets,铀弹丸
+UraniumPellets.description,Pellets of uranium used in the construction of nuclear fuel rods.,description,ThingDef/ThingDef.xml,def,Pellets of uranium used in the construction of nuclear fuel rods.,用于建造核燃料棒的铀颗粒。
+Plutonium.label,plutonium,label,ThingDef/ThingDef.xml,def,plutonium,钚
+Plutonium.description,A case of plutonium used to create nuclear weapons or nuclear fuel rods.,description,ThingDef/ThingDef.xml,def,A case of plutonium used to create nuclear weapons or nuclear fuel rods.,一箱用于制造核武器或核燃料棒的钚。
+DepletedUraniumPellets.label,Depleted Uranium,label,ThingDef/ThingDef.xml,def,Depleted Uranium,贫铀
+DepletedUraniumPellets.description,Pellets of depleted uranium used in the construction of nuclear fuel rods.,description,ThingDef/ThingDef.xml,def,Pellets of depleted uranium used in the construction of nuclear fuel rods.,用于建造核燃料棒的贫铀颗粒。
+FuelRods.label,fuel rods,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,fuel rods,燃料棒
+FuelRods.description,"A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.",一组充满铀颗粒的棒，当装入反应堆堆芯时，它们会产生热量，可用于驱动涡轮机。
+FuelRodsMOX.label,fuel rods MOX,label,RimatomicsThingDef/RimatomicsThingDef.xml,def,fuel rods MOX,燃料棒MOX
+FuelRodsMOX.description,"A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.",description,RimatomicsThingDef/RimatomicsThingDef.xml,def,"A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.",一组充满铀和钚混合物的棒，当装入反应堆堆芯时，它们会产生热量，可用于驱动涡轮机。
+ChunkRadioactiveSlag.label,radioactive slag chunk,label,ThingDef/ThingDef.xml,def,radioactive slag chunk,放射性渣块
+NuclearWaste.description,A drum of nuclear waste.,description,ThingDef/ThingDef.xml,def,A drum of nuclear waste.,一桶核废料。
+ThrownSlag.label,ThrownSlag,label,ThingDef/ThingDef.xml,def,ThrownSlag,抛渣
+Apparel_RadiationMask.label,radiation mask,label,ThingDef/ThingDef.xml,def,radiation mask,防辐射面罩
+Apparel_RadiationMask.description,"Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.",description,ThingDef/ThingDef.xml,def,"Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.",通过衬里屏蔽来防止辐射，但更重要的是防止直接接触或吸入放射性颗粒或气体。
+Apparel_MoppMaskDesert.label,MOPP mask(Desert),label,ThingDef/ThingDef.xml,def,MOPP (PH_1),澳门币 mask(Desert)
+Apparel_MoppMaskWoodland.label,MOPP mask(Woodland),label,ThingDef/ThingDef.xml,def,MOPP (PH_1),澳门币 mask(Woodland)
+Apparel_MoppMaskSnow.label,MOPP mask(Snow),label,ThingDef/ThingDef.xml,def,MOPP (PH_1),澳门币 mask(Snow)
+Apparel_RadiationSuit.label,radiation suit,label,ThingDef/ThingDef.xml,def,radiation suit,防辐射服
+Apparel_RadiationSuit.description,A suit that protects against radiation through shielding in the lining.,description,ThingDef/ThingDef.xml,def,A suit that protects against radiation through shielding in the lining.,一种通过衬里屏蔽来防止辐射的防护服。
+Apparel_MoppSuitDesert.label,MOPP suit(Desert),label,ThingDef/ThingDef.xml,def,MOPP (PH_1),澳门币 suit(Desert)
+Apparel_MoppSuitWoodland.label,MOPP suit(Woodland),label,ThingDef/ThingDef.xml,def,MOPP (PH_1),澳门币 suit(Woodland)
+Apparel_MoppSuitSnow.label,MOPP suit(Snow),label,ThingDef/ThingDef.xml,def,MOPP (PH_1),澳门币 suit(Snow)
+RailgunSabot.label,Sabot Round,label,ThingDef/ThingDef.xml,def,Sabot Round,圆形木托
+RailgunSabot.description,A kinetic energy projectile fired from a railgun.,description,ThingDef/ThingDef.xml,def,A kinetic energy projectile fired from a railgun.,从轨道炮发射的动能弹丸。
+Bullet_Sabot.label,Sabot Round,label,ThingDef/ThingDef.xml,def,Sabot Round,圆形木托
+RailgunSabotDU.label,DU Sabot Round,label,ThingDef/ThingDef.xml,def,DU Sabot Round,DU Sabot 圆形
+RailgunSabotDU.description,"A kinetic energy projectile fired from a railgun, inert and safe to stockpile.",description,ThingDef/ThingDef.xml,def,"A kinetic energy projectile fired from a railgun, inert and safe to stockpile.",从轨道炮发射的动能弹丸，惰性且可以安全储存。
+Bullet_Sabot_DU.label,DU Sabot Round,label,ThingDef/ThingDef.xml,def,DU Sabot Round,DU Sabot 圆形
+SabotRoundIncoming.label,sabot incoming,label,ThingDef/ThingDef.xml,def,sabot incoming,木板传入
+DUSabotRoundIncoming.label,DU sabot incoming,label,ThingDef/ThingDef.xml,def,DU sabot incoming,DU 木棍来袭
+UnfinishedRimatomics.label,unfinished Rimatomics item,label,ThingDef/ThingDef.xml,def,unfinished Rimatomics item,未完成的 Rimatomics 项目
+UnfinishedRimatomics.description,An unfinished Rimatomics item.,description,ThingDef/ThingDef.xml,def,An unfinished Rimatomics item.,未完成的 Rimatomics 项目。
+ControlRodActuator.label,Control Rod Actuator,label,ThingDef/ThingDef.xml,def,Control Rod Actuator,控制杆执行器
+ControlRodActuator.description,Upgrade parts for the Rimatomics nuclear reactor,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics nuclear reactor,Rimatoomics 核反应堆的升级部件
+ATOM.label,ATOM,label,ThingDef/ThingDef.xml,def,ATOM,原子
+ATOM.description,Upgrade module for TACS,description,ThingDef/ThingDef.xml,def,Upgrade module for TACS,TACS升级模块
+SCAD.label,SCAD,label,ThingDef/ThingDef.xml,def,SCAD,计算机辅助设计
+SCAD.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons,Rimatomics 能源武器的升级部件
+MEPS.label,MEPS,label,ThingDef/ThingDef.xml,def,MEPS,最低能效标准
+MEPS.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons,Rimatomics 能源武器的升级部件
+ALC.label,ALC,label,ThingDef/ThingDef.xml,def,ALC,ALC
+ALC.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons,Rimatomics 能源武器的升级部件
+ERS.label,ERS,label,ThingDef/ThingDef.xml,def,ERS,急诊室
+ERS.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons,Rimatomics 能源武器的升级部件
+DriveActuator.label,Drive Actuator,label,ThingDef/ThingDef.xml,def,Drive Actuator,驱动执行器
+DriveActuator.description,Upgrade parts for Rimatomics energy weapons,description,ThingDef/ThingDef.xml,def,Upgrade parts for Rimatomics energy weapons,Rimatomics 能源武器的升级部件
+TargetingChip.label,Targeting Chip,label,ThingDef/ThingDef.xml,def,Targeting Chip,靶向芯片
+TargetingChip.description,Upgrade parts for the Rimatomics Railgun,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics Railgun,Rimatomics 轨道炮的升级部件
+BeamSplitter.label,Beam Splitter,label,ThingDef/ThingDef.xml,def,Beam Splitter,分光镜
+BeamSplitter.description,Upgrade parts for the Rimatomics Obelisk.,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics Obelisk.,Rimatomics 方尖碑的升级零件。
+LenseModule.label,Lens Module,label,ThingDef/ThingDef.xml,def,Lens Module,镜头模组
+LenseModule.description,Upgrade parts for the Rimatomics Obelisk.,description,ThingDef/ThingDef.xml,def,Upgrade parts for the Rimatomics Obelisk.,Rimatomics 方尖碑的升级零件。
+Abducted.stages.0.label,I cant explain it.,label,ThoughtDef/ThoughtDef.xml,def,I cant explain it.,我无法解释。
+Abducted.stages.0.description,"Something happened last night, I don't know where I was!",description,ThoughtDef/ThoughtDef.xml,def,"Something happened last night, I don't know where I was!",昨晚发生了一些事情，我不知道我在哪里！
+Orbital_Rimatomics.label,military industrial trader,label,TraderKindDef/TraderKindDef.xml,def,military industrial trader,军事工业贸易商
+LoadRailgunMagazine.label,Load sabot rounds,label,WorkGiverDef/WorkGiverDef.xml,def,Load sabot rounds,装载弹壳弹
+LoadRailgunMagazine.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load,加载
+LoadRailgunMagazine.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading,加载中
+LoadSilo.label,Load silo,label,WorkGiverDef/WorkGiverDef.xml,def,Load silo,装载筒仓
+LoadSilo.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load,加载
+LoadSilo.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading,加载中
+LoadFuelModule.label,Load fuel,label,WorkGiverDef/WorkGiverDef.xml,def,Load fuel,装载燃油
+LoadFuelModule.verb,load fuel into,verb,WorkGiverDef/WorkGiverDef.xml,def,load fuel into,将燃油装入
+LoadFuelModule.gerund,loading fuel into,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading fuel into,将燃料装入
+LoadSpentFuel.label,Load spent fuel,label,WorkGiverDef/WorkGiverDef.xml,def,Load spent fuel,装载乏燃料
+LoadSpentFuel.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load,加载
+LoadSpentFuel.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading,加载中
+LoadProcChemFuel.label,Load chemfuel,label,WorkGiverDef/WorkGiverDef.xml,def,Load chemfuel,加载化学燃料
+LoadProcChemFuel.verb,load,verb,WorkGiverDef/WorkGiverDef.xml,def,load,加载
+LoadProcChemFuel.gerund,loading,gerund,WorkGiverDef/WorkGiverDef.xml,def,loading,加载中
+UnloadPlutonium.label,Remove plutonium,label,WorkGiverDef/WorkGiverDef.xml,def,Remove plutonium,去除钚
+UnloadPlutonium.verb,unload,verb,WorkGiverDef/WorkGiverDef.xml,def,unload,卸下
+UnloadPlutonium.gerund,unloading,gerund,WorkGiverDef/WorkGiverDef.xml,def,unloading,卸货
+RemoveFuelModule.label,Remove fuel,label,WorkGiverDef/WorkGiverDef.xml,def,Remove fuel,去除燃油
+RemoveFuelModule.verb,remove fuel from,verb,WorkGiverDef/WorkGiverDef.xml,def,remove fuel from,去除燃料
+RemoveFuelModule.gerund,removing fuel from,gerund,WorkGiverDef/WorkGiverDef.xml,def,removing fuel from,去除燃料
+UpgradeBuilding.label,Upgrade Rimatomics buildings,label,WorkGiverDef/WorkGiverDef.xml,def,Upgrade Rimatomics buildings,升级 Rimatomics 建筑
+UpgradeBuilding.verb,Upgrade,verb,WorkGiverDef/WorkGiverDef.xml,def,Upgrade,升级
+UpgradeBuilding.gerund,upgrading,gerund,WorkGiverDef/WorkGiverDef.xml,def,upgrading,升级
+DoBillsTableNuclear.label,Do bills at nuclear machining table,label,WorkGiverDef/WorkGiverDef.xml,def,Do bills at nuclear machining table,在核加工台上做帐单
+DoBillsTableNuclear.verb,work,verb,WorkGiverDef/WorkGiverDef.xml,def,work,工作
+DoBillsTableNuclear.gerund,working at,gerund,WorkGiverDef/WorkGiverDef.xml,def,working at,工作于
+RimatomicsCrafting.label,Do research,label,WorkGiverDef/WorkGiverDef.xml,def,Do research,做研究
+RimatomicsCrafting.verb,research,verb,WorkGiverDef/WorkGiverDef.xml,def,research,研究
+RimatomicsCrafting.gerund,researching at,gerund,WorkGiverDef/WorkGiverDef.xml,def,researching at,研究于
+RimatomicsResearch.label,Do rimatomics research,label,WorkGiverDef/WorkGiverDef.xml,def,Do rimatomics research,进行 Rimatomics 研究
+RimatomicsResearch.verb,rimatomics research,verb,WorkGiverDef/WorkGiverDef.xml,def,rimatomics research,病毒组学研究
+RimatomicsResearch.gerund,researching at,gerund,WorkGiverDef/WorkGiverDef.xml,def,researching at,研究于
+RimatomicsSuperviseResearch.label,Do Supervise research,label,WorkGiverDef/WorkGiverDef.xml,def,Do Supervise research,监督研究
+RimatomicsSuperviseResearch.verb,Supervise research,verb,WorkGiverDef/WorkGiverDef.xml,def,Supervise research,监督研究
+RimatomicsSuperviseResearch.gerund,researching at,gerund,WorkGiverDef/WorkGiverDef.xml,def,researching at,研究于
+RimatomicsConstruction.label,Do Rimatomics construction,label,WorkGiverDef/WorkGiverDef.xml,def,Do Rimatomics construction,进行 Rimatomics 构建
+RimatomicsConstruction.verb,Construct,verb,WorkGiverDef/WorkGiverDef.xml,def,Construct,构造
+RimatomicsConstruction.gerund,Constructing,gerund,WorkGiverDef/WorkGiverDef.xml,def,Constructing,建设中
+NuclearWork.labelShort,Nuclear,labelShort,WorkTypeDef/WorkTypeDef.xml,def,Nuclear,核
+NuclearWork.pawnLabel,Nuclear managing,pawnLabel,WorkTypeDef/WorkTypeDef.xml,def,Nuclear managing,核管理
+NuclearWork.gerundLabel,Loading,gerundLabel,WorkTypeDef/WorkTypeDef.xml,def,Loading,加载中
+NuclearWork.description,Move and load radioactive material.,description,WorkTypeDef/WorkTypeDef.xml,def,Move and load radioactive material.,移动和装载放射性物质。
+NuclearWork.verb,Nuclear,verb,WorkTypeDef/WorkTypeDef.xml,def,Nuclear,核
+ICBMfission.label,strategic missile,label,WorldObjectDef/WorldObjectDef.xml,def,strategic missile,战略导弹
+ICBMfission.description,"A strategic missile is a rocket powered guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.",description,WorldObjectDef/WorldObjectDef.xml,def,"A strategic missile is a rocket powered guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.",战略导弹是一种火箭动力制导弹道导弹，主要用于核武器运载，其尖端装有裂变弹头。
+Sabot.label,Sabot,label,WorldObjectDef/WorldObjectDef.xml,def,Sabot,理解
+Sabot.description,Railgun Sabot Round,description,WorldObjectDef/WorldObjectDef.xml,def,Railgun Sabot Round,轨道炮圆形弹托
+Fallout.label,Nuclear Fallout,label,WorldObjectDef/WorldObjectDef.xml,def,Nuclear Fallout,核辐射
+Fallout.description,Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.,description,WorldObjectDef/WorldObjectDef.xml,def,Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.,核沉降物是由于核爆炸或核反应堆熔毁而喷射到空气中的残留放射性物质。

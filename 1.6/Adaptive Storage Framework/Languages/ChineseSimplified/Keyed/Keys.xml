@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Automatically open contents tab-->
+  <ASF_AutomaticallyOpenContentsTab>自动打开内容选项卡</ASF_AutomaticallyOpenContentsTab>
+  <!--EN: Selecting a storage building automatically opens its Contents tab with this enabled, or storage settings when empty.-->
+  <ASF_AutomaticallyOpenContentsTabDescription>启用此选项后，选择存储建筑会自动打开其“内容”选项卡，如果建筑为空则打开存储设置。</ASF_AutomaticallyOpenContentsTabDescription>
+  <!--EN: What to display for storage labels on the map. Individual buildings can override this in their config.-->
+  <ASF_DefaultLabelStyleDescription>地图上存储标签的显示内容。单个建筑可在其配置中覆盖此设置。</ASF_DefaultLabelStyleDescription>
+  <!--EN: Default label style-->
+  <ASF_DefaultLabelStyleSetting>默认标签样式</ASF_DefaultLabelStyleSetting>
+  <!--EN: Drop specific count-->
+  <ASF_DropSpecificCount>丢弃指定数量</ASF_DropSpecificCount>
+  <!--EN: empty-->
+  <ASF_Empty>空</ASF_Empty>
+  <!--EN: Affects labels shown on the map, like [ count ] or Item xY. Only show them when pointed at with the mouse when enabled. Overridden by the Toggleable Overlays mod when having that mod enabled.-->
+  <ASF_HideLabelsMouseOverDescription>影响地图上显示的标签，如 [数量] 或物品 xY。启用后，仅在鼠标指向时显示。如果启用了 Toggleable Overlays 模组，此设置将被该模组覆盖。</ASF_HideLabelsMouseOverDescription>
+  <!--EN: Hide labels until mouseover-->
+  <ASF_HideLabelsMouseOverSetting>鼠标指向前隐藏标签</ASF_HideLabelsMouseOverSetting>
+  <!--EN: Affects labels shown on the map, like [ count ] or Item xY. Only show them at a close zoom level when enabled.-->
+  <ASF_HideLabelsZoomDescription>影响地图上显示的标签，如 [数量] 或物品 xY。启用后，仅在近距离缩放级别显示。</ASF_HideLabelsZoomDescription>
+  <!--EN: Hide labels when zoomed out-->
+  <ASF_HideLabelsZoomSetting>缩小时隐藏标签</ASF_HideLabelsZoomSetting>
+  <!--EN: You have filled the map.-->
+  <ASF_MapFilled>你已经填满了地图。</ASF_MapFilled>
+  <!--EN: maximum number of stacks per cell-->
+  <ASF_MaxNumStacks>每个单元格的最大堆叠数</ASF_MaxNumStacks>
+  <!--EN: The maximum number of stacks that can go in a single space.  Buildings two-cells large will have twice as much storage capacity.\n\nNote that other factors may reduce storage capacity.-->
+  <ASF_MaxNumStacksDesc>单个空间可容纳的最大堆叠数。占地两个单元格的建筑将拥有两倍的存储容量。\n\n注意：其他因素可能会减少存储容量。</ASF_MaxNumStacksDesc>
+  <!--EN: The maximum zoom level to show labels for. They get hidden past this point.-->
+  <ASF_MaxZoomLevelDescription>显示标签的最大缩放级别。超过此级别将隐藏标签。</ASF_MaxZoomLevelDescription>
+  <!--EN: Maximum zoom level-->
+  <ASF_MaxZoomLevelSetting>最大缩放级别</ASF_MaxZoomLevelSetting>
+  <!--EN: Other items-->
+  <ASF_OtherItems>其他物品</ASF_OtherItems>
+  <!--EN: That's the tab saying 'Contents' on the bottom left panel with a building selected. 'None' displays contents in the vanilla way through 'Select x' gizmos on the bar to the right instead of tab.-->
+  <ASF_SettingContentsTabDescription>这是选中建筑时左下角面板上显示的“内容”选项卡。选择“无”将以原版方式通过右侧栏的“选择 x”小工具显示内容，而不使用选项卡。</ASF_SettingContentsTabDescription>
+  <!--EN: Contents tab to display on adaptive storage buildings:-->
+  <ASF_SettingContentsTabSelection>自适应存储建筑上显示的内容选项卡：</ASF_SettingContentsTabSelection>
+  <!--EN: The maximum number of stacks fitting into this storage building for all cells combined.\n\n{sizeX} * {sizeZ} cells with individually set capacities.-->
+  <ASF_StorageCapacityDescriptionCustomized>此存储建筑所有单元格组合后可容纳的最大堆叠数。\n\n{sizeX} * {sizeZ} 个单元格，每个单元格具有单独设置的容量。</ASF_StorageCapacityDescriptionCustomized>
+  <!--EN: The maximum number of stacks fitting into this storage building for all cells combined.\n\n{sizeX} * {sizeZ} cells with a maximum capacity of {maxItemsInCell} stacks per cell.-->
+  <ASF_StorageCapacityDescriptionStacksPerCell>此存储建筑所有单元格组合后可容纳的最大堆叠数。\n\n{sizeX} * {sizeZ} 个单元格，每个单元格的最大容量为 {maxItemsInCell} 堆叠。</ASF_StorageCapacityDescriptionStacksPerCell>
+  <!--EN: total storage capacity-->
+  <ASF_TotalStorageCapacity>总存储容量</ASF_TotalStorageCapacity>
+  <!--EN: {0} stacks-->
+  <ASF_XStacks>{0} 堆叠</ASF_XStacks>
+</LanguageData>

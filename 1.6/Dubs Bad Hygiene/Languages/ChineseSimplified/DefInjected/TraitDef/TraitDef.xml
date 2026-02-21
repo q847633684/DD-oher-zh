@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: [PAWN_nameDef] is obsessed with germs and will wash much more frequently than normal.-->
+  <Hygienic.degreeDatas.0.description>[PAWN_nameDef] 很容易沾染细菌，并且会比平时更频繁地洗澡。</Hygienic.degreeDatas.0.description>
+  <!--EN: germaphobe-->
+  <Hygienic.degreeDatas.0.label>洁癖者</Hygienic.degreeDatas.0.label>
+  <!--EN: [PAWN_nameDef] is very hygienic and will wash more frequently.-->
+  <Hygienic.degreeDatas.1.description>[PAWN_nameDef]很卫生，会更勤洗。</Hygienic.degreeDatas.1.description>
+  <!--EN: hygienic-->
+  <Hygienic.degreeDatas.1.label>卫生的</Hygienic.degreeDatas.1.label>
+  <!--EN: [PAWN_nameDef] is very unhygienic and will wash less frequently.-->
+  <Hygienic.degreeDatas.2.description>[PAWN_nameDef]非常不卫生，清洗频率会降低。</Hygienic.degreeDatas.2.description>
+  <!--EN: unhygienic-->
+  <Hygienic.degreeDatas.2.label>不卫生的</Hygienic.degreeDatas.2.label>
+  <!--EN: [PAWN_nameDef] has very low standards of cleanliness and will only wash when they absolutely have to.-->
+  <Hygienic.degreeDatas.3.description>[PAWN_nameDef] 的清洁标准非常低，只有在绝对必要时才会清洗。</Hygienic.degreeDatas.3.description>
+  <!--EN: slob-->
+  <Hygienic.degreeDatas.3.label>邋遢的</Hygienic.degreeDatas.3.label>
+</LanguageData>

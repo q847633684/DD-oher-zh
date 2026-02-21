@@ -2,10 +2,10 @@
 <LanguageData>
   <!--EN: The result of being knocked out during melee combat.
 Recovery will happen automatically over time, or it can be cured by another pawn, even without medicine.-->
-  <AM_KnockedOut.description>The result of being knocked out during melee combat.
-Recovery will happen automatically over time, or it can be cured by another pawn, even without medicine.</AM_KnockedOut.description>
+  <AM_KnockedOut.description>在近战中被击倒的结果。
+随着时间的推移会自动恢复，或者可以通过另一个pawn治愈，即使没有药物。</AM_KnockedOut.description>
   <!--EN: knocked out-->
-  <AM_KnockedOut.label>knocked out</AM_KnockedOut.label>
+  <AM_KnockedOut.label>被淘汰</AM_KnockedOut.label>
   <!--EN: being knocked out-->
-  <AM_KnockedOut.labelNoun>being knocked out</AM_KnockedOut.labelNoun>
+  <AM_KnockedOut.labelNoun>被淘汰</AM_KnockedOut.labelNoun>
 </LanguageData>

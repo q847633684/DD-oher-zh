@@ -8,38 +8,51 @@
 	</supportedVersions>
 	<packageId>other.CHT.DD</packageId>
 	<modDependencies>
-        <li><packageId>owlchemist.simplefx.smoke2</packageId></li>
-        <li><packageId>owlchemist.ceilingutilities</packageId></li>
+		<li><packageId>dubwise.dubsperformanceanalyzer.steam</packageId></li>
+		<li><packageId>dubwise.dubsappareltweaks</packageId></li>
+		<li><packageId>dubwise.dubsmintmenus</packageId></li>
+
+		<li><packageId>owlchemist.simplefx.smoke2</packageId></li>
+		<li><packageId>owlchemist.simplefx.splashes</packageId></li>
+		<li><packageId>atlas.simplefx.vapor.revaporized</packageId></li>
+		<li><packageId>owlchemist.toggleableoverlays</packageId></li>
+		<li><packageId>owlchemist.toggleablereadouts</packageId></li>
+		<li><packageId>owlchemist.ceilingutilities</packageId></li>
 		<li><packageId>owlchemist.fridgeutilities</packageId></li>
 		<li><packageId>owlchemist.wallutilities</packageId></li>
 		<li><packageId>owlchemist.scatteredflames</packageId></li>
 		<li><packageId>owlchemist.permeableterrain</packageId></li>
+
+		<li><packageId>malistaticy.underwhere</packageId></li><!-- 正常-->
+		<li><packageId>lucifer.realisticrooms</packageId></li><!-- 正常-->
+		<li><packageId>co.uk.epicguru.meleeanimation</packageId></li><!-- 正常-->
+		<li><packageId>jaxe.bubbles</packageId></li><!-- 正常-->
+		<li><packageId>jpt.speakup</packageId></li><!-- 正常-->
+
+
     </modDependencies>
 	<loadAfter>
+		<li>dubwise.dubsperformanceanalyzer.steam</li>
+		<li>dubwise.dubsappareltweaks</li>
+		<li>dubwise.dubsmintmenus</li>
+
 		<li>owlchemist.simplefx.smoke2</li>
+		<li>owlchemist.simplefx.splashes</li>
+		<li>atlas.simplefx.vapor.revaporized</li>
+		<li>owlchemist.toggleableoverlays</li>
+		<li>owlchemist.toggleablereadouts</li>
 		<li>owlchemist.ceilingutilities</li>
 		<li>owlchemist.fridgeutilities</li>
 		<li>owlchemist.wallutilities</li>
 		<li>owlchemist.scatteredflames</li>
 		<li>owlchemist.permeableterrain</li>
 
-
-
-		<li>void.charactereditor</li>
-		<li>owlchemist.cleanpathfinding</li>
-		<li>dracoix.doormat.r12a</li>
-		<li>dubwise.dubsbadhygiene</li>
-		<li>dubwise.dubsskylights</li>
-		<li>mehni.pickupandhaul</li>
-		<li>lucifer.realisticrooms</li>
-		<li>sandy.rpgstyleinventory</li>
-		<li>uuugggg.smartmedicine</li>
-		<li>telefonmast.graphicssettings</li>
-		<li>dismarzero.vgp.smokedmeat</li>
-		<li>jpt.speakup</li>
-		<li>sl4vp0wer.weareunited</li>
-		<li>codeoptimist.jobsofopportunity</li>
-		<li>rah.rbsehc</li>
+		<li>malistaticy.underwhere</li><!-- 正常-->
+		<li>lucifer.realisticrooms</li><!-- 正常-->
+		<li>mehni.pickupandhaul</li><!-- 不进行添加-->
+		<li>co.uk.epicguru.meleeanimation</li><!-- 正常-->
+		<li>jaxe.bubbles</li><!-- 正常-->
+		<li>jpt.speakup</li><!-- 正常-->
 	 </loadAfter>
     <description>
 		目前支援MOD:

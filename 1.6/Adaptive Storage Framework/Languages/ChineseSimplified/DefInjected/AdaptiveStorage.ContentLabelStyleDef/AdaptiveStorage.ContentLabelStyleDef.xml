@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Automatically choose between item names getting displayed with their count when hidden and count only when having visible contents, either directly or through the building only accepting one kind-->
+  <Automatic.description>自动选择显示模式：当存储内容隐藏或建筑仅接受一种物品时，显示带有计数的物品名称；当存储内容可见时，仅显示数量。</Automatic.description>
+  <!--EN: Automatic-->
+  <Automatic.label>自动</Automatic.label>
+  <!--EN: Display names of stored items, one entry per line-->
+  <Names.description>显示已存储物品的名称，每行一条。</Names.description>
+  <!--EN: Item names-->
+  <Names.label>物品名称</Names.label>
+  <!--EN: Display up to 3 names of stored items, one entry per line, or the count of different names when having more items-->
+  <NamesOrNameCount.description>显示最多3个已存储物品的名称，每行一条；若物品类型超过3种，则显示不同类型名称的总数。</NamesOrNameCount.description>
+  <!--EN: Item names or name count-->
+  <NamesOrNameCount.label>物品名称或名称计数</NamesOrNameCount.label>
+  <!--EN: Display up to 3 names of stored items, one entry per line, or the total count when having more items-->
+  <NamesOrTotalCount.description>显示最多3个已存储物品的名称，每行一条；若物品类型超过3种，则显示所有物品的总堆叠数。</NamesOrTotalCount.description>
+  <!--EN: Item names or total count-->
+  <NamesOrTotalCount.label>物品名称或总堆叠数</NamesOrTotalCount.label>
+  <!--EN: Display item names and their count in a format of Item xY, one entry per line-->
+  <NamesWithCount.description>以“物品名称 x数量”的格式显示物品名称及其数量，每行一条。</NamesWithCount.description>
+  <!--EN: Item names with count-->
+  <NamesWithCount.label>物品名称及数量</NamesWithCount.label>
+  <!--EN: Display up to 3 item names and their count in a format of Item xY, one entry per line, or the total count when having more items-->
+  <NamesWithCountOrTotalCount.description>以“物品名称 x数量”的格式显示最多3个物品的名称及其数量，每行一条；若物品类型超过3种，则显示所有物品的总堆叠数。</NamesWithCountOrTotalCount.description>
+  <!--EN: Item names with count or total count-->
+  <NamesWithCountOrTotalCount.label>物品名称及数量或总堆叠数</NamesWithCountOrTotalCount.label>
+  <!--EN: Do not display any labels-->
+  <None.description>不显示任何标签。</None.description>
+  <!--EN: None-->
+  <None.label>无</None.label>
+  <!--EN: Display the total count of all items in storage in a format [ COUNT ]-->
+  <TotalCount.description>以“[总堆叠数]”的格式显示存储中所有物品的总堆叠数。</TotalCount.description>
+  <!--EN: Total count-->
+  <TotalCount.label>总堆叠数</TotalCount.label>
+  <!--EN: Display item counts individually on each item-->
+  <Vanilla.description>在每个物品上单独显示其堆叠数（原版样式）。</Vanilla.description>
+  <!--EN: Vanilla-->
+  <Vanilla.label>原版</Vanilla.label>
+</LanguageData>

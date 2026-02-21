@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--原中文: '允许将尸体放入库存中', 原英文: '无' -> 新英文: 'Allow putting corpses into inventory',更新于2026-02-16-->
+  <!--EN: Allow putting corpses into inventory-->
+  <PUAH.allowCorpses>允许将尸体放入库存中</PUAH.allowCorpses>
+  <!--原中文: '默认关闭。只能直接拿在手里。', 原英文: '无' -> 新英文: 'Default Off. Only carry those directly in hands instead.',更新于2026-02-16-->
+  <!--EN: Default Off. Only carry those directly in hands instead.-->
+  <PUAH.allowCorpsesTooltip>默认关闭。只能直接拿在手里。</PUAH.allowCorpsesTooltip>
+  <!--原中文: '允许驯服的驮畜使用其库存进行拖运', 原英文: '无' -> 新英文: 'Allow tamed pack animals using their inventory for hauling',更新于2026-02-16-->
+  <!--EN: Allow tamed pack animals using their inventory for hauling-->
+  <PUAH.allowAnimals>允许驯服的驮畜使用其库存进行拖运</PUAH.allowAnimals>
+  <!--原中文: '默认开启。最适合为更多动物提供背包的模组，例如 VFME Caravan Packs', 原英文: '无' -> 新英文: 'Default On. Works best with mods that give backpacks to more animals, like VFME Caravan Packs',更新于2026-02-16-->
+  <!--EN: Default On. Works best with mods that give backpacks to more animals, like VFME Caravan Packs-->
+  <PUAH.allowAnimalsTooltip>默认开启。最适合为更多动物提供背包的模组，例如 VFME Caravan Packs</PUAH.allowAnimalsTooltip>
+  <!--原中文: '允许被黑的机械人使用其库存进行运输', 原英文: '无' -> 新英文: 'Allow hacked mechanoids using their inventory for hauling',更新于2026-02-16-->
+  <!--EN: Allow hacked mechanoids using their inventory for hauling-->
+  <PUAH.allowMechanoids>允许被黑的机械人使用其库存进行运输</PUAH.allowMechanoids>
+  <!--原中文: '需要 What The Hack 或类似的模组。默认开启.', 原英文: '无' -> 新英文: 'Requires What The Hack or similar mods. Default On.',更新于2026-02-16-->
+  <!--EN: Requires What The Hack or similar mods. Default On.-->
+  <PUAH.allowMechanoidsTooltip>需要 What The Hack 或类似的模组。默认开启.</PUAH.allowMechanoidsTooltip>
+  <!--原中文: '考虑拖运至库存的最小可用库存空间', 原英文: '无' -> 新英文: 'Minimum free inventory space to consider hauling to inventory',更新于2026-02-16-->
+  <!--EN: Minimum free inventory space to consider hauling to inventory-->
+  <PUAH.minimumFreeInventorySpace>考虑拖运至库存的最小可用库存空间</PUAH.minimumFreeInventorySpace>
+  <!--原中文: '可用库存空间少于此处定义的 Pawn 直接使用原版拖运。 0% 使他们总是尝试拖入库存，无论他们是否有空间容纳多个土豆。 100% 导致 PUAH 要求 pawn 完全裸体。默认20%', 原英文: '无' -> 新英文: 'Pawns with less free inventory space than defined here just directly use vanilla hauling. 0% makes them always try hauling to inventory, regardless of them having room for more than one potato or not. 100% results in PUAH requiring pawns to be completely naked. Default 20%',更新于2026-02-16-->
+  <!--EN: Pawns with less free inventory space than defined here just directly use vanilla hauling. 0% makes them always try hauling to inventory, regardless of them having room for more than one potato or not. 100% results in PUAH requiring pawns to be completely naked. Default 20%-->
+  <PUAH.minimumFreeInventorySpaceTooltip>可用库存空间少于此处定义的 Pawn 直接使用原版拖运。 0% 使他们总是尝试拖入库存，无论他们是否有空间容纳多个土豆。 100% 导致 PUAH 要求 pawn 完全裸体。默认20%</PUAH.minimumFreeInventorySpaceTooltip>
+</LanguageData>

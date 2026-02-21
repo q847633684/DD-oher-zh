@@ -1,0 +1,89 @@
+key,text,tag,file,type,protected_text
+DesignatorRemovePlumbing,Remove pipes,DesignatorRemovePlumbing,DubsCentralHeating.xml,keyed,Remove pipes
+DesignatorRemovePlumbingDesc,Designate sections of a pipe type for deconstruction.,DesignatorRemovePlumbingDesc,DubsCentralHeating.xml,keyed,Designate sections of a pipe type for deconstruction.
+RemovePlumbing,Remove plumbing,RemovePlumbing,DubsCentralHeating.xml,keyed,Remove plumbing
+RemoveAirCon,Remove air-con,RemoveAirCon,DubsCentralHeating.xml,keyed,Remove air-con
+LowCoolingCap,Low cooling capacity. You can increase the power of outdoor units.,LowCoolingCap,DubsCentralHeating.xml,keyed,Low cooling capacity. You can increase the power of outdoor units.
+LowWaterTemp,Low water temp,LowWaterTemp,DubsCentralHeating.xml,keyed,Low water temp
+LowWaterTempDesc,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.\n\nTurn on boilers, increase the heating capacity, or add another hot water tank.",LowWaterTempDesc,DubsCentralHeating.xml,keyed,"The water temperature in this tank is too low; colonists expecting to use hot water may get annoyed.(PH_2)(PH_1)Turn on boilers, increase the heating capacity, or add another hot water tank."
+WaterTemp,Water temp: {0},WaterTemp,DubsCentralHeating.xml,keyed,Water temp: (PH_1)
+ConnectedHeatingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedHeatingCapacity,DubsCentralHeating.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1))
+ConnectedCoolingCapacity,Connected demand/capacity: {0} / {1} U ({2}),ConnectedCoolingCapacity,DubsCentralHeating.xml,keyed,Connected demand/capacity: (PH_3) / (PH_2) U ((PH_1))
+HeatingUnits,Heating usage: {0} U,HeatingUnits,DubsCentralHeating.xml,keyed,Heating usage: (PH_1) U
+CoolingUnits,Cooling usage: {0} U,CoolingUnits,DubsCentralHeating.xml,keyed,Cooling usage: (PH_1) U
+HeatingMode,Heating units/power: {0} U / {1} W,HeatingMode,DubsCentralHeating.xml,keyed,Heating units/power: (PH_2) U / (PH_1) W
+CoolingMode,Cooling units/power: {0} U / {1} W,CoolingMode,DubsCentralHeating.xml,keyed,Cooling units/power: (PH_2) U / (PH_1) W
+CoolingEfficiencyGood,Efficiency: {0},CoolingEfficiencyGood,DubsCentralHeating.xml,keyed,Efficiency: (PH_1)
+CoolingEfficiencyBad,Efficiency: {0} overheating,CoolingEfficiencyBad,DubsCentralHeating.xml,keyed,Efficiency: (PH_1) overheating
+TargetTemp,Minimum temp: {0},TargetTemp,DubsCentralHeating.xml,keyed,Minimum temp: (PH_1)
+LowerPower,Reduce power,LowerPower,DubsCentralHeating.xml,keyed,Reduce power
+LowerPowerDesc,Reduce the heating capacity.,LowerPowerDesc,DubsCentralHeating.xml,keyed,Reduce the heating capacity.
+RaisePower,Increase power,RaisePower,DubsCentralHeating.xml,keyed,Increase power
+RaisePowerDesc,Increase the heating capacity.,RaisePowerDesc,DubsCentralHeating.xml,keyed,Increase the heating capacity.
+HotwaterCapacity,Hot water capacity: {0},HotwaterCapacity,DubsCentralHeating.xml,keyed,Hot water capacity: (PH_1)
+OverrideThermostat,Override thermostat,OverrideThermostat,DubsCentralHeating.xml,keyed,Override thermostat
+OverrideThermostatDesc,Force the boiler to run continuously.,OverrideThermostatDesc,DubsCentralHeating.xml,keyed,Force the boiler to run continuously.
+MustPlaceFreezerWithFreeSpaces,Exhaust vents must be kept clear!,MustPlaceFreezerWithFreeSpaces,DubsCentralHeating.xml,keyed,Exhaust vents must be kept clear!
+SolarEfficiencyCold,Too cold,SolarEfficiencyCold,DubsCentralHeating.xml,keyed,Too cold
+SolarEfficiencyRoof,Roofed,SolarEfficiencyRoof,DubsCentralHeating.xml,keyed,Roofed
+SolarEfficiencyGood,Heating units (efficiency): {0} U ({1}),SolarEfficiencyGood,DubsCentralHeating.xml,keyed,Heating units (efficiency): (PH_2) U ((PH_1))
+RadCurrentCap,Radiator temp: {0},RadCurrentCap,DubsCentralHeating.xml,keyed,Radiator temp: (PH_1)
+ThermostatSetupWarning,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.,ThermostatSetupWarning,DubsCentralHeating.xml,keyed,Thermostat overridden by hot water tanks. Set all connected hot water tanks to thermostat mode.
+HotWaterTankUseThermostat,Thermostat control,HotWaterTankUseThermostat,DubsCentralHeating.xml,keyed,Thermostat control
+HotWaterTankUseThermostatDesc,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.,HotWaterTankUseThermostatDesc,DubsCentralHeating.xml,keyed,Turn on boilers for 1 hour when the tank temperature is low. If this is disabled then boilers will run continuously and ignore room thermostats.
+CommandDesignateOpenCloseValveLabel,Toggle valve,CommandDesignateOpenCloseValveLabel,DubsCentralHeating.xml,keyed,Toggle valve
+CommandDesignateOpenCloseValveDesc,Toggle the valve between open and closed.,CommandDesignateOpenCloseValveDesc,DubsCentralHeating.xml,keyed,Toggle the valve between open and closed.
+ValveClosed,Valve closed,ValveClosed,DubsCentralHeating.xml,keyed,Valve closed
+dbh.restartconfirm,Restart,dbh.restartconfirm,DubsCentralHeating.xml,keyed,Restart
+dbh.ModRemove,Mod removal assist,dbh.ModRemove,DubsCentralHeating.xml,keyed,Mod removal assist
+dbh.ModRemoveDesc,"Steps:\n\n1: Save your game immediately after pressing confirm\n2: Quit to the main menu and disable the mod and restart the game\n3: Load your save game, ignore any exceptions and save it again\nLoad the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!",dbh.ModRemoveDesc,DubsCentralHeating.xml,keyed,"Steps:(PH_5)(PH_4)1: Save your game immediately after pressing confirm(PH_3)2: Quit to the main menu and disable the mod and restart the game(PH_2)3: Load your save game, ignore any exceptions and save it again(PH_1)Load the save game once more and there shouldn't be any exceptions related to missing bad hygiene defs or classes!"
+QuitToMenuToChange,Quit to main menu to change.,QuitToMenuToChange,DubsCentralHeating.xml,keyed,Quit to main menu to change.
+CoolingEfficiency,Cooling efficiency,CoolingEfficiency,DubsCentralHeating.xml,keyed,Cooling efficiency
+CoolingEfficiencyTip,Set if high temperature should affect cooling efficiency like standard AC,CoolingEfficiencyTip,DubsCentralHeating.xml,keyed,Set if high temperature should affect cooling efficiency like standard AC
+MainFeatures,Main features,MainFeatures,DubsCentralHeating.xml,keyed,Main features
+ExperimentalFeatures,Experimental features,ExperimentalFeatures,DubsCentralHeating.xml,keyed,Experimental features
+dbh.ExtraFeatures,Extra features,dbh.ExtraFeatures,DubsCentralHeating.xml,keyed,Extra features
+HygieneWiki,Bad Hygiene Wiki,HygieneWiki,DubsCentralHeating.xml,keyed,Bad Hygiene Wiki
+HygieneWikiDesc,Go to the Bad Hygiene Wiki,HygieneWikiDesc,DubsCentralHeating.xml,keyed,Go to the Bad Hygiene Wiki
+DubsCentralHeating.label,Dubs Central Heating,label,ResearchTabDef/ResearchTabDef.xml,def,Dubs Central Heating
+MultiSplitAirCon.label,multi-split air conditioning,label,ResearchProjectDef/ResearchProjectDef.xml,def,multi-split air conditioning
+MultiSplitAirCon.description,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.
+LogBoilers.label,heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,heating
+LogBoilers.description,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.
+CentralHeating.label,central heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,central heating
+CentralHeating.description,"Build central heating systems with radiators, hot water tanks, boilers and thermostats.",description,ResearchProjectDef/ResearchProjectDef.xml,def,"Build central heating systems with radiators, hot water tanks, boilers and thermostats."
+GeothermalHeating.label,Geothermal Heating,label,ResearchProjectDef/ResearchProjectDef.xml,def,Geothermal Heating
+GeothermalHeating.description,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.,description,ResearchProjectDef/ResearchProjectDef.xml,def,Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.
+HeatingPipe.label,Heating Pipe,label,ThingDef/ThingDef.xml,def,Heating Pipe
+HeatingPipe.description,Plumbing for connecting central heating.,description,ThingDef/ThingDef.xml,def,Plumbing for connecting central heating.
+HeatingPipeHidden.label,Heating Pipe (hidden),label,ThingDef/ThingDef.xml,def,Heating Pipe (hidden)
+HeatingPipeHidden.description,Plumbing for connecting central heating (hidden).,description,ThingDef/ThingDef.xml,def,Plumbing for connecting central heating (hidden).
+airPipe.label,air-con pipe,label,ThingDef/ThingDef.xml,def,air-con pipe
+airPipe.description,Pipe for connecting air-conditioning units.,description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units.
+airPipeHidden.label,air-con pipe (hidden),label,ThingDef/ThingDef.xml,def,air-con pipe (hidden)
+airPipeHidden.description,Pipe for connecting air-conditioning units. (hidden),description,ThingDef/ThingDef.xml,def,Pipe for connecting air-conditioning units. (hidden)
+Thermostat.label,thermostat,label,ThingDef/ThingDef.xml,def,thermostat
+Thermostat.description,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.,description,ThingDef/ThingDef.xml,def,Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.
+LogBoiler.label,log boiler,label,ThingDef/ThingDef.xml,def,log boiler
+LogBoiler.description,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for piped radiators and hot water tanks. Heats the room and adjacent baths. Requires wood logs for fuel.
+GasBoiler.label,gas boiler,label,ThingDef/ThingDef.xml,def,gas boiler
+GasBoiler.description,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces 2000 heating units for radiators and hot water tanks. Requires chemfuel for fuel. Can be controlled by thermostats.
+ElectricBoiler.label,electric boiler,label,ThingDef/ThingDef.xml,def,electric boiler
+ElectricBoiler.description,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.,description,ThingDef/ThingDef.xml,def,Produces a variable amount of heating units for radiators and hot water tanks. Manually controlled power setting. Can be controlled by thermostats.
+SolarHeater.label,solar heater,label,ThingDef/ThingDef.xml,def,solar heater
+SolarHeater.description,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.,description,ThingDef/ThingDef.xml,def,Uses sunlight to heat hot water tanks and radiators. 0-2000 units of heating power depending on light level and ambient temperature.
+GeothermHeater.label,Geothermal heater,label,ThingDef/ThingDef.xml,def,Geothermal heater
+GeothermHeater.description,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.,description,ThingDef/ThingDef.xml,def,Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.
+RadiatorStuffed.label,radiator,label,ThingDef/ThingDef.xml,def,radiator
+RadiatorLarge.label,large radiator,label,ThingDef/ThingDef.xml,def,large radiator
+RadiatorLarge.description,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.,description,ThingDef/ThingDef.xml,def,Three times the output of a standard radiator. Useful for larger rooms. Requires 300 heating units.
+RadiatorTowelRail.label,Towel Rail,label,ThingDef/ThingDef.xml,def,Towel Rail
+RadiatorTowelRail.description,Impressive bathroom towel rail.,description,ThingDef/ThingDef.xml,def,Impressive bathroom towel rail.
+CeilingFan.label,ceiling fan 2x2,label,ThingDef/ThingDef.xml,def,ceiling fan 2x2
+CeilingFanS.label,ceiling fan 1x1,label,ThingDef/ThingDef.xml,def,ceiling fan 1x1
+AirConOutdoorUnit.label,air-con outdoor unit,label,ThingDef/ThingDef.xml,def,air-con outdoor unit
+AirConOutdoorUnit.description,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.,description,ThingDef/ThingDef.xml,def,Multi-split air conditioner unit. Place outdoors and pipe to indoor units or freezer units. Power mode selection with 100-1000 cooling units capacity.
+AirconIndoorUnit.label,air-con indoor unit,label,ThingDef/ThingDef.xml,def,air-con indoor unit
+AirconIndoorUnit.description,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.,description,ThingDef/ThingDef.xml,def,Indoor air-con unit for rooms. Connect to outdoor air-con units. Requires 100 cooling units.
+FreezerUnit.label,walk-in freezer unit,label,ThingDef/ThingDef.xml,def,walk-in freezer unit
+FreezerUnit.description,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.,description,ThingDef/ThingDef.xml,def,Freezer unit for creating a walk-in freezer. Connect to outdoor air-con units. Requires 300 cooling units.

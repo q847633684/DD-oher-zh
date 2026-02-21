@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--原中文: '如果你只是想要高性能的原版火焰，那麽请禁用下列所有功能。', 原英文: '无' -> 新英文: 'Disable all these features if you just want high performance vanilla fire.',更新于2026-02-16-->
+  <!--EN: Disable all these features if you just want high performance vanilla fire.-->
+  <ScatteredFlames.Settings.DisableAll>如果你只是想要高性能的原版火焰，那麽请禁用下列所有功能。</ScatteredFlames.Settings.DisableAll>
+  <!--原中文: '启用多重火焰特效', 原英文: '无' -> 新英文: 'Enable multi-flame graphics',更新于2026-02-16-->
+  <!--EN: Enable multi-flame graphics-->
+  <ScatteredFlames.Settings.MultiFlames>启用多重火焰特效</ScatteredFlames.Settings.MultiFlames>
+  <!--原中文: '启用此功能将允许多个火焰显示在同一个位置上，当然在机制上他仍然是一个火焰，这只是外观上的变化。', 原英文: '无' -> 新英文: 'Enabling this will allow multiple flames to inhabit the same tile. This is a cosmetic change, and mechanically it still works like one flame.',更新于2026-02-16-->
+  <!--EN: Enabling this will allow multiple flames to inhabit the same tile. This is a cosmetic change, and mechanically it still works like one flame.-->
+  <ScatteredFlames.Settings.MultiFlames.Desc>启用此功能将允许多个火焰显示在同一个位置上，当然在机制上他仍然是一个火焰，这只是外观上的变化。</ScatteredFlames.Settings.MultiFlames.Desc>
+  <!--原中文: '启用粒子效果', 原英文: '无' -> 新英文: 'Enable particle effects',更新于2026-02-16-->
+  <!--EN: Enable particle effects-->
+  <ScatteredFlames.Settings.SpecialFX>启用粒子效果</ScatteredFlames.Settings.SpecialFX>
+  <!--原中文: '启用此功能可以让野火产生特殊效果，例如火花。', 原英文: '无' -> 新英文: 'Allows wild fires to emit special effects such as sparks.',更新于2026-02-16-->
+  <!--EN: Allows wild fires to emit special effects such as sparks.-->
+  <ScatteredFlames.Settings.SpecialFX.Desc>启用此功能可以让野火产生特殊效果，例如火花。</ScatteredFlames.Settings.SpecialFX.Desc>
+  <!--原中文: '启用烟雾', 原英文: '无' -> 新英文: 'Enable smoke',更新于2026-02-16-->
+  <!--EN: Enable smoke-->
+  <ScatteredFlames.Settings.Smoke>启用烟雾</ScatteredFlames.Settings.Smoke>
+  <!--原中文: '若已安装了「Simple FX: Smoke」
+
+启用此功能将会使野火释放出烟雾,烟雾会遵循当前的风速和风向。', 原英文: '无' -> 新英文: 'If Simple FX: Smoke is installed, enabling this will cause wild fires to emit smoke, which will respect the current wind speed and direction.',更新于2026-02-16-->
+  <!--EN: If Simple FX: Smoke is installed, enabling this will cause wild fires to emit smoke, which will respect the current wind speed and direction.-->
+  <ScatteredFlames.Settings.Smoke.Desc>若已安装了「Simple FX: Smoke」
+&#13;启用此功能将会使野火释放出烟雾,烟雾会遵循当前的风速和风向。</ScatteredFlames.Settings.Smoke.Desc>
+  <!--原中文: '优化阴影', 原英文: '无' -> 新英文: 'Optimize shadows',更新于2026-02-16-->
+  <!--EN: Optimize shadows-->
+  <ScatteredFlames.Settings.OptimizeShadows>优化阴影</ScatteredFlames.Settings.OptimizeShadows>
+  <!--原中文: '当物体着火时，启用此选项可防止其产生阴影。', 原英文: '无' -> 新英文: 'When enabled, things that are currently on fire will not emit a shadow.',更新于2026-02-16-->
+  <!--EN: When enabled, things that are currently on fire will not emit a shadow.-->
+  <ScatteredFlames.Settings.OptimizeShadows.Desc>当物体着火时，启用此选项可防止其产生阴影。</ScatteredFlames.Settings.OptimizeShadows.Desc>
+  <!--原中文: '禁用火灾观测系统', 原英文: '无' -> 新英文: 'Disable fire watcher',更新于2026-02-16-->
+  <!--EN: Disable fire watcher-->
+  <ScatteredFlames.Settings.FireWatcher>禁用火灾观测系统</ScatteredFlames.Settings.FireWatcher>
+  <!--原中文: '如果火灾长时间在殖民地肆虐,叙述者会自动召唤雨水灭火,此选项可以关闭该机制。', 原英文: '无' -> 新英文: 'Normally, if a wild fire spirals out of control long enough, the storyteller will summon rain. You can disable this feature here.',更新于2026-02-16-->
+  <!--EN: Normally, if a wild fire spirals out of control long enough, the storyteller will summon rain. You can disable this feature here.-->
+  <ScatteredFlames.Settings.FireWatcher.Desc>如果火灾长时间在殖民地肆虐,叙述者会自动召唤雨水灭火,此选项可以关闭该机制。</ScatteredFlames.Settings.FireWatcher.Desc>
+  <!--原中文: '这些更改需要重新读取存档(您不需要重新启动游戏)。', 原英文: '无' -> 新英文: 'These require reloading your save (you do not need to restart the entire game).',更新于2026-02-16-->
+  <!--EN: These require reloading your save (you do not need to restart the entire game).-->
+  <ScatteredFlames.ReloadRequired>这些更改需要重新读取存档(您不需要重新启动游戏)。</ScatteredFlames.ReloadRequired>
+  <!--原中文: '需要重新加载', 原英文: '无' -> 新英文: 'Reload required',更新于2026-02-16-->
+  <!--EN: Reload required-->
+  <ScatteredFlames.ReloadHeader>需要重新加载</ScatteredFlames.ReloadHeader>
+  <!--原中文: '图像(Graphics):', 原英文: '无' -> 新英文: 'Graphics:',更新于2026-02-16-->
+  <!--EN: Graphics:-->
+  <ScatteredFlames.Settings.Header.Graphics>图像(Graphics):</ScatteredFlames.Settings.Header.Graphics>
+  <!--原中文: '其他:', 原英文: '无' -> 新英文: 'Misc:',更新于2026-02-16-->
+  <!--EN: Misc:-->
+  <ScatteredFlames.Settings.Header.Misc>其他:</ScatteredFlames.Settings.Header.Misc>
+  <!--原中文: '点燃', 原英文: '无' -> 新英文: 'Ignite',更新于2026-02-16-->
+  <!--EN: Ignite-->
+  <ScatteredFlames.Ignite.Label>点燃</ScatteredFlames.Ignite.Label>
+  <!--原中文: '让某物着火。', 原英文: '无' -> 新英文: 'Set something aflame.',更新于2026-02-16-->
+  <!--EN: Set something aflame.-->
+  <ScatteredFlames.Ignite.Desc>让某物着火。</ScatteredFlames.Ignite.Desc>
+  <!--原中文: '这个小人怕火', 原英文: '无' -> 新英文: 'This pawn is afraid of fire.',更新于2026-02-16-->
+  <!--EN: This pawn is afraid of fire.-->
+  <ScatteredFlames.Ignite.Scared>这个小人怕火</ScatteredFlames.Ignite.Scared>
+  <!--原中文: '启用点火工具', 原英文: '无' -> 新英文: 'Enable ignite gizmo',更新于2026-02-16-->
+  <!--EN: Enable ignite gizmo-->
+  <ScatteredFlames.Settings.IgniteGizmo>启用点火工具</ScatteredFlames.Settings.IgniteGizmo>
+  <!--原中文: '为你的殖民者添加一个"点燃"工具按钮
+
+使殖民者能够像袭击者一样点火。', 原英文: '无' -> 新英文: 'Adds an "Ignite" gizmo buttons to your colonists, allowing them to manually start fires, similar to how raiders can.',更新于2026-02-16-->
+  <!--EN: Adds an "Ignite" gizmo buttons to your colonists, allowing them to manually start fires, similar to how raiders can.-->
+  <ScatteredFlames.Settings.IgniteGizmo.Desc>为你的殖民者添加一个&quot;点燃&quot;工具按钮
+&#13;使殖民者能够像袭击者一样点火。</ScatteredFlames.Settings.IgniteGizmo.Desc>
+</LanguageData>

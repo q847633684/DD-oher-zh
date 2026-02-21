@@ -1,0 +1,27 @@
+key,text,tag,file,type,protected_text,translated
+VisibilityTogglesDesc,Select layers to hide,VisibilityTogglesDesc,Quickfast.xml,keyed,Select layers to hide,选择要隐藏的图层
+HatFiltersTip,Ctrl+J on a selected pawn will toggle the visibility of that hat type,HatFiltersTip,Quickfast.xml,keyed,Ctrl+J on a selected (PH_1) will toggle the visibility of that hat type,在选定的 pawn 上按 Ctrl+J 将切换该帽子类型的可见性
+HairFiltersTip,Ctrl+H on a selected pawn will toggle the visibility of that hair type under hats,HairFiltersTip,Quickfast.xml,keyed,Ctrl+H on a selected (PH_1) will toggle the visibility of that hair type under hats,在选定的 pawn 上按 Ctrl+H 将切换帽子下该头发类型的可见性
+HatHairFiltersTip,Ctrl+K on a selected pawn will toggle the visibility of that hair and hat combination,HatHairFiltersTip,Quickfast.xml,keyed,Ctrl+K on a selected (PH_1) will toggle the visibility of that hair and hat combination,在选定的 pawn 上按 Ctrl+K 将切换该头发和帽子组合的可见性
+Apparel_equip_speed,Apparel equip speed,Apparel_equip_speed,Quickfast.xml,keyed,Apparel equip speed,服装装备速度
+Change_equip_speeds,Change equip speeds,Change_equip_speeds,Quickfast.xml,keyed,Change equip speeds,改变装备速度
+Same_speed_for_all_apparel,Same speed for all apparel,Same_speed_for_all_apparel,Quickfast.xml,keyed,Same speed for all apparel,所有服装的速度相同
+Equip_speed_Ticks,Equip speed Ticks,Equip_speed_Ticks,Quickfast.xml,keyed,Equip speed Ticks,装备速度刻度
+Equip_duration,Equip duration %,Equip_duration,Quickfast.xml,keyed,Equip duration %,装备持续时间%
+Apparel_visibility,Apparel visibility,Apparel_visibility,Quickfast.xml,keyed,Apparel visibility,服装可见度
+IndoorHidingMode,Only hide apparel indoors,IndoorHidingMode,Quickfast.xml,keyed,Only hide apparel indoors,只将衣物藏在室内
+Hide_hats_when_indoors,Hide hats,Hide_hats_when_indoors,Quickfast.xml,keyed,Hide hats,隐藏帽子
+Hide_jackets_when_indoors,Hide shell layers,Hide_jackets_when_indoors,Quickfast.xml,keyed,Hide shell layers,隐藏 贝壳 层
+Hats_only_while_drafted,Hats only while drafted,Hats_only_while_drafted,Quickfast.xml,keyed,Hats only while drafted,仅在选秀时戴帽子
+Show_hair_under_hats,Show hair under hats,Show_hair_under_hats,Quickfast.xml,keyed,Show hair under hats,帽子下露出头发
+HatScaling,Hat Scaling,HatScaling,Quickfast.xml,keyed,Hat Scaling,帽子缩放
+Normal__Narrow_Height,Normal + Narrow Height,Normal__Narrow_Height,Quickfast.xml,keyed,Normal + Narrow Height,正常+窄高
+Narrow_Width,Narrow Width,Narrow_Width,Quickfast.xml,keyed,Narrow Width,窄幅
+Hair_visibility,Hair visibility,Hair_visibility,Quickfast.xml,keyed,Hair visibility,头发可见度
+HairScaleReset,Reset,HairScaleReset,Quickfast.xml,keyed,Reset,重置
+Hair_Filter_Remove,{0} can now be shown under hats,Hair_Filter_Remove,Quickfast.xml,keyed,(PH_1) can now be shown under hats,{0} 现在可以显示在帽子下
+Hair_Filter_Add,{0} always hidden under hats,Hair_Filter_Add,Quickfast.xml,keyed,(PH_1) always hidden under hats,{0} 总是隐藏在帽子下面
+Hat_Filter_Remove,{0} can now be hidden while indoors or undrafted,Hat_Filter_Remove,Quickfast.xml,keyed,(PH_1) can now be hidden while indoors or undrafted,{0} 现在可以在室内或未起草时隐藏
+Hat_Filter_Add,{0} always visible,Hat_Filter_Add,Quickfast.xml,keyed,(PH_1) always visible,{0} 始终可见
+HairHat_Filter_Add,{0} always hidden under {1},HairHat_Filter_Add,Quickfast.xml,keyed,(PH_2) always hidden under (PH_1),{0} 始终隐藏在 {1} 下
+HairHat_Filter_Remove,{0} now visible under {1},HairHat_Filter_Remove,Quickfast.xml,keyed,(PH_2) now visible under (PH_1),{0} 现在在 {1} 下可见

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
 	<v1.6>
+		<!--性能分析器-->
 		<li IfModActive="dubwise.dubsperformanceanalyzer.steam">Dubs Performance Analyzer</li>
+		<!-- 服装调整 -->
+		<li IfModActive="dubwise.dubsappareltweaks">Dubs Apparel Tweaks</li>
+		<!--菜单-->
+		<li IfModActive="dubwise.dubsmintmenus">Dubs Mint Menus</li>
+
 		<li IfModActive="owlchemist.simplefx.smoke2">Simple FX/Smoke</li>
 		<li IfModActive="owlchemist.simplefx.splashes">Simple FX/Splashes</li>
 		<li IfModActive="atlas.simplefx.vapor.revaporized">Simple FX/Vapor</li>
@@ -12,18 +18,19 @@
 		<li IfModActive="owlchemist.ceilingutilities">Simple Utilities/Ceiling</li>
 		<!--冰箱-->
 		<li IfModActive="owlchemist.fridgeutilities">Simple Utilities/Fridge</li>
+		<!--墙-->
 		<li IfModActive="owlchemist.wallutilities">Simple Utilities/Wall</li>
 		<!-- <li IfModActive="LWM.DeepStorage">Simple Utilities/Cont/LWM's Deep Storage</li> -->
-		
-		
 		<!--<li IfModActive="owlchemist.midsaversaver">Mid</li>-->
+		<!-- 分散的火焰-->
 		<li IfModActive="owlchemist.scatteredflames">Scattered Flames</li>
 		<!--<li IfModActive="owlchemist.giddyup">Giddy-Up 2</li>-->
 		<!--<li IfModActive="owlchemist.moonlight">Moonlight</li>-->
+		<!-- 渗透性地形 -->
 		<li IfModActive="owlchemist.permeableterrain">Permeable Terrain</li>
 
 
-		<li IfModActive="malistaticy.underwhere">16/Under Where</li>
+		<li IfModActive="malistaticy.underwhere">16/Under Where</li><!-- 正常-->
 		<li IfModActive="lucifer.realisticrooms">16/Realistic Rooms Rewritten</li><!-- 正常-->
 		<li IfModActive="mehni.pickupandhaul">16/Pick Up And Haul</li><!-- 不进行添加-->
 		<li IfModActive="co.uk.epicguru.meleeanimation">16/Melee Animation</li><!-- 正常-->

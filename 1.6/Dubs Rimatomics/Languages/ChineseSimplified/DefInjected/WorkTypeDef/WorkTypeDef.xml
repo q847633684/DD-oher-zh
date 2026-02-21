@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Move and load radioactive material.-->
+  <NuclearWork.description>移动和装载放射性物质。</NuclearWork.description>
+  <!--EN: Loading-->
+  <NuclearWork.gerundLabel>加载中</NuclearWork.gerundLabel>
+  <!--EN: Nuclear-->
+  <NuclearWork.labelShort>核</NuclearWork.labelShort>
+  <!--EN: Nuclear managing-->
+  <NuclearWork.pawnLabel>核管理</NuclearWork.pawnLabel>
+  <!--EN: Nuclear-->
+  <NuclearWork.verb>核</NuclearWork.verb>
+</LanguageData>

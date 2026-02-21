@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--未识别字段，谨慎删除-->
+  <SimpleFxSplashes.Settings.OptimizeOverlay>优化天气效果图层</SimpleFxSplashes.Settings.OptimizeOverlay>
+  <!--未识别字段，谨慎删除-->
+  <SimpleFxSplashes.Settings.OptimizeOverlay.Desc>启用以对游戏中的天气效果图层进行优化，如果遇到Mod冲突可以禁用此功能
+&#13;更改此选项需要重新启动游戏。</SimpleFxSplashes.Settings.OptimizeOverlay.Desc>
+  <!--原中文: '初始尺寸（默认值：{0}）：{3} ', 原英文: '无' -> 新英文: 'Splash size (default: {0}): {3}',更新于2026-02-16-->
+  <!--EN: Splash size (default: {0}): {3}-->
+  <SimpleFxSplashes.Settings.SizeMultiplier>初始尺寸（默认值：{0}）：{3} </SimpleFxSplashes.Settings.SizeMultiplier>
+  <!--原中文: '调整水花大小。', 原英文: '无' -> 新英文: 'Adjust how big the splash particles are.',更新于2026-02-16-->
+  <!--EN: Adjust how big the splash particles are.-->
+  <SimpleFxSplashes.Settings.SizeMultiplier.Desc>调整水花大小。</SimpleFxSplashes.Settings.SizeMultiplier.Desc>
+  <!--原中文: '初始稀有度（默认值：{0}）：{3} ', 原英文: '无' -> 新英文: 'Splash rarity (default: {0}): {3}',更新于2026-02-16-->
+  <!--EN: Splash rarity (default: {0}): {3}-->
+  <SimpleFxSplashes.Settings.SplashRarity>初始稀有度（默认值：{0}）：{3} </SimpleFxSplashes.Settings.SplashRarity>
+  <!--原中文: '调整飞溅水花的放缓程度，减少会使其更加普遍，但也会影响性能。', 原英文: '无' -> 新英文: 'Lowering this will spawn more splash particle, and increasing will make them rarer. This impacts performance.',更新于2026-02-16-->
+  <!--EN: Lowering this will spawn more splash particle, and increasing will make them rarer. This impacts performance.-->
+  <SimpleFxSplashes.Settings.SplashRarity.Desc>调整飞溅水花的放缓程度，减少会使其更加普遍，但也会影响性能。</SimpleFxSplashes.Settings.SplashRarity.Desc>
+  <!--原中文: '过滤自然图块（默认值：{0}）：{3} ', 原英文: '无' -> 新英文: 'Filter natural tiles (default: {0}): {3}',更新于2026-02-16-->
+  <!--EN: Filter natural tiles (default: {0}): {3}-->
+  <SimpleFxSplashes.Settings.FilterNature>过滤自然图块（默认值：{0}）：{3} </SimpleFxSplashes.Settings.FilterNature>
+  <!--原中文: '调整能受到雨水飞溅影响的自然方格(例如岩石地面)数量，目前已允许{0}%自然区块受到雨水飞溅影响，增加会影响游戏性能', 原英文: '无' -> 新英文: 'A reduction on natural cells (such as rough stone) allowed to splash rain. Only allow {0}% of natural tiles to splash rain. Increasing this impacts performance.',更新于2026-02-16-->
+  <!--EN: A reduction on natural cells (such as rough stone) allowed to splash rain. Only allow {0}% of natural tiles to splash rain. Increasing this impacts performance.-->
+  <SimpleFxSplashes.Settings.FilterNature.Desc>调整能受到雨水飞溅影响的自然方格(例如岩石地面)数量，目前已允许{0}%自然区块受到雨水飞溅影响，增加会影响游戏性能</SimpleFxSplashes.Settings.FilterNature.Desc>
+</LanguageData>

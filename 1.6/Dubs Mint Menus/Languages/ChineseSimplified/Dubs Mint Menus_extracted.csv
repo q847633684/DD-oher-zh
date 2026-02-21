@@ -1,0 +1,91 @@
+key,text,tag,file,type,protected_text
+Mint.GearMenu,Mint Gear Menu (Experimental),Mint.GearMenu,MintMenus.xml,keyed,Mint Gear Menu (Experimental)
+Mint.GearMenuVisible,Main button visible,Mint.GearMenuVisible,MintMenus.xml,keyed,Main button visible
+Mint.GearMenuDesc,Activate a button to open a gear management menu which allows you to drag and drop available gear onto any pawn,Mint.GearMenuDesc,MintMenus.xml,keyed,Activate a button to open a gear management menu which allows you to drag and drop available gear onto any (PH_1)
+Mint.Setup,Setup,Mint.Setup,MintMenus.xml,keyed,Setup
+Mint.AssignMenu,Mint Assign Menu,Mint.AssignMenu,MintMenus.xml,keyed,Mint Assign Menu
+Mint.AssignMenuDesc,Replace the default assign menu with a mint version,Mint.AssignMenuDesc,MintMenus.xml,keyed,Replace the default assign menu with a mint version
+MessageCantEquipWhileDowned,Can't equip while downed,MessageCantEquipWhileDowned,MintMenus.xml,keyed,Can't equip while downed
+Mint.ShowMintBillsButton,Show mint bills main button,Mint.ShowMintBillsButton,MintMenus.xml,keyed,Show mint bills main button
+Mint.ShowMintBillsButtonTip,Show the mint bills button on the main tabs list along the bottom of the screen,Mint.ShowMintBillsButtonTip,MintMenus.xml,keyed,Show the mint bills button on the main tabs list along the bottom of the screen
+ReplacePlantMenuTip,"Open the mint plant menu instead of vanilla drop down, if disabled you can ctrl click to open the mint menu instead",ReplacePlantMenuTip,MintMenus.xml,keyed,"Open the mint plant menu instead of vanilla drop down, if disabled you can ctrl click to open the mint menu instead"
+Mint.ShowBillWorkIcons,Show work to make icons,Mint.ShowBillWorkIcons,MintMenus.xml,keyed,Show work to make icons
+Mint.ShowBillIngredientIcons,Show ingredient icons,Mint.ShowBillIngredientIcons,MintMenus.xml,keyed,Show ingredient icons
+Mint.ConfirmDeleteTemplate,Confirm delete clone,Mint.ConfirmDeleteTemplate,MintMenus.xml,keyed,Confirm delete clone
+Mint.RenameTemplateTip,Rename,Mint.RenameTemplateTip,MintMenus.xml,keyed,Rename
+Mint.Clones,Clones,Mint.Clones,MintMenus.xml,keyed,Clones
+Mint.Bills,Bills,Mint.Bills,MintMenus.xml,keyed,Bills
+Mint.PasteTemplateTip,Paste bill stack to table,Mint.PasteTemplateTip,MintMenus.xml,keyed,Paste bill stack to table
+Mint.CloneBills,Clone Bills,Mint.CloneBills,MintMenus.xml,keyed,Clone Bills
+Mint.DeleteTemplate,Delete Template,Mint.DeleteTemplate,MintMenus.xml,keyed,Delete Template
+Mint.CloneWorktable,Clone the bill stack from this worktable,Mint.CloneWorktable,MintMenus.xml,keyed,Clone the bill stack from this worktable
+Mint.SelectABenchToAddBills,Select a bench to add a bill,Mint.SelectABenchToAddBills,MintMenus.xml,keyed,Select a bench to add a bill
+AutoCloseArchitect,Close on select,AutoCloseArchitect,MintMenus.xml,keyed,Close on select
+AutoCloseArchitectDesc,Closes the architect menu when a designator is selected,AutoCloseArchitectDesc,MintMenus.xml,keyed,Closes the architect menu when a designator is selected
+ResearchQueueTip,Research Queue - Drag to order,ResearchQueueTip,MintMenus.xml,keyed,Research Queue - Drag to order
+QueueResearchProj,Queue,QueueResearchProj,MintMenus.xml,keyed,Queue
+EnablePinningResources,Enable Resource pinning,EnablePinningResources,MintMenus.xml,keyed,Enable Resource pinning
+EnablePinningResourcesTip,Ctrl click on things in the resource readout to pin them to the top (category mode only),EnablePinningResourcesTip,MintMenus.xml,keyed,Ctrl click on things in the resource readout to pin them to the top (category mode only)
+ShowHideResourceList,Hide resource readout,ShowHideResourceList,MintMenus.xml,keyed,Hide resource readout
+ShowHideResourceListTip,Hide the resource readout on the left of the screen,ShowHideResourceListTip,MintMenus.xml,keyed,Hide the resource readout on the left of the screen
+dragdropdes,Drag\n&\nDrop,dragdropdes,MintMenus.xml,keyed,Drag(PH_2)&(PH_1)Drop
+ReplacePlantMenu,Mint Plant Menu,ReplacePlantMenu,MintMenus.xml,keyed,Mint Plant Menu
+ResearchCompletionMode,Research Completion Mode,ResearchCompletionMode,MintMenus.xml,keyed,Research Completion Mode
+MintHelpLinks,Support Links,MintHelpLinks,MintMenus.xml,keyed,Support Links
+MintDiscord,Dubs Mods Discord,MintDiscord,MintMenus.xml,keyed,Dubs Mods Discord
+ProjectStalled,Research project requirements are not met,ProjectStalled,MintMenus.xml,keyed,Research project requirements are not met
+ProjectStopped,Project stopped,ProjectStopped,MintMenus.xml,keyed,Project stopped
+MintWiki,Mint Menus Wiki,MintWiki,MintMenus.xml,keyed,Mint Menus Wiki
+SetButtonsFromBuildo,Add buttons using the Mint build menu (ctrl click architect menu),SetButtonsFromBuildo,MintMenus.xml,keyed,Add buttons using the Mint build menu (ctrl click architect menu)
+BillSearchTip,Searchable words include:\n\nAny words in bill labels or product labels e.g. pants\n\nStuff catagories e.g. leather\n\nBody part groups e.g. head\n\nTags e.g. industrial\n\nLayers e.g. overhead,BillSearchTip,MintMenus.xml,keyed,Searchable words include:(PH_10)(PH_9)Any words in bill labels or product labels e.g. pants(PH_8)(PH_7)Stuff catagories e.g. leather(PH_6)(PH_5)Body part groups e.g. head(PH_4)(PH_3)Tags e.g. industrial(PH_2)(PH_1)Layers e.g. overhead
+NoActiveProject,No Active Project,NoActiveProject,MintMenus.xml,keyed,No Active Project
+TargetProject,Target Project: {0},TargetProject,MintMenus.xml,keyed,Target Project: (PH_1)
+MintWheelEditMode,Click designators in the architect menu to add them to the wheel\nDrag and drop to arrange in the wheel,MintWheelEditMode,MintMenus.xml,keyed,Click designators in the architect menu to add them to the wheel(PH_1)Drag and drop to arrange in the wheel
+MintWheelDesc,Mint Wheel {0}/{1} Ctrl+Click to assign,MintWheelDesc,MintMenus.xml,keyed,Mint Wheel (PH_2)/(PH_1) Ctrl+Click to assign
+MintWheelMenu,Mint Wheel Menu,MintWheelMenu,MintMenus.xml,keyed,Mint Wheel Menu
+MintWheelonrightclick,Mint Wheel on right click,MintWheelonrightclick,MintMenus.xml,keyed,Mint Wheel on right click
+MintWheelRightClickDesc,Open the Mint wheel on right click instead of opening the architect menu,MintWheelRightClickDesc,MintMenus.xml,keyed,Open the Mint wheel on right click instead of opening the architect menu
+MintWheel,Mint wheel,MintWheel,MintMenus.xml,keyed,Mint wheel
+MintBuildMenu,Build menu,MintBuildMenu,MintMenus.xml,keyed,Build menu
+AutoFocusSearch,Auto focus search box,AutoFocusSearch,MintMenus.xml,keyed,Auto focus search box
+AutoFocusSearchDesc,Automatically focus the search box to start typing each time the build menu is opened,AutoFocusSearchDesc,MintMenus.xml,keyed,Automatically focus the search box to start typing each time the build menu is opened
+OverrideArchitectTab,Override architect tab,OverrideArchitectTab,MintMenus.xml,keyed,Override architect tab
+OverrideArchitectTabDesc,Make the mint build menu the default architect tab (hold ctrl for default),OverrideArchitectTabDesc,MintMenus.xml,keyed,Make the mint build menu the default architect tab (hold ctrl for default)
+ResearchMenu,Research,ResearchMenu,MintMenus.xml,keyed,Research
+MintListWidth,List width,MintListWidth,MintMenus.xml,keyed,List width
+OverrideResearchTab,Override research tab,OverrideResearchTab,MintMenus.xml,keyed,Override research tab
+OverrideResearchTabDesc,Make the mint research menu the default research tab (hold ctrl for default),OverrideResearchTabDesc,MintMenus.xml,keyed,Make the mint research menu the default research tab (hold ctrl for default)
+UnlockedThings,Unlocks Things,UnlockedThings,MintMenus.xml,keyed,Unlocks Things
+HideFinishedProjects,Hide finished research projects,HideFinishedProjects,MintMenus.xml,keyed,Hide finished research projects
+HideLockedProjects,Hide locked research projects,HideLockedProjects,MintMenus.xml,keyed,Hide locked research projects
+PinnedRes,Pinned,PinnedRes,MintMenus.xml,keyed,Pinned
+MintResourceReadout,Mint Resource Readout,MintResourceReadout,MintMenus.xml,keyed,Mint Resource Readout
+MintExperimental,Extras,MintExperimental,MintMenus.xml,keyed,Extras
+Autoprojectstep,Auto project step,Autoprojectstep,MintMenus.xml,keyed,Auto project step
+AutoprojectstepDesc,Automatically start the next research project step to complete the target project,AutoprojectstepDesc,MintMenus.xml,keyed,Automatically start the next research project step to complete the target project
+MintBills,Bills,MintBills,MintMenus.xml,keyed,Bills
+ListWidth,List Width,ListWidth,MintMenus.xml,keyed,List Width
+RowHeight,Row Height,RowHeight,MintMenus.xml,keyed,Row Height
+InfocardWidth,Infocard Width,InfocardWidth,MintMenus.xml,keyed,Infocard Width
+TopOffset,Top Offset,TopOffset,MintMenus.xml,keyed,Top Offset
+MaxHeight,Max Height,MaxHeight,MintMenus.xml,keyed,Max Height
+MintPlants,Plants,MintPlants,MintMenus.xml,keyed,Plants
+BoxSizeX,Box Width,BoxSizeX,MintMenus.xml,keyed,Box Width
+BoxSizeY,Box Height,BoxSizeY,MintMenus.xml,keyed,Box Height
+MintResetAll,Reset All,MintResetAll,MintMenus.xml,keyed,Reset All
+MintMenus.label,mint menus,label,MainButtons.xml,def,mint menus
+MintMenus.description,Search all buildings of all mods.,description,MainButtons.xml,def,Search all buildings of all mods.
+MintResearch.label,mint research,label,MainButtons.xml,def,mint research
+MintResearch.description,Search research projects.,description,MainButtons.xml,def,Search research projects.
+MintDesignators.label,mint designators,label,MainButtons.xml,def,mint designators
+MintDesignators.description,Quick select designators.,description,MainButtons.xml,def,Quick select designators.
+MintBillMenu.label,mint bill menu,label,MainButtons.xml,def,mint bill menu
+MintBillMenu.description,View all bills.,description,MainButtons.xml,def,View all bills.
+MintGearMenu.label,mint gear menu,label,MainButtons.xml,def,mint gear menu
+MintGearMenu.description,View all pawns gear.,description,MainButtons.xml,def,View all pawns gear.
+MintMenus_BuildMenu.label,Mint Build Menu,label,MainButtons.xml,def,Mint Build Menu
+MintMenus_MintResearch.label,Mint Research Menu,label,MainButtons.xml,def,Mint Research Menu
+MintMenus_MintWheel.label,Mint Wheel,label,MainButtons.xml,def,Mint Wheel
+MintMenus_MintBillMenu.label,Mint Bill Menu,label,MainButtons.xml,def,Mint Bill Menu
+MintMenus_PinningHide.label,Hide resource readout (except pins),label,MainButtons.xml,def,Hide resource readout (except pins)
+MintMenus_MintGearMenu.label,Mint Gear Menu,label,MainButtons.xml,def,Mint Gear Menu

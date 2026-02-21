@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Toggle ceiling fixtures.-->
+  <Owl_ToggleFixtures>开关天花板装置</Owl_ToggleFixtures>
+  <!--EN: Show visibility toggle button-->
+  <Utilities_useDrawFixturesToggle>显示可见性切换按钮</Utilities_useDrawFixturesToggle>
+  <!--EN: Must be placed under a roof.-->
+  <WorkPlacer_NeedsRoof>必须放置在屋顶下。</WorkPlacer_NeedsRoof>
+  <!--EN: Cannot be placed over this type of blueprint.-->
+  <WorkPlacer_OverBlueprint>无法放置在此类蓝图上。</WorkPlacer_OverBlueprint>
+  <!--EN: Cannot place over these types of things.-->
+  <WorkPlacer_OverForbiddenThing>无法放置在此类物品上。</WorkPlacer_OverForbiddenThing>
+</LanguageData>

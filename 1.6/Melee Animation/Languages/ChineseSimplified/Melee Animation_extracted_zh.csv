@@ -115,7 +115,7 @@ AM.Stats.DuelAbility,duel ability,AM.Stats.DuelAbility,Keys.xml,keyed,duel abili
 AM.Stats.FriendlyPawnBonus,Friendly Pawn Bonus (from mod settings): {0},AM.Stats.FriendlyPawnBonus,Keys.xml,keyed,Friendly Pawn Bonus (from mod settings): (PH_1),友好典当奖励（来自模组设置）：{0}
 AM.Skill.Cast,Cast unique skill '{0}' on {1},AM.Skill.Cast,Keys.xml,keyed,Cast unique skill '(PH_2)' on (PH_1),对 {1} 施放独特技能“{0}”
 AM.Skill.CantCast,Can't cast {0}: {1},AM.Skill.CantCast,Keys.xml,keyed,Can't cast (PH_2): (PH_1),无法施放 {0}：{1}
-AM.Skill.CantCastGeneric,Can't cast {0} on {1} right now.,AM.Skill.CantCastGeneric,Keys.xml,keyed,Can't cast (PH_2) on (PH_1) right now.,Can't cast {0} on {1} right now.
+AM.Skill.CantCastGeneric,Can't cast {0} on {1} right now.,AM.Skill.CantCastGeneric,Keys.xml,keyed,Can't cast (PH_2) on (PH_1) right now.,目前无法对 {1} 施放 {0}。
 AM.Skill.BadTargetState,Target invalid state.,AM.Skill.BadTargetState,Keys.xml,keyed,Target invalid state.,目标无效状态。
 AM.Skill.AlreadyActive,The skill is already active.,AM.Skill.AlreadyActive,Keys.xml,keyed,The skill is already active.,该技能已经激活。
 AM.Skill.OnCooldown,On cooldown for {0} seconds.,AM.Skill.OnCooldown,Keys.xml,keyed,On cooldown for (PH_1) seconds.,冷却时间为 {0} 秒。
@@ -534,11 +534,11 @@ AM_GrappleCooldown.label,Lasso Cooldown,label,StatDef/StatDef.xml,def,Lasso Cool
 AM_GrappleCooldown.description,"The cooldown, measured in seconds, between lasso uses. Affected by lasso type and pawn health status.",description,StatDef/StatDef.xml,def,"The cooldown, measured in seconds, between lasso uses. Affected by lasso type and (PH_1) health status.",套索 使用之间的冷却时间（以秒为单位）。受 套索 类型和 pawn 健康状况影响。
 AM_ExecutionCooldown.label,Execution Cooldown,label,StatDef/StatDef.xml,def,Execution Cooldown,执行冷却
 AM_ExecutionCooldown.description,"The cooldown, measured in seconds, between melee executions. Affected by pawn melee skill and other factors.",description,StatDef/StatDef.xml,def,"The cooldown, measured in seconds, between melee executions. Affected by (PH_1) melee skill and other factors.",近战处决之间的冷却时间（以秒为单位）。受pawn近战技能等因素影响。
-AM_GrappleSpeed.label,Lasso Reel Speed,label,StatDef/StatDef.xml,def,Lasso Reel Speed,Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.
+AM_GrappleSpeed.label,Lasso Reel Speed,label,StatDef/StatDef.xml,def,Lasso Reel Speed,套索卷轴速度
 AM_GrappleSpeed.description,The speed of ensnaring and then reeling in an enemy using a lasso.\nHigher values mean that it takes less time to grab and pull the target into melee range.\nThis is NOT the lasso cooldown.,description,StatDef/StatDef.xml,def,The speed of ensnaring and then reeling in an enemy using a lasso.(PH_2)Higher values mean that it takes less time to grab and pull the target into melee range.(PH_1)This is NOT the lasso cooldown.,"使用 套索 诱捕并卷入敌人的速度。
 较高的值意味着抓住目标并将其拉入近战范围所需的时间较短。
 这不是 套索 的冷却时间。"
-AM_FriendlyDuel_Win.stages.0.label,won friendly duel,label,ThoughtDef/ThoughtDef.xml,def,won friendly duel,Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.
+AM_FriendlyDuel_Win.stages.0.label,won friendly duel,label,ThoughtDef/ThoughtDef.xml,def,won friendly duel,赢得友谊决斗
 AM_FriendlyDuel_Win.stages.0.description,I won a friendly duel against {OTHERPAWN}!\nIt was a relaxed bout but it still feels good to be victorious.,description,ThoughtDef/ThoughtDef.xml,def,I won a friendly duel against (PH_2)!(PH_1)It was a relaxed bout but it still feels good to be victorious.,"我赢得了与{OTHERPAWN}的友谊决斗！
 这是一场轻松的比赛，但获胜的感觉仍然很好。"
 AM_FriendlyDuel_Lose.stages.0.label,lost friendly duel,label,ThoughtDef/ThoughtDef.xml,def,lost friendly duel,友谊赛失利

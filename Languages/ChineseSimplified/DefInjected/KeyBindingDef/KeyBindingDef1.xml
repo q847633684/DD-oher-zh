@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Dubs Performance Analyzer-->
+  <DubsOptimizerKey.label>Dubs 性能分析器</DubsOptimizerKey.label>
+  <!--EN: Restart game-->
+  <DubsOptimizerRestartKey.label>重新开始游戏</DubsOptimizerRestartKey.label>
+  <!--EN: Toggle Alerts-->
+  <dpa_ToggleAlertBlock.label>切换警报</dpa_ToggleAlertBlock.label>
+</LanguageData>
