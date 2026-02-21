@@ -93,7 +93,12 @@
   <!--EN: Contaminated water-->
   <ContaminationAlert>水污染</ContaminationAlert>
   <!--EN: A well has become polluted.\n\nSources of contamination:\n{0}\n\nEither move the well, remove the sources of contamination, or if you are using piped wells add a water treatment system, which will also clean contaminated water towers over time.-->
-  <ContaminationAlertDesc>水源被污染，蓄水设备储存的水可能会受影响。</ContaminationAlertDesc>
+  <ContaminationAlertDesc>一口井已被污染。
+
+污染源：
+{0}
+
+移动井，消除污染源，或者如果您使用的是管道井，则添加一个水处理系统，随着时间的推移，该系统也将清洁受污染的水塔。</ContaminationAlertDesc>
   <!--EN: Cooling efficiency-->
   <CoolingEfficiency>冷却效率</CoolingEfficiency>
   <!--EN: Efficiency: {0} overheating-->

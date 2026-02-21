@@ -11,9 +11,9 @@
   <!--EN: basin-->
   <BasinStuff.label>洗手池</BasinStuff.label>
   <!--EN: A small mat used next to a bathtub to absorb water.-->
-  <BathMat.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</BathMat.description>
+  <BathMat.description>浴缸旁边用来吸水的小垫子。</BathMat.description>
   <!--EN: Bath Mat-->
-  <BathMat.label>卫生</BathMat.label>
+  <BathMat.label>浴室防滑垫</BathMat.label>
   <!--EN: bathtub-->
   <BathtubStuff.label>浴缸</BathtubStuff.label>
   <!--EN: A receptacle used by a bedridden patient for urine and faeces.-->
@@ -37,33 +37,33 @@
   <!--EN: ceiling fan 1x1-->
   <CeilingFanS.label>吊扇（1x1）</CeilingFanS.label>
   <!--EN: Extracts and sublimates volatile ices trapped beneath asteroid regolith. It produces usable water and generates substantial heat—handle with care when operating in enclosed environments.-->
-  <CryogenicExtractionNode.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</CryogenicExtractionNode.description>
+  <CryogenicExtractionNode.description>提取并升华小行星风化层下的挥发性冰。它产生可用水并产生大量热量，在封闭环境中操作时请小心处理。</CryogenicExtractionNode.description>
   <!--EN: cryogenic extraction node-->
-  <CryogenicExtractionNode.label>卫生</CryogenicExtractionNode.label>
+  <CryogenicExtractionNode.label>低温提取节点</CryogenicExtractionNode.label>
   <!--EN: A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.-->
-  <DBHSaunaHeaterElec.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</DBHSaunaHeaterElec.description>
+  <DBHSaunaHeaterElec.description>专为创建桑拿房而设计的加热器，定期使用桑拿房可降低心脏病发作的风险，将房间加热至 60 摄氏度。</DBHSaunaHeaterElec.description>
   <!--EN: Electric Sauna Heater-->
-  <DBHSaunaHeaterElec.label>卫生</DBHSaunaHeaterElec.label>
+  <DBHSaunaHeaterElec.label>电桑拿炉</DBHSaunaHeaterElec.label>
   <!--EN: A heater designed specifically for creating a sauna room, using a sauna regularly reduces the risk of heart attacks, heats a room to 60c.-->
-  <DBHSaunaHeaterLog.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</DBHSaunaHeaterLog.description>
+  <DBHSaunaHeaterLog.description>专为创建桑拿房而设计的加热器，定期使用桑拿房可降低心脏病发作的风险，将房间加热至 60 摄氏度。</DBHSaunaHeaterLog.description>
   <!--EN: Fueled Sauna Heater-->
-  <DBHSaunaHeaterLog.label>卫生</DBHSaunaHeaterLog.label>
+  <DBHSaunaHeaterLog.label>燃油桑拿炉</DBHSaunaHeaterLog.label>
   <!--EN: Slatted seating for sauna rooms-->
-  <DBHSaunaSeating.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</DBHSaunaSeating.description>
+  <DBHSaunaSeating.description>桑拿房的板条座椅</DBHSaunaSeating.description>
   <!--EN: Sauna seating-->
-  <DBHSaunaSeating.label>卫生</DBHSaunaSeating.label>
+  <DBHSaunaSeating.label>桑拿座位</DBHSaunaSeating.label>
   <!--EN: Swimming pool used for hydrotherapy, relaxation, or pleasure. Must be filled with water from water towers first.-->
   <DBHSwimmingPool.description>用于水疗，放松或娱乐的游泳池，使用时需要从水塔中注入水。</DBHSwimmingPool.description>
   <!--EN: swimming pool-->
   <DBHSwimmingPool.label>游泳池</DBHSwimmingPool.label>
   <!--EN: A bottle of water.-->
-  <DBH_WaterBottle.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</DBH_WaterBottle.description>
+  <DBH_WaterBottle.description>一瓶水。</DBH_WaterBottle.description>
   <!--EN: Drink {0}-->
   <DBH_WaterBottle.ingestible.ingestCommandString>喝{0}</DBH_WaterBottle.ingestible.ingestCommandString>
   <!--EN: Drinking {0}.-->
   <DBH_WaterBottle.ingestible.ingestReportString>饮酒 {0}。</DBH_WaterBottle.ingestible.ingestReportString>
   <!--EN: water-->
-  <DBH_WaterBottle.label>卫生</DBH_WaterBottle.label>
+  <DBH_WaterBottle.label>水</DBH_WaterBottle.label>
   <!--EN: Accesses a large area of ground water which can be pumped by water pumps. Deep wells are unaffected by pollution.-->
   <DeepWaterWellInlet.description>可以通过水泵获取大量地下水，不受地面污水影响。</DeepWaterWellInlet.description>
   <!--EN: deep water well-->
@@ -105,9 +105,9 @@
   <!--EN: gas boiler-->
   <GasBoiler.label>燃气锅炉</GasBoiler.label>
   <!--EN: Uses geothermal heat to heat hot water tanks and radiators. 3700 units of heating.-->
-  <GeothermHeater.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</GeothermHeater.description>
+  <GeothermHeater.description>使用地热来加热 性感的 水箱和散热器。供暖3700单位。</GeothermHeater.description>
   <!--EN: Geothermal heater-->
-  <GeothermHeater.label>卫生</GeothermHeater.label>
+  <GeothermHeater.label>地热加热器</GeothermHeater.label>
   <!--EN: Hot tub used for hydrotherapy, relaxation, or pleasure. Filled with water from water towers on first use. Self-heated and does not require a sewage outlet.-->
   <HotTub.description>用于水疗放松，在清洁的同时提高娱乐和舒适度。第一次使用时会从水塔注入水，自行加热，不需要排污口。</HotTub.description>
   <!--EN: hot tub-->
@@ -135,9 +135,9 @@
   <!--EN: mote-->
   <Mote_FecalBit.label>尘埃</Mote_FecalBit.label>
   <!--EN: Bowl of water used by animals.-->
-  <PetWaterBowl.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</PetWaterBowl.description>
+  <PetWaterBowl.description>动物使用的水碗。</PetWaterBowl.description>
   <!--EN: Water Bowl-->
-  <PetWaterBowl.label>卫生</PetWaterBowl.label>
+  <PetWaterBowl.label>水碗</PetWaterBowl.label>
   <!--EN: A pit latrine that collects faeces in a hole in the ground. Must be emptied manually, or can be plumbed.\n14L per use-->
   <PitLatrine.description>一种用贮粪池收集粪便的厕所，没有水也可以使用。集满时必须手动清空。</PitLatrine.description>
   <!--EN: latrine-->
@@ -157,15 +157,16 @@
   <!--EN: radiator-->
   <RadiatorStuffed.label>暖气</RadiatorStuffed.label>
   <!--EN: Impressive bathroom towel rail.-->
-  <RadiatorTowelRail.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</RadiatorTowelRail.description>
+  <RadiatorTowelRail.description>令人印象深刻的浴室毛巾架。</RadiatorTowelRail.description>
   <!--EN: Towel Rail-->
-  <RadiatorTowelRail.label>卫生</RadiatorTowelRail.label>
+  <RadiatorTowelRail.label>毛巾架</RadiatorTowelRail.label>
   <!--EN: raw sewage-->
   <RawSewage.label>污水</RawSewage.label>
   <!--EN: A vacuum-sealed sewage expulsion port for use in spacecraft. When connected to a vacuum toilet, it safely ejects waste into the void of space.\nMust be mounted on an exterior wall of a ship.-->
-  <SewageDumpPort.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</SewageDumpPort.description>
+  <SewageDumpPort.description>用于航天器的真空密封污水排放口。当连接到真空马桶时，它可以安全地将废物喷射到太空中。
+必须安装在船舶的外墙上。</SewageDumpPort.description>
   <!--EN: sewage dump port-->
-  <SewageDumpPort.label>卫生</SewageDumpPort.label>
+  <SewageDumpPort.label>污水倾倒口</SewageDumpPort.label>
   <!--EN: Can be placed anywhere. Sewage will pool and spread on land or disperse in water. Sewage cleans up over time; the presence of trees, water, or rain will speed this up.-->
   <SewageOutlet.description>可以放置在任何地方。污水会出现在地上或流进水中。随着时间推移，污水会慢慢消失。树木，河湖或雨水能加快去污水的速度。</SewageOutlet.description>
   <!--EN: sewage outlet-->
@@ -187,21 +188,22 @@
   <!--EN: solar heater-->
   <SolarHeater.label>太阳能加热器</SolarHeater.label>
   <!--EN: A compact high-efficiency recycling node that recovers and reuses water from showers and sinks.-->
-  <SpacerWaterRecoverySystem.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</SpacerWaterRecoverySystem.description>
+  <SpacerWaterRecoverySystem.description>紧凑型高效回收节点，可回收和再利用淋浴间和水槽中的水。</SpacerWaterRecoverySystem.description>
   <!--EN: water recovery system-->
-  <SpacerWaterRecoverySystem.label>卫生</SpacerWaterRecoverySystem.label>
+  <SpacerWaterRecoverySystem.label>水回收系统</SpacerWaterRecoverySystem.label>
   <!--EN: Used to control electric and gas boilers. More than one can be placed. Connects via standard plumbing.-->
   <Thermostat.description>用于控制电力和燃气锅炉，通过管道连接。</Thermostat.description>
   <!--EN: thermostat-->
   <Thermostat.label>温控器</Thermostat.label>
   <!--EN: Comfortable, self cleaning, unblockable, super efficient smart toilet. Provides the optimum multi-functional experience with automatic cleansing and deodorization.\n7L per use-->
-  <ToiletAdv.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</ToiletAdv.description>
+  <ToiletAdv.description>舒适、自清洁、畅通无阻、超高效的智能马桶。通过自动清洁和除臭提供最佳的多功能体验。
+每次使用 7L</ToiletAdv.description>
   <!--EN: smart toilet-->
   <ToiletAdvStuff.label>智能马桶</ToiletAdvStuff.label>
   <!--EN: Vacuum toilet that doesn't require water and jettisons all waste into space via sewage dump ports.-->
-  <ToiletSpacer.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</ToiletSpacer.description>
+  <ToiletSpacer.description>真空厕所不需要水，并通过污水倾倒口将所有废物丢弃到太空中。</ToiletSpacer.description>
   <!--EN: vacuum toilet-->
-  <ToiletSpacer.label>卫生</ToiletSpacer.label>
+  <ToiletSpacer.label>真空马桶</ToiletSpacer.label>
   <!--EN: Thin door which only blocks line of sight to people using bathroom fixtures. Does not create new rooms or prevent heat loss.-->
   <ToiletStallDoor.description>隔间门只能阻挡人的视线，方便使用卫生设施，并不会分割房间和防止热量流失。</ToiletStallDoor.description>
   <!--EN: stall door-->
@@ -221,9 +223,9 @@
   <!--EN: water butt-->
   <WaterButt.label>集水桶</WaterButt.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.-->
-  <WaterTankSmall.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</WaterTankSmall.description>
+  <WaterTankSmall.description>储存水以供管道装置使用。如果水被污染，必须将其排出。容量：2000。</WaterTankSmall.description>
   <!--EN: water tank-->
-  <WaterTankSmall.label>卫生</WaterTankSmall.label>
+  <WaterTankSmall.label>水箱</WaterTankSmall.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.-->
   <WaterTowerL.description>用于存放水泵抽取的地下水，如果水塔中的水被污染，必须排空才能确保安全。</WaterTowerL.description>
   <!--EN: huge water tower-->
@@ -237,9 +239,9 @@
   <!--EN: water treatment-->
   <WaterTreatment.label>水过滤器</WaterTreatment.label>
   <!--EN: Trough of water used by animals, a service box with a ballcock valve automatically refills the water when the level is low, also refills in rain.-->
-  <WaterTrough.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</WaterTrough.description>
+  <WaterTrough.description>动物使用的水槽中，带有浮球阀的服务箱会在水位低时自动补充水，在下雨时也会补充水。</WaterTrough.description>
   <!--EN: Water Trough-->
-  <WaterTrough.label>卫生</WaterTrough.label>
+  <WaterTrough.label>水槽</WaterTrough.label>
   <!--EN: Accesses ground water which can be pumped by water pumps. The presence of sewage or other pollution will reduce water quality and can cause contamination.-->
   <WaterWellInlet.description>可以通过水泵获取地下水，如果取水范围内存在污水或其他污染物，会降低水质并有卫生疾病风险。</WaterWellInlet.description>
   <!--EN: water well-->
@@ -253,17 +255,17 @@
   <!--EN: air-con pipe-->
   <airPipe.label>通风管道</airPipe.label>
   <!--EN: Pipe for connecting air-conditioning units. (hidden)-->
-  <airPipeHidden.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</airPipeHidden.description>
+  <airPipeHidden.description>连接空调机组的管道。 （隐）</airPipeHidden.description>
   <!--EN: air-con pipe (hidden)-->
-  <airPipeHidden.label>卫生</airPipeHidden.label>
+  <airPipeHidden.label>空调管（隐藏式）</airPipeHidden.label>
   <!--EN: Opens or closes connections between pipes.-->
   <plumbingValve.description>打开或关闭管道之间的连接。</plumbingValve.description>
   <!--EN: plumbing valve-->
   <plumbingValve.label>管道阀门</plumbingValve.label>
   <!--EN: Plumbing for connecting plumbed things (hidden).-->
-  <sewagePipeHidden.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</sewagePipeHidden.description>
+  <sewagePipeHidden.description>用于连接管道物体的管道（隐藏）。</sewagePipeHidden.description>
   <!--EN: plumbing (hidden)-->
-  <sewagePipeHidden.label>卫生</sewagePipeHidden.label>
+  <sewagePipeHidden.label>管道（隐藏）</sewagePipeHidden.label>
   <!--EN: Plumbing for connecting plumbed things.-->
   <sewagePipeStuff.description>用于连接卫生设备的管道。</sewagePipeStuff.description>
   <!--EN: plumbing-->

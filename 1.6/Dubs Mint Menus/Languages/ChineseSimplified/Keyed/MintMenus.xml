@@ -128,7 +128,7 @@
   <!--EN: Pinned-->
   <PinnedRes>已固定</PinnedRes>
   <!--EN: Research project requirements are not met-->
-  <ProjectStalled>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</ProjectStalled>
+  <ProjectStalled>研究项目要求未满足</ProjectStalled>
   <!--EN: Project stopped-->
   <ProjectStopped>项目停止</ProjectStopped>
   <!--EN: Queue-->

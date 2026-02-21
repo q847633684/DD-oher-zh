@@ -37,9 +37,9 @@
   <!--EN: High Voltage-->
   <HighVoltage.label>高压电缆</HighVoltage.label>
   <!--EN: Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.-->
-  <HighVoltageHidden.description>查看和管理边缘核能研究项目。</HighVoltageHidden.description>
+  <HighVoltageHidden.description>用于将高压电力从涡轮机传输到变压器的隐藏电缆。可以放置在墙壁和其他建筑物下。</HighVoltageHidden.description>
   <!--EN: high voltage (hidden)-->
-  <HighVoltageHidden.label>炸伤</HighVoltageHidden.label>
+  <HighVoltageHidden.label>高压（隐藏）</HighVoltageHidden.label>
   <!--EN: Marauder Railgun.-->
   <Marauder_Railgun.description>“掠夺者”磁轨炮弹。</Marauder_Railgun.description>
   <!--EN: Marauder Railgun-->
@@ -159,9 +159,9 @@
   <!--EN: Console Loom-->
   <controllerLoom.label>数据电缆</controllerLoom.label>
   <!--EN: Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.-->
-  <controllerLoomHidden.description>查看和管理边缘核能研究项目。</controllerLoomHidden.description>
+  <controllerLoomHidden.description>用于在核心和控制台之间传输信号的隐藏布线器。可以放置在墙壁和其他建筑物下。</controllerLoomHidden.description>
   <!--EN: console loom (hidden)-->
-  <controllerLoomHidden.label>炸伤</controllerLoomHidden.label>
+  <controllerLoomHidden.label>控制台织机（隐藏）</controllerLoomHidden.label>
   <!--EN: Opens or closes connections between coolant pipes.-->
   <coolantValve.description>打开或关闭冷却液导管之间的连通。</coolantValve.description>
   <!--EN: Coolant valve-->
@@ -171,17 +171,17 @@
   <!--EN: coolant pipe-->
   <coolingPipe.label>冷却剂导管</coolingPipe.label>
   <!--EN: Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.-->
-  <coolingPipeHidden.description>查看和管理边缘核能研究项目。</coolingPipeHidden.description>
+  <coolingPipeHidden.description>用于将冷却剂从涡轮机泵送到冷却系统的隐藏管道。可以放置在墙壁和其他建筑物下。</coolingPipeHidden.description>
   <!--EN: coolant pipe (hidden)-->
-  <coolingPipeHidden.label>炸伤</coolingPipeHidden.label>
+  <coolingPipeHidden.label>冷却液管（隐藏式）</coolingPipeHidden.label>
   <!--EN: Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.-->
   <steamPipe.description>用于在反应堆与涡轮之间输送高压蒸汽。\n\n可以放置于墙壁和其他建筑物之下。</steamPipe.description>
   <!--EN: Steam pipe-->
   <steamPipe.label>蒸汽导管</steamPipe.label>
   <!--EN: Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.-->
-  <steamPipeHidden.description>查看和管理边缘核能研究项目。</steamPipeHidden.description>
+  <steamPipeHidden.description>用于将高压蒸汽从反应堆泵送到涡轮机的隐藏管道。可以放置在墙壁和其他建筑物下。</steamPipeHidden.description>
   <!--EN: steam water pipe (hidden)-->
-  <steamPipeHidden.label>炸伤</steamPipeHidden.label>
+  <steamPipeHidden.label>蒸汽水管（隐藏式）</steamPipeHidden.label>
   <!--EN: Opens or closes connections between steam pipes.-->
   <steamValve.description>打开或关闭蒸汽导管之间的连通。</steamValve.description>
   <!--EN: Steam valve-->
@@ -195,9 +195,9 @@
   <!--EN: cold water pipe-->
   <waterPipe.label>冷水导管</waterPipe.label>
   <!--EN: Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.-->
-  <waterPipeHidden.description>查看和管理边缘核能研究项目。</waterPipeHidden.description>
+  <waterPipeHidden.description>用于将冷水从涡轮机或热交换器抽回核心的隐藏管道。可以放置在墙壁和其他建筑物下。</waterPipeHidden.description>
   <!--EN: cold water pipe (hidden)-->
-  <waterPipeHidden.label>炸伤</waterPipeHidden.label>
+  <waterPipeHidden.label>冷水管（隐藏式）</waterPipeHidden.label>
   <!--EN: Opens or closes connections between cold water pipes.-->
   <waterValve.description>打开或关闭冷水导管之间的连通。</waterValve.description>
   <!--EN: Cold water valve-->

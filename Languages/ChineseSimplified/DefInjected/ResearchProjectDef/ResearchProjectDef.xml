@@ -9,9 +9,9 @@
   <!--EN: smart toilets-->
   <AdvancedToilets.label>智能马桶</AdvancedToilets.label>
   <!--EN: Extract and sublimate volatile ices trapped beneath asteroid regolith.-->
-  <AsteroidCryoMining.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</AsteroidCryoMining.description>
+  <AsteroidCryoMining.description>提取并升华小行星风化层下的挥发性冰。</AsteroidCryoMining.description>
   <!--EN: asteroid cryo mining-->
-  <AsteroidCryoMining.label>卫生</AsteroidCryoMining.label>
+  <AsteroidCryoMining.label>小行星低温采矿</AsteroidCryoMining.label>
   <!--EN: Build central heating systems with radiators, hot water tanks, boilers and thermostats.-->
   <CentralHeating.description>解锁暖气、热水箱、太阳能加热器、锅炉和化合燃料锅炉。</CentralHeating.description>
   <!--EN: central heating-->
@@ -29,9 +29,9 @@
   <!--EN: fire suppression-->
   <FireSuppression.label>灭火系统</FireSuppression.label>
   <!--EN: Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.-->
-  <GeothermalHeating.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</GeothermalHeating.description>
+  <GeothermalHeating.description>建造可以建在间歇泉上方的地热加热器，为中央供暖和热水箱产生热量。</GeothermalHeating.description>
   <!--EN: Geothermal Heating-->
-  <GeothermalHeating.label>卫生</GeothermalHeating.label>
+  <GeothermalHeating.label>地热供暖</GeothermalHeating.label>
   <!--EN: Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure.-->
   <HotTubs.description>解锁热水按摩浴缸，用于水疗放松，在清洁的同时提高娱乐和舒适度。</HotTubs.description>
   <!--EN: hot tubs-->
@@ -65,9 +65,9 @@
   <!--EN: plumbing-->
   <Plumbing.label>管道系统</Plumbing.label>
   <!--EN: Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.-->
-  <Saunas.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</Saunas.description>
+  <Saunas.description>建造一个带有桑拿加热器的专用房间，殖民者可以在那里放松和清洁，经常使用可以减少心脏病发作的机会。</Saunas.description>
   <!--EN: saunas-->
-  <Saunas.label>卫生</Saunas.label>
+  <Saunas.label>桑拿</Saunas.label>
   <!--EN: Build septic tanks which accumulate sewage and provide moderate treatment of sewage.-->
   <SepticTanks.description>解锁化粪池，可以过滤污水并提供基础的污水处理。</SepticTanks.description>
   <!--EN: septic tanks-->
@@ -81,9 +81,9 @@
   <!--EN: sewage treatment-->
   <SewageTreatment.label>污水处理池</SewageTreatment.label>
   <!--EN: Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.-->
-  <SpacerHygieneRecycling.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</SpacerHygieneRecycling.description>
+  <SpacerHygieneRecycling.description>紧凑型高效回收节点，可回收和再利用淋浴间和水槽中的水。</SpacerHygieneRecycling.description>
   <!--EN: spacer hygiene recycling-->
-  <SpacerHygieneRecycling.label>卫生</SpacerHygieneRecycling.label>
+  <SpacerHygieneRecycling.label>垫片卫生回收</SpacerHygieneRecycling.label>
   <!--EN: Build swimming pools.-->
   <SwimmingPools.description>解锁建造游泳池。</SwimmingPools.description>
   <!--EN: swimming pools-->

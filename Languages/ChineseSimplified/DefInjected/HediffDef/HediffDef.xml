@@ -5,11 +5,11 @@
   <!--EN: bad hygiene-->
   <BadHygiene.label>不良卫生习惯</BadHygiene.label>
   <!--EN: moderate-->
-  <BadHygiene.stages.0.label>缓和</BadHygiene.stages.0.label>
+  <BadHygiene.stages.0.label>中等</BadHygiene.stages.0.label>
   <!--EN: severe-->
   <BadHygiene.stages.1.label>严重</BadHygiene.stages.1.label>
   <!--EN: extreme-->
-  <BadHygiene.stages.2.label>极端</BadHygiene.stages.2.label>
+  <BadHygiene.stages.2.label>极重</BadHygiene.stages.2.label>
   <!--EN: An installed bionic bladder.-->
   <BionicBladder.description>先进的人造膀胱。化学循环系统将人体产生的废物分解成分子并被循环利用，其余的则以气体的形式被释放，其不利之处在于使用者将会产生更多的废气。</BionicBladder.description>
   <!--EN: bionic bladder-->
@@ -21,47 +21,47 @@
   <!--EN: cholera-->
   <Cholera.label>霍乱</Cholera.label>
   <!--EN: minor-->
-  <Cholera.stages.0.label>次要的</Cholera.stages.0.label>
+  <Cholera.stages.0.label>中等</Cholera.stages.0.label>
   <!--EN: major-->
-  <Cholera.stages.1.label>主要的</Cholera.stages.1.label>
+  <Cholera.stages.1.label>严重</Cholera.stages.1.label>
   <!--EN: extreme-->
-  <Cholera.stages.2.label>极端</Cholera.stages.2.label>
+  <Cholera.stages.2.label>极重</Cholera.stages.2.label>
   <!--EN: extreme-->
-  <Cholera.stages.3.label>极端</Cholera.stages.3.label>
+  <Cholera.stages.3.label>极重</Cholera.stages.3.label>
   <!--EN: Dehydration is a condition that can occur when the loss of body fluids, mostly water, exceeds the amount that is taken in.-->
   <DBHDehydration.description>脱水是一种当体液(主要是水)流失量超过摄入量时可能发生的状态。</DBHDehydration.description>
   <!--EN: dehydration-->
   <DBHDehydration.label>脱水</DBHDehydration.label>
   <!--EN: trivial-->
-  <DBHDehydration.stages.0.label>琐碎的</DBHDehydration.stages.0.label>
+  <DBHDehydration.stages.0.label>轻微</DBHDehydration.stages.0.label>
   <!--EN: minor-->
-  <DBHDehydration.stages.1.label>次要的</DBHDehydration.stages.1.label>
+  <DBHDehydration.stages.1.label>较轻</DBHDehydration.stages.1.label>
   <!--EN: moderate-->
-  <DBHDehydration.stages.2.label>缓和</DBHDehydration.stages.2.label>
+  <DBHDehydration.stages.2.label>中等</DBHDehydration.stages.2.label>
   <!--EN: severe-->
-  <DBHDehydration.stages.3.label>严重</DBHDehydration.stages.3.label>
+  <DBHDehydration.stages.3.label>较重</DBHDehydration.stages.3.label>
   <!--EN: extreme-->
-  <DBHDehydration.stages.4.label>极端</DBHDehydration.stages.4.label>
+  <DBHDehydration.stages.4.label>极重</DBHDehydration.stages.4.label>
   <!--EN: Diarrhea is loose, watery stools. Also known as bowel movements.-->
   <Diarrhea.description>排便成水样，松散不成形。也就是俗称的拉肚子。</Diarrhea.description>
   <!--EN: diarrhea-->
   <Diarrhea.label>腹泻</Diarrhea.label>
   <!--EN: recovering-->
-  <Diarrhea.stages.0.label>恢复中</Diarrhea.stages.0.label>
+  <Diarrhea.stages.0.label>加重</Diarrhea.stages.0.label>
   <!--EN: major-->
-  <Diarrhea.stages.1.label>主要的</Diarrhea.stages.1.label>
+  <Diarrhea.stages.1.label>初期</Diarrhea.stages.1.label>
   <!--EN: initial-->
-  <Diarrhea.stages.2.label>最初的</Diarrhea.stages.2.label>
+  <Diarrhea.stages.2.label>恢复</Diarrhea.stages.2.label>
   <!--EN: Dysentery is a type of gastroenteritis that results in diarrhea with blood.-->
   <Dysentery.description>痢疾是一种胃肠炎，会导致便血。</Dysentery.description>
   <!--EN: dysentery-->
   <Dysentery.label>痢疾</Dysentery.label>
   <!--EN: minor-->
-  <Dysentery.stages.0.label>次要的</Dysentery.stages.0.label>
+  <Dysentery.stages.0.label>中等</Dysentery.stages.0.label>
   <!--EN: major-->
-  <Dysentery.stages.1.label>主要的</Dysentery.stages.1.label>
+  <Dysentery.stages.1.label>严重</Dysentery.stages.1.label>
   <!--EN: extreme-->
-  <Dysentery.stages.2.label>极端</Dysentery.stages.2.label>
+  <Dysentery.stages.2.label>极重</Dysentery.stages.2.label>
   <!--EN: An installed hygiene enhancer.-->
   <HygieneEnhancer.description>这种装置能够释放纳米机器人清除使用者皮肤和毛发上的死皮细胞与其他碎屑，形成无害物释放到空气中。</HygieneEnhancer.description>
   <!--EN: hygiene enhancer-->

@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
-  <!--EN: entering grave.-->
-  <EnterZGrave.reportString>进入坟墓。</EnterZGrave.reportString>
+  <!--EN: relaxing socially.-->
+  <SocialRelaxCommonSense.reportString>正在社交放松</SocialRelaxCommonSense.reportString>
+  <!--EN: unloading inventory.-->
+  <UnloadMarkedItems.reportString>正在卸货库存</UnloadMarkedItems.reportString>
 </LanguageData>

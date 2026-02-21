@@ -19,11 +19,11 @@
   <!--EN: give drink-->
   <DBHAdministerFluids.verb>管理流体</DBHAdministerFluids.verb>
   <!--EN: serving drink-->
-  <DBHAdministerFluidsWarden.gerund>清理</DBHAdministerFluidsWarden.gerund>
+  <DBHAdministerFluidsWarden.gerund>服务饮料</DBHAdministerFluidsWarden.gerund>
   <!--EN: administer fluids-->
-  <DBHAdministerFluidsWarden.label>卫生</DBHAdministerFluidsWarden.label>
+  <DBHAdministerFluidsWarden.label>输液</DBHAdministerFluidsWarden.label>
   <!--EN: give drink-->
-  <DBHAdministerFluidsWarden.verb>清理</DBHAdministerFluidsWarden.verb>
+  <DBHAdministerFluidsWarden.verb>给饮料</DBHAdministerFluidsWarden.verb>
   <!--EN: burning at-->
   <DoBillsBurnPit.gerund>焚烧于</DoBillsBurnPit.gerund>
   <!--EN: do burn pit bills-->
@@ -91,17 +91,17 @@
   <!--EN: unload washing-->
   <UnloadWashing.verb>取出</UnloadWashing.verb>
   <!--EN: emptying-->
-  <WardenEmptySepticTank.gerund>清理</WardenEmptySepticTank.gerund>
+  <WardenEmptySepticTank.gerund>排空</WardenEmptySepticTank.gerund>
   <!--EN: empty septic tank-->
-  <WardenEmptySepticTank.label>卫生</WardenEmptySepticTank.label>
+  <WardenEmptySepticTank.label>空化粪池</WardenEmptySepticTank.label>
   <!--EN: empty-->
-  <WardenEmptySepticTank.verb>清理</WardenEmptySepticTank.verb>
+  <WardenEmptySepticTank.verb>空的</WardenEmptySepticTank.verb>
   <!--EN: refilling-->
-  <WardenRefillWater.gerund>清理</WardenRefillWater.gerund>
+  <WardenRefillWater.gerund>补充</WardenRefillWater.gerund>
   <!--EN: refill water-->
-  <WardenRefillWater.label>卫生</WardenRefillWater.label>
+  <WardenRefillWater.label>加水</WardenRefillWater.label>
   <!--EN: refill-->
-  <WardenRefillWater.verb>清理</WardenRefillWater.verb>
+  <WardenRefillWater.verb>补充装</WardenRefillWater.verb>
   <!--EN: cleaning-->
   <cleanBedpan.gerund>清理</cleanBedpan.gerund>
   <!--EN: clean bed pan-->
@@ -115,11 +115,11 @@
   <!--EN: empty-->
   <emptySepticTank.verb>清空</emptySepticTank.verb>
   <!--EN: washing-->
-  <washChild.gerund>清理</washChild.gerund>
+  <washChild.gerund>洗涤</washChild.gerund>
   <!--EN: wash child-->
-  <washChild.label>卫生</washChild.label>
+  <washChild.label>给孩子洗澡</washChild.label>
   <!--EN: wash-->
-  <washChild.verb>清理</washChild.verb>
+  <washChild.verb>洗</washChild.verb>
   <!--EN: washing-->
   <washPatient.gerund>清洁</washPatient.gerund>
   <!--EN: wash patient-->
