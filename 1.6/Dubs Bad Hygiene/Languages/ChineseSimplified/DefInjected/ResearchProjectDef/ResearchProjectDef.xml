@@ -1,99 +1,99 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: Build power showers which halve the time spent showering and improve comfort.-->
-  <AdvancedShowers.description>解锁电力淋浴设备，缩短淋浴时间并提高舒适度。</AdvancedShowers.description>
+  <AdvancedShowers.description>建造强力淋浴，可将淋浴时间减少一半并提高舒适度。</AdvancedShowers.description>
   <!--EN: power showers-->
-  <AdvancedShowers.label>电力淋浴器</AdvancedShowers.label>
+  <AdvancedShowers.label>强力淋浴</AdvancedShowers.label>
   <!--EN: Build comfortable, self cleaning, super efficient smart toilets.-->
-  <AdvancedToilets.description>解锁智能马桶，提高水利用率和舒适度。</AdvancedToilets.description>
+  <AdvancedToilets.description>打造舒适、自清洁、超高效的智能厕所。</AdvancedToilets.description>
   <!--EN: smart toilets-->
   <AdvancedToilets.label>智能马桶</AdvancedToilets.label>
   <!--EN: Extract and sublimate volatile ices trapped beneath asteroid regolith.-->
-  <AsteroidCryoMining.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</AsteroidCryoMining.description>
+  <AsteroidCryoMining.description>提取并升华小行星风化层下的挥发性冰。</AsteroidCryoMining.description>
   <!--EN: asteroid cryo mining-->
-  <AsteroidCryoMining.label>卫生</AsteroidCryoMining.label>
+  <AsteroidCryoMining.label>小行星低温采矿</AsteroidCryoMining.label>
   <!--EN: Build central heating systems with radiators, hot water tanks, boilers and thermostats.-->
-  <CentralHeating.description>解锁暖气、热水箱、太阳能加热器、锅炉和化合燃料锅炉。</CentralHeating.description>
+  <CentralHeating.description>建造带有散热器、热水箱、锅炉和恒温器的中央供暖系统。</CentralHeating.description>
   <!--EN: central heating-->
-  <CentralHeating.label>集中供暖</CentralHeating.label>
+  <CentralHeating.label>暖气</CentralHeating.label>
   <!--EN: Drill deeper wells to access a much larger area of ground water.-->
-  <DeepWells.description>钻探更深的井以获得更大面积的地下水。</DeepWells.description>
+  <DeepWells.description>钻更深的井以获得更大面积的地下水。</DeepWells.description>
   <!--EN: deep wells-->
-  <DeepWells.label>深水井</DeepWells.label>
+  <DeepWells.label>深井</DeepWells.label>
   <!--EN: Powered water pumps for pressurized continuous water pumping.-->
-  <ElectricPumps.description>解锁用电力驱动并稳定工作的抽水设备。</ElectricPumps.description>
+  <ElectricPumps.description>用于加压连续抽水的动力水泵。</ElectricPumps.description>
   <!--EN: electric pumps-->
-  <ElectricPumps.label>电力抽水机</ElectricPumps.label>
+  <ElectricPumps.label>电动泵</ElectricPumps.label>
   <!--EN: Build sprinklers that suppress fires with a spray of water.-->
-  <FireSuppression.description>解锁可以产生水雾抑制火灾的消防喷淋头。</FireSuppression.description>
+  <FireSuppression.description>建造洒水装置，通过喷水灭火。</FireSuppression.description>
   <!--EN: fire suppression-->
-  <FireSuppression.label>灭火系统</FireSuppression.label>
+  <FireSuppression.label>灭火</FireSuppression.label>
   <!--EN: Build geothermal heaters which can be built over geysers to generate heat for central heating and hot water tanks.-->
-  <GeothermalHeating.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</GeothermalHeating.description>
+  <GeothermalHeating.description>建造可以建在间歇泉上方的地热加热器，为中央供暖和热水箱产生热量。</GeothermalHeating.description>
   <!--EN: Geothermal Heating-->
-  <GeothermalHeating.label>卫生</GeothermalHeating.label>
+  <GeothermalHeating.label>地热供暖</GeothermalHeating.label>
   <!--EN: Build hot tubs which can be used for hydrotherapy, relaxation, and pleasure.-->
-  <HotTubs.description>解锁热水按摩浴缸，用于水疗放松，在清洁的同时提高娱乐和舒适度。</HotTubs.description>
+  <HotTubs.description>建造热浴缸，可用于水疗、放松和娱乐。</HotTubs.description>
   <!--EN: hot tubs-->
-  <HotTubs.label>热水按摩浴缸</HotTubs.label>
+  <HotTubs.label>热浴缸</HotTubs.label>
   <!--EN: Craft bionics that help to process bodily waste and manage personal hygiene.-->
-  <HygieneBionics.description>解锁有助于处理身体废物和管理个人卫生的仿生体。</HygieneBionics.description>
+  <HygieneBionics.description>制作有助于处理身体废物和管理个人卫生的仿生学。</HygieneBionics.description>
   <!--EN: Hygiene Bionics-->
-  <HygieneBionics.label>卫生仿生</HygieneBionics.label>
+  <HygieneBionics.label>卫生仿生学</HygieneBionics.label>
   <!--EN: Build sprinklers that can irrigate soil to improve fertility.-->
-  <Irrigation.description>解锁可以灌溉土壤以提高肥沃度的喷灌机。</Irrigation.description>
+  <Irrigation.description>建造可以灌溉土壤以提高肥力的喷头。</Irrigation.description>
   <!--EN: irrigation-->
   <Irrigation.label>灌溉</Irrigation.label>
   <!--EN: Build industrial-scale water pumps and storage tanks.-->
-  <LargeWaterPumps.description>解锁工业级别的抽水和储水设备。</LargeWaterPumps.description>
+  <LargeWaterPumps.description>建造工业规模的水泵和储罐。</LargeWaterPumps.description>
   <!--EN: industrial-scale pumps-->
-  <LargeWaterPumps.label>工业规模化</LargeWaterPumps.label>
+  <LargeWaterPumps.label>工业规模泵</LargeWaterPumps.label>
   <!--EN: Build log boilers which can be used to heat rooms and can be placed adjacent to baths to heat bathwater.-->
-  <LogBoilers.description>解锁建造能提高房间温度并给相邻洗浴用水加热的锅炉。</LogBoilers.description>
+  <LogBoilers.description>建造可用于房间供暖的原木锅炉，并可放置在浴室附近来加热洗澡水。</LogBoilers.description>
   <!--EN: heating-->
-  <LogBoilers.label>供热</LogBoilers.label>
+  <LogBoilers.label>加热</LogBoilers.label>
   <!--EN: Build modern-style bathroom fixtures like toilets and showers.-->
-  <ModernFixtures.description>解锁建造现代风格的浴室设施，包括马桶和淋浴器等。</ModernFixtures.description>
+  <ModernFixtures.description>建造现代风格的浴室设备，如厕所和淋浴间。</ModernFixtures.description>
   <!--EN: modern bathroom fixtures-->
-  <ModernFixtures.label>现代浴室设施</ModernFixtures.label>
+  <ModernFixtures.label>现代浴室装置</ModernFixtures.label>
   <!--EN: Build multi-split air conditioning systems with outdoor units piped to indoor units and freezers.-->
-  <MultiSplitAirCon.description>解锁多分体空调系统，使用通风管道将复数室外机、室内机和制冷机连接在一起。</MultiSplitAirCon.description>
+  <MultiSplitAirCon.description>构建多联机空调系统，将室外机通过管道连接到室内机和冰柜。</MultiSplitAirCon.description>
   <!--EN: multi-split air conditioning-->
-  <MultiSplitAirCon.label>多分体空调</MultiSplitAirCon.label>
+  <MultiSplitAirCon.label>多联机空调</MultiSplitAirCon.label>
   <!--EN: Use pipes, plumbing fixtures, storage tanks, wind pumps and other apparatuses to deliver and drain water and sewage.-->
-  <Plumbing.description>解锁管道、卫生设备、蓄水设备、水井、抽水机和其他基础给排水设备。</Plumbing.description>
+  <Plumbing.description>使用管道、管道装置、储罐、风泵和其他设备来输送和排出水和污水。</Plumbing.description>
   <!--EN: plumbing-->
-  <Plumbing.label>管道系统</Plumbing.label>
+  <Plumbing.label>管道</Plumbing.label>
   <!--EN: Build a dedicated room with a sauna heater where colonists can relax and clean, frequent use can reduce the chance of heart attacks.-->
-  <Saunas.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</Saunas.description>
+  <Saunas.description>建造一个带有桑拿加热器的专用房间，殖民者可以在那里放松和清洁，经常使用可以减少心脏病发作的机会。</Saunas.description>
   <!--EN: saunas-->
-  <Saunas.label>卫生</Saunas.label>
+  <Saunas.label>桑拿</Saunas.label>
   <!--EN: Build septic tanks which accumulate sewage and provide moderate treatment of sewage.-->
-  <SepticTanks.description>解锁化粪池，可以过滤污水并提供基础的污水处理。</SepticTanks.description>
+  <SepticTanks.description>建设化粪池积存污水，并对污水进行适度处理。</SepticTanks.description>
   <!--EN: septic tanks-->
   <SepticTanks.label>化粪池</SepticTanks.label>
   <!--EN: When properly treated and processed, sewage sludge becomes biosolids that offer a small boost to terrain fertility. Useful for harsh environments with limited space to grow. Biosolids also produce a large boost to the fertility of sand which can make it fertile when combined with irrigation.-->
-  <SewageSludgeComposting.description>解锁堆肥技术。废水和粪便经过适当处理和发酵后营养物质丰富，可以作为生物有机肥料提高土壤肥沃度。</SewageSludgeComposting.description>
+  <SewageSludgeComposting.description>如果处理得当，污水污泥会变成生物固体，对地形肥力有一定的促进作用。适用于生长空间有限的恶劣环境。生物固体还可以大大提高沙子的肥力，与灌溉相结合可以使其变得肥沃。</SewageSludgeComposting.description>
   <!--EN: sewage sludge composting-->
-  <SewageSludgeComposting.label>堆肥</SewageSludgeComposting.label>
+  <SewageSludgeComposting.label>污水污泥堆肥</SewageSludgeComposting.label>
   <!--EN: Build large sewage treatment systems which accumulate large amounts of sewage and provide fast treatment of sewage.-->
-  <SewageTreatment.description>随时间逐渐清理污水的设备。污水会首先进入污水处理设施，处理90%，剩余10%通过排污口排出。达到满负荷后，多余的污水将不经处理，直接从排污口排出。</SewageTreatment.description>
+  <SewageTreatment.description>建设大型污水处理系统，积累大量污水，实现污水快速处理。</SewageTreatment.description>
   <!--EN: sewage treatment-->
-  <SewageTreatment.label>污水处理池</SewageTreatment.label>
+  <SewageTreatment.label>污水处理</SewageTreatment.label>
   <!--EN: Compact high-efficiency recycling nodes that recover and reuse water from showers and sinks.-->
-  <SpacerHygieneRecycling.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</SpacerHygieneRecycling.description>
+  <SpacerHygieneRecycling.description>紧凑型高效回收节点，可回收和再利用淋浴间和水槽中的水。</SpacerHygieneRecycling.description>
   <!--EN: spacer hygiene recycling-->
-  <SpacerHygieneRecycling.label>卫生</SpacerHygieneRecycling.label>
+  <SpacerHygieneRecycling.label>垫片卫生回收</SpacerHygieneRecycling.label>
   <!--EN: Build swimming pools.-->
-  <SwimmingPools.description>解锁建造游泳池。</SwimmingPools.description>
+  <SwimmingPools.description>建造游泳池。</SwimmingPools.description>
   <!--EN: swimming pools-->
   <SwimmingPools.label>游泳池</SwimmingPools.label>
   <!--EN: Build washing machines that can wash clothes so well that you couldn't even tell someone died wearing it!-->
-  <WashingMachines.description>解锁可清洗衣服的洗衣机，这台机器如此优秀，以至于殖民者甚至无法发现这件衣服曾被死人穿过！</WashingMachines.description>
+  <WashingMachines.description>建造可以很好地洗衣服的洗衣机，以至于你甚至看不出有人穿着它死了！</WashingMachines.description>
   <!--EN: washing machines-->
   <WashingMachines.label>洗衣机</WashingMachines.label>
   <!--EN: Build water filtration systems which treat the water supply, eliminating the risk of disease.-->
-  <WaterFiltration.description>解锁水过滤系统，用水经过处理能够消除疾病风险。</WaterFiltration.description>
+  <WaterFiltration.description>建立水过滤系统来处理供水，消除疾病风险。</WaterFiltration.description>
   <!--EN: water filtration-->
   <WaterFiltration.label>水过滤</WaterFiltration.label>
 </LanguageData>

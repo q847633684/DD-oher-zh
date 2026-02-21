@@ -1,59 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: cleaning-->
-  <CleanFilthIndoors.gerund>正在清洁</CleanFilthIndoors.gerund>
+  <CleanFilthIndoors.gerund>打扫</CleanFilthIndoors.gerund>
   <!--EN: clean filth indoors-->
-  <CleanFilthIndoors.label>清洁室内污物</CleanFilthIndoors.label>
+  <CleanFilthIndoors.label>清理室内污物</CleanFilthIndoors.label>
   <!--EN: clean-->
-  <CleanFilthIndoors.verb>清洁</CleanFilthIndoors.verb>
+  <CleanFilthIndoors.verb>干净的</CleanFilthIndoors.verb>
   <!--EN: clearing blockage-->
-  <ClearBlockage.gerund>清除阻塞</ClearBlockage.gerund>
+  <ClearBlockage.gerund>清除堵塞</ClearBlockage.gerund>
   <!--EN: clear blockage-->
-  <ClearBlockage.label>清除阻塞</ClearBlockage.label>
+  <ClearBlockage.label>清除堵塞</ClearBlockage.label>
   <!--EN: clear blockage-->
-  <ClearBlockage.verb>清除阻塞</ClearBlockage.verb>
+  <ClearBlockage.verb>清除堵塞</ClearBlockage.verb>
   <!--EN: serving drink-->
-  <DBHAdministerFluids.gerund>管理流体</DBHAdministerFluids.gerund>
+  <DBHAdministerFluids.gerund>服务饮料</DBHAdministerFluids.gerund>
   <!--EN: administer fluids-->
-  <DBHAdministerFluids.label>管理流体</DBHAdministerFluids.label>
+  <DBHAdministerFluids.label>输液</DBHAdministerFluids.label>
   <!--EN: give drink-->
-  <DBHAdministerFluids.verb>管理流体</DBHAdministerFluids.verb>
+  <DBHAdministerFluids.verb>给饮料</DBHAdministerFluids.verb>
   <!--EN: serving drink-->
-  <DBHAdministerFluidsWarden.gerund>清理</DBHAdministerFluidsWarden.gerund>
+  <DBHAdministerFluidsWarden.gerund>服务饮料</DBHAdministerFluidsWarden.gerund>
   <!--EN: administer fluids-->
-  <DBHAdministerFluidsWarden.label>卫生</DBHAdministerFluidsWarden.label>
+  <DBHAdministerFluidsWarden.label>输液</DBHAdministerFluidsWarden.label>
   <!--EN: give drink-->
-  <DBHAdministerFluidsWarden.verb>清理</DBHAdministerFluidsWarden.verb>
+  <DBHAdministerFluidsWarden.verb>给饮料</DBHAdministerFluidsWarden.verb>
   <!--EN: burning at-->
-  <DoBillsBurnPit.gerund>焚烧于</DoBillsBurnPit.gerund>
+  <DoBillsBurnPit.gerund>燃烧于</DoBillsBurnPit.gerund>
   <!--EN: do burn pit bills-->
-  <DoBillsBurnPit.label>完成燃烧坑的清单</DoBillsBurnPit.label>
+  <DoBillsBurnPit.label>烧掉矿坑账单</DoBillsBurnPit.label>
   <!--EN: burn-->
-  <DoBillsBurnPit.verb>焚烧</DoBillsBurnPit.verb>
+  <DoBillsBurnPit.verb>烧伤</DoBillsBurnPit.verb>
   <!--EN: cleaning-->
-  <DocCleanBedpan.gerund>清理</DocCleanBedpan.gerund>
+  <DocCleanBedpan.gerund>打扫</DocCleanBedpan.gerund>
   <!--EN: clean bed pan-->
-  <DocCleanBedpan.label>清理便盆</DocCleanBedpan.label>
+  <DocCleanBedpan.label>干净的便盆</DocCleanBedpan.label>
   <!--EN: clean-->
-  <DocCleanBedpan.verb>清理</DocCleanBedpan.verb>
+  <DocCleanBedpan.verb>干净的</DocCleanBedpan.verb>
   <!--EN: draining-->
   <DrainWaterTank.gerund>排水</DrainWaterTank.gerund>
   <!--EN: drain water-->
-  <DrainWaterTank.label>排水</DrainWaterTank.label>
+  <DrainWaterTank.label>沥干水</DrainWaterTank.label>
   <!--EN: drain-->
-  <DrainWaterTank.verb>排空</DrainWaterTank.verb>
+  <DrainWaterTank.verb>流走</DrainWaterTank.verb>
   <!--EN: filling-->
-  <FillComposter.gerund>填满</FillComposter.gerund>
+  <FillComposter.gerund>填充</FillComposter.gerund>
   <!--EN: fill composter-->
-  <FillComposter.label>填满堆肥器</FillComposter.label>
+  <FillComposter.label>填充堆肥机</FillComposter.label>
   <!--EN: fill-->
-  <FillComposter.verb>填满</FillComposter.verb>
+  <FillComposter.verb>充满</FillComposter.verb>
   <!--EN: loading washing-->
-  <LoadWashing.gerund>放入</LoadWashing.gerund>
+  <LoadWashing.gerund>装载洗涤</LoadWashing.gerund>
   <!--EN: load washing-->
-  <LoadWashing.label>放入清洗的衣物</LoadWashing.label>
+  <LoadWashing.label>负载洗涤</LoadWashing.label>
   <!--EN: load washing-->
-  <LoadWashing.verb>放入</LoadWashing.verb>
+  <LoadWashing.verb>负载洗涤</LoadWashing.verb>
   <!--EN: fertilizing-->
   <PlaceFertilizer.gerund>施肥</PlaceFertilizer.gerund>
   <!--EN: fertilize-->
@@ -61,69 +61,69 @@
   <!--EN: fertilize-->
   <PlaceFertilizer.verb>施肥</PlaceFertilizer.verb>
   <!--EN: refilling-->
-  <RefillWater.gerund>装水</RefillWater.gerund>
+  <RefillWater.gerund>补充</RefillWater.gerund>
   <!--EN: refill water-->
-  <RefillWater.label>装水</RefillWater.label>
+  <RefillWater.label>加水</RefillWater.label>
   <!--EN: refill-->
-  <RefillWater.verb>装水</RefillWater.verb>
+  <RefillWater.verb>补充装</RefillWater.verb>
   <!--EN: removing sewage-->
-  <RemoveSewage.gerund>清除污水中</RemoveSewage.gerund>
+  <RemoveSewage.gerund>清除污水</RemoveSewage.gerund>
   <!--EN: shovel sewage into barrels-->
-  <RemoveSewage.label>将污水收集到桶中</RemoveSewage.label>
+  <RemoveSewage.label>将污水铲入桶中</RemoveSewage.label>
   <!--EN: remove sewage-->
   <RemoveSewage.verb>清除污水</RemoveSewage.verb>
   <!--EN: tipping over-->
-  <TipSewage.gerund>掀翻污水</TipSewage.gerund>
+  <TipSewage.gerund>翻倒</TipSewage.gerund>
   <!--EN: tip sewage-->
-  <TipSewage.label>掀翻污水</TipSewage.label>
+  <TipSewage.label>倾倒污水</TipSewage.label>
   <!--EN: tip Sewage-->
-  <TipSewage.verb>掀翻污水</TipSewage.verb>
+  <TipSewage.verb>尖端污水</TipSewage.verb>
   <!--EN: taking compost from-->
-  <UnloadComposter.gerund>取出堆肥于</UnloadComposter.gerund>
+  <UnloadComposter.gerund>从中获取堆肥</UnloadComposter.gerund>
   <!--EN: take compost out of composter-->
-  <UnloadComposter.label>从堆肥器中取出堆肥</UnloadComposter.label>
+  <UnloadComposter.label>从堆肥机中取出堆肥</UnloadComposter.label>
   <!--EN: take compost-->
-  <UnloadComposter.verb>取出堆肥</UnloadComposter.verb>
+  <UnloadComposter.verb>采取堆肥</UnloadComposter.verb>
   <!--EN: unloading washing-->
-  <UnloadWashing.gerund>取出</UnloadWashing.gerund>
+  <UnloadWashing.gerund>卸洗</UnloadWashing.gerund>
   <!--EN: unload washing-->
-  <UnloadWashing.label>取出清洗的衣物</UnloadWashing.label>
+  <UnloadWashing.label>卸载洗涤物</UnloadWashing.label>
   <!--EN: unload washing-->
-  <UnloadWashing.verb>取出</UnloadWashing.verb>
+  <UnloadWashing.verb>卸载洗涤物</UnloadWashing.verb>
   <!--EN: emptying-->
-  <WardenEmptySepticTank.gerund>清理</WardenEmptySepticTank.gerund>
+  <WardenEmptySepticTank.gerund>排空</WardenEmptySepticTank.gerund>
   <!--EN: empty septic tank-->
-  <WardenEmptySepticTank.label>卫生</WardenEmptySepticTank.label>
+  <WardenEmptySepticTank.label>空化粪池</WardenEmptySepticTank.label>
   <!--EN: empty-->
-  <WardenEmptySepticTank.verb>清理</WardenEmptySepticTank.verb>
+  <WardenEmptySepticTank.verb>空的</WardenEmptySepticTank.verb>
   <!--EN: refilling-->
-  <WardenRefillWater.gerund>清理</WardenRefillWater.gerund>
+  <WardenRefillWater.gerund>补充</WardenRefillWater.gerund>
   <!--EN: refill water-->
-  <WardenRefillWater.label>卫生</WardenRefillWater.label>
+  <WardenRefillWater.label>加水</WardenRefillWater.label>
   <!--EN: refill-->
-  <WardenRefillWater.verb>清理</WardenRefillWater.verb>
+  <WardenRefillWater.verb>补充装</WardenRefillWater.verb>
   <!--EN: cleaning-->
-  <cleanBedpan.gerund>清理</cleanBedpan.gerund>
+  <cleanBedpan.gerund>打扫</cleanBedpan.gerund>
   <!--EN: clean bed pan-->
-  <cleanBedpan.label>清理便盆</cleanBedpan.label>
+  <cleanBedpan.label>干净的便盆</cleanBedpan.label>
   <!--EN: clean-->
-  <cleanBedpan.verb>清理</cleanBedpan.verb>
+  <cleanBedpan.verb>干净的</cleanBedpan.verb>
   <!--EN: emptying-->
-  <emptySepticTank.gerund>清空</emptySepticTank.gerund>
+  <emptySepticTank.gerund>排空</emptySepticTank.gerund>
   <!--EN: empty septic tank-->
-  <emptySepticTank.label>清空化粪池</emptySepticTank.label>
+  <emptySepticTank.label>空化粪池</emptySepticTank.label>
   <!--EN: empty-->
-  <emptySepticTank.verb>清空</emptySepticTank.verb>
+  <emptySepticTank.verb>空的</emptySepticTank.verb>
   <!--EN: washing-->
-  <washChild.gerund>清理</washChild.gerund>
+  <washChild.gerund>洗涤</washChild.gerund>
   <!--EN: wash child-->
-  <washChild.label>卫生</washChild.label>
+  <washChild.label>给孩子洗澡</washChild.label>
   <!--EN: wash-->
-  <washChild.verb>清理</washChild.verb>
+  <washChild.verb>洗</washChild.verb>
   <!--EN: washing-->
-  <washPatient.gerund>清洁</washPatient.gerund>
+  <washPatient.gerund>洗涤</washPatient.gerund>
   <!--EN: wash patient-->
-  <washPatient.label>清洁病人</washPatient.label>
+  <washPatient.label>给病人洗澡</washPatient.label>
   <!--EN: wash-->
-  <washPatient.verb>清洁</washPatient.verb>
+  <washPatient.verb>洗</washPatient.verb>
 </LanguageData>

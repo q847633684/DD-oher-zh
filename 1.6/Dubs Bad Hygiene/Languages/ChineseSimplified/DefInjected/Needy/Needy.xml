@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: To prevent the risk of disease it is important to maintain a good level of sanitation by removing or treating waste, and preventing sewage from contaminating your water supply.-->
-  <Bladder.description>为了预防疾病风险，通过净化或处理废弃物，防止污水污染饮用水源，保持良好的卫生水平非常重要。</Bladder.description>
+  <Bladder.description>为了预防疾病风险，重要的是通过清除或处理废物并防止污水污染供水来保持良好的卫生水平。</Bladder.description>
   <!--EN: bladder-->
   <Bladder.label>膀胱</Bladder.label>
   <!--EN: Water is required for many of life’s physiological processes. If this reaches zero then the creature will slowly die of dehydration.-->
-  <DBHThirst.description>生命的许多生理过程都需要水。当该需求为零时，生物将慢慢死于脱水。</DBHThirst.description>
+  <DBHThirst.description>生命的许多生理过程都需要水。如果达到零，那么该生物将慢慢因脱水而死亡。</DBHThirst.description>
   <!--EN: thirst-->
-  <DBHThirst.label>饮水</DBHThirst.label>
+  <DBHThirst.label>口渴</DBHThirst.label>
 </LanguageData>

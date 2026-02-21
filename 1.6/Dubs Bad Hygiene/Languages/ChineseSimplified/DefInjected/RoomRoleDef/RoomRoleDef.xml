@@ -3,7 +3,7 @@
   <!--EN: private bathroom-->
   <PrivateBathroom.label>私人浴室</PrivateBathroom.label>
   <!--EN: public bathroom-->
-  <PublicBathroom.label>公共浴室</PublicBathroom.label>
+  <PublicBathroom.label>公共卫生间</PublicBathroom.label>
   <!--EN: Sauna room-->
-  <SaunaRoom.label>卫生</SaunaRoom.label>
+  <SaunaRoom.label>桑拿房</SaunaRoom.label>
 </LanguageData>

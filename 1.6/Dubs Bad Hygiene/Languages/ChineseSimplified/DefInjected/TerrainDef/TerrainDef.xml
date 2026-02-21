@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <LanguageData>
   <!--EN: granite mosaic tile-->
-  <DBHMosaicGranite.label>卫生</DBHMosaicGranite.label>
+  <DBHMosaicGranite.label>花岗岩马赛克</DBHMosaicGranite.label>
   <!--EN: limestone mosaic tile-->
-  <DBHMosaicLimestone.label>卫生</DBHMosaicLimestone.label>
+  <DBHMosaicLimestone.label>石灰石马赛克瓷砖</DBHMosaicLimestone.label>
   <!--EN: marble mosaic tile-->
-  <DBHMosaicMarble.label>卫生</DBHMosaicMarble.label>
+  <DBHMosaicMarble.label>大理石马赛克瓷砖</DBHMosaicMarble.label>
   <!--EN: sandstone mosaic tile-->
-  <DBHMosaicSandstone.label>卫生</DBHMosaicSandstone.label>
+  <DBHMosaicSandstone.label>砂岩马赛克瓷砖</DBHMosaicSandstone.label>
   <!--EN: slate mosaic tile-->
-  <DBHMosaicSlate.label>卫生</DBHMosaicSlate.label>
+  <DBHMosaicSlate.label>板岩马赛克瓷砖</DBHMosaicSlate.label>
   <!--EN: Steel tiles in a mosaic pattern, stylish in bathrooms or kitchens.-->
-  <DBHMosaicTile.description>良好的个人卫生对于降低疾病风险和使殖民者保持快乐非常重要。</DBHMosaicTile.description>
+  <DBHMosaicTile.description>马赛克图案的钢制瓷砖，在浴室或厨房里很时尚。</DBHMosaicTile.description>
   <!--EN: mosaic tile-->
-  <DBHMosaicTile.label>卫生</DBHMosaicTile.label>
+  <DBHMosaicTile.label>马赛克瓷砖</DBHMosaicTile.label>
   <!--EN: pool water-->
-  <PoolWater.label>池水</PoolWater.label>
+  <PoolWater.label>泳池水</PoolWater.label>
   <!--EN: water-->
   <PoolWater.tools.0.label>水</PoolWater.tools.0.label>
 </LanguageData>
