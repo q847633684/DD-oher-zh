@@ -1,0 +1,237 @@
+key,text,tag,file,type,protected_text,translated
+BA.Free,Free,BA.Free,Keys.xml,keyed,Free,自由的
+BA.GroupByTechLevel,Group by Tech Level,BA.GroupByTechLevel,Keys.xml,keyed,Group by Tech Level,按技术水平分组
+BA.MenuHeight,Menu height,BA.MenuHeight,Keys.xml,keyed,Menu height,菜单高度
+BA.HideOnSelection,Hide on building selection,BA.HideOnSelection,Keys.xml,keyed,Hide on building selection,隐藏建筑物选择
+BA.HideOnSelectionTooltip,"When building is selected, fully hide the menu.",BA.HideOnSelectionTooltip,Keys.xml,keyed,"When building is selected, fully hide the menu.",当选择构建时，完全隐藏菜单。
+BA.RememberSubcategory,Remember subcategory,BA.RememberSubcategory,Keys.xml,keyed,Remember subcategory,记住子类别
+BA.RememberSubcategoryTooltip,"When enabled, the mod will remember the last selected subcategory for each main category. When disabled, it will always default to the first subcategory.",BA.RememberSubcategoryTooltip,Keys.xml,keyed,"When enabled, the mod will remember the last selected subcategory for each main category. When disabled, it will always default to the first subcategory.",启用后，模组将记住每个主类别最后选择的子类别。禁用后，它将始终默认为第一个子类别。
+BA.UseSpecialFloorsTab,Use custom floor menu,BA.UseSpecialFloorsTab,Keys.xml,keyed,Use custom floor menu,使用自定义楼层菜单
+BA.UseSpecialFloorsTabTooltip,"Whether the menu should use subcategories for each material, or be more broadly sorted. (WIP)",BA.UseSpecialFloorsTabTooltip,Keys.xml,keyed,"Whether the menu should use subcategories for each material, or be more broadly sorted. (WIP)",菜单是否应该对每种材料使用子类别，或者进行更广泛的排序。 （开发中）
+BA.Default,Default,BA.Default,Keys.xml,keyed,Default,默认
+BA.Label,Label,BA.Label,Keys.xml,keyed,Label,标签
+BA.Beauty,Beauty,BA.Beauty,Keys.xml,keyed,Beauty,美丽
+BA.Comfort,Comfort,BA.Comfort,Keys.xml,keyed,Comfort,舒适
+BA.Value,Value,BA.Value,Keys.xml,keyed,Value,价值
+BA.WorkToBuild,Work to build,BA.WorkToBuild,Keys.xml,keyed,Work to build,努力建设
+BA.Health,Health,BA.Health,Keys.xml,keyed,Health,健康
+BA.Cleanliness,Cleanliness,BA.Cleanliness,Keys.xml,keyed,Cleanliness,清洁度
+BA.SkillRequired,Skill required,BA.SkillRequired,Keys.xml,keyed,Skill required,所需技能
+BA.Flammability,Flammability,BA.Flammability,Keys.xml,keyed,Flammability,易燃
+BA.CoverEffectiveness,Cover effectiveness,BA.CoverEffectiveness,Keys.xml,keyed,Cover effectiveness,覆盖效果
+BA.MaxPowerOutput,Max power output,BA.MaxPowerOutput,Keys.xml,keyed,Max power output,最大功率输出
+BA.PowerConsumption,Power consumption,BA.PowerConsumption,Keys.xml,keyed,Power consumption,功耗
+BA.RecreationPower,Recreation power,BA.RecreationPower,Keys.xml,keyed,Recreation power,休闲动力
+BA.MoveSpeed,Move speed,BA.MoveSpeed,Keys.xml,keyed,Move speed,移动速度
+BA.TotalStorageCapacity,Total storage capacity,BA.TotalStorageCapacity,Keys.xml,keyed,Total storage capacity,总存储容量
+BA.DoorOpeningSpeed,Door opening speed,BA.DoorOpeningSpeed,Keys.xml,keyed,Door opening speed,开门速度
+BA.WorkSpeedFactor,Work speed factor,BA.WorkSpeedFactor,Keys.xml,keyed,Work speed factor,工作速度系数
+BA.More,Other,BA.More,Keys.xml,keyed,Other,其他
+BA.BackgroundAlpha,Background transparency,BA.BackgroundAlpha,Keys.xml,keyed,Background transparency,背景透明度
+BA.NothingAvailableToBuild,There is nothing available to build yet.,BA.NothingAvailableToBuild,Keys.xml,keyed,There is nothing available to build yet.,目前尚无任何可构建的内容。
+BA.LoadingLabel,Loading Better Architect ...,BA.LoadingLabel,Keys.xml,keyed,Loading Better Architect ...,正在加载更好的架构师...
+BA.SettingsIntro,Optional edit-mode tools for customizing parent/child categories and designator layout.,BA.SettingsIntro,Keys.xml,keyed,Optional edit-mode tools for customizing parent/child categories and designator layout.,用于自定义父/子类别和指示符布局的可选编辑模式工具。
+BA.EditModeToggleTooltip,Toggle Edit Mode,BA.EditModeToggleTooltip,Keys.xml,keyed,Toggle Edit Mode,切换编辑模式
+BA.SkipParentCategoriesTitle,Parent Category Rendering,BA.SkipParentCategoriesTitle,Keys.xml,keyed,Parent Category Rendering,父类别渲染
+BA.SkipParentCategoriesDesc,Checked parent categories are visible. Uncheck to hide from Architect tabs.,BA.SkipParentCategoriesDesc,Keys.xml,keyed,Checked parent categories are visible. Uncheck to hide from Architect tabs.,选中的父类别可见。取消选中可从 Architect 选项卡中隐藏。
+BA.OpenParentVisibility,Edit parent category visibility,BA.OpenParentVisibility,Keys.xml,keyed,Edit parent category visibility,编辑父类别可见性
+BA.ResetAll,Reset all edit-mode overrides,BA.ResetAll,Keys.xml,keyed,Reset all edit-mode overrides,重置所有编辑模式覆盖
+BA.ResetAllComplete,All edit-mode settings were reset.,BA.ResetAllComplete,Keys.xml,keyed,All edit-mode settings were reset.,所有编辑模式设置均已重置。
+BA.TooltipAddCategoryToParent,Add category to this parent,BA.TooltipAddCategoryToParent,Keys.xml,keyed,Add category to this parent,向该父级添加类别
+BA.TooltipRemoveSelectedChildCategory,Remove selected child category,BA.TooltipRemoveSelectedChildCategory,Keys.xml,keyed,Remove selected child category,删除选定的子类别
+BA.TooltipResetCategoriesForParent,Reset categories for this parent,BA.TooltipResetCategoriesForParent,Keys.xml,keyed,Reset categories for this parent,重置该父级的类别
+BA.TooltipResetDesignatorsForSelectedCategory,Reset designator overrides for selected category,BA.TooltipResetDesignatorsForSelectedCategory,Keys.xml,keyed,Reset designator overrides for selected category,重置所选类别的指示符覆盖
+BA.CategoryOptionFormat,{0} ({1}),BA.CategoryOptionFormat,Keys.xml,keyed,(PH_2) ((PH_1)),{0} ({1})
+BA.NoCategoriesAvailable,No categories available,BA.NoCategoriesAvailable,Keys.xml,keyed,No categories available,没有可用的类别
+BA.TooltipAddBuildableOrSpecialDesignator,Add buildable or special designator,BA.TooltipAddBuildableOrSpecialDesignator,Keys.xml,keyed,Add buildable or special designator,添加可构建或特殊指示符
+BA.TooltipRemoveDesignator,Remove designator,BA.TooltipRemoveDesignator,Keys.xml,keyed,Remove designator,删除指示符
+BA.AddBuildable,Add buildable,BA.AddBuildable,Keys.xml,keyed,Add buildable,添加可构建的
+BA.AddBuildableTitle,Add Buildable,BA.AddBuildableTitle,Keys.xml,keyed,Add Buildable,添加可构建
+BA.AddSpecialDesignator,Add special designator,BA.AddSpecialDesignator,Keys.xml,keyed,Add special designator,添加特殊指示符
+BA.AddSpecialDesignatorTitle,Add Special Designator,BA.AddSpecialDesignatorTitle,Keys.xml,keyed,Add Special Designator,添加特殊指示符
+BA.SearchShowing,Showing {0} / {1},BA.SearchShowing,Keys.xml,keyed,Showing (PH_2) / (PH_1),显示 {0} / {1}
+BA.Close,Close,BA.Close,Keys.xml,keyed,Close,关闭
+Ferny_Colony.label,Colony,label,DesignationCategoryDef/DesignationCategories.xml,def,Colony,殖民地
+Ferny_Colony.description,Manage the colony.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage the colony.,管理殖民地。
+Ferny_Seating.label,Seating,label,DesignationCategoryDef/DesignationCategories.xml,def,Seating,座位
+Ferny_Seating.description,Manage seating.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage seating.,管理座位。
+Ferny_Tables.label,Tables,label,DesignationCategoryDef/DesignationCategories.xml,def,Tables,表格
+Ferny_Tables.description,Manage tables.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage tables.,管理表。
+Ferny_Lighting.label,Lighting,label,DesignationCategoryDef/DesignationCategories.xml,def,Lighting,灯光
+Ferny_Lighting.description,Buildings that emit light.,description,DesignationCategoryDef/DesignationCategories.xml,def,Buildings that emit light.,发光的建筑物。
+Ferny_Bedroom.label,Bedroom,label,DesignationCategoryDef/DesignationCategories.xml,def,Bedroom,卧室
+Ferny_Bedroom.description,Things that relate to bedrooms.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to bedrooms.,与卧室有关的东西。
+Ferny_Decorations.label,Decorate,label,DesignationCategoryDef/DesignationCategories.xml,def,Decorate,装饰
+Ferny_Decorations.description,Things that decorate.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that decorate.,装饰的东西。
+Ferny_DecoPlants.label,Plants,label,DesignationCategoryDef/DesignationCategories.xml,def,Plants,植物
+Ferny_DecoPlants.description,Manage plant decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage plant decorations.,管理植物装饰。
+Ferny_DecoFrames.label,Frames,label,DesignationCategoryDef/DesignationCategories.xml,def,Frames,镜框
+Ferny_DecoFrames.description,Manage frame decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage frame decorations.,管理框架装饰。
+Ferny_DecoRugs.label,Rugs,label,DesignationCategoryDef/DesignationCategories.xml,def,Rugs,地毯
+Ferny_DecoRugs.description,Manage rug decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage rug decorations.,管理地毯装饰。
+Ferny_DecoHanging.label,Hanging,label,DesignationCategoryDef/DesignationCategories.xml,def,Hanging,绞刑
+Ferny_DecoHanging.description,"Manage Hanging Decorations such as signs, banners and curtains.",description,DesignationCategoryDef/DesignationCategories.xml,def,"Manage Hanging Decorations such as signs, banners and curtains.",管理悬挂装饰，如标牌、横幅和窗帘。
+Ferny_DecoArt.label,Art,label,DesignationCategoryDef/DesignationCategories.xml,def,Art,艺术
+Ferny_DecoArt.description,Manage art and music decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage art and music decorations.,管理艺术和音乐装饰。
+Ferny_DecoOutdoor.label,Outdoor,label,DesignationCategoryDef/DesignationCategories.xml,def,Outdoor,户外的
+Ferny_DecoOutdoor.description,Manage outdoor decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage outdoor decorations.,管理户外装饰。
+Ferny_Production.label,Produce,label,DesignationCategoryDef/DesignationCategories.xml,def,Produce,生产
+Ferny_Production.description,Make stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Make stuff.,做东西。
+Ferny_ProcessingProduction.label,Refine,label,DesignationCategoryDef/DesignationCategories.xml,def,Refine,精炼
+Ferny_ProcessingProduction.description,Processing production methods.,description,DesignationCategoryDef/DesignationCategories.xml,def,Processing production methods.,加工生产方式。
+Ferny_CreativeProduction.label,Creative,label,DesignationCategoryDef/DesignationCategories.xml,def,Creative,有创造力的
+Ferny_CreativeProduction.description,Creative production methods.,description,DesignationCategoryDef/DesignationCategories.xml,def,Creative production methods.,创意制作方法。
+Ferny_Kitchen.label,Feed,label,DesignationCategoryDef/DesignationCategories.xml,def,Feed,喂养
+Ferny_Kitchen.description,Things that relate to food.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to food.,与食物有关的事物。
+Ferny_Farming.label,Farm,label,DesignationCategoryDef/DesignationCategories.xml,def,Farm,农场
+Ferny_Farming.description,Things that relate to agriculture.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to agriculture.,与农业有关的事物。
+Ferny_ResearchProduction.label,Research,label,DesignationCategoryDef/DesignationCategories.xml,def,Research,研究
+Ferny_ResearchProduction.description,Foundational production methods.,description,DesignationCategoryDef/DesignationCategories.xml,def,Foundational production methods.,基本生产方法。
+Ferny_Auxiliaries.label,Linkables,label,DesignationCategoryDef/DesignationCategories.xml,def,Linkables,可链接
+Ferny_Auxiliaries.description,Things that boost workspeed.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that boost workspeed.,提高工作速度的事情。
+Ferny_ProductionInfrastructure.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure,基础设施
+Ferny_ProductionInfrastructure.description,Managing production.,description,DesignationCategoryDef/DesignationCategories.xml,def,Managing production.,管理生产。
+Ferny_PowerGeneration.label,Generation,label,DesignationCategoryDef/DesignationCategories.xml,def,Generation,一代
+Ferny_PowerGeneration.description,Things that help you generate your power.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that help you generate your power.,帮助您产生力量的事物。
+Ferny_PowerStorage.label,Storage,label,DesignationCategoryDef/DesignationCategories.xml,def,Storage,贮存
+Ferny_PowerStorage.description,Things that help you store power.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that help you store power.,帮助你储存能量的东西。
+Ferny_PowerManagement.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure,基础设施
+Ferny_PowerManagement.description,Things that help you manage your power.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that help you manage your power.,帮助您管理权力的事物。
+Ferny_Animals.label,Animals,label,DesignationCategoryDef/DesignationCategories.xml,def,Animals,动物
+Ferny_Animals.description,Things that relate to animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to animals.,与动物有关的事物。
+Ferny_Walls.label,Walls,label,DesignationCategoryDef/DesignationCategories.xml,def,Walls,墙壁
+Ferny_Walls.description,Build structural walls.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural walls.,建造结构墙。
+Ferny_Doors.label,Doors,label,DesignationCategoryDef/DesignationCategories.xml,def,Doors,门
+Ferny_Doors.description,Build structural doors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural doors.,建造结构门。
+Ferny_Windows.label,Windows,label,DesignationCategoryDef/DesignationCategories.xml,def,Windows,视窗
+Ferny_Windows.description,Windows for walls.,description,DesignationCategoryDef/DesignationCategories.xml,def,Windows for walls.,墙壁的窗户。
+Ferny_Foundations.label,Foundations,label,DesignationCategoryDef/DesignationCategories.xml,def,Foundations,基础
+Ferny_Foundations.description,Build structural bridges.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural bridges.,建造结构桥梁。
+Ferny_Supports.label,Supports,label,DesignationCategoryDef/DesignationCategories.xml,def,Supports,支持
+Ferny_Supports.description,Build structural supports.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural supports.,建立结构支撑。
+Ferny_Explosives.label,Explosives,label,DesignationCategoryDef/DesignationCategories.xml,def,Explosives,炸药
+Ferny_Explosives.description,Build explosives for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build explosives for your enemies.,为你的敌人制造炸药。
+Ferny_Barricades.label,Barricades,label,DesignationCategoryDef/DesignationCategories.xml,def,Barricades,路障
+Ferny_Barricades.description,Build barricades for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build barricades for your enemies.,为你的敌人建造路障。
+Ferny_Traps.label,Traps,label,DesignationCategoryDef/DesignationCategories.xml,def,Traps,陷阱
+Ferny_Traps.description,Build traps for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build traps for your enemies.,为你的敌人建造陷阱。
+Ferny_Weapons.label,Weapons,label,DesignationCategoryDef/DesignationCategories.xml,def,Weapons,武器
+Ferny_Weapons.description,Build weapons for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build weapons for your enemies.,为你的敌人打造武器。
+Ferny_Concealed.label,Concealed,label,DesignationCategoryDef/DesignationCategories.xml,def,Concealed,暗
+Ferny_Concealed.description,Build conealed buildings for surprising your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build conealed buildings for surprising your enemies.,建造圆锥形建筑，让敌人大吃一惊。
+Ferny_CombatInfrastructure.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure,基础设施
+Ferny_CombatInfrastructure.description,Build infrastructure for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build infrastructure for your enemies.,为你的敌人建造基础设施。
+Ferny_CombatEquipment.label,Equipment,label,DesignationCategoryDef/DesignationCategories.xml,def,Equipment,设备
+Ferny_CombatEquipment.description,Manage combat equipment.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage combat equipment.,管理作战装备。
+Ferny_Ranching.label,Husbandry,label,DesignationCategoryDef/DesignationCategories.xml,def,Husbandry,畜牧业
+Ferny_Ranching.description,Farming your animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Farming your animals.,饲养你的动物。
+Ferny_AnimalBedding.label,Bedding,label,DesignationCategoryDef/DesignationCategories.xml,def,Bedding,寝具
+Ferny_AnimalBedding.description,Build bedding for your animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build bedding for your animals.,为你的动物制作垫料。
+Ferny_AnimalTravel.label,Travel,label,DesignationCategoryDef/DesignationCategories.xml,def,Travel,旅行
+Ferny_AnimalTravel.description,Travel management for animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Travel management for animals.,动物的旅行管理。
+Ferny_Heating.label,Heating,label,DesignationCategoryDef/DesignationCategories.xml,def,Heating,加热
+Ferny_Heating.description,Heat your colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Heat your colonists.,加热你的殖民者。
+Ferny_Cooling.label,Cooling,label,DesignationCategoryDef/DesignationCategories.xml,def,Cooling,冷却
+Ferny_Cooling.description,Cool your colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Cool your colonists.,让你的殖民者冷静下来。
+Ferny_AirManagement.label,Airflow,label,DesignationCategoryDef/DesignationCategories.xml,def,Airflow,空气流动
+Ferny_AirManagement.description,Manage airflow.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage airflow.,管理气流。
+Ferny_Firefoam.label,Firefighting,label,DesignationCategoryDef/DesignationCategories.xml,def,Firefighting,消防
+Ferny_Firefoam.description,Manage fires and firefoam.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage fires and firefoam.,管理火灾和火焰泡沫。
+Ferny_Filth.label,Filth,label,DesignationCategoryDef/DesignationCategories.xml,def,Filth,污秽
+Ferny_Filth.description,Manage filth.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage filth.,管理污秽。
+Ferny_Terraforming.label,Terraforming,label,DesignationCategoryDef/DesignationCategories.xml,def,Terraforming,地形改造
+Ferny_Terraforming.description,Manage the area environment.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage the area environment.,管理区域环境。
+Ferny_Life.label,People,label,DesignationCategoryDef/DesignationCategories.xml,def,People,人们
+Ferny_Life.description,Manage colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage colonists.,管理殖民者。
+Ferny_Management.label,Manage,label,DesignationCategoryDef/DesignationCategories.xml,def,Manage,管理
+Ferny_Management.description,Manage your pawns.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage your pawns.,管理你的棋子。
+Ferny_Control.label,Influence,label,DesignationCategoryDef/DesignationCategories.xml,def,Influence,影响
+Ferny_Control.description,Influence pawn behavior.,description,DesignationCategoryDef/DesignationCategories.xml,def,Influence (PH_1) behavior.,影响 pawn 行为。
+Ferny_Childhood.label,Childhood,label,DesignationCategoryDef/DesignationCategories.xml,def,Childhood,童年
+Ferny_Childhood.description,Things that relate to childhood.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to childhood.,与童年有关的事情。
+Ferny_Memorial.label,Memorial,label,DesignationCategoryDef/DesignationCategories.xml,def,Memorial,纪念馆
+Ferny_Memorial.description,Things that relate to burials or memorials.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to burials or memorials.,与墓葬或纪念馆有关的事物。
+Ferny_Meditation.label,Meditation,label,DesignationCategoryDef/DesignationCategories.xml,def,Meditation,冥想
+Ferny_Meditation.description,Places for colonists to meditate.,description,DesignationCategoryDef/DesignationCategories.xml,def,Places for colonists to meditate.,殖民者冥想的地方。
+Ferny_ColonyLocations.label,Locations,label,DesignationCategoryDef/DesignationCategories.xml,def,Locations,地点
+Ferny_ColonyLocations.description,Manage relevant colony locations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage relevant colony locations.,管理相关的殖民地位置。
+Ferny_Biotech.label,Biotech,label,DesignationCategoryDef/DesignationCategories.xml,def,Biotech,生物技术
+Ferny_Biotech.description,Manage biotechnology.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage biotechnology.,管理生物技术。
+Ferny_Transport.label,Transport,label,DesignationCategoryDef/DesignationCategories.xml,def,Transport,运输
+Ferny_Transport.description,Manage transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage transport.,管理运输。
+Ferny_Medical.label,Medical,label,DesignationCategoryDef/DesignationCategories.xml,def,Medical,医疗的
+Ferny_Medical.description,Manage medical tech.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage medical tech.,管理医疗技术。
+Ferny_Biohazards.label,Biohazards,label,DesignationCategoryDef/DesignationCategories.xml,def,Biohazards,生物危害
+Ferny_Biohazards.description,Manage biohazards.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage biohazards.,管理生物危害。
+Ferny_Enhancement.label,Enhancement,label,DesignationCategoryDef/DesignationCategories.xml,def,Enhancement,强化
+Ferny_Enhancement.description,Enhance your colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Enhance your colonists.,增强你的殖民者。
+Ferny_GroundTransport.label,Ground,label,DesignationCategoryDef/DesignationCategories.xml,def,Ground,地面
+Ferny_GroundTransport.description,Build ground transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build ground transport.,建设地面交通。
+Ferny_AerialTransport.label,Aerial,label,DesignationCategoryDef/DesignationCategories.xml,def,Aerial,天线
+Ferny_AerialTransport.description,Build aerial transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build aerial transport.,建设航空运输。
+Ferny_MilitaryTransport.label,Military,label,DesignationCategoryDef/DesignationCategories.xml,def,Military,军队
+Ferny_MilitaryTransport.description,Build military transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build military transport.,建造军事运输。
+Ferny_NavalTransport.label,Naval,label,DesignationCategoryDef/DesignationCategories.xml,def,Naval,海军
+Ferny_NavalTransport.description,Build naval transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build naval transport.,建设海军运输。
+Ferny_TransportInfrastructure.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure,基础设施
+Ferny_TransportInfrastructure.description,Build transport infrastructure.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build transport infrastructure.,建设交通基础设施。
+Ferny_Storage.label,Storage,label,DesignationCategoryDef/DesignationCategories.xml,def,Storage,贮存
+Ferny_Storage.description,Build storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build storage.,建立存储。
+Ferny_GeneralStorage.label,General,label,DesignationCategoryDef/DesignationCategories.xml,def,General,一般的
+Ferny_GeneralStorage.description,Build general storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build general storage.,建立通用存储。
+Ferny_ResourcesStorage.label,Resource,label,DesignationCategoryDef/DesignationCategories.xml,def,Resource,资源
+Ferny_ResourcesStorage.description,Build resources storages.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build resources storages.,建立资源库。
+Ferny_GearStorage.label,Gear,label,DesignationCategoryDef/DesignationCategories.xml,def,Gear,齿轮
+Ferny_GearStorage.description,Build gear storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build gear storage.,建立齿轮存储。
+Ferny_FoodStorage.label,Food,label,DesignationCategoryDef/DesignationCategories.xml,def,Food,食物
+Ferny_FoodStorage.description,Build food storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build food storage.,建造食物储藏室。
+Ferny_InformationStorage.label,Information,label,DesignationCategoryDef/DesignationCategories.xml,def,Information,信息
+Ferny_InformationStorage.description,Build information storages.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build information storages.,建立信息存储。
+Ferny_Space.label,Space,label,DesignationCategoryDef/DesignationCategories.xml,def,Space,空间
+Ferny_Space.description,Build space production benches.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space production benches.,建造太空生产台。
+Ferny_SpacePlatform.label,Platform,label,DesignationCategoryDef/DesignationCategories.xml,def,Platform,平台
+Ferny_SpacePlatform.description,Build space stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space stuff.,建造太空物品。
+Ferny_SpaceVacuum.label,Vacuum,label,DesignationCategoryDef/DesignationCategories.xml,def,Vacuum,真空
+Ferny_SpaceVacuum.description,Build space vacuum buildings.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space vacuum buildings.,建造太空真空建筑。
+Ferny_SpaceCombat.label,Combat,label,DesignationCategoryDef/DesignationCategories.xml,def,Combat,战斗
+Ferny_SpaceCombat.description,Build space combat buildings.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space combat buildings.,建造太空作战建筑。
+Ferny_SpaceFurniture.label,Furniture,label,DesignationCategoryDef/DesignationCategories.xml,def,Furniture,家具
+Ferny_SpaceFurniture.description,Build space furniture.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space furniture.,建造空间家具。
+Ferny_VehicleStorage.label,Storage,label,DesignationCategoryDef/DesignationCategories.xml,def,Storage,贮存
+Ferny_VehicleStorage.description,Build vehicle storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build vehicle storage.,建设车辆仓库。
+Ferny_SpaceProduction.label,Production,label,DesignationCategoryDef/DesignationCategories.xml,def,Production,生产
+Ferny_SpaceProduction.description,Build space production benches.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space production benches.,建造太空生产台。
+Ferny_SpacePower.label,Power,label,DesignationCategoryDef/DesignationCategories.xml,def,Power,力量
+Ferny_SpacePower.description,Build space power buildings.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space power buildings.,建造太空动力建筑。
+Ferny_AmmunitionNetwork.label,Ammunition,label,DesignationCategoryDef/DesignationCategories.xml,def,Ammunition,弹药
+Ferny_AmmunitionNetwork.description,Manage ammunition.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage ammunition.,管理弹药。
+Ferny_World.label,World,label,DesignationCategoryDef/DesignationCategories.xml,def,World,世界
+Ferny_World.description,Manage the world.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage the world.,管理世界。
+Ferny_Outreach.label,Outreach,label,DesignationCategoryDef/DesignationCategories.xml,def,Outreach,外展
+Ferny_Outreach.description,Things that reach out into the world.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that reach out into the world.,触及世界的事物。
+Ferny_Summon.label,Summon,label,DesignationCategoryDef/DesignationCategories.xml,def,Summon,召唤
+Ferny_Summon.description,Things that reach out into the world.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that reach out into the world.,触及世界的事物。
+Ferny_Hacking.label,Hacking,label,DesignationCategoryDef/DesignationCategories.xml,def,Hacking,黑客攻击
+Ferny_Hacking.description,Hack stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Hack stuff.,黑客的东西。
+Ferny_Automation.label,Automation,label,DesignationCategoryDef/DesignationCategories.xml,def,Automation,自动化
+Ferny_Automation.description,Things that automate stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that automate stuff.,自动化的东西。
+Ferny_Hosting.label,Entertain,label,DesignationCategoryDef/DesignationCategories.xml,def,Entertain,招待
+Ferny_Market.label,Market,label,DesignationCategoryDef/DesignationCategories.xml,def,Market,市场
+Ferny_Museum.label,Museum,label,DesignationCategoryDef/DesignationCategories.xml,def,Museum,博物馆
+Ferny_NeutroamineNetwork.label,Neutroamine,label,DesignationCategoryDef/DesignationCategories.xml,def,Neutroamine,中性胺
+Ferny_NeutroamineNetwork.description,Manage neutroamine.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage neutroamine.,管理中性胺。
+Ferny_ToxicWasteNetwork.label,Toxic Waste,label,DesignationCategoryDef/DesignationCategories.xml,def,Toxic Waste,有毒废物
+Ferny_ToxicWasteNetwork.description,Manage toxic waste.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage toxic waste.,管理有毒废物。
+Ferny_FloorsWood.label,Wood,label,DesignationCategoryDef/DesignationCategories.xml,def,Wood,木头
+Ferny_FloorsWood.description,Wooden Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Wooden Floors.,木地板。
+Ferny_FloorsStone.label,Stone,label,DesignationCategoryDef/DesignationCategories.xml,def,Stone,石头
+Ferny_FloorsStone.description,Stone Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Stone Floors.,石材地板。
+Ferny_FloorsConcrete.label,Concrete,label,DesignationCategoryDef/DesignationCategories.xml,def,Concrete,具体的
+Ferny_FloorsConcrete.description,Concrete Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Concrete Floors.,混凝土地板。
+Ferny_FloorsMetal.label,Metal,label,DesignationCategoryDef/DesignationCategories.xml,def,Metal,金属
+Ferny_FloorsMetal.description,Metal Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Metal Floors.,金属地板。
+Ferny_FloorsCarpet.label,Carpet,label,DesignationCategoryDef/DesignationCategories.xml,def,Carpet,地毯
+Ferny_FloorsCarpet.description,Carpeted Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Carpeted Floors.,铺有地毯的地板。
+Ferny_FloorsClean.label,Clean,label,DesignationCategoryDef/DesignationCategories.xml,def,Clean,干净的
+Ferny_FloorsClean.description,Clean Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Clean Floors.,干净的地板。
+VCHE_PipeNetworks.label,Resources,label,DesignationCategoryDef/DesignationCategories.xml,def,Resources,资源

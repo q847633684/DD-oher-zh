@@ -1,0 +1,3 @@
+key,text,tag,file,type
+Ferny_Aquarium.label,Aquarium,label,DesignationCategoryDef/AquariumsDesignationCategories.xml,def
+Ferny_Aquarium.description,Build aquariums.,description,DesignationCategoryDef/AquariumsDesignationCategories.xml,def

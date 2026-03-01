@@ -1,0 +1,3 @@
+key,text,tag,file,type
+Ferny_NutrientPasteNetwork.label,Nutrients,label,DesignationCategoryDef/VENutrientPasteDesignationCategories.xml,def
+Ferny_NutrientPasteNetwork.description,Manage nutrient paste.,description,DesignationCategoryDef/VENutrientPasteDesignationCategories.xml,def

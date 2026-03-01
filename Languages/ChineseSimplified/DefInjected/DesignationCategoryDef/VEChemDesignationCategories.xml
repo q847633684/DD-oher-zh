@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Manage chemfuel.-->
+  <Ferny_ChemfuelNetwork.description>管理化工燃料</Ferny_ChemfuelNetwork.description>
+  <!--EN: Chemfuel-->
+  <Ferny_ChemfuelNetwork.label>化工燃料</Ferny_ChemfuelNetwork.label>
+</LanguageData>

@@ -1,0 +1,3 @@
+key,text,tag,file,type
+Ferny_SteelNetwork.label,Steel,label,DesignationCategoryDef/SteelPipeNetDesignationCategories.xml,def
+Ferny_SteelNetwork.description,Manage steel.,description,DesignationCategoryDef/SteelPipeNetDesignationCategories.xml,def

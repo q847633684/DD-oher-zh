@@ -1,0 +1,237 @@
+key,text,tag,file,type,protected_text
+BA.Free,Free,BA.Free,Keys.xml,keyed,Free
+BA.GroupByTechLevel,Group by Tech Level,BA.GroupByTechLevel,Keys.xml,keyed,Group by Tech Level
+BA.MenuHeight,Menu height,BA.MenuHeight,Keys.xml,keyed,Menu height
+BA.HideOnSelection,Hide on building selection,BA.HideOnSelection,Keys.xml,keyed,Hide on building selection
+BA.HideOnSelectionTooltip,"When building is selected, fully hide the menu.",BA.HideOnSelectionTooltip,Keys.xml,keyed,"When building is selected, fully hide the menu."
+BA.RememberSubcategory,Remember subcategory,BA.RememberSubcategory,Keys.xml,keyed,Remember subcategory
+BA.RememberSubcategoryTooltip,"When enabled, the mod will remember the last selected subcategory for each main category. When disabled, it will always default to the first subcategory.",BA.RememberSubcategoryTooltip,Keys.xml,keyed,"When enabled, the mod will remember the last selected subcategory for each main category. When disabled, it will always default to the first subcategory."
+BA.UseSpecialFloorsTab,Use custom floor menu,BA.UseSpecialFloorsTab,Keys.xml,keyed,Use custom floor menu
+BA.UseSpecialFloorsTabTooltip,"Whether the menu should use subcategories for each material, or be more broadly sorted. (WIP)",BA.UseSpecialFloorsTabTooltip,Keys.xml,keyed,"Whether the menu should use subcategories for each material, or be more broadly sorted. (WIP)"
+BA.Default,Default,BA.Default,Keys.xml,keyed,Default
+BA.Label,Label,BA.Label,Keys.xml,keyed,Label
+BA.Beauty,Beauty,BA.Beauty,Keys.xml,keyed,Beauty
+BA.Comfort,Comfort,BA.Comfort,Keys.xml,keyed,Comfort
+BA.Value,Value,BA.Value,Keys.xml,keyed,Value
+BA.WorkToBuild,Work to build,BA.WorkToBuild,Keys.xml,keyed,Work to build
+BA.Health,Health,BA.Health,Keys.xml,keyed,Health
+BA.Cleanliness,Cleanliness,BA.Cleanliness,Keys.xml,keyed,Cleanliness
+BA.SkillRequired,Skill required,BA.SkillRequired,Keys.xml,keyed,Skill required
+BA.Flammability,Flammability,BA.Flammability,Keys.xml,keyed,Flammability
+BA.CoverEffectiveness,Cover effectiveness,BA.CoverEffectiveness,Keys.xml,keyed,Cover effectiveness
+BA.MaxPowerOutput,Max power output,BA.MaxPowerOutput,Keys.xml,keyed,Max power output
+BA.PowerConsumption,Power consumption,BA.PowerConsumption,Keys.xml,keyed,Power consumption
+BA.RecreationPower,Recreation power,BA.RecreationPower,Keys.xml,keyed,Recreation power
+BA.MoveSpeed,Move speed,BA.MoveSpeed,Keys.xml,keyed,Move speed
+BA.TotalStorageCapacity,Total storage capacity,BA.TotalStorageCapacity,Keys.xml,keyed,Total storage capacity
+BA.DoorOpeningSpeed,Door opening speed,BA.DoorOpeningSpeed,Keys.xml,keyed,Door opening speed
+BA.WorkSpeedFactor,Work speed factor,BA.WorkSpeedFactor,Keys.xml,keyed,Work speed factor
+BA.More,Other,BA.More,Keys.xml,keyed,Other
+BA.BackgroundAlpha,Background transparency,BA.BackgroundAlpha,Keys.xml,keyed,Background transparency
+BA.NothingAvailableToBuild,There is nothing available to build yet.,BA.NothingAvailableToBuild,Keys.xml,keyed,There is nothing available to build yet.
+BA.LoadingLabel,Loading Better Architect ...,BA.LoadingLabel,Keys.xml,keyed,Loading Better Architect ...
+BA.SettingsIntro,Optional edit-mode tools for customizing parent/child categories and designator layout.,BA.SettingsIntro,Keys.xml,keyed,Optional edit-mode tools for customizing parent/child categories and designator layout.
+BA.EditModeToggleTooltip,Toggle Edit Mode,BA.EditModeToggleTooltip,Keys.xml,keyed,Toggle Edit Mode
+BA.SkipParentCategoriesTitle,Parent Category Rendering,BA.SkipParentCategoriesTitle,Keys.xml,keyed,Parent Category Rendering
+BA.SkipParentCategoriesDesc,Checked parent categories are visible. Uncheck to hide from Architect tabs.,BA.SkipParentCategoriesDesc,Keys.xml,keyed,Checked parent categories are visible. Uncheck to hide from Architect tabs.
+BA.OpenParentVisibility,Edit parent category visibility,BA.OpenParentVisibility,Keys.xml,keyed,Edit parent category visibility
+BA.ResetAll,Reset all edit-mode overrides,BA.ResetAll,Keys.xml,keyed,Reset all edit-mode overrides
+BA.ResetAllComplete,All edit-mode settings were reset.,BA.ResetAllComplete,Keys.xml,keyed,All edit-mode settings were reset.
+BA.TooltipAddCategoryToParent,Add category to this parent,BA.TooltipAddCategoryToParent,Keys.xml,keyed,Add category to this parent
+BA.TooltipRemoveSelectedChildCategory,Remove selected child category,BA.TooltipRemoveSelectedChildCategory,Keys.xml,keyed,Remove selected child category
+BA.TooltipResetCategoriesForParent,Reset categories for this parent,BA.TooltipResetCategoriesForParent,Keys.xml,keyed,Reset categories for this parent
+BA.TooltipResetDesignatorsForSelectedCategory,Reset designator overrides for selected category,BA.TooltipResetDesignatorsForSelectedCategory,Keys.xml,keyed,Reset designator overrides for selected category
+BA.CategoryOptionFormat,{0} ({1}),BA.CategoryOptionFormat,Keys.xml,keyed,(PH_2) ((PH_1))
+BA.NoCategoriesAvailable,No categories available,BA.NoCategoriesAvailable,Keys.xml,keyed,No categories available
+BA.TooltipAddBuildableOrSpecialDesignator,Add buildable or special designator,BA.TooltipAddBuildableOrSpecialDesignator,Keys.xml,keyed,Add buildable or special designator
+BA.TooltipRemoveDesignator,Remove designator,BA.TooltipRemoveDesignator,Keys.xml,keyed,Remove designator
+BA.AddBuildable,Add buildable,BA.AddBuildable,Keys.xml,keyed,Add buildable
+BA.AddBuildableTitle,Add Buildable,BA.AddBuildableTitle,Keys.xml,keyed,Add Buildable
+BA.AddSpecialDesignator,Add special designator,BA.AddSpecialDesignator,Keys.xml,keyed,Add special designator
+BA.AddSpecialDesignatorTitle,Add Special Designator,BA.AddSpecialDesignatorTitle,Keys.xml,keyed,Add Special Designator
+BA.SearchShowing,Showing {0} / {1},BA.SearchShowing,Keys.xml,keyed,Showing (PH_2) / (PH_1)
+BA.Close,Close,BA.Close,Keys.xml,keyed,Close
+Ferny_Colony.label,Colony,label,DesignationCategoryDef/DesignationCategories.xml,def,Colony
+Ferny_Colony.description,Manage the colony.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage the colony.
+Ferny_Seating.label,Seating,label,DesignationCategoryDef/DesignationCategories.xml,def,Seating
+Ferny_Seating.description,Manage seating.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage seating.
+Ferny_Tables.label,Tables,label,DesignationCategoryDef/DesignationCategories.xml,def,Tables
+Ferny_Tables.description,Manage tables.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage tables.
+Ferny_Lighting.label,Lighting,label,DesignationCategoryDef/DesignationCategories.xml,def,Lighting
+Ferny_Lighting.description,Buildings that emit light.,description,DesignationCategoryDef/DesignationCategories.xml,def,Buildings that emit light.
+Ferny_Bedroom.label,Bedroom,label,DesignationCategoryDef/DesignationCategories.xml,def,Bedroom
+Ferny_Bedroom.description,Things that relate to bedrooms.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to bedrooms.
+Ferny_Decorations.label,Decorate,label,DesignationCategoryDef/DesignationCategories.xml,def,Decorate
+Ferny_Decorations.description,Things that decorate.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that decorate.
+Ferny_DecoPlants.label,Plants,label,DesignationCategoryDef/DesignationCategories.xml,def,Plants
+Ferny_DecoPlants.description,Manage plant decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage plant decorations.
+Ferny_DecoFrames.label,Frames,label,DesignationCategoryDef/DesignationCategories.xml,def,Frames
+Ferny_DecoFrames.description,Manage frame decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage frame decorations.
+Ferny_DecoRugs.label,Rugs,label,DesignationCategoryDef/DesignationCategories.xml,def,Rugs
+Ferny_DecoRugs.description,Manage rug decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage rug decorations.
+Ferny_DecoHanging.label,Hanging,label,DesignationCategoryDef/DesignationCategories.xml,def,Hanging
+Ferny_DecoHanging.description,"Manage Hanging Decorations such as signs, banners and curtains.",description,DesignationCategoryDef/DesignationCategories.xml,def,"Manage Hanging Decorations such as signs, banners and curtains."
+Ferny_DecoArt.label,Art,label,DesignationCategoryDef/DesignationCategories.xml,def,Art
+Ferny_DecoArt.description,Manage art and music decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage art and music decorations.
+Ferny_DecoOutdoor.label,Outdoor,label,DesignationCategoryDef/DesignationCategories.xml,def,Outdoor
+Ferny_DecoOutdoor.description,Manage outdoor decorations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage outdoor decorations.
+Ferny_Production.label,Produce,label,DesignationCategoryDef/DesignationCategories.xml,def,Produce
+Ferny_Production.description,Make stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Make stuff.
+Ferny_ProcessingProduction.label,Refine,label,DesignationCategoryDef/DesignationCategories.xml,def,Refine
+Ferny_ProcessingProduction.description,Processing production methods.,description,DesignationCategoryDef/DesignationCategories.xml,def,Processing production methods.
+Ferny_CreativeProduction.label,Creative,label,DesignationCategoryDef/DesignationCategories.xml,def,Creative
+Ferny_CreativeProduction.description,Creative production methods.,description,DesignationCategoryDef/DesignationCategories.xml,def,Creative production methods.
+Ferny_Kitchen.label,Feed,label,DesignationCategoryDef/DesignationCategories.xml,def,Feed
+Ferny_Kitchen.description,Things that relate to food.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to food.
+Ferny_Farming.label,Farm,label,DesignationCategoryDef/DesignationCategories.xml,def,Farm
+Ferny_Farming.description,Things that relate to agriculture.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to agriculture.
+Ferny_ResearchProduction.label,Research,label,DesignationCategoryDef/DesignationCategories.xml,def,Research
+Ferny_ResearchProduction.description,Foundational production methods.,description,DesignationCategoryDef/DesignationCategories.xml,def,Foundational production methods.
+Ferny_Auxiliaries.label,Linkables,label,DesignationCategoryDef/DesignationCategories.xml,def,Linkables
+Ferny_Auxiliaries.description,Things that boost workspeed.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that boost workspeed.
+Ferny_ProductionInfrastructure.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure
+Ferny_ProductionInfrastructure.description,Managing production.,description,DesignationCategoryDef/DesignationCategories.xml,def,Managing production.
+Ferny_PowerGeneration.label,Generation,label,DesignationCategoryDef/DesignationCategories.xml,def,Generation
+Ferny_PowerGeneration.description,Things that help you generate your power.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that help you generate your power.
+Ferny_PowerStorage.label,Storage,label,DesignationCategoryDef/DesignationCategories.xml,def,Storage
+Ferny_PowerStorage.description,Things that help you store power.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that help you store power.
+Ferny_PowerManagement.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure
+Ferny_PowerManagement.description,Things that help you manage your power.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that help you manage your power.
+Ferny_Animals.label,Animals,label,DesignationCategoryDef/DesignationCategories.xml,def,Animals
+Ferny_Animals.description,Things that relate to animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to animals.
+Ferny_Walls.label,Walls,label,DesignationCategoryDef/DesignationCategories.xml,def,Walls
+Ferny_Walls.description,Build structural walls.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural walls.
+Ferny_Doors.label,Doors,label,DesignationCategoryDef/DesignationCategories.xml,def,Doors
+Ferny_Doors.description,Build structural doors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural doors.
+Ferny_Windows.label,Windows,label,DesignationCategoryDef/DesignationCategories.xml,def,Windows
+Ferny_Windows.description,Windows for walls.,description,DesignationCategoryDef/DesignationCategories.xml,def,Windows for walls.
+Ferny_Foundations.label,Foundations,label,DesignationCategoryDef/DesignationCategories.xml,def,Foundations
+Ferny_Foundations.description,Build structural bridges.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural bridges.
+Ferny_Supports.label,Supports,label,DesignationCategoryDef/DesignationCategories.xml,def,Supports
+Ferny_Supports.description,Build structural supports.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build structural supports.
+Ferny_Explosives.label,Explosives,label,DesignationCategoryDef/DesignationCategories.xml,def,Explosives
+Ferny_Explosives.description,Build explosives for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build explosives for your enemies.
+Ferny_Barricades.label,Barricades,label,DesignationCategoryDef/DesignationCategories.xml,def,Barricades
+Ferny_Barricades.description,Build barricades for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build barricades for your enemies.
+Ferny_Traps.label,Traps,label,DesignationCategoryDef/DesignationCategories.xml,def,Traps
+Ferny_Traps.description,Build traps for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build traps for your enemies.
+Ferny_Weapons.label,Weapons,label,DesignationCategoryDef/DesignationCategories.xml,def,Weapons
+Ferny_Weapons.description,Build weapons for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build weapons for your enemies.
+Ferny_Concealed.label,Concealed,label,DesignationCategoryDef/DesignationCategories.xml,def,Concealed
+Ferny_Concealed.description,Build conealed buildings for surprising your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build conealed buildings for surprising your enemies.
+Ferny_CombatInfrastructure.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure
+Ferny_CombatInfrastructure.description,Build infrastructure for your enemies.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build infrastructure for your enemies.
+Ferny_CombatEquipment.label,Equipment,label,DesignationCategoryDef/DesignationCategories.xml,def,Equipment
+Ferny_CombatEquipment.description,Manage combat equipment.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage combat equipment.
+Ferny_Ranching.label,Husbandry,label,DesignationCategoryDef/DesignationCategories.xml,def,Husbandry
+Ferny_Ranching.description,Farming your animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Farming your animals.
+Ferny_AnimalBedding.label,Bedding,label,DesignationCategoryDef/DesignationCategories.xml,def,Bedding
+Ferny_AnimalBedding.description,Build bedding for your animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build bedding for your animals.
+Ferny_AnimalTravel.label,Travel,label,DesignationCategoryDef/DesignationCategories.xml,def,Travel
+Ferny_AnimalTravel.description,Travel management for animals.,description,DesignationCategoryDef/DesignationCategories.xml,def,Travel management for animals.
+Ferny_Heating.label,Heating,label,DesignationCategoryDef/DesignationCategories.xml,def,Heating
+Ferny_Heating.description,Heat your colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Heat your colonists.
+Ferny_Cooling.label,Cooling,label,DesignationCategoryDef/DesignationCategories.xml,def,Cooling
+Ferny_Cooling.description,Cool your colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Cool your colonists.
+Ferny_AirManagement.label,Airflow,label,DesignationCategoryDef/DesignationCategories.xml,def,Airflow
+Ferny_AirManagement.description,Manage airflow.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage airflow.
+Ferny_Firefoam.label,Firefighting,label,DesignationCategoryDef/DesignationCategories.xml,def,Firefighting
+Ferny_Firefoam.description,Manage fires and firefoam.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage fires and firefoam.
+Ferny_Filth.label,Filth,label,DesignationCategoryDef/DesignationCategories.xml,def,Filth
+Ferny_Filth.description,Manage filth.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage filth.
+Ferny_Terraforming.label,Terraforming,label,DesignationCategoryDef/DesignationCategories.xml,def,Terraforming
+Ferny_Terraforming.description,Manage the area environment.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage the area environment.
+Ferny_Life.label,People,label,DesignationCategoryDef/DesignationCategories.xml,def,People
+Ferny_Life.description,Manage colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage colonists.
+Ferny_Management.label,Manage,label,DesignationCategoryDef/DesignationCategories.xml,def,Manage
+Ferny_Management.description,Manage your pawns.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage your pawns.
+Ferny_Control.label,Influence,label,DesignationCategoryDef/DesignationCategories.xml,def,Influence
+Ferny_Control.description,Influence pawn behavior.,description,DesignationCategoryDef/DesignationCategories.xml,def,Influence (PH_1) behavior.
+Ferny_Childhood.label,Childhood,label,DesignationCategoryDef/DesignationCategories.xml,def,Childhood
+Ferny_Childhood.description,Things that relate to childhood.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to childhood.
+Ferny_Memorial.label,Memorial,label,DesignationCategoryDef/DesignationCategories.xml,def,Memorial
+Ferny_Memorial.description,Things that relate to burials or memorials.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that relate to burials or memorials.
+Ferny_Meditation.label,Meditation,label,DesignationCategoryDef/DesignationCategories.xml,def,Meditation
+Ferny_Meditation.description,Places for colonists to meditate.,description,DesignationCategoryDef/DesignationCategories.xml,def,Places for colonists to meditate.
+Ferny_ColonyLocations.label,Locations,label,DesignationCategoryDef/DesignationCategories.xml,def,Locations
+Ferny_ColonyLocations.description,Manage relevant colony locations.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage relevant colony locations.
+Ferny_Biotech.label,Biotech,label,DesignationCategoryDef/DesignationCategories.xml,def,Biotech
+Ferny_Biotech.description,Manage biotechnology.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage biotechnology.
+Ferny_Transport.label,Transport,label,DesignationCategoryDef/DesignationCategories.xml,def,Transport
+Ferny_Transport.description,Manage transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage transport.
+Ferny_Medical.label,Medical,label,DesignationCategoryDef/DesignationCategories.xml,def,Medical
+Ferny_Medical.description,Manage medical tech.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage medical tech.
+Ferny_Biohazards.label,Biohazards,label,DesignationCategoryDef/DesignationCategories.xml,def,Biohazards
+Ferny_Biohazards.description,Manage biohazards.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage biohazards.
+Ferny_Enhancement.label,Enhancement,label,DesignationCategoryDef/DesignationCategories.xml,def,Enhancement
+Ferny_Enhancement.description,Enhance your colonists.,description,DesignationCategoryDef/DesignationCategories.xml,def,Enhance your colonists.
+Ferny_GroundTransport.label,Ground,label,DesignationCategoryDef/DesignationCategories.xml,def,Ground
+Ferny_GroundTransport.description,Build ground transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build ground transport.
+Ferny_AerialTransport.label,Aerial,label,DesignationCategoryDef/DesignationCategories.xml,def,Aerial
+Ferny_AerialTransport.description,Build aerial transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build aerial transport.
+Ferny_MilitaryTransport.label,Military,label,DesignationCategoryDef/DesignationCategories.xml,def,Military
+Ferny_MilitaryTransport.description,Build military transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build military transport.
+Ferny_NavalTransport.label,Naval,label,DesignationCategoryDef/DesignationCategories.xml,def,Naval
+Ferny_NavalTransport.description,Build naval transport.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build naval transport.
+Ferny_TransportInfrastructure.label,Infrastructure,label,DesignationCategoryDef/DesignationCategories.xml,def,Infrastructure
+Ferny_TransportInfrastructure.description,Build transport infrastructure.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build transport infrastructure.
+Ferny_Storage.label,Storage,label,DesignationCategoryDef/DesignationCategories.xml,def,Storage
+Ferny_Storage.description,Build storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build storage.
+Ferny_GeneralStorage.label,General,label,DesignationCategoryDef/DesignationCategories.xml,def,General
+Ferny_GeneralStorage.description,Build general storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build general storage.
+Ferny_ResourcesStorage.label,Resource,label,DesignationCategoryDef/DesignationCategories.xml,def,Resource
+Ferny_ResourcesStorage.description,Build resources storages.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build resources storages.
+Ferny_GearStorage.label,Gear,label,DesignationCategoryDef/DesignationCategories.xml,def,Gear
+Ferny_GearStorage.description,Build gear storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build gear storage.
+Ferny_FoodStorage.label,Food,label,DesignationCategoryDef/DesignationCategories.xml,def,Food
+Ferny_FoodStorage.description,Build food storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build food storage.
+Ferny_InformationStorage.label,Information,label,DesignationCategoryDef/DesignationCategories.xml,def,Information
+Ferny_InformationStorage.description,Build information storages.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build information storages.
+Ferny_Space.label,Space,label,DesignationCategoryDef/DesignationCategories.xml,def,Space
+Ferny_Space.description,Build space production benches.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space production benches.
+Ferny_SpacePlatform.label,Platform,label,DesignationCategoryDef/DesignationCategories.xml,def,Platform
+Ferny_SpacePlatform.description,Build space stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space stuff.
+Ferny_SpaceVacuum.label,Vacuum,label,DesignationCategoryDef/DesignationCategories.xml,def,Vacuum
+Ferny_SpaceVacuum.description,Build space vacuum buildings.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space vacuum buildings.
+Ferny_SpaceCombat.label,Combat,label,DesignationCategoryDef/DesignationCategories.xml,def,Combat
+Ferny_SpaceCombat.description,Build space combat buildings.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space combat buildings.
+Ferny_SpaceFurniture.label,Furniture,label,DesignationCategoryDef/DesignationCategories.xml,def,Furniture
+Ferny_SpaceFurniture.description,Build space furniture.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space furniture.
+Ferny_VehicleStorage.label,Storage,label,DesignationCategoryDef/DesignationCategories.xml,def,Storage
+Ferny_VehicleStorage.description,Build vehicle storage.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build vehicle storage.
+Ferny_SpaceProduction.label,Production,label,DesignationCategoryDef/DesignationCategories.xml,def,Production
+Ferny_SpaceProduction.description,Build space production benches.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space production benches.
+Ferny_SpacePower.label,Power,label,DesignationCategoryDef/DesignationCategories.xml,def,Power
+Ferny_SpacePower.description,Build space power buildings.,description,DesignationCategoryDef/DesignationCategories.xml,def,Build space power buildings.
+Ferny_AmmunitionNetwork.label,Ammunition,label,DesignationCategoryDef/DesignationCategories.xml,def,Ammunition
+Ferny_AmmunitionNetwork.description,Manage ammunition.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage ammunition.
+Ferny_World.label,World,label,DesignationCategoryDef/DesignationCategories.xml,def,World
+Ferny_World.description,Manage the world.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage the world.
+Ferny_Outreach.label,Outreach,label,DesignationCategoryDef/DesignationCategories.xml,def,Outreach
+Ferny_Outreach.description,Things that reach out into the world.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that reach out into the world.
+Ferny_Summon.label,Summon,label,DesignationCategoryDef/DesignationCategories.xml,def,Summon
+Ferny_Summon.description,Things that reach out into the world.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that reach out into the world.
+Ferny_Hacking.label,Hacking,label,DesignationCategoryDef/DesignationCategories.xml,def,Hacking
+Ferny_Hacking.description,Hack stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Hack stuff.
+Ferny_Automation.label,Automation,label,DesignationCategoryDef/DesignationCategories.xml,def,Automation
+Ferny_Automation.description,Things that automate stuff.,description,DesignationCategoryDef/DesignationCategories.xml,def,Things that automate stuff.
+Ferny_Hosting.label,Entertain,label,DesignationCategoryDef/DesignationCategories.xml,def,Entertain
+Ferny_Market.label,Market,label,DesignationCategoryDef/DesignationCategories.xml,def,Market
+Ferny_Museum.label,Museum,label,DesignationCategoryDef/DesignationCategories.xml,def,Museum
+Ferny_NeutroamineNetwork.label,Neutroamine,label,DesignationCategoryDef/DesignationCategories.xml,def,Neutroamine
+Ferny_NeutroamineNetwork.description,Manage neutroamine.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage neutroamine.
+Ferny_ToxicWasteNetwork.label,Toxic Waste,label,DesignationCategoryDef/DesignationCategories.xml,def,Toxic Waste
+Ferny_ToxicWasteNetwork.description,Manage toxic waste.,description,DesignationCategoryDef/DesignationCategories.xml,def,Manage toxic waste.
+Ferny_FloorsWood.label,Wood,label,DesignationCategoryDef/DesignationCategories.xml,def,Wood
+Ferny_FloorsWood.description,Wooden Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Wooden Floors.
+Ferny_FloorsStone.label,Stone,label,DesignationCategoryDef/DesignationCategories.xml,def,Stone
+Ferny_FloorsStone.description,Stone Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Stone Floors.
+Ferny_FloorsConcrete.label,Concrete,label,DesignationCategoryDef/DesignationCategories.xml,def,Concrete
+Ferny_FloorsConcrete.description,Concrete Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Concrete Floors.
+Ferny_FloorsMetal.label,Metal,label,DesignationCategoryDef/DesignationCategories.xml,def,Metal
+Ferny_FloorsMetal.description,Metal Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Metal Floors.
+Ferny_FloorsCarpet.label,Carpet,label,DesignationCategoryDef/DesignationCategories.xml,def,Carpet
+Ferny_FloorsCarpet.description,Carpeted Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Carpeted Floors.
+Ferny_FloorsClean.label,Clean,label,DesignationCategoryDef/DesignationCategories.xml,def,Clean
+Ferny_FloorsClean.description,Clean Floors.,description,DesignationCategoryDef/DesignationCategories.xml,def,Clean Floors.
+VCHE_PipeNetworks.label,Resources,label,DesignationCategoryDef/DesignationCategories.xml,def,Resources

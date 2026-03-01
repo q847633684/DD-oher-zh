@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="Ludeon.Rimworld.Biotech">Mods and Shit/Biotech</li>
+    <li IfModActive="sarg.alphaimplants">Mods and Shit/Alpha Implants</li>
+    <li IfModActive="vanillaexpanded.helixiengas">Mods and Shit/VE Helixien Gas</li>
+    <li IfModActive="vanillaracesexpanded.android">Mods and Shit/VRE Androids</li>
+    <li IfModActive="vanillaexpanded.vchemfuele">Mods and Shit/VE Chemfuel</li>
+    <li IfModActive="nightmare.aquariums">Mods and Shit/Aquariums</li>
+    <li IfModActive="vanillaracesexpanded.sanguophage">Mods and Shit/VRE Sanguophage</li>
+    <li IfModActive="vanillaexpanded.vnutriente">Mods and Shit/VE Nutrient Paste</li>
+    <li IfModActive="vemp.pipenetwork">Mods and Shit/Milk Pipe Network</li>
+    <li IfModActive="hlx.ultratechalteredcarbon">Mods and Shit/Altered Carbon</li>
+    <li IfModActive="ushanka.luciferiumexpansion">Mods and Shit/Ushankas Luciferium Expansion</li>
+    <li IfModActive="bigbarza.vqegenerator.pipecompat">Mods and Shit/VQE Generator Pipe Network Compat</li>
+    <li IfModActive="bambaryla.vcepu">Mods and Shit/VE Chemfuel Unofficial Expansion</li>
+    <li IfModActive="aoba.tent">Mods and Shit/Camping Tent</li>
+    <li IfModActive="vanillaexpanded.gravship">Mods and Shit/VE Gravship</li>
+    <li IfModActive="zal.spaceports">Mods and Shit/Rimsential Spaceports</li>
+    <li IfModActive="vanillaexpanded.gravship">Mods and Shit/VE Gravship</li>
+    <li IfModActive="zal.spaceports">Mods and Shit/Rimsential Spaceports</li>
+    <li IfModActive="json.retractabledefenses">Mods and Shit/Retractable Defenses</li>
+    <li IfModActive="nbnw.steelpipenetwork">Mods and Shit/Steel Pipe Network</li>
+    <li IfModActive="nbnw.woodlogpipenetwork">Mods and Shit/WoodLog Pipe Network</li>
+    <li IfModActive="guy762.mm.kotorcore">Mods and Shit/Star Wars KotOR Resources and Materials</li>
+    <li IfModActive="cruelmoose.biop">Mods and Shit/Bioferrite Pipes</li>
+    <li IfModActive="vr.fantasy.biotech">Mods and Shit/Fantasy Biotech</li>
+    <li IfModActive="3HSTltd.Weapons.Plasma">Mods and Shit/Bill Doors' Plasma Weapons</li>
+  </v1.6>
+</loadFolders>

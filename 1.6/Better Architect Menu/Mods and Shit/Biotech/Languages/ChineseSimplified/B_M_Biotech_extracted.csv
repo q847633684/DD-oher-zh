@@ -1,0 +1,7 @@
+key,text,tag,file,type
+Ferny_Pollution.label,Pollution,label,DesignationCategoryDef/BiotechDesignationCategories.xml,def
+Ferny_Pollution.description,Manage the pollution.,description,DesignationCategoryDef/BiotechDesignationCategories.xml,def
+Ferny_Deathrest.label,Deathrest,label,DesignationCategoryDef/BiotechDesignationCategories.xml,def
+Ferny_Deathrest.description,Manage Deathrest.,description,DesignationCategoryDef/BiotechDesignationCategories.xml,def
+Ferny_Mechanoids.label,Mechanoids,label,DesignationCategoryDef/BiotechDesignationCategories.xml,def
+Ferny_Mechanoids.description,Build mechanoids.,description,DesignationCategoryDef/BiotechDesignationCategories.xml,def

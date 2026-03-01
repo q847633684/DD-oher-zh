@@ -219,7 +219,7 @@
   <!--EN: washing machine-->
   <WashingMachine.label>洗衣机</WashingMachine.label>
   <!--EN: Stores water for use by plumbed fixtures. Slowly fills when raining. The water must be drained if it becomes contaminated. Capacity: 100.-->
-  <WaterButt.description>用于存放地下水，如果集水桶中的水被污染，必须排空才能确保安全。可以洗手。</WaterButt.description>
+  <WaterButt.description>储存水以供管道装置使用。下雨时慢慢充满。如果水被污染，必须将其排出。容量：100。</WaterButt.description>
   <!--EN: water butt-->
   <WaterButt.label>集水桶</WaterButt.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 2000.-->
@@ -227,11 +227,11 @@
   <!--EN: water tank-->
   <WaterTankSmall.label>水箱</WaterTankSmall.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 50,000.-->
-  <WaterTowerL.description>用于存放水泵抽取的地下水，如果水塔中的水被污染，必须排空才能确保安全。</WaterTowerL.description>
+  <WaterTowerL.description>储存水以供管道装置使用。如果水被污染，必须将其排出。容量：50,000。</WaterTowerL.description>
   <!--EN: huge water tower-->
   <WaterTowerL.label>巨型水塔</WaterTowerL.label>
   <!--EN: Stores water for use by plumbed fixtures. The water must be drained if it becomes contaminated. Capacity: 8000.-->
-  <WaterTowerS.description>用于存放水泵抽取的地下水，如果水塔中的水被污染，必须排空才能确保安全。</WaterTowerS.description>
+  <WaterTowerS.description>储存水以供管道装置使用。如果水被污染，必须将其排出。容量：8000</WaterTowerS.description>
   <!--EN: water tower-->
   <WaterTowerS.label>水塔</WaterTowerS.label>
   <!--EN: Cleans 99.99% of germs! Filters existing water in storage towers, and any water used by fixtures, eliminating the risk of disease.-->

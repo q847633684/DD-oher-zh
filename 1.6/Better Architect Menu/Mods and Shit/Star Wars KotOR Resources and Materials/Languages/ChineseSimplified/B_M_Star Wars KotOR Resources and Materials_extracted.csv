@@ -1,0 +1,5 @@
+key,text,tag,file,type
+Ferny_RhydoniumNetwork.label,Rhydonium,label,DesignationCategoryDef/SWKotorResMatDesignationCategories.xml,def
+Ferny_RhydoniumNetwork.description,Manage rhydonium.,description,DesignationCategoryDef/SWKotorResMatDesignationCategories.xml,def
+Ferny_TibannaNetwork.label,Tibanna,label,DesignationCategoryDef/SWKotorResMatDesignationCategories.xml,def
+Ferny_TibannaNetwork.description,Manage tibanna.,description,DesignationCategoryDef/SWKotorResMatDesignationCategories.xml,def

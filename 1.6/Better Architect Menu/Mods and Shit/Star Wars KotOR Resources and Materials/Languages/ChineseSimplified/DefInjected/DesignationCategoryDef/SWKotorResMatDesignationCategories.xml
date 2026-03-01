@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <!--EN: Manage rhydonium.-->
+  <Ferny_RhydoniumNetwork.description>Manage rhydonium.</Ferny_RhydoniumNetwork.description>
+  <!--EN: Rhydonium-->
+  <Ferny_RhydoniumNetwork.label>Rhydonium</Ferny_RhydoniumNetwork.label>
+  <!--EN: Manage tibanna.-->
+  <Ferny_TibannaNetwork.description>Manage tibanna.</Ferny_TibannaNetwork.description>
+  <!--EN: Tibanna-->
+  <Ferny_TibannaNetwork.label>Tibanna</Ferny_TibannaNetwork.label>
+</LanguageData>

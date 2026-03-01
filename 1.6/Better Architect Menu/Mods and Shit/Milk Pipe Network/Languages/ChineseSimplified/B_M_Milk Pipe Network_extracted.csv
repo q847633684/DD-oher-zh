@@ -1,0 +1,3 @@
+key,text,tag,file,type
+Ferny_MilkPipeNetwork.label,Milk,label,DesignationCategoryDef/MilkPipeNetworkDesignationCategories.xml,def
+Ferny_MilkPipeNetwork.description,Manage milk.,description,DesignationCategoryDef/MilkPipeNetworkDesignationCategories.xml,def
