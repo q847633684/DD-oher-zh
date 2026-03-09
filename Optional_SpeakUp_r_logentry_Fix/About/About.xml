@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>SpeakUp — r_logentry 语法兜底修复</name>
+  <author>Patch for DD-oher zh / SpeakUp</author>
+  <packageId>SpeakUp.r_logentry.fix</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>JPT.speakup</packageId>
+      <displayName>SpeakUp</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>JPT.speakup</li>
+  </loadAfter>
+  <description>
+为 SpeakUp 的 InteractionDef 添加无条件的 r_logentry→[good_opinion] 兜底规则，
+避免在 Bubbles 等未传入 opinion/INITIATOR_opinion 时出现 "Grammar unresolvable. Root 'r_logentry'"。
+适用于任意语言；若使用中文汉化并已批量添加兜底，可不必启用本补丁。
+  </description>
+</ModMetaData>

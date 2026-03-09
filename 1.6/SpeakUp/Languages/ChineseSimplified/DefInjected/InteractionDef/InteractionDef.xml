@@ -61,10 +61,10 @@
   <!--EN: ascetic — wisdom-->
   <AsceticWisdom.label>苦行者-智慧</AsceticWisdom.label>
   <AsceticWisdom.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Wow, that was deep.-->
@@ -74,17 +74,17 @@
     <!--EN: good_opinion(INITIATOR_trait==ascetic,priority=1)->Wise words, [RECIPIENT_nameDef].-->
     <li>good_opinion(INITIATOR_trait==ascetic,priority=1)-&gt; 智者话语,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_trait==greedy,priority=1)->...-->
-    <li>good_opinion(INITIATOR_trait==greedy,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_trait==greedy,priority=1)-&gt;…</li>
     <!--EN: good_opinion(INITIATOR_trait==jealous,priority=1)->...-->
-    <li>good_opinion(INITIATOR_trait==jealous,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_trait==jealous,priority=1)-&gt;…</li>
     <!--EN: good_opinion(INITIATOR_trait==gourmand,priority=1)->...-->
-    <li>good_opinion(INITIATOR_trait==gourmand,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_trait==gourmand,priority=1)-&gt;…</li>
   </AsceticWisdom.logRulesInitiator.rulesStrings>
   <!--EN: aurora-->
   <Aurora.label>极光</Aurora.label>
   <Aurora.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -109,20 +109,20 @@
     <li>good_opinion-&gt;不要迷失在它的美丽之中!</li>
     <!--EN: good_opinion->Auroras are one of the most beautiful things you can see [outdoors].-->
     <li>good_opinion-&gt;极光是你能看到的最美丽的物体之一。[outdoors]。</li>
-    <!--EN: good_opinion->It's [intensifier]beautiful, isn't it, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;它是[intensifier]很漂亮，不是吗,[RECIPIENT_nameDef]什么？</li>
+    <!--EN: good_opinion->It's 很beautiful, isn't it, [RECIPIENT_nameDef]?-->
+    <li>good_opinion-&gt;它是很很漂亮，不是吗,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion(INITIATOR_trait==too smart)->Auroras are the result of disturbances in the magnetosphere caused by solar wind.-->
     <li>good_opinion(INITIATOR_trait==too smart)-&gt; 极光是太阳风引起的磁电球中扰动的结果。</li>
   </Aurora.logRulesInitiator.rulesStrings>
   <!--EN: beat fire — moving-->
   <BeatFireMoving.label>扑灭火焰</BeatFireMoving.label>
   <BeatFireMoving.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(priority=-1)->...-->
-    <li>bad_opinion(priority=-1)-&gt;.</li>
+    <li>bad_opinion(priority=-1)-&gt;…</li>
     <!--EN: bad_opinion(INITIATOR_trait==pyromaniac)->*smiles*-->
     <li>bad_opinion(INITIATOR_trait==pyromaniac)-&gt; * 微笑 *</li>
     <!--EN: bad_opinion(INITIATOR_trait==pyromaniac)->The flames... Glorious...-->
@@ -151,12 +151,12 @@
   <!--EN: beat fire — static-->
   <BeatFireStatic.label>扑灭火焰-固定</BeatFireStatic.label>
   <BeatFireStatic.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(priority=-1)->...-->
-    <li>bad_opinion(priority=-1)-&gt;.</li>
+    <li>bad_opinion(priority=-1)-&gt;…</li>
     <!--EN: bad_opinion(INITIATOR_trait==pyromaniac)->*stares in awe*-->
     <li>bad_opinion(INITIATOR_trait==pyromaniac)-&gt; * 敬畏地凝视 *</li>
     <!--EN: bad_opinion(INITIATOR_trait==pyromaniac)->The flames... I...-->
@@ -197,8 +197,8 @@
   <!--EN: billiards — blunder-->
   <Billiards_blunder.label>台球桌失误</Billiards_blunder.label>
   <Billiards_blunder.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->*sneers*-->
@@ -208,15 +208,15 @@
     <!--EN: bad_opinion->What a lousy shot!-->
     <li>bad_opinion-&gt;多么糟糕的子弹!</li>
     <!--EN: bad_opinion->Have you tried putting some chalk on your head, [RECIPIENT_nameDef]? Maybe it helps.-->
-    <li>bad_opinion-&gt;你试过给你的头涂粉笔吗,[RECIPIENT_nameDef]什么？或许有帮助。</li>
+    <li>bad_opinion-&gt;你试过给你的头涂粉笔吗,[RECIPIENT_nameDef]？或许有帮助。</li>
     <!--EN: bad_opinion->That was a ridiculous shot, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion-&gt;太荒谬了,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion-&gt;太荒谬了,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->Wow! Sinking the cue ball, was that your brilliant strategy all along? I'm baffled!-->
     <li>bad_opinion-&gt;哇哦!下沉母球，这是你一直以来的辉煌战略吗？我很困惑!</li>
     <!--EN: bad_opinion->Oh! You sank one of my balls.  Thanks a lot, [RECIPIENT_nameDef] — my turn!-->
     <li>bad_opinion-&gt;哦!你打劫了我的一个球。非常感谢,[RECIPIENT_nameDef]-轮到我了!</li>
     <!--EN: bad_opinion->What were you trying to do, [RECIPIENT_nameDef]? The cue ball didn't touch any other ball. Thanks a lot — my turn!-->
-    <li>bad_opinion-&gt;你想要干什么,[RECIPIENT_nameDef]什么？暗示球没有触摸任何其他球。非常感谢-轮到我了!</li>
+    <li>bad_opinion-&gt;你想要干什么,[RECIPIENT_nameDef]？暗示球没有触摸任何其他球。非常感谢-轮到我了!</li>
     <!--EN: bad_opinion->Your blunder, my gain! Thanks a lot, [RECIPIENT_nameDef] — my turn!-->
     <li>bad_opinion-&gt;你的错误，我的收获!非常感谢,[RECIPIENT_nameDef]-轮到我了!</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
@@ -236,9 +236,9 @@
     <!--EN: good_opinion->Eh... that didn't go as you planned. Let's see if I can take advantage of this...-->
     <li>good_opinion-&gt;呃.事情没有像你计划的那样。让我们看看我是否能利用这一点.</li>
     <!--EN: good_opinion->Remember that player who gave up? Neither does anybody else. Keep on going, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;还记得那个放弃的玩家吗？其他人也一样。继续前进,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;还记得那个放弃的玩家吗？其他人也一样。继续前进,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Tough times don't last — tough players do. So be one, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;艰难的时期不会持续 -- 艰难的球员会。所以当其中一员吧,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;艰难的时期不会持续 -- 艰难的球员会。所以当其中一员吧,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_trait==ascetic)->Remember — you miss 100% of the shots you don't take.-->
     <li>good_opinion(INITIATOR_trait==ascetic)-&gt; 记住-你错过了 100% 的未拍摄镜头。</li>
     <!--EN: good_opinion(RECIPIENT_shooting_level>=5)->Wow, [RECIPIENT_nameDef] — what happened to your billiards skills? Do you want me to win?-->
@@ -253,11 +253,11 @@
     <li>r_logentry-&gt;让我把提示粉笔。那里-我准备好了。</li>
     <!--EN: r_logentry->Yeah, [RECIPIENT_nameDef]. I'll break.-->
     <li>r_logentry-&gt;嗯,[RECIPIENT_nameDef]。我要断了。</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Of course I am! Are you ready to lose, [RECIPIENT_nameDef]?-->
-    <li>bad_opinion-&gt;我当然是!你准备输了吗,[RECIPIENT_nameDef]什么？</li>
+    <li>bad_opinion-&gt;我当然是!你准备输了吗,[RECIPIENT_nameDef]？</li>
     <!--EN: bad_opinion->I'm ready — ready to show how this is done.-->
     <li>bad_opinion-&gt;我已经准备好展示这是如何做到的。</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
@@ -270,7 +270,7 @@
   <!--EN: billiards — smart move-->
   <Billiards_smart.label>台球桌-smart move</Billiards_smart.label>
   <Billiards_smart.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(RECIPIENT_shooting_level<5)->You cheater! How did you pull that off?!-->
@@ -288,7 +288,7 @@
     <!--EN: good_opinion(RECIPIENT_shooting_level<5)->Wow, [RECIPIENT_nameDef] — nice shot! I didn't expect you to play so well!-->
     <li>good_opinion(RECIPIENT_shooting_level&lt;5)-&gt; 哇哦,[RECIPIENT_nameDef]-射得好!我没想到你弹得这么好!</li>
     <!--EN: good_opinion->Smart shot. You got me this time, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;聪明的射击。你这次服了我了,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;聪明的射击。你这次服了我了,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Well done, [RECIPIENT_nameDef] — now my next shot'll be quite difficult...-->
     <li>good_opinion-&gt;不错,[RECIPIENT_nameDef]-现在我的下一次射击将是相当困难的.</li>
     <!--EN: good_opinion->*muses [about]*-->
@@ -307,7 +307,7 @@
   <!--EN: react to — calm-->
   <Calm.label>反应-冷静</Calm.label>
   <Calm.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_mood<0.4)->[stressed]-->
@@ -319,7 +319,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_mood<0.4,priority=1)->...-->
-    <li>good_opinion(INITIATOR_mood&lt;0.4,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_mood&lt;0.4,priority=1)-&gt;…</li>
     <!--EN: good_opinion->[calm]-->
     <li>good_opinion-&gt;[calm]</li>
     <!--EN: stressed(INITIATOR_mood>0.3)->*frowns*-->
@@ -329,7 +329,7 @@
     <!--EN: stressed->*glares*-->
     <li>stressed-&gt;* 眩光 *</li>
     <!--EN: stressed->*glowers*-->
-    <li>stressed-&gt;* Glowers *</li>
+    <li>stressed-&gt;* 怒视 *</li>
     <!--EN: stressed(INITIATOR_mood<=0.2)->*mutters angrily*-->
     <li>stressed(INITIATOR_mood&lt;=0.2)-&gt; * 愤怒地嘀咕 *</li>
     <!--EN: calm(p=2)->*smiles*-->
@@ -340,7 +340,7 @@
   <!--EN: chess — blunder-->
   <Chess_blunder.label>象棋失误</Chess_blunder.label>
   <Chess_blunder.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->*sneers*-->
@@ -358,9 +358,9 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->*smiles* You've fallen into my trap, dear [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;* 微笑 * 你落入了我的陷阱，亲爱的[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;* 微笑 * 你落入了我的陷阱，亲爱的[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->And you think I don't know about your little plan, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;你以为我不知道你的小计划,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;你以为我不知道你的小计划,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion->Heh... Just as I thought...-->
     <li>good_opinion-&gt;嘿嘿...正如我所想的.</li>
     <!--EN: good_opinion->Here's a hint for you, [RECIPIENT_nameDef] — when you believe you saw a good move, look for a better one...-->
@@ -381,7 +381,7 @@
   <!--EN: chess — comment-->
   <Chess_comment.label>象棋类-点评</Chess_comment.label>
   <Chess_comment.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -398,7 +398,7 @@
   <!--EN: chess — smart move-->
   <Chess_smart.label>智能棋</Chess_smart.label>
   <Chess_smart.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Cheater!-->
@@ -414,7 +414,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Smart move. You got me this time, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;机智举动。你这次服了我了,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;机智举动。你这次服了我了,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Masterful. I forfeit.-->
     <li>good_opinion-&gt;精彩绝伦的。我认输了。</li>
     <!--EN: good_opinion->Outstanding. I lost [random_5_10] turns ago and didn't even notice.-->
@@ -616,7 +616,7 @@
     <!--EN: fire_keeper->I had the most important job one could have in a Tribe — firekeeping. Without me, we would have all died.-->
     <li>fire_keeper-&gt;我在部落有最重要的工作 -- 火种。没有我，我们早就都死了。</li>
     <!--EN: fire_keeper->Do you know what a fire keeper is, [RECIPIENT_nameDef]? That was my childhood.-->
-    <li>fire_keeper-&gt;你知道火种保管人是什么吗,[RECIPIENT_nameDef]什么？那是我的童年。</li>
+    <li>fire_keeper-&gt;你知道火种保管人是什么吗,[RECIPIENT_nameDef]？那是我的童年。</li>
     <!--EN: fire_keeper->Being a fire keeper meant I had to mature quickly and forgo regular childhood activities.-->
     <li>fire_keeper-&gt;作为一名火种保管人意味着我必须这么做成熟的迅速放弃童年的常规活动。</li>
     <!--EN: hideaway->My parents kept me at home all the time, so I focused on skills like crafting and my hobbies!-->
@@ -646,7 +646,7 @@
     <!--EN: bookworm->I always had my face buried in a book, they are far more interesting than people.-->
     <li>bookworm-&gt;我总是把脸埋在一本书里，它们比人有趣得多。</li>
     <!--EN: bookworm->Most of my childhood was spent reading. While we are on the topic, do you have any books [RECIPIENT_nameDef]?-->
-    <li>bookworm-&gt;我童年的大部分时间都在阅读。当我们谈到这个话题时，你有什么书吗[RECIPIENT_nameDef]什么？</li>
+    <li>bookworm-&gt;我童年的大部分时间都在阅读。当我们谈到这个话题时，你有什么书吗[RECIPIENT_nameDef]？</li>
     <!--EN: bookworm->I stayed away from most other kids, preferring the wondrous lands and adventures only a book can supply.-->
     <li>bookworm-&gt;我远离大多数其他孩子，更喜欢只有书籍才能提供的奇迹般的土地和冒险。</li>
     <!--EN: industrial_orphan->My oldest memories are of the drudgery in mines and workhouses. I don't even remember my parents.-->
@@ -674,7 +674,7 @@
     <!--EN: wreckage_explorer->Instead of watching my family's herds, I spent a majority of my time exploring crashed warships.-->
     <li>wreckage_explorer-&gt;我没有看家里的牧群，而是花了大部分时间探索坠毁的战舰。</li>
     <!--EN: wreckage_explorer->Have you ever explored a crashed warship, [RECIPIENT_nameDef]? That's what I spent a majority of my childhood doing!-->
-    <li>wreckage_explorer-&gt;你探索过坠毁的战舰吗,[RECIPIENT_nameDef]什么？我童年的大部分时间都在做这件事!</li>
+    <li>wreckage_explorer-&gt;你探索过坠毁的战舰吗,[RECIPIENT_nameDef]？我童年的大部分时间都在做这件事!</li>
     <!--EN: wreckage_explorer->Once, one of the animals I was herding ran away — eventually, it led me to a large crashed starship. That's when I found out I just loved wreckages!-->
     <li>wreckage_explorer-&gt;有一次，我放牧的一只动物逃跑了 -- 最终，它把我带到了一艘坠毁的大型星际飞船上。那时我发现我只是喜欢残骸!</li>
     <!--EN: apocalypse_survivor->The planet I grew up on was destroyed by the very people that called it home. My parents and I had to go to extremes just to make it.-->
@@ -746,7 +746,7 @@
     <!--EN: pyromaniac->Fire was an integral part of my upbringing, I even burned down my house once!-->
     <li>pyromaniac-&gt;火是我成长过程中不可或缺的一部分，我甚至曾经烧毁过我的房子!</li>
     <!--EN: pyromaniac->I used to set fire to the garbage piles, they are so mesmerizing. Wouldn't you agree [RECIPIENT_nameDef]?-->
-    <li>pyromaniac-&gt;我过去常常放火焚烧垃圾堆，它们真是迷人。你不同意吗[RECIPIENT_nameDef]什么？</li>
+    <li>pyromaniac-&gt;我过去常常放火焚烧垃圾堆，它们真是迷人。你不同意吗[RECIPIENT_nameDef]？</li>
     <!--EN: pyromaniac->I was born in fire, I used to live near fire, and I can't keep away from fire.-->
     <li>pyromaniac-&gt;我在火中出生，我过去住在火附近，我无法远离火。</li>
     <!--EN: mute->Animals have always been better companions than humans to me [RECIPIENT_nameDef], especially when I was young.-->
@@ -766,13 +766,13 @@
     <!--EN: musical_kid->You may have heard of me, [RECIPIENT_nameDef]. I was a very well known musician even as a child!-->
     <li>musical_kid-&gt;你可能听说过我,[RECIPIENT_nameDef]。我小时候就是一位非常著名的音乐家!</li>
     <!--EN: musical_kid->You don't know that I was a renowned musician even as a child [RECIPIENT_nameDef]? You really missed out.-->
-    <li>musical_kid-&gt;你不知道我小时候就享有盛誉[RECIPIENT_nameDef]什么？你真的错过了。</li>
+    <li>musical_kid-&gt;你不知道我小时候就享有盛誉[RECIPIENT_nameDef]？你真的错过了。</li>
     <!--EN: musical_kid->Being a musician was always my focus. I trained and performed until I became famous!-->
     <li>musical_kid-&gt;成为一名音乐家一直是我的焦点。我训练和表演，直到我出名为止!</li>
     <!--EN: child_star->I was a famous actor as a kid! It was fabulous, I met all sorts of people and ate all sorts of lavish foods.-->
     <li>child_star-&gt;我小时候是个著名的演员!太棒了，我遇到了各种各样的人，吃了各种奢侈的食物。</li>
     <!--EN: child_star->You haven't heard of me, [RECIPIENT_nameDef]? I was an extremely famous child actor!-->
-    <li>child_star-&gt;你没听说过我,[RECIPIENT_nameDef]什么？我曾是一名非常著名的儿童演员!</li>
+    <li>child_star-&gt;你没听说过我,[RECIPIENT_nameDef]？我曾是一名非常著名的儿童演员!</li>
     <!--EN: child_star->Most of my time was spent in front of a camera, acting or being interviewed. I hadn't a large need for education.-->
     <li>child_star-&gt;我的大部分时间都花在了镜头前、表演或者接受采访上。我不太需要教育。</li>
     <!--EN: child_spy->I was taught at a very young age the art of espionage. I was then put undercover for many years of my childhood.-->
@@ -798,11 +798,11 @@
     <!--EN: medical_assistant->I was born during a horrible war full of incendiary weapons, and during my youth I helped tend to the patients in the infirmary.-->
     <li>medical_assistant-&gt;我出生在一场充满燃烧武器的可怕战争中，年轻时我在医院帮助治疗病人。</li>
     <!--EN: medical_assistant->Have you ever tended to the severely burned [RECIPIENT_nameDef]? It leaves you scarred, it really changes something in you.-->
-    <li>medical_assistant-&gt;你治疗过被严重烧伤的病人吗[RECIPIENT_nameDef]什么？它给你留下疤痕，它真的改变了你的某些东西。</li>
+    <li>medical_assistant-&gt;你治疗过被严重烧伤的病人吗[RECIPIENT_nameDef]？它给你留下疤痕，它真的改变了你的某些东西。</li>
     <!--EN: cult_child->I was raised to hate technology by my cult, but when I was able to see the real world I left it immediately.-->
     <li>cult_child-&gt;我被我的邪教徒培养为憎恨技术，但当我能够看到现实世界时，我立即离开了它。</li>
     <!--EN: cult_child->Have you ever been part of a cult, [RECIPIENT_nameDef]? You probably wouldn't understand.-->
-    <li>cult_child-&gt;你曾经是邪教的一员吗,[RECIPIENT_nameDef]什么？你可能不会明白。</li>
+    <li>cult_child-&gt;你曾经是邪教的一员吗,[RECIPIENT_nameDef]？你可能不会明白。</li>
     <!--EN: cult_child->I was always told that any illness was solvable through soul-cleansing rituals.-->
     <li>cult_child-&gt;我总是被告知任何疾病都可以通过净化灵魂的仪式来解决。</li>
     <!--EN: story_writer->I used to spend all my time at the local library until it closed down. Once that happened, I began writing my own books.-->
@@ -814,7 +814,7 @@
     <!--EN: medieval_slave->I was born and raised into slavery, I have the scars and the work ethic to prove it.-->
     <li>medieval_slave-&gt;我出生并成长为奴隶，我有伤疤和职业道德来证明这一点。</li>
     <!--EN: medieval_slave->Have you heard of the worlds stuck in the medieval ages [RECIPIENT_nameDef]? I was a slave on one of those.-->
-    <li>medieval_slave-&gt;你听说过中世纪世界吗[RECIPIENT_nameDef]什么？我曾是一个奴隶就其中一件。</li>
+    <li>medieval_slave-&gt;你听说过中世纪世界吗[RECIPIENT_nameDef]？我曾是一个奴隶就其中一件。</li>
     <!--EN: medieval_slave->I grew up digging holes and pushing carts for my slave owners.-->
     <li>medieval_slave-&gt;我从小就喜欢挖洞和推手推车奴隶所属人。</li>
     <!--EN: medieval_lord->On my planet I was a noble, being pampered from my youth to adulthood with fine food and entertainment by my servants.-->
@@ -860,7 +860,7 @@
     <!--EN: unwanted_survivor->I was often sent into dangerous warzones to deal with political matters by my family. Sometimes I think they wanted to get rid of me...-->
     <li>unwanted_survivor-&gt;我经常被家人送到危险的战区处理政治事务。有时候我觉得他们想摆脱我...</li>
     <!--EN: unwanted_survivor->Have you ever participated in a riverrun [RECIPIENT_nameDef]? I almost died in four different ones!-->
-    <li>unwanted_survivor-&gt;你参加过奔流吗[RECIPIENT_nameDef]什么？我差点死在四个不同的地方!</li>
+    <li>unwanted_survivor-&gt;你参加过奔流吗[RECIPIENT_nameDef]？我差点死在四个不同的地方!</li>
     <!--EN: ship_child->Growing up I had never even seen a plant or animal, and to this day they still creep me out!-->
     <li>ship_child-&gt;在我的成长过程中，我从未见过植物和动物，直到今天，它们仍然让我毛骨悚然!</li>
     <!--EN: ship_child->I was born to servants on a starship [RECIPIENT_nameDef]. Believe it or not, those machine personas can be quite the parental figure.-->
@@ -878,7 +878,7 @@
     <!--EN: political_captive->During my time being held for ransom by a rival family, I studied martial arts and any other book I could get my hands on.-->
     <li>political_captive-&gt;在我被一个敌对的家庭勒索赎金期间，我学习了武术和任何其他我能拿到的书。</li>
     <!--EN: political_captive->Have you ever been a political pawn [RECIPIENT_nameDef]? They treat you surprisingly well until they don't need you anymore...-->
-    <li>political_captive-&gt;你当过政治家吗pawn[RECIPIENT_nameDef]什么？他们对你出奇的好，直到不再需要你...</li>
+    <li>political_captive-&gt;你当过政治家吗pawn[RECIPIENT_nameDef]？他们对你出奇的好，直到不再需要你...</li>
     <!--EN: delinquent->I was always a rule breaker, [RECIPIENT_nameDef]. I spent more time in jail than out.-->
     <li>delinquent-&gt;我一直是个破坏规则的人,[RECIPIENT_nameDef]。我在监狱里度过的时间比在外面的时间还多。</li>
     <!--EN: delinquent->I failed an attempt to escape prison just once, after that they forced me into military service.-->
@@ -926,7 +926,7 @@
     <!--EN: royal_bastard->I always felt like I was destined for more, but even if my father's line was strong, I could never ask for a title.-->
     <li>royal_bastard-&gt;我总觉得我注定要有更多，但即使我父亲的头衔很强，我也永远不会要求头衔。</li>
     <!--EN: royal_bastard->What do you think of prostitutes, [RECIPIENT_nameDef]? I hope you don't judge them — my mother was one.-->
-    <li>royal_bastard-&gt;你觉得妓女怎么样,[RECIPIENT_nameDef]什么？我希望你不要评判他们-我的母亲是其中之一。</li>
+    <li>royal_bastard-&gt;你觉得妓女怎么样,[RECIPIENT_nameDef]？我希望你不要评判他们-我的母亲是其中之一。</li>
     <!--EN: war_bastard->My father was a soldier who conquered our town. That is all I know of him.-->
     <li>war_bastard-&gt;我父亲是一名征服了我们城镇的士兵。我只知道这些。</li>
     <!--EN: war_bastard->I was born into a war ravaged town, and during my childhood there wasn't a single person who treated me well.-->
@@ -949,7 +949,7 @@
   <!--EN: Chitchat generic-->
   <ChitChat_generic.label>普通闲谈</ChitChat_generic.label>
   <ChitChat_generic.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==kind,priority=1,tag=ChitChat_generic2)->[good_opinion]-->
@@ -959,7 +959,7 @@
     <!--EN: bad_opinion->[interjection_dismissive]...-->
     <li>bad_opinion-&gt;[interjection_dismissive]...</li>
     <!--EN: bad_opinion->What, [RECIPIENT_nameDef]? *scowls*-->
-    <li>bad_opinion-&gt;什么,[RECIPIENT_nameDef]什么？* 怒容 *</li>
+    <li>bad_opinion-&gt;什么,[RECIPIENT_nameDef]？* 怒容 *</li>
     <!--EN: interjection_dismissive->Bah-->
     <li>interjection_dismissive-&gt;砰!</li>
     <!--EN: interjection_dismissive->Tsk-->
@@ -975,19 +975,19 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=ChitChat_generic2)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=ChitChat_generic2)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Yes, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;是的,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;是的,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion(INITIATOR_intellectual_level<=5)->Yeah, [RECIPIENT_nameDef]?-->
-    <li>good_opinion(INITIATOR_intellectual_level&lt;=5)-&gt; 耶,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion(INITIATOR_intellectual_level&lt;=5)-&gt; 耶,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion->Mhm?-->
     <li>good_opinion-&gt;嗯？</li>
     <!--EN: good_opinion->What is it, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;它是什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;它是什么,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion->[interjection_neutral]...?-->
     <li>good_opinion-&gt;[interjection_neutral]你在哪里？</li>
     <!--EN: good_opinion->[interjection_neutral]? What, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;[interjection_neutral]什么？什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;[interjection_neutral]什么？什么,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion->[interjection_neutral]... What is it, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;[interjection_neutral]。它是什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;[interjection_neutral]。它是什么,[RECIPIENT_nameDef]？</li>
     <!--EN: interjection_neutral->Huh-->
     <li>interjection_neutral-&gt;嗯</li>
     <!--EN: interjection_neutral->Mhm-->
@@ -1040,31 +1040,31 @@
   <!--EN: cleaning-->
   <Cleaning.label>清洁</Cleaning.label>
   <Cleaning.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
     <li>bad_opinion-&gt;...</li>
     <!--EN: bad_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->Yes, [RECIPIENT_nameDef] — this place definitely looks [ugly], just like you!-->
-    <li>bad_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 是,[RECIPIENT_nameDef]-这个地方绝对是个样子[ugly],和你一样!</li>
+    <li>bad_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 是,[RECIPIENT_nameDef]-这地方真丑，跟你一样!</li>
     <!--EN: bad_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->This place looks [ugly], all right — I call it [RECIPIENT_nameDef]-esque!-->
-    <li>bad_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 这个地方看起来[ugly],好吧-我称之为[RECIPIENT_nameDef]风格!</li>
+    <li>bad_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 这个地方看起来真丑，好吧——我管这叫[RECIPIENT_nameDef]风格!</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
-    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->Thanks, [RECIPIENT_nameDef] — this place looks [intensifier][ugly], [cleaning] it would make it look so, so much better!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]-这个地方看起来[intensifier][ugly],[cleaning]它会让你的心情变得如此，好多了!</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->Thanks, [RECIPIENT_nameDef] — this place looks 很[ugly], [cleaning] it would make it look so, so much better!-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]-这个地方看起来很丑，打扫一下会让这里好很多!</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->Thanks, [RECIPIENT_nameDef] — this place looks [unsightly], [cleaning] it would really help!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]-这个地方看起来[unsightly],[cleaning]真的有帮助!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]-这个地方看起来真难看，打扫一下会好很多!</li>
     <!--EN: good_opinion->Thanks, [RECIPIENT_nameDef] — this place certainly needs some [cleaning].-->
-    <li>good_opinion-&gt;谢谢,[RECIPIENT_nameDef]-这个地方肯定需要一些[cleaning]。</li>
-    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Thanks, [RECIPIENT_nameDef]. This place is  [intensifier]nice — [keep_clean]-->
-    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]。此地是[intensifier]很好-[keep_clean]</li>
-    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Thanks, [RECIPIENT_nameDef]. This place is  [intensifier]beautiful — [keep_clean]-->
-    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]。此地是[intensifier]美丽-[keep_clean]</li>
-    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Thanks! This wonderful place is  [intensifier][moderately_attractive_obj] — [keep_clean]-->
-    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 谢谢!这个地方太棒了[intensifier][moderately_attractive_obj]X[keep_clean]</li>
+    <li>good_opinion-&gt;谢谢,[RECIPIENT_nameDef]-这个地方确实需要打扫一下。</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Thanks, [RECIPIENT_nameDef]. This place is  很nice — [keep_clean]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]。此地是真的很美——请保持整洁。</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Thanks, [RECIPIENT_nameDef]. This place is  很beautiful — [keep_clean]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]。此地是真的很美——请保持整洁。</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Thanks! This wonderful place is  很[moderately_attractive_obj] — [keep_clean]-->
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 谢谢!这个地方太棒了，请保持整洁。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->Thanks, [RECIPIENT_nameDef]. This place is incredibly [gorgeous] — [keep_clean]-->
-    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]。这个地方真是难以置信[gorgeous]X[keep_clean]</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 谢谢,[RECIPIENT_nameDef]。这个地方真是美极了——请保持整洁。</li>
     <!--EN: clean->[clean_adj]clean-->
     <li>clean-&gt;[clean_adj]清洁</li>
     <!--EN: clean->[clean_adj]tidy-->
@@ -1194,20 +1194,20 @@
     <!--EN: r_logentry->[busy]-->
     <li>r_logentry-&gt;[busy]</li>
     <!--EN: busy(INITIATOR_opinion<0)->...-->
-    <li>busy(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>busy(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: busy(INITIATOR_opinion>=0)->Sorry, [RECIPIENT_nameDef] — I'm busy right now.-->
     <li>busy(INITIATOR_opinion&gt;=0)-&gt; 对不起,[RECIPIENT_nameDef]你好吗？</li>
     <!--EN: busy(INITIATOR_opinion>=0)->Uh? Ah... well.. sorry I missed it, [RECIPIENT_nameDef].-->
     <li>busy(INITIATOR_opinion&gt;=0)-&gt; 呃？啊... 嗯...很抱歉我错过了,[RECIPIENT_nameDef]。</li>
     <!--EN: busy(INITIATOR_opinion>=0)->What was that? Sorry, [RECIPIENT_nameDef], I'm a little busy.-->
-    <li>busy(INITIATOR_opinion&gt;=0)什么？对不起,[RECIPIENT_nameDef],我正有点忙。</li>
+    <li>busy(INITIATOR_opinion&gt;=0)-&gt;什么？对不起,[RECIPIENT_nameDef],我正有点忙。</li>
   </CloudWatching.logRulesInitiator.rulesStrings>
   <!--EN: random deeptalk topic-->
   <DeepTalkConvo.label>随机深入讨论</DeepTalkConvo.label>
   <DeepTalkConvo.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Hmph...-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 嗯...</li>
     <!--EN: r_logentry(INITIATOR_opinion<0,RECIPIENT_intellectual_level<=3)->I don't want to discuss that with a pea-brain like you, [RECIPIENT_nameDef].-->
@@ -1215,19 +1215,19 @@
     <!--EN: r_logentry(INITIATOR_opinion<0,INITIATOR_trait==kind,priority=1)->Not right now, [RECIPIENT_nameDef].-->
     <li>r_logentry(INITIATOR_opinion&lt;0,INITIATOR_trait==kind,priority=1)-&gt; 现在不行,[RECIPIENT_nameDef]。</li>
     <!--EN: r_logentry(INITIATOR_opinion<0,INITIATOR_trait==kind,priority=1)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0,INITIATOR_trait==kind,priority=1)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0,INITIATOR_trait==kind,priority=1)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=DeepTalkConvoResponse)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=DeepTalkConvoResponse)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Interesting, [RECIPIENT_nameDef]... I think it's very complicated.-->
     <li>good_opinion-&gt;有趣的是,[RECIPIENT_nameDef]。我认为这非常复杂。</li>
     <!--EN: good_opinion->Hmm... I haven't thought about that lately, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;嗯...我最近没那么想,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;嗯...我最近没那么想,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->To be honest, [RECIPIENT_nameDef], that always reminds me of [TalkTopicLight][deepTalkSoftenSentenceEnd]-->
-    <li>good_opinion-&gt;老实说,[RECIPIENT_nameDef],总是让我想起[TalkTopicLight][deepTalkSoftenSentenceEnd]</li>
+    <li>good_opinion-&gt;老实说,[RECIPIENT_nameDef],总是让我想起这些[deepTalkSoftenSentenceEnd]</li>
     <!--EN: good_opinion->I think that you could compare it to [TalkTopicLight][deepTalkSoftenSentenceEnd]-->
-    <li>good_opinion-&gt;我想你可以把它比作[TalkTopicLight][deepTalkSoftenSentenceEnd]</li>
+    <li>good_opinion-&gt;我想你可以把它比作这类话题[deepTalkSoftenSentenceEnd]</li>
     <!--EN: good_opinion->I don't know, [RECIPIENT_nameDef], I really prefer to focus on [TalkTopicHeavy][deepTalkSoftenSentenceEnd]-->
-    <li>good_opinion-&gt;我不知道,[RECIPIENT_nameDef],我真的更喜欢专注[TalkTopicHeavy][deepTalkSoftenSentenceEnd]</li>
+    <li>good_opinion-&gt;我不知道,[RECIPIENT_nameDef],我真的更喜欢专注在更深的话题上[deepTalkSoftenSentenceEnd]</li>
     <!--EN: deepTalkSoftenSentenceEnd(p=2)->.-->
     <li>deepTalkSoftenSentenceEnd(p=2)-&gt;。</li>
     <!--EN: deepTalkSoftenSentenceEnd->, you know?-->
@@ -1250,9 +1250,9 @@
   <!--EN: random deeptalk topic response-->
   <DeepTalkConvoResponse.label>随机深入讨论</DeepTalkConvoResponse.label>
   <DeepTalkConvoResponse.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Hmph...-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 嗯...</li>
     <!--EN: r_logentry(INITIATOR_opinion<0,INITIATOR_trait==kind,priority=1)->[deepTalkConclusion]-->
@@ -1260,23 +1260,23 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[deepTalkConclusion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[deepTalkConclusion]</li>
     <!--EN: deepTalkConclusion->I [wanna] learn more about that.-->
-    <li>deepTalkConclusion-&gt;我[wanna]了解更多。</li>
+    <li>deepTalkConclusion-&gt;我想了解更多。</li>
     <!--EN: deepTalkConclusion->This is [intensifer]thought-provoking!-->
-    <li>deepTalkConclusion-&gt;这是[intensifer]耐人寻味!</li>
+    <li>deepTalkConclusion-&gt;这真是耐人寻味!</li>
     <!--EN: deepTalkConclusion->I wonder if we can find a book about that?-->
     <li>deepTalkConclusion-&gt;我想知道我们是否能找到一本关于那个的书？</li>
     <!--EN: deepTalkConclusion->At least we can all agree on [TalkTopicLight]!-->
-    <li>deepTalkConclusion-&gt;至少我们可以达成一致[TalkTopicLight]不!</li>
+    <li>deepTalkConclusion-&gt;至少我们在这点上能达成一致！</li>
     <!--EN: deepTalkConclusion(INITIATOR_intellectual_level>=5)->I wonder if we can write a book about that?-->
     <li>deepTalkConclusion(INITIATOR_intellectual_level&gt;=5)-&gt; 我想知道我们是否能就此写一本书？</li>
     <!--EN: deepTalkConclusion(INITIATOR_opinion>=50)->I love talking to you about things, [RECIPIENT_nameDef]!-->
-    <li>deepTalkConclusion(INITIATOR_opinion&gt;=50)-&gt; 我喜欢和你谈论一些事情,[RECIPIENT_nameDef]不!</li>
+    <li>deepTalkConclusion(INITIATOR_opinion&gt;=50)-&gt; 我喜欢和你谈论这些，[RECIPIENT_nameDef]！</li>
   </DeepTalkConvoResponse.logRulesInitiator.rulesStrings>
   <!--EN: dream — nice-->
   <Dream_nice.label>梦中情人</Dream_nice.label>
   <Dream_nice.logRulesInitiator.rulesStrings>
     <!--EN: r_logentry(INITIATOR_opinion<-25)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;-25)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;-25)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=-25)->[dream]-->
     <li>r_logentry(INITIATOR_opinion&gt;=-25)-&gt;[dream]</li>
     <!--EN: dream->I was in a [AdjectiveFriendly] [Community] — so nice! [fun_activity]-->
@@ -1353,11 +1353,11 @@
   <!--EN: drink beer-->
   <DrinkBeer.label>喝啤酒</DrinkBeer.label>
   <DrinkBeer.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_opinion<-25)->Choke on it, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion(INITIATOR_opinion&lt;-25)-&gt; 被它噎住了,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion(INITIATOR_opinion&lt;-25)-&gt; 被它噎住了,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->...-->
     <li>bad_opinion-&gt;...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
@@ -1387,12 +1387,12 @@
     <!--EN: good_opinion->Cheers!-->
     <li>good_opinion-&gt;欢呼!</li>
     <!--EN: good_opinion->Here's to you, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;与你同在,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;与你同在,[RECIPIENT_nameDef]！</li>
   </DrinkBeer.logRulesInitiator.rulesStrings>
   <!--EN: eclipse-->
   <Eclipse.label>日蚀</Eclipse.label>
   <Eclipse.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -1423,7 +1423,7 @@
   <!--EN: Ur game — blunder-->
   <GameOfUr_blunder.label>你的游戏失误</GameOfUr_blunder.label>
   <GameOfUr_blunder.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->*sneers*-->
@@ -1445,13 +1445,13 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->*smiles* You've fallen into my trap, dear [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;* 微笑 * 你落入了我的陷阱，亲爱的[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;* 微笑 * 你落入了我的陷阱，亲爱的[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->You should be more careful with your pieces... I'll have to eat this one now — sorry...-->
     <li>good_opinion-&gt;你应该更加小心你的碎片…我现在不得不吃了这个 -- 对不起……</li>
     <!--EN: good_opinion->You should always protect the pieces that are almost off the board first...-->
     <li>good_opinion-&gt;你应该始终首先保护即将离开护板的残骸……</li>
     <!--EN: good_opinion->And you think I don't know about your little plan, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;你以为我不知道你的小计划,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;你以为我不知道你的小计划,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion->Heh... Just as I thought...-->
     <li>good_opinion-&gt;嘿嘿...正如我所想的.</li>
     <!--EN: good_opinion->Here's a hint for you, [RECIPIENT_nameDef] — when you believe you see a good move, look for a better one...-->
@@ -1462,7 +1462,7 @@
   <!--EN: Ur game — smart move-->
   <GameOfUr_smart.label>你的游戏智能移动</GameOfUr_smart.label>
   <GameOfUr_smart.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Cheater!-->
@@ -1482,7 +1482,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Smart move. You got me this time, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;机智举动。你这次服了我了,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;机智举动。你这次服了我了,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Masterful. I forfeit.-->
     <li>good_opinion-&gt;精彩绝伦的。我认输了。</li>
     <!--EN: good_opinion->Well done — you got another piece off the board!-->
@@ -1499,7 +1499,7 @@
   <!--EN: get well-->
   <GetWell.label>康复</GetWell.label>
   <GetWell.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -1533,7 +1533,7 @@
     <!--EN: good_opinion(INITIATOR_trait==sanguine)->I'll get back in business in no time, [RECIPIENT_nameDef] — you'll see!-->
     <li>good_opinion(INITIATOR_trait==sanguine)-&gt; 我很快就能重新开始工作,[RECIPIENT_nameDef]-你会发现的!</li>
     <!--EN: good_opinion(INITIATOR_trait==optimist)->[thank], [RECIPIENT_nameDef]! I'm sure of it, too!-->
-    <li>good_opinion(INITIATOR_trait==optimist)-&gt;[thank],[RECIPIENT_nameDef]不!我也敢肯定!</li>
+    <li>good_opinion(INITIATOR_trait==optimist)-&gt;[thank],[RECIPIENT_nameDef]！我也敢肯定!</li>
     <!--EN: thank->thanks-->
     <li>thank-&gt;谢谢</li>
     <!--EN: thank->thank you-->
@@ -1542,7 +1542,7 @@
   <!--EN: going to bed-->
   <GoingToBed.label>去睡觉</GoingToBed.label>
   <GoingToBed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -1588,11 +1588,11 @@
     <!--EN: r_logentry(INITIATOR_opinion<-5)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;-5)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Leave me alone, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion-&gt;别烦我,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion-&gt;别烦我,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->Mind your business, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion-&gt;管好你的事,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion-&gt;管好你的事,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->None of your business, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion-&gt;不关你的事,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion-&gt;不关你的事,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->...-->
     <li>bad_opinion-&gt;...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=-5,INITIATOR_thoughtDefName==Sick,priority=1)->[good_opinion_sick]-->
@@ -1692,7 +1692,7 @@
     <!--EN: furious(INITIATOR_trait==tortured artist)->Nobody will ever understand the rough maelstrom swirling inside my tortured soul!-->
     <li>furious(INITIATOR_trait==tortured artist)-&gt; 没有人会理解在我备受折磨的灵魂里盘旋的汹涌巨浪!</li>
     <!--EN: whataboutyou(INITIATOR_opinion>=5,tag=HowAreYou2)->What about you?-->
-    <li>whataboutyou(INITIATOR_opinion&gt;=5,tag=HowAreYou2)你怎么样？</li>
+    <li>whataboutyou(INITIATOR_opinion&gt;=5,tag=HowAreYou2)-&gt;你怎么样？</li>
     <!--EN: whataboutyou(INITIATOR_opinion<5)->-->
     <li>whataboutyou(INITIATOR_opinion&lt;5)-&gt;</li>
   </HowAreYou.logRulesInitiator.rulesStrings>
@@ -1856,7 +1856,7 @@
     <!--EN: r_logentry(INITIATOR_trait==abrasive,priority=1)->[abrasive]-->
     <li>r_logentry(INITIATOR_trait==abrasive,priority=1)-&gt;[abrasive]</li>
     <!--EN: abrasive->Fuck off, [RECIPIENT_nameDef]!-->
-    <li>abrasive-&gt;滚蛋[RECIPIENT_nameDef]不!</li>
+    <li>abrasive-&gt;滚蛋[RECIPIENT_nameDef]！</li>
     <!--EN: r_logentry(INITIATOR_trait==ascetic,priority=1)->[ascetic]-->
     <li>r_logentry(INITIATOR_trait==ascetic,priority=1)-&gt;[ascetic]</li>
     <!--EN: ascetic->Your worldly, low feelings barely affect me, [RECIPIENT_nameDef] — spare your energies for something wholesome.-->
@@ -1873,7 +1873,7 @@
     <li>kind-&gt;如果侮辱我能让你感觉好一些，我会永远在这里帮助你。</li>
     <!--EN: kind->I know you really didn't mean to say that, [RECIPIENT_nameDef] — I forgive you.-->
     <li>kind-&gt;我知道你真的不是那个意思,[RECIPIENT_nameDef]你好吗？</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->[reaction] [insult_you]-->
@@ -1893,31 +1893,31 @@
     <!--EN: bad_opinion(INITIATOR_mood>=0.4)->Stop it, [RECIPIENT_nameDef] — spare the shame.-->
     <li>bad_opinion(INITIATOR_mood&gt;=0.4)-&gt;停止它,[RECIPIENT_nameDef]-不见天日吧.</li>
     <!--EN: bad_opinion(INITIATOR_mood>=0.4)->Don't be so [damned_intensifier]rude, [RECIPIENT_nameDef].-->
-    <li>bad_opinion(INITIATOR_mood&gt;=0.4)-&gt; 不要这样[damned_intensifier]粗鲁,[RECIPIENT_nameDef]。</li>
+    <li>bad_opinion(INITIATOR_mood&gt;=0.4)-&gt; 不要这么粗鲁,[RECIPIENT_nameDef]。</li>
     <!--EN: bad_opinion(INITIATOR_mood>=0.4)->That's enough bad-mouthing out of you, [RECIPIENT_nameDef].-->
     <li>bad_opinion(INITIATOR_mood&gt;=0.4)-&gt; 你够了![RECIPIENT_nameDef]。</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Who pissed in your cereal, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;谁拿了你的麦片尿了,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;谁拿了你的麦片尿了,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion->Aww, [RECIPIENT_nameDef]! What did I do to you!?-->
-    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]不!我对你做了什么!？</li>
+    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]！我对你做了什么!？</li>
     <!--EN: good_opinion->Watch it, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;当心了,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;当心了,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->You're crossing the line, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;你在越界,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;你在越界,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Damn you, [RECIPIENT_nameDef]! What was that for!?-->
-    <li>good_opinion-&gt;该死的,[RECIPIENT_nameDef]不!这是干什么用的!？</li>
+    <li>good_opinion-&gt;该死的,[RECIPIENT_nameDef]！这是干什么用的!？</li>
     <!--EN: good_opinion->Aww, [RECIPIENT_nameDef]! What was that about!?-->
-    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]不!这是怎么回事!？</li>
+    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]！这是怎么回事!？</li>
     <!--EN: r_logentry(INITIATOR_opinion>=50)->[friend_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=50)-&gt;[friend_opinion]</li>
     <!--EN: friend_opinion->What gives, [RECIPIENT_nameDef]? I thought we were close!-->
-    <li>friend_opinion-&gt;什么给予,[RECIPIENT_nameDef]什么？我以为我们很亲密!</li>
+    <li>friend_opinion-&gt;什么给予,[RECIPIENT_nameDef]？我以为我们很亲密!</li>
     <!--EN: friend_opinion->Hey! That's no way to talk to a friend, [RECIPIENT_nameDef]!-->
-    <li>friend_opinion-&gt;嘿!这不是和朋友说话的方式,[RECIPIENT_nameDef]不!</li>
+    <li>friend_opinion-&gt;嘿!这不是和朋友说话的方式,[RECIPIENT_nameDef]！</li>
     <!--EN: friend_opinion->[RECIPIENT_nameDef]! What?! I thought we were closer than that!!-->
-    <li>friend_opinion-&gt;[RECIPIENT_nameDef]不!什么东西？我以为我们比那更接近!!</li>
+    <li>friend_opinion-&gt;[RECIPIENT_nameDef]！什么东西？我以为我们比那更接近!!</li>
     <!--EN: r_logentry(INITIATOR_age>=60,RECIPIENT_age<=25)->[elderly]-->
     <li>r_logentry(INITIATOR_age&gt;=60,RECIPIENT_age&lt;=25)-&gt;[elderly]</li>
     <!--EN: elderly->Young people like you should show more respect for the elderly!-->
@@ -1990,7 +1990,7 @@
   <!--EN: invite — answer no-->
   <Invite_answer_no.label>邀请-回答否</Invite_answer_no.label>
   <Invite_answer_no.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->No, [RECIPIENT_nameDef].-->
@@ -1998,7 +1998,7 @@
     <!--EN: bad_opinion->No way, [RECIPIENT_nameDef].-->
     <li>bad_opinion-&gt;不可能,[RECIPIENT_nameDef]。</li>
     <!--EN: bad_opinion(INITIATOR_opinion<-25)->Stop pestering me, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion(INITIATOR_opinion&lt;-25)-&gt;停止缠着我,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion(INITIATOR_opinion&lt;-25)-&gt;停止缠着我,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion(INITIATOR_opinion<-25)->No, [RECIPIENT_nameDef]. And don't ask me this again — ever!-->
     <li>bad_opinion(INITIATOR_opinion&lt;-25)-&gt; 否,[RECIPIENT_nameDef]。别再问我这个问题了!</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
@@ -2011,7 +2011,7 @@
   <!--EN: invite — answer yes-->
   <Invite_answer_yes.label>邀请-回答是</Invite_answer_yes.label>
   <Invite_answer_yes.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->I wouldn't like to, but... OK, [RECIPIENT_nameDef] — let's go.-->
@@ -2032,7 +2032,7 @@
   <!--EN: is cooking-->
   <IsCooking.label>正在烹饪</IsCooking.label>
   <IsCooking.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -2047,44 +2047,44 @@
   <!--EN: job - build snowman-->
   <Job_BuildSnowman.label>建造雪人</Job_BuildSnowman.label>
   <Job_BuildSnowman.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why, thank you [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;为什么，谢谢[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;为什么，谢谢[RECIPIENT_nameDef]！</li>
   </Job_BuildSnowman.logRulesInitiator.rulesStrings>
   <!--EN: job — butchering skill-->
   <Job_ButcheringSkill.label>工作-屠宰技能</Job_ButcheringSkill.label>
   <Job_ButcheringSkill.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_cooking_level>=6)->Thank you, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_cooking_level&gt;=6)-&gt; 谢谢,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_cooking_level&gt;=6)-&gt; 谢谢,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_cooking_level<6)->I'm sorry, [RECIPIENT_nameDef] — I'm doing the best I can!-->
     <li>good_opinion(INITIATOR_cooking_level&lt;6)-&gt; 对不起,[RECIPIENT_nameDef]-我已经尽力了!</li>
   </Job_ButcheringSkill.logRulesInitiator.rulesStrings>
   <!--EN: job — playing — compliment-->
   <Job_PlayMusic_compliment.label>恭维</Job_PlayMusic_compliment.label>
   <Job_PlayMusic_compliment.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->Thank you, [RECIPIENT_nameDef]!-->
-    <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt; 谢谢,[RECIPIENT_nameDef]不!</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt; 谢谢,[RECIPIENT_nameDef]！</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->Thanks, [RECIPIENT_nameDef]!-->
-    <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt; 谢谢,[RECIPIENT_nameDef]不!</li>
+    <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt; 谢谢,[RECIPIENT_nameDef]！</li>
   </Job_PlayMusic_compliment.logRulesInitiator.rulesStrings>
   <!--EN: job — playing — critic-->
   <Job_PlayMusic_critic.label>娱乐工作的批评者</Job_PlayMusic_critic.label>
   <Job_PlayMusic_critic.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Well, [RECIPIENT_nameDef] — nobody forced you to listen in the first place.-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 嗯,[RECIPIENT_nameDef]-无人强迫你首先要听。</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->If you don't like it, [RECIPIENT_nameDef], just go and get busy somewhere else.-->
@@ -2109,11 +2109,11 @@
   <!--EN: job — playing — join-->
   <Job_PlayMusic_join.label>加入工作</Job_PlayMusic_join.label>
   <Job_PlayMusic_join.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(RECIPIENT_artistic_level<=5)->Shh, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion(RECIPIENT_artistic_level&lt;=5)-&gt; 嘘,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion(RECIPIENT_artistic_level&lt;=5)-&gt; 嘘,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion(RECIPIENT_artistic_level<=10)->*glares at [RECIPIENT_nameDef]*-->
     <li>bad_opinion(RECIPIENT_artistic_level&lt;=10)-&gt; * 瞪大眼睛[RECIPIENT_nameDef]*</li>
     <!--EN: bad_opinion(RECIPIENT_artistic_level<=15)->*scowls at [RECIPIENT_nameDef]*-->
@@ -2134,7 +2134,7 @@
   <!--EN: view art 1-->
   <Job_ViewArt1.label>查看艺术 1</Job_ViewArt1.label>
   <Job_ViewArt1.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -2212,7 +2212,7 @@
     <!--EN: adj_art_junk->deformed-->
     <li>adj_art_junk-&gt;畸形</li>
     <!--EN: adj_art_junk->[ugly]-->
-    <li>adj_art_junk-&gt;[ugly]</li>
+    <li>adj_art_junk-&gt;丑</li>
     <!--EN: art_junk->debris-->
     <li>art_junk-&gt;残片</li>
     <!--EN: art_junk->junk-->
@@ -2246,9 +2246,9 @@
     <!--EN: comment->whenever I can, I stop to admire it-->
     <li>comment-&gt;只要有可能，我停止钦佩它</li>
     <!--EN: comment->it gives the room such a [moderately_attractive_obj] air-->
-    <li>comment-&gt;它给了房间这样一个[moderately_attractive_obj]空气</li>
-    <!--EN: comment->it's [intensifier][moderately_attractive_obj] in its attitude-->
-    <li>comment-&gt;它是[intensifier][moderately_attractive_obj]在它的态度</li>
+    <li>comment-&gt;它给了房间一种不错的感觉。</li>
+    <!--EN: comment->it's 很[moderately_attractive_obj] in its attitude-->
+    <li>comment-&gt;它在这方面挺讨人喜欢的。</li>
     <!--EN: comment(INITIATOR_artistic_passion!=None)->it harmonizes perfectly with the [space] around it-->
     <li>comment(INITIATOR_artistic_激情!=None)-&gt; 它与[space]环绕它</li>
     <!--EN: space->space-->
@@ -2275,18 +2275,18 @@
   <!--EN: job — vomiting-->
   <Job_Vomiting.label>欲吐</Job_Vomiting.label>
   <Job_Vomiting.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->Sorry, [RECIPIENT_nameDef]...-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt; 对不起,[RECIPIENT_nameDef]...</li>
   </Job_Vomiting.logRulesInitiator.rulesStrings>
   <!--EN: job — vomiting — help offer-->
   <Job_Vomiting_help.label>工作-呕吐-帮助邀请</Job_Vomiting_help.label>
   <Job_Vomiting_help.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->It's OK, [RECIPIENT_nameDef] — thanks...-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt; 没关系,[RECIPIENT_nameDef]-谢了...</li>
   </Job_Vomiting_help.logRulesInitiator.rulesStrings>
@@ -2335,13 +2335,13 @@
   <!--EN: joke — 00-->
   <Joke_00.label>笑话-00</Joke_00.label>
   <Joke_00.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_00b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_00b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->What, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;什么,[RECIPIENT_nameDef]？</li>
   </Joke_00.logRulesInitiator.rulesStrings>
   <!--EN: joke — 00b-->
   <Joke_00b.label>笑话-00b</Joke_00b.label>
@@ -2352,13 +2352,13 @@
   <!--EN: joke — 01-->
   <Joke_01.label>笑话 01</Joke_01.label>
   <Joke_01.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_01b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_01b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]？</li>
   </Joke_01.logRulesInitiator.rulesStrings>
   <!--EN: joke — 01b-->
   <Joke_01b.label>笑话-01b</Joke_01b.label>
@@ -2369,9 +2369,9 @@
   <!--EN: joke — 02-->
   <Joke_02.label>笑话-02</Joke_02.label>
   <Joke_02.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_02b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_02b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->No, what about [him_her]?-->
@@ -2390,9 +2390,9 @@
   <!--EN: joke — 03-->
   <Joke_03.label>笑话-03</Joke_03.label>
   <Joke_03.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_03b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_03b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why wouldn't they?-->
@@ -2407,13 +2407,13 @@
   <!--EN: joke — 04-->
   <Joke_04.label>笑话-04</Joke_04.label>
   <Joke_04.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_04b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_04b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Rich? How, [RECIPIENT_nameDef]? That job can't have paid well...-->
-    <li>good_opinion-&gt;富有？如何,[RECIPIENT_nameDef]什么？那份工作不可能带来丰厚的报酬...</li>
+    <li>good_opinion-&gt;富有？如何,[RECIPIENT_nameDef]？那份工作不可能带来丰厚的报酬...</li>
   </Joke_04.logRulesInitiator.rulesStrings>
   <!--EN: joke — 04b-->
   <Joke_04b.label>笑话-04b</Joke_04b.label>
@@ -2424,13 +2424,13 @@
   <!--EN: joke — 05-->
   <Joke_05.label>笑话-05</Joke_05.label>
   <Joke_05.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_05b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_05b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->What is it, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;它是什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;它是什么,[RECIPIENT_nameDef]？</li>
   </Joke_05.logRulesInitiator.rulesStrings>
   <!--EN: joke — 05b-->
   <Joke_05b.label>笑话-05b</Joke_05b.label>
@@ -2441,9 +2441,9 @@
   <!--EN: joke — 06-->
   <Joke_06.label>笑话-06</Joke_06.label>
   <Joke_06.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_06b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_06b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->No, [RECIPIENT_nameDef] — what happened to them?-->
@@ -2458,13 +2458,13 @@
   <!--EN: joke — 07-->
   <Joke_07.label>笑话-07</Joke_07.label>
   <Joke_07.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_07b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_07b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]？</li>
   </Joke_07.logRulesInitiator.rulesStrings>
   <!--EN: joke — 07b-->
   <Joke_07b.label>笑话-07 b</Joke_07b.label>
@@ -2479,9 +2479,9 @@
   <!--EN: joke — 08-->
   <Joke_08.label>笑话-08</Joke_08.label>
   <Joke_08.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_08b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_08b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Yes, [RECIPIENT_nameDef]. Go ahead!-->
@@ -2500,13 +2500,13 @@
   <!--EN: joke — 09-->
   <Joke_09.label>笑话-09</Joke_09.label>
   <Joke_09.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_09b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_09b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]？</li>
   </Joke_09.logRulesInitiator.rulesStrings>
   <!--EN: joke — 09b-->
   <Joke_09b.label>笑话-09b</Joke_09b.label>
@@ -2517,13 +2517,13 @@
   <!--EN: joke — 10-->
   <Joke_10.label>笑话-10</Joke_10.label>
   <Joke_10.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_10b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_10b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]？</li>
   </Joke_10.logRulesInitiator.rulesStrings>
   <!--EN: joke — 10b-->
   <Joke_10b.label>笑话-10b</Joke_10b.label>
@@ -2534,13 +2534,13 @@
   <!--EN: joke — 11-->
   <Joke_11.label>笑话-11</Joke_11.label>
   <Joke_11.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_11b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_11b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Why, [RECIPIENT_nameDef]?-->
-    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion-&gt;为什么,[RECIPIENT_nameDef]？</li>
   </Joke_11.logRulesInitiator.rulesStrings>
   <!--EN: joke — 11b-->
   <Joke_11b.label>笑话-11b</Joke_11b.label>
@@ -2551,9 +2551,9 @@
   <!--EN: joke — 12-->
   <Joke_12.label>笑话-12</Joke_12.label>
   <Joke_12.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_12b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_12b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Hmmm... I don't know, [RECIPIENT_nameDef]. What do you call it?-->
@@ -2568,9 +2568,9 @@
   <!--EN: joke — 13-->
   <Joke_13.label>笑话-13</Joke_13.label>
   <Joke_13.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_13b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_13b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Hmmm... I don't know, [RECIPIENT_nameDef]. What do they call each other?-->
@@ -2585,9 +2585,9 @@
   <!--EN: joke — 14-->
   <Joke_14.label>笑话-14</Joke_14.label>
   <Joke_14.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_14b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_14b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->And what did the doctor say?-->
@@ -2602,9 +2602,9 @@
   <!--EN: joke — 15-->
   <Joke_15.label>笑话-15</Joke_15.label>
   <Joke_15.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,tag=Joke_15b)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,tag=Joke_15b)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->No, how was it?-->
@@ -2619,7 +2619,7 @@
   <!--EN: kind words — react to-->
   <KindWords_generic.label>美言-回应</KindWords_generic.label>
   <KindWords_generic.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Thanks, [RECIPIENT_nameDef].-->
@@ -2633,11 +2633,11 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Oh, [RECIPIENT_nameDef]! That's so nice of you — thanks!-->
-    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]不!你真是太好了-谢谢!</li>
+    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]！你真是太好了-谢谢!</li>
     <!--EN: good_opinion->Thanks, [RECIPIENT_nameDef]! Your words made my day!-->
-    <li>good_opinion-&gt;谢谢,[RECIPIENT_nameDef]不!你的话成就了我的一天!</li>
+    <li>good_opinion-&gt;谢谢,[RECIPIENT_nameDef]！你的话成就了我的一天!</li>
     <!--EN: good_opinion->Thank you, [RECIPIENT_nameDef]! You put a smile on my face!-->
-    <li>good_opinion-&gt;非常感谢![RECIPIENT_nameDef]不!你让我面带微笑!</li>
+    <li>good_opinion-&gt;非常感谢![RECIPIENT_nameDef]！你让我面带微笑!</li>
     <!--EN: ironic->ironic-->
     <li>ironic-&gt;讽刺的</li>
     <!--EN: ironic->sarcastic-->
@@ -2654,7 +2654,7 @@
   <!--EN: lucky future-->
   <LuckyFuture.label>幸运的未来</LuckyFuture.label>
   <LuckyFuture.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -2750,37 +2750,37 @@
     <!--EN: r_logentry(priority=-1)->I haven't the slightest idea.-->
     <li>r_logentry(priority=-1)-&gt; 我一点也不知道。</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Figure it out yourself, [RECIPIENT_nameDef]!-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 你自己想出来,[RECIPIENT_nameDef]不!</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 你自己想出来,[RECIPIENT_nameDef]！</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Why do you wonder that, if your life is obviously a meaningless sequence of failed efforts?-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 你为什么会怀疑，如果你的生活显然是一个毫无意义的序列失败的努力？</li>
   </MeaningOfLife.logRulesInitiator.rulesStrings>
   <!--EN: nearest art-->
   <NearestArt.label>最近的艺术品</NearestArt.label>
   <NearestArt.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(p=2)->...-->
-    <li>bad_opinion(p=2)-&gt;.</li>
+    <li>bad_opinion(p=2)-&gt;…</li>
     <!--EN: bad_opinion->...It's fine, I guess...-->
     <li>bad_opinion-&gt;没有。... 我猜还可以吧...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_artistic_passion!=None)->I agree, [RECIPIENT_nameDef]! Quite the piece of art! I like it too!-->
-    <li>good_opinion(INITIATOR_artistic_激情!=None)-&gt; 我同意,[RECIPIENT_nameDef]不!相当不错的艺术品!喜欢!</li>
+    <li>good_opinion(INITIATOR_artistic_激情!=None)-&gt; 我同意,[RECIPIENT_nameDef]！相当不错的艺术品!喜欢!</li>
     <!--EN: good_opinion(INITIATOR_artistic_passion==None)->[no_passion]-->
     <li>good_opinion(INITIATOR_artistic_激情==None)-&gt;[no_激情]</li>
     <!--EN: no_passion(INITIATOR_intellectual_level<5)->Mmm... Can't understand its artistic beauty — but yes, it looks nice!-->
     <li>no_激情(INITIATOR_intellectual_level&lt;5)-&gt; 嗯...我无法理解它的艺术美 -- 但是是的，它看起来不错!</li>
     <!--EN: no_passion(INITIATOR_intellectual_level>=5)->I'm not into arts, but — yes, I may say it is a nice item.-->
     <li>no_激情(INITIATOR_intellectual_level&gt;=5)-&gt; 我对艺术不感兴趣，但是-是的，我可能会说这是一件不错的物品。</li>
-    <!--EN: no_passion->Yes, I think it's [intensifier][moderately_attractive_obj].-->
-    <li>no_激情-&gt;是的，我想是的[intensifier][moderately_attractive_obj]。</li>
+    <!--EN: no_passion->Yes, I think it's 很[moderately_attractive_obj].-->
+    <li>no_激情-&gt;是的，我也这么觉得。</li>
   </NearestArt.logRulesInitiator.rulesStrings>
   <!--EN: nearest plant-->
   <NearestPlant.label>最近的植物</NearestPlant.label>
   <NearestPlant.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -2788,7 +2788,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_plants_passion!=None)->Yes, [RECIPIENT_nameDef]! [comment]-->
-    <li>good_opinion(INITIATOR_plants_激情!=None)-&gt; 是,[RECIPIENT_nameDef]不![comment]</li>
+    <li>good_opinion(INITIATOR_plants_激情!=None)-&gt; 是,[RECIPIENT_nameDef]！[comment]</li>
     <!--EN: comment(p=0.1)->-->
     <li>comment(p=0.1)-&gt;</li>
     <!--EN: comment(NEAREST_plant==birch tree)->[birch]-->
@@ -2825,7 +2825,7 @@
   <!--EN: poker — blunder-->
   <Poker_blunder.label>扑克失误</Poker_blunder.label>
   <Poker_blunder.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->[you_thought] your lousy hand was enough? Think again — pot's mine! *laughs*-->
@@ -2888,11 +2888,11 @@
     <li>r_logentry-&gt;是的。-我准备好了。完成交易!</li>
     <!--EN: r_logentry->Yeah, [RECIPIENT_nameDef].-->
     <li>r_logentry-&gt;嗯,[RECIPIENT_nameDef]。</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Of course I am! Are you ready to lose, [RECIPIENT_nameDef]?-->
-    <li>bad_opinion-&gt;我当然是!你准备输了吗,[RECIPIENT_nameDef]什么？</li>
+    <li>bad_opinion-&gt;我当然是!你准备输了吗,[RECIPIENT_nameDef]？</li>
     <!--EN: bad_opinion->I'm ready — ready to show you how actual Poker is played.-->
     <li>bad_opinion-&gt;我已经准备好向你展示实际的扑克玩法。</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
@@ -2905,7 +2905,7 @@
   <!--EN: poker — smart move-->
   <Poker_smart.label>扑克-移动智能</Poker_smart.label>
   <Poker_smart.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(RECIPIENT_intellectual_level<5)->You cheater! How did you pull that off?!-->
@@ -2925,17 +2925,17 @@
     <!--EN: good_opinion(RECIPIENT_intellectual_level<5)->Wow, [RECIPIENT_nameDef] — I didn't expect you to play so well!-->
     <li>good_opinion(RECIPIENT_intellectual_level&lt;5)-&gt; 哇哦,[RECIPIENT_nameDef]-我没想到你弹得这么好!</li>
     <!--EN: good_opinion->Well played — you got me this time, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;精彩绝伦的-你这次抓住了我,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;精彩绝伦的-你这次抓住了我,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->You win, [RECIPIENT_nameDef] — pot's yours!-->
     <li>good_opinion-&gt;你赢了,[RECIPIENT_nameDef]-大麻是你的了!</li>
     <!--EN: good_opinion->Whoa, [RECIPIENT_nameDef] — I should've trusted my guts and folded...-->
     <li>good_opinion-&gt;哇哦,[RECIPIENT_nameDef]-我应该相信我的勇气然后折起来.</li>
     <!--EN: good_opinion->And I thought I had a good hand... oh well... [you_win], [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;我认为我的手不错...哦，好吧……[you_win],[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;我认为我的手不错...哦，好吧……[you_win],[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->So much for my [hand_bluff], then. Congratulations, [RECIPIENT_nameDef] — [you_win]!-->
     <li>good_opinion-&gt;到此为止，我的[hand_bluff],那么。恭喜你,[RECIPIENT_nameDef]X[you_win]不!</li>
     <!--EN: good_opinion->Gee, your bluff caught me completely by surprise... Well done, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;哎呀，你的虚张声势被发现完全出乎我的意料...不错,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;哎呀，你的虚张声势被发现完全出乎我的意料...不错,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Was my bluff that easy to see through? Well done, [RECIPIENT_nameDef] — [you_win]!-->
     <li>good_opinion-&gt;我的虚张声势就这么容易被看穿吗？不错,[RECIPIENT_nameDef]X[you_win]不!</li>
     <!--EN: hand_bluff->hand-->
@@ -2976,7 +2976,7 @@
     <li>r_logentry(INITIATOR_thoughtDefName==NeedFood,priority=1)-&gt; 现在我是[RECIPIENT_factionName],我希望得到满足!</li>
     <!--EN: r_logentry(INITIATOR_thoughtDefName==MyOrganHarvested,priority=1)->Please! If it stops you from harvesting my organs, I'll join [RECIPIENT_factionName]!-->
     <li>r_logentry(INITIATOR_thoughtDefName==MyOrganHarvested,priority=1)-&gt; 求求你了!如果这阻止了你摘取我的器官我也会加入[RECIPIENT_factionName]不!</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
@@ -3059,7 +3059,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3178,7 +3178,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3295,7 +3295,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3382,7 +3382,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3529,7 +3529,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3608,7 +3608,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3731,7 +3731,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3854,7 +3854,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -3911,9 +3911,11 @@
   <!--EN: prisoner — end chat-->
   <PrisonerEndchat.label>囚犯终端聊天</PrisonerEndchat.label>
   <PrisonerEndchat.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
+    <!--EN: r_logentry(opinion<=-25,priority=1)->[bad_opinion] (use opinion for parser compatibility)-->
+    <li>r_logentry(opinion&lt;=-25,priority=1)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_mood&lt;0.4)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
@@ -3921,7 +3923,7 @@
     <!--EN: bad_opinion->...-->
     <li>bad_opinion-&gt;...</li>
     <!--EN: bad_opinion(INITIATOR_opinion<=-25)->Get lost...-->
-    <li>bad_opinion(INITIATOR_opinion&lt;=-25)-&gt; 迷路...</li>
+    <li>bad_opinion(opinion&lt;=-25)-&gt; 迷路...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->...-->
@@ -3982,7 +3984,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4211,7 +4213,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4328,7 +4330,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4453,7 +4455,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4568,7 +4570,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4665,7 +4667,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4772,7 +4774,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -4977,7 +4979,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -5008,7 +5010,7 @@
   <PrisonerRefuses.logRulesInitiator.rulesStrings>
     <!--EN: r_logentry(INITIATOR_trait==psychopath)->[psychopath]-->
     <li>r_logentry(INITIATOR_trait==psychopath)-&gt;[psychopath]</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
@@ -5153,7 +5155,7 @@
     <li>bring_me-&gt;手</li>
     <!--EN: bring_me->pass-->
     <li>bring_me-&gt;通行</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: r_logentry(INITIATOR_mood<0.4,priority=1)->[bad_opinion]-->
@@ -5274,14 +5276,14 @@
     <li>r_logentry-&gt;令人担忧的是...</li>
     <!--EN: r_logentry->Mmm — quite unsettling...-->
     <li>r_logentry-&gt;嗯-好难受...</li>
-    <!--EN: r_logentry->Oh... That's [intensifier][eerie]...-->
-    <li>r_logentry-&gt;哦...就是[intensifier][eerie]...</li>
+    <!--EN: r_logentry->Oh... That's 很[eerie]...-->
+    <li>r_logentry-&gt;哦……真是怪瘆人的……</li>
   </PsyVisionBad.logRulesInitiator.rulesStrings>
   <!--EN: Psychic vision-->
   <PsyVisionGood.label>灵视</PsyVisionGood.label>
   <PsyVisionGood.logRulesInitiator.rulesStrings>
-    <!--EN: r_logentry->Wow — that's [intensifier]inspiring!-->
-    <li>r_logentry-&gt;哇哦-就是这个[intensifier]令人振奋!</li>
+    <!--EN: r_logentry->Wow — that's 很inspiring!-->
+    <li>r_logentry-&gt;哇哦-就是很令人振奋!</li>
     <!--EN: r_logentry->I believe that's a good omen!-->
     <li>r_logentry-&gt;我相信这是个好兆头!</li>
     <!--EN: r_logentry->I believe we're in for some good event, then!-->
@@ -5290,9 +5292,9 @@
   <!--EN: apparel — damaged-->
   <ReactToThought_ApparelDamaged.label>衣物受伤</ReactToThought_ApparelDamaged.label>
   <ReactToThought_ApparelDamaged.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I'm sorry to hear that, [RECIPIENT_nameDef]. [comment]-->
@@ -5309,9 +5311,9 @@
   <!--EN: ate meal-->
   <ReactToThought_AteMeal.label>吃了食物</ReactToThought_AteMeal.label>
   <ReactToThought_AteMeal.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteLavishMeal)->[recipient_lavish]-->
@@ -5381,13 +5383,13 @@
     <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteRawFood)->[recipient_raw] [medical_opinion_raw]-->
     <li>good_opinion(RECIPIENT_thoughtDefName==AteRawFood)-&gt;[recipient_raw][medical_opinion_raw]</li>
     <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->I'm so sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_raw(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->I'm so sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_raw(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_raw->I'm sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_raw-&gt;听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_raw-&gt;听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->I'm sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_raw(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_raw(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteRawFood,priority=1)->Me too! [cook_opinion]-->
     <li>recipient_raw(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&gt; 我也是![cook_opinion]</li>
     <!--EN: recipient_raw(INITIATOR_thoughtDefName==AteKibble,priority=1)->Lucky you — I had to eat some kibble earlier! [cook_opinion]-->
@@ -5397,15 +5399,15 @@
     <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteKibble)->[recipient_kibble]-->
     <li>good_opinion(RECIPIENT_thoughtDefName==AteKibble)-&gt;[recipient_kibble]</li>
     <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->I'm so sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_kibble(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->I'm so sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_kibble(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_kibble->I'm sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_kibble-&gt;听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_kibble-&gt;听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->I'm sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_kibble(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteRawFood,priority=1)->I'm sorry to hear that, [RECIPIENT_nameDef]! [cooking_offer]-->
-    <li>recipient_kibble(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]不![cooking_offer]</li>
+    <li>recipient_kibble(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&gt; 听到这个消息我很难过,[RECIPIENT_nameDef]！[cooking_offer]</li>
     <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteKibble,priority=1)->Me too! [cook_opinion]-->
     <li>recipient_kibble(INITIATOR_thoughtDefName==AteKibble,priority=1)-&gt; 我也是![cook_opinion]</li>
     <!--EN: recipient_kibble(INITIATOR_thoughtDefName==AteCorpse,priority=1)->And I had to eat some unbutchered corpse earlier! That was horrible!-->
@@ -5413,17 +5415,17 @@
     <!--EN: good_opinion(RECIPIENT_thoughtDefName==AteCorpse)->[recipient_corpse] [medical_opinion_corpse]-->
     <li>good_opinion(RECIPIENT_thoughtDefName==AteCorpse)-&gt;[recipient_corpse][medical_opinion_corpse]</li>
     <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)->That's disgusting and gross, [RECIPIENT_nameDef]! I hope I won't ever come to that!-->
-    <li>recipient_corpse(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]不!我希望我永远不会走到这一步!</li>
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteLavishMeal,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]！我希望我永远不会走到这一步!</li>
     <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteFineMeal,priority=1)->That's disgusting and gross, [RECIPIENT_nameDef]! I hope I won't ever come to that!-->
-    <li>recipient_corpse(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]不!我希望我永远不会走到这一步!</li>
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteFineMeal,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]！我希望我永远不会走到这一步!</li>
     <!--EN: recipient_corpse->That's disgusting and gross, [RECIPIENT_nameDef]! I hope I won't ever come to that!-->
-    <li>recipient_corpse-&gt;恶心又恶心,[RECIPIENT_nameDef]不!我希望我永远不会走到这一步!</li>
+    <li>recipient_corpse-&gt;恶心又恶心,[RECIPIENT_nameDef]！我希望我永远不会走到这一步!</li>
     <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)->That's disgusting and gross, [RECIPIENT_nameDef]! I hope I won't ever come to that!-->
-    <li>recipient_corpse(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]不!我希望我永远不会走到这一步!</li>
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteAwfulMeal,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]！我希望我永远不会走到这一步!</li>
     <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteRawFood,priority=1)->That's disgusting and gross, [RECIPIENT_nameDef]! I hope I won't ever come to that!-->
-    <li>recipient_corpse(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]不!我希望我永远不会走到这一步!</li>
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteRawFood,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]！我希望我永远不会走到这一步!</li>
     <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteKibble,priority=1)->That's disgusting and gross, [RECIPIENT_nameDef]! I hope I won't ever come to that!-->
-    <li>recipient_corpse(INITIATOR_thoughtDefName==AteKibble,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]不!我希望我永远不会走到这一步!</li>
+    <li>recipient_corpse(INITIATOR_thoughtDefName==AteKibble,priority=1)-&gt; 太恶心了,[RECIPIENT_nameDef]！我希望我永远不会走到这一步!</li>
     <!--EN: recipient_corpse(INITIATOR_thoughtDefName==AteCorpse,priority=1)->Me too! That was horrible! Oh my, what have we come to?!-->
     <li>recipient_corpse(INITIATOR_thoughtDefName==AteCorpse,priority=1)-&gt; 我也是!太可怕了!哦，我的天，我们到什么地步了？!</li>
     <!--EN: medical_opinion_lavish_1->-->
@@ -5474,13 +5476,13 @@
   <!--EN: react to — ate wo table (stressed or abrasive)-->
   <ReactToThought_AteWithoutTable.label>对食物进行反应 (紧张或生吃)</ReactToThought_AteWithoutTable.label>
   <ReactToThought_AteWithoutTable.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_construction_level<4)->[bad_opinion_unskilled]-->
     <li>bad_opinion(INITIATOR_construction_level&lt;4)-&gt;[bad_opinion_unskilled]</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<4)->...-->
-    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt;.</li>
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt;…</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=4)->Yes you could have, [RECIPIENT_nameDef] — now, try to be more useful in the future!-->
     <li>bad_opinion_unskilled(RECIPIENT_construction_level&gt;=4)-&gt; 是的，你可以,[RECIPIENT_nameDef]-现在，试着在将来变得更有用!</li>
     <!--EN: bad_opinion(INITIATOR_construction_level>=4)->[bad_opinion_skilled]-->
@@ -5501,8 +5503,8 @@
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_construction_level<4)->[good_opinion_unskilled]-->
     <li>good_opinion(INITIATOR_construction_level&lt;4)-&gt;[good_opinion_unskilled]</li>
-    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's [annoying].-->
-    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt; 希望这种事不会再发生了,[RECIPIENT_nameDef]-它的[annoying]。</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's 烦人.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt; 希望这种事不会再发生了,[RECIPIENT_nameDef]-它的烦人。</li>
     <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=4)->Don't worry, [RECIPIENT_nameDef] — I'm sure you won't let this happen again.-->
     <li>good_opinion_unskilled(RECIPIENT_construction_level&gt;=4)-&gt; 别担心,[RECIPIENT_nameDef]-我敢肯定你不会让这种情况再次发生。</li>
     <!--EN: good_opinion(INITIATOR_construction_level>=4)->[good_opinion_skilled]-->
@@ -5531,7 +5533,7 @@
   <!--EN: bedroom-->
   <ReactToThought_Bedroom.label>卧室</ReactToThought_Bedroom.label>
   <ReactToThought_Bedroom.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->My room is none of your business, [RECIPIENT_nameDef][jealous_greedy]-->
@@ -5569,13 +5571,13 @@
     <!--EN: bedroom(INITIATOR_thoughtLabel==impressive bedroom)->Mine is impressive, [RECIPIENT_nameDef].-->
     <li>bedroom(INITIATOR_thoughtLabel==impressive bedroom)-&gt; 我的令人印象深刻,[RECIPIENT_nameDef]。</li>
     <!--EN: bedroom(INITIATOR_thoughtLabel==very impressive bedroom)->Mine is very impressive, [RECIPIENT_nameDef]!-->
-    <li>bedroom(INITIATOR_thoughtLabel==very impressive bedroom)-&gt; 我的印象非常深刻,[RECIPIENT_nameDef]不!</li>
+    <li>bedroom(INITIATOR_thoughtLabel==very impressive bedroom)-&gt; 我的印象非常深刻,[RECIPIENT_nameDef]！</li>
     <!--EN: bedroom(INITIATOR_thoughtLabel==extremely impressive bedroom)->Mine is extremely impressive, [RECIPIENT_nameDef]!-->
-    <li>bedroom(INITIATOR_thoughtLabel==extremely impressive bedroom)-&gt; 我的印象极度深刻,[RECIPIENT_nameDef]不!</li>
+    <li>bedroom(INITIATOR_thoughtLabel==extremely impressive bedroom)-&gt; 我的印象极度深刻,[RECIPIENT_nameDef]！</li>
     <!--EN: bedroom(INITIATOR_thoughtLabel==unbelievably impressive bedroom)->Mine feels like a piece of Heaven itself, [RECIPIENT_nameDef]!-->
-    <li>bedroom(INITIATOR_thoughtLabel==unbelievably impressive bedroom)-&gt; 我的感觉就像一片天堂,[RECIPIENT_nameDef]不!</li>
+    <li>bedroom(INITIATOR_thoughtLabel==unbelievably impressive bedroom)-&gt; 我的感觉就像一片天堂,[RECIPIENT_nameDef]！</li>
     <!--EN: bedroom(INITIATOR_thoughtLabel==wondrously impressive bedroom)->Mine is worthy of an emperor, [RECIPIENT_nameDef]!-->
-    <li>bedroom(INITIATOR_thoughtLabel==wondrously impressive bedroom)-&gt; 我的是无上的皇帝,[RECIPIENT_nameDef]不!</li>
+    <li>bedroom(INITIATOR_thoughtLabel==wondrously impressive bedroom)-&gt; 我的是无上的皇帝,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Mine? Mine could be better[construction]-->
     <li>good_opinion-&gt;我的？开采更好的[construction]</li>
     <!--EN: good_opinion(INITIATOR_trait==greedy)->Mine is terrible! I want a better room NOW.-->
@@ -5602,9 +5604,9 @@
   <!--EN: defeated cluster-->
   <ReactToThought_DefeatedMechCluster.label>击败集群</ReactToThought_DefeatedMechCluster.label>
   <ReactToThought_DefeatedMechCluster.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_trait==body purist,priority=1)->A victory that clearly shows that our human bodies need no cybernetics — they're just perfect the way they are!-->
@@ -5631,17 +5633,17 @@
   <!--EN: room — dining-->
   <ReactToThought_DiningRoom.label>房间-餐厅</ReactToThought_DiningRoom.label>
   <ReactToThought_DiningRoom.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==AteInImpressiveDiningRoom,priority=2)->Same here, [RECIPIENT_nameDef]! [comment]-->
-    <li>good_opinion(INITIATOR_thoughtDefName==AteInImpressiveDiningRoom,priority=2)-&gt; 我也是,[RECIPIENT_nameDef]不![comment]</li>
+    <li>good_opinion(INITIATOR_thoughtDefName==AteInImpressiveDiningRoom,priority=2)-&gt; 我也是,[RECIPIENT_nameDef]！[comment]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==AteWithoutTable,priority=1)->Really, [RECIPIENT_nameDef]!? Where is this dining room you speak of? [comment]-->
     <li>good_opinion(INITIATOR_thoughtDefName==AteWithoutTable,priority=1)-&gt; 真的,[RECIPIENT_nameDef]哦!？你说的这个餐厅在哪里？[comment]</li>
     <!--EN: good_opinion->That's nice to hear, [RECIPIENT_nameDef]! [comment]-->
-    <li>good_opinion-&gt;很高兴听到这个声音,[RECIPIENT_nameDef]不![comment]</li>
+    <li>good_opinion-&gt;很高兴听到这个声音,[RECIPIENT_nameDef]！[comment]</li>
     <!--EN: comment->-->
     <li>comment-&gt;</li>
     <!--EN: comment(INITIATOR_trait==gourmand)->I look forward to enjoying many fancy meals there!-->
@@ -5652,11 +5654,11 @@
   <ReactToThought_EnvironmentCold.logRulesInitiator.rulesStrings>
     <!--EN: r_logentry(INITIATOR_trait==too smart)->We'll all freeze someday, as per universe heat death theory. Our long-derived and processed molecules would survive, but that's hardly what defines our higher functions.-->
     <li>r_logentry(INITIATOR_trait==too smart)-&gt; 根据世界热死亡理论，总有一天我们都会被冻结。我们的长衍生分子和经过处理的分子能够存活，但这很难定义我们更高的功能。</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Good — for I hope you freeze to death, [RECIPIENT_nameDef]!-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 好为我希望你被冻死,[RECIPIENT_nameDef]不!</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 好为我希望你被冻死,[RECIPIENT_nameDef]！</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==EnvironmentCold,priority=1)->[feeling_cold]-->
@@ -5685,9 +5687,9 @@
   <!--EN: environment — dark-->
   <ReactToThought_EnvironmentDark.label>黑暗环境</ReactToThought_EnvironmentDark.label>
   <ReactToThought_EnvironmentDark.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Be careful, [RECIPIENT_nameDef] — [watch_your_step].-->
@@ -5695,13 +5697,13 @@
     <!--EN: good_opinion(INITIATOR_trait==undergrounder,priority=1)->[undergrounder]-->
     <li>good_opinion(INITIATOR_trait==undergrounder,priority=1)-&gt;[undergrounder]</li>
     <!--EN: undergrounder->Really, [RECIPIENT_nameDef]? I'm not bothered by darkness.-->
-    <li>undergrounder-&gt;真的,[RECIPIENT_nameDef]什么？我没有被黑暗所困扰。</li>
+    <li>undergrounder-&gt;真的,[RECIPIENT_nameDef]？我没有被黑暗所困扰。</li>
     <!--EN: undergrounder(RECIPIENT_trait==undergrounder,priority=1)->I feel the same, [RECIPIENT_nameDef].-->
     <li>undergrounder(RECIPIENT_trait==undergrounder,priority=1)-&gt; 我有同样的感觉,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_trait==night owl,priority=1)->[night_owl]-->
     <li>good_opinion(INITIATOR_trait==night owl,priority=1)-&gt;[night_owl]</li>
     <!--EN: night_owl->Really, [RECIPIENT_nameDef]? I see darkness as a chance to relax.-->
-    <li>night_owl-&gt;真的,[RECIPIENT_nameDef]什么？我认为黑暗是一种放松的机会。</li>
+    <li>night_owl-&gt;真的,[RECIPIENT_nameDef]？我认为黑暗是一种放松的机会。</li>
     <!--EN: night_owl(RECIPIENT_trait==night owl,priority=1)->I feel the same, [RECIPIENT_nameDef].-->
     <li>night_owl(RECIPIENT_trait==night owl,priority=1)-&gt; 我有同样的感觉,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_mood<0.5)->How are we [supposed] to get things done in this darkness?-->
@@ -5720,15 +5722,15 @@
   <!--EN: environment — hot-->
   <ReactToThought_EnvironmentHot.label>环境-性感的</ReactToThought_EnvironmentHot.label>
   <ReactToThought_EnvironmentHot.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==EnvironmentHot,priority=1)->[feeling_hot]-->
     <li>good_opinion(INITIATOR_thoughtDefName==EnvironmentHot,priority=1)-&gt;[feeling_性感的]</li>
-    <!--EN: feeling_hot(INITIATOR_thoughtLabel==sweaty)->You're [intensifier]right, [RECIPIENT_nameDef]. I'm sweating.-->
-    <li>feeling_性感的(INITIATOR_thoughtLabel==sweaty)-&gt; 你是[intensifier]对,[RECIPIENT_nameDef]。我在出汗。</li>
+    <!--EN: feeling_hot(INITIATOR_thoughtLabel==sweaty)->You're 很right, [RECIPIENT_nameDef]. I'm sweating.-->
+    <li>feeling_性感的(INITIATOR_thoughtLabel==sweaty)-&gt; 你是很对,[RECIPIENT_nameDef]。我在出汗。</li>
     <!--EN: feeling_hot(INITIATOR_thoughtLabel==hot)->Ah, [RECIPIENT_nameDef] — if only I could have a breath of cool air...-->
     <li>feeling_性感的(INITIATOR_thoughtLabel==性感的)-&gt; 啊,[RECIPIENT_nameDef]-要是我能呼吸点冷空气就更好了...</li>
     <!--EN: feeling_hot(INITIATOR_thoughtLabel==hot)->Yes, [RECIPIENT_nameDef]... It's way too hot.-->
@@ -5741,8 +5743,8 @@
     <li>good_opinion-&gt;听到这个消息我很难过,[RECIPIENT_nameDef]。[comment]</li>
     <!--EN: good_opinion->I hope you can cool off soon, [RECIPIENT_nameDef]. [comment]-->
     <li>good_opinion-&gt;我希望你能快点凉快,[RECIPIENT_nameDef]。[comment]</li>
-    <!--EN: good_opinion->I'm [intensifier]sorry, [RECIPIENT_nameDef]. [comment]-->
-    <li>good_opinion-&gt;我[intensifier]对不起,[RECIPIENT_nameDef]。[comment]</li>
+    <!--EN: good_opinion->I'm 很sorry, [RECIPIENT_nameDef]. [comment]-->
+    <li>good_opinion-&gt;我很对不起,[RECIPIENT_nameDef]。[comment]</li>
     <!--EN: comment->-->
     <li>comment-&gt;</li>
     <!--EN: comment(INITIATOR_social_level>=5)->I'll try to trade in something in exchange for some cooler clothing for you.-->
@@ -5770,14 +5772,14 @@
     <!--EN: good_opinion(INITIATOR_trait==kind)->You really don't need to thank us — we just did our duty as good human beings.-->
     <li>good_opinion(INITIATOR_trait==kind)-&gt; 你真的不需要感谢我们 -- 我们只是尽了我们作为一个好人的职责。</li>
     <!--EN: good_opinion(INITIATOR_trait==psychopath,priority=1)->...-->
-    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&gt;…</li>
   </ReactToThought_ExSlave.logRulesInitiator.rulesStrings>
   <!--EN: rec room-->
   <ReactToThought_JoyRoom.label>娱乐室</ReactToThought_JoyRoom.label>
   <ReactToThought_JoyRoom.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==JoyActivityInImpressiveRecRoom,priority=1)->[rec_room]-->
@@ -5785,15 +5787,15 @@
     <!--EN: rec_room(INITIATOR_thoughtLabel==decent rec room)->Yes, [RECIPIENT_nameDef].-->
     <li>rec_room(INITIATOR_thoughtLabel==decent rec room)-&gt; 是,[RECIPIENT_nameDef]。</li>
     <!--EN: rec_room(INITIATOR_thoughtLabel==slightly impressive rec room)->I believe it's enjoyable, [RECIPIENT_nameDef]!-->
-    <li>rec_room(INITIATOR_thoughtLabel==slightly impressive rec room)-&gt; 我相信这是一种享受,[RECIPIENT_nameDef]不!</li>
+    <li>rec_room(INITIATOR_thoughtLabel==slightly impressive rec room)-&gt; 我相信这是一种享受,[RECIPIENT_nameDef]！</li>
     <!--EN: rec_room(INITIATOR_thoughtLabel==somewhat impressive rec room)->I believe it's very enjoyable, [RECIPIENT_nameDef]! [comment2]-->
-    <li>rec_room(INITIATOR_thoughtLabel==somewhat impressive rec room)-&gt; 我相信这是非常愉快的,[RECIPIENT_nameDef]不![comment2]</li>
+    <li>rec_room(INITIATOR_thoughtLabel==somewhat impressive rec room)-&gt; 我相信这是非常愉快的,[RECIPIENT_nameDef]！[comment2]</li>
     <!--EN: rec_room(INITIATOR_thoughtLabel==very impressive rec room)->I have loads of fun in it, [RECIPIENT_nameDef]! [comment2]-->
-    <li>rec_room(INITIATOR_thoughtLabel==very impressive rec room)-&gt; 我很喜欢它,[RECIPIENT_nameDef]不![comment2]</li>
+    <li>rec_room(INITIATOR_thoughtLabel==very impressive rec room)-&gt; 我很喜欢它,[RECIPIENT_nameDef]！[comment2]</li>
     <!--EN: rec_room(INITIATOR_thoughtLabel==extremely impressive rec room)->I truly have loads of fun in it, [RECIPIENT_nameDef]! [comment2]-->
-    <li>rec_room(INITIATOR_thoughtLabel==extremely impressive rec room)-&gt; 我真的很喜欢它,[RECIPIENT_nameDef]不![comment2]</li>
+    <li>rec_room(INITIATOR_thoughtLabel==extremely impressive rec room)-&gt; 我真的很喜欢它,[RECIPIENT_nameDef]！[comment2]</li>
     <!--EN: rec_room(INITIATOR_thoughtLabel==unbelievably impressive rec room)->It's the coolest ever, [RECIPIENT_nameDef]! [comment2]-->
-    <li>rec_room(INITIATOR_thoughtLabel==unbelievably impressive rec room)-&gt; 这是有史以来最酷的,[RECIPIENT_nameDef]不![comment2]</li>
+    <li>rec_room(INITIATOR_thoughtLabel==unbelievably impressive rec room)-&gt; 这是有史以来最酷的,[RECIPIENT_nameDef]！[comment2]</li>
     <!--EN: rec_room(INITIATOR_thoughtLabel==wondrously impressive rec room)->It's a complete Paradise, [RECIPIENT_nameDef] — all decked for maxing out anyone's fun! [comment2]-->
     <li>rec_room(INITIATOR_thoughtLabel==wondrously impressive rec room)-&gt; 这是一个完整的天堂,[RECIPIENT_nameDef]-为了最大化任何人的乐趣而全部装饰![comment2]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation satisfied,priority=1)->I think we have several nice entertainment options around here.-->
@@ -5801,7 +5803,7 @@
     <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation fully satisfied,priority=1)->I think we have lots of excellent entertainment options around here!-->
     <li>good_opinion(INITIATOR_thoughtLabel==recreation fully satisfied,priority=1)-&gt; 我认为我们这里有很多极好的娱乐选择!</li>
     <!--EN: good_opinion->What rec room, [RECIPIENT_nameDef]? I can't seem to have any fun around here...-->
-    <li>good_opinion-&gt;什么娱乐室,[RECIPIENT_nameDef]什么？我在这附近似乎没有任何乐趣…</li>
+    <li>good_opinion-&gt;什么娱乐室,[RECIPIENT_nameDef]？我在这附近似乎没有任何乐趣…</li>
     <!--EN: good_opinion->I need help finding this rec room, [RECIPIENT_nameDef]. I want to have fun, too...-->
     <li>good_opinion-&gt;我需要有人帮我找到这个娱乐室,[RECIPIENT_nameDef]。我也想玩得开心...</li>
     <!--EN: good_opinion->That sounds nice, but I haven't had fun in a while, [RECIPIENT_nameDef].-->
@@ -5814,15 +5816,15 @@
   <!--EN: need — beauty — react to beautiful-->
   <ReactToThought_NeedBeauty_beautiful.label>需求-美丽-对美丽有反应</ReactToThought_NeedBeauty_beautiful.label>
   <ReactToThought_NeedBeauty_beautiful.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->What!? Are we speaking of the same place, [RECIPIENT_nameDef]?! This place is totally [ugly]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 什么!？我们在说同一个地方吗,[RECIPIENT_nameDef]哦？!这个地方完全是[ugly]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 什么!？我们在说同一个地方吗,[RECIPIENT_nameDef]？!这个地方完全很丑！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->I don't know where have you been lately, [RECIPIENT_nameDef] — but rest assured: this place is [ugly].-->
-    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我不知道你最近去哪里了,[RECIPIENT_nameDef]-但放心: 这个地方是[ugly]。</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我不知道你最近去哪里了,[RECIPIENT_nameDef]-但放心: 这个地方很丑。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't agree with that — this place is actually far from perfection.-->
     <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我不同意 -- 这个地方实际上离完美还很远。</li>
     <!--EN: good_opinion->You might be right, [RECIPIENT_nameDef] — but I don't find it as nice as you say.-->
@@ -5830,7 +5832,7 @@
     <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Yes, [RECIPIENT_nameDef] — but I think it still needs some minor improvement.-->
     <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 是,[RECIPIENT_nameDef]-但我认为它仍然需要一些小的改进。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->That's exactly what I think, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->Well, I personally believe this place is more than that — it's simply gorgeous!-->
     <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 嗯，我个人认为这个地方不仅仅是这样 -- 它简直美呆了!</li>
     <!--EN: ugly->bad-->
@@ -5857,15 +5859,15 @@
   <!--EN: need — beauty — react to gorgeous-->
   <ReactToThought_NeedBeauty_gorgeous.label>需求-美观-应对华丽</ReactToThought_NeedBeauty_gorgeous.label>
   <ReactToThought_NeedBeauty_gorgeous.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->What!? Are we speaking of the same place, [RECIPIENT_nameDef]?! This place is totally [ugly]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 什么!？我们在说同一个地方吗,[RECIPIENT_nameDef]哦？!这个地方完全是[ugly]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 什么!？我们在说同一个地方吗,[RECIPIENT_nameDef]？!这个地方完全很丑！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->I don't know where have you been lately, [RECIPIENT_nameDef] — but rest assured: this place is [ugly].-->
-    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我不知道你最近去哪里了,[RECIPIENT_nameDef]-但放心: 这个地方是[ugly]。</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我不知道你最近去哪里了,[RECIPIENT_nameDef]-但放心: 这个地方很丑。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't agree with that — this place is actually far from perfection.-->
     <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我不同意 -- 这个地方实际上离完美还很远。</li>
     <!--EN: good_opinion->You might be right, [RECIPIENT_nameDef] — but I don't find it as nice as you say.-->
@@ -5875,7 +5877,7 @@
     <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Yes, [RECIPIENT_nameDef] — but I think it still needs some minor improvement.-->
     <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 是,[RECIPIENT_nameDef]-但我认为它仍然需要一些小的改进。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->That's exactly what I think, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]！</li>
     <!--EN: ugly->bad-->
     <li>ugly-&gt;恶化</li>
     <!--EN: ugly->unsightly-->
@@ -5900,23 +5902,23 @@
   <!--EN: need — beauty — react to hideous-->
   <ReactToThought_NeedBeauty_hideous.label>对丑陋事物的需求与美观</ReactToThought_NeedBeauty_hideous.label>
   <ReactToThought_NeedBeauty_hideous.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
-    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->That's extremely [annoying], [RECIPIENT_nameDef] — I certainly agree with you.-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 太棒了[annoying],[RECIPIENT_nameDef]-我当然同意你的观点.</li>
-    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->That's [annoying], [RECIPIENT_nameDef] — I agree with you.-->
-    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 就是[annoying],[RECIPIENT_nameDef]-我同意你的观点.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->That's extremely 烦人, [RECIPIENT_nameDef] — I certainly agree with you.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 太棒了烦人,[RECIPIENT_nameDef]-我当然同意你的观点.</li>
+    <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->That's 烦人, [RECIPIENT_nameDef] — I agree with you.-->
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 就是烦人,[RECIPIENT_nameDef]-我同意你的观点.</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't think it's so bad as you say, but... yes this place could look better, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我不认为事情像你说的那么糟，但是…是的，这个地方可能会更好,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我不认为事情像你说的那么糟，但是…是的，这个地方可能会更好,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->I can't say you're right, [RECIPIENT_nameDef] — but, for sure, this place could look better.-->
     <li>good_opinion-&gt;我不能说你是对的,[RECIPIENT_nameDef]-但是可以肯定的是，这个地方可能会更好看。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Come on, [RECIPIENT_nameDef]! OK, it could be improved — but I actually find it pretty.-->
-    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 快点,[RECIPIENT_nameDef]不!好吧，它可能会有所改进 -- 但实际上我觉得它很漂亮。</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 快点,[RECIPIENT_nameDef]！好吧，它可能会有所改进 -- 但实际上我觉得它很漂亮。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Are you sure, [RECIPIENT_nameDef]? I don't agree — I actually find it beautiful!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 你确定,[RECIPIENT_nameDef]什么？我不同意 -- 我觉得这很美!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 你确定,[RECIPIENT_nameDef]？我不同意 -- 我觉得这很美!</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->What!? Where have you been, [RECIPIENT_nameDef], to speak like that?! I believe we're in a wonderful place!-->
     <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 什么!？你去哪里了,[RECIPIENT_nameDef],要这样说吗？!我相信我们在一个美好的地方!</li>
     <!--EN: annoying->bad-->
@@ -5941,21 +5943,21 @@
   <!--EN: need — beauty — react to pretty-->
   <ReactToThought_NeedBeauty_pretty.label>需求-美观-漂亮</ReactToThought_NeedBeauty_pretty.label>
   <ReactToThought_NeedBeauty_pretty.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->What!? Are we speaking of the same place, [RECIPIENT_nameDef]?! This place is totally [ugly]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 什么!？我们在说同一个地方吗,[RECIPIENT_nameDef]哦？!这个地方完全是[ugly]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 什么!？我们在说同一个地方吗,[RECIPIENT_nameDef]？!这个地方完全很丑！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->I don't know where have you been lately, [RECIPIENT_nameDef] — but rest assured: this place is [ugly].-->
-    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我不知道你最近去哪里了,[RECIPIENT_nameDef]-但放心: 这个地方是[ugly]。</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我不知道你最近去哪里了,[RECIPIENT_nameDef]-但放心: 这个地方很丑。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->Well, [RECIPIENT_nameDef]... Maybe you're right, but there is a lot of space for improvement, I think.-->
     <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 嗯,[RECIPIENT_nameDef]。也许你是对的，但是我认为还有很大的改进空间。</li>
     <!--EN: good_opinion->You might be right, [RECIPIENT_nameDef] — but I don't find it as pretty as you say.-->
     <li>good_opinion-&gt;你可能是对的,[RECIPIENT_nameDef]-但是我觉得它没有你说的那么漂亮。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->That's exactly what I think, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->I believe it's even better than that, [RECIPIENT_nameDef].-->
     <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 我相信比这更好,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->Well, I personally believe this place is much more — it's simply gorgeous!-->
@@ -5984,23 +5986,23 @@
   <!--EN: need — beauty — react to ugly-->
   <ReactToThought_NeedBeauty_ugly.label>丑陋时需要-美丽-满足</ReactToThought_NeedBeauty_ugly.label>
   <ReactToThought_NeedBeauty_ugly.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->This place is not [ugly] — it's worse than that, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 这个地方不是[ugly]-比那更糟糕的是,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 这个地方不是[ugly]-比那更糟糕的是,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->That's exactly what I think, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->I don't think it's so [ugly] as you say, but... yes this place could look better, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我不认为事情是这样的[ugly]正如你所说，但是.是的，这个地方可能会更好,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我不认为事情是这样的[ugly]正如你所说，但是.是的，这个地方可能会更好,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->I can't say you're right, [RECIPIENT_nameDef] — but, for sure, this place could look better.-->
     <li>good_opinion-&gt;我不能说你是对的,[RECIPIENT_nameDef]-但是可以肯定的是，这个地方可能会更好看。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Come on, [RECIPIENT_nameDef]! OK, it could be improved — but I actually find it pretty.-->
-    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 快点,[RECIPIENT_nameDef]不!好吧，它可能会有所改进 -- 但实际上我觉得它很漂亮。</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 快点,[RECIPIENT_nameDef]！好吧，它可能会有所改进 -- 但实际上我觉得它很漂亮。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Are you sure, [RECIPIENT_nameDef]? I don't agree — I actually find it beautiful!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 你确定,[RECIPIENT_nameDef]什么？我不同意 -- 我觉得这很美!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 你确定,[RECIPIENT_nameDef]？我不同意 -- 我觉得这很美!</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->What!? Where have you been, [RECIPIENT_nameDef], to speak like that?! I believe we're in a wonderful place!-->
     <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 什么!？你去哪里了,[RECIPIENT_nameDef],要这样说吗？!我相信我们在一个美好的地方!</li>
     <!--EN: ugly->bad-->
@@ -6027,23 +6029,23 @@
   <!--EN: need — beauty — react to unsightly-->
   <ReactToThought_NeedBeauty_unsightly.label>需求-美观-丑陋易见</ReactToThought_NeedBeauty_unsightly.label>
   <ReactToThought_NeedBeauty_unsightly.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)->This place is not [ugly] — it's a lot worse than that, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 这个地方不是[ugly]-比那要糟糕得多,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==hideous environment,priority=1)-&gt; 这个地方不是[ugly]-比那要糟糕得多,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)->Probably you're right, [RECIPIENT_nameDef] — but I think it's even worse than that.-->
     <li>good_opinion(INITIATOR_thoughtLabel==ugly environment,priority=1)-&gt; 可能你是对的,[RECIPIENT_nameDef]-但我觉得比这更糟糕.</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)->That's exactly what I think, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==unsightly environment,priority=1)-&gt; 我就是这么想的,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->I can't say you're right, [RECIPIENT_nameDef] — but, for sure, this place could look better.-->
     <li>good_opinion-&gt;我不能说你是对的,[RECIPIENT_nameDef]-但是可以肯定的是，这个地方可能会更好看。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)->Come on, [RECIPIENT_nameDef]! OK, it could be improved — but I actually find it pretty.-->
-    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 快点,[RECIPIENT_nameDef]不!好吧，它可能会有所改进 -- 但实际上我觉得它很漂亮。</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==pretty environment,priority=1)-&gt; 快点,[RECIPIENT_nameDef]！好吧，它可能会有所改进 -- 但实际上我觉得它很漂亮。</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)->Are you sure, [RECIPIENT_nameDef]? I don't agree — I actually find it beautiful!-->
-    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 你确定,[RECIPIENT_nameDef]什么？我不同意 -- 我觉得这很美!</li>
+    <li>good_opinion(INITIATOR_thoughtLabel==beautiful environment,priority=1)-&gt; 你确定,[RECIPIENT_nameDef]？我不同意 -- 我觉得这很美!</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)->What!? Where have you been, [RECIPIENT_nameDef], to speak like that?! I believe we're in a wonderful place!-->
     <li>good_opinion(INITIATOR_thoughtLabel==gorgeous environment,priority=1)-&gt; 什么!？你去哪里了,[RECIPIENT_nameDef],要这样说吗？!我相信我们在一个美好的地方!</li>
     <!--EN: ugly->bad-->
@@ -6070,9 +6072,9 @@
   <!--EN: need — comfort-->
   <ReactToThought_NeedComfort.label>满足需求</ReactToThought_NeedComfort.label>
   <ReactToThought_NeedComfort.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==uncomfortable,priority=1)->[recipient_uncomfortable]-->
@@ -6084,9 +6086,9 @@
     <!--EN: good_opinion->[recipient_comfortable]-->
     <li>good_opinion-&gt;[recipient_comfortable]</li>
     <!--EN: recipient_comfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)->Really, [RECIPIENT_nameDef]? My aching back doesn't agree with you.-->
-    <li>recipient_comfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)-&gt; 真的,[RECIPIENT_nameDef]什么？我酸痛的背不适合你。</li>
+    <li>recipient_comfortable(INITIATOR_thoughtLabel==uncomfortable,priority=1)-&gt; 真的,[RECIPIENT_nameDef]？我酸痛的背不适合你。</li>
     <!--EN: recipient_comfortable->I'm glad about it too, [RECIPIENT_nameDef]!-->
-    <li>recipient_comfortable-&gt;我也很高兴,[RECIPIENT_nameDef]不!</li>
+    <li>recipient_comfortable-&gt;我也很高兴,[RECIPIENT_nameDef]！</li>
     <!--EN: comment->-->
     <li>comment-&gt;</li>
     <!--EN: comment(INITIATOR_construction_level>=5,priority=1)->I'll try and build some better furniture for us.-->
@@ -6095,9 +6097,9 @@
   <!--EN: need — react to hunger-->
   <ReactToThought_NeedFood.label>饥饿时的需求与反应</ReactToThought_NeedFood.label>
   <ReactToThought_NeedFood.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==NeedFood,priority=2)->[hungry_too]-->
@@ -6116,12 +6118,12 @@
     <li>thought_needfood_hungry0-&gt;我饿极了!</li>
     <!--EN: thought_needfood_hungry0->I'm famished!-->
     <li>thought_needfood_hungry0-&gt;我要饿死了!</li>
-    <!--EN: thought_needfood_hungry0->I'm [intensifier]hungry!-->
-    <li>thought_needfood_hungry0-&gt;我[intensifier]非常饥饿!</li>
+    <!--EN: thought_needfood_hungry0->I'm 很hungry!-->
+    <li>thought_needfood_hungry0-&gt;我很非常饥饿!</li>
     <!--EN: thought_needfood_hungry0->I'm dying for something to eat!-->
     <li>thought_needfood_hungry0-&gt;我好想吃点东西!</li>
     <!--EN: thought_needfood_hungry0(RECIPIENT_thoughtLabel==hungry,priority=2)->Me too, [RECIPIENT_nameDef]!-->
-    <li>thought_needfood_hungry0(RECIPIENT_thoughtLabel==hungry,priority=2)-&gt; 我也是,[RECIPIENT_nameDef]不!</li>
+    <li>thought_needfood_hungry0(RECIPIENT_thoughtLabel==hungry,priority=2)-&gt; 我也是,[RECIPIENT_nameDef]！</li>
     <!--EN: thought_needfood_hungry0(RECIPIENT_thoughtDefName==NeedFood,priority=1)->I'm also hungry, [RECIPIENT_nameDef]. But you are in much greater need! [offer_solution]-->
     <li>thought_needfood_hungry0(RECIPIENT_thoughtDefName==NeedFood,priority=1)-&gt; 我也饿了,[RECIPIENT_nameDef]。但你现在的需求要大得多![offer_solution]</li>
     <!--EN: hungry_too(INITIATOR_thoughtLabel==ravenously hungry)->[thought_needfood_hungry1]-->
@@ -6178,7 +6180,7 @@
   <!--EN: need — react to hunger — recipient cook-->
   <ReactToThought_NeedFood_CookRecipient.label>对饥饿厨师的需求反应</ReactToThought_NeedFood_CookRecipient.label>
   <ReactToThought_NeedFood_CookRecipient.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
@@ -6186,20 +6188,20 @@
     <!--EN: bad_opinion->For all I care, [RECIPIENT_nameDef], you may starve to death!-->
     <li>bad_opinion-&gt;尽管我很在乎,[RECIPIENT_nameDef],你可能会饿死!</li>
     <!--EN: bad_opinion->Cook it yourself, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion-&gt;你可以自己烹饪,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion-&gt;你可以自己烹饪,[RECIPIENT_nameDef]！</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(RECIPIENT_mood<0.4,priority=1)->Calm down, [RECIPIENT_nameDef]! As soon as I can get my hands on some ingredients, I'll get you a meal!-->
-    <li>good_opinion(RECIPIENT_mood&lt;0.4,priority=1)-&gt; 冷静下来,[RECIPIENT_nameDef]不!一旦我能拿到一些原料，我就给你拿一顿饭!</li>
+    <li>good_opinion(RECIPIENT_mood&lt;0.4,priority=1)-&gt; 冷静下来,[RECIPIENT_nameDef]！一旦我能拿到一些原料，我就给你拿一顿饭!</li>
     <!--EN: good_opinion->I'll cook some tasty food as soon as possible, [RECIPIENT_nameDef]. Just wait a little while...-->
     <li>good_opinion-&gt;我会尽快烹饪一些美味的食物,[RECIPIENT_nameDef]。稍微等一下...</li>
   </ReactToThought_NeedFood_CookRecipient.logRulesInitiator.rulesStrings>
   <!--EN: need — react to hunger — recipient is cooking-->
   <ReactToThought_NeedFood_RecipientCooking.label>对饥饿的需求反应 -- 接收者正在烹饪</ReactToThought_NeedFood_RecipientCooking.label>
   <ReactToThought_NeedFood_RecipientCooking.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_jobText==Cooking fine meal.)->[cooking_intro] [cooking_start]a fine meal!-->
@@ -6237,13 +6239,13 @@
     <!--EN: good_opinion(priority=-1)->[cooking_intro] [cooking_start]some nice food!-->
     <li>good_opinion(priority=-1)-&gt;[cooking_intro][cooking_start]不错的食物!</li>
     <!--EN: cooking_intro->Be patient, [RECIPIENT_nameDef]!-->
-    <li>cooking_intro-&gt;耐心点,[RECIPIENT_nameDef]不!</li>
+    <li>cooking_intro-&gt;耐心点,[RECIPIENT_nameDef]！</li>
     <!--EN: cooking_intro->Keep your pants on, [RECIPIENT_nameDef]!-->
-    <li>cooking_intro-&gt;穿上裤子,[RECIPIENT_nameDef]不!</li>
+    <li>cooking_intro-&gt;穿上裤子,[RECIPIENT_nameDef]！</li>
     <!--EN: cooking_intro->Hold your horses, [RECIPIENT_nameDef]!-->
-    <li>cooking_intro-&gt;别动马,[RECIPIENT_nameDef]不!</li>
+    <li>cooking_intro-&gt;别动马,[RECIPIENT_nameDef]！</li>
     <!--EN: cooking_intro->It'll be a moment, [RECIPIENT_nameDef]!-->
-    <li>cooking_intro-&gt;这将是一个瞬间,[RECIPIENT_nameDef]不!</li>
+    <li>cooking_intro-&gt;这将是一个瞬间,[RECIPIENT_nameDef]！</li>
     <!--EN: cooking_start->Just give me a few more minutes and you'll get-->
     <li>cooking_start-&gt;再给我几分钟，你就能</li>
     <!--EN: cooking_start->I'm on it right now — you'll soon get-->
@@ -6254,9 +6256,9 @@
   <!--EN: need — react to joy-->
   <ReactToThought_NeedJoy.label>必须 -- 对喜悦有反应</ReactToThought_NeedJoy.label>
   <ReactToThought_NeedJoy.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==recreation-starved,priority=1)->[thought_needjoy_bored0]-->
@@ -6285,9 +6287,9 @@
   <!--EN: need — rest-->
   <ReactToThought_NeedRest.label>需要休息</ReactToThought_NeedRest.label>
   <ReactToThought_NeedRest.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==NeedRest,priority=1)->[tired]-->
@@ -6308,9 +6310,9 @@
   <!--EN: need — roomsize-->
   <ReactToThought_NeedSpace.label>房间尺寸</ReactToThought_NeedSpace.label>
   <ReactToThought_NeedSpace.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_thoughtLabel==confined interior,priority=1)->[dissatisfied]-->
@@ -6332,14 +6334,14 @@
     <!--EN: good_opinion(INITIATOR_thoughtLabel==spacious interior,priority=1)->[satisfied2]-->
     <li>good_opinion(INITIATOR_thoughtLabel==spacious interior,priority=1)-&gt;[satisfied2]</li>
     <!--EN: satisfied2->Are you sure, [RECIPIENT_nameDef]? I think our living spaces are quite spacious!-->
-    <li>satisfied2-&gt;你确定,[RECIPIENT_nameDef]什么？我觉得我们的生活空间很宽敞!</li>
+    <li>satisfied2-&gt;你确定,[RECIPIENT_nameDef]？我觉得我们的生活空间很宽敞!</li>
   </ReactToThought_NeedSpace.logRulesInitiator.rulesStrings>
   <!--EN: new colony-->
   <ReactToThought_NewColony.label>新殖民地</ReactToThought_NewColony.label>
   <ReactToThought_NewColony.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_trait==pessimist,priority=1)->I don't know, [RECIPIENT_nameDef]. Probably we'll soon die of starvation or get killed in a raid.-->
@@ -6347,7 +6349,7 @@
     <!--EN: good_opinion(INITIATOR_trait==depressive,priority=1)->We're doomed, [RECIPIENT_nameDef]. Doomed... that's all we are.-->
     <li>good_opinion(INITIATOR_trait==depressive,priority=1)-&gt; 我们完了,[RECIPIENT_nameDef]。注定要失败... 我们就是如此。</li>
     <!--EN: good_opinion(INITIATOR_trait==wimp,priority=1)->Really, [RECIPIENT_nameDef]? This place looks dangerous... I'm scared.-->
-    <li>good_opinion(INITIATOR_trait==wimp,priority=1)-&gt; 真的,[RECIPIENT_nameDef]什么？这个地方看起来很危险...我好怕。</li>
+    <li>good_opinion(INITIATOR_trait==wimp,priority=1)-&gt; 真的,[RECIPIENT_nameDef]？这个地方看起来很危险...我好怕。</li>
     <!--EN: good_opinion(INITIATOR_trait==nervous,priority=1)->I... I hope you're right, [RECIPIENT_nameDef]. But I'm... I'm quite cross about our situation here.-->
     <li>good_opinion(INITIATOR_trait==nervous,priority=1)-&gt; 我.我希望你是对的,[RECIPIENT_nameDef]。但是我…我很生气我们这里的情况。</li>
     <!--EN: good_opinion(INITIATOR_trait==volatile,priority=1)->No, [RECIPIENT_nameDef]. You got it all wrong. In fact, we should get ready for the worst.-->
@@ -6355,7 +6357,7 @@
     <!--EN: good_opinion(INITIATOR_trait==ascetic,RECIPIENT_trait==ascetic,priority=1)->Wise words, [RECIPIENT_nameDef]. Wise words.-->
     <li>good_opinion(INITIATOR_trait==ascetic,RECIPIENT_trait==ascetic,priority=1)-&gt; 智者话语,[RECIPIENT_nameDef]。智者之语。</li>
     <!--EN: good_opinion->[yes], [RECIPIENT_nameDef]! [comment]-->
-    <li>good_opinion-&gt;[yes],[RECIPIENT_nameDef]不![comment]</li>
+    <li>good_opinion-&gt;[yes],[RECIPIENT_nameDef]！[comment]</li>
     <!--EN: yes->Yes-->
     <li>yes-&gt;是</li>
     <!--EN: yes->Well said-->
@@ -6376,9 +6378,9 @@
   <!--EN: saw unburied corpse-->
   <ReactToThought_ObservedLayingCorpse.label>看见未埋葬的尸体</ReactToThought_ObservedLayingCorpse.label>
   <ReactToThought_ObservedLayingCorpse.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->I wouldn't bury you, either.-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 我也不会埋葬你。</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
@@ -6407,15 +6409,15 @@
   <!--EN: saw unburied rotten corpse-->
   <ReactToThought_ObservedLayingRottingCorpse.label>看见未埋葬的腐烂尸体</ReactToThought_ObservedLayingRottingCorpse.label>
   <ReactToThought_ObservedLayingRottingCorpse.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->I'd leave you to rot, too...-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 我也会让你腐烂...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->That's disgusting, [RECIPIENT_nameDef]! [saw_it]I hope someone took care of it already.-->
-    <li>good_opinion-&gt;太恶心了,[RECIPIENT_nameDef]不![saw_it]我希望已经有人处理了。</li>
+    <li>good_opinion-&gt;太恶心了,[RECIPIENT_nameDef]！[saw_it]我希望已经有人处理了。</li>
     <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->We should burn it right away!-->
     <li>good_opinion(INITIATOR_trait==pyromaniac)-&gt; 我们应该马上把它烧掉!</li>
     <!--EN: good_opinion(INITIATOR_medical_level>=5)->We should bury or cremate it right away — to avoid health problems.-->
@@ -6434,27 +6436,27 @@
   <!--EN: prisoner sold-->
   <ReactToThought_PrisonerSold.label>囚犯被贩卖</ReactToThought_PrisonerSold.label>
   <ReactToThought_PrisonerSold.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I agree, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;我同意,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;我同意,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->I can't disagree with you, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;我不能不同意你的观点,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;我不能不同意你的观点,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_trait==kind,priority=1)->[i_kind]-->
     <li>good_opinion(INITIATOR_trait==kind,priority=1)-&gt;[i_kind]</li>
     <!--EN: i_kind->Slavery is awful, [RECIPIENT_nameDef]! Nobody deserves that fate!-->
-    <li>i_kind-&gt;奴隶制太可怕了,[RECIPIENT_nameDef]不!没有人配得上那样的命运!</li>
+    <li>i_kind-&gt;奴隶制太可怕了,[RECIPIENT_nameDef]！没有人配得上那样的命运!</li>
     <!--EN: i_kind(RECIPIENT_trait==kind,priority=2)->I fully agree, [RECIPIENT_nameDef]! Mean and debasing!-->
-    <li>i_kind(RECIPIENT_trait==kind,priority=2)-&gt; 我完全同意,[RECIPIENT_nameDef]不!卑鄙且堕落!</li>
+    <li>i_kind(RECIPIENT_trait==kind,priority=2)-&gt; 我完全同意,[RECIPIENT_nameDef]！卑鄙且堕落!</li>
     <!--EN: i_kind(RECIPIENT_trait==bloodlust,priority=1)->[i_kind_r_canniblood]-->
     <li>i_kind(RECIPIENT_trait==bloodlust,priority=1)-&gt;[i_kind_r_canniblood]</li>
     <!--EN: i_kind(RECIPIENT_trait==cannibal,priority=1)->[i_kind_r_canniblood]-->
     <li>i_kind(RECIPIENT_trait==cannibal,priority=1)-&gt;[i_kind_r_canniblood]</li>
     <!--EN: i_kind_r_canniblood->That's just so wrong, [RECIPIENT_nameDef]! I totally disagree!-->
-    <li>i_kind_r_canniblood-&gt;这样做太不对了,[RECIPIENT_nameDef]不!我完全不同意!</li>
+    <li>i_kind_r_canniblood-&gt;这样做太不对了,[RECIPIENT_nameDef]！我完全不同意!</li>
     <!--EN: good_opinion(INITIATOR_trait==cannibal,priority=1)->[i_canniblood]-->
     <li>good_opinion(INITIATOR_trait==cannibal,priority=1)-&gt;[i_canniblood]</li>
     <!--EN: good_opinion(INITIATOR_trait==bloodlust,priority=1)->[i_canniblood]-->
@@ -6479,17 +6481,17 @@
   <!--EN: released prisoner-->
   <ReactToThought_ReleasedPrisoner.label>囚犯被释放</ReactToThought_ReleasedPrisoner.label>
   <ReactToThought_ReleasedPrisoner.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I agree, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;我同意,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;我同意,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_trait==kind,priority=1)->[i_kind]-->
     <li>good_opinion(INITIATOR_trait==kind,priority=1)-&gt;[i_kind]</li>
     <!--EN: i_kind->We certainly did the right and most humane thing, [RECIPIENT_nameDef]!-->
-    <li>i_kind-&gt;我们的确做了正确和最人性的事,[RECIPIENT_nameDef]不!</li>
+    <li>i_kind-&gt;我们的确做了正确和最人性的事,[RECIPIENT_nameDef]！</li>
     <!--EN: i_kind(RECIPIENT_trait==kind,priority=2)->In the end, treating others kindly is always the best choice!-->
     <li>i_kind(RECIPIENT_trait==kind,priority=2)-&gt; 最终，善待他人永远是最佳的选择!</li>
     <!--EN: i_kind(RECIPIENT_trait==bloodlust,priority=1)->[i_kind_r_canniblood]-->
@@ -6497,7 +6499,7 @@
     <!--EN: i_kind(RECIPIENT_trait==cannibal,priority=1)->[i_kind_r_canniblood]-->
     <li>i_kind(RECIPIENT_trait==cannibal,priority=1)-&gt;[i_kind_r_canniblood]</li>
     <!--EN: i_kind_r_canniblood->That's just so wrong, [RECIPIENT_nameDef]! I totally disagree!-->
-    <li>i_kind_r_canniblood-&gt;这样做太不对了,[RECIPIENT_nameDef]不!我完全不同意!</li>
+    <li>i_kind_r_canniblood-&gt;这样做太不对了,[RECIPIENT_nameDef]！我完全不同意!</li>
     <!--EN: good_opinion(INITIATOR_trait==cannibal,priority=1)->[i_canniblood]-->
     <li>good_opinion(INITIATOR_trait==cannibal,priority=1)-&gt;[i_canniblood]</li>
     <!--EN: good_opinion(INITIATOR_trait==bloodlust,priority=1)->[i_canniblood]-->
@@ -6531,14 +6533,14 @@
     <!--EN: good_opinion(INITIATOR_trait==kind)->You really don't need to thank us — we just did our duty as good human beings.-->
     <li>good_opinion(INITIATOR_trait==kind)-&gt; 你真的不需要感谢我们 -- 我们只是尽了我们作为一个好人的职责。</li>
     <!--EN: good_opinion(INITIATOR_trait==psychopath,priority=1)->...-->
-    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_trait==psychopath,priority=1)-&gt;…</li>
   </ReactToThought_Rescued.logRulesInitiator.rulesStrings>
   <!--EN: sick-->
   <ReactToThought_Sick.label>得病</ReactToThought_Sick.label>
   <ReactToThought_Sick.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I'm sorry to hear that, [RECIPIENT_nameDef]. [comment]-->
@@ -6563,9 +6565,9 @@
   <!--EN: sleep disturbed-->
   <ReactToThought_SleepDisturbed.label>睡眠扰动</ReactToThought_SleepDisturbed.label>
   <ReactToThought_SleepDisturbed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->You're right, [RECIPIENT_nameDef]. We should be more careful to avoid such things.-->
@@ -6577,16 +6579,16 @@
     <!--EN: good_opinion(INITIATOR_trait==abrasive)->Not my fault, [RECIPIENT_nameDef]. Sucks to be you, I guess. Sorry.-->
     <li>good_opinion(INITIATOR_trait==abrasive)-&gt; 不是我的错,[RECIPIENT_nameDef]。我猜是你真糟糕。抱歉。</li>
     <!--EN: good_opinion(INITIATOR_trait==kind)->Poor [RECIPIENT_nameDef]! Take it easy today, and be sure to get a good rest next time you go to sleep.-->
-    <li>good_opinion(INITIATOR_trait==kind)-&gt; 差[RECIPIENT_nameDef]不!今天放轻松，下次睡觉时一定要好好休息。</li>
+    <li>good_opinion(INITIATOR_trait==kind)-&gt; 差[RECIPIENT_nameDef]！今天放轻松，下次睡觉时一定要好好休息。</li>
     <!--EN: good_opinion(INITIATOR_trait==nimble)->You know it wasn't me, [RECIPIENT_nameDef]. I'm always quiet when I walk.-->
     <li>good_opinion(INITIATOR_trait==nimble)-&gt; 你知道那个人不是我,[RECIPIENT_nameDef]。我走路的时候总是很安静。</li>
   </ReactToThought_SleepDisturbed.logRulesInitiator.rulesStrings>
   <!--EN: sleep disturbed dream-->
   <ReactToThought_SleepDisturbed_Dream.label>睡眠扰乱梦想</ReactToThought_SleepDisturbed_Dream.label>
   <ReactToThought_SleepDisturbed_Dream.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(tag=Dream_nice)->Ah, [RECIPIENT_nameDef]. What a pity... what was this dream about?-->
@@ -6597,29 +6599,29 @@
   <!--EN: slept in a shared room-->
   <ReactToThought_SleptInBarracks.label>睡在同一个房间</ReactToThought_SleptInBarracks.label>
   <ReactToThought_SleptInBarracks.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==awful barrack)->[reply_awful_barracks]-->
     <li>good_opinion(RECIPIENT_thoughtLabel==awful barrack)-&gt;[reply_awful_barracks]</li>
-    <!--EN: reply_awful_barracks->That's extremely [annoying], [RECIPIENT_nameDef] — I certainly agree with you.-->
-    <li>reply_awful_barracks-&gt;难以置信[annoying],[RECIPIENT_nameDef]-我当然同意你的观点.</li>
-    <!--EN: reply_awful_barracks->How absolutely [annoying], [RECIPIENT_nameDef] — We all deserve better.-->
-    <li>reply_awful_barracks-&gt;多么绝对[annoying],[RECIPIENT_nameDef]-我们都应该得到更好的.</li>
+    <!--EN: reply_awful_barracks->That's extremely 烦人, [RECIPIENT_nameDef] — I certainly agree with you.-->
+    <li>reply_awful_barracks-&gt;难以置信烦人,[RECIPIENT_nameDef]-我当然同意你的观点.</li>
+    <!--EN: reply_awful_barracks->How absolutely 烦人, [RECIPIENT_nameDef] — We all deserve better.-->
+    <li>reply_awful_barracks-&gt;多么绝对烦人,[RECIPIENT_nameDef]-我们都应该得到更好的.</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==dull barrack)->[reply_dull_barracks]-->
     <li>good_opinion(RECIPIENT_thoughtLabel==dull barrack)-&gt;[reply_dull_barracks]</li>
-    <!--EN: reply_dull_barracks->That's very [annoying], [RECIPIENT_nameDef] — I do agree with you.-->
-    <li>reply_dull_barracks-&gt;非常好[annoying],[RECIPIENT_nameDef]你同意我的看法.</li>
-    <!--EN: reply_dull_barracks->That's [intensifier][annoying], [RECIPIENT_nameDef] — I hope you receive better sleeping quarters soon.-->
-    <li>reply_dull_barracks-&gt;就是[intensifier][annoying],[RECIPIENT_nameDef]-我希望你尽快得到更好的睡眠区。</li>
+    <!--EN: reply_dull_barracks->That's very 烦人, [RECIPIENT_nameDef] — I do agree with you.-->
+    <li>reply_dull_barracks-&gt;非常好烦人,[RECIPIENT_nameDef]你同意我的看法.</li>
+    <!--EN: reply_dull_barracks->That's 很烦人, [RECIPIENT_nameDef] — I hope you receive better sleeping quarters soon.-->
+    <li>reply_dull_barracks-&gt;确实很烦人,[RECIPIENT_nameDef]——希望你尽快有更好的宿舍。</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==mediocre barrack)->[reply_mediocre_barracks]-->
     <li>good_opinion(RECIPIENT_thoughtLabel==mediocre barrack)-&gt;[reply_mediocre_barracks]</li>
-    <!--EN: reply_mediocre_barracks->That's [annoying], [RECIPIENT_nameDef] — I agree with you.-->
-    <li>reply_mediocre_barracks-&gt;就是[annoying],[RECIPIENT_nameDef]-我同意你的观点.</li>
-    <!--EN: reply_mediocre_barracks->I wouldn't like that either, [RECIPIENT_nameDef] — You're [intensifier]right.-->
-    <li>reply_mediocre_barracks-&gt;我也不会喜欢这样,[RECIPIENT_nameDef]-你是[intensifier]对对。</li>
+    <!--EN: reply_mediocre_barracks->That's 烦人, [RECIPIENT_nameDef] — I agree with you.-->
+    <li>reply_mediocre_barracks-&gt;就是烦人,[RECIPIENT_nameDef]-我同意你的观点.</li>
+    <!--EN: reply_mediocre_barracks->I wouldn't like that either, [RECIPIENT_nameDef] — You're 很right.-->
+    <li>reply_mediocre_barracks-&gt;我也不会喜欢这样,[RECIPIENT_nameDef]-你说得对。</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==decent barrack)->[reply_decent_barracks]-->
     <li>good_opinion(RECIPIENT_thoughtLabel==decent barrack)-&gt;[reply_decent_barracks]</li>
     <!--EN: reply_decent_barracks->Well, [RECIPIENT_nameDef] — at least it's a decent room.-->
@@ -6631,7 +6633,7 @@
     <!--EN: reply_slightly_impressive_barracks->Well, [RECIPIENT_nameDef] — at least it's a pretty nice room.-->
     <li>reply_slightly_impressive_barracks-&gt;嗯,[RECIPIENT_nameDef]-至少是个挺不错的房间.</li>
     <!--EN: reply_slightly_impressive_barracks->Sharing a room isn't ideal, but at least it's pretty nice, right, [RECIPIENT_nameDef]?-->
-    <li>reply_slightly_impressive_barracks-&gt;同一个房间并不理想，但至少不错，对吧,[RECIPIENT_nameDef]什么？</li>
+    <li>reply_slightly_impressive_barracks-&gt;同一个房间并不理想，但至少不错，对吧,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==impressive barrack)->[reply_impressive_barracks]-->
     <li>good_opinion(RECIPIENT_thoughtLabel==impressive barrack)-&gt;[reply_impressive_barracks]</li>
     <!--EN: reply_impressive_barracks->Well, [RECIPIENT_nameDef] — at least it's an impressive room.-->
@@ -6642,8 +6644,8 @@
     <li>good_opinion(RECIPIENT_thoughtLabel==very impressive barrack)-&gt;[reply_very_impressive_barracks]</li>
     <!--EN: reply_very_impressive_barracks->Well, [RECIPIENT_nameDef] — good for you!-->
     <li>reply_very_impressive_barracks-&gt;嗯,[RECIPIENT_nameDef]不错!</li>
-    <!--EN: reply_very_impressive_barracks->That's [intensifier]good, [RECIPIENT_nameDef]!-->
-    <li>reply_very_impressive_barracks-&gt;就是[intensifier]满意,[RECIPIENT_nameDef]不!</li>
+    <!--EN: reply_very_impressive_barracks->That's 很good, [RECIPIENT_nameDef]!-->
+    <li>reply_very_impressive_barracks-&gt;就是很满意,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(RECIPIENT_thoughtLabel==extremely impressive barrack)->[reply_extremely_impressive_barracks]-->
     <li>good_opinion(RECIPIENT_thoughtLabel==extremely impressive barrack)-&gt;[reply_extremely_impressive_barracks]</li>
     <!--EN: reply_extremely_impressive_barracks->Well, [RECIPIENT_nameDef] — that's great!-->
@@ -6654,8 +6656,8 @@
     <li>good_opinion(RECIPIENT_thoughtLabel==unbelievably impressive barrack)-&gt;[reply_unbelievably_impressive_barracks]</li>
     <!--EN: reply_unbelievably_impressive_barracks->Well, [RECIPIENT_nameDef] — that's just awesome!-->
     <li>reply_unbelievably_impressive_barracks-&gt;嗯,[RECIPIENT_nameDef]太棒了!</li>
-    <!--EN: reply_unbelievably_impressive_barracks->That's [intensifier]incredible, [RECIPIENT_nameDef] — I'll have to see it sometime!-->
-    <li>reply_unbelievably_impressive_barracks-&gt;就是[intensifier]难以置信,[RECIPIENT_nameDef]-我得找个时间看看它!</li>
+    <!--EN: reply_unbelievably_impressive_barracks->That's 很incredible, [RECIPIENT_nameDef] — I'll have to see it sometime!-->
+    <li>reply_unbelievably_impressive_barracks-&gt;就是很难以置信,[RECIPIENT_nameDef]-我得找个时间看看它!</li>
     <!--EN: annoying->bad-->
     <li>annoying-&gt;恶化</li>
     <!--EN: annoying->irritating-->
@@ -6678,7 +6680,7 @@
   <!--EN: slept in cold-->
   <ReactToThought_SleptInCold.label>在寒冷中睡觉</ReactToThought_SleptInCold.label>
   <ReactToThought_SleptInCold.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -6689,8 +6691,8 @@
     <li>bad_opinion(INITIATOR_trait==pyromaniac)-&gt; 如果你愿意，我可以点燃你的床让你暖和起来。</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
-    <!--EN: good_opinion->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's [intensifier][annoying].-->
-    <li>good_opinion-&gt;希望这种事不会再发生了,[RECIPIENT_nameDef]-它的[intensifier][annoying]。</li>
+    <!--EN: good_opinion->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's 很烦人.-->
+    <li>good_opinion-&gt;希望这种事别再发生,[RECIPIENT_nameDef]——真烦人。</li>
     <!--EN: good_opinion(INITIATOR_faction==PlayerColony)->Yeah... I wish we settled somewhere warmer.-->
     <li>good_opinion(INITIATOR_faction==PlayerColony)-&gt; 耶...我希望我们能在更暖和的地方定居。</li>
     <!--EN: good_opinion(INITIATOR_faction==PlayerTribe)->Yeah... I wish we settled somewhere warmer.-->
@@ -6737,19 +6739,21 @@
     <li>wokeUpCold-&gt;感觉自己像个雪人</li>
     <!--EN: wokeUpCold->absolutely freezing-->
     <li>wokeUpCold-&gt;要冻僵了</li>
-    <!--EN: wokeUpCold->feeling [intensifier][damned_intensifier]frozen-->
-    <li>wokeUpCold-&gt;感官[intensifier][damned_intensifier]冷冻 (不会腐烂)</li>
+    <!--EN: wokeUpCold->feeling 很[damned_intensifier]frozen-->
+    <li>wokeUpCold-&gt;感官很冷。</li>
   </ReactToThought_SleptInCold.logRulesInitiator.rulesStrings>
   <!--EN: slept in cold — construction-->
   <ReactToThought_SleptInCold_construction.label>在寒冷的建筑中睡觉</ReactToThought_SleptInCold_construction.label>
   <ReactToThought_SleptInCold_construction.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_construction_level<5)->[bad_opinion_unskilled]-->
     <li>bad_opinion(INITIATOR_construction_level&lt;5)-&gt;[bad_opinion_unskilled]</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=5)->Yes you could have, [RECIPIENT_nameDef] — now, try to be more useful in the future!-->
     <li>bad_opinion_unskilled(RECIPIENT_construction_level&gt;=5)-&gt; 是的，你可以,[RECIPIENT_nameDef]-现在，试着在将来变得更有用!</li>
+    <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<5)->...-->
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;5)-&gt;…</li>
     <!--EN: bad_opinion(INITIATOR_construction_level>=5)->[bad_opinion_skilled]-->
     <li>bad_opinion(INITIATOR_construction_level&gt;=5)-&gt;[bad_opinion_skilled]</li>
     <!--EN: bad_opinion_skilled(RECIPIENT_construction_level<5)->And I hope you [shut_up], [RECIPIENT_nameDef].-->
@@ -6780,6 +6784,8 @@
     <li>good_opinion(INITIATOR_construction_level&lt;5)-&gt;[good_opinion_unskilled]</li>
     <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=5)->Don't worry, [RECIPIENT_nameDef] — I'm sure you won't let this happen again.-->
     <li>good_opinion_unskilled(RECIPIENT_construction_level&gt;=5)-&gt; 别担心,[RECIPIENT_nameDef]-我敢肯定你不会让这种情况再次发生。</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<5)->Let's hope it won't happen again, [RECIPIENT_nameDef].-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;5)-&gt;希望这种事不会再发生了,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_construction_level>=5)->[good_opinion_skilled]-->
     <li>good_opinion(INITIATOR_construction_level&gt;=5)-&gt;[good_opinion_skilled]</li>
     <!--EN: good_opinion_skilled(RECIPIENT_construction_level<5)->I had planned to build a heat source, but I got distracted. Sorry, [RECIPIENT_nameDef] — it won't happen again.-->
@@ -6790,17 +6796,17 @@
   <!--EN: slept in heat-->
   <ReactToThought_SleptInHeat.label>在炎热中睡觉</ReactToThought_SleptInHeat.label>
   <ReactToThought_SleptInHeat.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Is it that hot for you, [RECIPIENT_nameDef]? I thought the temperature was quite comfortable.-->
-    <li>bad_opinion-&gt;是不是性感的为了你,[RECIPIENT_nameDef]什么？我觉得这个温度很舒服。</li>
+    <li>bad_opinion-&gt;是不是性感的为了你,[RECIPIENT_nameDef]？我觉得这个温度很舒服。</li>
     <!--EN: bad_opinion->...-->
     <li>bad_opinion-&gt;...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
-    <!--EN: good_opinion->I know, it's [annoying]! Here's hoping that we get some new coolers installed.-->
-    <li>good_opinion-&gt;我知道[annoying]不!希望我们能安装一些新的制冷机。</li>
+    <!--EN: good_opinion->I know, it's 烦人! Here's hoping that we get some new coolers installed.-->
+    <li>good_opinion-&gt;我知道很烦！希望我们能安装一些新的制冷机。</li>
     <!--EN: good_opinion->Well, it gets hot this time of the year — we just have to get used to it.-->
     <li>good_opinion-&gt;嗯，它得到性感的一年中这个时候 -- 我们只需要习惯它。</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInHeat)->Agreed! It was so hot that I woke up sweating!-->
@@ -6827,7 +6833,7 @@
   <!--EN: slept in heat — construction-->
   <ReactToThought_SleptInHeat_construction.label>在高温下睡觉-建造</ReactToThought_SleptInHeat_construction.label>
   <ReactToThought_SleptInHeat_construction.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_construction_level<5)->[bad_opinion_unskilled]-->
@@ -6868,13 +6874,13 @@
   <!--EN: slept on ground-->
   <ReactToThought_SleptOnGround.label>在地上睡觉</ReactToThought_SleptOnGround.label>
   <ReactToThought_SleptOnGround.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_construction_level<4)->[bad_opinion_unskilled]-->
     <li>bad_opinion(INITIATOR_construction_level&lt;4)-&gt;[bad_opinion_unskilled]</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<4)->...-->
-    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt;.</li>
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt;…</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=4)->Yes you could have, [RECIPIENT_nameDef] — now, try to be more useful in the future!-->
     <li>bad_opinion_unskilled(RECIPIENT_construction_level&gt;=4)-&gt; 是的，你可以,[RECIPIENT_nameDef]-现在，试着在将来变得更有用!</li>
     <!--EN: bad_opinion(INITIATOR_construction_level>=4)->[bad_opinion_skilled]-->
@@ -6899,8 +6905,8 @@
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_construction_level<4)->[good_opinion_unskilled]-->
     <li>good_opinion(INITIATOR_construction_level&lt;4)-&gt;[good_opinion_unskilled]</li>
-    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's [annoying].-->
-    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt; 希望这种事不会再发生了,[RECIPIENT_nameDef]-它的[annoying]。</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's 烦人.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt; 希望这种事不会再发生了,[RECIPIENT_nameDef]-它的烦人。</li>
     <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=4)->Don't worry, [RECIPIENT_nameDef] — I'm sure you won't let this happen again.-->
     <li>good_opinion_unskilled(RECIPIENT_construction_level&gt;=4)-&gt; 别担心,[RECIPIENT_nameDef]-我敢肯定你不会让这种情况再次发生。</li>
     <!--EN: good_opinion(INITIATOR_construction_level>=4)->[good_opinion_skilled]-->
@@ -6929,13 +6935,13 @@
   <!--EN: slept outside-->
   <ReactToThought_SleptOutside.label>在外面睡觉</ReactToThought_SleptOutside.label>
   <ReactToThought_SleptOutside.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_construction_level<4)->[bad_opinion_unskilled]-->
     <li>bad_opinion(INITIATOR_construction_level&lt;4)-&gt;[bad_opinion_unskilled]</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level<4)->...-->
-    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt;.</li>
+    <li>bad_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt;…</li>
     <!--EN: bad_opinion_unskilled(RECIPIENT_construction_level>=4)->Yes you could have, [RECIPIENT_nameDef] — now, try to be more useful in the future!-->
     <li>bad_opinion_unskilled(RECIPIENT_construction_level&gt;=4)-&gt; 是的，你可以,[RECIPIENT_nameDef]-现在，试着在将来变得更有用!</li>
     <!--EN: bad_opinion(INITIATOR_construction_level>=4)->[bad_opinion_skilled]-->
@@ -6956,8 +6962,8 @@
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_construction_level<4)->[good_opinion_unskilled]-->
     <li>good_opinion(INITIATOR_construction_level&lt;4)-&gt;[good_opinion_unskilled]</li>
-    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's [annoying].-->
-    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt; 希望这种事不会再发生了,[RECIPIENT_nameDef]-它的[annoying]。</li>
+    <!--EN: good_opinion_unskilled(RECIPIENT_construction_level<4)->Let's hope it won't happen again, [RECIPIENT_nameDef] — it's 烦人.-->
+    <li>good_opinion_unskilled(RECIPIENT_construction_level&lt;4)-&gt; 希望这种事不会再发生了,[RECIPIENT_nameDef]-它的烦人。</li>
     <!--EN: good_opinion_unskilled(RECIPIENT_construction_level>=4)->Don't worry, [RECIPIENT_nameDef] — I'm sure you won't let this happen again.-->
     <li>good_opinion_unskilled(RECIPIENT_construction_level&gt;=4)-&gt; 别担心,[RECIPIENT_nameDef]-我敢肯定你不会让这种情况再次发生。</li>
     <!--EN: good_opinion(INITIATOR_construction_level>=4)->[good_opinion_skilled]-->
@@ -6989,7 +6995,7 @@
     <!--EN: r_logentry(INITIATOR_opinion<0)->Go back inside then, [RECIPIENT_nameDef] — at least I won't hear your pitiful whining anymore!-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 回到里面去,[RECIPIENT_nameDef]-至少我不会再听到你可怜的哀嚎了!</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->Then why don't you go crawl into a cave and stay there, [RECIPIENT_nameDef]?-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 那你为什么不爬进一个洞穴，呆在那里,[RECIPIENT_nameDef]什么？</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt; 那你为什么不爬进一个洞穴，呆在那里,[RECIPIENT_nameDef]？</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I know, [RECIPIENT_nameDef] — but some vital tasks must be performed outdoors. We can't change that, unfortunately...-->
@@ -7002,7 +7008,7 @@
   <!--EN: romance — fail-->
   <RomanceFail.label>浪漫-失败</RomanceFail.label>
   <RomanceFail.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -7041,7 +7047,7 @@
   <!--EN: shooting — hit-->
   <ShootingHit.label>射击</ShootingHit.label>
   <ShootingHit.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->You just got lucky!-->
@@ -7053,11 +7059,11 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Great job, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;好样的,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;好样的,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Good shot, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;好戏,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;好戏,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Deadshot, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;死弹,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;死弹,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Wow, [RECIPIENT_nameDef] — good aim!-->
     <li>good_opinion-&gt;哇哦,[RECIPIENT_nameDef]-良好的目标!</li>
     <!--EN: good_opinion(RECIPIENT_gender==Male,INITIATOR_intellectual_level<5)->Atta boy!-->
@@ -7068,7 +7074,7 @@
   <!--EN: shooting — miss-->
   <ShootingMiss.label>命中</ShootingMiss.label>
   <ShootingMiss.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -7086,7 +7092,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Try again, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;再试一次,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;再试一次,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Oh, aim a little more to the [left_right] next time.-->
     <li>good_opinion-&gt;哦，瞄准更多[left_right]下次吧。</li>
     <!--EN: good_opinion->Maybe try from a different angle...-->
@@ -7103,7 +7109,7 @@
   <!--EN: react to — singing-->
   <Singing.label>对歌唱有反应</Singing.label>
   <Singing.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -7139,20 +7145,20 @@
     <!--EN: good_opinion(RECIPIENT_artistic_level>=5)->Bravo, [RECIPIENT_nameDef] — what a beautiful voice!-->
     <li>good_opinion(RECIPIENT_artistic_level&gt;=5)-&gt; 布拉沃,[RECIPIENT_nameDef]-多么美妙的声音!</li>
     <!--EN: good_opinion(RECIPIENT_artistic_level>=5)->Your voice is so pleasant to hear, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(RECIPIENT_artistic_level&gt;=5)-&gt; 你的声音是如此令人愉快,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(RECIPIENT_artistic_level&gt;=5)-&gt; 你的声音是如此令人愉快,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(RECIPIENT_artistic_level>=10)->Ahh... I just love hearing your voice, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(RECIPIENT_artistic_level&gt;=10)-&gt; 啊呀...我就是喜欢听你说话的声音,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(RECIPIENT_artistic_level&gt;=10)-&gt; 啊呀...我就是喜欢听你说话的声音,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(RECIPIENT_artistic_level>=15)->That was some amazing singing, [RECIPIENT_nameDef] — I loved it!-->
     <li>good_opinion(RECIPIENT_artistic_level&gt;=15)-&gt; 唱得太棒了,[RECIPIENT_nameDef]我好喜欢!</li>
     <!--EN: good_opinion(RECIPIENT_artistic_level>=15,INITIATOR_opinion>=35)->I think I have just heard an angelic choir of angels through you, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(RECIPIENT_artistic_level&gt;=15,INITIATOR_opinion&gt;=35)-&gt; 我想我刚刚通过你听到了一个天使合唱团,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(RECIPIENT_artistic_level&gt;=15,INITIATOR_opinion&gt;=35)-&gt; 我想我刚刚通过你听到了一个天使合唱团,[RECIPIENT_nameDef]！</li>
   </Singing.logRulesInitiator.rulesStrings>
   <!--EN: slight — react to-->
   <Slight_generic.label>轻微反应</Slight_generic.label>
   <Slight_generic.logRulesInitiator.rulesStrings>
     <!--EN: r_logentry(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
     <li>r_logentry(INITIATOR_trait==kind,priority=1)-&gt;[good_opinion]</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->Ah, shut up you [fool]!-->
@@ -7162,15 +7168,15 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Ouch — that hurt, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;嗷啊-好痛,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;嗷啊-好痛,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Are you serious, [RECIPIENT_nameDef]! [what_for]-->
-    <li>good_opinion-&gt;你说真的,[RECIPIENT_nameDef]不![what_for]</li>
+    <li>good_opinion-&gt;你说真的,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Ouch, [RECIPIENT_nameDef]! [what_for]-->
-    <li>good_opinion-&gt;嗷啊,[RECIPIENT_nameDef]不![what_for]</li>
+    <li>good_opinion-&gt;嗷啊,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Aww, [RECIPIENT_nameDef]! [what_for]-->
-    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]不![what_for]</li>
-    <!--EN: good_opinion->That was [intensifier]hurtful, [RECIPIENT_nameDef]! [what_for]-->
-    <li>good_opinion-&gt;那是[intensifier]伤人的[RECIPIENT_nameDef]不![what_for]</li>
+    <li>good_opinion-&gt;哦,[RECIPIENT_nameDef]！</li>
+    <!--EN: good_opinion->That was 很hurtful, [RECIPIENT_nameDef]! [what_for]-->
+    <li>good_opinion-&gt;那是很伤人的，[RECIPIENT_nameDef]！</li>
     <!--EN: fool->[adj]fool-->
     <li>fool-&gt;[adj]智人</li>
     <!--EN: fool->[adj]idiot-->
@@ -7213,11 +7219,11 @@
   <!--EN: stargazing-->
   <Stargazing.label>眺望星空</Stargazing.label>
   <Stargazing.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_jobText==stargazing.,priority=1)->...-->
-    <li>bad_opinion(INITIATOR_jobText==stargazing.,priority=1)-&gt;.</li>
+    <li>bad_opinion(INITIATOR_jobText==stargazing.,priority=1)-&gt;…</li>
     <!--EN: bad_opinion(INITIATOR_jobText==stargazing.,INITIATOR_opinion<=-25,priority=1)->If I see a shooting star, [RECIPIENT_nameDef], I'll wish for your untimely death...-->
     <li>bad_opinion(INITIATOR_jobText==stargazing.,INITIATOR_opinion&lt;=-25,priority=1)-&gt; 如果我看到一颗流星,[RECIPIENT_nameDef],我会希望你英年早逝...</li>
     <!--EN: bad_opinion->...-->
@@ -7233,7 +7239,7 @@
     <!--EN: good_opinion(INITIATOR_jobText==stargazing.,priority=1)->Mmm... maybe I saw a shooting star! Let me think of a wish...-->
     <li>good_opinion(INITIATOR_jobText==stargazing.,priority=1)-&gt; 嗯.也许我看到了一颗流星!让我想起一个愿望...</li>
     <!--EN: good_opinion->What a [view_adj] view you must be having, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;好一个[view_adj]你必须拥有的视图,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;好一个[view_adj]你必须拥有的视图,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->If you see a shooting star, [RECIPIENT_nameDef], wish for something good for us!-->
     <li>good_opinion-&gt;如果你看到一颗流星,[RECIPIENT_nameDef],祈求好运!</li>
     <!--EN: specks_adj->tiny-->
@@ -7258,27 +7264,27 @@
   <!--EN: starving — eating-->
   <StarvingEating.label>极度饥饿</StarvingEating.label>
   <StarvingEating.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_opinion<=-25)->Hope you choke on it, [RECIPIENT_nameDef]!-->
-    <li>bad_opinion(INITIATOR_opinion&lt;=-25)-&gt; 希望你被它噎住了,[RECIPIENT_nameDef]不!</li>
+    <li>bad_opinion(INITIATOR_opinion&lt;=-25)-&gt; 希望你被它噎住了,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->...-->
     <li>bad_opinion-&gt;...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Enjoy, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;享受吧,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;享受吧,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Chow down, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;吞食[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;吞食[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Eat hearty, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;暴饮暴食,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;暴饮暴食,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Enjoy your meal, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;享用你的食物,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;享用你的食物,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion->Eat up, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;吃完后,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;吃完后,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_social_level>=5)->Bon appétit, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_social_level&gt;=5)-&gt; Bon app é tit,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_social_level&gt;=5)-&gt; Bon app é tit,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_medical_level>=5)->Chew slowly, [RECIPIENT_nameDef].-->
     <li>good_opinion(INITIATOR_medical_level&gt;=5)-&gt; 慢慢咀嚼,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_trait==gourmand)->Enjoy your meal, enjoy your life!-->
@@ -7289,7 +7295,7 @@
   <!--EN: react to — stressed-->
   <Stressed.label>紧张反应</Stressed.label>
   <Stressed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_mood<0.4,priority=1)->*scowls back*-->
@@ -7299,7 +7305,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_mood<0.4,priority=1)->...-->
-    <li>good_opinion(INITIATOR_mood&lt;0.4,priority=1)-&gt;.</li>
+    <li>good_opinion(INITIATOR_mood&lt;0.4,priority=1)-&gt;…</li>
     <!--EN: good_opinion->*smiles back*-->
     <li>good_opinion-&gt;* 回笑 *</li>
   </Stressed.logRulesInitiator.rulesStrings>
@@ -7309,7 +7315,7 @@
     <!--EN: r_logentry(INITIATOR_opinion>=0,INITIATOR_trait==undergrounder,priority=2)->[i_undergrounder]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0,INITIATOR_trait==undergrounder,priority=2)-&gt;[i_undergrounder]</li>
     <!--EN: i_undergrounder(RECIPIENT_trait==undergrounder,priority=1)->I totally agree with you, [RECIPIENT_nameDef]!-->
-    <li>i_undergrounder(RECIPIENT_trait==undergrounder,priority=1)-&gt; 我完全同意你,[RECIPIENT_nameDef]不!</li>
+    <li>i_undergrounder(RECIPIENT_trait==undergrounder,priority=1)-&gt; 我完全同意你,[RECIPIENT_nameDef]！</li>
     <!--EN: i_undergrounder->I don't really care about what's the weather like out there, [RECIPIENT_nameDef]...-->
     <li>i_undergrounder-&gt;我不在意外面的天气如何,[RECIPIENT_nameDef]...</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0,INITIATOR_thoughtDefName==NeedOutdoors,priority=1)->Me too, [RECIPIENT_nameDef].-->
@@ -7338,14 +7344,14 @@
     <li>weather(WEATHER==gentle snow,priority=1)-&gt; 雪[DAYPERIOD]</li>
     <!--EN: weather->[WEATHER]-->
     <li>weather-&gt;[WEATHER]</li>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
   </StuckIndoors.logRulesInitiator.rulesStrings>
   <!--EN: sunrise-->
   <Sunrise.label>日出</Sunrise.label>
   <Sunrise.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==abrasive)->I'd throw you into that sun if I could.-->
@@ -7386,7 +7392,7 @@
   <!--EN: sunset-->
   <Sunset.label>日落</Sunset.label>
   <Sunset.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion(INITIATOR_trait==abrasive)->I'd throw you into that sun if I could.-->
@@ -7439,7 +7445,7 @@
   <!--EN: tv — new channel-->
   <TV_newchannel.label>新频道</TV_newchannel.label>
   <TV_newchannel.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->No thanks. It sounds pretty [bad].-->
@@ -7455,7 +7461,7 @@
     <!--EN: good_opinion->I'm fine with whatever, [RECIPIENT_nameDef].-->
     <li>good_opinion-&gt;我无所谓,[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion->Sure, [RECIPIENT_nameDef]! Let's check it out!-->
-    <li>good_opinion-&gt;当然可以,[RECIPIENT_nameDef]不!让我们来看看!</li>
+    <li>good_opinion-&gt;当然可以,[RECIPIENT_nameDef]！让我们来看看!</li>
     <!--EN: bad->bad-->
     <li>bad-&gt;恶化</li>
     <!--EN: bad->lame-->
@@ -7490,7 +7496,7 @@
   <!--EN: tv — problem-->
   <TV_problem.label>电视问题</TV_problem.label>
   <TV_problem.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->I don't know. Figure it out yourself, [RECIPIENT_nameDef].-->
@@ -7519,7 +7525,7 @@
   <!--EN: tv — what's this-->
   <TV_whatsthis.label>电视-这是什么</TV_whatsthis.label>
   <TV_whatsthis.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -7818,7 +7824,7 @@
   <!--EN: telescope-->
   <Telescope.label>天文望远镜</Telescope.label>
   <Telescope.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -7834,7 +7840,7 @@
     <!--EN: good_opinion->Hey, [RECIPIENT_nameDef] — why don't you try to find a spaceship with that thing?-->
     <li>good_opinion-&gt;嘿,[RECIPIENT_nameDef]-你为什么不试着用那个东西找一艘飞船呢？</li>
     <!--EN: good_opinion->What a [view_adj] view you must be having, [RECIPIENT_nameDef]!-->
-    <li>good_opinion-&gt;好一个[view_adj]你必须拥有的视图,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion-&gt;好一个[view_adj]你必须拥有的视图,[RECIPIENT_nameDef]！</li>
     <!--EN: r_logentry(INITIATOR_trait==depressive)->I don't like telescopes... they show nothing but the darkness and emptiness of space... just like [reminds]...-->
     <li>r_logentry(INITIATOR_trait==depressive)-&gt; 我不喜欢望远镜.它们只显示了黑暗与虚空的空间如同[reminds]...</li>
     <!--EN: reminds->myself-->
@@ -7867,7 +7873,7 @@
   <!--EN: thanks-->
   <Thanks.label>谢谢</Thanks.label>
   <Thanks.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->[bad_opinion]-->
     <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;[bad_opinion]</li>
     <!--EN: bad_opinion->...-->
@@ -7888,9 +7894,9 @@
   <!--EN: clear weather — good temp — not entombed-->
   <WeatherClearGoodtempNotEntombed.label>晴朗天气-良好的温度-未被埋葬</WeatherClearGoodtempNotEntombed.label>
   <WeatherClearGoodtempNotEntombed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_trait==undergrounder,OUTDOORS==No,priority=2)->[i_undergrounder]-->
@@ -7951,13 +7957,13 @@
   <!--EN: drystorm — good temp — indoors-->
   <WeatherDrystormGoodtempIndoors.label>干枯风暴-良好的温度-室内</WeatherDrystormGoodtempIndoors.label>
   <WeatherDrystormGoodtempIndoors.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I heard it too, [RECIPIENT_nameDef]! But I don't hear any rain — we might be in for a wildfire!-->
-    <li>good_opinion-&gt;我也听到了,[RECIPIENT_nameDef]不!但是我没有听到下雨的声音 -- 我们可能要遭遇一场野火!</li>
+    <li>good_opinion-&gt;我也听到了,[RECIPIENT_nameDef]！但是我没有听到下雨的声音 -- 我们可能要遭遇一场野火!</li>
     <!--EN: good_opinion->Yes, [RECIPIENT_nameDef] - quite a loud one! Let's hope no wildfires are started!-->
     <li>good_opinion-&gt;是的,[RECIPIENT_nameDef]-声音很大!希望没有引发野火!</li>
     <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->Thunders — the majestic roar of Nature!-->
@@ -7978,9 +7984,9 @@
   <!--EN: drystorm — good temp — outdoors-->
   <WeatherDrystormGoodtempOutdoors.label>干枯风暴-良好的室外温度</WeatherDrystormGoodtempOutdoors.label>
   <WeatherDrystormGoodtempOutdoors.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Yes, [RECIPIENT_nameDef] — let's hope it rains soon, or we'll have wildfires!-->
@@ -7995,9 +8001,9 @@
   <!--EN: fog — good temp — not entombed-->
   <WeatherFogGoodtempNotEntombed.label>雾-良好的温度-未埋葬</WeatherFogGoodtempNotEntombed.label>
   <WeatherFogGoodtempNotEntombed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion(DAYPERIOD==morning)->At least the sunlight helps a little.-->
@@ -8078,9 +8084,9 @@
   <!--EN: hard snow — good temp — not entombed-->
   <WeatherHardsnowGoodtempNotEntombed.label>大雪-良好的温度-未埋葬</WeatherHardsnowGoodtempNotEntombed.label>
   <WeatherHardsnowGoodtempNotEntombed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->We're in for some heavy snow shoveling, it seems...-->
@@ -8103,9 +8109,9 @@
   <!--EN: rain — good temperature — indoors-->
   <WeatherRainGoodtempIndoors.label>雨-良好的温度-室内</WeatherRainGoodtempIndoors.label>
   <WeatherRainGoodtempIndoors.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I hope I won't need to do any task outside.-->
@@ -8146,9 +8152,9 @@
   <!--EN: rain — good temperature — outdoors-->
   <WeatherRainGoodtempOutdoors.label>雨-良好的温度-室外</WeatherRainGoodtempOutdoors.label>
   <WeatherRainGoodtempOutdoors.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Go on, [RECIPIENT_nameDef]. [comment]-->
@@ -8257,9 +8263,9 @@
   <!--EN: gentle snow — good temp — not entombed-->
   <WeatherSoftsnowGoodtempNotEntombed.label>轻柔的雪-良好的温度-未埋葬</WeatherSoftsnowGoodtempNotEntombed.label>
   <WeatherSoftsnowGoodtempNotEntombed.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_trait==lazy)->It shouldn't be enough to need shoveling — nice!-->
@@ -8312,9 +8318,9 @@
   <!--EN: storm — good temp — indoors-->
   <WeatherStormGoodtempIndoors.label>暴风雨-良好的温度-室内</WeatherStormGoodtempIndoors.label>
   <WeatherStormGoodtempIndoors.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Whoa — that thunder was loud!-->
@@ -8365,9 +8371,9 @@
   <!--EN: storm — good temp — outdoors-->
   <WeatherStormGoodtempOutdoors.label>暴风雨-良好的室外温度</WeatherStormGoodtempOutdoors.label>
   <WeatherStormGoodtempOutdoors.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->I'd better get inside — I don't want to get struck by lightning!-->
@@ -8392,26 +8398,31 @@
   <!--EN: what dream-->
   <WhatDream.label>什么梦</WhatDream.label>
   <WhatDream.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
     <!--EN: good_opinion(tag=Dream_nice)->Oh... And what was this dream about, [RECIPIENT_nameDef]?-->
-    <li>good_opinion(tag=Dream_nice)-&gt; 哦…这个梦是关于什么的,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion(tag=Dream_nice)-&gt; 哦…这个梦是关于什么的,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion(tag=Dream_nice)->What was your dream about, [RECIPIENT_nameDef]?-->
-    <li>good_opinion(tag=Dream_nice)-&gt; 你的梦想是关于什么的,[RECIPIENT_nameDef]什么？</li>
+    <li>good_opinion(tag=Dream_nice)-&gt; 你的梦想是关于什么的,[RECIPIENT_nameDef]？</li>
     <!--EN: good_opinion(tag=Dream_nice)->Really, [RECIPIENT_nameDef]? What was your dream about?-->
-    <li>good_opinion(tag=Dream_nice)-&gt; 真的,[RECIPIENT_nameDef]什么？你的梦是关于什么的？</li>
+    <li>good_opinion(tag=Dream_nice)-&gt; 真的,[RECIPIENT_nameDef]？你的梦是关于什么的？</li>
   </WhatDream.logRulesInitiator.rulesStrings>
   <!--EN: what's up-->
   <WhatsUp.label>你好吗</WhatsUp.label>
   <WhatsUp.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion>=0)->[good_opinion]-->
     <li>r_logentry(INITIATOR_opinion&gt;=0)-&gt;[good_opinion]</li>
+    <!-- idle (when job is GotoWander etc.) - define here so [idle] resolves -->
+    <li>idle(INITIATOR_opinion&lt;0)-&gt;…</li>
+    <li>idle(INITIATOR_opinion&gt;=0)-&gt; 还行，[RECIPIENT_nameDef]。随便走走。</li>
+    <li>idle(INITIATOR_opinion&gt;=0)-&gt; 嗯，挺好的。</li>
+    <li>idle(INITIATOR_opinion&gt;=0)-&gt; 没什么，就随便聊聊，[RECIPIENT_nameDef]。</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==DeadMansApparel,priority=1)->[deadmans_apparel]-->
     <li>good_opinion(INITIATOR_thoughtDefName==DeadMansApparel,priority=1)-&gt;[deadmans_apparel]</li>
     <!--EN: deadmans_apparel(INITIATOR_trait==bloodlust,priority=1)->I am wearing apparel that someone died in — and that's perfectly fine by me.-->
@@ -8426,10 +8437,10 @@
     <li>deadmans_apparel1-&gt;我的一些衣物在死亡时被人穿着。</li>
     <!--EN: deadmans_apparel2->It creeps me out and feels dirty!-->
     <li>deadmans_apparel2-&gt;这让我毛骨悚然，感觉很脏!</li>
-    <!--EN: deadmans_apparel2->I feel [intensifier]unclean...-->
-    <li>deadmans_apparel2-&gt;我感觉[intensifier]不干净的...</li>
-    <!--EN: deadmans_apparel2->It makes me feel [intensifier]uncomfortable — I don't like it.-->
-    <li>deadmans_apparel2-&gt;这让我有感觉[intensifier]不舒服-我不喜欢这样.</li>
+    <!--EN: deadmans_apparel2->I feel 很unclean...-->
+    <li>deadmans_apparel2-&gt;我感觉很不干净的...</li>
+    <!--EN: deadmans_apparel2->It makes me feel 很uncomfortable — I don't like it.-->
+    <li>deadmans_apparel2-&gt;这让我有感觉很不舒服-我不喜欢这样.</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetSanguine,priority=1)->[sanguine_optimist]-->
     <li>good_opinion(INITIATOR_thoughtDefName==MoodOffsetSanguine,priority=1)-&gt;[sanguine_optimist]</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==MoodOffsetOptimist,priority=1)->[sanguine_optimist]-->
@@ -8467,7 +8478,7 @@
     <!--EN: gotsomelovin->Well, [RECIPIENT_nameDef]... Let's say that not being single has its advantages... *wink*-->
     <li>gotsomelovin-&gt;嗯,[RECIPIENT_nameDef]。比方说不单身有它的好处...* 眨眨眼 *</li>
     <!--EN: gotsomelovin(INITIATOR_opinion>=50)->There's nothing like a good tumble between the sheets to lift the mood, [RECIPIENT_nameDef]!-->
-    <li>gotsomelovin(INITIATOR_opinion&gt;=50)-&gt; 没有什么比滚床单更能提升心情了,[RECIPIENT_nameDef]不!</li>
+    <li>gotsomelovin(INITIATOR_opinion&gt;=50)-&gt; 没有什么比滚床单更能提升心情了,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==ReleasedHealthyPrisoner,priority=1)->[released_prisoner]-->
     <li>good_opinion(INITIATOR_thoughtDefName==ReleasedHealthyPrisoner,priority=1)-&gt;[released_prisoner]</li>
     <!--EN: released_prisoner(INITIATOR_faction==PlayerColony)->We released a [prisoner] — [comment]-->
@@ -8478,8 +8489,8 @@
     <li>released_prisoner(INITIATOR_faction!=PlayerColony,INITIATOR_faction!=PlayerTribe)-&gt; 他们发布了一个[prisoner]X[comment]</li>
     <!--EN: comment->I think it was the right thing to do.-->
     <li>comment-&gt;我认为这是正确的做法。</li>
-    <!--EN: comment->I'm [intensifier]glad to see it.-->
-    <li>comment-&gt;我[intensifier]很高兴见到它。</li>
+    <!--EN: comment->I'm 很glad to see it.-->
+    <li>comment-&gt;我很很高兴见到它。</li>
     <!--EN: comment->I hope they're enjoying their freedom.-->
     <li>comment-&gt;我希望他们正在享受自由。</li>
     <!--EN: comment(INITIATOR_trait==kind,priority=2)->poor thing! It was the best thing to do.-->
@@ -8516,20 +8527,20 @@
   <!--EN: wimp — thunder-->
   <WimpThunder.label>懦弱的雷霆</WimpThunder.label>
   <WimpThunder.logRulesInitiator.rulesStrings>
-    <li>r_logentry-&gt;.</li>
+    <li>r_logentry-&gt;…</li>
     <!--EN: r_logentry(INITIATOR_opinion<0)->...-->
-    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;.</li>
+    <li>r_logentry(INITIATOR_opinion&lt;0)-&gt;…</li>
     <!--EN: r_logentry->[good_opinion]-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion->Calm down, [RECIPIENT_nameDef] — it's just a normal thunderstorm!-->
     <li>good_opinion-&gt;冷静点,[RECIPIENT_nameDef]-这只是一场普通的雷雨!</li>
     <!--EN: good_opinion(INITIATOR_trait==brawler)->Grow up, [RECIPIENT_nameDef]! It's just a normal thunderstorm!-->
-    <li>good_opinion(INITIATOR_trait==brawler)-&gt; 长大后,[RECIPIENT_nameDef]不!只是一场普通的雷雨!</li>
+    <li>good_opinion(INITIATOR_trait==brawler)-&gt; 长大后,[RECIPIENT_nameDef]！只是一场普通的雷雨!</li>
     <!--EN: good_opinion(INITIATOR_trait==kind,priority=1)->There, there — I'm here for you, [RECIPIENT_nameDef]!-->
-    <li>good_opinion(INITIATOR_trait==kind,priority=1)-&gt; 那里，那里-我在这里陪着你,[RECIPIENT_nameDef]不!</li>
+    <li>good_opinion(INITIATOR_trait==kind,priority=1)-&gt; 那里，那里-我在这里陪着你,[RECIPIENT_nameDef]！</li>
     <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->Why so scared? Lightnings and thunders are so fascinating!-->
     <li>good_opinion(INITIATOR_trait==pyromaniac)-&gt; 为什么这么害怕？闪电和雷声真是迷人!</li>
     <!--EN: good_opinion(INITIATOR_trait==wimp)->Aww, [RECIPIENT_nameDef]! I'm scared too!-->
-    <li>good_opinion(INITIATOR_trait==wimp)-&gt; 哇,[RECIPIENT_nameDef]不!我也很害怕!</li>
+    <li>good_opinion(INITIATOR_trait==wimp)-&gt; 哇,[RECIPIENT_nameDef]！我也很害怕!</li>
   </WimpThunder.logRulesInitiator.rulesStrings>
 </LanguageData>

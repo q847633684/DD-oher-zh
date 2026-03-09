@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='ChitChat_generic']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='ChitChat_generic2']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Invite_answer_yes']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Invite_answer_no']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Aurora']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='BeatFireStatic']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='BeatFireMoving']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Billiards_smart']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Billiards_blunder']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Billiards_ready']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Chess_smart']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Chess_blunder']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Chess_comment']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='GameOfUr_smart']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='GameOfUr_blunder']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Poker_smart']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Poker_blunder']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Poker_ready']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='GoingToBed']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='TV_newchannel']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='TV_problem']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='TV_whatsthis']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Telescope']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Job_ViewArt1']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='GetWell']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Thanks']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Cleaning']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='CloudWatching']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Eclipse']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='DrinkBeer']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Stargazing']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Calm']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Stressed']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Singing']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='HowAreYou']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='HowAreYou2']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='AsceticWisdom']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='LuckyFuture']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Slight_generic']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='Insult_generic']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/InteractionDef[defName='KindWords_generic']/logRulesInitiator/rulesStrings</xpath>
+        <value><li>r_logentry->[good_opinion]</li></value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

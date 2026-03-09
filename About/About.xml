@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>DD-个人汉化-ZH</name>
 	<author>dayday</author>
@@ -8,29 +8,26 @@
 	</supportedVersions>
 	<packageId>other.CHT.DD</packageId>
 	<modDependencies>
-		<li><packageId>dubwise.dubsperformanceanalyzer.steam</packageId></li>
-		<li><packageId>dubwise.dubsappareltweaks</packageId></li>
-		<li><packageId>dubwise.dubsmintmenus</packageId></li>
+		<li><packageId>dubwise.dubsperformanceanalyzer.steam</packageId><displayName>Dubs Performance Analyzer</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>dubwise.dubsappareltweaks</packageId><displayName>Dubs Apparel Tweaks</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>dubwise.dubsmintmenus</packageId><displayName>Dubs Mint Menus</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
 
-		<li><packageId>owlchemist.simplefx.smoke2</packageId></li>
-		<li><packageId>owlchemist.simplefx.splashes</packageId></li>
-		<li><packageId>atlas.simplefx.vapor.revaporized</packageId></li>
-		<li><packageId>owlchemist.toggleableoverlays</packageId></li>
-		<li><packageId>owlchemist.toggleablereadouts</packageId></li>
-		<li><packageId>owlchemist.ceilingutilities</packageId></li>
-		<li><packageId>owlchemist.fridgeutilities</packageId></li>
-		<li><packageId>owlchemist.wallutilities</packageId></li>
-		<li><packageId>owlchemist.scatteredflames</packageId></li>
-		<li><packageId>owlchemist.permeableterrain</packageId></li>
+		<li><packageId>owlchemist.simplefx.smoke2</packageId><displayName>Simple FX Smoke 2</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.simplefx.splashes</packageId><displayName>Simple FX Splashes</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>atlas.simplefx.vapor.revaporized</packageId><displayName>Simple FX Vapor Revaporized</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.toggleableoverlays</packageId><displayName>Toggleable Overlays</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.toggleablereadouts</packageId><displayName>Toggleable Readouts</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.ceilingutilities</packageId><displayName>Ceiling Utilities</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.fridgeutilities</packageId><displayName>Fridge Utilities</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.wallutilities</packageId><displayName>Wall Utilities</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.scatteredflames</packageId><displayName>Scattered Flames</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>owlchemist.permeableterrain</packageId><displayName>Permeable Terrain</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
 
-		<li><packageId>malistaticy.underwhere</packageId></li><!-- 正常-->
-		<li><packageId>lucifer.realisticrooms</packageId></li><!-- 正常-->
-		<li><packageId>co.uk.epicguru.meleeanimation</packageId></li><!-- 正常-->
-		<li><packageId>jaxe.bubbles</packageId></li><!-- 正常-->
-		<li><packageId>jpt.speakup</packageId></li><!-- 正常-->
-
-
-    </modDependencies>
+		<li><packageId>malistaticy.underwhere</packageId><displayName>Under Where</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>lucifer.realisticrooms</packageId><displayName>Realistic Rooms</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>co.uk.epicguru.meleeanimation</packageId><displayName>Melee Animation</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+		<li><packageId>jaxe.bubbles</packageId><displayName>Bubbles</displayName><steamWorkshopUrl>https://steamcommunity.com/workshop/browse/?appid=294100</steamWorkshopUrl></li>
+	</modDependencies>
 	<loadAfter>
 		<li>dubwise.dubsperformanceanalyzer.steam</li>
 		<li>dubwise.dubsappareltweaks</li>
