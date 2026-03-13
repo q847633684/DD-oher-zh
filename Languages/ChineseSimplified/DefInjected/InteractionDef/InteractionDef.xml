@@ -94,7 +94,7 @@
     <!--EN: good_opinion(INITIATOR_jobText!=watching the aurora.)->I wish I could stop and enjoy it myself...-->
     <li>good_opinion(INITIATOR_jobText!=watching the aurora.)-&gt; 我希望我能停止亲自享受吧.</li>
     <!--EN: good_opinion(INITIATOR_artistic_passion!=None)->I should try to imitate its wondrous beauty in my next art creation...-->
-    <li>good_opinion(INITIATOR_artistic_激情!=None)-&gt; 我应该在下一次艺术创作中尝试模仿它的奇迹之美...</li>
+    <li>good_opinion(INITIATOR_artistic_passion!=None)-&gt; 我应该在下一次艺术创作中尝试模仿它的奇迹之美...</li>
     <!--EN: good_opinion(INITIATOR_trait==ascetic)->Looks like the sky is celebrating — we would be wise to enjoy it while it lasts...-->
     <li>good_opinion(INITIATOR_trait==ascetic)-&gt; 看起来天空在庆祝 -- 我们明智的做法是趁它持续的时候享受它.</li>
     <!--EN: good_opinion(INITIATOR_trait==night owl,DAYPERIOD==night)->Such beauty takes this night to a whole new level of perfection...-->
@@ -945,7 +945,7 @@
     <!--EN: war_bastard->I was born into a war ravaged town, and during my childhood there wasn't a single person who treated me well.-->
     <li>war_bastard-&gt;我出生在一个被战争蹂躏的城镇，在我的童年里，没有一个人对我好。</li>
     <!--EN: war_bastard(INITIATOR_animals_passion!=None,priority=1)->My pet rabbit was my best friend. I miss them.-->
-    <li>war_bastard(INITIATOR_animals_激情!=None,priority=1)-&gt; 我的宠物兔🐇是我最好的朋友。我想念他们。</li>
+    <li>war_bastard(INITIATOR_animals_passion!=None,priority=1)-&gt; 我的宠物兔🐇是我最好的朋友。我想念他们。</li>
     <!--EN: war_bastard->War, men... My early years taught me [war_bastard_comment1]-->
     <li>war_bastard-&gt;战争，男人们...我小时候教过我[war_bastard_comment1]</li>
     <!--EN: war_bastard_comment1(INITIATOR_trait==bloodlust,priority=1)->to love war and despise men!-->
@@ -1604,6 +1604,10 @@
   <HowAreYou.logRulesInitiator.rulesStrings>
     <!--EN: r_logentry(opinion<-5)->[bad_opinion]-->
     <li>r_logentry(opinion&lt;-5)-&gt;[bad_opinion]</li>
+    <!--EN: r_logentry(opinion>=-5)->[good_opinion] (fallback when opinion not set)-->
+    <li>r_logentry(opinion&gt;=-5)-&gt;[good_opinion]</li>
+    <!--EN: fallback when opinion not set (avoids Grammar unresolvable Root r_logentry)-->
+    <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: bad_opinion->Leave me alone, [RECIPIENT_nameDef]!-->
     <li>bad_opinion-&gt;别烦我,[RECIPIENT_nameDef]！</li>
     <!--EN: bad_opinion->Mind your business, [RECIPIENT_nameDef]!-->
@@ -1623,7 +1627,7 @@
     <!--EN: good_opinion_sick(INITIATOR_mood<0.3)->[furious] And on top of that, I'm sick!-->
     <li>good_opinion_sick(INITIATOR_mood&lt;0.3)-&gt;[furious]除此之外，我还感到恶心!</li>
     <!--EN: r_logentry(opinion>=-5,INITIATOR_thoughtDefName==Pain,priority=1)->[good_opinion_pain]-->
-    <li>r_logentry(opinion&gt;=-5,INITIATOR_thoughtDefName==疼痛,priority=1)-&gt;[good_opinion_疼痛]</li>
+    <li>r_logentry(opinion&gt;=-5,INITIATOR_thoughtDefName==Pain,priority=1)-&gt;[good_opinion_pain]</li>
     <!--EN: good_opinion_pain(INITIATOR_mood>=0.7)->I'm in pain, but I'm sure it'll end soon! [whataboutyou]-->
     <li>good_opinion_pain(INITIATOR_mood&gt;=0.7)-&gt; 我在疼痛,但我确信它很快就会结束![whataboutyou]</li>
     <!--EN: good_opinion_pain(INITIATOR_mood>=0.5,INITIATOR_mood<0.7)->I'm in pain, but I believe I'll recover soon. [whataboutyou]-->
@@ -1737,25 +1741,25 @@
     <!--EN: i_sick(INITIATOR_mood<0.3)->I'm sick — and I can't stand it anymore!-->
     <li>i_sick(INITIATOR_mood&lt;0.3)-&gt; 我生病了-我再也受不了了!</li>
     <!--EN: r_logentry(INITIATOR_thoughtDefName==Pain,RECIPIENT_thoughtDefName==Pain,priority=3)->[both_pain]-->
-    <li>r_logentry(INITIATOR_thoughtDefName==疼痛,RECIPIENT_thoughtDefName==疼痛,priority=3)-&gt;[both_疼痛]</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==Pain,RECIPIENT_thoughtDefName==Pain,priority=3)-&gt;[both_pain]</li>
     <!--EN: both_pain(INITIATOR_mood>=0.7)->I'm in pain too, but I can take it.-->
-    <li>both_疼痛(INITIATOR_mood&gt;=0.7)-&gt; 我在疼痛我也是，但是我能接受。</li>
+    <li>both_pain(INITIATOR_mood&gt;=0.7)-&gt; 我在疼痛我也是，但是我能接受。</li>
     <!--EN: both_pain(priority=-1)->I'm in pain too...-->
-    <li>both_疼痛(priority=-1)-&gt; 我在疼痛太.</li>
+    <li>both_pain(priority=-1)-&gt; 我在疼痛太.</li>
     <!--EN: both_pain(INITIATOR_mood>=0.3,INITIATOR_mood<0.5)->I'm in pain too — and it's quite annoying.-->
-    <li>both_疼痛(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)-&gt; 我在疼痛也是-而且还挺烦人的.</li>
+    <li>both_pain(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)-&gt; 我在疼痛也是-而且还挺烦人的.</li>
     <!--EN: both_pain(INITIATOR_mood<0.3)->I'm in pain too — and I can't stand it anymore!-->
-    <li>both_疼痛(INITIATOR_mood&lt;0.3)-&gt; 我在疼痛我也是 -- 我再也受不了了!</li>
+    <li>both_pain(INITIATOR_mood&lt;0.3)-&gt; 我在疼痛我也是 -- 我再也受不了了!</li>
     <!--EN: r_logentry(INITIATOR_thoughtDefName==Pain,priority=2)->[i_pain]-->
-    <li>r_logentry(INITIATOR_thoughtDefName==疼痛,priority=2)-&gt;[i_疼痛]</li>
+    <li>r_logentry(INITIATOR_thoughtDefName==Pain,priority=2)-&gt;[i_pain]</li>
     <!--EN: i_pain(INITIATOR_mood>=0.7)->I'm in pain, but I can take it.-->
-    <li>i_疼痛(INITIATOR_mood&gt;=0.7)-&gt; 我在疼痛,但我可以接受。</li>
+    <li>i_pain(INITIATOR_mood&gt;=0.7)-&gt; 我在疼痛,但我可以接受。</li>
     <!--EN: i_pain(priority=-1)->I'm in pain...-->
-    <li>i_疼痛(priority=-1)-&gt; 我在疼痛...</li>
+    <li>i_pain(priority=-1)-&gt; 我在疼痛...</li>
     <!--EN: i_pain(INITIATOR_mood>=0.3,INITIATOR_mood<0.5)->I'm in pain — and it's quite annoying.-->
-    <li>i_疼痛(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)-&gt; 我在疼痛-而且这很烦人.</li>
+    <li>i_pain(INITIATOR_mood&gt;=0.3,INITIATOR_mood&lt;0.5)-&gt; 我在疼痛-而且这很烦人.</li>
     <!--EN: i_pain(INITIATOR_mood<0.3)->I'm in pain — and I can't stand it anymore!-->
-    <li>i_疼痛(INITIATOR_mood&lt;0.3)-&gt; 我在疼痛-我受不了了!</li>
+    <li>i_pain(INITIATOR_mood&lt;0.3)-&gt; 我在疼痛-我受不了了!</li>
     <!--EN: r_logentry(INITIATOR_mood>=0.7,RECIPIENT_mood>=0.7,priority=1)->Me too, thank you!-->
     <li>r_logentry(INITIATOR_mood&gt;=0.7,RECIPIENT_mood&gt;=0.7,priority=1)-&gt; 我也是，谢谢!</li>
     <!--EN: r_logentry(INITIATOR_mood>=0.7)->I'm feeling [great], thank you!-->
@@ -2187,39 +2191,39 @@
     <!--EN: downbeat->To me, real art shows the pain of being in the world...-->
     <li>downbeat-&gt;对我来说，真正的艺术展示了疼痛关于在这个世界上的存在.</li>
     <!--EN: r_logentry(INITIATOR_artistic_passion==None,priority=1)->[no_art_passion]-->
-    <li>r_logentry(INITIATOR_artistic_激情==None,priority=1)-&gt;[no_art_激情]</li>
+    <li>r_logentry(INITIATOR_artistic_passion==None,priority=1)-&gt;[no_art_passion]</li>
     <!--EN: no_art_passion(INITIATOR_trait==kind,priority=1)->[good_opinion]-->
-    <li>no_art_激情(INITIATOR_trait==kind,priority=1)-&gt;[good_opinion]</li>
+    <li>no_art_passion(INITIATOR_trait==kind,priority=1)-&gt;[good_opinion]</li>
     <!--EN: no_art_passion(INITIATOR_shooting_passion!=None)->I'd rather use it for shooting practice...-->
-    <li>no_art_激情(INITIATOR_shooting_激情!=None)-&gt; 我宁愿用它来练习射击...</li>
+    <li>no_art_passion(INITIATOR_shooting_passion!=None)-&gt; 我宁愿用它来练习射击...</li>
     <!--EN: no_art_passion(INITIATOR_melee_passion!=None)->I'd rather use it as a punching bag...-->
-    <li>no_art_激情(INITIATOR_melee_激情!=None)-&gt; 我宁愿把它当作出气筒也用...</li>
+    <li>no_art_passion(INITIATOR_melee_passion!=None)-&gt; 我宁愿把它当作出气筒也用...</li>
     <!--EN: no_art_passion(INITIATOR_trait==brawler)->I'd rather use it as a punching bag...-->
-    <li>no_art_激情(INITIATOR_trait==brawler)-&gt; 我宁愿把它当作出气筒也用...</li>
+    <li>no_art_passion(INITIATOR_trait==brawler)-&gt; 我宁愿把它当作出气筒也用...</li>
     <!--EN: no_art_passion(INITIATOR_trait==greedy)->Why don't we sell it, then? I think large pouches filled with gleaming [money] are even more beautiful...-->
-    <li>no_art_激情(INITIATOR_trait==greedy)-&gt; 那我们为什么不卖掉它？我想大袋里装满了闪闪发光的东西[money]更加美丽</li>
+    <li>no_art_passion(INITIATOR_trait==greedy)-&gt; 那我们为什么不卖掉它？我想大袋里装满了闪闪发光的东西[money]更加美丽</li>
     <!--EN: no_art_passion(INITIATOR_trait==chemical interest)->[chemical]-->
-    <li>no_art_激情(INITIATOR_trait==chemical interest)-&gt;[chemical]</li>
+    <li>no_art_passion(INITIATOR_trait==chemical interest)-&gt;[chemical]</li>
     <!--EN: no_art_passion(INITIATOR_trait==chemical fascination)->[chemical]-->
-    <li>no_art_激情(INITIATOR_trait==chemical fascination)-&gt;[chemical]</li>
+    <li>no_art_passion(INITIATOR_trait==chemical fascination)-&gt;[chemical]</li>
     <!--EN: chemical->Art is no fun! Beer, smokeleaf, ambrosia — that's the real deal for me!-->
     <li>chemical-&gt;艺术毫无乐趣!啤酒、大麻烟、仙 ambro果 -- 这才是真正的我!</li>
     <!--EN: no_art_passion(INITIATOR_trait==abrasive)->Hmpf... We should either get rid of this useless junk or barter it for something actually useful...-->
-    <li>no_art_激情(INITIATOR_trait==abrasive)-&gt; Hmpf.我们要么扔掉这些无用的垃圾，要么用它来换取有用的东西……</li>
+    <li>no_art_passion(INITIATOR_trait==abrasive)-&gt; Hmpf.我们要么扔掉这些无用的垃圾，要么用它来换取有用的东西……</li>
     <!--EN: no_art_passion(INITIATOR_trait==abrasive,opinion<0)->If you like it so much, [RECIPIENT_nameDef], why don't you stick it up your ass and have an art opening?-->
-    <li>no_art_激情(INITIATOR_trait==abrasive,opinion&lt;0)-&gt; 如果你真的很喜欢,[RECIPIENT_nameDef],你怎么不往里贴屁股有一个艺术开放吗？</li>
+    <li>no_art_passion(INITIATOR_trait==abrasive,opinion&lt;0)-&gt; 如果你真的很喜欢,[RECIPIENT_nameDef],你怎么不往里贴屁股有一个艺术开放吗？</li>
     <!--EN: no_art_passion(INITIATOR_trait==ascetic)->Look, [RECIPIENT_nameDef] — Nature is the only Art I care about.-->
-    <li>no_art_激情(INITIATOR_trait==ascetic)-&gt; 快看,[RECIPIENT_nameDef]-自然是我唯一在乎的艺术.</li>
+    <li>no_art_passion(INITIATOR_trait==ascetic)-&gt; 快看,[RECIPIENT_nameDef]-自然是我唯一在乎的艺术.</li>
     <!--EN: no_art_passion(INITIATOR_trait==depressive)->[downbeat_no_art]-->
-    <li>no_art_激情(INITIATOR_trait==depressive)-&gt;[downbeat_no_art]</li>
+    <li>no_art_passion(INITIATOR_trait==depressive)-&gt;[downbeat_no_art]</li>
     <!--EN: no_art_passion(INITIATOR_trait==pessimist)->[downbeat_no_art]-->
-    <li>no_art_激情(INITIATOR_trait==pessimist)-&gt;[downbeat_no_art]</li>
+    <li>no_art_passion(INITIATOR_trait==pessimist)-&gt;[downbeat_no_art]</li>
     <!--EN: downbeat_no_art->That thing is just another futile attempt at happiness in our meaningless lives...-->
     <li>downbeat_no_art-&gt;那东西只是我们毫无意义的生活中又一次对幸福的无用尝试.</li>
     <!--EN: no_art_passion(INITIATOR_jobDefName!=ViewArt)->I'm not really into arts...-->
-    <li>no_art_激情(INITIATOR_jobDefName!=ViewArt)-&gt; 我不是很喜欢艺术...</li>
+    <li>no_art_passion(INITIATOR_jobDefName!=ViewArt)-&gt; 我不是很喜欢艺术...</li>
     <!--EN: no_art_passion->[art_due_respect]it just looks like some [adj_art_junk][art_junk] to me.-->
-    <li>no_art_激情-&gt;[art_due_respect]看起来就像是[adj_art_junk][art_junk]对我而言。</li>
+    <li>no_art_passion-&gt;[art_due_respect]看起来就像是[adj_art_junk][art_junk]对我而言。</li>
     <!--EN: adj_art_junk->-->
     <li>adj_art_junk-&gt;</li>
     <!--EN: adj_art_junk->random-->
@@ -2275,7 +2279,7 @@
     <!--EN: comment->it's 很[moderately_attractive_obj] in its attitude-->
     <li>comment-&gt;它在这方面挺讨人喜欢的。</li>
     <!--EN: comment(INITIATOR_artistic_passion!=None)->it harmonizes perfectly with the [space] around it-->
-    <li>comment(INITIATOR_artistic_激情!=None)-&gt; 它与[space]环绕它</li>
+    <li>comment(INITIATOR_artistic_passion!=None)-&gt; 它与[space]环绕它</li>
     <!--EN: space->space-->
     <li>space-&gt;空间</li>
     <!--EN: space->implicit art grid-->
@@ -2749,11 +2753,11 @@
     <!--EN: r_logentry(DAYPERIOD==night)->Isn't it a bit too late for a question like that?!-->
     <li>r_logentry(DAYPERIOD==night)-&gt; 问这样的问题是不是有点太晚了？!</li>
     <!--EN: r_logentry(INITIATOR_artistic_passion!=None)->Art and the true expression of oneself give full meaning to our lives.-->
-    <li>r_logentry(INITIATOR_artistic_激情!=None)-&gt; 艺术和真实的自我表达使我们的生活充满意义。</li>
+    <li>r_logentry(INITIATOR_artistic_passion!=None)-&gt; 艺术和真实的自我表达使我们的生活充满意义。</li>
     <!--EN: r_logentry(INITIATOR_social_passion!=None)->I don't know its meaning — but I know a long conversation and a good soft drink make it much better!-->
-    <li>r_logentry(INITIATOR_social_激情!=None)-&gt; 我不知道它的意思 -- 但我知道长时间的交谈和一杯好的软饮料会使它变得更好!</li>
+    <li>r_logentry(INITIATOR_social_passion!=None)-&gt; 我不知道它的意思 -- 但我知道长时间的交谈和一杯好的软饮料会使它变得更好!</li>
     <!--EN: r_logentry(INITIATOR_construction_passion!=None)->Creating lasting works to improve our surroundings and inspire future generations.-->
-    <li>r_logentry(INITIATOR_construction_激情!=None)-&gt; 创造持久的作品来改善我们的周围环境并激励后代。</li>
+    <li>r_logentry(INITIATOR_construction_passion!=None)-&gt; 创造持久的作品来改善我们的周围环境并激励后代。</li>
     <!--EN: r_logentry(priority=-1)->Why ask me? I have no idea.-->
     <li>r_logentry(priority=-1)-&gt; 为什么问我？你好吗？</li>
     <!--EN: r_logentry(priority=-1)->I haven't the slightest idea.-->
@@ -2777,15 +2781,15 @@
     <!--EN: fallback when opinion not set (avoids Grammar unresolvable Root r_logentry)-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_artistic_passion!=None)->I agree, [RECIPIENT_nameDef]! Quite the piece of art! I like it too!-->
-    <li>good_opinion(INITIATOR_artistic_激情!=None)-&gt; 我同意,[RECIPIENT_nameDef]！相当不错的艺术品!喜欢!</li>
+    <li>good_opinion(INITIATOR_artistic_passion!=None)-&gt; 我同意,[RECIPIENT_nameDef]！相当不错的艺术品!喜欢!</li>
     <!--EN: good_opinion(INITIATOR_artistic_passion==None)->[no_passion]-->
-    <li>good_opinion(INITIATOR_artistic_激情==None)-&gt;[no_激情]</li>
+    <li>good_opinion(INITIATOR_artistic_passion==None)-&gt;[no_passion]</li>
     <!--EN: no_passion(INITIATOR_intellectual_level<5)->Mmm... Can't understand its artistic beauty — but yes, it looks nice!-->
-    <li>no_激情(INITIATOR_intellectual_level&lt;5)-&gt; 嗯...我无法理解它的艺术美 -- 但是是的，它看起来不错!</li>
+    <li>no_passion(INITIATOR_intellectual_level&lt;5)-&gt; 嗯...我无法理解它的艺术美 -- 但是是的，它看起来不错!</li>
     <!--EN: no_passion(INITIATOR_intellectual_level>=5)->I'm not into arts, but — yes, I may say it is a nice item.-->
-    <li>no_激情(INITIATOR_intellectual_level&gt;=5)-&gt; 我对艺术不感兴趣，但是-是的，我可能会说这是一件不错的物品。</li>
+    <li>no_passion(INITIATOR_intellectual_level&gt;=5)-&gt; 我对艺术不感兴趣，但是-是的，我可能会说这是一件不错的物品。</li>
     <!--EN: no_passion->Yes, I think it's 很[moderately_attractive_obj].-->
-    <li>no_激情-&gt;是的，我也这么觉得。</li>
+    <li>no_passion-&gt;是的，我也这么觉得。</li>
   </NearestArt.logRulesInitiator.rulesStrings>
   <!--EN: nearest plant-->
   <NearestPlant.label>最近的植物</NearestPlant.label>
@@ -2799,7 +2803,7 @@
     <!--EN: fallback when opinion not set (avoids Grammar unresolvable Root r_logentry)-->
     <li>r_logentry-&gt;[good_opinion]</li>
     <!--EN: good_opinion(INITIATOR_plants_passion!=None)->Yes, [RECIPIENT_nameDef]! [comment]-->
-    <li>good_opinion(INITIATOR_plants_激情!=None)-&gt; 是,[RECIPIENT_nameDef]！[comment]</li>
+    <li>good_opinion(INITIATOR_plants_passion!=None)-&gt; 是,[RECIPIENT_nameDef]！[comment]</li>
     <!--EN: comment(p=0.1)->-->
     <li>comment(p=0.1)-&gt;</li>
     <!--EN: comment(NEAREST_plant==birch tree)->[birch]-->
@@ -2829,9 +2833,9 @@
     <!--EN: grasses->I love it too!-->
     <li>grasses-&gt;我爱死它了!</li>
     <!--EN: good_opinion(INITIATOR_plants_passion==None)->[no_passion]-->
-    <li>good_opinion(INITIATOR_plants_激情==None)-&gt;[no_激情]</li>
+    <li>good_opinion(INITIATOR_plants_passion==None)-&gt;[no_passion]</li>
     <!--EN: no_passion->Yes, [RECIPIENT_nameDef] — quite a beautiful sight!-->
-    <li>no_激情-&gt;是的,[RECIPIENT_nameDef]-非常美丽!</li>
+    <li>no_passion-&gt;是的,[RECIPIENT_nameDef]-非常美丽!</li>
   </NearestPlant.logRulesInitiator.rulesStrings>
   <!--EN: poker — blunder-->
   <Poker_blunder.label>扑克失误</Poker_blunder.label>
@@ -3093,9 +3097,9 @@
     <!--EN: animals(INITIATOR_animals_level>=15,priority=3)->[animals_master]-->
     <li>animals(INITIATOR_animals_level&gt;=15,priority=3)-&gt;[animals_master]</li>
     <!--EN: animals_master(INITIATOR_animals_passion==Minor)->I enjoy [managing] animals — and I've achieved a very deep and fruitful bond with them.-->
-    <li>animals_master(INITIATOR_animals_激情==Minor)-&gt; 我喜欢[managing]动物 -- 我与它们建立了深厚而富有成效的纽带。</li>
+    <li>animals_master(INITIATOR_animals_passion==Minor)-&gt; 我喜欢[managing]动物 -- 我与它们建立了深厚而富有成效的纽带。</li>
     <!--EN: animals_master(INITIATOR_animals_passion==Major)->I just love [managing] animals — and I've achieved a very deep and fruitful bond with them.-->
-    <li>animals_master(INITIATOR_animals_激情==Major)-&gt; 我只是爱[managing]动物 -- 我与它们建立了深厚而富有成效的纽带。</li>
+    <li>animals_master(INITIATOR_animals_passion==Major)-&gt; 我只是爱[managing]动物 -- 我与它们建立了深厚而富有成效的纽带。</li>
     <!--EN: animals_master(p=3,INITIATOR_trait==ascetic)->As I enjoy living the simple life of animals, I've achieved a very deep and fruitful bond with them.-->
     <li>animals_master(p=3,INITIATOR_trait==ascetic)-&gt; 当我享受动物的简单生活时，我与它们建立了深厚而富有成效的联系。</li>
     <!--EN: animals_master(priority=-1)->Not to brag but when it comes to [managing] animals, I'm considered to be one of the best in the system.-->
@@ -3103,9 +3107,9 @@
     <!--EN: animals(INITIATOR_animals_level>=10,priority=2)->[animals_veteran]-->
     <li>animals(INITIATOR_animals_level&gt;=10,priority=2)-&gt;[animals_veteran]</li>
     <!--EN: animals_veteran(INITIATOR_animals_passion==Minor)->I enjoy [managing] animals — and I've achieved a fruitful bond with them.-->
-    <li>animals_veteran(INITIATOR_animals_激情==Minor)-&gt; 我喜欢[managing]动物 -- 我和它们建立了深厚的感情。</li>
+    <li>animals_veteran(INITIATOR_animals_passion==Minor)-&gt; 我喜欢[managing]动物 -- 我和它们建立了深厚的感情。</li>
     <!--EN: animals_veteran(INITIATOR_animals_passion==Major)->I just love [managing] animals — and I've achieved a fruitful bond with them.-->
-    <li>animals_veteran(INITIATOR_animals_激情==Major)-&gt; 我只是爱[managing]动物 -- 我和它们建立了深厚的感情。</li>
+    <li>animals_veteran(INITIATOR_animals_passion==Major)-&gt; 我只是爱[managing]动物 -- 我和它们建立了深厚的感情。</li>
     <!--EN: animals_veteran(p=3,INITIATOR_trait==ascetic)->As I enjoy living the simple life of animals, I've achieved a fruitful bond with them.-->
     <li>animals_veteran(p=3,INITIATOR_trait==ascetic)-&gt; 当我享受动物的简单生活时，我与它们建立了富有成效的联系。</li>
     <!--EN: animals_veteran(priority=-1)->Not to brag but I've achieved very high skill levels in [managing] animals.-->
@@ -3113,9 +3117,9 @@
     <!--EN: animals(INITIATOR_animals_level>=5,priority=1)->[animals_green]-->
     <li>animals(INITIATOR_animals_level&gt;=5,priority=1)-&gt;[animals_green]</li>
     <!--EN: animals_green(INITIATOR_animals_passion==Minor)->I enjoy [managing] animals — and I've achieved some sort of bond with them.-->
-    <li>animals_green(INITIATOR_animals_激情==Minor)-&gt; 我喜欢[managing]动物 -- 我已经和它们建立了某种联系。</li>
+    <li>animals_green(INITIATOR_animals_passion==Minor)-&gt; 我喜欢[managing]动物 -- 我已经和它们建立了某种联系。</li>
     <!--EN: animals_green(INITIATOR_animals_passion==Major)->I just love [managing] animals — and I've achieved some sort of bond with them.-->
-    <li>animals_green(INITIATOR_animals_激情==Major)-&gt; 我只是爱[managing]动物 -- 我已经和它们建立了某种联系。</li>
+    <li>animals_green(INITIATOR_animals_passion==Major)-&gt; 我只是爱[managing]动物 -- 我已经和它们建立了某种联系。</li>
     <!--EN: animals_green(p=3,INITIATOR_trait==ascetic)->I enjoy living the simple life of animals — and I've achieved some sort of bond with them.-->
     <li>animals_green(p=3,INITIATOR_trait==ascetic)-&gt; 我喜欢动物简单的生活 -- 我也和它们建立了某种联系。</li>
     <!--EN: animals_green(priority=-1)->I have some skills in [managing] animals.-->
@@ -3123,9 +3127,9 @@
     <!--EN: animals->[animals_unskilled]-->
     <li>animals-&gt;[animals_unskilled]</li>
     <!--EN: animals_unskilled(INITIATOR_animals_passion==Minor)->I enjoy [managing] animals — but I still have a lot to learn.-->
-    <li>animals_unskilled(INITIATOR_animals_激情==Minor)-&gt; 我喜欢[managing]动物-但是我还有很多东西要学.</li>
+    <li>animals_unskilled(INITIATOR_animals_passion==Minor)-&gt; 我喜欢[managing]动物-但是我还有很多东西要学.</li>
     <!--EN: animals_unskilled(INITIATOR_animals_passion==Major)->I just love [managing] animals — but I still have a lot to learn.-->
-    <li>animals_unskilled(INITIATOR_animals_激情==Major)-&gt; 我只是爱[managing]动物-但是我还有很多东西要学.</li>
+    <li>animals_unskilled(INITIATOR_animals_passion==Major)-&gt; 我只是爱[managing]动物-但是我还有很多东西要学.</li>
     <!--EN: animals_unskilled(p=3,INITIATOR_trait==ascetic)->I enjoy living the simple life of animals — but I still have a lot to learn about [managing] them.-->
     <li>animals_unskilled(p=3,INITIATOR_trait==ascetic)-&gt; 我喜欢过着简单的动物生活 -- 但我还有很多要学习的[managing]他们。</li>
     <!--EN: animals_unskilled(priority=-1)->I have no skills in [managing] animals.-->
@@ -3213,9 +3217,9 @@
     <!--EN: artistic(INITIATOR_artistic_level>=15,priority=3)->[artistic_master]-->
     <li>artistic(INITIATOR_artistic_level&gt;=15,priority=3)-&gt;[artistic_master]</li>
     <!--EN: artistic_master(INITIATOR_artistic_passion==Minor)->My love for arts lets me create legendary masterworks.-->
-    <li>artistic_master(INITIATOR_artistic_激情==Minor)-&gt; 我对艺术的热爱让我创作出了传奇的杰作。</li>
+    <li>artistic_master(INITIATOR_artistic_passion==Minor)-&gt; 我对艺术的热爱让我创作出了传奇的杰作。</li>
     <!--EN: artistic_master(INITIATOR_artistic_passion==Major)->My asbolute passion for arts lets me create legendary masterworks.-->
-    <li>artistic_master(INITIATOR_artistic_激情==Major)-&gt; 我的阿斯博卢特激情因为艺术让我创造传奇的杰作。</li>
+    <li>artistic_master(INITIATOR_artistic_passion==Major)-&gt; 我的阿斯博卢特激情因为艺术让我创造传奇的杰作。</li>
     <!--EN: artistic_master(p=3,INITIATOR_trait==tortured artist)->My enlightened artistic perception is well beyond your primitive senses — and this tragically shreds my soul.-->
     <li>artistic_master(p=3,INITIATOR_trait==tortured artist)-&gt; 我的开明艺术观感远远超出了你的原始感官 -- 这悲惨地撕碎了我的灵魂。</li>
     <!--EN: artistic_master(p=3,INITIATOR_trait==beautiful)->For my finest masterworks regarding the objective concept of beauty, I often use myself as an inspiration.-->
@@ -3225,9 +3229,9 @@
     <!--EN: artistic(INITIATOR_artistic_level>=10,priority=2)->[artistic_veteran]-->
     <li>artistic(INITIATOR_artistic_level&gt;=10,priority=2)-&gt;[artistic_veteran]</li>
     <!--EN: artistic_veteran(INITIATOR_artistic_passion==Minor)->My love for arts lets me create fine masterworks.-->
-    <li>artistic_veteran(INITIATOR_artistic_激情==Minor)-&gt; 我对艺术的热爱让我创造了优秀的杰作。</li>
+    <li>artistic_veteran(INITIATOR_artistic_passion==Minor)-&gt; 我对艺术的热爱让我创造了优秀的杰作。</li>
     <!--EN: artistic_veteran(INITIATOR_artistic_passion==Major)->My asbolute passion for arts lets me create fine masterworks.-->
-    <li>artistic_veteran(INITIATOR_artistic_激情==Major)-&gt; 我的阿斯博卢特激情因为艺术让我创造优秀的杰作。</li>
+    <li>artistic_veteran(INITIATOR_artistic_passion==Major)-&gt; 我的阿斯博卢特激情因为艺术让我创造优秀的杰作。</li>
     <!--EN: artistic_veteran(p=3,INITIATOR_trait==tortured artist)->My artistic perception is well beyond your primitive senses — and this painfully cuts into my soul.-->
     <li>artistic_veteran(p=3,INITIATOR_trait==tortured artist)-&gt; 我的艺术感知远远超出了你的原始感官，这痛苦地划破了我的灵魂。</li>
     <!--EN: artistic_veteran(p=3,INITIATOR_trait==beautiful)->For my masterworks regarding the objective concept of beauty, I often use myself as an inspiration.-->
@@ -3237,9 +3241,9 @@
     <!--EN: artistic(INITIATOR_artistic_level>=5,priority=1)->[artistic_green]-->
     <li>artistic(INITIATOR_artistic_level&gt;=5,priority=1)-&gt;[artistic_green]</li>
     <!--EN: artistic_green(INITIATOR_artistic_passion==Minor)->I like arts.-->
-    <li>artistic_green(INITIATOR_artistic_激情==Minor)-&gt; 我喜欢艺术。</li>
+    <li>artistic_green(INITIATOR_artistic_passion==Minor)-&gt; 我喜欢艺术。</li>
     <!--EN: artistic_green(INITIATOR_artistic_passion==Major)->I just love arts!-->
-    <li>artistic_green(INITIATOR_artistic_激情==Major)-&gt; 我只是热爱艺术!</li>
+    <li>artistic_green(INITIATOR_artistic_passion==Major)-&gt; 我只是热爱艺术!</li>
     <!--EN: artistic_green(p=3,INITIATOR_trait==tortured artist)->My artistic perception is blatantly misunderstood — and this gives me so much pain...-->
     <li>artistic_green(p=3,INITIATOR_trait==tortured artist)-&gt; 我的艺术感明显被误解了-这给了我很多疼痛...</li>
     <!--EN: artistic_green(p=3,INITIATOR_trait==beautiful)->Whenever I want to create some beautiful piece of art, I often use myself as an inspiration.-->
@@ -3249,9 +3253,9 @@
     <!--EN: artistic->[artistic_unskilled]-->
     <li>artistic-&gt;[artistic_unskilled]</li>
     <!--EN: artistic_unskilled(INITIATOR_artistic_passion==Minor)->I like arts — but I still have a lot to learn.-->
-    <li>artistic_unskilled(INITIATOR_artistic_激情==Minor)-&gt; 我喜欢艺术 -- 但是我还有很多东西要学。</li>
+    <li>artistic_unskilled(INITIATOR_artistic_passion==Minor)-&gt; 我喜欢艺术 -- 但是我还有很多东西要学。</li>
     <!--EN: artistic_unskilled(INITIATOR_artistic_passion==Major)->I just love arts — but I still have a lot to learn.-->
-    <li>artistic_unskilled(INITIATOR_artistic_激情==Major)-&gt; 我只是热爱艺术 -- 但是我还有很多东西要学。</li>
+    <li>artistic_unskilled(INITIATOR_artistic_passion==Major)-&gt; 我只是热爱艺术 -- 但是我还有很多东西要学。</li>
     <!--EN: artistic_unskilled(p=3,INITIATOR_trait==tortured artist)->One day my artistic insights will be eventually understood and loved by all — until then, only pain, disappointment and suffering await me.-->
     <li>artistic_unskilled(p=3,INITIATOR_trait==tortured artist)-&gt; 总有一天我的艺术见解会最终被所有人理解和喜爱 -- 在那之前，只有疼痛,失望和苦难等待着我。</li>
     <!--EN: artistic_unskilled(p=3,INITIATOR_trait==beautiful)->Whenever I try to create some beautiful piece of art, I often use myself as an inspiration.-->
@@ -3647,9 +3651,9 @@
     <!--EN: construction(INITIATOR_construction_level>=15,priority=3)->[construction_master]-->
     <li>construction(INITIATOR_construction_level&gt;=15,priority=3)-&gt;[construction_master]</li>
     <!--EN: construction_master(INITIATOR_construction_passion==Minor)->I enjoy building structures — and the ones I build are usually pretty impressive.-->
-    <li>construction_master(INITIATOR_construction_激情==Minor)-&gt; 我喜欢建造结构 -- 我建造的结构通常令人印象深刻。</li>
+    <li>construction_master(INITIATOR_construction_passion==Minor)-&gt; 我喜欢建造结构 -- 我建造的结构通常令人印象深刻。</li>
     <!--EN: construction_master(INITIATOR_construction_passion==Major)->I just love building structures — and the ones I build are usually pretty impressive.-->
-    <li>construction_master(INITIATOR_construction_激情==Major)-&gt; 我只是喜欢建造结构-我建造的那些通常令人印象深刻。</li>
+    <li>construction_master(INITIATOR_construction_passion==Major)-&gt; 我只是喜欢建造结构-我建造的那些通常令人印象深刻。</li>
     <!--EN: construction_master(p=3,INITIATOR_trait==ascetic)->When tasked by someone else, I can easily build structures of the greatest beauty and efficiency — yet, for myself, I prefer simpler things.-->
     <li>construction_master(p=3,INITIATOR_trait==ascetic)-&gt; 当接到别人的任务时，我可以很容易地建造出最美观和高效的建筑 -- 然而，对我自己来说，我更喜欢简单的东西。</li>
     <!--EN: construction_master(p=3,INITIATOR_trait==greedy)->I am one of the few who can build structures of unsurpassed beauty and efficiency — and this is why I deserve them for myself.-->
@@ -3661,9 +3665,9 @@
     <!--EN: construction(INITIATOR_construction_level>=10,priority=2)->[construction_veteran]-->
     <li>construction(INITIATOR_construction_level&gt;=10,priority=2)-&gt;[construction_veteran]</li>
     <!--EN: construction_veteran(INITIATOR_construction_passion==Minor)->I enjoy building structures — and the ones I build are usually impressive.-->
-    <li>construction_veteran(INITIATOR_construction_激情==Minor)-&gt; 我喜欢建造结构 -- 我建造的结构通常令人印象深刻。</li>
+    <li>construction_veteran(INITIATOR_construction_passion==Minor)-&gt; 我喜欢建造结构 -- 我建造的结构通常令人印象深刻。</li>
     <!--EN: construction_veteran(INITIATOR_construction_passion==Major)->I just love building structures — and the ones I build are usually impressive.-->
-    <li>construction_veteran(INITIATOR_construction_激情==Major)-&gt; 我只是喜欢建造结构-我建造的那些通常令人印象深刻。</li>
+    <li>construction_veteran(INITIATOR_construction_passion==Major)-&gt; 我只是喜欢建造结构-我建造的那些通常令人印象深刻。</li>
     <!--EN: construction_veteran(p=3,INITIATOR_trait==ascetic)->When tasked by someone else, I can easily build quite beautiful and efficient structures — yet, for myself, I prefer simpler things.-->
     <li>construction_veteran(p=3,INITIATOR_trait==ascetic)-&gt; 当被别人指派任务时，我可以很容易地建造非常漂亮和高效的建筑 -- 然而，对我自己来说，我更喜欢简单的事情。</li>
     <!--EN: construction_veteran(p=3,INITIATOR_trait==greedy)->Only few can build structures of great beauty and efficiency like I do — and this is why I think I deserve them for myself.-->
@@ -3675,9 +3679,9 @@
     <!--EN: construction(INITIATOR_construction_level>=5,priority=1)->[construction_green]-->
     <li>construction(INITIATOR_construction_level&gt;=5,priority=1)-&gt;[construction_green]</li>
     <!--EN: construction_green(INITIATOR_construction_passion==Minor)->I enjoy building structures.-->
-    <li>construction_green(INITIATOR_construction_激情==Minor)-&gt; 我喜欢建造结构。</li>
+    <li>construction_green(INITIATOR_construction_passion==Minor)-&gt; 我喜欢建造结构。</li>
     <!--EN: construction_green(INITIATOR_construction_passion==Major)->I just love building structures!-->
-    <li>construction_green(INITIATOR_construction_激情==Major)-&gt; 我只是喜欢建筑结构!</li>
+    <li>construction_green(INITIATOR_construction_passion==Major)-&gt; 我只是喜欢建筑结构!</li>
     <!--EN: construction_green(p=3,INITIATOR_trait==ascetic)->I can build decent structures — that, by the way, are the ones I prefer for myself.-->
     <li>construction_green(p=3,INITIATOR_trait==ascetic)-&gt; 我可以建造体面的建筑 -- 顺便说一句，我更喜欢这些建筑。</li>
     <!--EN: construction_green(priority=-1)->I have some skills in [performing] construction tasks.-->
@@ -3685,9 +3689,9 @@
     <!--EN: construction->[construction_unskilled]-->
     <li>construction-&gt;[construction_unskilled]</li>
     <!--EN: construction_unskilled(INITIATOR_construction_passion==Minor)->I enjoy building structures, but I still have a lot to learn.-->
-    <li>construction_unskilled(INITIATOR_construction_激情==Minor)-&gt; 我喜欢建造结构，但是我还有很多东西要学。</li>
+    <li>construction_unskilled(INITIATOR_construction_passion==Minor)-&gt; 我喜欢建造结构，但是我还有很多东西要学。</li>
     <!--EN: construction_unskilled(INITIATOR_construction_passion==Major)->I just love building structures, but I still have a lot to learn.-->
-    <li>construction_unskilled(INITIATOR_construction_激情==Major)-&gt; 我只是喜欢建筑结构，但是我还有很多东西要学。</li>
+    <li>construction_unskilled(INITIATOR_construction_passion==Major)-&gt; 我只是喜欢建筑结构，但是我还有很多东西要学。</li>
     <!--EN: construction_unskilled(p=3,INITIATOR_trait==ascetic)->I have all the construction skills I need to build the things as I like them — plain and simple.-->
     <li>construction_unskilled(p=3,INITIATOR_trait==ascetic)-&gt; 我具备了按照我喜欢的东西建造所需的所有建造技能 -- 简单明了。</li>
     <!--EN: construction_unskilled(priority=-1)->I have no skills in [performing] construction tasks.-->
@@ -3771,9 +3775,9 @@
     <!--EN: cooking(INITIATOR_cooking_level>=15,priority=3)->[cooking_master]-->
     <li>cooking(INITIATOR_cooking_level&gt;=15,priority=3)-&gt;[cooking_master]</li>
     <!--EN: cooking_master(INITIATOR_cooking_passion==Minor)->I enjoy cooking — and my dishes are like heaven for your soul and body.-->
-    <li>cooking_master(INITIATOR_cooking_激情==Minor)-&gt; 我喜欢烹饪-我的菜就像你的灵魂和身体的天堂。</li>
+    <li>cooking_master(INITIATOR_cooking_passion==Minor)-&gt; 我喜欢烹饪-我的菜就像你的灵魂和身体的天堂。</li>
     <!--EN: cooking_master(INITIATOR_cooking_passion==Major)->I just love cooking — and my dishes are like heaven for your soul and body.-->
-    <li>cooking_master(INITIATOR_cooking_激情==Major)-&gt; 我只是喜欢烹饪-我的菜就像你的灵魂和身体的天堂。</li>
+    <li>cooking_master(INITIATOR_cooking_passion==Major)-&gt; 我只是喜欢烹饪-我的菜就像你的灵魂和身体的天堂。</li>
     <!--EN: cooking_master(p=3,INITIATOR_trait==ascetic)->My dishes are extremely delicious, but I cook them for others to enjoy — I prefer simpler food for myself.-->
     <li>cooking_master(p=3,INITIATOR_trait==ascetic)-&gt; 我的菜非常好吃，但我把它们烹饪给别人享用-我更喜欢简单的食物给我自己吃。</li>
     <!--EN: cooking_master(p=3,INITIATOR_trait==gourmand)->I've dedicated my entire life to gastronomy and haute cuisine — and my fancy unique dishes fully reflect this.-->
@@ -3783,9 +3787,9 @@
     <!--EN: cooking(INITIATOR_cooking_level>=10,priority=2)->[cooking_veteran]-->
     <li>cooking(INITIATOR_cooking_level&gt;=10,priority=2)-&gt;[cooking_veteran]</li>
     <!--EN: cooking_veteran(INITIATOR_cooking_passion==Minor)->I enjoy cooking — and my dishes are quite delicious.-->
-    <li>cooking_veteran(INITIATOR_cooking_激情==Minor)-&gt; 我喜欢烹饪 -- 我的菜也很好吃。</li>
+    <li>cooking_veteran(INITIATOR_cooking_passion==Minor)-&gt; 我喜欢烹饪 -- 我的菜也很好吃。</li>
     <!--EN: cooking_veteran(INITIATOR_cooking_passion==Major)->I just love cooking — and my dishes are quite delicious.-->
-    <li>cooking_veteran(INITIATOR_cooking_激情==Major)-&gt; 我就是喜欢烹饪 -- 而且我的菜很好吃。</li>
+    <li>cooking_veteran(INITIATOR_cooking_passion==Major)-&gt; 我就是喜欢烹饪 -- 而且我的菜很好吃。</li>
     <!--EN: cooking_veteran(p=3,INITIATOR_trait==ascetic)->My dishes are quite delicious, but I cook them for others to enjoy — I prefer simpler food for myself.-->
     <li>cooking_veteran(p=3,INITIATOR_trait==ascetic)-&gt; 我的菜很好吃，但我把它们烹饪给别人享用-我更喜欢简单的食物给我自己吃。</li>
     <!--EN: cooking_veteran(p=3,INITIATOR_trait==gourmand)->I invested much of my time in gastronomy — and my fancy dishes fully reflect this.-->
@@ -3795,9 +3799,9 @@
     <!--EN: cooking(INITIATOR_cooking_level>=5,priority=1)->[cooking_green]-->
     <li>cooking(INITIATOR_cooking_level&gt;=5,priority=1)-&gt;[cooking_green]</li>
     <!--EN: cooking_green(INITIATOR_cooking_passion==Minor)->I enjoy cooking.-->
-    <li>cooking_green(INITIATOR_cooking_激情==Minor)-&gt; 我喜欢烹饪。</li>
+    <li>cooking_green(INITIATOR_cooking_passion==Minor)-&gt; 我喜欢烹饪。</li>
     <!--EN: cooking_green(INITIATOR_cooking_passion==Major)->I just love cooking!-->
-    <li>cooking_green(INITIATOR_cooking_激情==Major)-&gt; 我就是喜欢烹饪!</li>
+    <li>cooking_green(INITIATOR_cooking_passion==Major)-&gt; 我就是喜欢烹饪!</li>
     <!--EN: cooking_green(p=3,INITIATOR_trait==ascetic)->I can cook fine dishes, but I prefer simpler food for myself.-->
     <li>cooking_green(p=3,INITIATOR_trait==ascetic)-&gt; 我能做出精致的菜肴，但我更喜欢简单的食物。</li>
     <!--EN: cooking_green(p=3,INITIATOR_trait==gourmand)->I'm no professional chef, but I just love cooking and eating nice food!-->
@@ -3807,9 +3811,9 @@
     <!--EN: cooking->[cooking_unskilled]-->
     <li>cooking-&gt;[cooking_unskilled]</li>
     <!--EN: cooking_unskilled(INITIATOR_cooking_passion==Minor)->I enjoy cooking, but I still have a lot to learn.-->
-    <li>cooking_unskilled(INITIATOR_cooking_激情==Minor)-&gt; 我喜欢烹饪，但是我还有很多东西要学。</li>
+    <li>cooking_unskilled(INITIATOR_cooking_passion==Minor)-&gt; 我喜欢烹饪，但是我还有很多东西要学。</li>
     <!--EN: cooking_unskilled(INITIATOR_cooking_passion==Major)->I just love cooking, but I still have a lot to learn.-->
-    <li>cooking_unskilled(INITIATOR_cooking_激情==Major)-&gt; 我只是喜欢烹饪，但我还有很多要学。</li>
+    <li>cooking_unskilled(INITIATOR_cooking_passion==Major)-&gt; 我只是喜欢烹饪，但我还有很多要学。</li>
     <!--EN: cooking_unskilled(p=3,INITIATOR_trait==ascetic)->I have all the cooking skills I need to prepare meals the way I like them — plain and simple.-->
     <li>cooking_unskilled(p=3,INITIATOR_trait==ascetic)-&gt; 我具备了以我喜欢的方式烹饪食物所需的所有烹饪技能 -- 简单明了。</li>
     <!--EN: cooking_unskilled(p=3,INITIATOR_trait==gourmand)->I just love eating nice food — but I certainly rely on others to cook it!-->
@@ -3895,39 +3899,39 @@
     <!--EN: crafting(INITIATOR_crafting_level>=15,priority=3)->[crafting_master]-->
     <li>crafting(INITIATOR_crafting_level&gt;=15,priority=3)-&gt;[crafting_master]</li>
     <!--EN: crafting_master(INITIATOR_crafting_passion==Minor)->I enjoy crafting — and my masterworks reflect my unrivaled craftsmanship.-->
-    <li>crafting_master(INITIATOR_crafting_激情==Minor)-&gt; 我喜欢手工制作 -- 我的杰作反映了我无与伦比的工艺。</li>
+    <li>crafting_master(INITIATOR_crafting_passion==Minor)-&gt; 我喜欢手工制作 -- 我的杰作反映了我无与伦比的工艺。</li>
     <!--EN: crafting_master(INITIATOR_crafting_passion==Major)->I just love crafting — and my masterworks reflect my unrivaled craftsmanship.-->
-    <li>crafting_master(INITIATOR_crafting_激情==Major)-&gt; 我只是喜欢手工 -- 我的杰作反映了我无与伦比的工艺。</li>
+    <li>crafting_master(INITIATOR_crafting_passion==Major)-&gt; 我只是喜欢手工 -- 我的杰作反映了我无与伦比的工艺。</li>
     <!--EN: crafting_master(p=3,INITIATOR_artistic_passion!=None)->Thanks to my artistic inspiration and my unrivaled craftsmanship, I can craft unique masterworks.-->
-    <li>crafting_master(p=3,INITIATOR_artistic_激情!=None)-&gt; 感谢我的艺术灵感和无与伦比的工艺，我可以创作出独特的杰作。</li>
+    <li>crafting_master(p=3,INITIATOR_artistic_passion!=None)-&gt; 感谢我的艺术灵感和无与伦比的工艺，我可以创作出独特的杰作。</li>
     <!--EN: crafting_master(priority=-1)->Not to brag but my craftsmanship is considered to be one of the best in the system.-->
     <li>crafting_master(priority=-1)-&gt; 不是为了吹牛，而是我的手艺被认为是系统中最好的之一。</li>
     <!--EN: crafting(INITIATOR_crafting_level>=10,priority=2)->[crafting_veteran]-->
     <li>crafting(INITIATOR_crafting_level&gt;=10,priority=2)-&gt;[crafting_veteran]</li>
     <!--EN: crafting_veteran(INITIATOR_crafting_passion==Minor)->I enjoy crafting — and my fine works reflect my craftsmanship.-->
-    <li>crafting_veteran(INITIATOR_crafting_激情==Minor)-&gt; 我喜欢手工 -- 我的作品也反映了我的精湛技艺。</li>
+    <li>crafting_veteran(INITIATOR_crafting_passion==Minor)-&gt; 我喜欢手工 -- 我的作品也反映了我的精湛技艺。</li>
     <!--EN: crafting_veteran(INITIATOR_crafting_passion==Major)->I just love crafting — and my fine works reflect my craftsmanship.-->
-    <li>crafting_veteran(INITIATOR_crafting_激情==Major)-&gt; 我只是喜欢手工 -- 我的精致作品反映了我的工艺。</li>
+    <li>crafting_veteran(INITIATOR_crafting_passion==Major)-&gt; 我只是喜欢手工 -- 我的精致作品反映了我的工艺。</li>
     <!--EN: crafting_veteran(p=3,INITIATOR_artistic_passion!=None)->Thanks to my artistic inspiration and my craftsmanship, I can craft excellent items.-->
-    <li>crafting_veteran(p=3,INITIATOR_artistic_激情!=None)-&gt; 感谢我的艺术灵感和我的技艺，我可以制作优秀的物品。</li>
+    <li>crafting_veteran(p=3,INITIATOR_artistic_passion!=None)-&gt; 感谢我的艺术灵感和我的技艺，我可以制作优秀的物品。</li>
     <!--EN: crafting_veteran(priority=-1)->Not to brag but my craftsmanship is considered to be one of the best on this planet.-->
     <li>crafting_veteran(priority=-1)-&gt; 不是为了吹牛，但我的手艺被认为是这个星球上最好的之一。</li>
     <!--EN: crafting(INITIATOR_crafting_level>=5,priority=1)->[crafting_green]-->
     <li>crafting(INITIATOR_crafting_level&gt;=5,priority=1)-&gt;[crafting_green]</li>
     <!--EN: crafting_green(INITIATOR_crafting_passion==Minor)->I enjoy crafting.-->
-    <li>crafting_green(INITIATOR_crafting_激情==Minor)-&gt; 我喜欢手工。</li>
+    <li>crafting_green(INITIATOR_crafting_passion==Minor)-&gt; 我喜欢手工。</li>
     <!--EN: crafting_green(INITIATOR_crafting_passion==Major)->I just love crafting!-->
-    <li>crafting_green(INITIATOR_crafting_激情==Major)-&gt; 我就是喜欢手工!</li>
+    <li>crafting_green(INITIATOR_crafting_passion==Major)-&gt; 我就是喜欢手工!</li>
     <!--EN: crafting_green(p=3,INITIATOR_artistic_passion!=None)->Thanks to my artistic inspiration and my craftsmanship, I can craft decent items.-->
-    <li>crafting_green(p=3,INITIATOR_artistic_激情!=None)-&gt; 感谢我的艺术灵感和我的技艺，我可以制作体面的物品。</li>
+    <li>crafting_green(p=3,INITIATOR_artistic_passion!=None)-&gt; 感谢我的艺术灵感和我的技艺，我可以制作体面的物品。</li>
     <!--EN: crafting_green(priority=-1)->I have some craftsmanship.-->
     <li>crafting_green(priority=-1)-&gt; 我有些技艺。</li>
     <!--EN: crafting->[crafting_unskilled]-->
     <li>crafting-&gt;[crafting_unskilled]</li>
     <!--EN: crafting_unskilled(INITIATOR_crafting_passion==Minor)->I enjoy crafting — but I still have a lot to learn.-->
-    <li>crafting_unskilled(INITIATOR_crafting_激情==Minor)-&gt; 我喜欢手工 -- 但是我还有很多东西要学。</li>
+    <li>crafting_unskilled(INITIATOR_crafting_passion==Minor)-&gt; 我喜欢手工 -- 但是我还有很多东西要学。</li>
     <!--EN: crafting_unskilled(INITIATOR_crafting_passion==Major)->I just love crafting — but I still have a lot to learn.-->
-    <li>crafting_unskilled(INITIATOR_crafting_激情==Major)-&gt; 我只是喜欢手工 -- 但是我还有很多东西要学。</li>
+    <li>crafting_unskilled(INITIATOR_crafting_passion==Major)-&gt; 我只是喜欢手工 -- 但是我还有很多东西要学。</li>
     <!--EN: crafting_unskilled(priority=-1)->I have no craftsmanship.-->
     <li>crafting_unskilled(priority=-1)-&gt; 我没有工艺。</li>
   </PrisonerCraftingSkills.logRulesInitiator.rulesStrings>
@@ -4029,9 +4033,9 @@
     <!--EN: melee(INITIATOR_melee_level>=15,priority=3)->[melee_master]-->
     <li>melee(INITIATOR_melee_level&gt;=15,priority=3)-&gt;[melee_master]</li>
     <!--EN: melee_master(INITIATOR_melee_passion==Minor)->Close combat has always been my preferred style — a style I now completely master.-->
-    <li>melee_master(INITIATOR_melee_激情==Minor)-&gt; 近身搏斗一直是我的偏好风格 -- 一种我现在完全掌握的风格。</li>
+    <li>melee_master(INITIATOR_melee_passion==Minor)-&gt; 近身搏斗一直是我的偏好风格 -- 一种我现在完全掌握的风格。</li>
     <!--EN: melee_master(INITIATOR_melee_passion==Major)->I love being close up with my enemy — this is why I've easily mastered all melee arts.-->
-    <li>melee_master(INITIATOR_melee_激情==Major)-&gt; 我喜欢近距离接触我的敌人 -- 这就是为什么我可以轻易地掌握所有的近战技巧。</li>
+    <li>melee_master(INITIATOR_melee_passion==Major)-&gt; 我喜欢近距离接触我的敌人 -- 这就是为什么我可以轻易地掌握所有的近战技巧。</li>
     <!--EN: melee_master(p=3,INITIATOR_trait==bloodlust)->My masterful and devastating onslaughts let me drink as much of my enemies' blood as I wish!-->
     <li>melee_master(p=3,INITIATOR_trait==bloodlust)-&gt; 我的大师级和毁灭性的攻击让我喝了很多我的敌人血如我所愿!</li>
     <!--EN: melee_master(p=3,INITIATOR_trait==brawler)->When I get close up with my enemies, I easily smash their face.-->
@@ -4047,9 +4051,9 @@
     <!--EN: melee(INITIATOR_melee_level>=10,priority=2)->[melee_veteran]-->
     <li>melee(INITIATOR_melee_level&gt;=10,priority=2)-&gt;[melee_veteran]</li>
     <!--EN: melee_veteran(INITIATOR_melee_passion==Minor)->Close combat has always been my preferred style — a style that lead me to many victories.-->
-    <li>melee_veteran(INITIATOR_melee_激情==Minor)-&gt; 近身战斗一直是我偏爱的风格 -- 这种风格让我获得了很多胜利。</li>
+    <li>melee_veteran(INITIATOR_melee_passion==Minor)-&gt; 近身战斗一直是我偏爱的风格 -- 这种风格让我获得了很多胜利。</li>
     <!--EN: melee_veteran(INITIATOR_melee_passion==Major)->I love being close up with my enemy — and I'm quite skilled at this.-->
-    <li>melee_veteran(INITIATOR_melee_激情==Major)-&gt; 我喜欢近距离和我的敌人在一起 -- 我在这方面相当熟练。</li>
+    <li>melee_veteran(INITIATOR_melee_passion==Major)-&gt; 我喜欢近距离和我的敌人在一起 -- 我在这方面相当熟练。</li>
     <!--EN: melee_veteran(p=3,INITIATOR_trait==bloodlust)->I love bathing my bare hands in my enemies' blood — and my melee skills gave me this pleasure many times!-->
     <li>melee_veteran(p=3,INITIATOR_trait==bloodlust)-&gt; 我喜欢给我的孩子洗澡裸露敌人的双手血-而且我的近战技能多次给了我这种快感!</li>
     <!--EN: melee_veteran(p=3,INITIATOR_trait==brawler)->If I manage to get close up with my enemies, I can skillfully cut them down.-->
@@ -4065,9 +4069,9 @@
     <!--EN: melee(INITIATOR_melee_level>=5,priority=1)->[melee_green]-->
     <li>melee(INITIATOR_melee_level&gt;=5,priority=1)-&gt;[melee_green]</li>
     <!--EN: melee_green(INITIATOR_melee_passion==Minor)->Close combat has always been my preferred style — I still have to hone my skills, though.-->
-    <li>melee_green(INITIATOR_melee_激情==Minor)-&gt; 近身搏斗一直是我的偏好风格-我仍然要磨练我的技能，虽然。</li>
+    <li>melee_green(INITIATOR_melee_passion==Minor)-&gt; 近身搏斗一直是我的偏好风格-我仍然要磨练我的技能，虽然。</li>
     <!--EN: melee_green(INITIATOR_melee_passion==Major)->I love being close up with my enemy — I still have lots to learn, though.-->
-    <li>melee_green(INITIATOR_melee_激情==Major)-&gt; 我喜欢近距离观察我的敌人 -- 不过，我还有很多要学。</li>
+    <li>melee_green(INITIATOR_melee_passion==Major)-&gt; 我喜欢近距离观察我的敌人 -- 不过，我还有很多要学。</li>
     <!--EN: melee_green(p=3,INITIATOR_trait==bloodlust)->I'd love to get more close combat practice — and get more chances to watch my enemies as they choke in their own blood!-->
     <li>melee_green(p=3,INITIATOR_trait==bloodlust)-&gt; 我希望得到更多的近身战斗训练，并有更多的机会观察我的敌人，因为他们自己噎住了。血不!</li>
     <!--EN: melee_green(p=3,INITIATOR_trait==brawler)->I prefer close combat, but I still need some practice to get good at it.-->
@@ -4083,9 +4087,9 @@
     <!--EN: melee->[melee_unskilled]-->
     <li>melee-&gt;[melee_unskilled]</li>
     <!--EN: melee_unskilled(INITIATOR_melee_passion==Minor)->I like being in close combat, but I still need a lot of practice.-->
-    <li>melee_unskilled(INITIATOR_melee_激情==Minor)-&gt; 我喜欢近身搏斗，但我仍然需要大量的练习。</li>
+    <li>melee_unskilled(INITIATOR_melee_passion==Minor)-&gt; 我喜欢近身搏斗，但我仍然需要大量的练习。</li>
     <!--EN: melee_unskilled(INITIATOR_melee_passion==Major)->I love being close up with my enemy — but I have almost no melee experience...-->
-    <li>melee_unskilled(INITIATOR_melee_激情==Major)-&gt; 我喜欢近距离观察我的敌人 -- 但我几乎没有近战经验……</li>
+    <li>melee_unskilled(INITIATOR_melee_passion==Major)-&gt; 我喜欢近距离观察我的敌人 -- 但我几乎没有近战经验……</li>
     <!--EN: melee_unskilled(p=3,INITIATOR_trait==bloodlust)->I'd love to get lots of close combat practice — and get more chances to watch my enemies as they choke in their own blood!-->
     <li>melee_unskilled(p=3,INITIATOR_trait==bloodlust)-&gt; 我想要得到很多的近身战斗实践-并有更多的机会来观察我的敌人，因为他们自己有意限制对大脑的供氧，往往是为了使性觉醒。血不!</li>
     <!--EN: melee_unskilled(p=3,INITIATOR_trait==brawler)->I prefer close combat, but I still need lots of practice to get good at it.-->
@@ -4105,9 +4109,9 @@
     <!--EN: shooting(INITIATOR_shooting_level>=15,priority=3)->[shooting_master]-->
     <li>shooting(INITIATOR_shooting_level&gt;=15,priority=3)-&gt;[shooting_master]</li>
     <!--EN: shooting_master(INITIATOR_shooting_passion==Minor)->Ranged combat has always been my preferred style — a style I now completely master.-->
-    <li>shooting_master(INITIATOR_shooting_激情==Minor)-&gt; 远程战斗一直是我喜欢的风格 -- 一种我现在完全掌握的风格。</li>
+    <li>shooting_master(INITIATOR_shooting_passion==Minor)-&gt; 远程战斗一直是我喜欢的风格 -- 一种我现在完全掌握的风格。</li>
     <!--EN: shooting_master(INITIATOR_shooting_passion==Major)->I love shooting at my enemy from a distance — this is why I've easily mastered all ranged arts.-->
-    <li>shooting_master(INITIATOR_shooting_激情==Major)-&gt; 我喜欢从远处向敌人射击 -- 这就是为什么我轻松掌握了所有的远程艺术。</li>
+    <li>shooting_master(INITIATOR_shooting_passion==Major)-&gt; 我喜欢从远处向敌人射击 -- 这就是为什么我轻松掌握了所有的远程艺术。</li>
     <!--EN: shooting_master(p=3,INITIATOR_trait==bloodlust)->After my first shot, my enemy is choking in a pool of his own blood — a sight I cherish and love!-->
     <li>shooting_master(p=3,INITIATOR_trait==bloodlust)-&gt; 在我第一枪后，我的敌人被自己的水池噎住了血-一个我珍惜和喜爱的景象!</li>
     <!--EN: shooting_master(p=3,INITIATOR_trait==brawler)->I'm extremely good at ranged combat, but I totally hate it — I prefer melee combat!-->
@@ -4125,9 +4129,9 @@
     <!--EN: shooting(INITIATOR_shooting_level>=10,priority=2)->[shooting_veteran]-->
     <li>shooting(INITIATOR_shooting_level&gt;=10,priority=2)-&gt;[shooting_veteran]</li>
     <!--EN: shooting_veteran(INITIATOR_shooting_passion==Minor)->Ranged combat has always been my preferred style — a style that lead me to many victories.-->
-    <li>shooting_veteran(INITIATOR_shooting_激情==Minor)-&gt; 远程战斗一直是我偏爱的风格 -- 这种风格让我获得了很多胜利。</li>
+    <li>shooting_veteran(INITIATOR_shooting_passion==Minor)-&gt; 远程战斗一直是我偏爱的风格 -- 这种风格让我获得了很多胜利。</li>
     <!--EN: shooting_veteran(INITIATOR_shooting_passion==Major)->I love shooting at my enemy from a distance — and I'm quite skilled at this.-->
-    <li>shooting_veteran(INITIATOR_shooting_激情==Major)-&gt; 我喜欢从远处向敌人射击 -- 我在这方面相当熟练。</li>
+    <li>shooting_veteran(INITIATOR_shooting_passion==Major)-&gt; 我喜欢从远处向敌人射击 -- 我在这方面相当熟练。</li>
     <!--EN: shooting_veteran(p=3,INITIATOR_trait==bloodlust)->I love watching my enemies' blood as it splashes everywhere — and my ranged skills gave me this pleasure many times!-->
     <li>shooting_veteran(p=3,INITIATOR_trait==bloodlust)-&gt; 我喜欢看我的敌人血它溅满了一切 -- 我的远程技能让我多次获得这种快感!</li>
     <!--EN: shooting_veteran(p=3,INITIATOR_trait==brawler)->I had to learn how to use ranged weapons, but I hate them — I prefer melee combat!-->
@@ -4145,9 +4149,9 @@
     <!--EN: shooting(INITIATOR_shooting_level>=5,priority=1)->[shooting_green]-->
     <li>shooting(INITIATOR_shooting_level&gt;=5,priority=1)-&gt;[shooting_green]</li>
     <!--EN: shooting_green(INITIATOR_shooting_passion==Minor)->Ranged combat has always been my preferred style — I still have to hone my skills, though.-->
-    <li>shooting_green(INITIATOR_shooting_激情==Minor)-&gt; 远程战斗一直是我的首选风格 -- 不过我仍然需要磨练我的技能。</li>
+    <li>shooting_green(INITIATOR_shooting_passion==Minor)-&gt; 远程战斗一直是我的首选风格 -- 不过我仍然需要磨练我的技能。</li>
     <!--EN: shooting_green(INITIATOR_shooting_passion==Major)->I love shooting at my enemy from a distance — I still have lots to learn, though.-->
-    <li>shooting_green(INITIATOR_shooting_激情==Major)-&gt; 我喜欢从远处向我的敌人开火 -- 尽管如此，我还是有很多东西要学。</li>
+    <li>shooting_green(INITIATOR_shooting_passion==Major)-&gt; 我喜欢从远处向我的敌人开火 -- 尽管如此，我还是有很多东西要学。</li>
     <!--EN: shooting_green(p=3,INITIATOR_trait==bloodlust)->I'd love to get more ranged combat practice — and get more chances to watch my enemies as they choke in their own blood!-->
     <li>shooting_green(p=3,INITIATOR_trait==bloodlust)-&gt; 我希望获得更多的远程战斗练习，并有更多的机会观察我的敌人，因为他们自己有意限制对大脑的供氧，往往是为了使性觉醒。血不!</li>
     <!--EN: shooting_green(p=3,INITIATOR_trait==brawler)->I have some ranged combat skills, but I hate it — I prefer melee combat!-->
@@ -4165,9 +4169,9 @@
     <!--EN: shooting->[shooting_unskilled]-->
     <li>shooting-&gt;[shooting_unskilled]</li>
     <!--EN: shooting_unskilled(INITIATOR_shooting_passion==Minor)->I prefer shooting at my enemy from a distance, but I still need a lot of practice.-->
-    <li>shooting_unskilled(INITIATOR_shooting_激情==Minor)-&gt; 我更喜欢从远处向我的敌人射击，但我仍然需要大量的练习。</li>
+    <li>shooting_unskilled(INITIATOR_shooting_passion==Minor)-&gt; 我更喜欢从远处向我的敌人射击，但我仍然需要大量的练习。</li>
     <!--EN: shooting_unskilled(INITIATOR_shooting_passion==Major)->I love shooting at my enemy from a distance — but I have almost no shooting experience...-->
-    <li>shooting_unskilled(INITIATOR_shooting_激情==Major)-&gt; 我喜欢从远处向我的敌人射击 -- 但我几乎没有任何射击经验……</li>
+    <li>shooting_unskilled(INITIATOR_shooting_passion==Major)-&gt; 我喜欢从远处向我的敌人射击 -- 但我几乎没有任何射击经验……</li>
     <!--EN: shooting_unskilled(p=3,INITIATOR_trait==bloodlust)->I'd love to get lots of ranged combat practice — and get more chances to watch my enemies as they choke in their own blood!-->
     <li>shooting_unskilled(p=3,INITIATOR_trait==bloodlust)-&gt; 我想要进行大量的远程战斗训练，并且有更多的机会观察我的敌人有意限制对大脑的供氧，往往是为了使性觉醒。而死。血不!</li>
     <!--EN: shooting_unskilled(p=3,INITIATOR_trait==brawler)->I'm totally useless with ranged weapons — I prefer fighting up close and personal.-->
@@ -4257,9 +4261,9 @@
     <!--EN: intellectual(INITIATOR_intellectual_level>=15,priority=3)->[intellectual_master]-->
     <li>intellectual(INITIATOR_intellectual_level&gt;=15,priority=3)-&gt;[intellectual_master]</li>
     <!--EN: intellectual_master(INITIATOR_intellectual_passion==Minor)->I like pitting my wits against tricky problems — and thanks to my unsurpassed skills, I can solve any complex logic problem.-->
-    <li>intellectual_master(INITIATOR_intellectual_激情==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题 -- 而且由于我无与伦比的技能，我可以解决任何复杂的逻辑问题。</li>
+    <li>intellectual_master(INITIATOR_intellectual_passion==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题 -- 而且由于我无与伦比的技能，我可以解决任何复杂的逻辑问题。</li>
     <!--EN: intellectual_master(INITIATOR_intellectual_passion==Major)->I just love pitting my wits against tricky problems — and thanks to my unsurpassed skills, I can solve any complex logic problem.-->
-    <li>intellectual_master(INITIATOR_intellectual_激情==Major)-&gt; 我只是喜欢将我的智识与棘手的问题相结合-并且由于我的无与伦比的技能，我可以解决任何复杂的逻辑问题。</li>
+    <li>intellectual_master(INITIATOR_intellectual_passion==Major)-&gt; 我只是喜欢将我的智识与棘手的问题相结合-并且由于我的无与伦比的技能，我可以解决任何复杂的逻辑问题。</li>
     <!--EN: intellectual_master(p=3,INITIATOR_trait==too smart)->I've dedicated my whole life to pursue Knowledge — which, thanks to my unsurpassed logic and reasoning skills, I can efficiently store and organize in my superior brain.-->
     <li>intellectual_master(p=3,INITIATOR_trait==too smart)-&gt; 我一生都在追求知识 -- 这要感谢我无与伦比的逻辑和推理能力，让我可以高效地存储和组织在我的上司脑没有。</li>
     <!--EN: intellectual_master(p=3,INITIATOR_trait==great memory)->My mnemonic techniques greatly help my unsurpassed logic and reasoning skills.-->
@@ -4269,9 +4273,9 @@
     <!--EN: intellectual(INITIATOR_intellectual_level>=10,priority=2)->[intellectual_veteran]-->
     <li>intellectual(INITIATOR_intellectual_level&gt;=10,priority=2)-&gt;[intellectual_veteran]</li>
     <!--EN: intellectual_veteran(INITIATOR_intellectual_passion==Minor)->I like pitting my wits against tricky problems — and thanks to my mental prowess, I can solve any logic problem.-->
-    <li>intellectual_veteran(INITIATOR_intellectual_激情==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题 -- 而且感谢我的惊人心智，我可以解决任何逻辑问题。</li>
+    <li>intellectual_veteran(INITIATOR_intellectual_passion==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题 -- 而且感谢我的惊人心智，我可以解决任何逻辑问题。</li>
     <!--EN: intellectual_veteran(INITIATOR_intellectual_passion==Major)->I just love pitting my wits against tricky problems — and thanks to my mental prowess, I can solve any logic problem.-->
-    <li>intellectual_veteran(INITIATOR_intellectual_激情==Major)-&gt; 我只是喜欢将我的智识与棘手的问题相结合-而且由于我的心智能力，我可以解决任何逻辑问题。</li>
+    <li>intellectual_veteran(INITIATOR_intellectual_passion==Major)-&gt; 我只是喜欢将我的智识与棘手的问题相结合-而且由于我的心智能力，我可以解决任何逻辑问题。</li>
     <!--EN: intellectual_veteran(p=3,INITIATOR_trait==too smart)->I've dedicated my whole life to pursue Knowledge — which, thanks to my mental prowess, I can efficiently store and organize in my superior brain.-->
     <li>intellectual_veteran(p=3,INITIATOR_trait==too smart)-&gt; 我毕生都在追求知识 -- 这些知识，多亏了我的惊人心智，使我能高效地在上司那里存储和组织。脑没有。</li>
     <!--EN: intellectual_veteran(p=3,INITIATOR_trait==great memory)->My mnemonic techniques greatly help my remarkable logic and reasoning skills.-->
@@ -4281,9 +4285,9 @@
     <!--EN: intellectual(INITIATOR_intellectual_level>=5,priority=1)->[intellectual_green]-->
     <li>intellectual(INITIATOR_intellectual_level&gt;=5,priority=1)-&gt;[intellectual_green]</li>
     <!--EN: intellectual_green(INITIATOR_intellectual_passion==Minor)->I like pitting my wits against tricky problems.-->
-    <li>intellectual_green(INITIATOR_intellectual_激情==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题。</li>
+    <li>intellectual_green(INITIATOR_intellectual_passion==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题。</li>
     <!--EN: intellectual_green(INITIATOR_intellectual_passion==Major)->I just love pitting my wits against tricky problems!-->
-    <li>intellectual_green(INITIATOR_intellectual_激情==Major)-&gt; 我就是喜欢绞尽脑汁解决棘手的问题!</li>
+    <li>intellectual_green(INITIATOR_intellectual_passion==Major)-&gt; 我就是喜欢绞尽脑汁解决棘手的问题!</li>
     <!--EN: intellectual_green(p=3,INITIATOR_trait==too smart)->I've dedicated my whole life to pursue Knowledge — which, thanks to my honed mind, I can efficiently store and organize in my superior brain.-->
     <li>intellectual_green(p=3,INITIATOR_trait==too smart)-&gt; 我的一生都在追求知识 -- 这都归功于我磨砺的心智，使我可以高效地将知识储存和组织在上司那里。脑没有。</li>
     <!--EN: intellectual_green(p=3,INITIATOR_trait==great memory)->My memorization techniques greatly help my logic and reasoning skills.-->
@@ -4293,9 +4297,9 @@
     <!--EN: intellectual->[intellectual_unskilled]-->
     <li>intellectual-&gt;[intellectual_unskilled]</li>
     <!--EN: intellectual_unskilled(INITIATOR_intellectual_passion==Minor)->I like pitting my wits against tricky problems, but I'm not very good at solving them — not yet at least.-->
-    <li>intellectual_unskilled(INITIATOR_intellectual_激情==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题，但我不太擅长解决它们 -- 至少现在还不擅长。</li>
+    <li>intellectual_unskilled(INITIATOR_intellectual_passion==Minor)-&gt; 我喜欢绞尽脑汁解决棘手的问题，但我不太擅长解决它们 -- 至少现在还不擅长。</li>
     <!--EN: intellectual_unskilled(INITIATOR_intellectual_passion==Major)->I just love pitting my wits against tricky problems, but I'm not very good at solving them — not yet at least.-->
-    <li>intellectual_unskilled(INITIATOR_intellectual_激情==Major)-&gt; 我只是喜欢把我的智慧与棘手的问题放在一起，但是我不太擅长解决它们 -- 至少现在还不擅长。</li>
+    <li>intellectual_unskilled(INITIATOR_intellectual_passion==Major)-&gt; 我只是喜欢把我的智慧与棘手的问题放在一起，但是我不太擅长解决它们 -- 至少现在还不擅长。</li>
     <!--EN: intellectual_unskilled(p=3,INITIATOR_trait==too smart)->My quest to pursue Knowledge is at its very start — but I'm certain that I will be successful!-->
     <li>intellectual_unskilled(p=3,INITIATOR_trait==too smart)-&gt; 我对知识的追求是最开始的 -- 但我确信我一定会成功!</li>
     <!--EN: intellectual_unskilled(p=3,INITIATOR_trait==great memory)->My logic and reasoning skills are quite basic at the moment, but they'll surely benefit from my memorization techniques.-->
@@ -4375,9 +4379,9 @@
     <!--EN: medical(INITIATOR_medical_level>=15,priority=3)->[medical_master]-->
     <li>medical(INITIATOR_medical_level&gt;=15,priority=3)-&gt;[medical_master]</li>
     <!--EN: medical_master(INITIATOR_medical_passion==Minor)->I like taking care of other people — and, even in the worst conditions, I can guarantee highly succesful surgeries and treatments.-->
-    <li>medical_master(INITIATOR_medical_激情==Minor)-&gt; 我喜欢照顾别人-而且，即使在最糟糕的情况下，我也可以保证手术和治疗非常成功。</li>
+    <li>medical_master(INITIATOR_medical_passion==Minor)-&gt; 我喜欢照顾别人-而且，即使在最糟糕的情况下，我也可以保证手术和治疗非常成功。</li>
     <!--EN: medical_master(INITIATOR_medical_passion==Major)->I just love taking care of other people — and, even in the worst conditions, I can guarantee highly succesful surgeries and treatments.-->
-    <li>medical_master(INITIATOR_medical_激情==Major)-&gt; 我只是喜欢照顾别人-而且，即使在最糟糕的条件下，我可以保证手术和治疗非常成功。</li>
+    <li>medical_master(INITIATOR_medical_passion==Major)-&gt; 我只是喜欢照顾别人-而且，即使在最糟糕的条件下，我可以保证手术和治疗非常成功。</li>
     <!--EN: medical_master(p=3,INITIATOR_trait==body modder)->There's no better physician than me if you want to improve your weak flesh with bio-enhancements or need to replace some part.-->
     <li>medical_master(p=3,INITIATOR_trait==body modder)-&gt; 如果你想用身体改造来改善你虚弱的肉体或者需要更换某个部件，没有比我更好的医生了。</li>
     <!--EN: medical_master(p=3,INITIATOR_trait==body purist)->I've saved many lives thanks to my extremely advanced skills. But never ask me to implant some bio-enhancement or replace some part — I'll never do it!-->
@@ -4387,9 +4391,9 @@
     <!--EN: medical(INITIATOR_medical_level>=10,priority=2)->[medical_veteran]-->
     <li>medical(INITIATOR_medical_level&gt;=10,priority=2)-&gt;[medical_veteran]</li>
     <!--EN: medical_veteran(INITIATOR_medical_passion==Minor)->I like taking care of other people — and, given the right conditions, I can guarantee highly succesful surgeries and treatments.-->
-    <li>medical_veteran(INITIATOR_medical_激情==Minor)-&gt; 我喜欢照顾别人-而且，在适当的条件下，我可以保证手术和治疗非常成功。</li>
+    <li>medical_veteran(INITIATOR_medical_passion==Minor)-&gt; 我喜欢照顾别人-而且，在适当的条件下，我可以保证手术和治疗非常成功。</li>
     <!--EN: medical_veteran(INITIATOR_medical_passion==Major)->I just love taking care of other people — and, given the right conditions, I can guarantee highly succesful surgeries and treatments.-->
-    <li>medical_veteran(INITIATOR_medical_激情==Major)-&gt; 我只是喜欢照顾别人-而且，在适当的条件下，我可以保证手术和治疗非常成功。</li>
+    <li>medical_veteran(INITIATOR_medical_passion==Major)-&gt; 我只是喜欢照顾别人-而且，在适当的条件下，我可以保证手术和治疗非常成功。</li>
     <!--EN: medical_veteran(p=3,INITIATOR_trait==body modder)->I can certainly help you if you want to improve your weak flesh with bio-enhancements or need to replace some part.-->
     <li>medical_veteran(p=3,INITIATOR_trait==body modder)-&gt; 如果你想用身体改造来提高你脆弱的肉体或者需要更换某个部件，我当然可以帮助你。</li>
     <!--EN: medical_veteran(p=3,INITIATOR_trait==body purist)->I've saved many lives thanks to my high skills. But never ask me to implant some bio-enhancement or replace some part — I'll never do it!-->
@@ -4399,9 +4403,9 @@
     <!--EN: medical(INITIATOR_medical_level>=5,priority=1)->[medical_green]-->
     <li>medical(INITIATOR_medical_level&gt;=5,priority=1)-&gt;[medical_green]</li>
     <!--EN: medical_green(INITIATOR_medical_passion==Minor)->I like taking care of other people — and, given the right conditions, I can offer decent surgeries and treatments.-->
-    <li>medical_green(INITIATOR_medical_激情==Minor)-&gt; 我喜欢照顾别人-并且，在适当的条件下，我可以提供体面的手术和治疗。</li>
+    <li>medical_green(INITIATOR_medical_passion==Minor)-&gt; 我喜欢照顾别人-并且，在适当的条件下，我可以提供体面的手术和治疗。</li>
     <!--EN: medical_green(INITIATOR_medical_passion==Major)->I just love taking care of other people — and, given the right conditions, I can offer decent surgeries and treatments.-->
-    <li>medical_green(INITIATOR_medical_激情==Major)-&gt; 我只是喜欢照顾别人-而且，在适当的条件下，我可以提供体面的手术和治疗。</li>
+    <li>medical_green(INITIATOR_medical_passion==Major)-&gt; 我只是喜欢照顾别人-而且，在适当的条件下，我可以提供体面的手术和治疗。</li>
     <!--EN: medical_green(p=3,INITIATOR_trait==body modder)->I may help you if you want to improve your weak flesh with bio-enhancements or need to replace some part.-->
     <li>medical_green(p=3,INITIATOR_trait==body modder)-&gt; 如果你想用身体改造来提高你脆弱的肉体或者需要更换某个部件，我可以帮助你。</li>
     <!--EN: medical_green(p=3,INITIATOR_trait==body purist)->I have basic physician training. But never ask me to implant some bio-enhancement or replace some part — I'll never do it!-->
@@ -4411,9 +4415,9 @@
     <!--EN: medical->[medical_unskilled]-->
     <li>medical-&gt;[medical_unskilled]</li>
     <!--EN: medical_unskilled(INITIATOR_medical_passion==Minor)->I like taking care of other people — but I just know the very basics.-->
-    <li>medical_unskilled(INITIATOR_medical_激情==Minor)-&gt; 我喜欢照顾别人 -- 但我只知道最基本的一点。</li>
+    <li>medical_unskilled(INITIATOR_medical_passion==Minor)-&gt; 我喜欢照顾别人 -- 但我只知道最基本的一点。</li>
     <!--EN: medical_unskilled(INITIATOR_medical_passion==Major)->I just love taking care of other people — but I just know the very basics.-->
-    <li>medical_unskilled(INITIATOR_medical_激情==Major)-&gt; 我只是喜欢照顾别人 -- 但我知道最基本的事情。</li>
+    <li>medical_unskilled(INITIATOR_medical_passion==Major)-&gt; 我只是喜欢照顾别人 -- 但我知道最基本的事情。</li>
     <!--EN: medical_unskilled(p=3,INITIATOR_trait==body modder)->I fancy bio-enhancements, but I know almost nothing about implanting them.-->
     <li>medical_unskilled(p=3,INITIATOR_trait==body modder)-&gt; 我喜欢生物部件，但对植入它们一窍不通。</li>
     <!--EN: medical_unskilled(p=3,INITIATOR_trait==body purist)->I have no medical skills — I rely on physicians, but only on those who never resort to bio-enhancements.-->
@@ -4501,9 +4505,9 @@
     <!--EN: mining(INITIATOR_mining_level>=15,priority=3)->[mining_master]-->
     <li>mining(INITIATOR_mining_level&gt;=15,priority=3)-&gt;[mining_master]</li>
     <!--EN: mining_master(INITIATOR_mining_passion==Minor)->I enjoy mining — and my yields are extremely high and valuable.-->
-    <li>mining_master(INITIATOR_mining_激情==Minor)-&gt; 我很享受采矿-而且我的产量非常高而且非常有价值。</li>
+    <li>mining_master(INITIATOR_mining_passion==Minor)-&gt; 我很享受采矿-而且我的产量非常高而且非常有价值。</li>
     <!--EN: mining_master(INITIATOR_mining_passion==Major)->I just love mining — and my yields are extremely high and valuable.-->
-    <li>mining_master(INITIATOR_mining_激情==Major)-&gt; 我只是喜欢采矿-而且我的产量非常高而且非常有价值。</li>
+    <li>mining_master(INITIATOR_mining_passion==Major)-&gt; 我只是喜欢采矿-而且我的产量非常高而且非常有价值。</li>
     <!--EN: mining_master(p=3,INITIATOR_trait==undergrounder)->My mining yields are extremely high and valuable, especially when deep mining.-->
     <li>mining_master(p=3,INITIATOR_trait==undergrounder)-&gt; 我的采矿效率极高，价值不菲，尤其是在深挖时。</li>
     <!--EN: mining_master(priority=-1)->Not to brag but I've achieved the highest skill levels in [performing] mining tasks.-->
@@ -4511,9 +4515,9 @@
     <!--EN: mining(INITIATOR_mining_level>=10,priority=2)->[mining_veteran]-->
     <li>mining(INITIATOR_mining_level&gt;=10,priority=2)-&gt;[mining_veteran]</li>
     <!--EN: mining_veteran(INITIATOR_mining_passion==Minor)->I enjoy mining — and my yields are quite high.-->
-    <li>mining_veteran(INITIATOR_mining_激情==Minor)-&gt; 我喜欢采矿 -- 而且我的产出相当高。</li>
+    <li>mining_veteran(INITIATOR_mining_passion==Minor)-&gt; 我喜欢采矿 -- 而且我的产出相当高。</li>
     <!--EN: mining_veteran(INITIATOR_mining_passion==Major)->I just love mining — and my yields are quite high.-->
-    <li>mining_veteran(INITIATOR_mining_激情==Major)-&gt; 我只是喜欢采矿 -- 而且我的产出相当高。</li>
+    <li>mining_veteran(INITIATOR_mining_passion==Major)-&gt; 我只是喜欢采矿 -- 而且我的产出相当高。</li>
     <!--EN: mining_veteran(p=3,INITIATOR_trait==undergrounder)->My mining yields are quite high, especially when deep mining.-->
     <li>mining_veteran(p=3,INITIATOR_trait==undergrounder)-&gt; 我的采矿产出相当高，尤其是深开采。</li>
     <!--EN: mining_veteran(priority=-1)->Not to brag but I've achieved very high skill levels in [performing] mining tasks.-->
@@ -4521,9 +4525,9 @@
     <!--EN: mining(INITIATOR_mining_level>=5,priority=1)->[mining_green]-->
     <li>mining(INITIATOR_mining_level&gt;=5,priority=1)-&gt;[mining_green]</li>
     <!--EN: mining_green(INITIATOR_mining_passion==Minor)->I enjoy mining.-->
-    <li>mining_green(INITIATOR_mining_激情==Minor)-&gt; 我喜欢采矿。</li>
+    <li>mining_green(INITIATOR_mining_passion==Minor)-&gt; 我喜欢采矿。</li>
     <!--EN: mining_green(INITIATOR_mining_passion==Major)->I just love mining!-->
-    <li>mining_green(INITIATOR_mining_激情==Major)-&gt; 我就是喜欢采矿!</li>
+    <li>mining_green(INITIATOR_mining_passion==Major)-&gt; 我就是喜欢采矿!</li>
     <!--EN: mining_green(p=3,INITIATOR_trait==undergrounder)->My mining yields are decent, especially when deep mining.-->
     <li>mining_green(p=3,INITIATOR_trait==undergrounder)-&gt; 我的采矿产出是体面的，尤其是在深开采的时候。</li>
     <!--EN: mining_green(priority=-1)->I have some skills in [performing] mining tasks.-->
@@ -4531,9 +4535,9 @@
     <!--EN: mining->[mining_unskilled]-->
     <li>mining-&gt;[mining_unskilled]</li>
     <!--EN: mining_unskilled(INITIATOR_mining_passion==Minor)->I enjoy mining, but I still have a lot to learn.-->
-    <li>mining_unskilled(INITIATOR_mining_激情==Minor)-&gt; 我喜欢采矿，但我还有很多要学。</li>
+    <li>mining_unskilled(INITIATOR_mining_passion==Minor)-&gt; 我喜欢采矿，但我还有很多要学。</li>
     <!--EN: mining_unskilled(INITIATOR_mining_passion==Major)->I just love mining, but I still have a lot to learn.-->
-    <li>mining_unskilled(INITIATOR_mining_激情==Major)-&gt; 我只是喜欢采矿，但我还有很多要学。</li>
+    <li>mining_unskilled(INITIATOR_mining_passion==Major)-&gt; 我只是喜欢采矿，但我还有很多要学。</li>
     <!--EN: mining_unskilled(p=3,INITIATOR_trait==undergrounder)->My mining yields are poor, I admit — but when deep mining I usually perform better.-->
     <li>mining_unskilled(p=3,INITIATOR_trait==undergrounder)-&gt; 我承认，我的采矿效率很低 -- 但深采矿时通常表现得更好。</li>
     <!--EN: mining_unskilled(priority=-1)->I have no skills in [performing] mining tasks.-->
@@ -4823,9 +4827,9 @@
     <!--EN: plants(INITIATOR_plants_level>=15,priority=3)->[plants_master]-->
     <li>plants(INITIATOR_plants_level&gt;=15,priority=3)-&gt;[plants_master]</li>
     <!--EN: plants_master(INITIATOR_plants_passion==Minor)->I enjoy farming — and, given the right conditions, I can guarantee lavishly abundant harvests.-->
-    <li>plants_master(INITIATOR_plants_激情==Minor)-&gt; 我喜欢种植 -- 而且，在适当的条件下，我可以保证会有大量的收获。</li>
+    <li>plants_master(INITIATOR_plants_passion==Minor)-&gt; 我喜欢种植 -- 而且，在适当的条件下，我可以保证会有大量的收获。</li>
     <!--EN: plants_master(INITIATOR_plants_passion==Major)->I just love farming — and, given the right conditions, I can guarantee lavishly abundant harvests.-->
-    <li>plants_master(INITIATOR_plants_激情==Major)-&gt; 我只是热爱农业 -- 而且，在适当的条件下，我可以保证有极其丰富的收获。</li>
+    <li>plants_master(INITIATOR_plants_passion==Major)-&gt; 我只是热爱农业 -- 而且，在适当的条件下，我可以保证有极其丰富的收获。</li>
     <!--EN: plants_master(p=3,INITIATOR_trait==undergrounder)->I can guarantee lavishly abundant harvests, especially from underground or artificial farming.-->
     <li>plants_master(p=3,INITIATOR_trait==undergrounder)-&gt; 我可以保证大量的收获，特别是从地下或人工农业。</li>
     <!--EN: plants_master(p=3,INITIATOR_trait==gourmand)->As I'm accustomed to eating fancy meals, I must always know all the top-notch farming techniques — this way, I'm never short on good ingredients.-->
@@ -4841,9 +4845,9 @@
     <!--EN: plants(INITIATOR_plants_level>=10,priority=2)->[plants_veteran]-->
     <li>plants(INITIATOR_plants_level&gt;=10,priority=2)-&gt;[plants_veteran]</li>
     <!--EN: plants_veteran(INITIATOR_plants_passion==Minor)->I enjoy farming — and, given the right conditions, I can provide abundant harvests.-->
-    <li>plants_veteran(INITIATOR_plants_激情==Minor)-&gt; 我喜欢种植 -- 而且，在适当的条件下，我可以提供大量的收获。</li>
+    <li>plants_veteran(INITIATOR_plants_passion==Minor)-&gt; 我喜欢种植 -- 而且，在适当的条件下，我可以提供大量的收获。</li>
     <!--EN: plants_veteran(INITIATOR_plants_passion==Major)->I just love farming — and, given the right conditions, I can provide abundant harvests.-->
-    <li>plants_veteran(INITIATOR_plants_激情==Major)-&gt; 我只是热爱农业 -- 而且，在适当的条件下，我可以提供丰富的收获。</li>
+    <li>plants_veteran(INITIATOR_plants_passion==Major)-&gt; 我只是热爱农业 -- 而且，在适当的条件下，我可以提供丰富的收获。</li>
     <!--EN: plants_veteran(p=3,INITIATOR_trait==undergrounder)->I can provide abundant harvests, especially from underground or artificial farming.-->
     <li>plants_veteran(p=3,INITIATOR_trait==undergrounder)-&gt; 我可以提供丰富的收获，特别是从地下或人工农业。</li>
     <!--EN: plants_veteran(p=3,INITIATOR_trait==gourmand)->As I'm accustomed to eating fancy meals, I must always know the best farming techniques — this way, I'm never short on good ingredients.-->
@@ -4859,9 +4863,9 @@
     <!--EN: plants(INITIATOR_plants_level>=5,priority=1)->[plants_green]-->
     <li>plants(INITIATOR_plants_level&gt;=5,priority=1)-&gt;[plants_green]</li>
     <!--EN: plants_green(INITIATOR_plants_passion==Minor)->I enjoy farming.-->
-    <li>plants_green(INITIATOR_plants_激情==Minor)-&gt; 我喜欢务农。</li>
+    <li>plants_green(INITIATOR_plants_passion==Minor)-&gt; 我喜欢务农。</li>
     <!--EN: plants_green(INITIATOR_plants_passion==Major)->I just love farming!-->
-    <li>plants_green(INITIATOR_plants_激情==Major)-&gt; 我就是喜欢务农!</li>
+    <li>plants_green(INITIATOR_plants_passion==Major)-&gt; 我就是喜欢务农!</li>
     <!--EN: plants_green(p=3,INITIATOR_trait==undergrounder)->I can provide decent harvests, especially from underground or artificial farming.-->
     <li>plants_green(p=3,INITIATOR_trait==undergrounder)-&gt; 我可以提供体面的收获，特别是从地下或人工农业。</li>
     <!--EN: plants_green(p=3,INITIATOR_trait==gourmand)->As I'm accustomed to eating fancy meals, I must always know some farming technique — this way, I'm never short on good ingredients.-->
@@ -4877,9 +4881,9 @@
     <!--EN: plants->[plants_unskilled]-->
     <li>plants-&gt;[plants_unskilled]</li>
     <!--EN: plants_unskilled(INITIATOR_plants_passion==Minor)->I enjoy farming, but I still have a lot to learn.-->
-    <li>plants_unskilled(INITIATOR_plants_激情==Minor)-&gt; 我喜欢务农，但我还有很多东西要学。</li>
+    <li>plants_unskilled(INITIATOR_plants_passion==Minor)-&gt; 我喜欢务农，但我还有很多东西要学。</li>
     <!--EN: plants_unskilled(INITIATOR_plants_passion==Major)->I just love farming, but I still have a lot to learn.-->
-    <li>plants_unskilled(INITIATOR_plants_激情==Major)-&gt; 我只是热爱农业，但我还有很多东西要学。</li>
+    <li>plants_unskilled(INITIATOR_plants_passion==Major)-&gt; 我只是热爱农业，但我还有很多东西要学。</li>
     <!--EN: plants_unskilled(p=3,INITIATOR_trait==undergrounder)->I have little [farming] skills, but I certainly perform better in underground or artificial farming.-->
     <li>plants_unskilled(p=3,INITIATOR_trait==undergrounder)-&gt; 我只有一点[farming]技能，但我当然在地下或人工农业方面表现得更好。</li>
     <!--EN: plants_unskilled(p=3,INITIATOR_trait==gourmand)->I have no [farming] skills, but I always make sure to have some pro farmers and cooks around — this way, I'll always have some fancy meals on my table.-->
@@ -5207,9 +5211,9 @@
     <!--EN: social(INITIATOR_social_level>=15,priority=3)->[social_master]-->
     <li>social(INITIATOR_social_level&gt;=15,priority=3)-&gt;[social_master]</li>
     <!--EN: social_master(INITIATOR_social_passion==Minor)->I enjoy being around people — and I can negotiate fruitful agreements even between hostile parties.-->
-    <li>social_master(INITIATOR_social_激情==Minor)-&gt; 我喜欢和人在一起 -- 我甚至可以在敌对方之间谈判达成富有成果的协议。</li>
+    <li>social_master(INITIATOR_social_passion==Minor)-&gt; 我喜欢和人在一起 -- 我甚至可以在敌对方之间谈判达成富有成果的协议。</li>
     <!--EN: social_master(INITIATOR_social_passion==Major)->I just love being around people — and I can negotiate fruitful agreements even between hostile parties.-->
-    <li>social_master(INITIATOR_social_激情==Major)-&gt; 我只是喜欢和人在一起 -- 我甚至可以在敌对方之间谈判达成富有成效的协议。</li>
+    <li>social_master(INITIATOR_social_passion==Major)-&gt; 我只是喜欢和人在一起 -- 我甚至可以在敌对方之间谈判达成富有成效的协议。</li>
     <!--EN: social_master(p=3,INITIATOR_trait==kind)->With a kind word and a reassuring smile, I can negotiate fruitful agreements even between hostile parties.-->
     <li>social_master(p=3,INITIATOR_trait==kind)-&gt; 带着善意的话语和安慰的微笑，我甚至可以在敌对双方之间谈判达成富有成效的协议。</li>
     <!--EN: social_master(p=3,INITIATOR_trait==gourmand)->My sweet talk works magic — especially during fancy dinners.-->
@@ -5223,9 +5227,9 @@
     <!--EN: social(INITIATOR_social_level>=10,priority=2)->[social_veteran]-->
     <li>social(INITIATOR_social_level&gt;=10,priority=2)-&gt;[social_veteran]</li>
     <!--EN: social_veteran(INITIATOR_social_passion==Minor)->I enjoy being around people — and I can negotiate fruitful agreements even in sticky situations.-->
-    <li>social_veteran(INITIATOR_social_激情==Minor)-&gt; 我喜欢和人在一起 -- 即使在困难的情况下，我也可以谈判达成富有成效的协议。</li>
+    <li>social_veteran(INITIATOR_social_passion==Minor)-&gt; 我喜欢和人在一起 -- 即使在困难的情况下，我也可以谈判达成富有成效的协议。</li>
     <!--EN: social_veteran(INITIATOR_social_passion==Major)->I just love being around people — and I can negotiate fruitful agreements even in sticky situations.-->
-    <li>social_veteran(INITIATOR_social_激情==Major)-&gt; 我只是喜欢和人在一起 -- 即使在困难的情况下，我也可以谈判达成富有成果的协议。</li>
+    <li>social_veteran(INITIATOR_social_passion==Major)-&gt; 我只是喜欢和人在一起 -- 即使在困难的情况下，我也可以谈判达成富有成果的协议。</li>
     <!--EN: social_veteran(p=3,INITIATOR_trait==kind)->With a kind word and a reassuring smile, I can negotiate fruitful agreements even in sticky situations.-->
     <li>social_veteran(p=3,INITIATOR_trait==kind)-&gt; 用一句善意的话语和安慰的微笑，我可以谈判取得成果的协议，即使在困难的情况下。</li>
     <!--EN: social_veteran(p=3,INITIATOR_trait==gourmand)->My sweet talk is very efficient — especially during fancy dinners.-->
@@ -5239,9 +5243,9 @@
     <!--EN: social(INITIATOR_social_level>=5,priority=1)->[social_green]-->
     <li>social(INITIATOR_social_level&gt;=5,priority=1)-&gt;[social_green]</li>
     <!--EN: social_green(INITIATOR_social_passion==Minor)->I enjoy being around people.-->
-    <li>social_green(INITIATOR_social_激情==Minor)-&gt; 我喜欢和人在一起。</li>
+    <li>social_green(INITIATOR_social_passion==Minor)-&gt; 我喜欢和人在一起。</li>
     <!--EN: social_green(INITIATOR_social_passion==Major)->I just love being around people!-->
-    <li>social_green(INITIATOR_social_激情==Major)-&gt; 我就是喜欢和人在一起!</li>
+    <li>social_green(INITIATOR_social_passion==Major)-&gt; 我就是喜欢和人在一起!</li>
     <!--EN: social_green(p=3,INITIATOR_trait==kind)->When negotiating, I usually rely on kind words and reassuring smiles.-->
     <li>social_green(p=3,INITIATOR_trait==kind)-&gt; 谈判时，我通常依赖于善意的话语和令人放心的微笑。</li>
     <!--EN: social_green(p=3,INITIATOR_trait==gourmand)->I have some social skills — especially during fancy dinners.-->
@@ -5255,9 +5259,9 @@
     <!--EN: social->[social_unskilled]-->
     <li>social-&gt;[social_unskilled]</li>
     <!--EN: social_unskilled(INITIATOR_social_passion==Minor)->I enjoy being around people, but I still have a lot to learn.-->
-    <li>social_unskilled(INITIATOR_social_激情==Minor)-&gt; 我喜欢和人在一起，但我还有很多要学。</li>
+    <li>social_unskilled(INITIATOR_social_passion==Minor)-&gt; 我喜欢和人在一起，但我还有很多要学。</li>
     <!--EN: social_unskilled(INITIATOR_social_passion==Major)->I just love being around people, but I still have a lot to learn.-->
-    <li>social_unskilled(INITIATOR_social_激情==Major)-&gt; 我只是喜欢和人在一起，但我还有很多要学。</li>
+    <li>social_unskilled(INITIATOR_social_passion==Major)-&gt; 我只是喜欢和人在一起，但我还有很多要学。</li>
     <!--EN: social_unskilled(p=3,INITIATOR_trait==kind)->I have no social skills, but several times I got through with kind words and reassuring smiles.-->
     <li>social_unskilled(p=3,INITIATOR_trait==kind)-&gt; 我没有社交能力，但有几次我用善意的话语和令人安慰的微笑度过了难关。</li>
     <!--EN: social_unskilled(p=3,INITIATOR_trait==chemical fascination)->I have no social skills — but when there's flake or yayo going around, talks flow much better.-->
@@ -6779,7 +6783,7 @@
     <!--EN: good_opinion(INITIATOR_trait==pyromaniac)->Well, wouldn't it be nice if I started a big fire to warm us all up?-->
     <li>good_opinion(INITIATOR_trait==pyromaniac)-&gt; 嗯，如果我生一堆火让我们都暖和起来，那不是很好吗？</li>
     <!--EN: good_opinion(INITIATOR_social_passion!=None)->Maybe it'd be better if we all huddled together.-->
-    <li>good_opinion(INITIATOR_social_激情!=None)-&gt; 也许我们能挤在一起会更好。</li>
+    <li>good_opinion(INITIATOR_social_passion!=None)-&gt; 也许我们能挤在一起会更好。</li>
     <!--EN: good_opinion(INITIATOR_thoughtDefName==SleptInCold)->I agree with you — I woke up [wokeUpCold]!-->
     <li>good_opinion(INITIATOR_thoughtDefName==SleptInCold)-&gt; 我同意你的观点-我醒了[wokeUpCold]不!</li>
     <!--EN: annoying->bad-->
@@ -7229,7 +7233,11 @@
     <!--EN: calm->*smiles*-->
     <li>calm-&gt;* 微笑 *</li>
     <!--EN: calm(INITIATOR_mood>=0.6)->*beams a smile at [RECIPIENT_nameDef]*-->
-    <li>calm(INITIATOR_mood&gt;=0.6)-&gt; * 微笑于[RECIPIENT_nameDef]*</li>
+    <li>calm(INITIATOR_mood&gt;=0.6)-&gt;* 微笑于[RECIPIENT_nameDef]*</li>
+    <!--EN: sub-rule fallbacks so resolution does not fail and fall back to English-->
+    <li>whataboutyou-&gt;你怎么样？</li>
+    <li>great-&gt;非常好</li>
+    <li>fine-&gt;很好</li>
     <!--EN: good_opinion(RECIPIENT_artistic_level>=5)->Bravo, [RECIPIENT_nameDef] — what a beautiful voice!-->
     <li>good_opinion(RECIPIENT_artistic_level&gt;=5)-&gt; 布拉沃,[RECIPIENT_nameDef]-多么美妙的声音!</li>
     <!--EN: good_opinion(RECIPIENT_artistic_level>=5)->Your voice is so pleasant to hear, [RECIPIENT_nameDef]!-->
@@ -8141,9 +8149,9 @@
     <!--EN: r_logentry(INITIATOR_intellectual_level<5)->Wait — fog is... what!?-->
     <li>r_logentry(INITIATOR_intellectual_level&lt;5)-&gt; 等待-雾是..什么!？</li>
     <!--EN: r_logentry(INITIATOR_intellectual_passion==Minor)->That's quite interesting!-->
-    <li>r_logentry(INITIATOR_intellectual_激情==Minor)-&gt; 有趣的是!</li>
+    <li>r_logentry(INITIATOR_intellectual_passion==Minor)-&gt; 有趣的是!</li>
     <!--EN: r_logentry(INITIATOR_intellectual_passion==Major)->Fascinating!-->
-    <li>r_logentry(INITIATOR_intellectual_激情==Major)-&gt; 迷人!</li>
+    <li>r_logentry(INITIATOR_intellectual_passion==Major)-&gt; 迷人!</li>
   </WeatherFogToosmart.logRulesInitiator.rulesStrings>
   <!--EN: fog — trait — wimp-->
   <WeatherFogWimp.label>雾-特性-畏缩者</WeatherFogWimp.label>
@@ -8239,9 +8247,9 @@
     <!--EN: good_opinion(INITIATOR_plants_level>=5,INITIATOR_trait==lazy)->A gentle rain like this means I won't have to water the fields — good!-->
     <li>good_opinion(INITIATOR_plants_level&gt;=5,INITIATOR_trait==lazy)-&gt; 像这样的小雨意味着我不用给田野浇水 -- 好!</li>
     <!--EN: good_opinion(INITIATOR_plants_passion==Minor)->Rain is Nature's blessing for all the thirsty plants.-->
-    <li>good_opinion(INITIATOR_plants_激情==Minor)-&gt; 雨是大自然对所有口渴植物的祝福。</li>
+    <li>good_opinion(INITIATOR_plants_passion==Minor)-&gt; 雨是大自然对所有口渴植物的祝福。</li>
     <!--EN: good_opinion(INITIATOR_plants_passion==Major)->Such a gentle rain is just perfect for the fields!-->
-    <li>good_opinion(INITIATOR_plants_激情==Major)-&gt; 这样的细雨对田野来说简直完美!</li>
+    <li>good_opinion(INITIATOR_plants_passion==Major)-&gt; 这样的细雨对田野来说简直完美!</li>
   </WeatherRainGoodtempIndoors.logRulesInitiator.rulesStrings>
   <!--EN: rain — good temperature — outdoors-->
   <WeatherRainGoodtempOutdoors.label>雨-良好的温度-室外</WeatherRainGoodtempOutdoors.label>
@@ -8333,9 +8341,9 @@
     <!--EN: r_logentry(INITIATOR_intellectual_level<5)->Wait — snow... flakes are... what!?-->
     <li>r_logentry(INITIATOR_intellectual_level&lt;5)-&gt; 等待-雪.薄片是...什么!？</li>
     <!--EN: r_logentry(INITIATOR_intellectual_passion==Minor)->That's quite interesting!-->
-    <li>r_logentry(INITIATOR_intellectual_激情==Minor)-&gt; 有趣的是!</li>
+    <li>r_logentry(INITIATOR_intellectual_passion==Minor)-&gt; 有趣的是!</li>
     <!--EN: r_logentry(INITIATOR_intellectual_passion==Major)->Fascinating!-->
-    <li>r_logentry(INITIATOR_intellectual_激情==Major)-&gt; 迷人!</li>
+    <li>r_logentry(INITIATOR_intellectual_passion==Major)-&gt; 迷人!</li>
   </WeatherSnowToosmart.logRulesInitiator.rulesStrings>
   <!--EN: hard snow — too smart-->
   <WeatherSnowstormToosmart.label>大雪纷飞-机灵过人</WeatherSnowstormToosmart.label>
@@ -8351,9 +8359,9 @@
     <!--EN: r_logentry(INITIATOR_intellectual_level<5)->Wait — winter... storm is... what!?-->
     <li>r_logentry(INITIATOR_intellectual_level&lt;5)-&gt; 等待-冬天.暴风雨正在...什么!？</li>
     <!--EN: r_logentry(INITIATOR_intellectual_passion==Minor)->That's quite interesting!-->
-    <li>r_logentry(INITIATOR_intellectual_激情==Minor)-&gt; 有趣的是!</li>
+    <li>r_logentry(INITIATOR_intellectual_passion==Minor)-&gt; 有趣的是!</li>
     <!--EN: r_logentry(INITIATOR_intellectual_passion==Major)->Fascinating!-->
-    <li>r_logentry(INITIATOR_intellectual_激情==Major)-&gt; 迷人!</li>
+    <li>r_logentry(INITIATOR_intellectual_passion==Major)-&gt; 迷人!</li>
   </WeatherSnowstormToosmart.logRulesInitiator.rulesStrings>
   <!--EN: gentle snow — good temp — not entombed-->
   <WeatherSoftsnowGoodtempNotEntombed.label>轻柔的雪-良好的温度-未埋葬</WeatherSoftsnowGoodtempNotEntombed.label>
@@ -8367,9 +8375,9 @@
     <!--EN: good_opinion(INITIATOR_trait==slothful)->I'm glad it's not enough to need shoveling — nice!-->
     <li>good_opinion(INITIATOR_trait==slothful)-&gt; 我很高兴这还不够，不需要铲!</li>
     <!--EN: good_opinion(INITIATOR_intellectual_passion!=None)->With every falling flake, a unique spark of interest falls from the skies.-->
-    <li>good_opinion(INITIATOR_intellectual_激情!=None)-&gt; 随着每一片薄片坠落，一道独特的有趣的火花从天而降。</li>
+    <li>good_opinion(INITIATOR_intellectual_passion!=None)-&gt; 随着每一片薄片坠落，一道独特的有趣的火花从天而降。</li>
     <!--EN: good_opinion(INITIATOR_plants_passion!=None)->Nature is full of genius and divinity — not a snowflake escapes its fashioning hand.-->
-    <li>good_opinion(INITIATOR_plants_激情!=None)-&gt; 自然充满了天才和圣洁 -- 没有一片雪花能逃脱它的时尚之手。</li>
+    <li>good_opinion(INITIATOR_plants_passion!=None)-&gt; 自然充满了天才和圣洁 -- 没有一片雪花能逃脱它的时尚之手。</li>
     <!--EN: good_opinion(INITIATOR_trait==kind)->Kindness is like snow. It beautifies everything it covers.-->
     <li>good_opinion(INITIATOR_trait==kind)-&gt; 善良就像雪一样。它美化了它所覆盖的一切。</li>
     <!--EN: good_opinion(INITIATOR_trait==ascetic)->To appreciate the beauty of a snowflake it is necessary to stand out in the cold.-->
@@ -8391,7 +8399,7 @@
     <!--EN: good_opinion(INITIATOR_trait==night owl)->Snow falling soundlessly in the middle of the night will always fill my heart with sweet clarity.-->
     <li>good_opinion(INITIATOR_trait==night owl)-&gt; 半夜无声的大雪将永远让我的心充满甜美而清晰。</li>
     <!--EN: good_opinion(INITIATOR_social_passion!=None)->Snowflakes are one of nature's most fragile things, but just look what they can do when they stick together!-->
-    <li>good_opinion(INITIATOR_social_激情!=None)-&gt; 雪花是大自然中最脆弱的东西之一，但只要看看它们粘在一起能做些什么就对了!</li>
+    <li>good_opinion(INITIATOR_social_passion!=None)-&gt; 雪花是大自然中最脆弱的东西之一，但只要看看它们粘在一起能做些什么就对了!</li>
     <!--EN: good_opinion(INITIATOR_mood>=0.7)->I can't wait to build a snowman!-->
     <li>good_opinion(INITIATOR_mood&gt;=0.7)-&gt; 我迫不及待地想要堆雪人!</li>
     <!--EN: good_opinion(INITIATOR_mood>=0.4)->A snow blanketed landscape is so nice!-->
